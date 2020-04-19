@@ -1,0 +1,359 @@
+mossa,tipo,categoria,potenza,precissione,descrizione
+Botta,Normale,Fisico,40,100,Colpisce il nemico con la coda o le zampe anteriori.
+Colpokarate,Lotta,Fisico,50,100,Colpisce il nemico con un colpo netto. Probabile brutto colpo.
+Doppiasberla,Normale,Fisico,15,85,Schiaffeggia il nemico da due a cinque volte di fila.
+Cometapugno,Normale,Fisico,18,85,Colpisce il nemico con una scarica di pugni da due a cinque volte di fila.
+Megapugno,Normale,Fisico,80,85,Colpisce il nemico con un pugno poderoso.
+Giornopaga,Normale,Fisico,40,100,Colpisce il nemico con una gran quantità di monete recuperabili dopo la lotta.
+Fuocopugno,Fuoco,Fisico,75,100,Colpisce il nemico con un pugno ardente che può scottarlo.
+Gelopugno,Ghiaccio,Fisico,75,100,Colpisce il nemico con un pugno di ghiaccio che può congelarlo.
+Tuonopugno,Elettro,Fisico,75,100,Colpisce il nemico con un pugno elettrico che può paralizzarlo.
+Graffio,Normale,Fisico,40,100,Infligge danni al nemico con artigli acuminati, duri e affilati.
+Presa,Normale,Fisico,55,100,Stringe il nemico in una morsa usando enormi e possenti tenaglie.
+Ventagliente,Normale,Speciale,80,100,Chi la usa genera un turbine al primo turno e attacca al secondo. Probabile brutto colpo.
+Taglio,Normale,Fisico,50,95,Attacca il nemico con artigli o falci affilate. Fuori dalla lotta si usa per tagliare piccoli alberi.
+Raffica,Volante,Speciale,40,100,Infligge danni al nemico con una folata di vento sollevata dalle ali.
+Attacco d'Ala,Volante,Fisico,60,100,Infligge danni al nemico spiegando delle grandi ali possenti.
+Volo,Volante,Fisico,90,95,Chi la usa si alza in volo per attaccare al turno seguente. Fuori dalla lotta permette di volare in città già visitate.
+Legatutto,Normale,Fisico,15,85,Lega e stritola il nemico per quattro o cinque turni con tentacoli o con un corpo lungo.
+Schianto,Normale,Fisico,80,75,Infligge danni al nemico con una coda, con una liana o con qualcosa di simile.
+Frustata,Erba,Fisico,45,100,Infligge danni al nemico con liane sottili simili a fruste.
+Pestone,Normale,Fisico,65,100,Colpisce il nemico con un grosso piede e può anche farlo tentennare.
+Doppiocalcio,Lotta,Fisico,30,100,Colpisce il nemico due volte con un paio di rapidi calci inferti con entrambi i piedi.
+Megacalcio,Normale,Fisico,120,75,Colpisce il nemico con un calcio sferrato con la forza di muscoli poderosi.
+Calciosalto,Lotta,Fisico,100,95,Permette di saltare in alto per attaccare con un calcio. Se non va a buon fine, chi la usa si ferisce.
+Calciorullo,Lotta,Fisico,60,85,Chi la usa infierisce sul nemico con un calcio rotante. Può anche farlo tentennare.
+Bottintesta,Normale,Fisico,70,100,Chi la usa si lancia diritto di testa contro il nemico. Può anche far tentennare.
+Incornata,Normale,Fisico,65,100,Danneggia il nemico infilzandolo con un corno affilato.
+Furia,Normale,Fisico,15,85,Infilza il nemico con corna affilate o un becco da due a cinque volte di fila.
+Azione,Normale,Fisico,40,100,Attacco fisico che colpisce il nemico investendolo con tutto il corpo.
+Corposcontro,Normale,Fisico,85,100,Chi la usa carica il nemico con tutto il corpo. Può causarne anche la paralisi.
+Avvolgibotta,Normale,Fisico,15,90,Avvolge e stritola il nemico con un corpo lungo o con piante rampicanti per quattro o cinque turni.
+Riduttore,Normale,Fisico,90,85,Carica spericolata con tutto il corpo contro il nemico. Danneggia un po' anche chi la usa.
+Colpo,Normale,Fisico,120,100,Assale e attacca il nemico per due o tre turni, ma confonde chi la usa.
+Sdoppiatore,Normale,Fisico,120,100,Carica spietata e pericolosa che danneggia molto anche chi la usa.
+Velenospina,Veleno,Fisico,15,100,Colpisce il nemico con un aculeo tossico che può anche avvelenarlo.
+Doppio Ago,Coleottero,Fisico,25,100,Colpisce il nemico due volte di seguito con un paio di aghi. Può anche avvelenarlo.
+Missilspillo,Coleottero,Fisico,25,95,Il nemico viene colpito da due a cinque volte con spilli appuntiti in rapida successione.
+Morso,Buio,Fisico,60,100,Il nemico viene morso da denti affilatissimi che possono farlo tentennare.
+Acido,Veleno,Speciale,40,100,Colpisce i nemici intorno spruzzando un acido corrosivo. Può anche ridurne la Difesa Speciale.
+Braciere,Fuoco,Speciale,40,100,Il Pokémon attacca con piccole fiamme. Possono scottare il nemico.
+Lanciafiamme,Fuoco,Speciale,90,100,Il nemico viene colpito da intense fiammate che possono anche scottarlo.
+Pistolacqua,Acqua,Speciale,40,100,Il nemico è colpito da un potente getto d'acqua.
+Idropompa,Acqua,Speciale,110,80,Il nemico è travolto da un potente getto d'acqua spruzzato ad altissima pressione.
+Surf,Acqua,Speciale,90,100,Un'onda enorme sommerge il campo di lotta. Fuori dalla lotta si usa per spostarsi sull'acqua.
+Geloraggio,Ghiaccio,Speciale,90,100,Il nemico è colpito da un raggio di energia gelida che può anche congelarlo.
+Bora,Ghiaccio,Speciale,110,70,Colpisce i bersagli con una tremenda tempesta di ghiaccio che può anche congelarli.
+Psicoraggio,Psico,Speciale,65,100,Il nemico è attaccato con un raggio psichico. Può anche lasciare il nemico confuso.
+Bollaraggio,Acqua,Speciale,65,100,Colpisce il nemico con una forte scarica di bolle. Può anche ridurne la Velocità.
+Raggiaurora,Ghiaccio,Speciale,65,100,Il nemico viene colpito da un fascio color arcobaleno. Può ridurre l'attacco dell'avversario.
+Iper Raggio,Normale,Speciale,150,90,Colpisce il nemico con un potente raggio. Chi la usa salta il turno successivo per recuperare energia.
+Beccata,Volante,Fisico,35,100,Colpisce il nemico con un becco appuntito o un corno.
+Perforbecco,Volante,Fisico,80,100,Attacco a spirale con un becco aguzzo che fa da trapano.
+Sottomissione,Lotta,Fisico,80,80,Chi la usa carica il nemico in modo spericolato, ma danneggia anche se stesso.
+Forza,Normale,Fisico,80,100,Colpisce il nemico con un'enorme energia. Fuori dalla lotta si usa per spostare i massi.
+Assorbimento,Erba,Speciale,20,100,Mossa che assorbe PS. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.
+Megassorbimento,Erba,Speciale,40,100,Mossa che assorbe PS. Chi la usa recupera un quantità di PS pari alla metà del danno inferto.
+Foglielama,Erba,Fisico,55,95,Foglie taglienti sferzano i nemici intorno. Probabile brutto colpo.
+Solarraggio,Erba,Speciale,120,100,Chi la usa assorbe luce al primo turno per proiettare un raggio intenso al turno successivo.
+Petalodanza,Erba,Speciale,120,100,Attacca il nemico cospargendolo di petali per due o tre turni, ma chi la usa rimane confuso.
+Turbofuoco,Fuoco,Speciale,35,85,Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni.
+Tuonoshock,Elettro,Speciale,40,100,Danneggia il bersaglio con una scarica elettrica che può anche paralizzarlo.
+Fulmine,Elettro,Speciale,90,100,Il bersaglio viene colpito da una potente scarica elettrica che può anche paralizzarlo.
+Tuono,Elettro,Speciale,110,70,Il nemico è colpito da un lampo molto violento che può anche paralizzarlo.
+Sassata,Roccia,Fisico,50,90,Chi la usa solleva una roccia e la lancia contro il nemico.
+Terremoto,Terra,Fisico,100,100,Chi la usa provoca un potente sisma che colpisce gli altri Pokémon in campo.
+Fossa,Terra,Fisico,80,100,Chi la usa scava al primo turno e attacca al successivo. Fuori dalla lotta fa uscire da alcuni luoghi.
+Confusione,Psico,Speciale,50,100,Colpisce il nemico con una leggera forza telecinetica e può anche confonderlo.
+Psichico,Psico,Speciale,90,100,Il nemico viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale.
+Attacco Rapido,Normale,Fisico,40,100,Chi la usa colpisce sempre per primo e ad una tale velocità da rendersi quasi invisibile. Questa mossa ha priorità alta.
+Ira,Normale,Fisico,20,100,Questa mossa ha il potere di aumentare la statistica Attacco ogni volta che chi la usa viene colpito durante una lotta.
+Autodistruzione,Normale,Fisico,200,100,Chi la usa esplode e infligge danni agli altri Pokémon in campo, ma poi va KO.
+Uovobomba,Normale,Fisico,100,75,Colpisce il nemico con un grande uovo scaraventato con enorme forza.
+Leccata,Spettro,Fisico,30,100,Una lingua lunga infligge danni al nemico e può anche paralizzarlo.
+Smog,Veleno,Speciale,30,70,Colpisce il nemico con una scarica di gas maleodoranti. Può anche avvelenarlo.
+Fango,Veleno,Speciale,65,100,Lancio di fango malsano che arreca danno al nemico. Può anche avvelenarlo.
+Ossoclava,Terra,Fisico,65,85,Il Pokémon colpisce il nemico con un bastone d'osso. Può anche fare tentennare l'obiettivo.
+Fuocobomba,Fuoco,Speciale,110,85,Investe il nemico con un&#39;intensa fiammata che fa terra bruciata. Può anche scottarlo.
+Cascata,Acqua,Fisico,80,100,Carica il nemico a grande velocità e può farlo tentennare. Fuori dalla lotta fa risalire le cascate.
+Tenaglia,Acqua,Fisico,35,85,Chi la usa intrappola e stritola il nemico con la sua corazza spessa e forte per quattro o cinque turni.
+Comete,Normale,Speciale,60,100,Colpisce i nemici con raggi a forma di stella. Questo attacco è infallibile.
+Capocciata,Normale,Fisico,130,100,Chi la usa ritira la testa per aumentare la Difesa e poi attacca al turno successivo.
+Sparalance,Normale,Fisico,20,100,Il nemico viene colpito da due a cinque volte in rapida successione da spilli appuntiti.
+Limitazione,Normale,Fisico,10,100,Colpisce il nemico con lunghi tentacoli o piante rampicanti. Può anche ridurne la Velocità.
+Calcinvolo,Lotta,Fisico,130,90,Chi la usa colpisce il nemico con una ginocchiata in volo: se fallisce, subisce danni.
+Mangiasogni,Psico,Speciale,100,100,Attacco che funziona solo su un nemico che dorme. Chi lo usa riceve metà dei PS persi dal nemico.
+Attacco Pioggia,Normale,Fisico,15,85,Piovono enormi sfere sulla testa del nemico da due a cinque volte di fila.
+Sanguisuga,Coleottero,Fisico,80,100,Mossa succhiasangue. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.
+Aeroattacco,Volante,Fisico,140,90,Un attacco in due turni e probabile brutto colpo. Può anche far tentennare il nemico.
+Bolla,Acqua,Speciale,40,100,Uno spruzzo di bolle viene lanciato sul nemico. Può ridurne la velocità.
+Stordipugno,Normale,Fisico,70,100,Colpisce il bersaglio con una sequenza di pugni che può anche confonderlo.
+Martellata,Acqua,Fisico,100,90,Colpisce il nemico con una grande tenaglia. Probabile brutto colpo.
+Esplosione,Normale,Fisico,250,100,Chi la usa esplode per infliggere danni agli altri Pokémon attorno, ma va KO.
+Sfuriate,Normale,Fisico,18,80,Colpisce il nemico con artigli o falci affilate da due a cinque volte in rapida successione.
+Ossomerang,Terra,Fisico,50,90,Chi la usa lancia l'osso che tiene. L'osso colpisce due volte e ritorna come un vero e proprio boomerang.
+Frana,Roccia,Fisico,75,90,I nemici vengono colpiti da grandi massi che possono anche farli tentennare.
+Iperzanna,Normale,Fisico,80,90,Il Pokémon morde il nemico con zanne taglienti. Può anche farlo tentennare.
+Tripletta,Normale,Speciale,80,100,Colpisce il nemico con tre sfere simultanee che possono anche paralizzarlo, scottarlo o congelarlo.
+Lacerazione,Normale,Fisico,70,100,Attacca il nemico con artigli, falci o altro. Probabile brutto colpo.
+Scontro,Normale,Fisico,50,100,Mossa da usare solo in caso estremo, quando non si hanno più PP. Danneggia anche chi la usa.
+Triplocalcio,Lotta,Fisico,10,90,Chi la usa esegue fino a tre calci consecutivi la cui potenza aumenta ad ogni colpo.
+Furto,Buio,Fisico,60,100,Il Pokémon attacca e contemporaneamente ruba lo strumento tenuto dal nemico. Non ruberà nulla, se si possiede già uno strumento.
+Ruotafuoco,Fuoco,Fisico,60,100,Il Pokémon si avvolge nel fuoco e carica il nemico. Può scottare.
+Russare,Normale,Speciale,50,100,Mossa da usare solo mentre si dorme. Il chiasso assordante può anche far tentennare il nemico.
+Aerocolpo,Volante,Speciale,100,95,Colpisce il nemico con un vortice d'aria per danneggiarlo. Probabile brutto colpo.
+Polneve,Ghiaccio,Speciale,40,100,Attacca il nemico con una raffica di neve farinosa e può anche congelarlo.
+Pugnorapido,Lotta,Fisico,40,100,Chi la usa tira un pugno a velocità impressionante e colpisce di sicuro per primo.
+Finta,Buio,Fisico,60,100,Chi la usa si avvicina al nemico facendo finta di niente, per poi scagliare un pugno infallibile a tradimento.
+Fangobomba,Veleno,Speciale,90,100,Chi la usa attacca lanciando fango sul bersaglio. Può anche avvelenarlo.
+Fangosberla,Terra,Speciale,20,100,Chi la usa butta fango in faccia al nemico per arrecargli danni e ridurne la precisione.
+Octazooka,Acqua,Speciale,65,85,Chi la usa spruzza del'inchiostro in faccia al nemico. Può anche ridurne la precisione.
+Falcecannone,Elettro,Speciale,120,50,Chi la usa provoca un'esplosione elettrica che infligge danni e paralizza il nemico.
+Ventogelato,Ghiaccio,Speciale,55,95,Chi la usa attacca i nemici con una folata di aria gelida e ne riduce anche la Velocità.
+Ossoraffica,Terra,Fisico,25,90,Chi la usa colpisce il nemico con un osso duro, da 2 a 5 volte di fila.
+Oltraggio,Drago,Fisico,120,100,Chi la usa sfoga la sua ira e attacca il nemico per due o tre turni prima di essere lasciato in preda alla confusione.
+Gigassorbimento,Erba,Speciale,75,100,Mossa che assorbe PS. Chi la usa recupera un quantità di PS pari alla metà del danno inferto.
+Rotolamento,Roccia,Fisico,30,90,Chi la usa colpisce il nemico rotolando per cinque turni, con aumento progressivo della potenza ogni volta che va a segno.
+Falsofinale,Normale,Fisico,40,100,Chi la usa trattiene il colpo per impedire al nemico di andare KO, lasciandolo con almeno un PS.
+Scintilla,Elettro,Fisico,65,100,Colpisce il nemico con una carica elettrica e può anche paralizzarlo.
+Tagliofuria,Coleottero,Fisico,40,95,Colpisce il nemico con falci o artigli. Se usata in successione aumenta di potenza ogni volta che va a segno.
+Alacciaio,Acciaio,Fisico,70,90,Colpisce il nemico con ali d'acciaio. Può anche aumentare la Difesa di chi la usa.
+Magifuoco,Fuoco,Fisico,100,95,Colpisce il nemico con un fuoco mistico di enorme intensità che può anche causargli una scottatura.
+Dinamipugno,Lotta,Fisico,100,50,Colpisce il nemico con un pugno davvero forte. Se va a segno, lo confonde.
+Megacorno,Coleottero,Fisico,120,85,Chi la usa utilizza il suo corno per montare con grande forza il nemico.
+Dragospiro,Drago,Speciale,60,100,Investe il nemico con una raffica potentissima che arreca danni. Può anche paralizzarlo.
+Inseguimento,Buio,Fisico,40,100,Una mossa d'attacco che infligge un danno doppio se il nemico è in fase di sostituzione.
+Rapigiro,Normale,Fisico,50,100,Un attacco roteante che elimina gli effetti delle mosse Legatutto, Avvolgibotta, Parassiseme e Punte.
+Codacciaio,Acciaio,Fisico,100,75,Il nemico viene colpito da una robusta coda d'acciaio. Può anche ridurne la Difesa.
+Ferrartigli,Acciaio,Fisico,50,95,Colpisce il nemico con artigli d'acciaio. Può anche aumentare l'Attacco di chi la usa.
+Vitaltiro,Lotta,Fisico,70,100,Chi la usa attacca per ultimo, ma il colpo è sempre infallibile.
+Introforza,Normale,Speciale,60,100,Mossa singolare che cambia tipo e potenza a seconda del Pokémon che la usa.
+Incrocolpo,Lotta,Fisico,100,80,Investe il nemico con un colpo sferrato con entrambe le braccia incrociate. Probabile brutto colpo.
+Tornado,Drago,Speciale,40,100,Un potente tornado si abbatte sul nemico. Può anche far tentennare.
+Sgranocchio,Buio,Fisico,80,100,Il nemico viene morso con denti affilati. Può anche ridurne la Difesa.
+Extrarapido,Normale,Fisico,80,100,Chi la usa carica il nemico a velocità impressionante ed attacca sempre per primo.
+Forzantica,Roccia,Speciale,60,100,Colpisce il nemico con una forza primordiale. Può aumentare tutte le statistiche.
+Palla Ombra,Spettro,Speciale,80,100,Lancia sul nemico una sfera nera. Può anche ridurne la Difesa Speciale.
+Divinazione,Psico,Speciale,120,100,Due turni dopo l'utilizzo di questa mossa, il nemico viene attaccato con energia psichica.
+Spaccaroccia,Lotta,Fisico,40,100,Il nemico viene colpito da un pugno in grado di frantumare anche la roccia. Può anche ridurne la Difesa.
+Mulinello,Acqua,Speciale,35,85,Intrappola il nemico in un turbine d'acqua che dura per quattro o cinque turni infliggendogli dei danni ogni turno.
+Bruciapelo,Normale,Fisico,40,100,Mossa che fa agire per primo e fa tentennare il nemico. Funziona solo appena sceso in campo.
+Baraonda,Normale,Speciale,90,100,Chi la usa attacca per tre turni con un frastuono che non fa dormire nessuno.
+Ondacalda,Fuoco,Speciale,95,90,Chi la usa investe i nemici con una folata di vento caldo. Può anche scottare.
+Facciata,Normale,Fisico,70,100,Mossa d'attacco che raddoppia la potenza se chi la usa è scottato, avvelenato o paralizzato.
+Centripugno,Lotta,Fisico,150,100,Chi la usa prende la mira prima di sferrare un pugno. Fallirà se verrà colpito prima di eseguire la mossa.
+Maniereforti,Normale,Fisico,70,100,Infligge un danno doppio ad un bersaglio paralizzato, ma ne cura anche la paralisi.
+Troppoforte,Lotta,Fisico,120,100,Chi la usa attacca il nemico con grande forza, ma il suo Attacco e la sua Difesa diminuiscono.
+Vendetta,Lotta,Fisico,60,100,Mossa d'attacco che infligge un danno doppio se si è stati colpiti dal nemico nello stesso turno.
+Breccia,Lotta,Fisico,75,100,Colpisce il nemico con una mano e rompe barriere come Riflesso e Schermoluce.
+Privazione,Buio,Fisico,65,100,Attacco che blocca anche lo strumento tenuto dal nemico, impedendone l'uso nella lotta. La sua potenza aumenta se il Pokémon colpito ha uno strumento.
+Forzasegreta,Normale,Fisico,70,100,Attacco che può avere un effetto aggiuntivo a seconda del luogo in cui si trova chi lo usa.
+Sub,Acqua,Fisico,80,100,Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente. Fuori dalla lotta permette di immergersi sott'acqua.
+Sberletese,Lotta,Fisico,15,100,Raffica di ceffoni che colpisce da due a cinque volte di fila.
+Abbagliante,Psico,Speciale,70,100,Chi la usa scatena un'esplosione abbagliante che può anche ridurre la Difesa Speciale del Pokémon colpito.
+Foschisfera,Psico,Speciale,70,100,Una sfera coperta di nebbia danneggia il nemico. Può anche ridurre l'Attacco Speciale.
+Calciardente,Fuoco,Fisico,85,90,Chi la usa tira un calcio. Probabile brutto colpo. Può anche causare una scottatura.
+Palla Gelo,Ghiaccio,Fisico,30,90,Chi la usa attacca il nemico rotolando per cinque turni, con aumento progressivo della potenza ogni volta che va a segno.
+Pugnospine,Erba,Fisico,60,100,Chi la usa attacca colpendo il bersaglio con i suoi arti pieni di spine. Può far tentennare il Pokémon colpito.
+Granvoce,Normale,Speciale,90,100,Chi la usa lancia un urlo straziante che danneggia i nemici.
+Velenodenti,Veleno,Fisico,50,100,Chi la usa morde il nemico con denti avvelenati che possono anche iperavvelenarlo.
+Tritartigli,Normale,Fisico,75,95,Colpisce il nemico con artigli robusti e affilati che possono ridurne la Difesa.
+Incendio,Fuoco,Speciale,150,90,Potente esplosione che danneggia il nemico, ma fa saltare il turno successivo a chi la provoca.
+Idrocannone,Acqua,Speciale,150,90,Colpisce il nemico con un potente getto d'acqua. Chi la usa salta il turno successivo.
+Meteorpugno,Acciaio,Fisico,90,90,Colpisce il nemico con un pugno veloce come una meteora. Può far pure salire l'Attacco di chi la usa.
+Sgomento,Spettro,Fisico,30,100,Chi la usa attacca il bersaglio emettendo un verso terrificante. Può anche farlo tentennare.
+Palla Clima,Normale,Speciale,50,100,Mossa d'attacco che varia tipo e forza in base alle condizioni atmosferiche.
+Aerasoio,Volante,Speciale,60,95,Chi la usa provoca un vento tagliente che sferza i nemici. Probabile brutto colpo.
+Vampata,Fuoco,Speciale,130,90,Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale.
+Rocciotomba,Roccia,Fisico,60,95,Colpisce il nemico con rocce. Inoltre, lo rallenta riducendone la Velocità.
+Ventargenteo,Coleottero,Speciale,60,100,Attacca con un forte vento di polvere di squame. Tutte le statistiche di chi la usa possono salire.
+Segnoraggio,Coleottero,Speciale,75,100,Chi la usa attacca con uno strano raggio di luce che può anche confondere il Pokémon colpito.
+Pugnodombra,Spettro,Fisico,60,100,Il nemico riceve un pugno proveniente dalle tenebre. Questa mossa è infallibile.
+Extrasenso,Psico,Speciale,80,100,Chi la usa attacca con una misteriosa forza invisibile. Può far tentennare il nemico.
+Stramontante,Lotta,Fisico,85,90,Chi la usa attacca il nemico con un montante che può arrivare fino in cielo.
+Sabbiotomba,Terra,Fisico,35,85,Chi la usa intrappola il nemico in un turbine di sabbia per quattro o cinque turni.
+Fanghiglia,Acqua,Speciale,90,85,Chi la usa attacca con un getto di fango che può anche ridurre la precisione dei nemici.
+Semitraglia,Erba,Fisico,25,100,Chi la usa spara da due a cinque raffiche di semi contro il bersaglio in successione.
+Aeroassalto,Volante,Fisico,60,100,Chi la usa attacca il nemico a grande velocità. Questa mossa è infallibile.
+Gelolancia,Ghiaccio,Fisico,25,100,Chi la usa spara ghiaccioli affilati contro il nemico da due a cinque volte di fila.
+Dragartigli,Drago,Fisico,80,100,Chi la usa attacca con artigli affilati che graffiano il nemico rapidamente e con grande forza.
+Radicalbero,Erba,Speciale,150,90,Un groviglio di radici colpisce il nemico. Chi la usa salta il turno successivo.
+Rimbalzo,Volante,Fisico,85,85,Chi la usa balza in alto e ricade sul nemico dopo un turno. Può anche paralizzare.
+Colpodifango,Terra,Speciale,55,95,Chi la usa attacca lanciando fango sul nemico. Riduce anche la Velocità.
+Velenocoda,Veleno,Fisico,50,100,Chi la usa colpisce con la coda e può avvelenare il nemico. Probabile brutto colpo.
+Supplica,Normale,Fisico,60,100,Chi la usa attacca il bersaglio sorridendo e gli ruba lo strumento che tiene.
+Locomovolt,Elettro,Fisico,120,100,Chi la usa si carica di elettricità e poi attacca. Può paralizzare il nemico. Il contraccolpo causa seri danni.
+Fogliamagica,Erba,Speciale,60,100,Chi la usa sparpaglia strane foglie che inseguono il bersaglio. Questa mossa è infallibile.
+Fendifoglia,Erba,Fisico,90,100,Colpisce il nemico usando una foglia affilata come una spada. Probabile brutto colpo.
+Cadutamassi,Roccia,Fisico,25,90,Colpisce il nemico con dei massi pesanti lanciati in rapida successione. Il numero di massi varia da due a cinque.
+Ondashock,Elettro,Speciale,60,100,Chi la usa colpisce il nemico con una scossa di elettricità. È impossibile eludere questa mossa.
+Idropulsar,Acqua,Speciale,60,100,Il nemico viene colpito da un getto d'acqua potentissimo che può anche confonderlo.
+Obbliderio,Acciaio,Speciale,140,100,Intensa luce solare che colpisce il nemico dopo due turni dall'uso della mossa.
+Psicoslancio,Psico,Speciale,140,90,Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale.
+Svegliopacca,Lotta,Fisico,70,100,Un attacco che infligge doppi danni se il nemico è Addormentato. Inoltre, lo sveglierà dal sonno.
+Martelpugno,Lotta,Fisico,100,90,Chi la usa colpisce il nemico con il suo pugno forte e pesante, ma perde Velocità.
+Acquadisale,Acqua,Speciale,65,100,Se i PS del nemico sono scesi a metà o meno, questa mossa colpirà con il doppio della potenza.
+Fintoattacco,Normale,Fisico,30,100,Un attacco che colpisce un nemico che ha usato Protezione od Individua. Ne rimuoverà inoltre gli effetti.
+Spennata,Volante,Fisico,60,100,Chi la usa becca il bersaglio. Inoltre, se questi tiene una Bacca, gliela ruba e ne sfrutta gli effetti.
+Retromarcia,Coleottero,Fisico,70,100,Dopo aver selezionato questo attacco, chi la usa colpisce il nemico per poi essere sostituito con un altro Pokémon della squadra.
+Zuffa,Lotta,Fisico,120,100,Chi la usa attacca abbassando la guardia. La propria Difesa e la Difesa Speciale si riducono.
+Rivincita,Buio,Fisico,50,100,Chi la usa accumula forza, poi attacca. La potenza raddoppia se agisce dopo il Pokémon nemico.
+Garanzia,Buio,Fisico,60,100,Se il nemico ha già subito dei danni nello stesso turno, la potenza di questa mossa raddoppia.
+Ultimascelta,Normale,Fisico,140,100,Per usare questa mossa, bisogna prima avvalersi in lotta di tutte le altre mosse conosciute.
+Sbigoattacco,Buio,Fisico,70,100,Chi la usa può attaccare per primo. Fallisce se il nemico non sta preparando un attacco.
+Fuococarica,Fuoco,Fisico,120,100,Chi la usa si ricopre di fuoco e carica il bersaglio, ma subisce il contraccolpo. Può anche scottare.
+Palmoforza,Lotta,Fisico,60,100,Chi la usa attacca con un'onda d'urto che può anche paralizzare il bersaglio.
+Forzasfera,Lotta,Speciale,80,100,Chi la usa rilascia una forza eterea dal profondo del corpo. La mossa è infallibile.
+Velenpuntura,Veleno,Fisico,80,100,Il nemico viene colpito con un tentacolo od un braccio intriso di veleno. Può anche avvelenarlo.
+Neropulsar,Buio,Speciale,80,100,Chi la usa emana un'aura impregnata di oscuri pensieri. Può anche far tentennare il Pokémon colpito.
+Nottesferza,Buio,Fisico,70,100,Chi la usa colpisce il nemico appena si presenta l'occasione. Probabile brutto colpo.
+Idrondata,Acqua,Fisico,90,90,Chi la usa attacca agitando la coda come se fosse una violenta ondata in una tempesta furiosa.
+Semebomba,Erba,Fisico,80,100,Chi la usa emette una raffica di semi dal guscio duro che colpiscono il bersaglio dall'alto.
+Eterelama,Volante,Speciale,75,95,Chi la usa attacca con un vento tagliente che squarcia il cielo. Può anche far tentennare il Pokémon colpito.
+Forbice X,Coleottero,Fisico,80,100,Chi la usa colpisce il nemico usando le sue falci o artigli come se fossero un paio di forbici.
+Ronzio,Coleottero,Speciale,90,100,Chi la usa muove le ali per creare un suono che danneggia il nemico. Può anche ridurne la Difesa Speciale.
+Dragopulsar,Drago,Speciale,85,100,Chi la usa attacca un'onda d'urto generata spalancando la bocca.
+Dragofuria,Drago,Fisico,100,75,Chi la usa attacca con fare minaccioso e in questo modo può anche far tentennare il nemico.
+Gemmoforza,Roccia,Speciale,80,100,Chi la usa attacca con un raggio di luce che brilla come se fosse fatto di pietre preziose.
+Assorbipugno,Lotta,Fisico,75,100,Pugno che assorbe energia. Fa recuperare una quantità di PS pari alla metà del danno inferto.
+Vuotonda,Lotta,Speciale,40,100,Chi la usa rotea i pugni per lanciare un'onda di vuoto assoluto verso il nemico. Attacca per primo.
+Focalcolpo,Lotta,Speciale,120,70,Chi la usa incrementa la sua concentrazione mentale per scatenare il suo potere. Può ridurre la Difesa Speciale del nemico.
+Energipalla,Erba,Speciale,90,100,Chi la usa attinge energia dalla natura e la scaglia contro il bersaglio. Può anche ridurne la Difesa Speciale.
+Baldeali,Volante,Fisico,120,100,Chi la usa ripiega le ali e carica da bassa quota. Tuttavia, subisce considerevoli danni.
+Geoforza,Terra,Speciale,90,100,Dal terreno sotto il nemico si sprigiona una forza devastante. Può anche ridurne la Difesa Speciale.
+Gigaimpatto,Normale,Fisico,150,90,Chi la usa carica il nemico usando tutta la sua forza, ma al turno successivo deve riposare.
+Pugnoscarica,Acciaio,Fisico,40,100,Chi la usa attacca con una scarica di pugni veloci come proiettili. Con questa mossa si colpisce per primi.
+Slavina,Ghiaccio,Fisico,60,100,Un attacco che infligge doppi danni se l'utilizzatore ha subito un attacco nello stesso turno.
+Geloscheggia,Ghiaccio,Fisico,40,100,Chi la usa crea dei pezzi di ghiaccio e li lancia. Con questa mossa si colpisce per primi.
+Ombrartigli,Spettro,Fisico,70,100,Chi la usa attacca con artigli d'ombra che colpiscono con gran forza. Probabile brutto colpo.
+Fulmindenti,Elettro,Fisico,65,95,Chi la usa morde con denti elettrificati che possono anche paralizzare o far tentennare il nemico.
+Gelodenti,Ghiaccio,Fisico,65,95,Chi la usa morde il nemico con denti di ghiaccio. Può causare congelamento e tentennamento.
+Rogodenti,Fuoco,Fisico,65,95,Chi la usa morde il nemico con denti infuocati. Può causare scottatura e tentennamento.
+Furtivombra,Spettro,Fisico,40,100,Chi la usa estende la sua ombra e attacca il nemico alle spalle. Con questa mossa si colpisce per primi.
+Pantanobomba,Terra,Speciale,65,85,Chi la usa lancia dure palle di fango sul nemico. Può anche ridurne la Precisione.
+Psicotaglio,Psico,Fisico,70,100,Chi la usa colpisce il nemico con lame fatte di forza psichica. Probabile brutto colpo.
+Cozzata Zen,Psico,Fisico,80,90,Chi la usa concentra la forza nella testa e si lancia contro il nemico. Può anche farlo tentennare.
+Cristalcolpo,Acciaio,Speciale,65,85,Chi la usa colpisce il nemico lanciando fasci d'energia dal suo corpo. Può ridurne la precisione.
+Cannonflash,Acciaio,Speciale,80,100,Chi la usa attacca raccogliendo e rilasciando energia luminosa. Può ridurre la Difesa Speciale del nemico.
+Scalaroccia,Normale,Fisico,90,85,Chi la usa carica con impeto incredibile. Il colpo può confondere il nemico.
+Dragobolide,Drago,Speciale,130,90,Attacca con meteore che cadono dal cielo. Il contraccolpo fa calare di molto l'Attacco Speciale di chi la usa.
+Scarica,Elettro,Speciale,80,100,Chi la usa colpisce i Pokémon che ha intorno con un bagliore elettrico. Può anche causare paralisi.
+Lavasbuffo,Fuoco,Speciale,80,100,Chi la usa lancia fiamme scarlatte sugli altri Pokémon in campo. Può anche scottare.
+Verdebufera,Erba,Speciale,130,90,Si forma una tempesta di foglie affilate. Il contraccolpo riduce di molto l'Attacco Speciale di chi la usa.
+Vigorcolpo,Erba,Fisico,120,85,Chi la usa agita violentemente liane o tentacoli per sferzare il bersaglio.
+Devastomasso,Roccia,Fisico,150,90,Chi la usa attacca il nemico con un enorme masso, ma si deve riposare al turno successivo.
+Velenocroce,Veleno,Fisico,70,100,Attacco con zanne avvelenate che può anche avvelenare il Pokémon colpito. Probabile brutto colpo.
+Sporcolancio,Veleno,Fisico,120,80,Chi la usa attacca il nemico con rifiuti sudici che possono anche avvelenarlo.
+Metaltestata,Acciaio,Fisico,80,100,Chi la usa colpisce il nemico con la sua testa dura come l'acciaio. Può anche farlo tentennare.
+Bombagnete,Acciaio,Fisico,60,100,Chi la usa lancia bombe d'acciaio che si attaccano al nemico. Una mossa infallibile.
+Pietrataglio,Roccia,Fisico,100,80,Chi la usa colpisce il nemico dal basso con pietre affilate. Probabile brutto colpo.
+Schiamazzo,Volante,Speciale,65,100,Chi la usa attacca creando un'onda sonora con le parole imparate. Può anche confondere il nemico.
+Giudizio,Normale,Speciale,100,100,Chi la usa rilascia numerosi colpi di luce. Il tipo varia a seconda della Lastra tenuta.
+Coleomorso,Coleottero,Fisico,60,100,Chi la usa morde il nemico. Inoltre, se questi tiene una Bacca, gliela ruba e ne sfrutta gli effetti.
+Raggioscossa,Elettro,Speciale,50,90,Chi la usa lancia un fascio di elettricità molto intensa. Può anche aumentare il suo Attacco Speciale.
+Mazzuolegno,Erba,Fisico,120,100,Chi la usa si lancia con tutto il corpo contro il bersaglio, ma subisce anche considerevoli danni.
+Acquagetto,Acqua,Fisico,40,100,Chi la usa colpisce sempre per primo e a una tale velocità da rendersi quasi invisibile.
+Comandourto,Coleottero,Fisico,90,100,Chi la usa raduna i suoi sgherri per colpire il nemico. Probabile brutto colpo.
+Zuccata,Roccia,Fisico,150,80,Chi la usa attacca con tutta la potenza di cui dispone, ma subisce danni considerevoli.
+Doppiosmash,Normale,Fisico,35,90,Chi la usa colpisce il nemico con la coda due volte di fila.
+Fragortempo,Drago,Speciale,150,90,Chi la usa colpisce il nemico con una forza capace di alterare il tempo, ma deve stare fermo il turno dopo.
+Fendispazio,Drago,Speciale,100,95,Chi la usa lacera il nemico e lo spazio che lo circonda. Probabile brutto colpo.
+Magmaclisma,Fuoco,Speciale,100,75,Intrappola il nemico in un turbine di fuoco che dura per quattro o cinque turni.
+Infuriaseme,Erba,Speciale,120,85,Chi la usa genera un'onda d'urto dal suo corpo. Può anche ridurre di molto la Difesa Speciale del bersaglio.
+Funestovento,Spettro,Speciale,60,100,Chi la usa crea una raffica di vento ripugnante. Può aumentare tutte le statistiche di chi la usa.
+Oscurotuffo,Spettro,Fisico,120,100,Chi la usa sparisce e poi colpisce il nemico al turno successivo. Evita pure Protezione o Individua.
+Psicoshock,Psico,Speciale,80,100,Chi la usa attacca il bersaglio facendo materializzare un misterioso raggio psichico che provoca danni fisici.
+Velenoshock,Veleno,Speciale,65,100,Lancia uno speciale liquido tossico sul bersaglio. Se questi è avvelenato, il danno provocato raddoppia.
+Abbattimento,Roccia,Fisico,50,100,Chi la usa lancia una pietra o un proiettile. Può colpire anche un bersaglio in volo e farlo cadere.
+Tempestretta,Lotta,Fisico,60,100,Chi la usa sferra un colpo micidiale al bersaglio, stritolandolo. Brutto colpo assicurato.
+Pirolancio,Fuoco,Speciale,70,100,Chi la usa emana una fiammata che colpisce il bersaglio e si propaga fino a raggiungere i Pokémon accanto.
+Fangonda,Veleno,Speciale,95,100,Lancia un'onda di fango che attacca tutti i Pokémon nelle vicinanze. Può anche avvelenare.
+Sincrumore,Psico,Speciale,120,100,Chi la usa infligge danni a tutti i Pokémon del suo stesso tipo che ha vicino usando misteriose onde elettromagnetiche.
+Nitrocarica,Fuoco,Fisico,50,100,Chi la usa si copre di fuoco e attacca il bersaglio. Concentrandosi aumenta, inoltre, la propria Velocità.
+Calciobasso,Lotta,Fisico,65,100,Chi la usa colpisce con un attacco fulmineo la parte inferiore del corpo del bersaglio, riducendone la Velocità.
+Acidobomba,Veleno,Speciale,40,100,Chi la usa attacca il bersaglio con un acido altamente corrosivo. Il fluido riduce di molto la Difesa Speciale del bersaglio.
+Ripicca,Buio,Fisico,95,100,Chi la usa sfrutta la forza del bersaglio. Il danno inflitto è proporzionale all'Attacco dell'avversario.
+Coro,Normale,Speciale,60,100,Attacca il bersaglio con una melodia. Se usata ripetutamente da uno o più Pokémon i danni inflitti aumentano.
+Echeggiavoce,Normale,Speciale,40,100,Attacca il bersaglio con la propria voce echeggiante. Se usata a ripetizione da uno o più Pokémon il danno aumenta.
+Insidia,Normale,Fisico,70,100,Chi la usa attacca non appena il bersaglio abbassa la guardia. Il danno inflitto prescinde dalle modifiche alle statistiche.
+Pulifumo,Veleno,Speciale,50,100,Attacca il bersaglio lanciandogli contro una nuvola di fumo speciale, che annulla ogni modifica alle statistiche.
+Veicolaforza,Psico,Speciale,20,100,Attacca il bersaglio con l'energia accumulata. Più sono state aumentate le statistiche, maggiore è il danno inflitto.
+Idrovampata,Acqua,Speciale,80,100,Chi la usa attacca il bersaglio con un getto d'acqua bollente che può anche scottarlo.
+Sciagura,Spettro,Speciale,65,100,Attacco che causa un danno enorme se il bersaglio ha problemi di stato.
+Cadutalibera,Volante,Fisico,60,100,Porta il bersaglio in cielo e lo scaglia a terra al turno successivo. Il bersaglio catturato non può muoversi.
+Ribaltiro,Lotta,Fisico,60,90,Il bersaglio è scaraventato via ed è costretto a lasciare il posto a un altro. Se è selvatico, la lotta finisce.
+Bruciatutto,Fuoco,Speciale,60,100,Attacca il nemico con una fiammata. Se il nemico ha una Bacca, viene divorata dalle fiamme.
+Acrobazia,Volante,Fisico,55,100,Attacca rapidamente il bersaglio. Se chi la usa non ha uno strumento, infligge al nemico grossi danni.
+Nemesi,Normale,Fisico,70,100,Vendica un compagno messo KO. Se ciò è accaduto al turno precedente, il danno è maggiore.
+Marchiatura,Fuoco,Speciale,100,50,Il bersaglio viene avvolto da intense fiammate che causano scottature.
+Acquapatto,Acqua,Speciale,80,100,Attacca il nemico con una colonna d'acqua. Se usata con Fiammapatto, aumentano gli effetti e un arcobaleno appare in cielo.
+Fiammapatto,Fuoco,Speciale,80,100,Attacca il nemico con una colonna di fuoco. Se usata con Erbapatto, aumentano gli effetti e il campo diventa un mare di fuoco.
+Erbapatto,Erba,Speciale,80,100,Attacca il bersaglio con una colonna d'erba. Se usata con Acquapatto, gli effetti aumentano e il campo diventa una palude.
+Invertivolt,Elettro,Speciale,70,100,Chi usa questa mossa fa marcia indietro per farsi sostituire dopo aver sferrato l'attacco.
+Entomoblocco,Coleottero,Speciale,50,100,Colpisce i nemici opponendo resistenza e riducendo il loro Attacco Speciale.
+Battiterra,Terra,Fisico,60,100,Chi la usa calpesta il terreno e scatena un terremoto che danneggia tutti i Pokémon nei paraggi e ne riduce anche la Velocità.
+Alitogelido,Ghiaccio,Speciale,60,90,Chi la usa attacca il bersaglio con un soffio d'aria gelida. Brutto colpo assicurato.
+Codadrago,Drago,Fisico,60,90,Chi la usa fa volar via il bersaglio in modo che venga sostituito. Se il bersaglio è un Pokémon selvatico, la lotta finisce.
+Elettrotela,Elettro,Speciale,55,95,Chi la usa attacca i nemici catturandoli con una ragnatela elettrica e riducendone la Velocità.
+Sprizzalampo,Elettro,Fisico,90,100,Chi la usa si carica di elettricità per poi scagliarsi sul bersaglio, ma subisce dei danni per il contraccolpo.
+Giravvita,Terra,Fisico,80,95,Chi la usa si scaglia sul bersaglio ruotando su se stesso come un trapano perforante. Probabile brutto colpo.
+Doppiocolpo,Drago,Fisico,40,90,Chi la usa attacca due volte il bersaglio con dei colpi estremamente forti.
+Cuorestampo,Psico,Fisico,60,100,Chi la usa distrae il nemico con un faccino innocente per poi sferrargli un colpo devastante che può farlo tentennare.
+Legnicorno,Erba,Fisico,75,100,Chi la usa infilza il bersaglio con le corna e assorbe una quantità di PS pari a metà del danno inferto.
+Spadasolenne,Lotta,Fisico,90,100,Chi la usa taglia il nemico con una spada magica. Il danno inflitto ignora le modifiche alle statistiche del bersaglio.
+Conchilama,Acqua,Fisico,75,95,Chi la usa colpisce il bersaglio con il suo guscio affilato. Il colpo può anche ridurre la Difesa del bersaglio.
+Vorticerba,Erba,Speciale,65,90,Chi la usa avvolge e attacca il bersaglio con foglie affilate che possono anche ridurne la precisione.
+Rulloduro,Coleottero,Fisico,65,100,Chi la usa ruota su se stesso ad alta velocità e schiaccia il bersaglio. Può anche farlo tentennare.
+Urtoscuro,Buio,Speciale,85,95,Chi la usa attacca il bersaglio con un'onda d'urto oscura che può ridurne la precisione.
+Psicobotta,Psico,Speciale,100,100,Chi la usa attacca il bersaglio facendo materializzare un misterioso raggio psichico che provoca danni fisici.
+Spazzasberla,Normale,Fisico,25,85,Chi la usa colpisce il bersaglio con la sua coda dura da due a cinque volte di fila.
+Tifone,Volante,Speciale,110,70,Chi la usa attacca il bersaglio avvolgendolo con un vento fortissimo. Può anche confonderlo.
+Ricciolata,Normale,Fisico,120,100,Chi la usa carica il bersaglio con la sua testa in stile afro, ma subisce un po' di danni per il contraccolpo.
+Ingracolpo,Acciaio,Fisico,50,85,Chi la usa colpisce il bersaglio due volte di fila lanciandogli contro dei dischi d'acciaio.
+Sparafuoco,Fuoco,Speciale,100,100,Chi la usa lancia fiamme scarlatte sui Pokémon intorno a sé. Può anche scottare.
+Tecnobotto,Normale,Speciale,120,100,Chi la usa rilascia un colpo di luce contro il bersaglio. Il tipo varia a seconda del modulo che ha.
+Cantoantico,Normale,Speciale,75,100,Chi la usa attacca i nemici intonando un'antica melodia che colpisce il loro spirito. Può anche farli addormentare.
+Spadamistica,Lotta,Speciale,85,100,Chi la usa attacca il bersaglio tagliandolo con una spada mistica. La misteriosa energia sprigionata provoca danni fisici.
+Gelamondo,Ghiaccio,Speciale,65,95,Chi la usa attacca i nemici con una folata d'aria gelida e ne riduce anche la Velocità.
+Lucesiluro,Elettro,Fisico,130,85,Colpisce il bersaglio con una possente carica elettrica e può anche paralizzarlo.
+Fuocoblu,Fuoco,Speciale,130,85,Chi la usa attacca il bersaglio avvolgendolo con magnifiche e intense fiamme blu che possono anche scottarlo.
+Voldifuoco,Fuoco,Speciale,80,100,Chi la usa avvolge il bersaglio tra le fiamme. Può anche aumentare l'Attacco Speciale.
+Elettrogelo,Ghiaccio,Fisico,140,90,Chi la usa lancia contro il nemico al turno successivo una sfera di ghiaccio ricoperta di elettricità. Può anche paralizzarlo.
+Vampagelida,Ghiaccio,Speciale,140,90,Chi la usa attacca il bersaglio al turno successivo e lo avvolge in un soffio d'aria congelata. Può anche scottarlo.
+Urlorabbia,Buio,Speciale,55,95,Chi la usa si mette a urlare per un po', riducendo l'Attacco Speciale dei nemici.
+Scagliagelo,Ghiaccio,Fisico,85,90,Chi la usa attacca violentemente il nemico con grosse stalattiti di ghiaccio che possono anche farlo tentennare.
+Generatore V,Fuoco,Fisico,180,95,Chi la usa carica emettendo fiamme ardenti dalla fronte, a costo di una riduzione di Difesa, Difesa Speciale e Velocità.
+Incrofiamma,Fuoco,Speciale,100,100,Chi la usa lancia una fiammata enorme. Se usata in combinazione con Incrotuono, il danno provocato dalla mossa aumenta.
+Incrotuono,Elettro,Fisico,100,100,Chi la usa lancia un fulmine enorme. Se usata in combinazione con Incrofiamma, il danno provocato dalla mossa aumenta.
+Schiacciatuffo,Lotta,Fisico,100,95,Chi la usa si tuffa sul bersaglio dall'alto. È una mossa di tipo Lotta e Volante allo stesso tempo.
+Rutto,Veleno,Speciale,120,90,Chi la usa attacca il bersaglio con un rutto potente. Per utilizzare questa mossa, il Pokémon deve mangiare la bacca che possiede.
+Pungiglione,Coleottero,Fisico,50,100,L'Attacco di chi la usa aumenta notevolmente se grazie alla mossa il bersaglio va KO.
+Spettrotuffo,Spettro,Fisico,90,100,Chi la usa scompare improvvisamente per attaccare poi nel turno seguente. Questa mossa neutralizza le difese del bersaglio.
+Caricaparabola,Elettro,Speciale,65,100,Chi la usa attacca tutto ciò che lo circonda e recupera PS pari alla metà del danno inflitto.
+Fiortempesta,Erba,Fisico,90,100,Infligge danni ai Pokémon che ha intorno attaccandoli con una tempesta di fiori.
+Liofilizzazione,Ghiaccio,Speciale,70,100,Chi la usa raffredda rapidamente il bersaglio. Può anche congelarlo. Questa mossa è superefficace contro i Pokémon Acqua.
+Incantavoce,Folletto,Speciale,40,100,Chi la usa infligge un danno spirituale ai nemici nei paraggi con una voce suadente. L'attacco andrà immancabilmente a segno.
+Assorbibacio,Folletto,Speciale,50,100,Un bacio fatato che assorbe le energie al nemico.
+Carineria,Folletto,Fisico,90,90,Chi la usa attacca il bersaglio con delle carinerie. Può anche ridurne l'attacco.
+Vento di Fata,Folletto,Speciale,40,100,Attacca con un forte vento fatato.
+Forza Lunare,Folletto,Speciale,95,100,Accumula la forza proveniente dalla luna e la libera sul nemico. Può ridurre l'Attacco Speciale.
+Ondaboato,Normale,Speciale,140,100,Colpisce i Pokémon che ha intorno con la forza di un boato distruttivo.
+Diamantempesta,Roccia,Fisico,100,95,Colpisce i nemici che ha intorno con una tempesta di diamanti. Può anche aumentare la Difesa di chi la usa.
+Vaporscoppio,Acqua,Speciale,110,95,Travolge il bersaglio con un'ondata di vapore rovente che può anche scottarlo.
+Forodimensionale,Psico,Speciale,80,100,Chi la usa, sfrutta un passaggio interdimensionale per comparire a fianco del bersaglio e colpirlo, eludendo mosse come Protezione e Individua.
+Acqualame,Acqua,Speciale,15,100,Chi la usa attacca sempre per primo, colpendo il bersaglio con uno shuriken di muco da due a cinque volte di fila.
+Magifiamma,Fuoco,Speciale,75,100,Colpisce il bersaglio soffiandogli contro delle fiammate incredibilmente roventi, riducendone l'Attacco Speciale.
+Magibrillio,Folletto,Speciale,80,100,Emette una luce potentissima che infligge danni al bersaglio.
+Elettrococcola,Elettro,Fisico,20,100,Nonostante il tenero nome è una mossa piuttosto pericolosa.
+Riguardo,Normale,Fisico,40,100,Chi la usa attacca il bersaglio, modulando il colpo in modo da lasciargli almeno un PS.
+Assillo,Coleottero,Speciale,20,100,Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni, durante i quali gli impedisce di fuggire.
+Crescipugno,Lotta,Fisico,40,100,Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, aumenta l'Attacco.
+Ali del Fato,Volante,Speciale,80,100,Chi la usa assorbe energia dal bersaglio recuperando una quantità di PS pari a più della metà del danno inferto.
+Mille Frecce,Terra,Fisico,90,100,Colpisce anche i Pokémon che fluttuano in aria. I nemici nei paraggi vengono scaraventati a terra.
+Mille Onde,Terra,Fisico,90,100,Un’onda strisciante investe i nemici intorno impedendo loro di fuggire.
+Forza Tellurica,Terra,Fisico,90,100,Chi la usa raccoglie energia tellurica e ne concentra il potere sui nemici che ha intorno danneggiandoli.
+Luce Nefasta,Folletto,Speciale,140,90,Concentra il potere del Fiore Eterno in un raggio di luce potentissimo. Provoca contraccolpo di ⅓.
+Primopulsar,Acqua,Speciale,110,85,Attacca i nemici intorno colpendoli con miriadi di raggi di luce blu.
+Spade Telluriche,Terra,Fisico,120,85,Attacca i nemici intorno trasformando la potenza della terra in lame affilate.
+Ascesa del Drago,Volante,Fisico,120,100,Permette di proiettarsi in aria e fiondarsi sul bersaglio attaccando ad altissima velocità. Riduce la Difesa e la Difesa Speciale di chi la usa.
+Urtodimensionale,Buio,Fisico,100,100,Permette di attaccare ripetutamente grazie ai molti arti, ignorando mosse come Protezione o Individua. Riduce la Difesa di chi la usa.
