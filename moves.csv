@@ -1,4 +1,4 @@
-mossa,tipo,categoria,potenza,precissione,descrizione
+mossa;tipo;categoria;potenza;precissione;descrizione
 Botta;Normale;Fisico;40;100;Colpisce il nemico con la coda o le zampe anteriori.
 Colpokarate;Lotta;Fisico;50;100;Colpisce il nemico con un colpo netto. Probabile brutto colpo.
 Doppiasberla;Normale;Fisico;15;85;Schiaffeggia il nemico da due a cinque volte di fila.
