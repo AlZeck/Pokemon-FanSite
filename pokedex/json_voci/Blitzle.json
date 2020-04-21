@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "Quando libera scariche elettriche, gli si illumina la criniera. Variando il tipo di illuminazione comunica con i compagni.",
+    "giochi": [
+      "Nero"
+    ]
+  },
+  {
+    "voce": "Appare quando il cielo si riempie di fulmini e saette. Accumula elettricità attirando i fulmini con la criniera.",
+    "giochi": [
+      "Bianco",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Se emette scariche la sua criniera brilla. Comunica con i suoi simili tramite il ritmo e la frequenza delle pulsazioni luminose.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  }
+]

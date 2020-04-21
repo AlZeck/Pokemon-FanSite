@@ -1,0 +1,63 @@
+[
+  {
+    "voce": "È timido: spesso se ne sta appallottolato. Se è attaccato, si difende infuocando il dorso.",
+    "giochi": [
+      "Oro",
+      "Verde Foglia"
+    ]
+  },
+  {
+    "voce": "Di solito sta raggomitolato. Se ha paura o è sorpreso, lancia fiamme dal dorso.",
+    "giochi": [
+      "Argento",
+      "Rosso Fuoco",
+      "SoulSilver"
+    ]
+  },
+  {
+    "voce": "Se s'arrabbia, il fuoco sul dorso si fa più caldo. Il bagliore delle fiamme impaurisce i nemici.",
+    "giochi": [
+      "Cristallo"
+    ]
+  },
+  {
+    "voce": "CYNDAQUIL si protegge grazie alle fiamme che gli ardono sul dorso. Le fiamme divampano impetuose se il POKéMON è adirato. Tuttavia, quando è stanco diventano fiammelle innocue dalla combustione incompleta.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro"
+    ]
+  },
+  {
+    "voce": "CYNDAQUIL si protegge grazie alle fiamme che ardono sul dorso: esse divampano impetuose se è adirato e diventano fiammelle dalla combustione incompleta se è stanco.",
+    "giochi": [
+      "Smeraldo"
+    ]
+  },
+  {
+    "voce": "È riservato per natura. Se viene spaventato, le fiamme sul suo dorso bruciano ardentemente.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "Y"
+    ]
+  },
+  {
+    "voce": "Spesso se ne sta appallottolato giacché timido. Se è attaccato, si difende infuocando il dorso.",
+    "giochi": [
+      "HeartGold",
+      "X"
+    ]
+  },
+  {
+    "voce": "Cyndaquil si protegge grazie alle fiamme che gli ardono sul dorso. Le fiamme divampano impetuose se il Pokémon è adirato. Tuttavia, quando è stanco diventano fiammelle innocue dalla combustione incompleta.",
+    "giochi": [
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "voce": "Piomba dall'alto improvvisamente. Se è attaccato da uno SPEAROW, agita violentemente le foglie.",
+    "giochi": [
+      "Oro",
+      "Verde Foglia",
+      "HeartGold",
+      "X"
+    ]
+  },
+  {
+    "voce": "Vive nutrendosi delle gocce di rugiada che cadono dalle foglie delle piante. Pare che non mangi altro.",
+    "giochi": [
+      "Argento",
+      "Rosso Fuoco",
+      "SoulSilver",
+      "Y"
+    ]
+  },
+  {
+    "voce": "Debolissimo, la sua unica difesa è scrollare disperatamente le foglie su chi lo attacca.",
+    "giochi": [
+      "Cristallo"
+    ]
+  },
+  {
+    "voce": "SUNKERN cerca di muoversi il meno possibile per preservare le sostanze nutritive che ha immagazzinato nel corpo per la sua evoluzione. Non mangia nulla, si nutre solo di rugiada mattutina.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "SUNKERN cerca di muoversi il meno possibile per preservare le sostanze nutritive immagazzinate nel corpo per l'evoluzione. Si nutre solo di rugiada mattutina.",
+    "giochi": [
+      "Smeraldo"
+    ]
+  },
+  {
+    "voce": "Cade improvvisamente giù dal cielo al mattino. Dopo un’estate fredda, la popolazione di SUNKERN esplode.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "Platino",
+      "Nero",
+      "Bianco"
+    ]
+  },
+  {
+    "voce": "Cade improvvisamente giù dal cielo al mattino. Sa di essere debole e cerca di nutrirsi al meglio in attesa di evolversi.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2"
+    ]
+  }
+]

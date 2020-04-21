@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "Obbedisce sempre scrupolosamente agli ordini dell'Allenatore, ma capita a volte che non capisca quelli più complessi.",
+    "giochi": [
+      "Nero"
+    ]
+  },
+  {
+    "voce": "Pokémon che vive in città. Si affeziona facilmente alle persone, perciò non è strano trovarlo in parchi o piazze.",
+    "giochi": [
+      "Bianco",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "È un Pokémon un po' smemorato. A volte dimentica l'ordine appena ricevuto e allora aspetta di riceverne un altro.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "X",
+      "Rubino Omega"
+    ]
+  }
+]

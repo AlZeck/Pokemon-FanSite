@@ -1,0 +1,48 @@
+[
+  {
+    "voce": "Questo POKéMON viaggia attraverso il tempo. Le foreste in cui appare prosperano rigogliose.",
+    "giochi": [
+      "Oro",
+      "Verde Foglia",
+      "HeartGold",
+      "X"
+    ]
+  },
+  {
+    "voce": "Quando scompare nella foresta, si dice che lasci dietro di sé un uovo che proviene dal futuro.",
+    "giochi": [
+      "Argento",
+      "Rosso Fuoco",
+      "SoulSilver"
+    ]
+  },
+  {
+    "voce": "CELEBI è venerato come custode delle selve. Appare proprio dove si trovano belle foreste.",
+    "giochi": [
+      "Cristallo"
+    ]
+  },
+  {
+    "voce": "CELEBI è giunto a noi dal futuro, viaggiando attraverso il tempo. Si dice che ogni sua apparizione preannunci un futuro roseo e splendente.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Smeraldo",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Ha il potere di viaggiare attraverso il tempo, ma si dice che appaia solo in periodi di pace.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "Y"
+    ]
+  }
+]

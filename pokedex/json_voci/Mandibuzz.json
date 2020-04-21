@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "Si costruisce il nido con le ossa raccolte. Afferra le prede indebolite con gli arti e le trasporta nel nido.",
+    "giochi": [
+      "Nero"
+    ]
+  },
+  {
+    "voce": "Osserva la terra dal cielo e si lancia sulle prede in difficoltà. Ha l'abitudine di farsi delle decorazioni con le ossa.",
+    "giochi": [
+      "Bianco",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Vola in cerchio nel cielo e quando scorge una preda le si lancia contro in picchiata per trasportarla al suo nido.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "X",
+      "Rubino Omega"
+    ]
+  }
+]

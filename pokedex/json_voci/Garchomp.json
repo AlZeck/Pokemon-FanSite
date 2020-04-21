@@ -1,0 +1,35 @@
+[
+  {
+    "voce": "Quando si piega e distende le ali, sembra un jet. Vola a una velocità supersonica.",
+    "giochi": [
+      "Diamante",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Vola alla velocità di un aereo da combattimento a reazione. Non lascia mai fuggire la preda.",
+    "giochi": [
+      "Perla",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Si dice che quando vola, le sue ali creino raffiche di vento in grado di abbattere gli alberi vicini.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2"
+    ]
+  },
+  {
+    "voce": "Le scaglie finissime che lo ricoprono riducono l’attrito con l’aria e gli permettono di volare più veloce.",
+    "giochi": [
+      "HeartGold",
+      "SoulSilver"
+    ]
+  }
+]

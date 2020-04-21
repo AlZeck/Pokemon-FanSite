@@ -1,0 +1,58 @@
+[
+  {
+    "voce": "Quando è nervoso, questo POKéMON si difende spruzzando sudore velenoso dai suoi pori.",
+    "giochi": [
+      "Oro",
+      "Verde Foglia",
+      "HeartGold"
+    ]
+  },
+  {
+    "voce": "Nell'oscurità, gli anelli sul suo corpo brillano, terrorizzando chi si trova nelle vicinanze.",
+    "giochi": [
+      "Argento",
+      "SoulSilver",
+      "Rosso Fuoco"
+    ]
+  },
+  {
+    "voce": "Nelle notti di luna piena e quando è agitato i cerchi sul corpo emettono un bagliore giallo.",
+    "giochi": [
+      "Cristallo"
+    ]
+  },
+  {
+    "voce": "UMBREON si è evoluto grazie all'esposizione alle onde lunari. Rimane nascosto silenzioso nell'oscurità in attesa di un movimento del suo nemico. I cerchi sul corpo brillano durante l'attacco.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "UMBREON si è evoluto con l'esposizione alle onde lunari. Rimane nascosto al buio in attesa di un movimento del suo nemico. I cerchi sul corpo brillano quando attacca.",
+    "giochi": [
+      "Smeraldo"
+    ]
+  },
+  {
+    "voce": "La luce lunare ha mutato la struttura genetica di EEVEE. Si cela nel buio in attesa della preda.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "X"
+    ]
+  },
+  {
+    "voce": "Quando è esposto alla luce lunare i cerchi sul suo corpo brillano e acquisisce uno strano potere.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "Y"
+    ]
+  }
+]

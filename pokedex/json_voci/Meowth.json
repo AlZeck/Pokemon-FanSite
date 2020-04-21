@@ -1,0 +1,71 @@
+[
+  {
+    "voce": "Ama gli oggetti rotondi. Di notte vaga per le vie in cerca di monetine perdute.",
+    "giochi": [
+      "Rosso",
+      "Blu",
+      "Verde Foglia",
+      "Y"
+    ]
+  },
+  {
+    "voce": "Sembra essere più attivo di notte. Ama gli oggetti lucenti e rotondi e non può evitare di raccoglierli.",
+    "giochi": [
+      "Giallo"
+    ]
+  },
+  {
+    "voce": "È affascinato da oggetti rotondi. Non può fare a meno di giocarci fino a stancarsi e addormentarsi.",
+    "giochi": [
+      "Oro",
+      "HeartGold"
+    ]
+  },
+  {
+    "voce": "Ama tutto ciò che splende, soprattutto le monete che raccoglie e accumula segretamente.",
+    "giochi": [
+      "Argento",
+      "SoulSilver"
+    ]
+  },
+  {
+    "voce": "Ama gli oggetti scintillanti. Se nota qualcosa brillare, splende la moneta d'oro sulla sua fronte.",
+    "giochi": [
+      "Cristallo"
+    ]
+  },
+  {
+    "voce": "MEOWTH ritira i suoi artigli affilati all'interno delle zampe per poter aggirarsi furtivo camuffando le tracce. Per qualche oscura ragione questo POKéMON è attratto dalle monetine che splendono alla luce.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "MEOWTH ritira i suoi artigli affilati all'interno delle zampe per poter aggirarsi furtivo. Per ragioni oscure, è attratto dalle monetine che splendono alla luce.",
+    "giochi": [
+      "Smeraldo"
+    ]
+  },
+  {
+    "voce": "Di giorno non fa che dormire, mentre la notte perlustra il territorio con i suoi occhi luccicanti.",
+    "giochi": [
+      "Rosso Fuoco"
+    ]
+  },
+  {
+    "voce": "È un Pokémon attivo di notte. Se nota qualcosa di luccicante, i suoi occhi cominciano a brillare.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "X"
+    ]
+  }
+]

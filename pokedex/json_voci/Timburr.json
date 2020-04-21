@@ -1,0 +1,30 @@
+[
+  {
+    "voce": "Lotta brandendo una trave di legno. Quando arriva a portarla senza sforzo, l'evoluzione è vicina.",
+    "giochi": [
+      "Nero"
+    ]
+  },
+  {
+    "voce": "Porta sempre con sé una tavola di legno. Appare nei cantieri dove aiuta nei lavori.",
+    "giochi": [
+      "Bianco",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Porta con sé una tavola di legno e aiuta nei lavori edilizi. Quando cresce sceglie oggetti più pesanti da trasportare.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2"
+    ]
+  },
+  {
+    "voce": "Porta sempre con sé una tavola di legno e aiuta nei lavori edilizi. Quando cresce si sceglie una tavola più grande.",
+    "giochi": [
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "voce": "Sempre furioso e tenace, perseguiterà la sua preda finché non l'avrà catturata.",
+    "giochi": [
+      "Rosso",
+      "Blu",
+      "Verde Foglia"
+    ]
+  },
+  {
+    "voce": "Questo POKéMON è costantemente furioso e si calma solo nella solitudine più assoluta.",
+    "giochi": [
+      "Giallo",
+      "X"
+    ]
+  },
+  {
+    "voce": "Se lo si avvicina mentre dorme può scagliarsi con rabbia all'inseguimento, mezzo addormentato.",
+    "giochi": [
+      "Oro",
+      "HeartGold"
+    ]
+  },
+  {
+    "voce": "Diventa furioso se si sente osservato. Attacca chiunque incontri il suo sguardo.",
+    "giochi": [
+      "Argento",
+      "SoulSilver"
+    ]
+  },
+  {
+    "voce": "Prima o poi picchia chiunque lo faccia adirare, anche a costo di inseguirlo fino in capo al mondo.",
+    "giochi": [
+      "Cristallo"
+    ]
+  },
+  {
+    "voce": "Quando PRIMEAPE s'infuria, la circolazione sanguigna si fa intensa, irrobustendo i suoi muscoli. Allo stesso tempo, tuttavia, perde anche la sua lucidità e intelligenza.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Smeraldo",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Va facilmente su tutte le furie. Se insegue una preda, non si dà per vinto finché non l'ha catturata.",
+    "giochi": [
+      "Rosso Fuoco",
+      "Y"
+    ]
+  },
+  {
+    "voce": "Se lo guardi fisso negli occhi, si adira. Se corri, s'infuria. Se poi lo sconfiggi, s'arrabbia ancor di più.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2"
+    ]
+  }
+]

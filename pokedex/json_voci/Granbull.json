@@ -1,0 +1,63 @@
+[
+  {
+    "voce": "È timido e facile da spaventare. Se è attaccato, inizia ad agitarsi per tenere lontano il nemico.",
+    "giochi": [
+      "Oro",
+      "Verde Foglia",
+      "HeartGold"
+    ]
+  },
+  {
+    "voce": "Sta sempre con il capo piegato in avanti, perché ha i denti troppo pesanti. Il suo MORSO è potente.",
+    "giochi": [
+      "Argento",
+      "Rosso Fuoco"
+    ]
+  },
+  {
+    "voce": "Se spalanca la bocca mostrando i grandi denti, quasi tutti i POKéMON fuggono spaventati.",
+    "giochi": [
+      "Cristallo",
+      "Y"
+    ]
+  },
+  {
+    "voce": "GRANBULL è dotato di una mascella inferiore particolarmente sviluppata. A causa delle enormi e pesanti zanne deve inclinare la testa per mantenersi in equilibrio. Se non è spaventato, non morde in modo inconsulto.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro"
+    ]
+  },
+  {
+    "voce": "GRANBULL è dotato di una mascella inferiore molto sviluppata. A causa delle enormi zanne, inclina la testa per stare in equilibrio. Morde solo se viene spaventato.",
+    "giochi": [
+      "Smeraldo"
+    ]
+  },
+  {
+    "voce": "Malgrado il suo aspetto, è molto timido. Se si arrabbia, tuttavia, colpisce con le sue enormi zanne.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "X"
+    ]
+  },
+  {
+    "voce": "Sta sempre con il capo piegato in avanti, perché ha le zanne troppo pesanti. Il suo morso è potente.",
+    "giochi": [
+      "SoulSilver"
+    ]
+  },
+  {
+    "voce": "Granbull è dotato di una mascella inferiore particolarmente sviluppata. A causa delle enormi e pesanti zanne deve inclinare la testa per mantenersi in equilibrio. Se non è spaventato, non morde in modo inconsulto.",
+    "giochi": [
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  }
+]

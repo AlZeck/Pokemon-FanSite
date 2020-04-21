@@ -1,0 +1,50 @@
+[
+  {
+    "voce": "Pare che ogni SPINDA esistente abbia un motivo maculato unico rispetto agli altri. Il suo passo barcollante e malsicuro dà l'impressione che stia ballando.",
+    "giochi": [
+      "Rubino",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Pare che non esistano due SPINDA dall'identico motivo maculato. Questo POKéMON si muove in modo curioso barcollando come in preda alle vertigini. Tale comportamento può confondere l'avversario.",
+    "giochi": [
+      "Zaffiro",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Ogni esemplare di SPINDA ha un diverso motivo maculato sul corpo. Il suo passo incerto e barcollante confonde il nemico, che non riesce a prenderlo di mira.",
+    "giochi": [
+      "Smeraldo"
+    ]
+  },
+  {
+    "voce": "Ogni SPINDA ha un diverso disegno sul corpo. I suoi movimenti confusi disorientano i nemici.",
+    "giochi": [
+      "Rosso Fuoco",
+      "Verde Foglia"
+    ]
+  },
+  {
+    "voce": "Non ci sono due SPINDA con lo stesso motivo maculato. Il suo passo barcollante confonde i nemici.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "X"
+    ]
+  },
+  {
+    "voce": "La probabilità che due SPINDA con lo stesso disegno si incontrino è praticamente nulla.",
+    "giochi": [
+      "HeartGold",
+      "SoulSilver",
+      "Y"
+    ]
+  }
+]

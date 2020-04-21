@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "Immagazzina cibo nelle guance e monta la guardia per molti giorni di seguito. Usa la coda per fare segnali ai compagni.",
+    "giochi": [
+      "Nero",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "È molto guardingo e fa a turno coi suoi simili per non lasciare la tana sguarnita, altrimenti non si sente al sicuro.",
+    "giochi": [
+      "Bianco"
+    ]
+  },
+  {
+    "voce": "Sono molto guardinghi, e almeno uno del branco è sempre di guardia. Non vedono però il nemico se li attacca da dietro.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  }
+]

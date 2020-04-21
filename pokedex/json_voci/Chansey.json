@@ -1,0 +1,76 @@
+[
+  {
+    "voce": "Questo POKéMON raro e sfuggente si dice che porti la felicità a chiunque riesca a catturarlo.",
+    "giochi": [
+      "Rosso",
+      "Blu",
+      "Verde Foglia"
+    ]
+  },
+  {
+    "voce": "Un POKéMON gentile e generoso pronto a condividere le sue nutrienti uova con chi si trova in difficoltà.",
+    "giochi": [
+      "Giallo"
+    ]
+  },
+  {
+    "voce": "Cammina con prudenza per non rompere il suo uovo. Tuttavia, può fuggire con estrema rapidità.",
+    "giochi": [
+      "Oro",
+      "HeartGold"
+    ]
+  },
+  {
+    "voce": "Poco numerosi e difficili da prendere, si dice che portino fortuna a chi riesce a catturarli.",
+    "giochi": [
+      "Argento",
+      "SoulSilver"
+    ]
+  },
+  {
+    "voce": "Molti provano a catturarlo per le uova molto nutrienti, ma si fa vedere molto raramente.",
+    "giochi": [
+      "Cristallo"
+    ]
+  },
+  {
+    "voce": "Ogni giorno CHANSEY depone uova molto nutrienti. Queste uova sono così buone da far tornare l'appetito a chi lo ha perso.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Smeraldo",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Ogni giorno depone diverse uova, che sembrano essere deliziose e molto nutrienti.",
+    "giochi": [
+      "Rosso Fuoco",
+      "Y"
+    ]
+  },
+  {
+    "voce": "Si dice che porti felicità. È molto altruista e condivide le uova con chi è ferito.",
+    "giochi": [
+      "Diamante",
+      "X"
+    ]
+  },
+  {
+    "voce": "Depone molte uova al giorno e non le condivide con chi ha un animo malvagio.",
+    "giochi": [
+      "Perla"
+    ]
+  },
+  {
+    "voce": "Un Pokémon altruista che depone uova molto nutrienti. Le condivide con persone o Pokémon feriti.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2"
+    ]
+  }
+]

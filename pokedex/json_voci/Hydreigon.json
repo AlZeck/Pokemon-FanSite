@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "È molto aggressivo e pattuglia i cieli volando con le sue sei ali. Attacca tutto ciò che si muove, ritenendolo un nemico.",
+    "giochi": [
+      "Nero"
+    ]
+  },
+  {
+    "voce": "Le teste che ha sugli arti non hanno cervello. Distrugge e divora qualsiasi cosa usando tutte e tre le teste.",
+    "giochi": [
+      "Bianco",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "È davvero terrificante. Reagisce a ogni cosa che si muove, attaccandola e sbranandola con le sue tre teste.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  }
+]

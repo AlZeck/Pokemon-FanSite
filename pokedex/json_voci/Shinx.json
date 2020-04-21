@@ -1,0 +1,35 @@
+[
+  {
+    "voce": "In caso di pericolo, la sua pelliccia si illumina. Il nemico rimane accecato e lui ne approfitta per fuggire.",
+    "giochi": [
+      "Diamante",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "È in grado di generare elettricità con i muscoli delle zampe anteriori. Il suo corpo brilla se è in pericolo.",
+    "giochi": [
+      "Perla"
+    ]
+  },
+  {
+    "voce": "Produce elettricità contraendo e rilassando i muscoli. Quando si sente minacciato si illumina.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Produce elettricità stiracchiando i muscoli. In caso di pericolo, la sua pelliccia si illumina abbagliando.",
+    "giochi": [
+      "HeartGold",
+      "SoulSilver"
+    ]
+  }
+]

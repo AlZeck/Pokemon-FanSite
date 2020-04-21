@@ -1,0 +1,30 @@
+[
+  {
+    "voce": "Pokémon che vive in un mondo sul lato opposto al nostro. Appare in cimiteri antichi.",
+    "giochi": [
+      "Diamante",
+      "Perla"
+    ]
+  },
+  {
+    "voce": "È stato bandito per la sua violenza. Osserva il vecchio mondo in silenzio dal Mondo Distorto.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Vive nel Mondo Distorto, che, sfidando l’ordine cosmico, si trova sul lato opposto al nostro.",
+    "giochi": [
+      "HeartGold",
+      "SoulSilver",
+      "X",
+      "Rubino Omega"
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "La sua pelliccia prende il colore e l'odore dell'erba dei prati. Se avverte un pericolo, si nasconde tra i cespugli.",
+    "giochi": [
+      "Nero"
+    ]
+  },
+  {
+    "voce": "Al cambio di stagione, muta la pelliccia e l'odore. È un Pokémon che annuncia il passaggio delle stagioni.",
+    "giochi": [
+      "Bianco",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Il suo corpo muta non solo a seconda della stagione ma in misura minore anche al cambiare di temperatura e umidità.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "X",
+      "Rubino Omega"
+    ]
+  }
+]

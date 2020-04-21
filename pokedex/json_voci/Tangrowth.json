@@ -1,0 +1,40 @@
+[
+  {
+    "voce": "Intrappola le prede con gli arti, che sono costituiti da liane. Se ne perde uno, non si turba affatto.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "I suoi arti sono composti da liane che si avvinghiano agli oggetti. Se tagliati ricrescono subito.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco"
+    ]
+  },
+  {
+    "voce": "Se resta immobile, è visibile solo nella fitta boscaglia. Intrappola con liane l'incauta preda.",
+    "giochi": [
+      "HeartGold"
+    ]
+  },
+  {
+    "voce": "Nella stagione calda, le sue liane crescono al punto da coprirgli gli occhi.",
+    "giochi": [
+      "SoulSilver",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Non si preoccupa di perdere un arto. La sua forza rigeneratrice è così potente da farglielo ricrescere in un istante.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2"
+    ]
+  }
+]

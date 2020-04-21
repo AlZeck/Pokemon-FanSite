@@ -1,0 +1,53 @@
+[
+  {
+    "voce": "Se perde un dente gliene ricresce un altro. La sua bocca contiene sempre 48 denti.",
+    "giochi": [
+      "Oro",
+      "Verde Foglia",
+      "HeartGold",
+      "X"
+    ]
+  },
+  {
+    "voce": "Quando attacca, spalanca le grandi mascelle. Se morsicando perde un dente, gli ricresce.",
+    "giochi": [
+      "Argento",
+      "Rosso Fuoco",
+      "SoulSilver"
+    ]
+  },
+  {
+    "voce": "La punta dei denti è inclinata verso l'interno. Quando si chiudono, la vittima non ha scampo.",
+    "giochi": [
+      "Cristallo"
+    ]
+  },
+  {
+    "voce": "Una volta azzannato il nemico, CROCONAW non molla la presa facilmente. Le zanne a punta ricurva all'indietro, a mo' di amo da pesca, rendono impossibile estrarle quando sono conficcate in profondità.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Una volta azzannato il nemico, CROCONAW non molla la presa facilmente. Le zanne ricurve a mo' di amo da pesca non si possono estrarre se conficcate in profondità.",
+    "giochi": [
+      "Smeraldo"
+    ]
+  },
+  {
+    "voce": "Quando azzanna il nemico, non molla la presa finché non gli cadono le zanne, che però ricrescono subito.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "Y"
+    ]
+  }
+]

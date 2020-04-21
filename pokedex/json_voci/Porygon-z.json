@@ -1,0 +1,30 @@
+[
+  {
+    "voce": "È stato aggiunto un software per migliorare le prestazioni di questo Pokémon. Agisce in modo strano.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "È stato riprogrammato per il lavoro in dimensioni sconosciute, ma pare non funzionare correttamente.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2"
+    ]
+  },
+  {
+    "voce": "Non sembra funzionare correttamente dopo essere stato riprogrammato per muoversi in dimensioni sconosciute.",
+    "giochi": [
+      "HeartGold",
+      "SoulSilver",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  }
+]

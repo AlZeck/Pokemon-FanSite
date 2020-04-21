@@ -1,0 +1,35 @@
+[
+  {
+    "voce": "Vive in territori aridi. Invece del sudore, espelle dal corpo sabbia granulosa.",
+    "giochi": [
+      "Diamante",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Si ricopre di sabbia per proteggersi dai germi. Non ama bagnarsi.",
+    "giochi": [
+      "Perla",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Chiude le narici e poi si sposta attraverso la sabbia. Vive in gruppi di 10.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2"
+    ]
+  },
+  {
+    "voce": "Si ricopre di sabbia per proteggersi dai germi. Si sposta attraverso le dune del deserto.",
+    "giochi": [
+      "HeartGold",
+      "SoulSilver"
+    ]
+  }
+]

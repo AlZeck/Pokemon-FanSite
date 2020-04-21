@@ -1,0 +1,30 @@
+[
+  {
+    "voce": "Emana un forte magnetismo da tutto il corpo. Controlla tre piccole unità, dette Mininasi.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Controlla tre piccole unità, dette Mininasi, usando la forza magnetica.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Controllando magneticamente tre piccole unità dette Mininasi, può battere il nemico da tre punti diversi.",
+    "giochi": [
+      "HeartGold",
+      "SoulSilver"
+    ]
+  }
+]

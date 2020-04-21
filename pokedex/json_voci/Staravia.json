@@ -1,0 +1,40 @@
+[
+  {
+    "voce": "Vola nelle foreste e nei campi in cerca di Pokémon coleottero. Si muove in grandi gruppi.",
+    "giochi": [
+      "Diamante"
+    ]
+  },
+  {
+    "voce": "Vive nelle foreste e nei campi. Se alcuni gruppi si scontrano, danno inizio alla lotta per il territorio.",
+    "giochi": [
+      "Perla"
+    ]
+  },
+  {
+    "voce": "Conscio della propria debolezza, vive in gruppo. Quando è da solo, STARAVIA emette forti versi.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2"
+    ]
+  },
+  {
+    "voce": "Ha l'abitudine di riunirsi in grandi gruppi. Le zuffe tra gruppi sono particolarmente vivaci.",
+    "giochi": [
+      "HeartGold",
+      "SoulSilver",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Vive nelle foreste e nei campi muovendosi in grandi gruppi. Se due gruppi si incontrano, lottano per il territorio.",
+    "giochi": [
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  }
+]

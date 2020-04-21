@@ -1,0 +1,71 @@
+[
+  {
+    "voce": "Spesso presente nei boschi, si nutre di foglie. Ha un velenoso pungiglione sulla testa.",
+    "giochi": [
+      "Rosso",
+      "Blu",
+      "Verde Foglia"
+    ]
+  },
+  {
+    "voce": "Ha un pungiglione affilato sul capo. Vive tra l'erba alta e i cespugli dove si nutre di foglie.",
+    "giochi": [
+      "Giallo"
+    ]
+  },
+  {
+    "voce": "Ha un pungiglione molto velenoso. La vivace colorazione del suo corpo è un avvertimento per i nemici.",
+    "giochi": [
+      "Oro",
+      "HeartGold",
+      "Y"
+    ]
+  },
+  {
+    "voce": "Attacca con l'aculeo lungo 5 cm che ha sul capo. È facile trovarlo sotto le foglie di cui si nutre.",
+    "giochi": [
+      "Argento",
+      "SoulSilver"
+    ]
+  },
+  {
+    "voce": "L'aculeo sulla testa secerne un potente veleno, che usa per proteggersi dai nemici.",
+    "giochi": [
+      "Cristallo"
+    ]
+  },
+  {
+    "voce": "WEEDLE ha un senso dell'olfatto estremamente sviluppato. Riesce a distinguere le sue foglie preferite da quelle che lo disgustano, semplicemente annusandole con il grande naso rosso.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Il senso dell'olfatto di WEEDLE è molto sviluppato. Distingue le sue foglie preferite da quelle che lo disgustano annusandole con il grande naso rosso.",
+    "giochi": [
+      "Smeraldo"
+    ]
+  },
+  {
+    "voce": "Vive soprattutto nei boschi e nei prati. Sul capo ha un affilato e velenoso pungiglione lungo cinque centimetri.",
+    "giochi": [
+      "Rosso Fuoco",
+      "X"
+    ]
+  },
+  {
+    "voce": "Divora ogni giorno una quantità di foglie pari al suo peso. Respinge i nemici con l'aculeo sulla testa.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2"
+    ]
+  }
+]

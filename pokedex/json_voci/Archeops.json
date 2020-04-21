@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "Spicca il volo prendendo la rincorsa da terra. Collabora coi suoi simili per catturare le prede.",
+    "giochi": [
+      "Nero",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "È più versato nella corsa che nel volo. Cattura le prede correndo a una velocità pari a quella di un'automobile.",
+    "giochi": [
+      "Bianco"
+    ]
+  },
+  {
+    "voce": "È più versato nella corsa che nel volo. Si lancia in aria a una velocità di 40 km/h sbattendo le ali.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  }
+]

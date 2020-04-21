@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "Comunicano il loro stato d'animo cambiando senso di rotazione. Più si arrabbiano, più girano velocemente.",
+    "giochi": [
+      "Nero",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Esegue attacchi ripetuti lanciando i suoi minuscoli ingranaggi a gran velocità ma, se non ritornano, è in seria difficoltà.",
+    "giochi": [
+      "Bianco"
+    ]
+  },
+  {
+    "voce": "È formato da un ingranaggio grande e uno piccolo. Attacca con quello piccolo ma se non torna, è in seria difficoltà.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  }
+]

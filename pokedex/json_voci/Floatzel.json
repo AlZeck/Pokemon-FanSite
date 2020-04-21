@@ -1,0 +1,35 @@
+[
+  {
+    "voce": "Nuota con il suo grosso galleggiante e aiuta a soccorrere chi sta per annegare.",
+    "giochi": [
+      "Diamante",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Il suo galleggiante, che funge da gommone, si è sviluppato perché caccia le prede nell'acqua.",
+    "giochi": [
+      "Perla",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Si vede spesso vicino ai porti dove si pesca. Porta in salvo le persone e trascina via le prede.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2"
+    ]
+  },
+  {
+    "voce": "Se gonfia il galleggiante riesce a soccorrere chi sta per annegare. Lo sgonfia per immergersi.",
+    "giochi": [
+      "HeartGold",
+      "SoulSilver"
+    ]
+  }
+]

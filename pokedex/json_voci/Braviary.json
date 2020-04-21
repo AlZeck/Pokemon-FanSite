@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "Incurante del pericolo, lotta per difendere i compagni. Può sollevare in volo anche una pesante automobile.",
+    "giochi": [
+      "Nero",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "È l'intrepido guerriero del cielo. Si dice che sia tanto più rispettato dai suoi simili quante più sono le sue cicatrici.",
+    "giochi": [
+      "Bianco"
+    ]
+  },
+  {
+    "voce": "È l'intrepido guerriero del cielo. Per difendere i suoi simili, lotta fino all'ultimo senza badare alle ferite.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "X",
+      "Rubino Omega"
+    ]
+  }
+]

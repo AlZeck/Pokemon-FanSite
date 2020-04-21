@@ -1,0 +1,35 @@
+[
+  {
+    "voce": "Si protegge spruzzando un fluido puzzolente dal posteriore. Il tanfo permane per 24 ore.",
+    "giochi": [
+      "Diamante",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Spruzza un fluido puzzolente e disgustoso dal posteriore per allontanare i nemici.",
+    "giochi": [
+      "Perla"
+    ]
+  },
+  {
+    "voce": "Emette un fluido puzzolente dal posteriore. Il tanfo si sparge per 2 km e tiene lontani i Pokémon.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Dal posteriore spruzza un liquido talmente puzzolente che ci si sente male anche a due km di distanza.",
+    "giochi": [
+      "HeartGold",
+      "SoulSilver"
+    ]
+  }
+]

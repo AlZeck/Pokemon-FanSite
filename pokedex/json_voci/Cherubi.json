@@ -1,0 +1,35 @@
+[
+  {
+    "voce": "La pallina contiene i nutrimenti necessari per l'evoluzione. Dicono che sia molto dolce e deliziosa.",
+    "giochi": [
+      "Diamante"
+    ]
+  },
+  {
+    "voce": "La luce solare lo tinge di rosso. Se la pallina esaurisce i nutrimenti, si avvizzisce indicando l'evoluzione.",
+    "giochi": [
+      "Perla",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "La pallina, oltre a contenere sostanze nutritive, è molto gustosa. STARLY cerca spesso di beccarla.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2"
+    ]
+  },
+  {
+    "voce": "Ricava l'energia necessaria all'evoluzione dalla pallina, ricca di sostanze nutritive.",
+    "giochi": [
+      "HeartGold",
+      "SoulSilver",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  }
+]

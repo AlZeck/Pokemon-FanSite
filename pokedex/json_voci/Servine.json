@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "Corre quasi scivolando sulle superfici. Confonde il nemico con i rapidi movimenti, per poi attaccarlo con una frustata.",
+    "giochi": [
+      "Nero",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Evita gli attacchi sgusciando tra la folta vegetazione. Contrattacca poi con abili colpi di frusta.",
+    "giochi": [
+      "Bianco"
+    ]
+  },
+  {
+    "voce": "Se si sporca, le sue foglie non possono più effettuare la fotosintesi, perciò si tiene sempre molto pulito.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  }
+]

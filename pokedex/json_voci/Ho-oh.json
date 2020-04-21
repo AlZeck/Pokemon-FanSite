@@ -1,0 +1,53 @@
+[
+  {
+    "voce": "Narra la leggenda che questo POKéMON sorvoli instancabilmente il mondo con splendide ali dai sette colori.",
+    "giochi": [
+      "Oro",
+      "Verde Foglia",
+      "HeartGold"
+    ]
+  },
+  {
+    "voce": "Narra la leggenda che il suo corpo brilli di sette colori. Volando lascia un arcobaleno dietro di sé.",
+    "giochi": [
+      "Argento",
+      "Rosso Fuoco",
+      "SoulSilver",
+      "X"
+    ]
+  },
+  {
+    "voce": "Può mostrarsi ad un allenatore puro di cuore spiegando le ali, che hanno i colori dell'arcobaleno.",
+    "giochi": [
+      "Cristallo",
+      "Y"
+    ]
+  },
+  {
+    "voce": "Il piumaggio di HO-OH brilla in sette colori a seconda dell'angolazione dei raggi luminosi. Si dice che le sue piume portino felicità a chi le possiede. Si narra che viva ai piedi di un arcobaleno.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Il piumaggio di HO-OH emana sette colori a seconda dell'angolazione dei raggi. Si dice che le sue piume portino felicità e che viva ai piedi di un arcobaleno.",
+    "giochi": [
+      "Smeraldo"
+    ]
+  },
+  {
+    "voce": "Le sue piume sono di sette colori. Si dice che chiunque lo veda sarà per sempre felice.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2"
+    ]
+  }
+]

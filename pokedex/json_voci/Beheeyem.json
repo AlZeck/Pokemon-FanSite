@@ -1,0 +1,30 @@
+[
+  {
+    "voce": "Può manipolare i ricordi dell'avversario. Pare che comunichi con i suoi simili facendo lampeggiare le dita a tre colori.",
+    "giochi": [
+      "Nero"
+    ]
+  },
+  {
+    "voce": "Controlla il cervello dell'avversario con poteri psichici e ne sostituisce i ricordi.",
+    "giochi": [
+      "Bianco",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Dialoga con i suoi simili con le luci dei suoi arti, ma la sua lingua è ancora un mistero.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2"
+    ]
+  },
+  {
+    "voce": "Dialoga con i suoi simili tramite le luci sui suoi arti, ma il suo linguaggio è ancora un mistero.",
+    "giochi": [
+      "X",
+      "Rubino Omega"
+    ]
+  }
+]

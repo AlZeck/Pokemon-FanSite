@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "Ha il vizio di mordere tutto e mangia qualsiasi cosa gli passi davanti. È pericoloso avvicinarlo senza cautela.",
+    "giochi": [
+      "Nero"
+    ]
+  },
+  {
+    "voce": "Dal momento che non ci vede, esamina ciò che lo circonda mordendo o lanciandosi di peso. Ha ammaccature su tutto il corpo.",
+    "giochi": [
+      "Bianco",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Non vede bene ciò che lo circonda e sbatte qua e là mordendo e mangiando tutto ciò che si muove.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  }
+]

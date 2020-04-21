@@ -1,0 +1,76 @@
+[
+  {
+    "voce": "Questo POKéMON è vulnerabile agli attacchi quando la corazza è morbida e il corpo fragile.",
+    "giochi": [
+      "Rosso",
+      "Blu"
+    ]
+  },
+  {
+    "voce": "Per difendersi indurisce la corazza, ma un colpo violento può scaraventarlo fuori dal guscio.",
+    "giochi": [
+      "Giallo"
+    ]
+  },
+  {
+    "voce": "Morbido e debole dentro al suo guscio, si prepara ad evolversi. Nel guscio non fa alcun movimento.",
+    "giochi": [
+      "Oro",
+      "HeartGold"
+    ]
+  },
+  {
+    "voce": "Prepara l'evoluzione indurendo il guscio il più possibile, per proteggere il morbido corpo.",
+    "giochi": [
+      "Argento",
+      "SoulSilver"
+    ]
+  },
+  {
+    "voce": "In questa forma preevoluta può solo indurirsi. Per questo evita gli attacchi restando immobile.",
+    "giochi": [
+      "Cristallo"
+    ]
+  },
+  {
+    "voce": "La corazza di questo POKéMON è dura come una lastra di ferro. METAPOD non si muove molto. Sta immobile per preparare il morbido interno della dura corazza all'evoluzione.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "La corazza di METAPOD è dura come una lastra di ferro. Sta spesso immobile per preparare il morbido interno della dura corazza all'evoluzione.",
+    "giochi": [
+      "Smeraldo"
+    ]
+  },
+  {
+    "voce": "Il corpo all'interno del guscio è fragile e non può resistere ad attacchi particolarmente veementi.",
+    "giochi": [
+      "Rosso Fuoco"
+    ]
+  },
+  {
+    "voce": "Quando la sua corazza è morbida, il corpo fragile di questo POKéMON è più vulnerabile agli attacchi.",
+    "giochi": [
+      "Verde Foglia",
+      "Y"
+    ]
+  },
+  {
+    "voce": "Ha una corazza dura come l'acciaio che protegge il suo fragile corpo. Attende immobile di evolversi.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "X"
+    ]
+  }
+]

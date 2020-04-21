@@ -1,0 +1,35 @@
+[
+  {
+    "voce": "Si serve degli arti come schiaccianoci per rompere le bacche. Affronta con valore anche i nemici più forti.",
+    "giochi": [
+      "Nero",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Sfida indiscriminatamente avversari anche più forti di lui. Si irrobustisce a forza di lottare.",
+    "giochi": [
+      "Bianco",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Sfida avversari più grandi di lui, più per sconsideratezza che per coraggio. È così che si allena per diventare più forte.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2"
+    ]
+  },
+  {
+    "voce": "Rompono le bacche con gli artigli. Coraggiosamente, sfidano avversari più potenti di loro senza porsi problemi.",
+    "giochi": [
+      "X"
+    ]
+  },
+  {
+    "voce": "Sfidano chiunque, anche gli avversari più forti, senza temere nulla. Le loro frequenti lotte li aiutano a diventare più forti.",
+    "giochi": [
+      "Y"
+    ]
+  }
+]

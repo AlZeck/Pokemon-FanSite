@@ -1,0 +1,76 @@
+[
+  {
+    "voce": "POKéMON molto competitivo rincorre tutto ciò che si muove veloce, sperando di superarlo.",
+    "giochi": [
+      "Rosso",
+      "Blu",
+      "Verde Foglia",
+      "X"
+    ]
+  },
+  {
+    "voce": "Questo POKéMON è veloce come una saetta. Insegue con foga tutto ciò che si muove rapidamente.",
+    "giochi": [
+      "Giallo"
+    ]
+  },
+  {
+    "voce": "Quando è lanciato al galoppo corre così velocemente che le sue zampe quasi non toccano terra.",
+    "giochi": [
+      "Oro",
+      "HeartGold"
+    ]
+  },
+  {
+    "voce": "Ha un'incredibile accelerazione: raggiunge la sua massima velocità (240 km/h) in soli dieci passi.",
+    "giochi": [
+      "Argento",
+      "SoulSilver"
+    ]
+  },
+  {
+    "voce": "Il galoppo è la sua grande passione. Più accelera, più crescono le fiamme della criniera.",
+    "giochi": [
+      "Cristallo"
+    ]
+  },
+  {
+    "voce": "RAPIDASH si vede comunemente galoppare in campagne e pianure. Quando si lancia a tutta velocità la sua fiera criniera brilla e arde mentre galoppa fino a 240 km/h.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Smeraldo",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Raggiunge la velocità di 240 km/h. Quando è in fiamme può competere con un treno superveloce.",
+    "giochi": [
+      "Rosso Fuoco"
+    ]
+  },
+  {
+    "voce": "Galoppa alla velocità di 240 km/h. Corre come una freccia facendo ondeggiare la criniera ardente.",
+    "giochi": [
+      "Diamante",
+      "Y"
+    ]
+  },
+  {
+    "voce": "Ha un'accelerazione sbalorditiva. Da fermo raggiunge la velocità massima in 10 balzi.",
+    "giochi": [
+      "Perla"
+    ]
+  },
+  {
+    "voce": "Quando galoppa, la sua criniera ardente brilla, rendendo il suo aspetto ancora più straordinario.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2"
+    ]
+  }
+]

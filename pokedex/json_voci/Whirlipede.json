@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "È protetto da un guscio resistente. Si scaglia contro il nemico rotolando come uno pneumatico.",
+    "giochi": [
+      "Nero",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Di solito non si muove, ma se viene attaccato, comincia a turbinare su se stesso e si scaglia contro il nemico.",
+    "giochi": [
+      "Bianco",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Si muove poco in attesa dell'evoluzione, ma se un nemico s'avvicina non esita a colpirlo con le spine velenose.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2"
+    ]
+  }
+]

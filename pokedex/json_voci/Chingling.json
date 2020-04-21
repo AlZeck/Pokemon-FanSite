@@ -1,0 +1,35 @@
+[
+  {
+    "voce": "Emette versi muovendo la sfera che ha nella gola. Si muove saltellando agilmente.",
+    "giochi": [
+      "Diamante"
+    ]
+  },
+  {
+    "voce": "Ad ogni salto produce un suono che sembra uno squillo. I suoi versi ad alta frequenza assordano i nemici.",
+    "giochi": [
+      "Perla",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Ha una sfera nella gola. Quando saltella, la sfera si muove emettendo dei trilli.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Emette un verso ad alta frequenza insopportabile all'orecchio umano. Se comincia, non finisce più.",
+    "giochi": [
+      "HeartGold",
+      "SoulSilver"
+    ]
+  }
+]

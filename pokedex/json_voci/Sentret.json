@@ -1,0 +1,63 @@
+[
+  {
+    "voce": "È un POKéMON molto cauto, che si alza da terra con la coda per scrutare i dintorni.",
+    "giochi": [
+      "Oro",
+      "Verde Foglia"
+    ]
+  },
+  {
+    "voce": "Ritto sulla coda, guarda lontano. Se nota un nemico fa forti versi per avvertire quelli della sua specie.",
+    "giochi": [
+      "Argento",
+      "SoulSilver",
+      "Y"
+    ]
+  },
+  {
+    "voce": "La vedetta avverte i suoi compagni del pericolo gridando e battendo la coda sul terreno.",
+    "giochi": [
+      "Cristallo",
+      "X"
+    ]
+  },
+  {
+    "voce": "SENTRET dorme soltanto se un suo simile rimane vigile. La vedetta allerta gli altri al primo segnale di pericolo. Se viene allontanato dal branco, questo POKéMON non riesce più a dormire dalla paura.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "SENTRET dorme soltanto se un suo simile rimane vigile. La vedetta allerta gli altri del pericolo. Se viene allontanato dal branco, non dorme più dalla paura.",
+    "giochi": [
+      "Smeraldo"
+    ]
+  },
+  {
+    "voce": "Ritto sulla coda, guarda lontano. Se nota un nemico lancia forti grida per avvertire i suoi simili.",
+    "giochi": [
+      "Rosso Fuoco"
+    ]
+  },
+  {
+    "voce": "Ha un'indole alquanto nervosa. Sta ritto sulla punta della coda per riuscire a sorvegliare ampie aree.",
+    "giochi": [
+      "Diamante",
+      "Perla",
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2"
+    ]
+  },
+  {
+    "voce": "Pokémon molto cauto. Si alza da terra con la coda per scrutare i dintorni.",
+    "giochi": [
+      "HeartGold"
+    ]
+  }
+]

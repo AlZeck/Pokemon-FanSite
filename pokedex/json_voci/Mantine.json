@@ -1,0 +1,68 @@
+[
+  {
+    "voce": "Nuotando maestosamente, neppure si accorge se un REMORAID gli sta attaccato per mangiarne gli avanzi.",
+    "giochi": [
+      "Oro",
+      "Verde Foglia",
+      "HeartGold"
+    ]
+  },
+  {
+    "voce": "Nuotando libero in mare aperto, se acquista velocità può uscire dall'acqua volando sulle onde.",
+    "giochi": [
+      "Argento",
+      "Rosso Fuoco"
+    ]
+  },
+  {
+    "voce": "Nuota libero nell'acqua e inghiotte tutto ciò che gli finisce in bocca. Il corpo è molto ruvido.",
+    "giochi": [
+      "Cristallo"
+    ]
+  },
+  {
+    "voce": "Nelle giornate soleggiate è possibile vedere branchi di MANTINE nuotare con eleganza sulle onde marine. Talvolta offrono anche un comodo trasporto ai REMORAID.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Smeraldo",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Quando il mare è calmo, è possibile vedere branchi di MANTINE nuotare leggiadri come se volassero.",
+    "giochi": [
+      "Diamante"
+    ]
+  },
+  {
+    "voce": "Nuota elegantemente senza pensare a REMORAID, attaccato alle sue ampie pinne. Ha un’indole docile.",
+    "giochi": [
+      "Perla"
+    ]
+  },
+  {
+    "voce": "Nuota in mare con eleganza e ignora i REMORAID che gli si attaccano alle pinne in cerca di avanzi di cibo.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Y"
+    ]
+  },
+  {
+    "voce": "Quando nuota libero in mare aperto acquista velocità e schizza fuori dall'acqua per volare sulle onde.",
+    "giochi": [
+      "SoulSilver"
+    ]
+  },
+  {
+    "voce": "Prende velocità nuotando e, quando è pronto, usa le onde come trampolini per saltare a volte anche fino a 100 metri.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "X"
+    ]
+  }
+]

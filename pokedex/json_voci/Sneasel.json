@@ -1,0 +1,73 @@
+[
+  {
+    "voce": "Le zampe nascondono artigli affilati. Se è attaccato, sferra gli artigli spaventando i nemici.",
+    "giochi": [
+      "Oro",
+      "Verde Foglia",
+      "HeartGold",
+      "Y"
+    ]
+  },
+  {
+    "voce": "Di spirito malevolo, spinge i PIDGEY ad abbandonare il nido per avventarsi sulle uova incustodite.",
+    "giochi": [
+      "Argento",
+      "SoulSilver"
+    ]
+  },
+  {
+    "voce": "Questo POKéMON scaltro si nasconde nel buio notturno, attendendo la preda.",
+    "giochi": [
+      "Cristallo"
+    ]
+  },
+  {
+    "voce": "SNEASEL si arrampica sugli alberi conficcando i suoi artigli uncinati nella corteccia. È sempre alla ricerca di nidi incustoditi per rubare le uova e cibarsene mentre i genitori sono assenti.",
+    "giochi": [
+      "Rubino",
+      "Zaffiro",
+      "Rubino Omega",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "SNEASEL usa i suoi artigli uncinati per arrampicarsi sugli alberi. È sempre alla ricerca di nidi incustoditi per cibarsi delle uova mentre i genitori sono assenti.",
+    "giochi": [
+      "Smeraldo"
+    ]
+  },
+  {
+    "voce": "Di spirito malevolo, spinge i PIDGEY a lasciare il proprio nido per poi avventarsi sulle uova incustodite.",
+    "giochi": [
+      "Rosso Fuoco"
+    ]
+  },
+  {
+    "voce": "Mangia uova rubate dai nidi. Attacca i nemici nei punti deboli con i suoi artigli uncinati.",
+    "giochi": [
+      "Diamante",
+      "X"
+    ]
+  },
+  {
+    "voce": "È spietatissimo e continua ad attaccare il nemico finché questo non è più capace di muoversi.",
+    "giochi": [
+      "Perla"
+    ]
+  },
+  {
+    "voce": "Un Pokémon furbo e subdolo. Attira altri Pokémon lontano dal nido, mentre un altro ruba le uova.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco"
+    ]
+  },
+  {
+    "voce": "Un Pokémon scaltro e imprevedibile. Fa tentennare l'avversario sguainando i suoi lunghi artigli all'improvviso.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2"
+    ]
+  }
+]

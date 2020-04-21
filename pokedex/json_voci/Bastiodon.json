@@ -1,0 +1,35 @@
+[
+  {
+    "voce": "Respinge qualsiasi attacco frontale. È un Pokémon docile che si nutre di erba e di bacche.",
+    "giochi": [
+      "Diamante",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Se più esemplari vengono attaccati, formano un muro protettivo con i loro musi per proteggere i cuccioli.",
+    "giochi": [
+      "Perla"
+    ]
+  },
+  {
+    "voce": "Se si mettono uno di fianco all'altro nessun nemico riesce a passare. Proteggono così i loro cuccioli.",
+    "giochi": [
+      "Platino",
+      "Nero",
+      "Bianco",
+      "Nero 2",
+      "Bianco 2",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Se attaccati dal nemico si mettono uno di fianco all'altro e si difendono a muso duro.",
+    "giochi": [
+      "HeartGold",
+      "SoulSilver"
+    ]
+  }
+]

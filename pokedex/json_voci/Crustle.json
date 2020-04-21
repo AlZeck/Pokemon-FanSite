@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "I Crustle si disputano il territorio lottando ferocemente. Vince chi distrugge la roccia del rivale.",
+    "giochi": [
+      "Nero",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Ha una tale forza nelle gambe, che può spostarsi per giorni in zone aride con una pesante roccia sulle spalle.",
+    "giochi": [
+      "Bianco",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Se durante una lotta per il territorio la sua roccia viene distrutta, si fa prendere dall'ansia e diventa più debole.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2"
+    ]
+  }
+]

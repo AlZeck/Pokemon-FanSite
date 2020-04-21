@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "Striscia fuori dal mare con la sola forza dei propri arti. Poi attacca la preda a riva e con un guizzo la trascina con sé.",
+    "giochi": [
+      "Nero",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Si attacca alla preda con la bocca a ventosa e la fulmina attraverso i denti conficcati.",
+    "giochi": [
+      "Bianco",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Si attacca alla preda con la bocca a ventosa, conficca i denti nel suo corpo e rilascia una potente scarica elettrica.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2"
+    ]
+  }
+]

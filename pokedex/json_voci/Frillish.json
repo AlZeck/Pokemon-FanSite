@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "Avvolge l'avversario con i suoi arti simili a un velo sottile e lo trascina sul fondo del mare.",
+    "giochi": [
+      "Nero"
+    ]
+  },
+  {
+    "voce": "Paralizza la preda con il veleno e la porta nella sua dimora a 8000 metri in fondo al mare.",
+    "giochi": [
+      "Bianco",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "Paralizza la preda con i suoi tentacoli a forma di velo e poi la trascina a 8000 metri sotto il livello del mare.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  }
+]

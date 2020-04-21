@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "Atterra l'avversario con un solo colpo della spada inserita nell'armatura. Una sua occhiata ammutolisce il nemico.",
+    "giochi": [
+      "Nero",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Usa parte dell'armatura degli arti anteriori come fosse una grande spada. Intimidisce il nemico col solo ruggito.",
+    "giochi": [
+      "Bianco"
+    ]
+  },
+  {
+    "voce": "Riesce ad estrarre le sue spade, colpire il nemico e riporle al loro posto nelle zampe anteriori in un batter d'occhio.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2",
+      "X",
+      "Rubino Omega"
+    ]
+  }
+]

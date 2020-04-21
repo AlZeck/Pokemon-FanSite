@@ -1,0 +1,25 @@
+[
+  {
+    "voce": "Il nucleo rosso serve da serbatoio di energia, che poi spara intorno a sé attraverso gli spuntoni.",
+    "giochi": [
+      "Nero",
+      "Y",
+      "Zaffiro Alpha"
+    ]
+  },
+  {
+    "voce": "Facendo girare velocemente l'ingranaggio dotato del nucleo rosso, accumula una grande quantità di energia.",
+    "giochi": [
+      "Bianco",
+      "X",
+      "Rubino Omega"
+    ]
+  },
+  {
+    "voce": "L' ingranaggio con il nucleo rosso ruota e così fornisce all'ingranaggio più piccolo l'energia necessaria per attaccare.",
+    "giochi": [
+      "Nero 2",
+      "Bianco 2"
+    ]
+  }
+]
