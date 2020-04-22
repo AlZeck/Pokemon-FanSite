@@ -1,35 +1,35 @@
 {
   "tipo": "lotta",
   "offensivo": {
-    "2x": [
+    "superefficace": [
       "normale",
       "roccia",
       "acciaio",
       "ghiaccio",
       "buio"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "volante",
       "veleno",
       "coleottero",
       "psico",
       "folletto"
     ],
-    "0x": [
+    "inefficace": [
       "spettro"
     ]
   },
   "diffensivo": {
-    "2x": [
+    "superefficace": [
       "volante",
       "psico",
       "folletto"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "roccia",
       "coleottero",
       "buio"
     ],
-    "0x": []
+    "inefficace": []
   }
 }

@@ -1,29 +1,29 @@
 {
   "tipo": "folletto",
   "offensivo": {
-    "2x": [
+    "superefficace": [
       "lotta",
       "buio",
       "drago"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "veleno",
       "acciaio",
       "fuoco"
     ],
-    "0x": []
+    "inefficace": []
   },
   "diffensivo": {
-    "2x": [
+    "superefficace": [
       "veleno",
       "acciaio"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "lotta",
       "coleottero",
       "buio"
     ],
-    "0x": [
+    "inefficace": [
       "drago"
     ]
   }

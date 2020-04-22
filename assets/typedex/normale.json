@@ -1,21 +1,21 @@
 {
   "tipo": "normale",
   "offensivo": {
-    "2x": [],
-    "0.5x": [
+    "superefficace": [],
+    "poco_efficace": [
       "roccia",
       "acciaio"
     ],
-    "0x": [
+    "inefficace": [
       "spettro"
     ]
   },
   "diffensivo": {
-    "2x": [
+    "superefficace": [
       "lotta"
     ],
-    "0.5x": [],
-    "0x": [
+    "poco_efficace": [],
+    "inefficace": [
       "spettro"
     ]
   }

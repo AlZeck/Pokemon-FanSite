@@ -1,28 +1,28 @@
 {
   "tipo": "elettro",
   "offensivo": {
-    "2x": [
+    "superefficace": [
       "volante",
       "acqua"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "erba",
       "elettro",
       "drago"
     ],
-    "0x": [
+    "inefficace": [
       "terra"
     ]
   },
   "diffensivo": {
-    "2x": [
+    "superefficace": [
       "terra"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "volante",
       "acciaio",
       "elettro"
     ],
-    "0x": []
+    "inefficace": []
   }
 }

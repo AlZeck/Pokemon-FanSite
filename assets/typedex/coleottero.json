@@ -1,12 +1,12 @@
 {
   "tipo": "coleottero",
   "offensivo": {
-    "2x": [
+    "superefficace": [
       "erba",
       "psico",
       "buio"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "lotta",
       "volante",
       "veleno",
@@ -15,19 +15,19 @@
       "fuoco",
       "folletto"
     ],
-    "0x": []
+    "inefficace": []
   },
   "diffensivo": {
-    "2x": [
+    "superefficace": [
       "volante",
       "roccia",
       "fuoco"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "lotta",
       "terra",
       "erba"
     ],
-    "0x": []
+    "inefficace": []
   }
 }

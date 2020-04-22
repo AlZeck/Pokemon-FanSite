@@ -1,12 +1,12 @@
 {
   "tipo": "erba",
   "offensivo": {
-    "2x": [
+    "superefficace": [
       "terra",
       "roccia",
       "acqua"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "volante",
       "veleno",
       "coleottero",
@@ -15,22 +15,22 @@
       "erba",
       "drago"
     ],
-    "0x": []
+    "inefficace": []
   },
   "diffensivo": {
-    "2x": [
+    "superefficace": [
       "volante",
       "veleno",
       "coleottero",
       "fuoco",
       "ghiaccio"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "terra",
       "acqua",
       "erba",
       "elettro"
     ],
-    "0x": []
+    "inefficace": []
   }
 }

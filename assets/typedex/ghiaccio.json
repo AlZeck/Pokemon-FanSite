@@ -1,30 +1,30 @@
 {
   "tipo": "ghiaccio",
   "offensivo": {
-    "2x": [
+    "superefficace": [
       "volante",
       "terra",
       "erba",
       "drago"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "fuoco",
       "acqua",
       "ghiaccio",
       "acciaio"
     ],
-    "0x": []
+    "inefficace": []
   },
   "diffensivo": {
-    "2x": [
+    "superefficace": [
       "lotta",
       "roccia",
       "acciaio",
       "fuoco"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "ghiaccio"
     ],
-    "0x": []
+    "inefficace": []
   }
 }

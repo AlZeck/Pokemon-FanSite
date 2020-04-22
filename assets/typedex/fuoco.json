@@ -1,27 +1,27 @@
 {
   "tipo": "fuoco",
   "offensivo": {
-    "2x": [
+    "superefficace": [
       "coleottero",
       "acciaio",
       "erba",
       "ghiaccio"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "roccia",
       "fuoco",
       "acqua",
       "drago"
     ],
-    "0x": []
+    "inefficace": []
   },
   "diffensivo": {
-    "2x": [
+    "superefficace": [
       "terra",
       "roccia",
       "acqua"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "coleottero",
       "acciaio",
       "fuoco",
@@ -29,6 +29,6 @@
       "ghiaccio",
       "folletto"
     ],
-    "0x": []
+    "inefficace": []
   }
 }

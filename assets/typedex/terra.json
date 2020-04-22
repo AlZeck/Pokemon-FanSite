@@ -1,32 +1,32 @@
 {
   "tipo": "terra",
   "offensivo": {
-    "2x": [
+    "superefficace": [
       "veleno",
       "roccia",
       "acciaio",
       "fuoco",
       "elettro"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "coleottero",
       "erba"
     ],
-    "0x": [
+    "inefficace": [
       "volante"
     ]
   },
   "diffensivo": {
-    "2x": [
+    "superefficace": [
       "acqua",
       "erba",
       "ghiaccio"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "veleno",
       "roccia"
     ],
-    "0x": [
+    "inefficace": [
       "elettro"
     ]
   }

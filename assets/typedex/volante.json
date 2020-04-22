@@ -1,30 +1,30 @@
 {
   "tipo": "volante",
   "offensivo": {
-    "2x": [
+    "superefficace": [
       "lotta",
       "coleottero",
       "erba"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "roccia",
       "acciaio",
       "elettro"
     ],
-    "0x": []
+    "inefficace": []
   },
   "diffensivo": {
-    "2x": [
+    "superefficace": [
       "roccia",
       "elettro",
       "ghiaccio"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "lotta",
       "coleottero",
       "erba"
     ],
-    "0x": [
+    "inefficace": [
       "terra"
     ]
   }

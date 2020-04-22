@@ -1,28 +1,28 @@
 {
   "tipo": "buio",
   "offensivo": {
-    "2x": [
+    "superefficace": [
       "spettro",
       "psico"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "lotta",
       "buio",
       "folletto"
     ],
-    "0x": []
+    "inefficace": []
   },
   "diffensivo": {
-    "2x": [
+    "superefficace": [
       "lotta",
       "coleottero",
       "folletto"
     ],
-    "0.5x": [
+    "poco_efficace": [
       "spettro",
       "buio"
     ],
-    "0x": [
+    "inefficace": [
       "psico"
     ]
   }
