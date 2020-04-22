@@ -1,0 +1,31 @@
+{
+  "tipo": "volante",
+  "offensivo": {
+    "2x": [
+      "lotta",
+      "coleottero",
+      "erba"
+    ],
+    "0.5x": [
+      "roccia",
+      "acciaio",
+      "elettro"
+    ],
+    "0x": []
+  },
+  "diffensivo": {
+    "2x": [
+      "roccia",
+      "elettro",
+      "ghiaccio"
+    ],
+    "0.5x": [
+      "lotta",
+      "coleottero",
+      "erba"
+    ],
+    "0x": [
+      "terra"
+    ]
+  }
+}

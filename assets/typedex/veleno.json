@@ -1,0 +1,32 @@
+{
+  "tipo": "veleno",
+  "offensivo": {
+    "2x": [
+      "erba",
+      "folletto"
+    ],
+    "0.5x": [
+      "veleno",
+      "terra",
+      "roccia",
+      "spettro"
+    ],
+    "0x": [
+      "acciaio"
+    ]
+  },
+  "diffensivo": {
+    "2x": [
+      "terra",
+      "psico"
+    ],
+    "0.5x": [
+      "lotta",
+      "veleno",
+      "coleottero",
+      "erba",
+      "folletto"
+    ],
+    "0x": []
+  }
+}

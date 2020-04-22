@@ -1,0 +1,35 @@
+{
+  "tipo": "lotta",
+  "offensivo": {
+    "2x": [
+      "normale",
+      "roccia",
+      "acciaio",
+      "ghiaccio",
+      "buio"
+    ],
+    "0.5x": [
+      "volante",
+      "veleno",
+      "coleottero",
+      "psico",
+      "folletto"
+    ],
+    "0x": [
+      "spettro"
+    ]
+  },
+  "diffensivo": {
+    "2x": [
+      "volante",
+      "psico",
+      "folletto"
+    ],
+    "0.5x": [
+      "roccia",
+      "coleottero",
+      "buio"
+    ],
+    "0x": []
+  }
+}

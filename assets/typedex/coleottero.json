@@ -1,0 +1,33 @@
+{
+  "tipo": "coleottero",
+  "offensivo": {
+    "2x": [
+      "erba",
+      "psico",
+      "buio"
+    ],
+    "0.5x": [
+      "lotta",
+      "volante",
+      "veleno",
+      "spettro",
+      "acciaio",
+      "fuoco",
+      "folletto"
+    ],
+    "0x": []
+  },
+  "diffensivo": {
+    "2x": [
+      "volante",
+      "roccia",
+      "fuoco"
+    ],
+    "0.5x": [
+      "lotta",
+      "terra",
+      "erba"
+    ],
+    "0x": []
+  }
+}

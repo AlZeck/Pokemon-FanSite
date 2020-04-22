@@ -1,0 +1,30 @@
+{
+  "tipo": "folletto",
+  "offensivo": {
+    "2x": [
+      "lotta",
+      "buio",
+      "drago"
+    ],
+    "0.5x": [
+      "veleno",
+      "acciaio",
+      "fuoco"
+    ],
+    "0x": []
+  },
+  "diffensivo": {
+    "2x": [
+      "veleno",
+      "acciaio"
+    ],
+    "0.5x": [
+      "lotta",
+      "coleottero",
+      "buio"
+    ],
+    "0x": [
+      "drago"
+    ]
+  }
+}

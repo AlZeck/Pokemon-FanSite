@@ -1,0 +1,28 @@
+{
+  "tipo": "elettro",
+  "offensivo": {
+    "2x": [
+      "volante",
+      "acqua"
+    ],
+    "0.5x": [
+      "erba",
+      "elettro",
+      "drago"
+    ],
+    "0x": [
+      "terra"
+    ]
+  },
+  "diffensivo": {
+    "2x": [
+      "terra"
+    ],
+    "0.5x": [
+      "volante",
+      "acciaio",
+      "elettro"
+    ],
+    "0x": []
+  }
+}

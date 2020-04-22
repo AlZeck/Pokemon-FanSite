@@ -1,0 +1,29 @@
+{
+  "tipo": "buio",
+  "offensivo": {
+    "2x": [
+      "spettro",
+      "psico"
+    ],
+    "0.5x": [
+      "lotta",
+      "buio",
+      "folletto"
+    ],
+    "0x": []
+  },
+  "diffensivo": {
+    "2x": [
+      "lotta",
+      "coleottero",
+      "folletto"
+    ],
+    "0.5x": [
+      "spettro",
+      "buio"
+    ],
+    "0x": [
+      "psico"
+    ]
+  }
+}

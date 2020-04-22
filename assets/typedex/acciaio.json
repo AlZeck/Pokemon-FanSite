@@ -1,0 +1,39 @@
+{
+  "tipo": "acciaio",
+  "offensivo": {
+    "2x": [
+      "roccia",
+      "ghiaccio",
+      "folletto"
+    ],
+    "0.5x": [
+      "acciaio",
+      "fuoco",
+      "acqua",
+      "elettro"
+    ],
+    "0x": []
+  },
+  "diffensivo": {
+    "2x": [
+      "lotta",
+      "terra",
+      "fuoco"
+    ],
+    "0.5x": [
+      "normale",
+      "volante",
+      "roccia",
+      "coleottero",
+      "acciaio",
+      "erba",
+      "psico",
+      "ghiaccio",
+      "drago",
+      "folletto"
+    ],
+    "0x": [
+      "veleno"
+    ]
+  }
+}

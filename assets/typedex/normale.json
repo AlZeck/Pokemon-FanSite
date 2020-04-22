@@ -1,0 +1,22 @@
+{
+  "tipo": "normale",
+  "offensivo": {
+    "2x": [],
+    "0.5x": [
+      "roccia",
+      "acciaio"
+    ],
+    "0x": [
+      "spettro"
+    ]
+  },
+  "diffensivo": {
+    "2x": [
+      "lotta"
+    ],
+    "0.5x": [],
+    "0x": [
+      "spettro"
+    ]
+  }
+}
