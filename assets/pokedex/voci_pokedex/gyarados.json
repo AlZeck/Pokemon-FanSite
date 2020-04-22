@@ -2,90 +2,90 @@
   {
     "voce": "Poco comune allo stato selvatico. Enorme e cattivo, può distruggere intere città in un solo attacco.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "Y"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "Questo POKéMON è brutale e feroce. Famoso per aver raso al suolo in passato intere città.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Si dice che in guerra i GYARADOS apparissero lasciando soltanto incendi e rovine sul loro cammino.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Appena appare monta su tutte le furie. Non si placa finché non demolisce qualsiasi cosa.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Appare in tutte le guerre importanti, mettendo a ferro e fuoco tutto ciò che incontra sul proprio cammino.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Quando MAGIKARP si evolve in GYARADOS, le cellule cerebrali subiscono una trasformazione strutturale, dovuta presumibilmente alla natura selvaggia e violenta di questo POKéMON.",
     "giochi": [
-      "Rubino"
+      "rubino"
     ]
   },
   {
     "voce": "Quando GYARADOS s'infuria, la sua indole feroce e violenta non si placa finché non ha incendiato ogni cosa. Ci sono testimonianze di sfuriate di questo POKéMON durate anche un mese intero.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "GYARADOS è estremamente violento e feroce. Quando gli uomini cominciano una lotta, lui appare e distrugge tutto con fiammate incandescenti.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "POKéMON estremamente aggressivo, incenerisce ogni cosa con l'IPER RAGGIO che spara dalla bocca.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "La sua ira non si placa finché non ha raso al suolo campi e monti attorno a sé.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Un antico documento riporta che GYARADOS rase al suolo un villaggio in cui dilagava la violenza.",
     "giochi": [
-      "Perla",
-      "X"
+      "perla",
+      "x"
     ]
   },
   {
     "voce": "Quando va su tutte le furie, GYARADOS brucia ogni cosa, anche nel mezzo di un violento temporale.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Quando Magikarp si evolve in Gyarados, le cellule cerebrali subiscono una trasformazione strutturale che presumibilmente determina la natura selvaggia e violenta di questo Pokémon.",
     "giochi": [
-      "Rubino Omega"
+      "rubino_omega"
     ]
   }
 ]

@@ -2,70 +2,70 @@
   {
     "voce": "La polvere che copre le sue ali è di colore diverso a seconda del tipo di veleno posseduto.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Le sue ali sono coperte di squame polverose. Se toccate liberano un veleno letale.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Quando attacca batte con forza le sue larghe ali spargendo ovunque la sua polvere velenosa.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "La polvere sulle sue ali è velenosa se è di colore scuro. Se è chiara provoca paralisi.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Sparge scaglie che paralizzano chiunque le tocchi, rendendolo incapace di stare in piedi.",
     "giochi": [
-      "Cristallo",
-      "X"
+      "cristallo",
+      "x"
     ]
   },
   {
     "voce": "VENOMOTH è un POKéMON notturno, cioè attivo soltanto di notte. Le sue prede favorite sono i piccoli insetti che si raggruppano attorno ai lampioni attratti dalla luce nel buio.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "VENOMOTH è un POKéMON attivo soltanto di notte. Come prede, predilige i piccoli insetti che si raggruppano attorno ai lampioni attratti dalla luce nel buio.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Le ali sono ricoperte di polvere velenosa, che libera nell'aria ad ogni batter d'ali.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Sbattendo le ali sparge una polvere velenosa a contatto con la pelle.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

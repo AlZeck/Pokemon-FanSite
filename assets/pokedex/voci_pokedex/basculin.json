@@ -2,24 +2,24 @@
   {
     "voce": "I Basculin con la linea rossa e quelli con la linea blu litigano per un nonnulla. Sono dei Pokémon molto aggressivi.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "I Basculin con la linea rossa e quelli con la linea blu non vanno d'accordo ma, chissà perché, in gruppo si mescolano.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "I Basculin con la linea rossa e quelli con la linea blu sono molto violenti e litigano spesso.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

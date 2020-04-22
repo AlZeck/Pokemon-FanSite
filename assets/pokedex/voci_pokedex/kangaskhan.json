@@ -2,70 +2,70 @@
   {
     "voce": "Normalmente il cucciolo non esce dal marsupio protettivo della madre fino all'età di 3 anni.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Il suo cucciolo cresce dentro al marsupio. È pronto a qualsiasi lotta pur di proteggerlo.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Se è al sicuro, il piccolo esce dal marsupio e inizia a giocare sotto gli occhi vigili dell'adulto.",
     "giochi": [
-      "Oro",
-      "Y",
-      "HeartGold"
+      "oro",
+      "y",
+      "heartgold"
     ]
   },
   {
     "voce": "Per proteggere i piccoli non si arrende mai nella lotta, per quanto gravi siano le sue ferite.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Dorme sempre in piedi per non disturbare il piccolo che porta dentro al marsupio.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Vedendo un cucciolo di KANGASKHAN giocare per conto suo, non bisogna mai disturbarlo o cercare di catturarlo. Il suo genitore, infatti, è sicuramente nei paraggi e potrebbe reagire molto violentemente.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "È meglio non disturbare mai un cucciolo di KANGASKHAN cercando di prenderlo. Il suo genitore, infatti, è sicuramente lì vicino e potrebbe reagire in modo violento.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "La femmina tiene i cuccioli nel marsupio che ha sulla pancia. Molto abile nell'uso di COMETAPUGNO.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Tiene il cucciolo nel marsupio che ha sulla pancia e lo lascia uscire solo quando non ci sono pericoli.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   }
 ]

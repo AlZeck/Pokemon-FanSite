@@ -2,29 +2,29 @@
   {
     "voce": "Una leggenda narra che questo Pokémon abbia trainato i continenti con delle funi.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si dice che abbia creato dei Pokémon simili a lui usando una montagna ghiacciata, rocce e magma.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Pare che abbia plasmato REGIROCK, REGICE e REGISTEEL utilizzando argilla, ghiaccio e magma.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

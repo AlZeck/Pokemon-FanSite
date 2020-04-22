@@ -2,24 +2,24 @@
   {
     "voce": "Se si arrabbia, il ciuffo che ha sul capo raggiunge la temperatura di 300°C. Lo usa anche per arrostire le bacche.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Vive nelle grotte vulcaniche. L'interno del ciuffo che ha in testa brucia a una temperatura di 300°C.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "È molto intelligente e ha l'abitudine di arrostire le bacche prima di mangiarle. Adora aiutare gli esseri umani.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

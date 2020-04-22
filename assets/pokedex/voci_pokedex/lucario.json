@@ -2,39 +2,39 @@
   {
     "voce": "È in grado di avvertire l’aura di tutte le cose. Comprende il linguaggio umano.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Riesce a leggere i pensieri e i movimenti del nemico decifrando l’aura che questo emette.",
     "giochi": [
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Se ben addestrato, LUCARIO riesce a identificare e a percepire le emozioni di creature lontane 1 km.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Anche quando il nemico è fuori dal suo campo visivo, riesce a percepirne la presenza grazie alle onde.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Sa decifrare le onde emesse da ogni cosa. Questo gli permette di capire le emozioni di creature lontane anche 1 km.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

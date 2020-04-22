@@ -2,70 +2,70 @@
   {
     "voce": "Ama i luoghi caldi. Si dice che quando piove gli esca vapore dalla punta della coda.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Nel silenzio più assoluto si può udire la fiamma in cima alla sua coda scoppiettare bruciando.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "La fiamma che ha sulla coda dimostra tutta la sua forza. Se è fiacco, la fiamma è fioca.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "La fiamma che CHARMANDER ha sulla coda indica la sua forza vitale. Se è in forma, la fiamma è vivace.",
     "giochi": [
-      "Argento",
-      "SoulSilver",
-      "X"
+      "argento",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Se è in forma, la fiamma sulla punta della coda è particolarmente vivace, persino se si bagna un po'.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "La fiamma sulla punta della coda indica il suo stato emotivo. Se la fiamma ondeggia significa che CHARMANDER si sta divertendo. Quando il POKéMON si infuria, la fiamma arde violentemente.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "La fiamma sulla punta della coda indica il suo stato emotivo. Quando CHARMANDER si diverte, la fiamma ondeggia. Quando si infuria, la fiamma arde violentemente.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Dalla nascita una fiamma gli arde sulla punta della coda. Se si spegnesse, per lui sarebbe la fine.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "La fiamma sulla punta della coda indica la sua vitalità. Se sta bene, la fiamma è più ardente.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

@@ -2,59 +2,59 @@
   {
     "voce": "I sensibili baffi di BARBOACH fungono da sistema radar precisissimo. Il POKéMON vive nel fango, lasciando esposti soltanto i due baffi mentre attende pazientemente che si avvicini la preda.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Il corpo di BARBOACH è coperto da una pellicola viscida. Se un nemico cerca di afferrarlo, il POKéMON gli scivola via dalle grinfie. Se la pellicola viscida si secca, BARBOACH si indebolisce.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Il corpo di BARBOACH è ricoperto da una pellicola viscida, che serve da barriera e lo protegge dall'infiltrazione di batteri provenienti dalle acque melmose.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si serve dei lunghi baffi per saggiare i letti fangosi dei fiumi. Ha il corpo protetto da una pellicola viscida.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Il suo corpo è ricoperto da una pellicola viscida, che gli permette di sgusciare via, se afferrato.",
     "giochi": [
-      "Diamante",
-      "X"
+      "diamante",
+      "x"
     ]
   },
   {
     "voce": "I suoi baffi sono un eccellente radar. Possono localizzare le prede persino nelle acque più torbide.",
     "giochi": [
-      "Perla",
-      "Y"
+      "perla",
+      "y"
     ]
   },
   {
     "voce": "Il suo viscido corpo è difficile da afferrare. In una regione si dice che sia nato da fango indurito.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "I suoi due baffi gli consentono di distinguere i sapori dei vari cibi al pari della lingua umana.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

@@ -2,24 +2,24 @@
   {
     "voce": "Quando sta male, la goccia al naso si fa acquosa e le sue tecniche congelanti perdono di efficacia.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Ha sempre il naso gocciolante e se ne serve per lanciare le sue mosse. Il muco è l'origine della sua forza.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "La goccia del naso è il barometro della sua salute. Se sta bene è bella viscosa e potenzia le sue mosse di tipo Ghiaccio.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

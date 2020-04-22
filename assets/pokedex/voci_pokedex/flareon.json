@@ -2,80 +2,80 @@
   {
     "voce": "Quando accumula energia termica, la temperatura corporea può salire fino a 900 gradi.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Il suo corpo è una camera di combustione. Inspira e sputa fiamme roventi a 1000 gradi.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Immagazzina parte dell'aria che inala in una tasca ardente interna, che arriva fino a 1700 gradi.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Arruffa il folto pelo intorno al collo per raffreddare il corpo, che può raggiungere i 900 gradi.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Quando immagazzina abbastanza calore, la sua temperatura corporea può salire fino a 900 gradi.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "La morbida pelliccia di FLAREON ha uno scopo ben preciso: libera calore nell'aria in modo da abbassare la temperatura corporea, che nel caso di questo POKéMON può raggiungere al massimo 900°C.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "La morbida pelliccia di FLAREON ha lo scopo di liberare calore nell'aria abbassando in tal modo la temperatura corporea, che raggiunge al massimo 900 gradi centigradi.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Nel corpo ha una tasca infuocata. Dopo aver inspirato profondamente, sputa fiamme alla temperatura di 1.700 °C.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Nel corpo conserva una tasca ardente. Prima di lottare, la sua temperatura si innalza a 900 °C.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "X"
+      "diamante",
+      "perla",
+      "x"
     ]
   },
   {
     "voce": "La sacca ardente dentro il suo corpo infiamma l’aria che respira, che supera i 1650 °C.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "L'aria che respira si infiamma passando nella sacca ardente dentro il suo corpo, raggiungendo i 1700 °C.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

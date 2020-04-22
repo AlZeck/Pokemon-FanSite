@@ -2,24 +2,24 @@
   {
     "voce": "Si indebolisce quando il corpo si secca. Previene l'essiccazione avvolgendosi in molti strati di sottili membrane.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Liberatosi della pesante conchiglia, è diventato leggero. Lotta con le movenze proprie di un ninja.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Si indebolisce se il suo corpo si secca. Lotta avvolto in una membrana protettiva spruzzando un liquido velenoso.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

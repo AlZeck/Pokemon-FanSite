@@ -2,24 +2,24 @@
   {
     "voce": "Ha la pelle così dura che un lottatore di sumo potrebbe calpestarlo senza fargli male. L'elettricità gli fa il solletico.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Attende al varco le prede, sepolto nel fango in riva al mare. Se lo sfiorano, le paralizza con una scarica elettrica.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Quando non riesce a paralizzare il nemico si dà alla fuga contorcendo il corpo e rimbalzando ad una velocità inaspettata.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

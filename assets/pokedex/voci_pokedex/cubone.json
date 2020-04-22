@@ -2,70 +2,70 @@
   {
     "voce": "Poiché non si leva mai il suo casco-teschio, nessuno ha mai visto il suo vero muso.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Porta il teschio di sua madre come elmetto. Il suo verso che fa eco nel teschio è una triste melodia.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Se è stanco o si sente solo, il teschio che ha in testa vibra ed emette un suono lamentoso.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Indossa sempre il teschio della mamma morta: nessuno l'ha mai potuto vedere in faccia.",
     "giochi": [
-      "Argento",
-      "SoulSilver",
-      "Y"
+      "argento",
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "Ha perso la madre alla nascita e ora ne indossa il teschio, non mostrando mai il proprio aspetto.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "CUBONE si strugge per la madre che non rivedrà mai più. Piange alla luna piena che somiglia molto alla madre. Le macchie sul teschio che indossa sono dovute alle lacrime copiose.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "CUBONE si strugge per la madre che non rivedrà più. Piange alla luna piena che gli ricorda la madre. Le macchie sul teschio sono dovute alle lacrime copiose.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Indossa il teschio della madre morta come un casco. Quando si sente solo lancia urla strazianti.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Piange pensando alla madre defunta e dal teschio che ha in testa proviene un rumore sordo e continuo.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

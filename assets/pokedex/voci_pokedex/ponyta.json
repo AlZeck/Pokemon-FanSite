@@ -2,85 +2,85 @@
   {
     "voce": "Un suo zoccolo è 10 volte più duro del diamante. Può schiacciare qualsiasi cosa in pochissimo tempo.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "È capace di salti altissimi. Quando tocca terra gli zoccoli e le zampe ammortizzano l'impatto.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Appena nato non è un buon corridore. Impara a correre sempre più veloce rincorrendo i suoi genitori.",
     "giochi": [
-      "Oro"
+      "oro"
     ]
   },
   {
     "voce": "I suoi arti posteriori hanno zoccoli più duri del diamante. Se sente qualcuno dietro di sé, scalcia.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Allenandosi tra l'erba che cresce ogni giorno più alta, diventa un eccezionale saltatore.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "PONYTA è molto debole alla nascita. Riesce a malapena a reggersi in piedi. Poi si rinforza a furia di inciampare e cadere, cercando di tenere il passo dei suoi genitori.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "PONYTA è così debole alla nascita da non riuscire quasi a reggersi in piedi. Poi si rinforza a furia di cadere, cercando di tenere il passo dei suoi genitori.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Ha un corpo leggero su zampe estremamente potenti. Con un salto, può oltrepassare Ayers Rock.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Un'ora dopo la nascita, gli crescono criniera e coda, che gli donano un aspetto solenne.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Si rafforza le zampe rincorrendo i suoi genitori. Corre tutto il giorno per campi e monti.",
     "giochi": [
-      "Perla",
-      "Y"
+      "perla",
+      "y"
     ]
   },
   {
     "voce": "Alla nascita non riesce quasi a reggersi in piedi. Galoppando si rinforza e diventa più veloce.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "Appena nato non è un buon corridore. Diventa sempre più veloce rincorrendo i suoi genitori.",
     "giochi": [
-      "HeartGold"
+      "heartgold"
     ]
   }
 ]

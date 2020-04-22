@@ -2,24 +2,24 @@
   {
     "voce": "Ha la parte inferiore del corpo avvolta in una nuvola di energia. Sfreccia nei cieli a 300 km/h.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "L'energia sprigionata dalla coda di Tornadus provoca una violenta tempesta in grado di spazzare via le case.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Vola nei cieli in perenne girovagare e produce un vento così forte da spazzare via ogni cosa incontri.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

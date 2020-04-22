@@ -2,75 +2,75 @@
   {
     "voce": "Il ramoscello verde di cipolla che brandisce è la sua arma, che usa come spada.",
     "giochi": [
-      "Rosso",
-      "Blu"
+      "rosso",
+      "blu"
     ]
   },
   {
     "voce": "Vive nei canneti ma si vede molto raramente, quindi si pensa che sia in via di estinzione.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Se qualcuno disturba la crescita dei gambi per lui così preziosi, lo blocca usando il suo come un'arma.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Se mangia il gambo che porta con sé per le emergenze, corre alla ricerca di un altro gambo.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Molti hanno provato ad allevare questi POKéMON per evitarne l'estinzione.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "FARFETCH'D ha sempre con sé lo stelo di qualche pianta. Pare che alcuni steli siano migliori di altri. Spesso lotta con altri POKéMON per avere lo stelo migliore.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo"
+      "rubino",
+      "zaffiro",
+      "smeraldo"
     ]
   },
   {
     "voce": "Si sposta sempre tenendo un gambo con il becco. Gli serve per costruire il nido.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Il verde gambo di porro che brandisce è la sua arma, che usa come spada.",
     "giochi": [
-      "Verde Foglia",
-      "X"
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Non può vivere senza lo stelo che tiene con un’ala. Lo difende dagli attacchi a costo della vita.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Farfetch'd ha sempre con sé il gambo di qualche pianta. Pare che alcuni gambi siano migliori di altri. Spesso lotta con altri Pokémon per avere i gambi migliori.",
     "giochi": [
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   }
 ]

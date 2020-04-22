@@ -2,75 +2,75 @@
   {
     "voce": "Sputa VELENPOLVERE per immobilizzare il nemico e poi lo finisce con il suo ACIDO.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Quando è affamato divora qualsiasi cosa gli capiti a tiro. La preda è poi disciolta da potenti acidi.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Sebbene sia pieno di ACIDO, riesce a non sciogliersi perché emette un liquido neutralizzante.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Se la preda è più grande della sua bocca, la fa a pezzi con foglie affilate prima di mangiarla.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Se ha fame, agita le foglie affilate come lame, per poi cibarsi di ciò che è riuscito a tagliare.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "WEEPINBELL è dotato di un grande uncino posteriore. Di notte lo usa per appendersi ad un ramo e mettersi a dormire. Talvolta, agitandosi nel sonno, si sveglia al suolo.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "WEEPINBELL è dotato di un grande uncino posteriore con cui di notte si appende ad un ramo. Talvolta, agitandosi nel sonno, si sveglia al suolo.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si serve delle foglie laterali come lame contro i nemici. Il fluido che secerne dalla bocca scioglie qualsiasi cosa.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Questo Pokémon sembra una pianta. Cattura le prede con una polvere tossica.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Sputa Velenpolvere per immobilizzare il nemico e poi lo finisce con il suo acido.",
     "giochi": [
-      "Y"
+      "y"
     ]
   }
 ]

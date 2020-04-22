@@ -2,29 +2,29 @@
   {
     "voce": "Volando rilascia un velo di particelle brillanti. Si dice che rappresenti la luna crescente.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Nelle notti di quarto di luna, l’aurora della sua coda si spande e ondeggia in modo splendido.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Se si dorme con piume di CRESSELIA, si faranno bei sogni. È l'incarnazione di uno spicchio di luna.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "soulsilver",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

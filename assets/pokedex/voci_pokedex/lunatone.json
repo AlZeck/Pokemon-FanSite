@@ -2,54 +2,54 @@
   {
     "voce": "LUNATONE è stato scoperto nel luogo dove una volta cadde un meteorite. Si è pertanto dedotto che questo POKéMON venga dallo spazio. Tuttavia, questa teoria non è ancora stata confermata.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "LUNATONE si desta quando domina la luna piena. Invece di camminare, fluttua a mezz'aria. I suoi occhi rossi così minacciosi terrorizzano chiunque li guardi.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "LUNATONE è stato scoperto 40 anni fa nella zona d'impatto di un meteorite. Questo POKéMON diventa particolarmente attivo nelle notti di luna piena.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Il suo stato di salute segue le fasi lunari, come le maree. L'esposizione alla luna piena lo rende fortissimo.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Diventa attivo nelle notti di luna piena, pertanto si dice che abbia qualche legame con le fasi lunari.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "x"
     ]
   },
   {
     "voce": "Fu scoperto 40 anni fa nella zona d’impatto di un meteorite. Con il solo sguardo addormenta il nemico.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y"
+      "heartgold",
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "La sua forza sembra aumentare o diminuire a seconda delle fasi lunari. È più attivo nelle notti di luna piena.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

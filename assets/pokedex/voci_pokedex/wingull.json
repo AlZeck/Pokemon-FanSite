@@ -2,64 +2,64 @@
   {
     "voce": "WINGULL ha l'abitudine di trasportare prede e oggetti preziosi nel becco per poi nasconderli dappertutto. Questo POKéMON vola a cavallo dei venti planando in cielo.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "WINGULL segue le correnti ascensionali presenti sul mare allargando le sue ali lunghe e strette per planare. Il lungo becco del POKéMON è utile per catturare la preda.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "WINGULL nidifica su scogliere a picco sul mare. Poiché non riesce a sbattere le ali molto a lungo, si fa trasportare dalle correnti ascensionali sul mare.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Vola sulle onde dell'oceano come un deltaplano. D'inverno, nasconde cibo vicino al nido.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Nidifica su scogliere a picco sul mare. Si fa trasportare ad alta quota dalle correnti ascensionali.",
     "giochi": [
-      "Diamante",
-      "Y"
+      "diamante",
+      "y"
     ]
   },
   {
     "voce": "Segue i venti marini con le sue lunghe ali e si libra in volo come un aliante. Si riposa piegando le ali.",
     "giochi": [
-      "Perla",
-      "X"
+      "perla",
+      "x"
     ]
   },
   {
     "voce": "Si fa trasportare ad alta quota dalle correnti ascensionali. Trasporta il cibo nel becco.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Volteggia nel cielo ad ali ferme, grazie alle correnti ascensionali. Fa il nido lungo la costa.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Costruisce il nido a ridosso dei precipizi. Sfrutta la brezza marina per levarsi alto in cielo.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

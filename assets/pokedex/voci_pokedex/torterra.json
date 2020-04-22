@@ -2,34 +2,34 @@
   {
     "voce": "Piccoli Pokémon si radunano talvolta sul suo dorso immobile per costruirvi la loro tana.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Gruppi di questi Pokémon che migrano in cerca di acqua sono stati scambiati per “Foreste viventi”.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Sul dorso di TORTERRA nascono Pokémon che vi trascorrono tutta la vita.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "In tempi antichissimi la gente pensava che sottoterra ci fossero dei giganteschi TORTERRA.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

@@ -2,34 +2,34 @@
   {
     "voce": "Detto “Essere delle emozioni”. Ha insegnato agli uomini la nobiltà di tristezza, gioia e dolore.",
     "giochi": [
-      "Diamante",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Dorme sul fondo di un lago. Si dice che il suo spirito abbandoni il corpo per volare in superficie.",
     "giochi": [
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Al volo di MESPRIT, gli uomini conobbero le gioie e i dolori della vita. In tal modo nacquero le emozioni.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Pare che sia stato MESPRIT a mettere nel cuore degli umani sentimenti come gioia e tristezza.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

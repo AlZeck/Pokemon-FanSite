@@ -2,75 +2,75 @@
   {
     "voce": "È noto per i suoi attacchi ai volatili con getti d'inchiostro dalla superficie dell'acqua.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "X"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Se minacciato sputa dalla bocca un inchiostro speciale o potenti getti d'acqua per difendersi.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Se è attaccato da un nemico più grande, si mette in salvo nuotando agilmente con la pinna dorsale.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Con le sue pinne grandi e ben sviluppate nuota all'indietro mentre sta ancora guardando avanti.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Se si trovano in un luogo sicuro si possono vedere giocare intrecciando le code tra loro.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Horsea si nutre di piccoli insetti e del muschio trovato sugli scogli. Se la corrente oceanica si fa rapida, avvolge la coda attorno agli spuntoni di roccia o ai coralli per evitare di essere spazzato via.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Avvertendo il pericolo, Horsea spruzza istintivamente una nube d'inchiostro nero dalla bocca, tentando poi la fuga. Questo POKéMON nuota agitando abilmente le pinne sulla schiena.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Agitando abilmente le pinne sulla schiena, Horsea si muove in ogni direzione con lo sguardo rivolto in avanti. Se avverte un pericolo, sputa inchiostro per sfuggire.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si mantiene in equilibrio grazie alla coda avvolta a spirale. Può sputare inchiostro dalla bocca.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Crea la sua tana all'ombra dei coralli. Se avverte un pericolo, spruzza inchiostro nero e fugge.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

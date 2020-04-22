@@ -2,70 +2,70 @@
   {
     "voce": "Il corno che gli sporge dalla testa è molto duro. Lo usa per fendere lastroni di ghiaccio.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Adora gli ambienti freddi gelidi. Nuota in acque a temperature polari di circa 10 gradi sotto zero.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Sebbene poco abile sulla terraferma, è un elegante nuotatore. Apprezza particolarmente i mari gelidi.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Di giorno lo si può trovare addormentato sul fondo del mare in acque basse. Se nuota chiude le narici.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Il pelo azzurro che lo ricopre lo protegge dal freddo. Predilige l'oceano, nuotando tra gli iceberg.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "SEEL caccia le prede nel mare gelido sotto le lastre di ghiaccio. Per respirare apre un foro nel ghiaccio usando la protuberanza appuntita sulla sommità del capo.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Sotto la pelliccia azzurra ha una pelle spessa e dura. Può resistere ad una temperatura di - 40 ºC.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Pokémon che vive sugli iceberg. Nuota spaccando il ghiaccio con la punta che ha sulla testa.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "x"
     ]
   },
   {
     "voce": "Più fa freddo, più si sente a suo agio. Si diverte a nuotare tra i blocchi di ghiaccio dei mari più gelidi.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

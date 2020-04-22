@@ -2,67 +2,67 @@
   {
     "voce": "Muta la pelle e cresce di continuo. La punta che ha sul capo è un simbolo della sua bellezza.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "A sud, vi è un popolo di mare che vive in comunità fondate su questo tipo di POKéMON.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Le punte sulla testa assorbono nutrimento dall'acqua pulita. Non sopravvive nell'acqua inquinata.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Le ramificazioni del Corsola brillano in sette meravigliosi colori se esposte alla luce del sole. Se qualche ramo si spezza e cade viene rigenerato nell'arco di una notte.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "I Corsola formano grandi colonie nei mari più caldi dove costituiscono rifugi ideali per POKéMON più piccoli. Quando la temperatura dell'acqua si abbassa, migrano verso i mari del sud.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Corsola vive nei caldi mari del sud. Se il mare viene inquinato, le meravigliose ramificazioni coralline perdono il colore e si sbriciolano in mille pezzi.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "A sud, vi è un popolo di mare che vive in villaggi costruiti su gruppi di questi POKéMON.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Vivono numerosi nei limpidi mari del sud. Pare che non riescano a sopravvivere nelle acque inquinate.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Preferisce i limpidi mari del sud. In quelli inquinati, invece, i suoi coralli si logorano e perdono il loro colore.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

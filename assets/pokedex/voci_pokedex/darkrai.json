@@ -2,34 +2,34 @@
   {
     "voce": "Ha l’abilità di far addormentare la gente e farla sognare. È attivo nelle notti di luna nuova.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si narra che, nelle notti senza luna, questo Pokémon provochi incubi terrificanti.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Per proteggersi, riempie di incubi la mente di chi gli sta intorno. Tuttavia, non è di indole malvagia.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Respinge umani e Pokémon dal suo territorio inducendoli a un sonno profondo e provocando incubi.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

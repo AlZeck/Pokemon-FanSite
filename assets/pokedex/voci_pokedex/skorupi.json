@@ -2,39 +2,39 @@
   {
     "voce": "Afferra le prede con gli artigli della coda e non si allontana finché il veleno che inietta non agisce.",
     "giochi": [
-      "Diamante",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Vive in terre aride. Si seppellisce nella sabbia e aspetta l’arrivo di una preda ignara del pericolo.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Rilascia veleno dagli artigli sulla coda. Può resistere senza cibo per un anno.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Si seppellisce nella sabbia e tende agguati alle prede, poi inietta loro il veleno dagli artigli della coda.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "soulsilver",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Vive in territori aridi e può aspettare la sua preda immobile per un anno intero senza bisogno di mangiare.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

@@ -2,52 +2,52 @@
   {
     "voce": "È timidissimo. Ha sempre paura di muoversi da solo. Ma in gruppo sa diventare molto attivo.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold"
+      "oro",
+      "verde_foglia",
+      "heartgold"
     ]
   },
   {
     "voce": "Quando inizia a far freddo, i LEDYBA si riuniscono da ogni luogo per scaldarsi tra loro.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "X"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Timidi, stanno sempre uniti. La traccia del liquido che esce dalle zampe mostra dove si trovano.",
     "giochi": [
-      "Cristallo",
-      "Y"
+      "cristallo",
+      "y"
     ]
   },
   {
     "voce": "Dalla giuntura delle zampe col corpo LEDYBA secerne un fluido aromatico usato per comunicare con i simili. Questo POKéMON comunica le sue sensazioni alterando l'odore del fluido.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Dalla giuntura delle zampe col corpo LEDYBA secerne un fluido aromatico con cui comunica le sue sensazioni ai suoi simili alterandone l'odore.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "È tanto timido da non muoversi se non è in gruppo. Trasmette le sue emozioni emanando una fragranza.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

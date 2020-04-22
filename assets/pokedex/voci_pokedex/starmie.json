@@ -2,80 +2,80 @@
   {
     "voce": "Nel suo nucleo brillano i 7 colori dell'arcobaleno. Qualcuno lo considera una pietra preziosa.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "X"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "La parte centrale emette i colori dell'arcobaleno. Si dice che sia il suo modo di comunicare.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "La parte centrale del suo corpo è chiamata nucleo. Ogni volta ha sempre un colore diverso.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Indipendentemente da dove vive, il suo corpo cresce assumendo una forma geometrica simmetrica.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Si dice che usi i sette colori del nucleo del corpo per inviare onde elettriche nello spazio.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "STARMIE nuota roteando vorticosamente il corpo a stella come fosse l'elica di una nave. Il suo nucleo brilla in sette diversi colori.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Nell'antichità si pensava che STARMIE venisse generato dai riflessi delle stelle che brillano sulle onde leggere del mare durante la notte.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "A causa del corpo geometrico, la gente crede che si tratti di una creatura aliena.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Al centro del corpo ha un nucleo rosso che diffonde misteriosi segnali radio nel cielo notturno.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "y"
     ]
   },
   {
     "voce": "Il suo nucleo brilla dei colori dell'iride ed emette delle onde radio con le quali Starmie comunica con l' universo.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Il centro del corpo di Starmie, il suo nucleo, brilla in sette colori. Per la sua luminosità è chiamato Gemma del mare.",
     "giochi": [
-      "Rubino Omega"
+      "rubino_omega"
     ]
   }
 ]

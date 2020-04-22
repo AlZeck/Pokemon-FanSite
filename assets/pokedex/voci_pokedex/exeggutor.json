@@ -2,75 +2,75 @@
   {
     "voce": "La leggenda narra che in rari casi una delle sue teste si stacca e procede come un EXEGGCUTE.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Il suo verso è un grido che spacca i timpani dovuto alla confusione di tre teste che pensano insieme.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Ha tre teste che ragionano autonomamente. Ma sono amichevoli e non litigano mai tra di loro.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "X"
+      "oro",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Se una testa cade, emette un richiamo telepatico per formare un gruppo di EXEGGCUTE.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "Se si trova in un ambiente adatto, gli crescono molte teste. Cadendo, una testa diventa un EXEGGCUTE.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "EXEGGUTOR è originario dei tropici. Le teste crescono costantemente se esposte a forte luce solare. Pare che quando le teste cadono, si uniscano per formare un EXEGGCUTE.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Viene chiamato la foresta con le gambe.Ognuna delle noci che lo compongono ha una propria volontà.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Noto come “Giungla in moto”. Se una testa diventa troppo grande, cade e si trasforma in EXEGGCUTE.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Se perde una delle teste, questa inizia a emettere un richiamo telepatico per formare un gruppo di EXEGGCUTE.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   },
   {
     "voce": "Noto come \"Giungla in moto\". Se una testa diventa troppo grande, cade e si trasforma in Exeggcute.",
     "giochi": [
-      "Y"
+      "y"
     ]
   }
 ]

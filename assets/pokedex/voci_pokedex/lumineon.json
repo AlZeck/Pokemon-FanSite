@@ -2,34 +2,34 @@
   {
     "voce": "Vive negli abissi marini. Attira le prede illuminando i motivi delle sue quattro pinne.",
     "giochi": [
-      "Diamante",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Per non farsi scoprire dai nemici, si muove lentamente sui fondali marini con le due pinne pettorali.",
     "giochi": [
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si sposta sui fondali con le lunghe pinne anteriori. LANTURN è suo rivale nella ricerca del cibo.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "LUMINEON brilla negli abissi marini e sembra proprio una stella che risplende nel cielo notturno.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

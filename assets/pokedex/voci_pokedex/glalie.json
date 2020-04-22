@@ -2,54 +2,54 @@
   {
     "voce": "Il corpo di GLALIE è fatto di pietra rivestita da un'armatura di ghiaccio. Questo POKéMON ha la capacità di congelare l'umidità nell'atmosfera e darle le forme più svariate.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "GLALIE ha la capacità di sfruttare il ghiaccio a suo vantaggio. Ad esempio riesce a congelare il nemico all'istante. Dopo averlo immobilizzato nel ghiaccio, se lo mangia con gusto e in tutta calma.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "GLALIE ha la capacità di congelare l'umidità nell'atmosfera. Attorno al suo corpo si forma un'abbagliante nuvola di cristalli di ghiaccio simili a diamanti.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Neppure il fuoco può far sciogliere il suo corpo di ghiaccio. Può congelare istantaneamente l'umidità dell'atmosfera.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Per difendersi, riveste il suo corpo con un'armatura di ghiaccio, fatta congelando l'umidità dell'aria.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "X"
+      "diamante",
+      "perla",
+      "x"
     ]
   },
   {
     "voce": "Impedisce alla preda di scappare congelando all'istante l'umidità nell'aria.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Capace di congelare istantaneamente l'umidità dell'atmosfera, finisce per surgelare la preda.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y"
+      "heartgold",
+      "soulsilver",
+      "y"
     ]
   }
 ]

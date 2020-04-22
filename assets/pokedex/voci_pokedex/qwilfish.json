@@ -2,52 +2,52 @@
   {
     "voce": "Per sparare le punte velenose, gonfia il corpo bevendo più di 10 litri d'acqua in una volta.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "I piccoli aculei che coprono il suo corpo sono nati dalle squame. Contengono una tossina che fa svenire.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "Y"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "Se incontra un nemico più grande, ingoia molta acqua per raggiungere le dimensioni dell'avversario.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "QWILFISH si gonfia assorbendo acqua. Poi usa la pressione dell'acqua ingerita per sparare i suoi aculei velenosi tutti insieme in un colpo solo. Non si può certo dire che sia un grande nuotatore.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "QWILFISH si gonfia assorbendo acqua e usa poi la pressione dell'acqua ingerita per sparare i suoi aculei velenosi. Non si può certo dire che sia un grande nuotatore.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Spara i suoi aculei velenosi in tutte le direzioni. Essendo un po' tondetto, non è un gran nuotatore.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

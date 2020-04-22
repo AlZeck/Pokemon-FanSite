@@ -2,24 +2,24 @@
   {
     "voce": "Combatte con la conchiglia che ha sul ventre. Contrattacca prontamente dopo aver parato l'attacco avversario.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "La conchiglia sul suo ventre ha la stessa composizione delle unghie. La estrae dal ventre, usandola per trafiggere.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Non usa la conchiglia del suo ventre solo durante la lotta, ma anche per tagliare a metà le bacche.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

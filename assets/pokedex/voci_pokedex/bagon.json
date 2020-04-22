@@ -2,49 +2,49 @@
   {
     "voce": "BAGON serba in sé il sogno di volare alto in cielo. Nei suoi vani tentativi di spiccare il volo, si lancia a picco dalle alture. A causa di queste rovinose cadute, la testa gli è diventata dura come l'acciaio temprato.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Da sempre BAGON serba in sé il sogno di volare alto tra le nuvole. Sfoga la sua frustrazione per l'incapacità di volare sbattendo la testa dura contro rocce enormi, che frantuma in mille pezzi.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Malgrado le sue piccole dimensioni, BAGON è molto potente perché il suo corpo è un insieme di muscoli. Dà di continuo testate con il suo cranio duro come l'acciaio.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "La sua testa dura come l'acciaio può frantumare i massi. Vive nella speranza che gli crescano le ali, per volare.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Sogna di poter volare un giorno e, pertanto, si allena regolarmente gettandosi da alture.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "Frantuma grandi massi con la testa dura come il ferro e gli allenatissimi muscoli del collo.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X"
+      "heartgold",
+      "soulsilver",
+      "x"
     ]
   }
 ]

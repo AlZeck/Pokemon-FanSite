@@ -2,75 +2,75 @@
   {
     "voce": "Molto simili alle uova, se disturbati si raggruppano in fretta attaccando all'unisono.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Attraendosi le sei teste creano un rapido movimento circolare con cui si mantengono in equilibrio.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Ha un guscio molto resistente. Anche se si rompe, sopravvive senza perdere il contenuto.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Con un richiamo telepatico che solo loro possono ricevere, formano un gruppo di sei EXEGGCUTE.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "L'energia che lega il gruppo è così forte che se uno dei sei si stacca, viene subito riassorbito.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Questo POKéMON consiste di un nucleo compatto formato da sei uova, che girano vorticosamente attraendosi a vicenda. Quando i gusci iniziano a rompersi, EXEGGCUTE è prossimo all'evoluzione.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "EXEGGCUTE consiste di un nucleo formato da sei uova che si attirano girando velocemente. Quando i gusci si crepano, il POKéMON è prossimo all'evoluzione.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Nonostante sia formato da uova, si è scoperto che la sua struttura è più simile a quella dei semi.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Queste sei uova comunicano per telepatia. Si riuniscono subito anche se vengono divise.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "L’EXEGGCUTE ha un richiamo telepatico unico che usa per formare gruppi di sei individui con i propri simili.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   }
 ]

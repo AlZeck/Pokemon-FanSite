@@ -2,62 +2,62 @@
   {
     "voce": "Usa versi differenti per comunicare con altri del suo tipo e per inseguire la preda.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "Verde Foglia"
+      "oro",
+      "heartgold",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Per circondare la preda, decidono la loro posizione comunicando con guaiti che capiscono solo loro.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "All'alba, i suoi sinistri urli riecheggiano nell'aria. In questo modo demarca il territorio.",
     "giochi": [
-      "Cristallo",
-      "X"
+      "cristallo",
+      "x"
     ]
   },
   {
     "voce": "Gli HOUNDOUR cacciano in squadre organizzate. Comunicano tra loro con svariati versi per intrappolare la preda. Quest'incredibile lavoro di squadra è unico nel suo genere.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Per circondare la preda, si coordinano comunicando con guaiti che solo loro possono decifrare.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Trasmette i suoi stati d'animo con vari versi. Lavora in gruppo per catturare le prede con l'astuzia.",
     "giochi": [
-      "Diamante",
-      "Perla"
+      "diamante",
+      "perla"
     ]
   },
   {
     "voce": "Va a caccia in branchi e comunica con gli altri emettendo una varietà di versi.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Per circondare la preda, gli HOUNDOUR si comunicano la posizione reciproca con ululati che capiscono solo loro.",
     "giochi": [
-      "SoulSilver",
-      "Y"
+      "soulsilver",
+      "y"
     ]
   }
 ]

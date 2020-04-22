@@ -2,70 +2,70 @@
   {
     "voce": "Sebbene piccolo, i suoi baffi velenosi sono molto pericolosi. La femmina ha corna più minute.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "X"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "POKéMON molto tranquillo che rifugge la lotta. Tuttavia il corno sulla sommità del capo è velenoso.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Il veleno del suo piccolo corno è potentissimo. Anche una lieve ferita può essere fatale.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Sebbene non troppo agguerrito, se si sente minacciato tormenta i nemici con i suoi aculei velenosi.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Molto docile e minuto, se viene attaccato si protegge con il piccolo corno velenoso.",
     "giochi": [
-      "Cristallo",
-      "Y"
+      "cristallo",
+      "y"
     ]
   },
   {
     "voce": "Gli aculei di NIDORAN secernono un potente veleno. Si pensa che si siano sviluppati per proteggere questo POKéMON dal corpo minuto. Quando è adirato, rilascia una potente tossina dal corno.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Gli aculei di NIDORAN femmina secernono un potente veleno e si sarebbero sviluppati per proteggere il corpo minuto. Se si adira rilascia una potente tossina dal corno.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Nonostante sia piuttosto minuto, i baffi velenosi lo rendono piuttosto pericoloso. Le femmine hanno un corno più piccolo.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Non ama combattere, ma anche una sola goccia del veleno che secerne dagli aculei può essere fatale.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

@@ -2,24 +2,24 @@
   {
     "voce": "Ha l'abitudine di cucire vestiti di foglie per i piccoli Pokémon che incontra, usando le lame sugli arti e filo viscoso.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Sfrutta il calore dell'humus per covare le sue uova e fabbrica coperte di foglie per avvolgere Sewaddle.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Quando incontra un giovane Pokémon gli fa un vestito di foglie che cuce con il filo appiccicoso prodotto dalla bocca.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

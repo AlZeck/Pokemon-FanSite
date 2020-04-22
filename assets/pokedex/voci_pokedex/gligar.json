@@ -2,72 +2,72 @@
   {
     "voce": "Vola verso il viso del nemico, lo atterrisce e poi lo afferra per iniettargli il suo veleno.",
     "giochi": [
-      "Oro"
+      "oro"
     ]
   },
   {
     "voce": "Di solito sta attaccato agli scogli. Attacca la preda spalancando le ali e planando.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "X"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Si fa il nido su ripide scogliere. Prima plana, poi saltella sul terreno per tornare al nido.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "GLIGAR fende l'aria impercettibilmente come se stesse scivolando. Questo POKéMON si aggrappa al viso del nemico usando le zampe posteriori artigliate e le possenti chele sulle zampe anteriori, poi avvelena la preda con il suo aculeo.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "GLIGAR scivola nell'aria senza far rumore. Si aggrappa al viso del nemico con gli artigli posteriori e le chele anteriori, poi l'avvelena con il suo aculeo.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Atterrisce il nemico volando direttamente verso il suo volto, per poi afferrarlo e iniettargli il suo veleno.",
     "giochi": [
-      "Verde Foglia"
+      "verde_foglia"
     ]
   },
   {
     "voce": "Si fa trasportare dai venti con le ali spalancate e colpisce la preda dall'alto mirando al volto.",
     "giochi": [
-      "Diamante",
-      "Perla"
+      "diamante",
+      "perla"
     ]
   },
   {
     "voce": "Vola planando nell'aria. Sorprende i nemici aggrappandosi al loro volto, poi inietta il suo veleno.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Vola in picchiata sulla testa del nemico, lo atterra e gli inietta il suo veleno.",
     "giochi": [
-      "HeartGold",
-      "Y"
+      "heartgold",
+      "y"
     ]
   },
   {
     "voce": "D'un tratto salta addosso alla preda e, approfittando del suo smarrimento, la infilza con l'aculeo che ha sulla coda.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

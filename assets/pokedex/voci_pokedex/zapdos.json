@@ -2,70 +2,70 @@
   {
     "voce": "Uccello leggendario, si dice appaia tra le nuvole scagliando enormi saette.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "X"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Si dice che questo mitico uccello appaia quando il cielo si oscura e tuoni e fulmini lacerano l'aria.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Battendo le ali splendenti, questo POKéMON uccello leggendario causa violente tempeste.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "POKéMON uccello leggendario: si fa vedere solo quando una nube da temporale si rompe simmetricamente.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "I lampi che questo POKéMON uccello leggendario produce quando batte le ali provocano temporali estivi.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "ZAPDOS è un POKéMON uccello leggendario, perfettamente in grado di gestire l'elettricità. Acquista forza ed energia se colpito da qualche fulmine.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "POKéMON uccello leggendario perfettamente in grado di gestire l'elettricità. Vive nelle nubi temporalesche e acquista forza se colpito da qualche fulmine.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "POKéMON uccello leggendario. Emette crepitii e scoppiettii mentre è in volo.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Un Pokémon uccello leggendario. Si dice che viva tra le nubi temporalesche. Controlla i fulmini.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

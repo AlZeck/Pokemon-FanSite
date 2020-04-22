@@ -2,29 +2,29 @@
   {
     "voce": "Vive nei mari caldi. Sulla testa ha un galleggiante gonfiabile grazie al quale nuota alla ricerca di cibo.",
     "giochi": [
-      "Diamante",
-      "Perla"
+      "diamante",
+      "perla"
     ]
   },
   {
     "voce": "Si sposta nei mari caldi. Torna sempre dove è nato, anche se si trova molto lontano.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Quando la temperatura del mare si alza, gonfia il galleggiante che ha in testa e fluttua a gruppi in mare.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

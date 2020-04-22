@@ -2,59 +2,59 @@
   {
     "voce": "MEDITITE esegue rigorosi esercizi mentali in montagna. Tuttavia, quando è immerso in meditazione, perde sempre la concentrazione, dovendo così ricominciare da capo. Il suo esercizio dunque non finisce mai.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "MEDITITE incrementa la sua energia interiore grazie alla meditazione. La sua alimentazione minima si nutre di una bacca al giorno è un'altra peculiarità dell'esercizio di questo POKéMON.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "MEDITITE medita per ore e ore ogni giorno. Grazie a questi costanti esercizi di yoga ha affinato il suo potere spirituale a tal punto da riuscire a volare.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Non rinuncia mai alla sua ora di yoga quotidiana. Aumenta la sua forza interiore tramite la meditazione.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Mangia solo una bacca al giorno. Resistendo alla fame, il suo spirito viene temprato e rinvigorito.",
     "giochi": [
-      "Diamante",
-      "Y"
+      "diamante",
+      "y"
     ]
   },
   {
     "voce": "Non rinuncia mai agli esercizi quotidiani di yoga ed eleva la sua forza spirituale con la meditazione.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Si allena in montagna per elevare il suo potere spirituale. Con la meditazione riesce a levitare.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "Levita nel cielo grazie all'energia spirituale tratta dalla meditazione. Mangia una bacca al giorno.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

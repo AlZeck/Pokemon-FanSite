@@ -2,62 +2,62 @@
   {
     "voce": "È fortissimo, ed ha un guscio duro come roccia. Ha un COLPO capace di abbattere una montagna.",
     "giochi": [
-      "Oro",
-      "Verde Foglia"
+      "oro",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Può muoversi liberamente anche se è chiuso nel guscio. Forte e rapido, ha un enorme potere distruttivo.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver"
     ]
   },
   {
     "voce": "Non sta mai fermo, neppure quando è una crisalide. Gli arti sono già formati sotto il duro guscio.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "All'interno del suo corpo PUPITAR genera un gas che comprime ed espelle con forza come il propulsore di un jet. Il suo corpo è estremamente resistente, anche in caso di impatto con acciaio massiccio.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Al suo interno, PUPITAR genera un gas che comprime ed espelle con forza come il propulsore di un jet. Il suo corpo resiste persino all'impatto con l'acciaio massiccio.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Il suo corpo è duro come la roccia. Riesce a muoversi come un razzo espellendo gas con tutta forza.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "x"
     ]
   },
   {
     "voce": "Fortissimo e con un guscio duro come roccia. Ha un Colpo capace di abbattere una montagna.",
     "giochi": [
-      "HeartGold",
-      "Y"
+      "heartgold",
+      "y"
     ]
   },
   {
     "voce": "È una crisalide che vola spruzzando qui e lì il gas compresso nel suo corpo.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

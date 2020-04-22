@@ -2,24 +2,24 @@
   {
     "voce": "Lancia palle di fuoco dal naso mentre evita abilmente gli attacchi del nemico. Mangia bacche che arrostisce lui stesso.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Esala fuoco dalle narici. Quando ha il raffreddore, al posto del fuoco emette un fumo nerissimo.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Adora mangiare le bacche arrostite ma a volte si fa prendere la mano per l'eccitazione e le riduce in cenere.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

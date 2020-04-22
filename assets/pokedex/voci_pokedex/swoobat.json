@@ -2,24 +2,24 @@
   {
     "voce": "Emette dal naso onde sonore di varie frequenze, alcune in grado di distruggere anche la pietra.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "È molto piacevole essere investiti dalle onde ultrasoniche che il maschio emette quando corteggia la femmina.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Quando emette delle onde ultrasoniche così forti da rompere il cemento, la coda gli oscilla con forza.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

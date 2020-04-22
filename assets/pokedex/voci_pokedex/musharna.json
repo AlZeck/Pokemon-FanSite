@@ -2,24 +2,24 @@
   {
     "voce": "Nel fumo che gli esce dalla fronte sono racchiusi molti sogni di esseri umani e di Pokémon.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Riesce a materializzare i sogni mangiati. Il fumo che gli esce dalla fronte prende la forma di ciò che appare nel sogno.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Il fumo che esce dalla sua fronte cambia colore a seconda del contenuto del sogno che ha mangiato.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

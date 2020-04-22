@@ -2,57 +2,57 @@
   {
     "voce": "Si aggira nella notte stellata lasciando cadere una scia di polvere incandescente.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Le stelle disegnate sulla schiena sono più grandi o più piccole secondo il numero di stelle nel cielo.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco"
+      "argento",
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Di giorno quando fa caldo, si appallottola in una grande foglia e cade in un sonno profondo.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Si dice che in luoghi dall'aria pura e dal cielo terso e stellato vivano moltissimi LEDIAN. Ciò è dovuto alla sua abitudine di usare la luce delle stelle come fonte energetica.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si dice che in luoghi dall'aria pura e dal cielo terso e stellato vivano moltissimi LEDIAN. Essi, infatti, usano la luce delle stelle come fonte energetica.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "La luce delle stelle è la sua fonte d’energia. Un cielo più stellato fa ingrandire i disegni sul suo dorso.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "I puntini sulla schiena sono più grandi o più piccoli secondo il numero di stelle nel cielo.",
     "giochi": [
-      "SoulSilver",
-      "Y"
+      "soulsilver",
+      "y"
     ]
   }
 ]

@@ -2,54 +2,54 @@
   {
     "voce": "AGGRON è solito delimitare un'intera montagna come suo territorio esclusivo ed è spietato con coloro che osano violare tali confini. Questo POKéMON pattuglia il proprio spazio senza mai abbassare la guardia.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "AGGRON difende strenuamente il proprio territorio. In caso di frana o incendio, questo POKéMON è in grado di risistemare il terreno, ripiantare gli alberi e ristabilire al meglio il proprio ambiente naturale.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Osservando le corna, che crescono poco alla volta, è possibile determinare l'età di AGGRON. Va fiero dei graffi sull'armatura che considera come dei trofei di lotta.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Delimita un'intera montagna come suo territorio esclusivo, scagliandosi spietatamente su chi osa violarlo.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Cerca ferro da mangiare scavando tunnel nella roccia con le sue corna d'acciaio.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "y"
     ]
   },
   {
     "voce": "Nella lunghezza delle corna si legge l'età di AGGRON. Ha designato suo territorio un'intera montagna.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Sceglie come territorio intere montagne. Se ha tante cicatrici sul suo corpo è meglio non scherzare con lui.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   }
 ]

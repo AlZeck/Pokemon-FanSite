@@ -2,52 +2,52 @@
   {
     "voce": "Grazie alle nubi di pioggia che ha con sé lancia fulmini a volontà. Pare che sia arrivato con un lampo.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Un POKéMON che corre in lungo e in largo lanciando un verso che sembra il rumore di un tuono.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "POKéMON violento che accumula energia nel corpo e poi corre all'impazzata, scaricando elettricità.",
     "giochi": [
-      "Cristallo",
-      "Y"
+      "cristallo",
+      "y"
     ]
   },
   {
     "voce": "RAIKOU rappresenta la velocità del fulmine. Il suo ruggito crea terrificanti onde sonore nell'aria e scuote il suolo come se fosse percosso dalla furia di un fulmine durante il temporale.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Corre in lungo e in largo lanciando un verso che sembra il rombo di un tuono.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Pare che sia caduto con un fulmine. Può scagliare saette dalle nuvole di pioggia che ha sul dorso.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

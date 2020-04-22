@@ -2,75 +2,75 @@
   {
     "voce": "Vive in grandi colonie nel cuore della giungla, ma nessuno è mai tornato da lì per raccontarlo.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "X"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Attira le prede con il dolce aroma del miele, le inghiotte intere e le digerisce in un giorno.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "L'ACIDO si fa più dolce dopo avervi dissolto molte prede. Così attrae nuove prede ancora più facilmente.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Questo spaventoso POKéMON simile ad una pianta attrae la preda con miele profumato e se la scioglie in bocca.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Anche l'oggetto più resistente si scioglie non appena viene ingerito da questo POKéMON.",
     "giochi": [
-      "Cristallo",
-      "Y"
+      "cristallo",
+      "y"
     ]
   },
   {
     "voce": "VICTREEBEL è dotato di una lunga liana che parte dalla testa. Il POKéMON la sventola e la agita come fosse un'esca per attirare la preda. Quando la preda ignara si avvicina, il POKéMON la inghiotte in un sol boccone.",
     "giochi": [
-      "Rubino",
-      "Zaffiro"
+      "rubino",
+      "zaffiro"
     ]
   },
   {
     "voce": "VICTREEBEL è dotato di una lunga liana che parte dalla testa. La sventola come un'esca per attirare l'ignara preda che inghiottirà in un sol boccone.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Attira la preda verso la bocca servendosi di un aroma simile al miele, per poi dissolverla con un solvente.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Tiene in bocca un liquido dall'aroma simile al miele, che in realtà è un acido altamente corrosivo.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Victreebel è dotato di una lunga liana che parte dalla testa. Il Pokémon la sventola e la agita come fosse un'esca per attirare la preda. Quando la preda ignara si avvicina, il Pokémon la inghiotte in un sol boccone.",
     "giochi": [
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   }
 ]

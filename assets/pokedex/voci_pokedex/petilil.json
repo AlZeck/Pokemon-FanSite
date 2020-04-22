@@ -2,24 +2,24 @@
   {
     "voce": "Le foglie che ha sul capo sono molto amare ma, se masticate, hanno l'effetto di rinvigorire il corpo stanco.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Dato che predilige i terreni ricchi di acqua e nutrimento, nelle zone in cui vive Petilil i raccolti sono rigogliosi.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Se le foglie sul suo capo cadono, ricrescono subito. Sono molto amare, ma se masticate rimettono subito in salute.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

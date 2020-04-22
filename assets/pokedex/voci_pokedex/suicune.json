@@ -2,47 +2,47 @@
   {
     "voce": "Si dice che sia la reincarnazione dei venti nordici. Può purificare all'istante l'acqua torbida e putrida.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "Y"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "y"
     ]
   },
   {
     "voce": "Un POKéMON che corre in lungo e in largo. Si dice che ogni volta che appare, soffino i venti del nord.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver"
     ]
   },
   {
     "voce": "POKéMON divino che gira per il mondo sempre alla ricerca di una fonte di purezza.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "SUICUNE rappresenta la purezza delle sorgenti d'acqua dolce. Corre con grazia immerso nella natura. Questo POKéMON ha la facoltà di depurare le acque di scarico.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Corre per tutto il mondo per purificare l'acqua contaminata. Si allontana con i venti del nord.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   }
 ]

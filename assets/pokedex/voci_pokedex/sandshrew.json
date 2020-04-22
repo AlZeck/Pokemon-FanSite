@@ -2,90 +2,90 @@
   {
     "voce": "Si nasconde sotto terra in zone aride lontano dall'acqua. Risale solo per cercare cibo.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Il suo corpo è molto asciutto, ma si dice che quando si fa freddo si ricopra di fine rugiada.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Se cade da una grande altezza, questo POKéMON può salvarsi appallottolandosi e rimbalzando.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Odiando l'acqua, vive in profonde tane in zone aride. È capace di appallottolarsi in un istante.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "Preferisce le aree aride e sabbiose, per proteggersi con la sabbia quando avverte una minaccia.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Il corpo di SANDSHREW ha una conformazione che gli consente di assorbire l'acqua senza perdite e di sopravvivere nell'aridità del deserto. Questo POKéMON si avvolge su se stesso per proteggersi dai nemici.",
     "giochi": [
-      "Rubino"
+      "rubino"
     ]
   },
   {
     "voce": "SANDSHREW ha una corazza estremamente secca e dura. Può chiudersi a sfera e rotolare per difendersi dagli attacchi. Quando cala la notte, si nasconde nella sabbia del deserto per dormire.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "SANDSHREW si chiude a sfera e in tal modo si difende con facilità dagli attacchi. Poiché vive nel deserto, questo POKéMON ha sviluppato una corazza resistente.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Vive sottoterra, scavando buche. Se minacciato, si protegge raggomitolandosi.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Vive in zone aride con precipitazioni minime. Si arrotola come se fosse una palla per difendersi dai nemici.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Odia l’acqua e vive in tane profonde all'interno di zone aride. È capace di appallottolarsi in un istante.",
     "giochi": [
-      "SoulSilver",
-      "Y"
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "Scava profondi tunnel in cui poi vive. Se fiuta un pericolo o se viene attaccato si ripara appallottolandosi su se stesso.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Il corpo di Sandshrew ha una conformazione che gli consente di assorbire l'acqua senza perdite e di sopravvivere nell'aridità del deserto. Questo Pokémon si avvolge su se stesso per proteggersi dai nemici.",
     "giochi": [
-      "Rubino Omega"
+      "rubino_omega"
     ]
   }
 ]

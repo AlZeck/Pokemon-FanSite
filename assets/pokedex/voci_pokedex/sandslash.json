@@ -2,90 +2,90 @@
   {
     "voce": "Se in pericolo si chiude a riccio. Questa palla spinosa può rotolare, attaccare e scappare.",
     "giochi": [
-      "Rosso",
-      "Blu"
+      "rosso",
+      "blu"
     ]
   },
   {
     "voce": "È abilissimo a graffiare i suoi nemici con gli artigli affilati. Se si rompono, si riformano subito.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Per nascondersi può girare su se stesso velocemente e provocare una tempesta di polvere accecante.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Se scava ad incredibile velocità, può consumarsi le punte e gli artigli. Gli ricrescono in un giorno.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "Abile a salire sugli alberi, si appallottola in una sfera spinosa per poi attaccare dall'alto.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Il corpo di SANDSLASH è ricoperto da aculei coriacei, costituiti da parti di corazza indurita. I vecchi aculei cadono una volta all'anno per essere sostituiti dai nuovi che crescono sotto i precedenti.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "SANDSLASH arrotola il proprio corpo come fosse una sfera ricoperta di grandi aculei, che usa in lotta per far tentennare il nemico. Poi gli si scaglia contro per colpirlo selvaggiamente con gli artigli affilati.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "SANDSLASH si chiude a riccio per proteggersi dagli attacchi nemici e da ondate di calore nelle giornate estremamente calde.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Attacca con gli aculei sul dorso e gli artigli affilati, per poi fuggire rapidamente.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Se in pericolo si chiude a riccio. In questa forma può rotolare, attaccare e scappare.",
     "giochi": [
-      "Verde Foglia",
-      "Y"
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "Si arrotola come una palla e rotola sul dorso verso i nemici. Gli aculei aguzzi provocano gravi danni.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Se scava molto velocemente gli si consumano le punte e gli artigli, ma gli ricrescono in un giorno.",
     "giochi": [
-      "SoulSilver",
-      "X"
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Si lancia all'attacco formando una palla con il corpo. Le formazioni coriacee sul dorso possono ferire il nemico.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

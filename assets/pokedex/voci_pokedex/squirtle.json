@@ -2,75 +2,75 @@
   {
     "voce": "Dopo la nascita la schiena gli si trasforma in una corazza. Sputa potente schiuma dalla bocca.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Attacca i nemici con potenti getti d'acqua. Se si sente in pericolo si ritira dentro la sua corazza.",
     "giochi": [
-      "Giallo",
-      "Y"
+      "giallo",
+      "y"
     ]
   },
   {
     "voce": "Quando nasce, il suo guscio è tenero. Ma presto diviene elastico: se un dito lo tocca, rimbalza.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Ha un guscio elastico, che si indurisce subito dopo la nascita. I colpi gli rimbalzano contro.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "Se si sente minacciato, ritira le zampe nel guscio e inizia a spruzzare acqua dalla bocca.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "La corazza di SQUIRTLE non serve soltanto da protezione. La particolare forma arrotondata e le scanalature superficiali lo aiutano a minimizzare l'attrito dell'acqua, per nuotare ad alta velocità.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "La corazza di SQUIRTLE non serve solo da protezione. La forma arrotondata e le scanalature riducono l'attrito in acqua e gli permettono di nuotare ad alta velocità.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Mentre ritrae il lungo collo dentro la corazza sputa un vigoroso getto d'acqua.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Si ritira nel suo guscio e, alla prima occasione, contrattacca colpendo il nemico con spruzzi d’acqua.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "Dopo la nascita il soffice guscio si indurisce fino a diventare elastico. I colpi gli rimbalzano contro.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   }
 ]

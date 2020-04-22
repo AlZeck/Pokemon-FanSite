@@ -2,24 +2,24 @@
   {
     "voce": "Pokémon che ha sfidato gli uomini per proteggere i propri compagni. Si racconta di lui nelle leggende.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Le corna della testa sono lame affilate. Muovendosi come un turbine, scuote e falcia fulmineo i nemici.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Le leggende dicono di lui che protegge i Pokémon tenendo in scacco i nemici con i suoi movimenti fulminei.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

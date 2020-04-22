@@ -2,49 +2,49 @@
   {
     "voce": "Le foglie che crescono sul corpo di GROVYLE sono utili per mimetizzarsi contro i nemici nella foresta. Questo POKéMON sa arrampicarsi sugli alberi della giungla con una maestria senza pari.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "GROVYLE vola di ramo in ramo e di albero in albero. Non c'è nessun POKéMON nella foresta in grado di catturarlo in volo: la sua velocità è impressionante!",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Sul corpo di GROVYLE crescono delle foglie che gli servono per mimetizzarsi e nascondersi dai nemici quando si trova in una fitta foresta.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "I muscoli delle zampe estremamente sviluppati gli permettono di saltare fino a grandi altezze.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "X"
+      "rosso_fuoco",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Vive in giungle fitte. Si avvicina alle prede saltando di ramo in ramo.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "Ha un potere propulsivo impressionante. Si sposta saltando agilmente tra i rami di giganteschi alberi.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

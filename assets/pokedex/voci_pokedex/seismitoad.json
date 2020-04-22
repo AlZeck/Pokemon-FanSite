@@ -2,24 +2,24 @@
   {
     "voce": "Dalle escrescenze che ha sulla testa spara un liquido che paralizza i nervi. Usa le vibrazioni per attaccare il nemico.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Facendo vibrare le protuberanze sui pugni, ne raddoppia la potenza. Frantuma enormi massi con un colpo.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Usa le sue protuberanze per emettere delle vibrazioni che aumentano la potenza dei suoi pugni.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

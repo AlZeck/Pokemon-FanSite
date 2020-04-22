@@ -2,65 +2,65 @@
   {
     "voce": "In lotta sbatte le ali a gran velocità per liberare le sue polveri tossiche nell'aria.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Possiede ali idrorepellenti ricoperte da una polvere velenosa. Può volare anche quando piove.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Raccoglie miele tutti i giorni, e se lo spalma sui peli delle zampe per trasportarlo al nido.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Grazie alla polvere idrorepellente sulle ali, può raccogliere miele anche sotto la forte pioggia.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Vola di fiore in fiore raccogliendo miele. Può individuare i fiori anche da grande distanza.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "BUTTERFREE è dotato di abilità molto raffinate per estrarre il delizioso nettare dai fiori. Riesce a trovare, estrarre e trasportare il nettare dai fiori in boccio al nido anche per 10 km.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Una polvere idrorepellente gli ricopre le ali, permettendogli di volare anche sotto la pioggia.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Adora il nettare dei fiori e riesce a localizzare i campi in cui si trova anche una minima quantità di polline.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   }
 ]

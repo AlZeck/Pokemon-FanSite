@@ -2,54 +2,54 @@
   {
     "voce": "SEALEO è solito giocare con qualsiasi cosa veda per la prima volta, tenendola in equilibrio sulla punta del naso. Talvolta, si diverte a far rotolare sul proprio naso anche SPHEAL.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "SEALEO gioca spesso tenendo in equilibrio oggetti sulla punta del naso e facendoli rotolare. Riesce così anche ad annusarli e provarne la consistenza per capire se sono di suo gradimento o meno.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "I SEALEO vivono in branco su lastre di ghiaccio, che riescono a rompere con le potenti pinne. Cinque volte al giorno si tuffano in mare per pescare.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Col naso tasta gli oggetti e ne sente l'odore. Lo usa anche per giocare, facendovi girare SPHEAL.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Fa roteare oggetti sul naso per controllarne l'odore e la consistenza.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Per memorizzare un nuovo oggetto, ha bisogno di toccarlo con il naso, dove risiede la sua sensibilità.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X"
+      "heartgold",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Fa roteare sul naso qualsiasi cosa abbia forma sferica, Poké Ball e Spheal inclusi.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

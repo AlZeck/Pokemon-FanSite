@@ -2,39 +2,39 @@
   {
     "voce": "Il suo aspetto ricorda alcuni oggetti ritrovati in antiche tombe, ma non si sa se ci sia una relazione.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Gli esami ai raggi X, fatti per studiarne la morfologia, non hanno dato alcun risultato.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Secondo alcuni ricercatori, in passato questo Pokémon rifletteva come uno specchio.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Nell'antichità si credeva che una forza misteriosa dimorasse nei disegni sul dorso di BRONZOR.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Si trova in vecchie tombe. Si dice che nel disegno sulla sua schiena risieda una forza misteriosa.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

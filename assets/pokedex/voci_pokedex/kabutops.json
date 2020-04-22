@@ -2,70 +2,70 @@
   {
     "voce": "Ha una fisionomia da perfetto nuotatore. Taglia la preda con le sue falci e ne beve il sangue.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "È un perfetto nuotatore che taglia la preda con le sue falci e ne succhia il sangue.",
     "giochi": [
-      "Giallo",
-      "Y"
+      "giallo",
+      "y"
     ]
   },
   {
     "voce": "In acqua raccoglie gli arti per diventare più compatto, agitando il guscio per nuotare veloce.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "X"
+      "oro",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Con gli artigli affilati, questo antico POKéMON dilania la vittima e ne succhia i fluidi corporei.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Poteva nuotare rapidamente ripiegando insieme gli artigli affilati come lame.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Nell'antichità KABUTOPS cacciava le prede nuotando sott'acqua. Pare che il POKéMON si stesse adattando alla vita sulla terra ferma, come confermano le mutazioni su branchie e zampe.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Nell'antichità KABUTOPS cacciava le prede sott'acqua. Le mutazioni su branchie e zampe confermano la teoria che si stesse adattando alla vita sulla terraferma.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si muove liberamente nell'acqua. Dopo aver catturato la preda con le due falci, ne assorbe i fluidi.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Pokémon probabilmente giunto sulla terraferma perché le sue prede si erano adattate a vivere lì.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

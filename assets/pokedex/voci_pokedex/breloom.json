@@ -2,49 +2,49 @@
   {
     "voce": "BRELOOM si avvicina al nemico con passettini leggeri e veloci, poi sferra scariche di pugni con gli elastici arti superiori. Le sue tecniche di lotta superano quelle dei pugili più esperti.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "I semi sulla punta della coda di BRELOOM sono costituiti da spore tossiche indurite. Se ingeriti hanno un effetto orribile, infatti un solo morso a questi semi crea gravi disturbi allo stomaco.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Dai fori presenti sul cappello di BRELOOM fuoriescono delle spore. Predilige i climi tiepidi e umidi e si nutre di alberi e piante che trova in campi e foreste.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "I semi sulla coda sono formati da spore tossiche. Abbatte i nemici con pugni rapidissimi, praticamente invisibili.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Tirando pugni, i suoi cortissimi arti si allungano. Usa una tecnica simile a quella dei pugili professionisti.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "Sparge spore tossiche con orribili effetti sul nemico che le respira, e aggiunge una scarica di pugni.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y"
+      "heartgold",
+      "soulsilver",
+      "y"
     ]
   }
 ]

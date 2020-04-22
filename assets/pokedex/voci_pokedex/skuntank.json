@@ -2,34 +2,34 @@
   {
     "voce": "Attacca spruzzando un fluido puzzolente dalla coda. Ha un raggio d’azione di oltre 50 metri.",
     "giochi": [
-      "Diamante",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Spruzza un fluido puzzolente dalla coda. Quest’odore diventa insopportabile se fatto suppurare.",
     "giochi": [
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Attacca spruzzando un fluido puzzolente dalla punta della coda. Gli attacchi dall’alto lo confondono.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Attacca spruzzando un liquido mefitico dalla coda. Se attacca a ripetizione, l’odore si affievolisce.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

@@ -2,54 +2,54 @@
   {
     "voce": "MANECTRIC scarica costantemente l'elettricità dalla propria criniera. Spesso le scintille scatenano incendi nei boschi. In lotta questo POKéMON crea nubi temporalesche.",
     "giochi": [
-      "Rubino"
+      "rubino"
     ]
   },
   {
     "voce": "MANECTRIC scarica forti scosse elettriche dalla propria criniera, usata come collettore dell'elettricità presente nell'atmosfera. Crea inoltre nubi temporalesche in cielo.",
     "giochi": [
-      "Zaffiro"
+      "zaffiro"
     ]
   },
   {
     "voce": "Poiché i fulmini cadono sempre nelle loro vicinanze, un tempo si pensava che i MANECTRIC nascessero da essi. In lotta creano nubi temporalesche.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Raramente si mostra agli umani. Si dice che nidifichi nelle zone dove è caduto un fulmine.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "X"
+      "rosso_fuoco",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Scarica elettricità dalla criniera. Crea nubi temporalesche in cielo che fanno cadere saette.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "Dicono che si faccia la tana nelle zone dove è caduto un fulmine. Manda scariche elettriche dalla criniera.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Manectric scarica forti scosse elettriche dalla propria criniera, usata come collettore dell'elettricità presente nell'atmosfera. Crea inoltre nubi temporalesche sopra la sua testa.",
     "giochi": [
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   }
 ]

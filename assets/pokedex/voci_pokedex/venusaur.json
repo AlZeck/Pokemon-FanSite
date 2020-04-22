@@ -2,70 +2,70 @@
   {
     "voce": "La pianta fiorisce assorbendo energia solare. È sempre in movimento in cerca di luce.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Il fiore che porta sulla schiena cattura i raggi solari, li assorbe e li trasforma in energia.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Si riempie di energia grazie ai grandi petali del fiore, che spalanca catturando i raggi solari.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "X"
+      "oro",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Può convertire la luce solare in energia. Per questo è più forte in estate.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Mentre si riscalda assorbendo la luce solare, dai petali del fiore si diffonde un piacevole profumo.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "C'è un grande fiore sulla schiena di VENUSAUR. Si dice che i colori diventino più vividi con il giusto nutrimento e i raggi solari. Il suo profumo calma le reazioni emotive delle persone.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Con il giusto nutrimento e i raggi solari, i colori del fiore sulla schiena di VENUSAUR diventano più vividi. Il suo profumo calma le reazioni emotive delle persone.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Dal suo fiore si dipana una fragranza capace di placare gli animi di chi è impegnato nella lotta.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Dopo la pioggia, il fiore sul suo dorso emana un profumo più intenso e attira gli altri Pokémon.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

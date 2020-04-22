@@ -2,52 +2,52 @@
   {
     "voce": "L'intero corpo è protetto da un guscio duro come acciaio. Nessuno sa cosa si trovi sotto l'armatura.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold"
+      "oro",
+      "verde_foglia",
+      "heartgold"
     ]
   },
   {
     "voce": "Rimane saldamente attaccato al suo albero. Tiene lontani i nemici lanciando pezzi del duro guscio.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "Y"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "Spesso lo si vede appeso al tronco di qualche grosso albero. Se si agita lancia pezzi del suo guscio.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "FORRETRESS si nasconde all'interno della sua conchiglia d'acciaio temprato. La conchiglia si apre soltanto per catturare la preda, ma il POKéMON ha una rapidità tale che non è possibile osservarne l'interno.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "FORRETRESS si nasconde nella conchiglia d'acciaio temprato che apre solo per catturare la preda. Lo fa così rapidamente che è impossibile osservarne l'interno.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "È incassato in una conchiglia d'acciaio. A parte gli occhi scrutatori, nessuno sa cosa ci sia all'interno.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   }
 ]

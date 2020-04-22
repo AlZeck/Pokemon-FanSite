@@ -2,24 +2,24 @@
   {
     "voce": "Può bloccare i movimenti dell'avversario con il solo sguardo. Amplifica l'energia solare all'interno del suo corpo.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Intimidisce i nemici alzando la testa. Dà il meglio di sé quando combatte contro un avversario molto forte.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Dà il meglio di sé solo contro chi non resta intimidito dal suo nobile sguardo.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

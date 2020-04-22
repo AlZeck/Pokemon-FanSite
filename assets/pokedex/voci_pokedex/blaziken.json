@@ -2,49 +2,49 @@
   {
     "voce": "In lotta BLAZIKEN emette fiamme micidiali coi suoi pugni, attaccando coraggiosamente il nemico. Più forte è il nemico, tanto più intenso è il fuoco proveniente dai pugni.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "BLAZIKEN è dotato di zampe molto potenti in grado di radere al suolo un edificio di 30 piani in un colpo solo. I suo pugni fulminei lasciano il nemico ustionato e talvolta carbonizzato.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "BLAZIKEN si dedica alle arti marziali che usano pugni e calci. A cicli di molti anni, le sue piume bruciano, lasciando il posto a un nuovo morbido piumaggio.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Quando affronta un forte nemico lancia fiammate dai polsi. Le zampe poderose gli permettono di scavalcare interi palazzi.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "Y"
+      "rosso_fuoco",
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "Le fiamme che fuoriescono dai suoi polsi gli avvolgono i pugni. Quando colpisce il nemico, lo scotta.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Riesce a superare un edificio di 30 piani con un salto. I suoi pugni di fuoco inceneriscono il nemico.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X"
+      "heartgold",
+      "soulsilver",
+      "x"
     ]
   }
 ]

@@ -2,24 +2,24 @@
   {
     "voce": "Vive sulle montagne innevate. Durante le antiche glaciazioni si è spostato nelle regioni del sud.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si nasconde dai nemici producendo una miriade di granelli di ghiaccio.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Congela il corpo del nemico con granelli di ghiaccio che genera raffreddando l'aria circostante.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

@@ -2,80 +2,80 @@
   {
     "voce": "Prospera in zone paludose. Cresce nutrendosi del liquame inquinato scaricato dalle fabbriche.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "Y"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "Formato da fanghi solidificati emana puzzo di fogna. Dove passa lui non cresce più neanche la gramigna.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Muovendosi perde pezzetti del proprio corpo, da cui nascono nuovi GRIMER. Così il fetore aumenta.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Ovunque passi, GRIMER lascia così tanti germi che nessuna pianta vi potrà più crescere.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Quando due di questi POKéMON combinano i propri corpi, si creano nuove forme di veleno.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Il corpo fangoso e gommoso di GRIMER può passare attraverso ogni apertura, anche la più angusta. Si intrufola dentro le condotte fognarie per bere le ripugnanti acque di scarico.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "GRIMER proviene dal fango depositato sui fondali inquinati. Infatti ama tutto ciò che è sudicio e tossico. Emana continuamente un fluido batterico velenoso da ogni parte del corpo.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "GRIMER è nato dal fango depositato sui fondali marini. Predilige tutto ciò che è sudicio e si nutre dei ripugnanti liquami di scarico delle fabbriche.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "GRIMER è nato da fango esposto ai raggi X provenienti dalla luna. Ama nutrirsi di sostanze sudice.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Nacque quando il fango di un fiume sudicio fu esposto ai raggi X della luna. Vive nella sporcizia.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Un Pokémon nato dalla melma. Predilige i posti sporchi perché gli permettono di aumentare la sua carica batterica.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

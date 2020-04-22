@@ -2,75 +2,75 @@
   {
     "voce": "Addormenta i suoi nemici e poi si nutre dei loro sogni. A volte fa indigestione di incubi.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "X"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Tenendolo vicino è probabile che DROWZEE ti faccia vedere i sogni che ha mangiato in passato.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Se si pensa di aver fatto un bel sogno, ma non lo si ricorda, probabilmente l'ha mangiato un DROWZEE.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Ricorda ogni singolo sogno che mangia. Preferisce quelli dei bambini perché sono molto più gustosi.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Storcendo il naso può leggere i sogni di coloro che stanno dormendo e capire dove si trovano.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "DROWZEE è solito nutrirsi dei sogni degli altri mentre dormono, estraendoli dalle loro narici. Se durante il sonno si avverte prurito al naso, significa che DROWZEE è già all'opera.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "DROWZEE si nutre dei sogni degli altri mentre dormono, estraendoli dalle loro narici. Se dormendo si avverte prurito al naso, significa che è già all'opera.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Discende dal leggendario animale baku, che era considerato un mangiatore di sogni. Grande conoscitore dell'ipnosi.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Riesce ad indovinare cosa sognano le persone annusandole con il suo grande naso. Ama i sogni divertenti.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Se si pensa di aver fatto un bel sogno, ma non lo si ricorda, magari l’ha mangiato un Drowzee.",
     "giochi": [
-      "Y"
+      "y"
     ]
   }
 ]

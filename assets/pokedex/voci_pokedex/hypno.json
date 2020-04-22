@@ -2,75 +2,75 @@
   {
     "voce": "Quando cattura lo sguardo del nemico usa un mix di PSICO-mosse come l'IPNOSI e la CONFUSIONE.",
     "giochi": [
-      "Rosso",
-      "Blu"
+      "rosso",
+      "blu"
     ]
   },
   {
     "voce": "Se lo incontri evita il contatto visivo, poiché cercherà di ipnotizzarti con il suo pendolo.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Quando ha molta fame addormenta gli umani che incontra, per poi mangiare i loro sogni.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Il pendolo che ha sempre con sé e che agita sempre allo stesso ritmo fa assopire chiunque lo veda.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Più a lungo fa oscillare il pendolo, più persistenti sono gli effetti della sua ipnosi.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "HYPNO tiene in mano un pendolo. Il movimento oscillatorio e i riflessi del pendolo inducono l'avversario in un profondo stato d'ipnosi. Cercando la preda il POKéMON si prepara lucidando il pendolo.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "HYPNO tiene in mano un pendolo i cui riflessi e movimento inducono l'avversario in uno stato d'ipnosi. Mentre cerca la preda si prepara lucidando il pendolo.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Ha con sé una sorta di pendolo. Una volta, per errore, si è portato via un bambino che aveva ipnotizzato.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Quando cattura lo sguardo del nemico usa un mix di mosse di tipo PSICO come IPNOSI o CONFUSIONE.",
     "giochi": [
-      "Verde Foglia"
+      "verde_foglia"
     ]
   },
   {
     "voce": "Con il suo pendolo fa addormentare chiunque nel giro di tre secondi, anche chi si è appena svegliato.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

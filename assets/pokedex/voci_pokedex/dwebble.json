@@ -2,24 +2,24 @@
   {
     "voce": "Poiché secerne dalla bocca un liquido in grado di sciogliere le pietre, riesce ad aprirsi varchi anche nella dura roccia.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Scava un buco in una pietra adatta, per farne la sua dimora. Se si rompe, non si dà pace finché non ne trova un'altra.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Quando trova una pietra della sua misura crea un buco con il liquido che secerne dalla bocca e ci si infila dentro.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

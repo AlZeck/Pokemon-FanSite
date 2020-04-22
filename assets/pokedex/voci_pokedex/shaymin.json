@@ -2,34 +2,34 @@
   {
     "voce": "Vive nei campi di fiori e cerca di non farsi vedere arrotolandosi per sembrare una pianta fiorita.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Può dissolvere le tossine nell'aria per mutare all'istante una terra arida in un rigoglioso campo fiorito.",
     "giochi": [
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "I fiori che lo ricoprono sbocciano se viene abbracciato con affetto e si sente apprezzato.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Si narra che SHAYMIN si alzi in volo per esprimere commossa gratitudine per la fioritura delle gracidee.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "soulsilver",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

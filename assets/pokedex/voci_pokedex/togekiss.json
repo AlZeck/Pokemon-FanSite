@@ -2,29 +2,29 @@
   {
     "voce": "Non si presenta mai dove c’è un conflitto. Di recente le sue apparizioni sono diventate rare.",
     "giochi": [
-      "Diamante",
-      "Perla"
+      "diamante",
+      "perla"
     ]
   },
   {
     "voce": "La sua natura lo rende affine alle persone che rispettano i diritti altrui ed evitano conflitti inutili.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Pare che TOGEKISS ami visitare le regioni pacifiche, senza conflitti, donando bontà e dolcezza.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

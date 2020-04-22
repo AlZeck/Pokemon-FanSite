@@ -2,24 +2,24 @@
   {
     "voce": "Si è risvegliato da un antico fossile. Può immergersi fino a 1000 metri di profondità.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Nuotava nei mari 100 milioni di anni fa. A volte sale in superficie per aggredire le prede.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "È stato rigenerato da un fossile. Nuotatore provetto, si immergeva a una profondità di ben 1000 metri.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

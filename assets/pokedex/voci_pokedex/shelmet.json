@@ -2,24 +2,24 @@
   {
     "voce": "Se viene attaccato, si richiude nella conchiglia per difendersi e spruzza un veleno viscoso dalla fessura.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Se riceve una scarica elettrica assieme a Karrablast, si evolve. Il motivo non è chiaro.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Quando incontra Karrablast si crea della corrente elettrica che stimola entrambi i Pokémon causandone l'evoluzione.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Rubino Omega",
-      "X"
+      "nero_2",
+      "bianco_2",
+      "rubino_omega",
+      "x"
     ]
   }
 ]

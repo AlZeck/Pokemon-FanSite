@@ -2,39 +2,39 @@
   {
     "voce": "Con le zampe può accartocciare una macchina. Le punte degli artigli sono velenose.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Ha il corpo incassato in un robusto carapace. Ruota la testa di 180° e riesce a vedere tutto.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Dotato di una costituzione robusta, va orgoglioso della sua forza e abbatte i nemici senza usare tossine.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Temuto come la peste giacché attacca tutti i viaggiatori del deserto, umani o Pokémon.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Va fiero della sua forza con cui può fare a pezzi il nemico, ma in genere preferisce finirlo usando le sue tossine.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

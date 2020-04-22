@@ -2,39 +2,39 @@
   {
     "voce": "Pokémon molto cauto. Se percepisce un pericolo, si avvolge nelle sue orecchie morbide e pelose.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "È molto pulito e non dimentica mai di lisciarsi le orecchie. Corre saltando molto energicamente.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Ha delle orecchie molto delicate. Se le si tocca con forza, scalcia con le sue graziose gambe.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "platino",
+      "nero",
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Cambia pelliccia due volte l'anno. Il suo pelo nella stagione fredda è di una morbidezza imbattibile.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "È un Pokémon estremamente cauto. Se avverte un pericolo, si dà subito alla fuga saltellando.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

@@ -2,62 +2,62 @@
   {
     "voce": "Le BACCHE che raccoglie nel guscio fatto a vaso marciscono trasformandosi in liquido vischioso.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold"
+      "oro",
+      "verde_foglia",
+      "heartgold"
     ]
   },
   {
     "voce": "Nel guscio raccoglie BACCHE. Per evitare attacchi, si nasconde sotto le rocce e non fa alcun rumore.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "Y"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "Secerne un liquido con cui scava il nido nelle rocce e che, mischiato alle BACCHE, è un'ottima bevanda.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "SHUCKLE si nasconde tranquillo sotto le rocce mentre mangia le bacche che ha raccolto precedentemente all'interno della sua corazza. Queste si trasformano in succo col fluido del corpo.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "SHUCKLE si nasconde sotto le rocce per mangiare le bacche raccolte precedentemente nella sua corazza. Queste si trasformano in succo col fluido del corpo.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Conserva nel guscio delle bacche che, quando fermentano, si trasformano in un succo delizioso.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Usa il guscio a mo' di vaso per stipare le bacche, che dopo un po' fermentano e si trasformano in un succo delizioso.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Il suo guscio è come un vaso nel quale conserva le bacche, che a un certo punto si trasformano in un denso succo.",
     "giochi": [
-      "X"
+      "x"
     ]
   }
 ]

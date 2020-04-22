@@ -2,29 +2,29 @@
   {
     "voce": "Il suo corpo è composto di plasma. È solito infiltrarsi negli strumenti elettronici per provocare caos.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Il suo corpo elettrico può introdursi in alcuni strumenti, prendendone il controllo e creando caos.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Questo Pokémon è stato usato a lungo per ricerche come forza motrice su motori speciali.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

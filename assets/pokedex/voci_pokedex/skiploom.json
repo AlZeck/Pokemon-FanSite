@@ -2,57 +2,57 @@
   {
     "voce": "Il fiore sul capo si apre e si chiude con il continuo mutare della temperatura corporea.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "X"
+      "oro",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Spalanca i petali per assorbire la luce solare. Fluttua nell'aria per essere più vicino al sole.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "Y"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "Se piove chiude il fiore e corre a ripararsi sotto un albero per evitare di bagnarsi.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Il fiore di SKIPLOOM sboccia quando la temperatura sale oltre i 18 gradi C. L'apertura del fiore dipende dalla temperatura. Per questo motivo il POKéMON è usato anche come termometro.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Il fiore di SKIPLOOM è sensibile alla temperatura e sboccia quando questa supera i 18 gradi centigradi. Questo POKéMON è usato anche come termometro.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Il fiore sul capo si apre e si chiude con il mutare della temperatura.",
     "giochi": [
-      "Verde Foglia"
+      "verde_foglia"
     ]
   },
   {
     "voce": "Il suo fiore sboccia appena l’aria si riscalda. Fluttua nel cielo per assorbire l'energia solare.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

@@ -2,24 +2,24 @@
   {
     "voce": "I due ingranaggi che lo compongono combaciano unicamente l'uno con l'altro. Qualsiasi altro incastro è impossibile.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Produce l'energia che gli serve per vivere incastrando e facendo ruotare le due parti che lo compongono.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Le due parti che lo compongono possono combinarsi solo in un determinato modo. Produce energia facendole ruotare.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

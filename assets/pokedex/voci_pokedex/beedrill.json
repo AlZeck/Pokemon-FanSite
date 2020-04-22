@@ -2,70 +2,70 @@
   {
     "voce": "Vola velocemente e attacca usando i suoi grandi e velenosi pungiglioni sulla coda e sulle zampe.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Possiede 3 aculei velenosi sulle zampe anteriori e sull'addome con cui punge i nemici ripetutamente.",
     "giochi": [
-      "Giallo",
-      "X"
+      "giallo",
+      "x"
     ]
   },
   {
     "voce": "Può abbattere ogni avversario con i velenosissimi aculei. Talvolta attacca in sciami.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Ha tre aculei velenosi. Quello sulla coda secerne il veleno più potente.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Sconfigge la preda con gli aculei aguzzi e velenosi, per poi trasportarla al nido e cibarsene.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "BEEDRILL difende strenuamente il proprio territorio. Per ragioni di sicurezza nessuno può avvicinarsi al suo nido. Se vengono disturbati, questi POKéMON attaccano violentemente in sciami.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "BEEDRILL difende strenuamente il proprio territorio. Questi POKéMON attaccano violentemente in sciami chi si avvicina al loro nido disturbandoli.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si può trovare anche in sciami. Vola ad incredibili velocità, colpendo con il velenoso pungiglione sulla coda.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Vola intorno al nemico ad alta velocità, attacca con i pungiglioni avvelenati e si allontana rapido.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

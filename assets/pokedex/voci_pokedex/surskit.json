@@ -2,49 +2,49 @@
   {
     "voce": "Dalla punta delle zampe SURSKIT secerne un olio che gli consente di camminare sul pelo dell'acqua come se stesse pattinando. Si ciba di organismi microscopici in stagni e laghi.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "In caso di pericolo SURSKIT secerne un fluido denso e zuccheroso dall'aculeo posto sulla sommità del capo. Esistono POKéMON che adorano cibarsi di questo fluido.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Dopo un acquazzone serale, è facile vedere i SURSKIT scivolare a pelo d'acqua sulle pozzanghere. Dal capo secernono un fluido dal dolce aroma.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Normalmente vivono negli stagni, ma dopo un acquazzone è possibile trovarli anche in città, nelle pozzanghere.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "X"
+      "rosso_fuoco",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Cammina a pelo d'acqua. Dall'aculeo sulla testa emana un dolce aroma con cui attira le prede.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "Il suo capo secerne un liquido sciropposo e profumato. Vive negli stagni tra le piante acquatiche.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

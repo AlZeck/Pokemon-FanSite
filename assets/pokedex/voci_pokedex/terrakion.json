@@ -2,24 +2,24 @@
   {
     "voce": "Ha lottato contro gli esseri umani per proteggere i Pokémon scacciati dalle loro dimore a causa delle guerre.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Quando carica, ha una forza tale da sfondare un'enorme muraglia. Si racconta di lui nelle leggende.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Si racconta di lui nelle leggende. Per salvare i Pokémon, ha distrutto un castello con il suo immenso potere.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

@@ -2,70 +2,70 @@
   {
     "voce": "Cacciato quasi fino all'estinzione, questo POKéMON può traghettare la gente sull'acqua.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Possiede un'anima gentile che può leggere la mente. Può traghettare la gente sull'acqua sulla sua groppa.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Sono buoni d'animo e lottano di rado, così molti di loro sono facili prede: sono stati decimati.",
     "giochi": [
-      "Oro",
-      "X",
-      "HeartGold"
+      "oro",
+      "x",
+      "heartgold"
     ]
   },
   {
     "voce": "Trasporta la gente per il mare sul suo dorso. Se è di buon umore emette un verso dolce, melodioso.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Questo POKéMON generoso si offre volentieri come comodo mezzo di trasporto a chi vuole cavalcarlo.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "L'uomo ha portato LAPRAS quasi alla sua totale estinzione. Si dice che la sera lo si senta cantare malinconico per richiamare i suoi pochi simili ancora in vita.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "La sua intelligenza gli permette di comprendere il linguaggio degli umani, che ama trasportare sul suo dorso.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Ama attraversare il mare con persone e Pokémon sul suo dorso. Capisce il linguaggio umano.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "La sua grande intelligenza gli permette di capire anche il linguaggio umano. Ama nuotare in mare trasportando persone.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

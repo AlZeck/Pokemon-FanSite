@@ -2,54 +2,54 @@
   {
     "voce": "TORCHIC segue il proprio ALLENATORE ovunque, saltellandogli dietro con passo incerto. Questo POKéMON sputa fiammate roventi a 1000 gradi C, con sfere infuocate capaci di carbonizzare il nemico.",
     "giochi": [
-      "Rubino"
+      "rubino"
     ]
   },
   {
     "voce": "Nel corpo di TORCHIC è custodita la sua fiamma. Abbracciandolo si illumina emanando un incredibile calore. Questo POKéMON è ricoperto da un piumaggio soffice e caldo.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Quando viene attaccato, TORCHIC sputa sfere di fuoco che si formano nel suo ventre. Non ama l'oscurità perché non vede ciò che lo circonda.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Nel ventre ha una sacca di fuoco che brucia in continuazione. Se lo si abbraccia, emana calore.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "X"
+      "rosso_fuoco",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Nel suo corpo brucia una fiamma e abbracciandolo si avverte calore. Lancia palle di fuoco a 1000°C.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "Nel ventre ha una sacca di fuoco. Se lo si abbraccia, emana calore come una borsa dell'acqua calda.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Torchic segue il proprio Allenatore ovunque, saltellandogli dietro con passo incerto. Questo Pokemon sputa fiammate roventi a 1000°C, con sfereinfuocate capaci di carbonizzare il nemico.",
     "giochi": [
-      "Rubino Omega"
+      "rubino_omega"
     ]
   }
 ]

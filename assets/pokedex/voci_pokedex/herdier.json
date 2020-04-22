@@ -2,24 +2,24 @@
   {
     "voce": "La pelliccia nera che lo ricopre come un manto è estremamente dura e ammortizza i colpi che gli vengono inferti.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Segue fedelmente le istruzioni dell'Allenatore. Aiuta sin dall'antichità gli Allenatori ad allenare i Pokémon.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "È un Pokémon molto leale, che aiuta il suo Allenatore e al contempo si prende cura degli altri Pokémon della squadra.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

@@ -2,70 +2,70 @@
   {
     "voce": "Quando punta un nemico, carica furiosamente frustando il suo corpo con le tre lunghe code.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Questo POKéMON forte e violento corre travolgendo ogni cosa. Solo un vero ostacolo può fermarlo.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Lottano tra loro incrociando le corna. Il capobranco è fiero dei segni delle lotte sulle sue corna.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Prima si frusta con le tre code per caricarsi, per poi partire all'attacco a tutta velocità.",
     "giochi": [
-      "Argento",
-      "SoulSilver",
-      "X"
+      "argento",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "POKéMON violenti, che lottano con gli altri membri del branco per mettere alla prova la propria forza.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Questo POKéMON è molto insofferente e sempre alla ricerca della rissa. Se non trova un avversario con cui lottare, TAUROS si lancia contro grossi tronchi per abbatterli e calmarsi.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "TAUROS è molto insofferente e sempre alla ricerca della rissa. Se non trova nessuno con cui lottare, si lancia contro grossi tronchi per abbatterli e calmarsi.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Prima di usare AZIONE si frusta il corpo ripetutamente con le tre lunghe code.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Dopo aver puntato il nemico, lo carica a testa bassa. È noto per la sua indole violenta.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

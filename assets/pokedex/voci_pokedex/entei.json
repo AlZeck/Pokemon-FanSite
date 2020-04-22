@@ -2,47 +2,47 @@
   {
     "voce": "Se abbaia, fa eruttare i vulcani. Sfoga la sua incontenibile potenza correndo dappertutto.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold"
+      "oro",
+      "verde_foglia",
+      "heartgold"
     ]
   },
   {
     "voce": "Un POKéMON che corre in lungo e in largo. Si dice che nasca ogni volta che si forma un nuovo vulcano.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "X"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "POKéMON vigoroso, che corre in lungo e in largo sputando fiamme più calde del magma.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "ENTEI rappresenta l'ardore del magma. Si narra che questo POKéMON sia nato dall'eruzione di un vulcano. Emette lingue di fuoco così violente da incenerire tutto ciò che lambiscono.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si dice che quando emette il suo verso, da qualche parte nel mondo un vulcano stia eruttando.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

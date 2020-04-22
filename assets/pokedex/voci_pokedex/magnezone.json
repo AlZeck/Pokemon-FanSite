@@ -2,34 +2,34 @@
   {
     "voce": "Si è evoluto in seguito all'esposizione a uno speciale campo magnetico. Tre unità generano magnetismo.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Alcuni hanno provato a farlo evolvere artificialmente, ma l’esperimento non è andato a buon fine.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Si è evoluto in MAGNEZONE modificando la struttura molecolare di MAGNETON con un campo magnetico ad hoc.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "A volte si attraggono l'un l'altro con la loro potentissima carica magnetica, e poi non riescono più a muoversi.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

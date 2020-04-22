@@ -2,70 +2,70 @@
   {
     "voce": "Può copiare il codice genetico del suo nemico e trasformarsi nella sua copia perfetta.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Quando incontra un nemico è capace di trasformarsi nella sua copia perfetta in un baleno.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Si può trasformare in qualsiasi cosa. Quando dorme si tramuta in pietra per evitare gli attacchi.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "La sua capacità di trasformarsi è perfetta. Ma se lo si fa ridere, perde subito il travestimento.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Quando sfida un altro DITTO, raddoppia la velocità per assumere la forma dell'avversario.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "DITTO cambia la sua struttura cellulare per assumere molte altre forme. Tuttavia, quando si affida solo alla sua memoria, talvolta dimentica dettagli importanti.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Può ricombinare a piacere la propria struttura cellulare per trasformarsi in altri esseri viventi.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Ha la capacità di modificare la sua struttura cellulare per trasformarsi in qualsiasi cosa veda.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "x"
     ]
   },
   {
     "voce": "Può modificare la sua struttura cellulare assumendo le sembianze di ciò che vede. Ritorna se stesso quando è stanco.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

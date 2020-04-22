@@ -2,34 +2,34 @@
   {
     "voce": "Dagli artigli rilascia un'elettricità talmente intensa da mandare KO il nemico. Vive in piccoli gruppi.",
     "giochi": [
-      "Diamante",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Comunica mediante gli impulsi elettrici ritmici emessi dagli artigli anteriori, che posa sui suoi simili.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "I suoi artigli rilasciano una forte corrente elettrica e con un solo graffio manda KO i nemici.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Se due LUXIO collegano le code, riescono ad emettere dagli artigli una vigorosa scarica elettrica.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

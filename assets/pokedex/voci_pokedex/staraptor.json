@@ -2,34 +2,34 @@
   {
     "voce": "Ha un'indole selvaggia. Sfida coraggiosamente i nemici più grossi di lui.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "I muscoli di ali e zampe sono molto sviluppati. Vola senza fatica anche portando un piccolo Pokémon.",
     "giochi": [
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Non smette di attaccare neanche quando è ferito. Si preoccupa che la sua cresta sia sempre in ordine.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Per diventare STARAPTOR, lascia il gruppo e affronta la vita da solo. Possiede ali robustissime.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "soulsilver",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

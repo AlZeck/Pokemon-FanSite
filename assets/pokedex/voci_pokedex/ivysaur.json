@@ -2,70 +2,70 @@
   {
     "voce": "Quando gli cresce il bulbo sulla schiena, sembra non riuscire più a stare in posizione eretta.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Assorbendo energia il suo bulbo cresce. Al momento della fioritura emana un forte profumo.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "L'esposizione alla luce solare lo rafforza e fa crescere il bocciolo che ha sul dorso.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Se il bocciolo che ha sulla schiena emana un dolce profumo, presto sboccerà il grande fiore.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Per crescere, il bocciolo sul dorso assorbe sostanze nutrienti. Quando sboccia libera un piacevole profumo.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "C'è un germoglio piantato nella schiena di IVYSAUR. Per sopportarne il peso, le zampe e il corpo crescono robusti. Quando inizia a passare più tempo esposto al sole, significa che il germoglio sboccerà presto in un grande fiore.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Per sopportare il peso del germoglio che ha sulla schiena, le zampe di IVYSAUR crescono robuste. Se passa più tempo al sole, il germoglio sboccerà in un grande fiore.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Dopo aver assorbito sufficienti sostanze nutrienti, il bulbo sulla schiena sboccia in un magnifico fiore.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Quando il bocciolo che ha sul dorso si gonfia, emana un dolce profumo. È indice dell’imminente fioritura.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

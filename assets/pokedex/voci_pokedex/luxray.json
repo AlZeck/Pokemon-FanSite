@@ -2,34 +2,34 @@
   {
     "voce": "Vede attraverso qualsiasi cosa. Individua e cattura le prede che si nascondono dietro gli oggetti.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Se i suoi occhi sono dorati, può individuare le prede, anche quelle che si nascondono dietro i muri.",
     "giochi": [
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Vede attraverso le pareti per individuare le prede e i suoi cuccioli smarriti.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "L'abilità radioscopica di LUXRAY si rivela utile quando gli fa scoprire oggetti pericolosi.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "soulsilver",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

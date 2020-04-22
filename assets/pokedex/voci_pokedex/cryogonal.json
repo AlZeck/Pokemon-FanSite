@@ -2,24 +2,24 @@
   {
     "voce": "Quando la sua temperatura aumenta, si dissolve in una nuvola di vapore, ma se si abbassa, ridiventa di ghiaccio.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "È nato nelle nuvole cariche di neve. Cattura le prede con una catena fatta di cristalli di ghiaccio.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Cattura le sue prede con catene fatte di cristalli di ghiaccio, poi le congela a una temperatura di -100°C.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

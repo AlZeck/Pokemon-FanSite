@@ -2,49 +2,49 @@
   {
     "voce": "SABLEYE conduce una vita tranquilla nel profondo delle grotte. Tuttavia, è molto temuto perché si dice che rubi lo spirito degli umani con lo sguardo sinistro dei suoi occhi opalescenti che fendono le tenebre.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "SABLEYE scava il terreno con i suoi artigli affilati per trovare le pietre di cui si nutre. Le sostanze ingerite si cristallizzano ed emergono a livello epidermico.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "SABLEYE scava nelle caverne con i suoi artigli affilati alla ricerca di gemme grezze di cui si nutre. Questo POKéMON vive nell'oscurità e lo si vede raramente.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si nutre di gemme. Nella notte, gli occhi gli brillano come gioielli.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Si cela nell'oscurità delle caverne. Si nutre di gemme e per questo i suoi occhi sono pietre preziose.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "Si costruisce la tana in grotte oscure dove con le affilate unghie scava gemme per poi nutrirsene.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y"
+      "heartgold",
+      "soulsilver",
+      "y"
     ]
   }
 ]

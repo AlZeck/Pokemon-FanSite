@@ -2,49 +2,49 @@
   {
     "voce": "NINCADA vive sottoterra per molti anni nell'oscurità più assoluta. Questo POKéMON assume le sostanze nutritive dalle radici degli alberi. Rimane immobile in attesa dell'evoluzione.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "NINCADA vive sottoterra. Usa i suoi artigli affilati per incidere le radici degli alberi e assorbirne l'acqua e altre sostanze nutritive. Il POKéMON non sopporta la luce del sole, quindi cerca di evitarla.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "NINCADA fa il suo rifugio tra le radici di giganteschi alberi. Si muove nell'oscurità sottoterra sondando il terreno con le sue antenne, che sono simili a dei baffi.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Poiché passa quasi tutta l'esistenza sottoterra, è quasi cieco. Usa le antenne per orientarsi.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "X"
+      "rosso_fuoco",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Cresce sottoterra e, poiché è quasi cieco, usa le antenne per sondare ciò che lo circonda.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Gli capita di restare anche più di dieci anni sottoterra. Si nutre delle radici di enormi alberi.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y"
+      "heartgold",
+      "soulsilver",
+      "y"
     ]
   }
 ]

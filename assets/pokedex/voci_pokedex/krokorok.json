@@ -2,24 +2,24 @@
   {
     "voce": "Forma gruppi di pochi esemplari. La pellicola che ricopre i suoi occhi lo protegge dalle tempeste di sabbia.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "La membrana speciale che ha sugli occhi è in grado di percepire il calore dei corpi, consentendogli così di vedere al buio.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "I suoi occhi, coperti da una sottilissima membrana, vedono anche di notte. Vive con i suoi simili in piccoli branchi.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

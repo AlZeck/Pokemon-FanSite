@@ -2,34 +2,34 @@
   {
     "voce": "Tira testate talmente potenti da frantumare anche oggetti durissimi.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Il suo cranio è duro come il ferro. È violento e abbatte gli alberi della giungla mentre va a caccia di prede.",
     "giochi": [
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Anche se si prendono a testate, due RAMPARDOS non vanno KO perché il loro cranio è molto spesso.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Il suo spesso cranio, che sopporta qualunque impatto, è ridotto, e il cervello non si è sviluppato.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

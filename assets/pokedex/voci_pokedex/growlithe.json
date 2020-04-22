@@ -2,80 +2,80 @@
   {
     "voce": "Strenuo difensore del suo territorio, abbaia e morde per respingere gli intrusi.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "POKéMON molto amico dell'uomo. Tuttavia abbaia inferocito a chiunque invada il suo habitat.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Coraggioso e fedele, si oppone senza timore anche a nemici più grandi e forti di lui.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "Y"
+      "oro",
+      "heartgold",
+      "y"
     ]
   },
   {
     "voce": "Decisamente leale, ringhia furiosamente a chiunque per proteggere il suo allenatore da un attacco.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "Controlla un'ampia area. Se avverte un odore sospetto, ringhia per far fuggire l'intruso.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "GROWLITHE ha un senso dell'olfatto molto sviluppato: una volta annusato qualcosa non scorda più quell'odore. Inoltre sfrutta questa dote per determinare le emozioni delle altre creature.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "GROWLITHE ha un senso dell'olfatto molto sviluppato: quando annusa qualcosa non ne scorda più l'odore. Attraverso l'odore determina le emozioni delle altre creature.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Molto amichevole e fedele verso le persone. Allontana i nemici abbaiando e mordendoli.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Un Pokémon fedele per natura. Rimane immobile finché non riceve ordini dal suo Allenatore.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Di indole molto leale, abbaia furiosamente contro chiunque minacci di attaccare il suo Allenatore.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   },
   {
     "voce": "È molto fedele al suo Allenatore. Abbaia con forza contro chi si avvicina troppo, inseguendolo e costringendolo alla fuga.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

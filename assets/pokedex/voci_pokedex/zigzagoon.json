@@ -2,49 +2,49 @@
   {
     "voce": "ZIGZAGOON scorrazza a destra e a manca senza sosta, a causa della sua indole molto curiosa. Qualunque cosa veda riesce ad attirare la sua attenzione.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "La schiena di ZIGZAGOON è caratterizzata da una folta pelliccia rizzata. Per delimitare il suo territorio strofina il suo pelo irsuto contro i tronchi degli alberi. Per confondere i nemici, in lotta si finge morto.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "ZIGZAGOON si muove di continuo a destra e a manca strofinando il muso sul terreno alla ricerca di qualcosa. Si distingue per le tracce a zig zag che lascia.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "L'estrema curiosità lo porta a spostarsi di continuo in ogni direzione.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "Y"
+      "rosso_fuoco",
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "Avanza a zigzag. È bravo a trovare strumenti nell'erba e sul terreno.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "Va zigzagando a destra e a manca, attirato da questo e quello. La sua specialità è trovare le cose.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

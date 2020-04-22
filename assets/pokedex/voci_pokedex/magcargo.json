@@ -2,67 +2,67 @@
   {
     "voce": "Il guscio sul dorso è pelle raffreddata e secca. Si rompe facilmente al minimo tocco.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold"
+      "oro",
+      "verde_foglia",
+      "heartgold"
     ]
   },
   {
     "voce": "A volte, intense fiamme partono dal fragile guscio, circolando lungo tutto il suo corpo.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco"
+      "argento",
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Il corpo caldo come lava è sempre in ebollizione. A volte si vedono fiammate uscire dal guscio.",
     "giochi": [
-      "Cristallo",
-      "Y"
+      "cristallo",
+      "y"
     ]
   },
   {
     "voce": "La corazza di MAGCARGO è formata dalla sua pelle induritasi per effetto del raffreddamento. La corazza è fragile e friabile: cade a pezzi al minimo contatto. Riacquista le sue dimensioni normali immergendosi nel magma.",
     "giochi": [
-      "Rubino"
+      "rubino"
     ]
   },
   {
     "voce": "La temperatura corporea di MAGCARGO si aggira attorno ai 10.000 gradi centigradi. A contatto col suo corpo l'acqua diventa vapore all'istante. In caso di pioggia la zona circostante è invasa da una fitta nebbia.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Il guscio che hanno sul dorso non è altro che magma indurito. Nel corso dei secoli, i corpi dei MAGCARGO, che vivono nei crateri, si sono trasformati in magma.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Ha una temperatura corporea di circa 10000°C. Dai fori del guscio fuoriescono intense fiammate.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "A volte intense fiamme partono dal fragile guscio e avvolgono tutto il suo corpo.",
     "giochi": [
-      "SoulSilver",
-      "X"
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "La corazza di Magcargo è formata dalla sua pelle induritasi per effetto del raffreddamento. la corazza è fragile e friabile: cade a pezzi al minimo contatto. Riacquista le sue dimensioni normali immergendosi nel magma.",
     "giochi": [
-      "Rubino Omega"
+      "rubino_omega"
     ]
   }
 ]

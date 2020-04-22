@@ -2,34 +2,34 @@
   {
     "voce": "Vive da solo lontano dagli altri. Apparentemente ogni esemplare crede di essere il più importante.",
     "giochi": [
-      "Diamante",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Il battito delle ali è tanto potente da abbattere gli alberi più robusti. Cerca le prede nei mari ghiacciati.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Poiché ogni esemplare si considera il più importante, i PRINPLUP non riescono mai a creare un gruppo.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Vive senza riunirsi in gruppi. Con i suoi poderosi colpi d'ala, può spaccare in due degli alberi enormi.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "soulsilver",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

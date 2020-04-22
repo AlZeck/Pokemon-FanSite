@@ -2,67 +2,67 @@
   {
     "voce": "Nuotando maestosamente, neppure si accorge se un REMORAID gli sta attaccato per mangiarne gli avanzi.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold"
+      "oro",
+      "verde_foglia",
+      "heartgold"
     ]
   },
   {
     "voce": "Nuotando libero in mare aperto, se acquista velocità può uscire dall'acqua volando sulle onde.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco"
+      "argento",
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Nuota libero nell'acqua e inghiotte tutto ciò che gli finisce in bocca. Il corpo è molto ruvido.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Nelle giornate soleggiate è possibile vedere branchi di MANTINE nuotare con eleganza sulle onde marine. Talvolta offrono anche un comodo trasporto ai REMORAID.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Quando il mare è calmo, è possibile vedere branchi di MANTINE nuotare leggiadri come se volassero.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Nuota elegantemente senza pensare a REMORAID, attaccato alle sue ampie pinne. Ha un’indole docile.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Nuota in mare con eleganza e ignora i REMORAID che gli si attaccano alle pinne in cerca di avanzi di cibo.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Y"
+      "platino",
+      "nero",
+      "bianco",
+      "y"
     ]
   },
   {
     "voce": "Quando nuota libero in mare aperto acquista velocità e schizza fuori dall'acqua per volare sulle onde.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   },
   {
     "voce": "Prende velocità nuotando e, quando è pronto, usa le onde come trampolini per saltare a volte anche fino a 100 metri.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   }
 ]

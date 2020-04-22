@@ -2,80 +2,80 @@
   {
     "voce": "Molto pigro, mangia e dorme. Con l'aumento della sua mole diventa sempre più indolente.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Mangia qualsiasi cosa gli capiti a tiro, anche se marcia o ammuffita senza mai soffrire di mal di pancia.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Ciò che sembra il verso potrebbe invece essere il suo modo di russare, o il gorgogliare dello stomaco.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "I suoi succhi gastrici possono sciogliere qualsiasi veleno. Può mangiare anche il cibo per terra.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Questo POKéMON ha uno stomaco così resistente che può ingerire anche cibo ammuffito o avariato.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "La giornata tipica di SNORLAX consiste in nient'altro che mangiare e dormire. È un POKéMON così docile che i bambini usano la sua enorme pancia come parco giochi.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "In una giornata tipica, SNORLAX non fa altro che mangiare e dormire. È così docile che i bambini usano la sua enorme pancia come parco giochi.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Dopo aver trangugiato i suoi immancabili 400 chili di cibo quotidiani, cade in un sonno profondo.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Il suo stomaco riesce a digerire qualsiasi tipo di cibo, anche se marcio o ammuffito.",
     "giochi": [
-      "Diamante",
-      "Y"
+      "diamante",
+      "y"
     ]
   },
   {
     "voce": "Smette di mangiare solo per dormire. Non si sente pieno se non ingurgita 400 kg di cibo al giorno.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Quando ha la pancia piena diventa troppo pigro per muoversi e si può saltargli sopra senza pericolo.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

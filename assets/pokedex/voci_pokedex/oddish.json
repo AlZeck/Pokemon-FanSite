@@ -2,80 +2,80 @@
   {
     "voce": "Di giorno tiene la testa sotto terra. Di notte vaga spargendo le sue sementi.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Spesso confuso con una malerba questo POKéMON stride atrocemente se si prova ad estirparlo.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Gira di notte, svegliandosi con la luce lunare. Di giorno se ne sta tranquillamente sottoterra.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Inizia a muoversi quando è esposto alla luce lunare. Di notte percorre grandi distanze spargendo i semi.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Di giorno vive nel freddo sottosuolo, per evitare la luce del sole. Cresce assorbendo la luce lunare.",
     "giochi": [
-      "Cristallo",
-      "X"
+      "cristallo",
+      "x"
     ]
   },
   {
     "voce": "Durante il giorno, ODDISH si nasconde nel terreno per assorbire sostanze nutritive con tutto il corpo. Più il suolo è fertile, più lucide diventano le foglie.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "ODDISH cerca suolo fertile e ricco di sostanze nutritive per piantarvi le radici. Durante il giorno quando è fisso nel terreno, si dice che le sue zampe si trasformino prendendo la forma delle radici degli alberi.",
     "giochi": [
-      "Zaffiro"
+      "zaffiro"
     ]
   },
   {
     "voce": "ODDISH cresce assorbendo la luce lunare. Per non farsi individuare dai nemici, durante il giorno si nasconde nel terreno lasciando fuori solo le foglie.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Nome scientifico: \"Oddium Viandantis\". Percorre fino a 300 m in una notte sulle due radici fatte a piede.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Durante il giorno, pianta i piedi per terra come se fossero radici. Di notte cammina seminando.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Oddish cerca suolo fertile e ricco di sostanze nutritive per piantarvi le radici. Si dice che durante il giorno, quando è fisso nel terreno, le sue zampe si trasformino prendendo la forma delle radici sugli alberi.",
     "giochi": [
-      "Zaffiro Alpha"
+      "zaffiro_alpha"
     ]
   }
 ]

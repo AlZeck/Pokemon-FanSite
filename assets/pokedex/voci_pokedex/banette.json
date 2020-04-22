@@ -2,49 +2,49 @@
   {
     "voce": "BANETTE genera energia per lanciare terribili maledizioni, conficcandosi alcuni spilli nel corpo. Originariamente questo POKéMON era un dolce peluche, successivamente gettato via.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Un'energia maledetta ha permeato l'imbottitura di un peluche vecchio e dimenticato, dando vita a BANETTE. Questo POKéMON deve tenere sempre la bocca chiusa per evitare che l'energia accumulata scappi fuori.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "I BANETTE si sono generati da peluche vecchi e abbandonati. Pare che vivano nelle discariche e che si aggirino in cerca dei bambini che li hanno gettati via.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Peluche trasformato in POKéMON da un forte odio. Appena apre la sua bocca, sprigiona una forte energia negativa.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "Y"
+      "rosso_fuoco",
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "Un peluche divenuto Pokémon per la rabbia di essere stato buttato via da un bimbo, di cui è alla ricerca.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "X",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "x",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Peluche mutato in Pokémon dal rancore per essere stato gettato. Bazzica i vicoli bui un po’ nascosti.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

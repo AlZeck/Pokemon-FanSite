@@ -2,59 +2,59 @@
   {
     "voce": "Le pinne di FEEBAS sono logore e sbrindellate fin dalla nascita. A causa di questo suo aspetto disordinato, il POKéMON è solitamente ignorato. È in grado di vivere in mare e nei fiumi.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Sebbene abbia il corpo logoro, FEEBAS è molto tenace e resistente, potendo così vivere in ogni luogo. Tuttavia, questo POKéMON è anche lento e poco sveglio, il che lo rende una preda facile.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "FEEBAS vive in laghi infestati da alghe. A causa del suo aspetto estremamente disordinato, solo pochi ALLENATORI allevano questo POKéMON.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "L'aspetto disordinato lo rende ridicolo e di scarso interesse scientifico. Vive in stagni pieni d'alghe.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "È noto per il suo aspetto disordinato. È molto comune e tende a raggrupparsi nei soliti posti.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Si nutre di qualsiasi cosa, pertanto vive anche in fiumi e laghi inquinati. È un Pokémon di scarso interesse.",
     "giochi": [
-      "Perla",
-      "X"
+      "perla",
+      "x"
     ]
   },
   {
     "voce": "È un Pokémon brutto e sciatto. Tuttavia, è molto resistente e sopravvive in pochissima acqua.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Il Pokémon più sciatto. Vive in grandi gruppi nei letti dei fiumi ricchi di piante acquatiche.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y"
+      "heartgold",
+      "soulsilver",
+      "y"
     ]
   }
 ]

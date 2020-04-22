@@ -2,75 +2,75 @@
   {
     "voce": "Usa i baffi per mantenersi in equilibrio. Sembra diventare più lento se gli vengono tagliati.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Dispone di zampe posteriori palmate cosicché può nuotare nei fiumi in cerca di prede.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Rosicchia ovunque con i denti robusti. Può anche abbattere edifici di cemento rosicchiandoli.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Con i baffi si tiene in equilibrio. La continua crescita dei denti lo forza a rosicchiare sempre.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Atrraversa i fiumi con le zampe posteriori palmate. Perlustra vaste aree cercando cibo.",
     "giochi": [
-      "Cristallo",
-      "Y"
+      "cristallo",
+      "y"
     ]
   },
   {
     "voce": "Le potenti zanne di RATICATE crescono in continuazione. Per ridurne la crescita rode rocce e tronchi. Spesso si vedono le impronte delle sue zanne anche sui muri delle case.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Le potenti zanne di RATICATE crescono di continuo. Per ridurne la crescita, rode rocce e tronchi. Le sue impronte si vedono spesso anche sui muri delle case.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Le zampe posteriori, a tre dita, sono palmate. Ciò gli permette di attraversare i fiumi a nuoto.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Si affila le zanne in perenne crescita rosicchiando cose dure. Riesce a frantumare persino i muri.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "x"
     ]
   },
   {
     "voce": "È molto più feroce di quanto non sembri. Le sue zanne possono frantumare anche il cemento più duro.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

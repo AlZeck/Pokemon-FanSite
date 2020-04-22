@@ -2,24 +2,24 @@
   {
     "voce": "Vive nel mare e sulla terraferma. Ha una forza tale da sfondare con un solo colpo il fondo di una nave cisterna.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Delle mascelle incredibilmente potenti gli consentono di inghiottire rocce e travi di acciaio, oltre alle sue prede.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Un singolo colpo dei suoi arti anteriori può bastare a far perdere i sensi alla preda e romperne ossa e corazza.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Zaffiro Alpha",
-      "Y"
+      "nero_2",
+      "bianco_2",
+      "zaffiro_alpha",
+      "y"
     ]
   }
 ]

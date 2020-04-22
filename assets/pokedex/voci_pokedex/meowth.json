@@ -2,70 +2,70 @@
   {
     "voce": "Ama gli oggetti rotondi. Di notte vaga per le vie in cerca di monetine perdute.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "Y"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "Sembra essere più attivo di notte. Ama gli oggetti lucenti e rotondi e non può evitare di raccoglierli.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "È affascinato da oggetti rotondi. Non può fare a meno di giocarci fino a stancarsi e addormentarsi.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Ama tutto ciò che splende, soprattutto le monete che raccoglie e accumula segretamente.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Ama gli oggetti scintillanti. Se nota qualcosa brillare, splende la moneta d'oro sulla sua fronte.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "MEOWTH ritira i suoi artigli affilati all'interno delle zampe per poter aggirarsi furtivo camuffando le tracce. Per qualche oscura ragione questo POKéMON è attratto dalle monetine che splendono alla luce.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "MEOWTH ritira i suoi artigli affilati all'interno delle zampe per poter aggirarsi furtivo. Per ragioni oscure, è attratto dalle monetine che splendono alla luce.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Di giorno non fa che dormire, mentre la notte perlustra il territorio con i suoi occhi luccicanti.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "È un Pokémon attivo di notte. Se nota qualcosa di luccicante, i suoi occhi cominciano a brillare.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   }
 ]

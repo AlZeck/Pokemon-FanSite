@@ -2,54 +2,54 @@
   {
     "voce": "Al posto del sangue, il corpo di BELDUM è attraversato da una potente forza magnetica. Il POKéMON comunica con gli altri inviando pulsazioni magnetiche controllate.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "BELDUM fluttua nell'aria generando una forza magnetica contraria alla naturale forza di gravità terrestre. Quando dorme, si ancora alle scogliere usando il suo gancio posteriore.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Quando sono in gruppo, i BELDUM si muovono perfettamente all'unisono quasi fossero un unico POKéMON. Comunicano fra di loro servendosi delle onde cerebrali.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Comunica con i suoi simili attraverso onde magnetiche. Tutte le cellule del corpo sono magnetiche.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Comunica con i suoi simili mediante onde magnetiche. I gruppi di BELDUM si muovono in perfetta sintonia.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "y"
     ]
   },
   {
     "voce": "Riesce a fluttuare in aria grazie alla repulsione tra le proprie onde magnetiche e quelle della terra.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X"
+      "heartgold",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Le cellule del suo corpo sono calamite. Il suo corpo emette onde magnetiche, tramite le quali comunica con i suoi simili.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

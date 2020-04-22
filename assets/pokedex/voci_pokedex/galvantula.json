@@ -2,24 +2,24 @@
   {
     "voce": "Quando viene attaccato, espelle una rete di fili elettrificati per formare una barriera elettrica.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Tende trappole con fili elettrificati. Consuma poi con comodo le prede immobilizzate dalla scarica elettrica.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Forma delle barriere con fili elettrificati che paralizzano il nemico, fungendo quindi non solo come difesa ma anche da arma.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

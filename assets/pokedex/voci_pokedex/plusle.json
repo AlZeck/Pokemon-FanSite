@@ -2,49 +2,49 @@
   {
     "voce": "PLUSLE agisce sempre da mascotte del gruppo. Ogni volta che un suo compagno ottiene buoni risultati in lotta, PLUSLE crea un cortocircuito per provocare l'allegro scoppiettio delle scintille e dimostrare la sua gioia.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Quando PLUSLE s'esibisce per rallegrare i suoi compagni, emana vivaci scintille elettriche da tutto il corpo. Se la sua squadra perde, piange rumorosamente.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Per rallegrare i suoi compagni, PLUSLE crea un corto circuito con l'elettricità che emana dalle zampe, generando così un vivace scoppiettio di scintille.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Produce allegre scintille per festeggiare i suoi amici. Assorbe energia salendo sui pali della luce.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Incoraggia gli amici con un vivace scoppiettio di scintille. Assorbe elettricità dai pali telefonici.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "Assorbe elettricità dai pali della luce, la accumula e poi crea dei rumorosi cortocircuiti.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y"
+      "heartgold",
+      "soulsilver",
+      "y"
     ]
   }
 ]

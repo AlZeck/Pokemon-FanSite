@@ -2,29 +2,29 @@
   {
     "voce": "Capta con l'antenna onde che arrivano dal mondo degli spiriti, che gli ordinano di portare lì le persone.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si dice che accolga gli spiriti smarriti nel suo corpo flessibile per riportarli a casa.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Fa la spola tra questo mondo e l'altro. È temuto perché assorbe gli spiriti vaganti e li porta via.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

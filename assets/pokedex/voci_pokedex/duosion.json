@@ -2,24 +2,24 @@
   {
     "voce": "Poiché ha due cervelli separati e indipendenti, può capitare che si comporti in modo del tutto incoerente.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Libera la sua massima potenza quando le due parti in cui è diviso il suo cervello pensano la stessa cosa.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "I suoi poteri psichici sono al massimi quando le due parti in cui è diviso il suo cervello pensano la stessa cosa.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

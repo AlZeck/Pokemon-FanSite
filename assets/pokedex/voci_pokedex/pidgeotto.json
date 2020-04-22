@@ -2,75 +2,75 @@
   {
     "voce": "Strenuo difensore del suo ampio territorio, becca ferocemente ogni intruso.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "Y"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "Un POKéMON pieno di vitalità che vola instancabile sul suo territorio in cerca di prede ignare.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Ha una vista eccellente. Per quanto alto stia volando, scorge sempre i movimenti della preda.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Immobilizza la preda con artigli ben sviluppati, per poi trasportarla al suo nido, a più di 100 km.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "Compie lentamente ampi cerchi nel cielo, per perlustrare l'area alla ricerca di una preda.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "PIDGEOTTO delimita come proprio un territorio immenso, che difende controllandolo costantemente. Se tale territorio viene invaso, questo POKéMON non ha pietà nel punire i nemici con i suoi artigli affilati.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "PIDGEOTTO difende e controlla costantemente il proprio immenso territorio. Se viene invaso, punisce senza pietà i nemici con i suoi artigli affilati.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Grazie ai potenti artigli può trasportare una preda delle dimensioni di un EXEGGCUTE per oltre 100 km.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Sorvola il suo ampio territorio a caccia di prede, afferrandole con i suoi artigli affilati.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Immobilizza la preda con artigli ben sviluppati e può trasportarla per più di 100 km fino al suo nido.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   }
 ]

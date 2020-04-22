@@ -2,75 +2,75 @@
   {
     "voce": "Vive un metro sotto terra, dove si nutre di radici. Talvolta compare in superficie.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "X"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Ama i luoghi bui e vive quindi soprattutto sottoterra. Si può vedere solo nelle grotte.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "La sua pelle è sottilissima. Se si espone alla luce, il sangue si riscalda, indebolendolo.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "Y"
+      "oro",
+      "heartgold",
+      "y"
     ]
   },
   {
     "voce": "Se un DIGLETT scava una FOSSA lascia il terreno perfettamente lavorato e pronto per la semina.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Scava nel terreno per mangiare le radici. Quando il sole è meno forte, spunta in superficie.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "DIGLETT è allevato in molte aziende agricole. La ragione è semplice: quando questo POKéMON scava, lascia il suolo perfettamente arato per la semina. Il suolo è poi pronto per la coltivazione di squisite verdure.",
     "giochi": [
-      "Rubino",
-      "Zaffiro"
+      "rubino",
+      "zaffiro"
     ]
   },
   {
     "voce": "DIGLETT è allevato in molte aziende agricole perché, scavando, lascia il suolo perfettamente arato e pronto per la coltivazione di squisite verdure.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Scava buche a bassa profondità. La terra sollevata che lascia al suo passaggio lo rende facilmente individuabile.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Un Pokémon che vive sottoterra. Poiché è abituato a vivere al buio, non sopporta la luce solare.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Diglett è allevato in molte aziende agricole. La ragione è semplice: quando questo Pokémon scava, lascia il suolo perfettamente arato per la semina. Il suolo è poi pronto per la coltivazione di squisite verdure.",
     "giochi": [
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   }
 ]

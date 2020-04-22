@@ -2,85 +2,85 @@
   {
     "voce": "La sua lunga coda serve da messa a terra per proteggerlo dalla sua stessa alta tensione.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Quando si accumula elettricità nel suo corpo, si fa irascibile. Al buio brilla di luce propria.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Se l'elettricità aumenta, i muscoli sono sollecitati e diventa più aggressivo del solito.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "X"
+      "oro",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Se le tasche elettriche sulle sue guance si caricano completamente, gli si rizzano le orecchie.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Quando le tasche elettriche sono scariche, rizza la coda raccogliendo elettricità dall'atmosfera.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Se l'elettricità accumulata nelle guance diventa eccessiva, RAICHU la scarica piantando la coda nel terreno. Vicino al suo nido sono presenti spesso chiazze di erba arsa.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "RAICHU emana una debole carica elettrica da tutto il corpo rilucendo così nell'oscurità. Scarica l'elettricità piantando la coda nel terreno.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Se immagazzina troppa elettricità, RAICHU diventa molto aggressivo. Per evitare che ciò accada, di tanto in tanto rilascia l'energia in eccesso per calmarsi.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Le sue scariche elettriche, che raggiungono i 100.000 volt, potrebbero far svenire persino un elefante indiano.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Diventa aggressivo se accumula in sé troppa carica elettrica. Scarica l’elettricità dalla coda.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Può rilasciare scariche elettriche a 100000 volt con cui neutralizza nemici molto più grandi di lui.",
     "giochi": [
-      "Perla",
-      "Y"
+      "perla",
+      "y"
     ]
   },
   {
     "voce": "La sua coda scarica elettricità a terra, proteggendolo dalle scosse elettriche.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

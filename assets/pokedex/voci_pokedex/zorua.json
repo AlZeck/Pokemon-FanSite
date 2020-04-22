@@ -2,24 +2,24 @@
   {
     "voce": "Spaventa gli altri cambiando aspetto. Spesso appare in veste di bambino taciturno.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Si protegge dai pericoli trasformandosi in essere umano o in un altro Pokémon, nascondendo così la sua identità.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Inganna spesso il nemico assumendone la forma e lasciandolo esterrefatto, per poi darsi alla fuga.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

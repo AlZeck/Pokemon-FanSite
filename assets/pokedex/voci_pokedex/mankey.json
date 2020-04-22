@@ -2,75 +2,75 @@
   {
     "voce": "Molto iracondo, può passare dalla docilità all'ira nell'arco di un solo istante.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "POKéMON agile che vive sugli alberi. Molto irascibile non esita ad attaccare tutto e tutti.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Ha un pessimo carattere. Può attaccare in gruppo qualsiasi obiettivo senza alcuna ragione.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "È pericoloso avvicinarlo se è tanto arrabbiato da non poter più distinguere gli amici dai nemici.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "Vivono in branchi, in cima agli alberi. Se perdono il contatto con il gruppo s'infuriano per la solitudine.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Quando MANKEY inizia a tremare e la sua respirazione nasale diventa pesante significa che si sta infuriando. Tuttavia, a causa dei suoi repentini attacchi d'ira, è impossibile per chiunque sfuggire alla sua furia.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Quando MANKEY sta per avere un attacco d'ira, inizia a tremare e a respirare pesantemente dal naso. Tali sfuriate sono così repentine che è impossibile sfuggirgli.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "POKéMON agile particolarmente feroce, cade spesso vittima di incontrollabili accessi d'ira.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Vive in colonie sugli alberi. Se uno si adira, l'intera colonia comincia a agire violentemente senza motivo.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "Se è tanto arrabbiato da non riuscire più a distinguere gli amici dai nemici, è pericoloso avvicinarsi.",
     "giochi": [
-      "SoulSilver",
-      "X"
+      "soulsilver",
+      "x"
     ]
   }
 ]

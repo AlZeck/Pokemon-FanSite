@@ -2,24 +2,24 @@
   {
     "voce": "La trivella si è evoluta diventando d'acciaio e può perforare una lastra di ferro. È molto utile per scavare tunnel.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Costruisce una tana simile a un labirinto, 100 metri sotto terra. A volte apre buchi nei tunnel della metropolitana.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Con la testa e gli artigli di acciaio forma una trivella in grado di perforare il metallo più spesso.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

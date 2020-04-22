@@ -2,24 +2,24 @@
   {
     "voce": "Quando tocca qualcuno con le antenne delle orecchie, ne percepisce lo stato fisico e psicologico dal battito cardiaco.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Ha un udito eccezionale. Usa dei suoni impercettibili per analizzare ciò che gli succede intorno.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Le sue orecchie sono antenne capaci di sondare lo stato di salute degli altri o capire quando un uovo si schiuderà.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

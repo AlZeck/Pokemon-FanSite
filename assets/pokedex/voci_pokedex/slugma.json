@@ -2,62 +2,62 @@
   {
     "voce": "Non dorme mai. Deve essere sempre in movimento, o il suo corpo di magma si raffredda e si secca.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold"
+      "oro",
+      "verde_foglia",
+      "heartgold"
     ]
   },
   {
     "voce": "Comune nelle aree vulcaniche, striscia intorno lentamente, sempre alla ricerca di luoghi caldi.",
     "giochi": [
-      "Argento",
-      "SoulSilver",
-      "X"
+      "argento",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Si riuniscono in aree piuttosto calde. Se cala la temperatura, gli si secca la pelle.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Nel corpo di SLUGMA scorre magma liquido. In caso di congelamento, il magma si raffredda e si solidifica. Il corpo diventa fragile e cade a pezzi consumandosi progressivamente.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Nel corpo di SLUGMA non scorre nemmeno una goccia di sangue, bensì magma rovente, che garantisce l'apporto di ossigeno e sostanze nutritive fondamentali per i suoi organi.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Se il suo corpo si raffredda, la pelle si solidifica, immobilizzandolo. Pertanto SLUGMA vive nelle zone vulcaniche e dorme sempre in prossimità del magma.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si aggira di frequente nelle zone vulcaniche, sempre alla ricerca di luoghi caldi.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Nel suo corpo scorre magma. Se non si muove continuamente, il suo corpo si raffredda e s'indurisce.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

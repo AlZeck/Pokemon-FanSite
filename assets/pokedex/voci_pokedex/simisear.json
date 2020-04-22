@@ -2,24 +2,24 @@
   {
     "voce": "Ama i dolci che, una volta mangiati, diventano energia per alimentare la fiamma all'interno del suo corpo.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Alimentando la fiamma all'interno del suo corpo, sparge dalla testa o dalla coda una pioggia di fuoco che scotta i nemici.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Quando è concitato si scalda e iniziano a levarsi scintille dalla testa e dalla coda. Per qualche motivo adora i dolci.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

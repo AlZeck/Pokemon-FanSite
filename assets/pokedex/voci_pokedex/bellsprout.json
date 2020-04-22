@@ -2,70 +2,70 @@
   {
     "voce": "POKéMON carnivoro che caccia e si nutre di insetti. Usa le radici per assorbire l'umidità.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Ama i luoghi caldi e umidi. Cattura minuscoli insetti con le sue liane e poi li divora.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Sebbene abbia un corpo magrissimo, sa essere molto rapido quando si scaglia sulla preda.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "X"
+      "oro",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Penetra il terreno con le zampe per rifornirsi d'acqua. Durante quest'azione non può difendersi.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Appena vede qualcosa muoversi, lo colpisce con il tralcio della pianta che forma il suo corpo.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Il corpo esile e flessibile di BELLSPROUT gli consente di piegarsi e oscillare per evitare ogni attacco, anche violento. Dalla bocca sputa un fluido corrosivo in grado di sciogliere anche il ferro.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Il corpo esile e flessibile di BELLSPROUT gli consente di oscillare per evitare anche attacchi violenti. Sputa un fluido corrosivo che scioglie persino il ferro.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Il bocciolo somigliante ad un volto umano fa ritenere che si tratti di un leggendario esemplare di mandragola.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Preferisce gli habitat caldi e umidi. Cattura velocemente le prede con i suoi rampicanti.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

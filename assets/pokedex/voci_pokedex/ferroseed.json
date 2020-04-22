@@ -2,24 +2,24 @@
   {
     "voce": "Quando avverte un pericolo, reagisce sparando simultaneamente tutti i suoi aculei, per poi fuggire via rotolando.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Si attacca alle pareti delle grotte conficcando gli aculei. Assorbe i minerali all'interno delle rocce.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Si conficca nelle pareti delle grotte e assorbe i minerali delle rocce. Quando avverte un pericolo spara i suoi aculei.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

@@ -2,49 +2,49 @@
   {
     "voce": "NUZLEAF vive in foreste molto fitte. A volte si avventura fuori dalla foresta per spaventare le persone. Questo POKéMON si irrita molto, se qualcuno tenta di pizzicargli il lungo naso.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "NUZLEAF crea una sorta di flauto con la foglia che ha sul capo. Il suono di questo flauto placa la paura e l'incertezza nel cuore di coloro che si sono persi nella foresta.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "NUZLEAF vive nella foresta ed è molto abile a salire sugli alberi. Se qualcuno afferra il suo lungo naso appuntito, il POKéMON perde potenza.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Vive in buchi scavati in grandi alberi. Il suono del suo flauto di foglia terrorizza chi lo ascolta.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Il fischio del suo flauto di foglia mette a disagio chi lo sente. Vive nelle foreste più fitte.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "Vive nelle foreste più fitte. Con la foglia che ha in testa, crea un flauto dal suono inquietante.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y"
+      "heartgold",
+      "soulsilver",
+      "y"
     ]
   }
 ]

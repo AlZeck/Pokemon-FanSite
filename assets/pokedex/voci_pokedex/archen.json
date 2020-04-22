@@ -2,24 +2,24 @@
   {
     "voce": "Si dice sia antenato dei Pokémon uccello. Siccome non sa volare, si sposta di ramo in ramo saltando.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Pokémon risvegliatosi da un fossile. Si ritiene che sia l'antenato di tutti i Pokémon uccello.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Rigenerato da un fossile, viveva sugli alberi e rincorreva le prede saltando di ramo in ramo perché non sapeva volare.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

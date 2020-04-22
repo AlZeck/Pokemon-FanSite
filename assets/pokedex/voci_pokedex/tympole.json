@@ -2,24 +2,24 @@
   {
     "voce": "Avverte i suoi simili del pericolo con un acuto suono d'allarme che produce facendo vibrare le guance.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Facendo vibrare le guance, emette onde sonore che gli uomini non sentono. Conversa al ritmo di queste onde.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Fa vibrare le membrane sulle guance per emettere onde sonore, impercettibili agli umani, con cui segnala un pericolo.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

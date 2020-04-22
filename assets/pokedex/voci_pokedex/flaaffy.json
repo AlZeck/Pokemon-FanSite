@@ -2,62 +2,62 @@
   {
     "voce": "Avendo immagazzinato troppa elettricità, su intere parti del corpo non cresce neppure la lanugine.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold"
+      "oro",
+      "verde_foglia",
+      "heartgold"
     ]
   },
   {
     "voce": "La soffice pelliccia raccoglie elettricità. Non si fulmina grazie ad uno strato di pelle gommosa.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "X"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Grazie alla pelle gommosa e isolante può immagazzinare moltissima energia all'interno della pelliccia.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "La qualità della lana di FLAAFFY varia in modo da generare un'alta carica elettrostatica con un ridotto quantitativo di lana. Le parti scoperte e vulnerabili del suo corpo sono schermate contro le scosse.",
     "giochi": [
-      "Rubino",
-      "Zaffiro"
+      "rubino",
+      "zaffiro"
     ]
   },
   {
     "voce": "La poca lana che ricopre il corpo di FLAAFFY è in grado di generare un'alta carica elettrostatica. Le parti scoperte sono schermate contro le scosse.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Se il suo manto è del tutto carico d’elettricità, la coda s’illumina. Lancia peli che danno la scossa.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "y"
     ]
   },
   {
     "voce": "La pelle delle parti glabre del suo corpo isola dall'elettricità come la gomma. Per questo non prende mai la scossa.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "La qualità della lana di Flaaffy varia in modo da generare un'alta carica elettrostatica con un ridotto quantitativo di lana. Le parti scoperte e vulnerabili del suo corpo sono schermate contro le scosse.",
     "giochi": [
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   }
 ]

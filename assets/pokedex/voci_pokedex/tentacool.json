@@ -2,90 +2,90 @@
   {
     "voce": "Va alla deriva in acque poco profonde. Se pescato per sbaglio, colpisce con un acido pungente.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "Y"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "Lo si può trovare tutto rinsecchito sulla spiaggia, me se è rigettato in mare rivive istantaneamente.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Con la bassa marea si possono trovare resti disidratati di TENTACOOL sul bagnasciuga.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Si lascia trasportare dalle onde. Difficilmente visibile in acqua, si fa notare solo quando punge.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Galleggiando tra le onde, usa i tentacoli velenosi per colpire tutto ciò che incontra sulla sua strada.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Il corpo di TENTACOOL è costituito quasi solo d'acqua. Se pescato ed esposto all'aria, si secca totalmente. In caso di disidratazione, dunque, si consiglia di rimetterlo in mare.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "TENTACOOL assorbe la luce solare e la rifrange usando l'acqua che ha nel corpo per convertirla in raggi energetici. Successivamente emette questi raggi attraverso gli occhi cristallini.",
     "giochi": [
-      "Zaffiro"
+      "zaffiro"
     ]
   },
   {
     "voce": "Il corpo di TENTACOOL è composto quasi interamente di acqua. Afferra ed avvelena la preda con i lunghi tentacoli che sono dotati di pungenti aculei sulle punte.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Ha occhi trasparenti come il cristallo, dai quali lancia misteriosi raggi di luce.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Il suo corpo è quasi interamente composto d’acqua. Emette dei raggi misteriosi dagli occhi cristallini.",
     "giochi": [
-      "Diamante",
-      "X"
+      "diamante",
+      "x"
     ]
   },
   {
     "voce": "Si lascia trascinare dalle correnti. Numerosi pescatori rimangono feriti dai suoi aculei velenosi.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Dato che il suo corpo è quasi interamente composto d’acqua, se si arena si avvizzisce subito.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Tentacool assorbe la luce solare e la rifrange usando l'acqua che ha nel corpo per convertirla in raggi energetici. Successivamente emette questi raggi dalla piccola sfera rossa che ha sulla testa.",
     "giochi": [
-      "Zaffiro Alpha"
+      "zaffiro_alpha"
     ]
   }
 ]

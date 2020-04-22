@@ -2,39 +2,39 @@
   {
     "voce": "Di giorno fluttua con aria sonnolenta, ma di notte vola via in gruppo. Nessuno sa dove vada.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Vola trascinando persone e Pokémon. Poiché si fa portare dal vento, non si sa dove vada a finire.",
     "giochi": [
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Al tramonto, gruppi di DRIFBLIM si fanno trascinare dal vento. Se avvistati, scompaiono all'improvviso.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Può regolare l’altezza dei suoi voli nel cielo grazie alla capacità di produrre gas ed espellerli.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Trasporta Pokémon e persone, ma poiché si fa trascinare dal vento, non si sa mai dove va a finire.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

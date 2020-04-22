@@ -2,49 +2,49 @@
   {
     "voce": "SHROOMISH vive nel suolo umido nel cuore della foresta buia. Spesso si nasconde sotto le foglie cadute. Si ciba dell'humus creato dal letto di foglie decomposte sul terreno.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "In caso di pericolo SHROOMISH agita il proprio corpo spargendo spore dalla sommità del capo. Le spore di questo POKéMON sono così tossiche da far appassire fiori e piante.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Gli SHROOMISH prediligono come nutrimento l'humus della foresta. Dopo lunghe piogge, è facile vederli riempirsene la pancia.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Predilige le aree umide. Di giorno resta immobile nell'ombra della foresta. Dal capo rilascia polvere tossica.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "X"
+      "rosso_fuoco",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Sparge spore tossiche dalla sommità del capo. Se inalate, queste spore provocano dolore in tutto il corpo.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "Quando fiuta il pericolo, si difende spargendo spore tossiche dalla sommità del capo.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

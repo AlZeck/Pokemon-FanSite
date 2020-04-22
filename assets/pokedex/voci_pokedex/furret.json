@@ -2,52 +2,52 @@
   {
     "voce": "Il suo nido è adatto al corpo lungo e magro. Gli altri POKéMON non riescono ad entrarci.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "Y"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "y"
     ]
   },
   {
     "voce": "Impossibile dire dove inizi la coda. Nonostante le zampe corte, è veloce a cacciare i RATTATA.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver"
     ]
   },
   {
     "voce": "Vive in strette buche, adatte al suo corpo. Più sono profonde, più somigliano a labirinti.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "FURRET è di esile costituzione. Quando è attaccato riesce a scappare intrufolandosi in ogni fessura. Nonostante i suoi arti corti, questo POKéMON è molto agile e rapido nei movimenti.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "FURRET è di esile costituzione. Quando è attaccato sfugge intrufolandosi in ogni fessura. Malgrado i suoi arti siano corti, è molto agile e rapido nei movimenti.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si addormenta avvolto nell'esile corpo della madre. Mette all'angolo i nemici con movimenti rapidi.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   }
 ]

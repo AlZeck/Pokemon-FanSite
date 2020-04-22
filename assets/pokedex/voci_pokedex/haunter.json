@@ -2,80 +2,80 @@
   {
     "voce": "Per l'abilità di sgattaiolare via attraverso i muri si pensa venga da un'altra dimensione.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Succhia l'anima al nemico con una LECCATA. Causa tremori orribili che finiscono solo con il decesso.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Nella totale oscurità, dove non si vede nulla, HAUNTER s'avvicina furtivamente alla prossima vittima.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "La sua lingua è gassosa. Se la vittima viene leccata, si agita fino a cadere sfinita.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Si cela nell'ombra attendendo di sopraffare il prossimo essere vivente che gli capita a tiro.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "HAUNTER è un POKéMON pericoloso. Se, immerso nell'oscurità, prende di mira qualcuno, è meglio fuggire, poiché il POKéMON cercherà di leccare il malcapitato e succhiargli la vita.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "HAUNTER è molto pericoloso. Se prende di mira qualcuno nell'oscurità, è meglio fuggire, perché cercherà di leccare il malcapitato e succhiargli la vita.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Se da soli, al buio, si ha l'impressione di essere osservati da qualcuno, si tratta di HAUNTER.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Riesce a superare qualsiasi ostacolo. Si nasconde nei muri per osservare il nemico.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Lecca i nemici con la lingua tossica e sottrae la loro vitalità. Si cela nell’oscurità in attesa delle prede.",
     "giochi": [
-      "Perla",
-      "Y"
+      "perla",
+      "y"
     ]
   },
   {
     "voce": "Adora tendere agguati in luoghi bui. Il suo tocco causa brividi incontenibili.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

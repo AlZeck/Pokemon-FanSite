@@ -2,80 +2,80 @@
   {
     "voce": "Ha il corpo tutto coperto di larghe liane, simili a alghe marine, che ondeggiano quando cammina.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Il suo aspetto è nascosto sotto una massa di fitte liane blu che non smettono mai di crescere.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Le liane che coprono il suo corpo dondolano in continuazione. Ciò innervosisce molto i nemici.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Intrappola nelle liane qualsiasi cosa che si muova. Il loro lieve movimento può fare il solletico.",
     "giochi": [
-      "Argento",
-      "SoulSilver",
-      "Y"
+      "argento",
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "Nella lotta agita continuamente le liane che gli ricoprono il corpo per innervosire l'avversario.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Se afferrate, le liane di TANGELA si staccano con facilità, ma in modo indolore, consentendo così una pratica scappatoia. Le liane cadute vengono sostituite da quelle nuove il giorno dopo.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Se afferrate, le liane di TANGELA si staccano con facilità e in modo indolore, consentendogli di scappare facilmente. Le liane crescono di nuovo il giorno dopo.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si nasconde sotto un groviglio di liane blu, avviluppando tutto ciò con cui viene a contatto.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "È ricoperto di liane blu. Nessuno ha mai visto il suo volto, poiché è celato dal groviglio di liane.",
     "giochi": [
-      "Diamante",
-      "Perla"
+      "diamante",
+      "perla"
     ]
   },
   {
     "voce": "Le liane blu che nascondono il suo corpo sono rivestite di peli sottili. Si dice che soffra il solletico.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Una moltitudine di liane brulicanti, in crescita perenne, ne ricopre il corpo celandone la vera forma.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   }
 ]

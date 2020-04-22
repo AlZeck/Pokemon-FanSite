@@ -2,24 +2,24 @@
   {
     "voce": "Quando ha consumato tutto il cibo di un territorio, si sposta altrove. Le sue due teste non vanno d'accordo.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Poiché le due teste non vanno d'accordo e fanno quasi a gara per mangiare, va sempre a finire che mangia troppo.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Le due teste non vanno d'accordo e si contendono la posizione di comando in base a quale mangia di più.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

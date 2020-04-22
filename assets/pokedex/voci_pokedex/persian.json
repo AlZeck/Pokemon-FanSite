@@ -2,75 +2,75 @@
   {
     "voce": "Sebbene molto amato per il suo pelo, è difficile addomesticarlo per la volubile crudeltà.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "X"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "La gemma che ha in fronte brilla di luce propria. Si muove con l'eleganza di una fiera regina.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Molti lo amano per il suo aspetto elegante. Tuttavia può scatenarsi e graffiare alla minima provocazione.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "I muscoli flessibili lo fanno camminare senza fare alcun rumore. Attacca in un lampo.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "Dietro l'aspetto elegante e sinuoso si cela una natura feroce: può fare a pezzi un nemico per un nonnulla.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "PERSIAN è dotato di sei baffetti furbi che gli conferiscono un aspetto forte. I baffi captano ogni movimento dell'aria riconoscendo presenze vicine. Se afferrato per i baffi, diventa docile.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "PERSIAN è dotato di sei baffetti furbi che captano ogni movimento dell'aria riconoscendo presenze vicine. Se afferrato per i baffi, diventa docile.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "POKéMON piuttosto malvagio. Se rizza la coda, meglio stargli alla larga: significa che sta per attaccare.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Un Pokémon molto altezzoso. I fan parlano spesso delle dimensioni del gioiello che ha sulla testa.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "I muscoli flessibili gli consentono di camminare senza fare alcun rumore. Attacca in un lampo.",
     "giochi": [
-      "SoulSilver",
-      "Y"
+      "soulsilver",
+      "y"
     ]
   }
 ]

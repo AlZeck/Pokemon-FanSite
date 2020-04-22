@@ -2,24 +2,24 @@
   {
     "voce": "Dalle montagne in cui si allena Sawk giunge il suono di pugni che si schiantano contro grandi alberi e rocce.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "La cintura da karate gli dà la carica e aumenta la forza distruttiva dei pugni. Quando si allena, meglio non disturbarlo.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si allena senza posa, giorno e notte, sui monti per potenziare al massimo i suoi colpi di karate.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

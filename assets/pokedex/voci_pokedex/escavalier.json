@@ -2,24 +2,24 @@
   {
     "voce": "Infilza i nemici con le lance appuntite, sfrecciando a gran velocità. Affronta con valore anche avversari temibili.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Pokémon che si è evoluto appropriandosi della conchiglia di Shelmet. Un'armatura d'acciaio protegge tutto il suo corpo.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Protegge il corpo con la conchiglia che ha rubato a Shelmet mentre spunzona il nemico con due lance.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

@@ -2,24 +2,24 @@
   {
     "voce": "Vive nelle foreste buie o nelle caverne. Sonda l'ambiente circostante emettendo degli ultrasuoni dalle narici.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Dorme attaccato per le narici alle pareti delle grotte, lasciando un'impronta a forma di cuore quando se ne stacca.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Quando preme il naso contro il corpo di qualcuno lascia un segno a forma di cuore che, dicono, porta fortuna.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

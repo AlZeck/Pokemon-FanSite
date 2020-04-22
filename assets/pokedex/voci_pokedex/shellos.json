@@ -2,34 +2,34 @@
   {
     "voce": "Forma e colori variano di regione in regione. Pare che nella regione di Sinnoh ne esistano due tipi.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Vive in prossimità dell'acqua. La forma del suo corpo è mutata per adattarsi all'habitat.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Se si esercita una forte pressione sul suo corpo, ne fuoriesce un misterioso liquido viola.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Cambia facilmente aspetto e colore secondo il luogo di provenienza.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "soulsilver",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

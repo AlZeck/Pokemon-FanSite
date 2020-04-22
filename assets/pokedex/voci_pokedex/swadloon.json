@@ -2,24 +2,24 @@
   {
     "voce": "Le foreste in cui vive Swadloon sono lussureggianti, poiché trasforma le foglie morte in sostanze nutritive.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Si protegge dal freddo avvolgendo il corpo nelle foglie, che ha l'abitudine di mangiare in giro per la foresta.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Predilige i luoghi ombrosi e umidi. Passa le giornate mangiando le foglie cadute dagli alberi che trova intorno a sé.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

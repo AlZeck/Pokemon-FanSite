@@ -2,54 +2,54 @@
   {
     "voce": "DUSKULL riesce a passare attraverso i muri indipendentemente dal loro spessore. Una volta scelto un bersaglio perseguita la vittima designata fino all'alba.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "DUSKULL vaga come un'anima persa nella tetra oscurità notturna. Spesso ai bimbi capricciosi si dice che questo POKéMON si porti via i bambini che fanno arrabbiare la mamma.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "DUSKULL vaga nella tetra oscurità della notte. Un solo sguardo lanciato dal suo occhio scarlatto fa raggelare il sangue anche a un adulto forte e coraggioso.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si avvicina alla preda rendendosi invisibile. Ha la capacità di passare attraverso spesse pareti.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Segue ostinatamente la preda ovunque essa vada. Abbandona la caccia solo all'alba.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "X"
+      "diamante",
+      "perla",
+      "x"
     ]
   },
   {
     "voce": "Adora il pianto dei bambini. Spaventa i bimbi cattivi passando attraverso le pareti.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Si racconta che questo Pokémon porti via nella notte i bambini che sono stati disobbedienti.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y"
+      "heartgold",
+      "soulsilver",
+      "y"
     ]
   }
 ]

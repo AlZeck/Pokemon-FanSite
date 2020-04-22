@@ -2,80 +2,80 @@
   {
     "voce": "Se i suoi occhi si illuminano, canta una melodia misteriosa che addormenta i suoi nemici.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Usa i suoi enormi occhi per stregare i suoi nemici, poi canta una dolce melodia per addormentarli.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Se si gonfia e usa il suo CANTO diventa più resistente e causa una forte sonnolenza in chi lo ascolta.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "Y"
+      "oro",
+      "heartgold",
+      "y"
     ]
   },
   {
     "voce": "Se lo si fissa nei dolci occhi tondi intona una melodia rilassante, che spinge i nemici ad addormentarsi.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Fa ruotare i dolci occhi cantando una ninnananna. Il suo piacevole canto fa addormentare chi lo ascolta.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Le corde vocali di JIGGLYPUFF gli consentono di cantare esattamente alla lunghezza d'onda richiesta per addormentare il suo avversario.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Quando canta, JIGGLYPUFF non si ferma a prendere fiato. Se lotta contro un nemico che non si addormenta facilmente, non respira rischiando così di esaurire tutte le sue energie.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Le onde sonore che JIGGLYPUFF emette cantando sono simili alle onde cerebrali di chi dorme. Chiunque lo ascolti non può far altro che cadere in un sonno profondo.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Cattura l'attenzione dei nemici grazie agli enormi occhi rotondi, per poi farli addormentare con una dolce ninnananna.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Muove le pupille e comincia a cantare una ninnananna che fa addormentare chiunque l'ascolti.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Se incroci i suoi occhioni tondi, inizia a cantare una melodia così dolce e soave che restare svegli diventa impossibile.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

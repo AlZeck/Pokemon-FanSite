@@ -2,39 +2,39 @@
   {
     "voce": "Ha enormi zanne di ghiaccio. La popolazione di questo Pokémon è diminuita alla fine dell'era glaciale.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Un esemplare congelato risalente a 10.000 anni fa si è risvegliato tra lo stupore generale.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Un Pokémon antico al punto che ne sono stati ritrovati degli esemplari tra i ghiacci di 10000 anni fa.",
     "giochi": [
-      "HeartGold",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Un Pokémon molto diffuso durante l'era glaciale ma i cui esemplari sono drasticamente diminuiti dopo.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   },
   {
     "voce": "Si dice che molti Mamoswine sparirono verso la fine dell'era glaciale a causa dell'aumento della temperatura.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

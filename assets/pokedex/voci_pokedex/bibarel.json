@@ -2,34 +2,34 @@
   {
     "voce": "Sbarra il corso dei fiumi con corteccia e fango per farsi la tana. È noto come lavoratore instancabile.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Fuori dall'acqua si muove molto lentamente, ma riesce a nuotare più velocemente di qualsiasi FEEBAS.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Un fiume in cui BIBAREL ha costruito una diga non straripa mai, cosa molto apprezzata da chi ci vive vicino.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Costruisce con zelo la tana in riva ai corsi d'acqua, levigando radici e rami con gli affilati incisivi.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

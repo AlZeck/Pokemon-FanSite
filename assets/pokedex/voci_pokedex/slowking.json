@@ -2,57 +2,57 @@
   {
     "voce": "Dotato di incredibile intelligenza e intuito, sa restare calmo e padrone di sé in ogni situazione.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Quando la testa di SLOWPOKE fu morsa, vi penetrarono delle tossine che produssero un enorme potere.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "Y"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "Ogni volta che sbadiglia SHELLDER gli inietta del veleno, che lo rende più intelligente.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Ogni giorno SLOWKING cerca di comprendere e svelare i misteri del mondo. Tuttavia, pare che questo POKéMON dimentichi tutto ciò che ha imparato se perde lo SHELLDER che ha sul capo.",
     "giochi": [
-      "Rubino",
-      "Zaffiro"
+      "rubino",
+      "zaffiro"
     ]
   },
   {
     "voce": "Ogni giorno SLOWKING cerca di comprendere e svelare i misteri del mondo. Tuttavia, se perde lo SHELLDER che ha sul capo, pare che dimentichi tutto ciò che ha imparato.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Il morso di SHELLDER gli ha infuso un’intelligenza pari a quella di rinomati scienziati.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Ogni giorno Slowking cerca di comprendere e svelare i misteri del mondo. Tuttavia, pare che questo Pokémon dimentichi tutto ciò che ha imparato se perde lo Shellder che ha sul capo.",
     "giochi": [
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   }
 ]

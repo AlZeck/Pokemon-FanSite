@@ -2,57 +2,57 @@
   {
     "voce": "Può rimanere immobile nella tela per giorni, attendendo che s'avvicini un' ignara preda.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "Y"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "y"
     ]
   },
   {
     "voce": "Tesse la tela con un filo sottile ma forte. Poi attende paziente che una preda ci finisca dentro.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "X"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Se una preda rimane irretita nella sua tela, non le si avvicina finché non cala la notte.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "La ragnatela tessuta da SPINARAK può essere considerata il suo secondo sistema nervoso. Infatti, pare che questo POKéMON riesca a capire la natura della sua preda dalle leggere vibrazioni di tale ragnatela.",
     "giochi": [
-      "Rubino",
-      "Zaffiro"
+      "rubino",
+      "zaffiro"
     ]
   },
   {
     "voce": "La ragnatela tessuta da SPINARAK può essere considerata il suo secondo sistema nervoso poiché dalle sue vibrazioni pare riesca a capire la natura della sua preda.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Tesse una trappola con un filo di seta, sottile ma robusto. Attende la preda senza muoversi.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "La ragnatela tessuta da Spinarak può essere considerata il suo secondo sistema nervoso. Infatti, pare che questo Pokémon riesca a capire la natura della sua preda dalle leggere vibrazioni di tale ragnatela.",
     "giochi": [
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   }
 ]

@@ -2,47 +2,47 @@
   {
     "voce": "L'aroma che si spande dai suoi petali contiene una sostanza che placa gli istinti aggressivi.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "X",
-      "HeartGold"
+      "oro",
+      "verde_foglia",
+      "x",
+      "heartgold"
     ]
   },
   {
     "voce": "Il respiro di MEGANIUM può far riprendere l'erba e le piante morte, che ricrescono rigogliose.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "Y"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "Chiunque gli stia vicino si ritempra come se riposasse in una foresta accarezzata dal sole.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "L'aroma del fiore di MEGANIUM placa le emozioni. Nella lotta questo POKéMON emana un profumo con effetto calmante per smorzare l'aggressività del nemico.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Il suo respiro ha lo straordinario potere di far tornare rigogliosi piante secche e fiori avvizziti.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

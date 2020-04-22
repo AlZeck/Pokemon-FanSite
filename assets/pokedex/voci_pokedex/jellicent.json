@@ -2,24 +2,24 @@
   {
     "voce": "Affonda le sfortunate navi che si avventurano nel suo territorio e consuma l'energia dell'equipaggio.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Avanza espellendo con forza l'acqua di mare risucchiata nel corpo. È ghiotto di energia vitale.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "È composto per lo più di acqua marina. Dicono che si sia costruito un castello coi relitti delle navi che ha affondato.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

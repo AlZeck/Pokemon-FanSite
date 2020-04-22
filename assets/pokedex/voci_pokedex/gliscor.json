@@ -2,34 +2,34 @@
   {
     "voce": "Sta appeso ai rami con la testa in giù. Alla prima occasione, si butta a capofitto sulla preda.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Se incontra una corrente d’aria, anche debole, riesce a sorvolare il globo senza mai sbattere le ali.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Vola senza far rumore. Afferra le prede con la lunga coda e perfora il loro punto vitale con i canini.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "soulsilver",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si alza in volo e si accosta al nemico senza fare il minimo rumore. In questo modo può metterlo KO in un solo colpo.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

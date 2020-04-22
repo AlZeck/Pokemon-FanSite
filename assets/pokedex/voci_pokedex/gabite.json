@@ -2,34 +2,34 @@
   {
     "voce": "Molti credono che le medicine fatte con le sue scaglie curino anche i mali incurabili.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "È solito scavare per cercare gemme, che conserva nella tana. I ladri tentano spesso di rubargliele.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Adora gli oggetti luccicanti. Va a caccia di tesori nelle grotte e li trasporta nel suo nido.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Ha l’abitudine di collezionare gemme che trova mentre si scava la tana, appositamente ampliata.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "soulsilver",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

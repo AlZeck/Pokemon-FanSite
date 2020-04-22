@@ -2,34 +2,34 @@
   {
     "voce": "Dopo una lunga esposizione al sole, i motivi sulle sue pinne brillano vividamente al calar dell’oscurità.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Il modo in cui agita le sue due pinne nuotando gli è valso il soprannome di “BEAUTIFLY dei mari”.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "La linea che contorna il suo corpo immagazzina la luce solare. Di notte si illumina di una luce splendente.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Nuota battendo le due pinne caudali come fossero ali di BEAUTIFLY. Di notte i disegni sulle pinne brillano.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

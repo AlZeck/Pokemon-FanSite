@@ -2,49 +2,49 @@
   {
     "voce": "WYNAUT ha sempre un sorriso grande e genuino stampato sul volto. La coda è indice del suo vero stato d'animo. Se la sbatte violentemente a terra, significa che è infuriato.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Gli WYNAUT si riuniscono di notte al chiaro di luna per giocare stringendosi fra loro. In tal modo il POKéMON acquisisce resistenza e sferra potenti contrattacchi.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "WYNAUT ama cibarsi di deliziosi frutti che raccoglie con le sue zampe a forma di orecchie. Questi POKéMON si raggruppano nei frutteti, attirati dal dolce profumo.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Tendono a spostarsi in gruppo. Anche per dormire si stringono fra loro, nelle grotte.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "X"
+      "rosso_fuoco",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Questi Pokémon si allenano in gruppo caricandosi l'un l'altro per rafforzarsi. Amano i frutti dolci.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "I WYNAUT fanno tutto in gruppo. Giocando a darsi spintoni, si tengono sempre allenati.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

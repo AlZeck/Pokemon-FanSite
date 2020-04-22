@@ -2,24 +2,24 @@
   {
     "voce": "Mangia le bacche sminuzzandole con i denti, che ricrescono costantemente, diventando sempre più forti e affilati.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Incide gli alberi con le zanne per marcare il suo territorio. Se le zanne gli si spezzano, ricrescono subito.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Le sue zanne sono ancora deboli e spesso di spezzano, ma ogni volta che ricrescono diventano sempre più robuste.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

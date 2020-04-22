@@ -2,52 +2,52 @@
   {
     "voce": "Il suo latte è ricco di sostanze nutrienti, che ne fanno il miglior rimedio per chi è stanco o ammalato.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "Y"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "y"
     ]
   },
   {
     "voce": "Se ha appena avuto un piccolo, il latte che produce è molto più nutriente del normale.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "X"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Mungere MILTANK non è facile: occorre saper tirare su e giù ritmicamente le sue mammelle.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "MILTANK produce venti litri di latte al giorno. Il latte è apprezzato da adulti e bambini perché leggermente dolce. Chi non può bere latte, lo usa per farne uno yogurt squisito.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Ogni giorno, MILTANK produce venti litri di un latte apprezzato da adulti e bambini perché leggermente dolce. Chi non può bere latte, lo usa per fare uno yogurt squisito.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si dice che se un bambino beve il latte di MILTANK crescerà bene e da adulto sarà sano e buono.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

@@ -2,49 +2,49 @@
   {
     "voce": "SWAMPERT è molto forte. Ha una forza tale da riuscire a trascinare un masso del peso di una tonnellata senza fatica. La sua vista è così acuta da riuscire a penetrare anche l'acqua più torbida.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "SWAMPERT prevede le tempeste poiché grazie alle pinne percepisce le sottili differenze nel suono delle onde e dei venti dovuti alle maree. In caso di burrasca imminente, crea delle pile di massi per proteggere il nido.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Quando SWAMPERT percepisce l'arrivo di tempeste e maree, crea pile di massi per proteggere il suo rifugio. È in grado di nuotare alla velocità di un acquascooter.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Ha braccia dure come roccia, capaci di abbattere l'avversario in un colpo. Nidifica su splendide spiagge.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Nuotando riesce a trainare una grande nave. Con le braccia vigorose abbatte i nemici in un sol colpo.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "Ha braccia dure come roccia, capaci di frantumare in mille pezzi un masso con un colpo solo.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X"
+      "heartgold",
+      "soulsilver",
+      "x"
     ]
   }
 ]

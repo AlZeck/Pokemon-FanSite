@@ -2,34 +2,34 @@
   {
     "voce": "Si introduce sfacciatamente nelle tane degli altri Pokémon rivendicandole poi come proprie.",
     "giochi": [
-      "Diamante",
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Si stringe la vita con le sue due code per apparire più imponente e minaccioso.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Si fascia la vita con le code per apparire più grande. Fissa con insistenza chi incrocia il suo sguardo.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Si stringe la vita con la coda biforcuta per apparire più imponente e minaccioso.",
     "giochi": [
-      "Y",
-      "Zaffiro Alpha"
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

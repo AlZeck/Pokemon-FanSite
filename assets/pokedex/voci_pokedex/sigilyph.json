@@ -2,24 +2,24 @@
   {
     "voce": "Vola seguendo sempre la stessa rotta, perché conserva il ricordo della città antica che un tempo proteggeva.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Era lo spirito custode di un'antica città. Attaccava con poteri psichici i nemici che invadevano il suo territorio.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Era lo spirito custode di un'antica città. Percorreva sempre lo stesso percorso per assicurarsi non ci fossero intrusi.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

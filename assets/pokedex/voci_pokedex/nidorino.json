@@ -2,70 +2,70 @@
   {
     "voce": "POKéMON aggressivo sempre pronto all'attacco, secerne un veleno potente dal corno sulla testa.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "Y"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "Se le sue corna colpiscono il nemico durante la lotta, queste secernono un veleno letale.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Rizza le grandi orecchie per esaminare la zona. Se avverte qualcosa, attacca immediatamente.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "X"
+      "oro",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Irascibile, quando si innervosisce infilza i nemici con il corno e inietta un potente veleno.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "S'innervosisce facilmente e colpisce con il corno appena avverte una minaccia.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "NIDORINO è dotato di un corno più duro del diamante. Quando percepisce una presenza ostile, gli si rizzano immediatamente tutti gli aculei sulla schiena. A questo punto sfida il nemico con tutta la sua forza.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Il corno di NIDORINO è più duro del diamante. Se percepisce una presenza ostile, gli aculei sulla schiena si rizzano e sfida il nemico con tutta la sua forza.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si inquieta facilmente. Il possente corno può distruggere persino il diamante.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Ha un temperamento violento e infilza i nemici con il corno, che, all'impatto, rilascia veleno.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

@@ -2,77 +2,77 @@
   {
     "voce": "È così silenzioso quando vola nel buio con le sue quattro ali, che è difficile notarlo anche se è vicino.",
     "giochi": [
-      "Oro",
-      "Verde Foglia"
+      "oro",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Le ali sviluppatissime lo fanno volare veloce, ma gli rendono anche difficile fermarsi e riposarsi.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver"
     ]
   },
   {
     "voce": "Gli è cresciuto un altro paio di ali, con cui può volare in modo ancora più rapido e silenzioso.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Quando CROBAT vola agitando soltanto un paio d'ali, quelle anteriori o quelle posteriori, significa che ha affrontato un volo molto lungo. Infatti, se è stanco cambia le ali che sta usando.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "CROBAT si avvicina furtivo alla preda con le sue ali silenziosissime. Questo POKéMON si riposa aggrappato ai rami degli alberi con le zampe posteriori, che servono anche da ali.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Con l'evoluzione, le zampe posteriori di CROBAT si sono trasformate in ali. È in grado di volare per giornate intere alternando nell'uso ali posteriori e anteriori.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Le sue quattro ali gli permettono di volare più velocemente e più silenziosamente. È attivo di notte.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Le zampe di questo Pokémon si sono trasformate in ali e in questo modo è diventato abilissimo a volare.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "La trasformazione delle sue zampe in ali lo ha reso più leggiadro in volo ma più goffo a terra.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Vola nel buio con le sue quattro ali in modo talmente silenzioso che è difficile notarlo anche se è vicino.",
     "giochi": [
-      "HeartGold",
-      "X"
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Con il secondo paio d'ali ottenuto dall'evoluzione, vola verso le prede in modo ancora più veloce e silenzioso.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

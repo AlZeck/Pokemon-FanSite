@@ -2,62 +2,62 @@
   {
     "voce": "Il suo guscio sembra ricolmo di gioia. Si dice che porti fortuna se lo si tratta bene.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Un proverbio dice che chi riuscirà a far alzare un TOGEPI dormiente sarà baciato dalla felicità.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver"
     ]
   },
   {
     "voce": "Lo si ritiene un portafortuna. Si dice che il suo guscio sia ricolmo di felicità.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "TOGEPI ricava la sua energia dai nobili sentimenti di affetto e generosità emanati dai POKéMON e dall'uomo. TOGEPI immagazzina le sensazioni di felicità dentro il suo guscio e le divide con gli altri.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "TOGEPI ricava l'energia dai sentimenti di affetto e generosità emanati dai POKéMON e dall'uomo. Immagazzina le sensazioni di felicità nel guscio per condividerle.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Pare che il suo guscio immagazzini felicità, che condivide poi con le persone gentili.",
     "giochi": [
-      "Diamante",
-      "Perla"
+      "diamante",
+      "perla"
     ]
   },
   {
     "voce": "Trasforma la gentilezza e la gioia degli altri in felicità, che immagazzina nel suo guscio.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Un proverbio dice che chi riuscirà a far alzare un Togepi dormiente sarà baciato dalla fortuna.",
     "giochi": [
-      "Y"
+      "y"
     ]
   }
 ]

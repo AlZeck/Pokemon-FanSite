@@ -2,85 +2,85 @@
   {
     "voce": "Quasi invisibile, questo POKéMON gassoso avvolge il nemico e lo addormenta senza preavviso.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Si dice che appaia in case diroccate e deserte. Non ha una forma vera e propria poiché è fatto di gas.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Il suo corpo gassoso può infilarsi ovunque. Tuttavia un colpo di vento lo può spazzare via.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Il suo corpo sottile è fatto di gas. Avvolge nemici di ogni dimensione, soffocandoli.",
     "giochi": [
-      "Argento",
-      "SoulSilver",
-      "X"
+      "argento",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Avvolge il nemico nel corpo gassoso, indebolendolo lentamente con il veleno che gli penetra la pelle.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "GASTLY è composto prevalentemente di sostanze gassose. Se esposto al vento forte il suo corpo gassoso si disperde subito. Gruppi di questo POKéMON si radunano sotto i cornicioni per ripararsi dal vento.",
     "giochi": [
-      "Rubino",
-      "Zaffiro"
+      "rubino",
+      "zaffiro"
     ]
   },
   {
     "voce": "GASTLY è composto per lo più di sostanze gassose. Se esposto al vento, il suo corpo si disperde subito. Per ripararsi dal vento, si ferma sotto i cornicioni delle case.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Essere gassoso, capace di far cadere un elefante indiano avvolgendolo nel giro di due secondi.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Il corpo di questo Pokémon è costituito al 95% da gas che possono venir spazzati via da venti improvvisi.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Pokémon nato da gas tossici. Sconfigge persino i nemici più grossi avvolgendoli nei suoi gas.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Generato da sostanze gassose, fa perdere i sensi a chiunque respiri i gas tossici di cui è costituito.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "Gastly è composto prevalentemente di sostanze gassose. Se esposto al vento forte il suo corpo gassoso si disperde subito. Gruppi di questi Pokémon si radunano sotto i cornicioni per ripararsi dal vento.",
     "giochi": [
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   }
 ]

@@ -2,39 +2,39 @@
   {
     "voce": "Questi Pokémon vivono in zone fredde in gruppi di quattro o cinque. Insieme sono cacciatori abilissimi.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Lascia segnali per i suoi simili incidendo misteriosi disegni nel ghiaccio e su alberi gelati.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "L'evoluzione lo ha reso ancora più subdolo. Comunica incidendo segni nei massi.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Il suo habitat sono le grandi aree innevate. Con gli artigli, incide sui tronchi segnali per i suoi simili.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Comunicano con i compagni incidendo dei messaggi sulle rocce con gli artigli. Con questa tattica, circondano i nemici.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

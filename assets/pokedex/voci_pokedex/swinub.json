@@ -2,62 +2,62 @@
   {
     "voce": "Sfrega il muso sul terreno per scovare del cibo. Talvolta scopre sorgenti d'acqua calda.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Appena avverte un profumo invitante, cerca subito di capire la provenienza di quell'odore.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "Y"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "Scava con la punta del muso alla ricerca di cibo. Il muso è così duro che rompe anche il ghiaccio.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "SWINUB cerca il proprio nutrimento strofinando il muso sul terreno. È ghiotto dei funghi che crescono sotto la coltre di erba e fogliame rinsecchito. Talvolta scova qualche sorgente termale.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "SWINUB strofina il muso sul terreno, scovando i funghi di cui è ghiotto sotto il fogliame rinsecchito. Talvolta scova qualche sorgente termale.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Ama mangiare i funghi che crescono sotto l’erba secca. Mentre cerca, talvolta trova sorgenti termali.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino"
+      "diamante",
+      "perla",
+      "platino"
     ]
   },
   {
     "voce": "Grazie al suo olfatto sviluppato trova funghi, bacche e persino sorgenti termali sotto al ghiaccio.",
     "giochi": [
-      "Nero",
-      "Bianco"
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Annusa il terreno e scava alla ricerca di cibo. A volte scopre persino delle sorgenti termali.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

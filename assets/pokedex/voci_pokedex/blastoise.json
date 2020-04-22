@@ -2,75 +2,75 @@
   {
     "voce": "POKéMON brutale con getti d'acqua ad alta pressione nella corazza. Usato per attacchi rapidi.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Dopo aver preso la mira colpisce il nemico con getti d'acqua più potenti di un idrante.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Aumenta il suo peso per poter resistere al contraccolpo dei getti d'acqua che spara.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "I cannoni sul suo guscio sparano getti d'acqua capaci di bucare l'acciaio.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Punta i piedi saldamente al suolo, per poi sparare getti d'acqua dal dorso.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "BLASTOISE è dotato di cannoni ad acqua che fuoriescono dalla corazza. I getti emessi sono così precisi da riuscire a colpire un bersaglio ad una distanza di 50 metri.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "I cannoni ad acqua che fuoriescono dalla corazza di BLASTOISE emettono getti così precisi da riuscire a colpire una lattina ad una distanza di 50 metri.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Mette KO gli avversari schiacciandoli sotto il corpo possente. Se è in difficoltà, può ritrarsi nella corazza.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "I getti d’acqua lanciati dai cannoni sul suo guscio riescono a perforare persino l’acciaio.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Pokémon brutale che lancia getti d'acqua ad alta pressione dalla corazza, usati per attacchi rapidi.",
     "giochi": [
-      "Y"
+      "y"
     ]
   }
 ]

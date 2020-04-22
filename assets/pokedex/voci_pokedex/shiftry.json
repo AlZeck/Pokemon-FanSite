@@ -2,49 +2,49 @@
   {
     "voce": "SHIFTRY è un POKéMON misterioso che vive sulla cima degli alberi più alti, di solito plurisecolari. Usa le foglie degli arti superiori come ventole per generare terribili raffiche di vento.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Le grandi ventole di SHIFTRY generano forti raffiche di vento alla velocità di 30 metri al secondo. La violenza del vento spazza via ogni cosa. Vive pacifico nel cuore della foresta.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si dice che arrivi trasportato dai gelidi venti invernali. SHIFTRY è da sempre un temuto guardiano delle foreste, dove vive lontano dal mondo e dagli uomini.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Un tempo era un temuto guardiano della foresta. Sa leggere nella mente del nemico, anticipandolo.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "X"
+      "rosso_fuoco",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Con le sue foglie provoca raffiche di vento della velocità di 30 m/s che spazzano via interi edifici.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "Vive nella calma delle foreste. A quanto pare, crea raffiche di vento gelido con le sue grandi ventole.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

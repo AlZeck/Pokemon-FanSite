@@ -2,34 +2,34 @@
   {
     "voce": "Imita i movimenti dei nemici. Quando un nemico viene imitato, non riesce più a distogliere lo sguardo da lui.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Ama i luoghi affollati. Imita i nemici per confonderli, poi ne approfitta per fuggire.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Imita i movimenti e le espressioni di coloro che vede per capire i sentimenti degli altri.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Imita i movimenti del nemico, approfittando del suo momento di confusione per fuggire.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

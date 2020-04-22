@@ -2,24 +2,24 @@
   {
     "voce": "Una volta che l'ha presa, non si lascia più sfuggire la preda. Ha delle mandibole in grado di fare a pezzi un'automobile.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Ha degli occhi simili a binocoli, che gli permettono di vedere le cose in lontananza ingrandite.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "È un Pokémon molto feroce. Attacca tutto ciò che gli si para davanti, prendendolo a morsi.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

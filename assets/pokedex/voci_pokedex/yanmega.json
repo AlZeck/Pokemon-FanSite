@@ -2,39 +2,39 @@
   {
     "voce": "Agitando le ali crea onde d'urto che infliggono gravi ferite agli organi interni dei nemici.",
     "giochi": [
-      "Diamante",
-      "Perla"
+      "diamante",
+      "perla"
     ]
   },
   {
     "voce": "La forza della sua mascella è incredibile. Trancia i nemici mentre vola a grande velocità.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Riesce a volare comodamente anche trasportando un adulto con le sue sei zampe. Si bilancia con la coda.",
     "giochi": [
-      "HeartGold",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Ha talmente tanta forza nelle ali che quando spicca il volo abbatte gli alberi a colpi d'ala.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   },
   {
     "voce": "Preferisce piombare sui nemici a grande velocità per tagliuzzarli a dovere in un batter d'occhio.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

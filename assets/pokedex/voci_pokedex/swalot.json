@@ -2,49 +2,49 @@
   {
     "voce": "Quando individua la preda, SWALOT spruzza sul bersaglio un ripugnante fluido tossico dai propri pori. Una volta indebolito l'avversario, SWALOT lo ingoia intero con la bocca simile ad una voragine.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "SWALOT non ha denti, così quando mangia ingoia ogni cosa intera, senza masticare. Quando sbadiglia, la sua bocca enorme si apre a mo' di voragine. È così grande che potrebbe contenere persino un pneumatico.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Non c'è cosa che i micidiali succhi gastrici di SWALOT non possano sciogliere, eccezion fatta per il suo stesso stomaco.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Può ingoiare uno pneumatico in un boccone. Da tutti i pori del corpo secerne un liquido tossico.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Inghiotte intera qualsiasi cosa. Dai pori traspira un liquido tossico con cui bagna i nemici.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "Inghiotte qualunque cosa che possa infilarsi in bocca. Digerisce tutto con succhi gastrici speciali.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y"
+      "heartgold",
+      "soulsilver",
+      "y"
     ]
   }
 ]

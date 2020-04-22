@@ -2,24 +2,24 @@
   {
     "voce": "La sua fiamma interna, alla temperatura di 1400°C, sviluppa una potenza tale da distruggere un autocarro.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Se indebolito in combattimento, si trasforma in una statua, attiva la mente e combatte con la forza dello spirito.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Se resta ferito durante una battaglia violenta, diventa duro come la pietra e medita per purificare la mente.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

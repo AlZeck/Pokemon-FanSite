@@ -2,65 +2,65 @@
   {
     "voce": "Vive all'ombra di alberi alti, dove si nutre di insetti. Di notte è attirato dalla luce.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "Y"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "Gli occhi enormi fungono da radar. Alla luce si può notare che sono formati da molti occhi minori.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "I suoi occhi fanno anche da radar, per catturare e mangiare piccoli insetti che vivono nell'oscurità.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Da tutto il suo corpo cola veleno. Di notte cattura e mangia piccoli insetti attratti dalla luce.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Poiché gli insetti di cui si nutre appaiono solo la notte, di giorno dorme nei buchi degli alberi.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Si dice che per proteggersi VENONAT abbia sviluppato una pelliccia sottile e irsuta che ricopre il suo corpo. Nemmeno la preda più piccola può sfuggire ai suoi occhi enormi.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Usa gli occhi come radar per spostarsi nel buio, oltre a servirsene per lanciare potenti raggi.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "I suoi grandi occhi sono in realtà un insieme di tanti piccoli occhi. Di notte, è attirato dalla luce.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   }
 ]

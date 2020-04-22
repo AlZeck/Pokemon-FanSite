@@ -2,62 +2,62 @@
   {
     "voce": "Se agita le ali ad altissima velocità può generare onde che distruggono i vetri delle finestre nella zona.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "Y"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "y"
     ]
   },
   {
     "voce": "I suoi grandi occhi vedono a 360 gradi, cercando in ogni direzione insetti da catturare.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver"
     ]
   },
   {
     "voce": "Guardando in ogni direzione senza muovere i grandi occhi, scorge i nemici e il cibo più facilmente.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "YANMA è dotato di un campo visivo a 360º senza bisogno di muovere gli occhi. Grazie alle grandi ali riesce a fermarsi improvvisamente e virare a mezz'aria. Sfrutta la sua abilità in volo per abbattere la preda al suolo.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "È dotato di un campo visivo a 360 gradi senza muovere gli occhi. Mentre vola si ferma all'improvviso e vira a mezz'aria, riuscendo così a raggiungere la preda.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Ha un campo visivo a 360° senza muovere la testa. Riesce a vedere persino le prede alle sue spalle.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "X"
+      "diamante",
+      "perla",
+      "x"
     ]
   },
   {
     "voce": "Può fermarsi a mezz'aria sbattendo velocemente le ali. Vola di qua e di là per difendere il suo territorio.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Grazie alle velocissime ali si libra in volo con grazia e agilità. Neanche fermarsi a mezz'aria costituisce un problema.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

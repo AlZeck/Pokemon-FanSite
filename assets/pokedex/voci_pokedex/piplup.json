@@ -2,34 +2,34 @@
   {
     "voce": "È molto orgoglioso e odia accettare cibo dalla gente. Le fitte piume lo proteggono dal freddo.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Vive lungo le coste nei paesi del nord. Abile nuotatore, per cacciare si immerge per oltre 10 minuti.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Quando cammina risulta goffo e cade spesso. Poiché è molto orgoglioso, continua come se nulla fosse.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Molto orgoglioso. Difficile farci amicizia perché non ascolta mai i consigli dell'Allenatore.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

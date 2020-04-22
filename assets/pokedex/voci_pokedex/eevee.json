@@ -2,80 +2,80 @@
   {
     "voce": "Il suo codice genetico mutevole può cambiare se esposto alle radiazioni delle PIETRE elemento.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Il suo codice genetico è così instabile che può evolversi in molti modi. È molto raro.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Ha la capacità di alterare la composizione del corpo per adattarsi all'ambiente circostante.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Il suo DNA è irregolare, ed è condizionato dall'ambiente. Muta con le condizioni ambientali.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "La capacità di assumere qualsiasi forma gli permette di adattarsi perfettamente ad ogni ambiente.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "EEVEE è dotato di un instabile corredo genetico che muta in base all'habitat naturale in cui è integrato. Le radiazioni di diverse PIETRE scatenano l'evoluzione di questo POKéMON.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "POKéMON rarissimo, che si può evolvere in modo diverso secondo gli stimoli che riceve.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Un Pokémon raro che si adatta agli ambienti più difficili assumendo diverse forme nell'evoluzione.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "X"
+      "diamante",
+      "perla",
+      "x"
     ]
   },
   {
     "voce": "È dotato di un corredo genetico instabile e, per cause diverse, può assumere altre forme rapidamente.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Il suo DNA irregolare è condizionato dall'habitat. Si evolve in base alle condizioni ambientali.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   },
   {
     "voce": "È un Pokémon molto particolare. Dotato di un corredo genetico instabile, serba in sé le più varie possibilità evolutive.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

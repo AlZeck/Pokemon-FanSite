@@ -2,75 +2,75 @@
   {
     "voce": "Con l'agilità e la velocità di un ninja, crea l'illusione ottica che ce ne siano più di uno.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Salta fuori dall'erba alta per fare a fettine le sue prede con movimenti simili a quelli ninja.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Si fa strada tra l'erba grazie alle lame affilate, muovendosi troppo velocemente per l'occhio umano.",
     "giochi": [
-      "Oro",
-      "Y",
-      "HeartGold"
+      "oro",
+      "y",
+      "heartgold"
     ]
   },
   {
     "voce": "Quando si muove si vede solo una scia. Nell'erba i suoi colori protettivi lo rendono invisibile.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Va molto fiero della propria velocità. È così rapido che chi è colpito non lo vede neppure.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "SCYTHER è veloce come una saetta. La sua rapidità migliora l'efficacia delle due falci sulle zampe anteriori. Infatti riesce a tranciare con un colpo secco persino un tronco secolare.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "SCYTHER è veloce come una saetta. La rapidità rende le falci sulle zampe anteriori così efficaci da tranciare con un colpo secco persino un tronco secolare.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Fa a pezzi le prede con gli artigli spaventosamente affilati. Solo raramente spiega le ali per alzarsi in volo.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "È quasi impossibile parare gli attacchi sferrati dalle sue falci. Si muove come un ninja.",
     "giochi": [
-      "Diamante",
-      "Perla"
+      "diamante",
+      "perla"
     ]
   },
   {
     "voce": "Le falci sulle sue zampe anteriori diventano sempre più affilate man mano che tranciano oggetti duri.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

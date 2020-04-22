@@ -2,24 +2,24 @@
   {
     "voce": "Dove passa Thundurus, rimane una scia lunghissima di bruciature nere provocate dai fulmini che scaglia.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Lancia scariche elettriche dagli aculei della coda. Vola per i cieli di Unima scagliando fulmini.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Non è molto amato perché durante i suoi peregrinaggi nei cieli fa cadere fulmini qua e là che causano incendi dei boschi.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

@@ -2,49 +2,49 @@
   {
     "voce": "Molto tempo fa REGIROCK era stato imprigionato dagli esseri umani. Se subisce danni in lotta, cerca nuove rocce adatte per riparare le rotture.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Il corpo di REGIROCK è formato interamente da pietre. Da un recente studio è emerso che ogni pietra proviene da un luogo diverso.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "REGIROCK è interamente formato da pietre e rocce. Se qualche roccia si stacca durante la lotta, ne cerca delle nuove per sostituirle.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "È formato interamente da rocce, senza tracce di funzioni cerebrali o cardiovascolari. La sua natura è un mistero.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "È formato interamente da rocce. Se si staccano nella lotta, ne cerca altre per sostituirle.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "I tipi di roccia che compongono il suo corpo possono trovarsi in tutti gli strati geologici del mondo.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y"
+      "heartgold",
+      "soulsilver",
+      "y"
     ]
   }
 ]

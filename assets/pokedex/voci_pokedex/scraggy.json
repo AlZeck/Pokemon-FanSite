@@ -2,24 +2,24 @@
   {
     "voce": "Assumono la posizione difensiva tirando su fino al collo la pelle, che è elastica come la gomma e previene i danni.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Attacca a testate chiunque abbia la sfortuna di incrociare il suo sguardo. Il suo cranio è durissimo.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Va fiero del suo robustissimo cranio. Tira senza preavviso testate così forti da farlo barcollare.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

@@ -2,57 +2,57 @@
   {
     "voce": "Si nutre di terra. Dopo aver divorato una montagna intera, si addormenta per poter crescere.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Nato nel profondo sottosuolo, non può emerge finché non ha consumato tutto il terreno intorno a sé.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver"
     ]
   },
   {
     "voce": "Nasce nel profondo sottosuolo; dopo aver mangiato una montagna di terra si trasforma in una crisalide.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "LARVITAR nasce nelle viscere della terra. Per emergere in superficie deve farsi strada inghiottendo la terra che lo ostacola. LARVITAR non può vedere il volto dei propri genitori finché non emerge.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "LARVITAR nasce nelle viscere della terra. Per emergere in superficie si fa strada inghiottendo terra. Non vede il volto dei propri genitori finché non emerge.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Pokémon che mangia la terra. Dopo aver mangiato un’intera montagna, va a dormire per poter crescere.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Nasce nelle profondità del sottosuolo. Dopo aver divorato la terra circostante emerge in superficie e diventa crisalide.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

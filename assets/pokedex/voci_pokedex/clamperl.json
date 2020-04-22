@@ -2,49 +2,49 @@
   {
     "voce": "La robusta conchiglia di CLAMPERL è un'eccellente protezione, ma è anche molto utile per intrappolare e catturare la preda. Di solito una conchiglia giunta alla sua completa maturità è segnata da tacche e graffi.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "CLAMPERL cresce ben protetto dalla sua conchiglia dura come la pietra. Quando cresce oltre la misura della conchiglia, significa che è prossimo all'evoluzione.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "CLAMPERL chiude di scatto la conchiglia per intrappolare il nemico. Si dice che la perla che produce quando si evolve sia permeata da una forza misteriosa.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "È protetto da un guscio coriaceo. Una sola volta in tutta la sua vita produce una magnifica perla.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "Y"
+      "rosso_fuoco",
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "Crea una sola perla in tutta la sua vita. Si dice che questa perla amplifichi i poteri psichici.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Crea una sola perla in tutta la sua vita, quando si evolve. Questa perla amplifica i poteri psichici.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X"
+      "heartgold",
+      "soulsilver",
+      "x"
     ]
   }
 ]

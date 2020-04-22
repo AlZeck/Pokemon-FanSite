@@ -2,49 +2,49 @@
   {
     "voce": "TAILLOW affronta coraggiosamente persino i nemici più forti. Anche in caso di sconfitta rimane fiero e spavaldo. D'altra parte, quando ha fame, si lamenta rumorosamente.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "TAILLOW è molto piccolo, infatti ha appena lasciato il nido. Talvolta di notte si sente solo e piange. Si nutre dei WURMPLE che vivono nella foresta.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "TAILLOW è sì piccolo, ma ha coraggio da vendere, tanto che riesce a tenere testa a uno SKARMORY. Se è affamato, però, la sua determinazione si affievolisce.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Non ama il freddo. In inverno emigra verso regioni calde, viaggiando ad una velocità di 300 chilometri al giorno.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "Y"
+      "rosso_fuoco",
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "È molto coraggioso e affronta spavaldo i nemici più forti. Migra verso i paesi caldi.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "Nella stagione fredda migra al caldo viaggiando 300 km al giorno. WURMPLE è la sua preda favorita.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

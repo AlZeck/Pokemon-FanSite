@@ -2,34 +2,34 @@
   {
     "voce": "Pokémon formato da 108 spiriti. È stato imprigionato nella fessura di una Roccianima.",
     "giochi": [
-      "Diamante",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "500 anni fa fu imprigionato nella fessura di una Roccianima come punizione.",
     "giochi": [
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "A causa del suo comportamento molesto è stato imprigionato in una Roccianima con un incantesimo.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Pokémon formato da 108 spiriti. È stato imprigionato in una Roccianima affinché non faccia più del male.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

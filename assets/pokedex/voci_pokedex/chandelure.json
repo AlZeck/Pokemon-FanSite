@@ -2,24 +2,24 @@
   {
     "voce": "Brucia consumando le anime che ha aspirato. Ipnotizza l'avversario facendo tremolare le fiammelle sugli arti.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Le fiamme di Chandelure risucchiano lo spirito e lasciano il corpo come un guscio vuoto.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Le anime bruciate dalle sue fiamme cupe perdono la strada e rimangono a vagare in questo mondo per l'eternità.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

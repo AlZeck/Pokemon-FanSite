@@ -2,39 +2,39 @@
   {
     "voce": "Le sacche delle guance contengono veleno. Infilza i nemici con le sue unghie avvelenate.",
     "giochi": [
-      "Diamante",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Gonfiando le sacche di veleno, emette dei gargarismi misteriosi che intimoriscono il nemico.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Combatte spesso slealmente, ma lo fa per sopravvivere. È molto apprezzato come mascotte.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Si spreme dalle dita un succo velenoso usato nella ricetta di un rimedio contro la lombaggine.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Gonfia le sue sacche di veleno emettendo un verso sinistro che può far tentennare l'avversario, poi lo avvelena.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

@@ -2,57 +2,57 @@
   {
     "voce": "Si dice che si nasconda in grotte sott'acqua. Il suo sbadiglio può provocare dei vortici.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Dorme sul fondo dell'oceano per ricaricarsi di energia. Si dice che causi uragani quando si sveglia.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver"
     ]
   },
   {
     "voce": "Accumula energia dormendo sott'acqua a profondità proibitive per ogni altra forma di vita.",
     "giochi": [
-      "Cristallo",
-      "Y"
+      "cristallo",
+      "y"
     ]
   },
   {
     "voce": "KINGDRA vive negli abissi oceanici di solito privi di ogni forma di vita. Si crede che uno sbadiglio di KINGDRA generi correnti oceaniche spiraliformi.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega"
+      "rubino",
+      "zaffiro",
+      "rubino_omega"
     ]
   },
   {
     "voce": "KINGDRA dorme pacifico sui fondali marini. Tuttavia, quando decide di muoversi verso la superficie provoca dei vortici tali da inghiottire persino una nave.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Vive in caverne sui fondali marini e crea vortici giganteschi ogni volta che si muove.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Kingdra dorme sui fondali marini dove di solito non esistono forme di vita. Si dice che in caso di tempesta Kingdra si svegli e vada in cerca di prede.",
     "giochi": [
-      "Zaffiro Alpha"
+      "zaffiro_alpha"
     ]
   }
 ]

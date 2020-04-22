@@ -2,34 +2,34 @@
   {
     "voce": "Tocca il nemico con le sue due code e rilascia una scarica elettrica di oltre 20000 volt.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Incurante degli attacchi nemici, si avvicina, tocca il nemico con le code e rilascia una scarica elettrica.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Quando accumula tanta elettricità sparge scintille azzurrine dallo spazio tra le due corna.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Tocca il nemico con la punta delle code rilasciando in un istante una scarica ad alta tensione di oltre 20.000 volt.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

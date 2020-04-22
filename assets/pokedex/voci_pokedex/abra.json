@@ -2,100 +2,100 @@
   {
     "voce": "Con la capacità di leggere nella mente, prevede i pericoli e si TELETRASPORTA in un luogo sicuro.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Dorme 18 ore al giorno, ma se percepisce un pericolo si teletrasporta al sicuro.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Avverte gli attacchi imminenti e si TELETRASPORTA in salvo prima che l'attacco lo possa colpire.",
     "giochi": [
-      "Oro"
+      "oro"
     ]
   },
   {
     "voce": "Se inizia ad usare TELETRASPORTO a caso, si ha l'illusione che abbia creato copie di se stesso.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "S'ipnotizza per TELETRASPORTarsi in salvo se avverte un pericolo, persino se sta dormendo.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "ABRA dorme per 18 ore al giorno, ma riesce a captare la presenza dei nemici anche durante il sonno. In questo caso il POKéMON si teletrasporta immediatamente al sicuro.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "ABRA ha bisogno di 18 ore di sonno al giorno. In caso contrario perde le sue abilità telecinetiche. Se attaccato, ABRA fugge usando TELETRASPORTO mentre dorme.",
     "giochi": [
-      "Zaffiro"
+      "zaffiro"
     ]
   },
   {
     "voce": "ABRA dorme 18 ore al giorno. Gli studiosi hanno osservato che si trasferisce da un posto all'altro ogni ora usando TELETRASPORTO.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Dorme 18 ore al giorno. Anche da addormentato utilizza una serie di poteri extrasensoriali.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Dorme per 18 ore al giorno. Anche da sveglio, si teletrasporta rimanendo seduto.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Anche mentre dorme tiene attivo il radar telepatico. Si teletrasporta quando si sente minacciato.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "L’utilizzo dei suoi poteri psichici è così stancante da costringerlo a dormire 18 ore al giorno.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Avverte gli attacchi imminenti e si teletrasporta in salvo prima che l’attacco lo possa colpire.",
     "giochi": [
-      "HeartGold",
-      "Y"
+      "heartgold",
+      "y"
     ]
   },
   {
     "voce": "Se inizia a teletrasportarsi a destra e a manca, si ha l’illusione che abbia creato delle copie di se stesso.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   },
   {
     "voce": "Abra ha bisogno di 18 ore di sonno al giorno. In caso contrario perde le sue abilità telecinetiche. Se attaccato, Abra fugge usando Teletrasporto mentre dorme.",
     "giochi": [
-      "Zaffiro Alpha"
+      "zaffiro_alpha"
     ]
   }
 ]

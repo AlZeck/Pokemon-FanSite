@@ -2,24 +2,24 @@
   {
     "voce": "Utilizza i suoi poteri psichici per respingere gli aggressori. Comunica con i compagni usando la telepatia.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Il suo corpo è avvolto in un liquido speciale, che gli permette di vivere in qualsiasi ambiente.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Il liquido speciale in cui è avvolto il suo corpo gli permette di resistere alle condizioni più estreme.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

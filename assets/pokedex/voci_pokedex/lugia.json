@@ -2,57 +2,57 @@
   {
     "voce": "Si dice che riposi sempre sul fondo del mare perché la sua forza è troppo elevata.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold"
+      "oro",
+      "verde_foglia",
+      "heartgold"
     ]
   },
   {
     "voce": "È chiamato il guardiano dei mari. Si dice che sia stato visto in una notte di tempesta.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco"
+      "argento",
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Ha un'incredibile capacità di far acquietare le tempeste. Appare proprio quando se ne scatena una.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Le ali di LUGIA hanno un'enorme potenza distruttiva: un leggero battito d'ali è in grado di abbattere una normale abitazione. Perciò il POKéMON ha scelto di vivere lontano dall'uomo, nelle profondità abissali.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Con un leggero battito delle sue potenti ali, LUGIA è in grado di abbattere un'abitazione. Perciò ha scelto di vivere negli abissi, lontano dall'uomo.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Dorme in una fossa negli abissi marini. Con un battito d’ali provoca una tempesta di 40 giorni.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "Viene definito il guardiano dei mari. Si dice che sia stato visto nelle notti di tempesta.",
     "giochi": [
-      "SoulSilver",
-      "Y"
+      "soulsilver",
+      "y"
     ]
   }
 ]

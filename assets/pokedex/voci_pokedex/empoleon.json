@@ -2,34 +2,34 @@
   {
     "voce": "I tre corni che si allungano dal suo becco attestano la sua forza. Il capogruppo ha i corni più grossi.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Nuota veloce come una moto d'acqua. Le estremità delle ali sono aguzze, spaccano anche il ghiaccio.",
     "giochi": [
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Chi osa ferirlo nell'orgoglio, viene colpito dalle sue ali tanto possenti da fendere un banco di ghiaccio.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Non attacca briga senza motivo, ma se un nemico minaccia la pace del branco, lo pesta senza pietà.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

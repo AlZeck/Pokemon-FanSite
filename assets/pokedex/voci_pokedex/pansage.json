@@ -2,24 +2,24 @@
   {
     "voce": "Vive nel fitto delle foreste. Mangiare le foglie che ha sulla testa fa sembrare la stanchezza un lontano ricordo.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Distribuisce le foglie sulla sua testa ai Pokémon affaticati, per alleviare la loro stanchezza.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "È un Pokémon molto generoso. Abilissimo nello scovare le bacche, va in giro a raccoglierle per condividerle.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

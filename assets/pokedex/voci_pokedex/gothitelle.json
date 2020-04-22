@@ -2,24 +2,24 @@
   {
     "voce": "I suoi forti poteri psichici modificano lo spazio circostante rendendo visibili galassie lontane milioni di anni luce.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Prevede il futuro dalla posizione e dal movimento delle stelle. Conosce anche la durata della vita dell'Allenatore.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Legge il futuro nei moti delle stelle. Quando scopre la durata della vita del suo Allenatore, si abbandona al pianto.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

@@ -2,85 +2,85 @@
   {
     "voce": "Formato per intero da codici programmatici può muoversi liberamente nel ciberspazio.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "Y"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "y"
     ]
   },
   {
     "voce": "Per gli esperti è l'unico POKéMON che potrà andare nello spazio, ma nessuno sa ancora come e quando.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "È un POKéMON creato dall'uomo. Non avendo bisogno di respirare, è utilizzato in ogni tipo di ambiente.",
     "giochi": [
-      "Oro"
+      "oro"
     ]
   },
   {
     "voce": "Un POKéMON creato dall'uomo, risultato di una ricerca. Esegue solo i movimenti principali.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "È un POKéMON artificiale, nato dalla ricerca. Può solo eseguire ciò che è previsto dal programma.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "PORYGON è in grado di regredire ai suoi codici di programmazione originari ed entrare nel ciberspazio. Questo POKéMON è dotato di un sistema anti-pirateria per evitarne la duplicazione illecita.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "PORYGON può regredire ai suoi codici di programmazione originari ed entrare nel ciberspazio. È dotato di un sistema antipirateria per evitare la duplicazione.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Le tecnologie più avanzate hanno finalmente permesso agli scienziati di creare il primo POKéMON artificiale.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Il primo Pokémon al mondo creato artificialmente. Riesce a muoversi liberamente nel ciberspazio.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino"
+      "diamante",
+      "perla",
+      "platino"
     ]
   },
   {
     "voce": "Questo Pokémon, creato dall'uomo, non ha bisogno di respirare ed è utilizzato in ogni tipo di ambiente.",
     "giochi": [
-      "HeartGold"
+      "heartgold"
     ]
   },
   {
     "voce": "Questo Pokémon è il risultato di una ricerca umana. Esegue solo i movimenti più elementari.",
     "giochi": [
-      "SoulSilver",
-      "X"
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Un Pokémon creato dall'uomo con metodi scientifici avanzatissimi. Si muove liberamente nel ciberspazio.",
     "giochi": [
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

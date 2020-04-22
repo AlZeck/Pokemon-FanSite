@@ -2,24 +2,24 @@
   {
     "voce": "Quando Munna mangia i sogni di qualcuno, questi dimentica che cosa ha sognato. Galleggia costantemente in aria.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Si nutre dei sogni di uomini e Pokémon. Se mangia sogni piacevoli, esala un fumo di colore rosa.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Compare accanto a Pokémon e uomini tormentati dagli incubi per nutrirsi di tutti i loro brutti sogni.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

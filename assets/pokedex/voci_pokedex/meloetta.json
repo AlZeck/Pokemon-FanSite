@@ -2,24 +2,24 @@
   {
     "voce": "Controlla a suo piacimento le emozioni di coloro che ascoltano i suoi singolari vocalizzi.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Sono molte le canzoni composte traendo ispirazione dalla melodia suonata da Meloetta.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Canta una melodia che ha il potere di portare la gioia o la tristezza nel cuore dei Pokémon che l'ascoltano.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

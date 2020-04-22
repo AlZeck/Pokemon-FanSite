@@ -2,57 +2,57 @@
   {
     "voce": "Tesse un filo sia dalla bocca, sia dall'estremità opposta. È dura distinguerne l'inizio e la fine.",
     "giochi": [
-      "Oro",
-      "Verde Foglia"
+      "oro",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Sputa un filo ininterrotto dalla sua parte posteriore. Seguendo il filo si giunge al suo nido.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Piuttosto che fare una tana in un luogo preciso, preferisce girare di notte alla ricerca di cibo.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Le zampe di ARIADOS sono dotate di artigli uncinati che gli consentono di aggrapparsi a soffitti e pareti. Questo POKéMON intrappola il nemico con la sua ragnatela sottile e robusta.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Dalla sua parte posteriore si sviluppa un filo ininterrotto. Seguendo il filo si raggiunge il nido di questo POKéMON.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Aggancia la preda con un filo di seta e la lascia andare. Poi segue il filo e la trova quando è in gruppo.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "Seguendo il filo che gli esce da dietro, si giunge di certo fino al suo nido.",
     "giochi": [
-      "HeartGold",
-      "X"
+      "heartgold",
+      "x"
     ]
   }
 ]

@@ -2,34 +2,34 @@
   {
     "voce": "Per ripararsi dal freddo e dai venti invernali si copre con un manto fatto di rami e foglie.",
     "giochi": [
-      "Diamante",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Se il suo manto si rompe mentre lotta, lo rifa velocemente con ciò che trova attorno a sé.",
     "giochi": [
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Anche se dove nasce non ci sono materiali per fare bozzoli, si ritrova sempre coperto da un manto.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Per ripararsi dal freddo si avvolge in un mantello. Nella stagione calda usa un mantello più leggero.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

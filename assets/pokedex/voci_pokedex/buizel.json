@@ -2,39 +2,39 @@
   {
     "voce": "Ha un collare che funge da galleggiante. Quando nuota, la sua testa rimane sempre fuori dall'acqua.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Nuota roteando le due code come fossero viti. Quando si immerge, il suo galleggiante si sgonfia.",
     "giochi": [
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Usa le sue due code come eliche per spostarsi nell'acqua e con esse taglia anche le alghe che s'impigliano.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Gonfia il suo collare galleggiante e nuota con la testa fuori dall'acqua in cerca di prede terrestri.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Gonfia il salvagente che ha attorno al collo per mantenere la testa fuori dall'acqua mentre controlla i paraggi.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

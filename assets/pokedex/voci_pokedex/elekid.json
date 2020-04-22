@@ -2,67 +2,67 @@
   {
     "voce": "Genera elettricità ruotando le braccia, ma non fa mai una ricarica completa perché si stanca presto.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "Verde Foglia"
+      "oro",
+      "heartgold",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Anche nelle più impetuose tempeste questo POKéMON gioca allegramente se ode il rombo di un tuono in cielo.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Ama i violenti tuoni. Quando carica energia, lo spazio tra le corna si colora di blu biancastro.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "ELEKID immagazzina elettricità nel corpo. Se, a contatto col metallo, scarica accidentalmente l'elettricità accumulata, inizia a far oscillare gli arti superiori con movimenti circolari per ricaricarsi.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Se, a contatto col metallo, ELEKID scarica accidentalmente l'elettricità immagazzinata nel corpo, si ricarica con movimenti circolari degli arti superiori.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Anche durante le tempeste più impetuose questo POKéMON gioca allegramente se ode il rombo di un tuono in cielo.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Genera elettricità roteando le braccia. Tuttavia, non riesce ad immagazzinare l'energia creata.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "X"
+      "diamante",
+      "perla",
+      "x"
     ]
   },
   {
     "voce": "Una debole corrente elettrica scorre tra le sue corna. Chi vi passa una mano rimane fulminato.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Quando rotea le braccia per produrre elettricità, le sue corna si illuminano.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

@@ -2,24 +2,24 @@
   {
     "voce": "Il suo intero corpo è un'arma da taglio. Se le lame si smussano lottando, le affila con pietre di fiume.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Lotta agli ordini di Bisharp. Si avvinghia alla preda e la attacca con le lame.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Incuranti di ferirsi, si lanciano in gruppo addosso alla preda infilzandola con le lame che hanno sul corpo.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

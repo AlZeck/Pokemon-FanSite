@@ -2,49 +2,49 @@
   {
     "voce": "La leggenda racconta che JIRACHI realizza ogni desiderio scritto su bigliettini che trova attaccati alla propria testa, quando si sveglia. In caso di pericolo, lotta senza mai svegliarsi.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "JIRACHI può essere destato dal suo sonno millenario cantando con una voce pura e cristallina. Riesce a realizzare ogni desiderio espresso dalle persone.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si dice che JIRACHI possa realizzare qualsiasi desiderio. Mentre dorme, protegge il suo corpo all'interno di un duro guscio cristallino.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si dice che possa esaudire qualsiasi desiderio. È sveglio solo per sette giorni ogni mille anni.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Ha l’abilità di realizzare ogni desiderio, ma soltanto per una settimana ogni 1000 anni.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "Da sempre si dice che al risveglio realizzi i desideri scritti sulle striscioline attaccate in testa.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X"
+      "heartgold",
+      "soulsilver",
+      "x"
     ]
   }
 ]

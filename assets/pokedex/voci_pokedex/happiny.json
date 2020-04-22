@@ -2,39 +2,39 @@
   {
     "voce": "Ama gli oggetti bianchi e tondi. Imita CHANSEY trasportando una roccia a forma di uovo.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Trasporta una roccia a forma di uovo nella sua tasca ventrale e poi la offre ai suoi amici.",
     "giochi": [
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Gli piace trasportare una piccola roccia. A volte cammina tra i piedi degli altri, facendoli inciampare.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Pokémon a forma di ricciolo, che trasporta con cura un sasso bianco e tondo trattandolo come un uovo.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Trasporta con cura un sasso bianco e tondo trattandolo come un uovo. Adora il ricciolo che ha in testa.",
     "giochi": [
-      "Y",
-      "Zaffiro Alpha"
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

@@ -2,24 +2,24 @@
   {
     "voce": "Serra l'avversario con l'arto sinistro e gli dà il colpo di grazia esalando dalla bocca un fetido gas velenoso.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Assorbe la spazzatura e la ingloba nel suo corpo. Spruzza veleno dalle estremità dell'arto destro.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Assorbe la spazzatura nel suo corpo per creare dei liquidi velenosi e dei gas tossici sempre nuovi.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

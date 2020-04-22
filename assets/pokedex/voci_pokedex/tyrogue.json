@@ -2,62 +2,62 @@
   {
     "voce": "È sempre traboccante di energia. Per rinforzarsi continua a combattere anche dopo aver perso.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "È piccolo, ma non passa inosservato, perché colpisce senza preavviso qualsiasi oggetto nelle vicinanze.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco"
+      "argento",
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Sfida chiunque per mettere alla prova le sua abilità nella lotta. Ha un forte spirito agonistico.",
     "giochi": [
-      "Cristallo",
-      "Y"
+      "cristallo",
+      "y"
     ]
   },
   {
     "voce": "TYROGUE ha bisogno di allenarsi ogni giorno per scaricare la sua energia. Gli ALLENATORI che lo allevano devono stabilire e praticare diverse metodologie di allenamento.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "TYROGUE ha bisogno di allenarsi ogni giorno per scaricare la sua energia. Chi lo alleva deve stabilire allenamenti metodici e regolari.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "È famoso per la sua brama di lotta. Subisce sempre ferite dai nemici più forti di lui che sfida.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Pur essendo piccolo, non passa inosservato: colpisce senza preavviso qualsiasi oggetto nelle vicinanze.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   },
   {
     "voce": "È famoso per la sua brama di lotta. Quando sfida nemici più forti di lui, subisce sempre ferite.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

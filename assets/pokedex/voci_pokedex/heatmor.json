@@ -2,24 +2,24 @@
   {
     "voce": "Attizza la fiamma all'interno del corpo aspirando l'aria da un foro nella coda. I Durant sono le sue prede.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Con la sua lingua infuocata scioglie la corazza d'acciaio di Durant e ne consuma l'interno.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Converte l'aria che aspira dalla coda in una lingua di fiamme che usa per sciogliere i Durant prima di consumarli.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

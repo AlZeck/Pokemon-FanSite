@@ -2,24 +2,24 @@
   {
     "voce": "Vive nella sabbia del deserto che, scaldata dal sole, impedisce alla sua temperatura corporea di scendere.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si nasconde sotto la sabbia e si sposta cacciando fuori gli occhi e il naso. Una membrana nera gli protegge gli occhi.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Vive nascosto tra le calde sabbie del deserto per evitare che la temperatura del suo corpo diminuisca.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

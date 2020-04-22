@@ -2,29 +2,29 @@
   {
     "voce": "Congela i nemici con un alito glaciale a -50°C. Il suo corpo è vuoto.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Congela le prede con un alito glaciale a -50 °C. Si dice che poi le metta segretamente in mostra.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Qua e là corre ancora voce che FROSLASS fosse in origine una donna dispersa in montagna tra la neve.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "soulsilver",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

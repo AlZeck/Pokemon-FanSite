@@ -2,24 +2,24 @@
   {
     "voce": "Quando la sua energia è al massimo, i cristalli arancioni si illuminano. Cerca l'acqua nelle grotte sotterranee.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "L’energia sovrabbondante cerca sfogo all'esterno del corpo e si solidifica formando cristalli di colore arancione.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Se è in forma, il suo nucleo è visibile. Si sposta rapidamente nelle quattro direzioni senza cambiare orientamento.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

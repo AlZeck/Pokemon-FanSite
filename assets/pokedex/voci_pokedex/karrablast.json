@@ -2,24 +2,24 @@
   {
     "voce": "Pokémon misterioso che si evolve ricevendo uno stimolo elettrico, se si trova in presenza di Shelmet.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Se avverte un pericolo respinge il nemico spruzzando un liquido acido dalla bocca. Prende di mira Shelmet.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Per qualche motivo, si evolve a contatto dell'energia elettrica che si crea quando attacca Shelmet.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

@@ -2,24 +2,24 @@
   {
     "voce": "Avanza sotto terra a una velocità di oltre 50 km/h. Una bella sfida anche per un'auto che corre in superficie.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Sfreccia a gran velocità sotto terra, avvitandosi su se stesso, mentre si apre un passaggio scavando con le unghie.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Quando gira su se stesso, scava la terra scendendo in verticale alla velocità di 50 km/h.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

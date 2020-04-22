@@ -2,85 +2,85 @@
   {
     "voce": "Con i suoi muscoli poderosi, sferra pugni tali da poter lanciare la vittima oltre l'orizzonte.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Può muovere una montagna con un solo braccio. La forza di tutte e quattro è inimmaginabile.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Agita velocemente le quattro braccia scuotendo gli avversari con pugni e colpi da ogni direzione.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Con le sue quattro potenti braccia afferra gli arti del nemico, per poi lanciarlo lontano.",
     "giochi": [
-      "Argento",
-      "SoulSilver",
-      "Y"
+      "argento",
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "Le quattro braccia sono più rapide del suo pensiero. Può assestare vari pugni nello stesso momento.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "MACHAMP è dotato di una forza tale da riuscire a scagliare lontano ogni cosa. Le sue braccia sono troppo possenti per riuscire a eseguire qualsiasi lavoro che richieda attenzione e destrezza. Tende ad agire prima di pensare.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "MACHAMP è noto per la sua maestria nella pratica di tutte le arti marziali. Se afferra il nemico con le sue quattro braccia possenti, la lotta è già decisa. Lo sventurato avversario verrà infatti scagliato ben oltre l'orizzonte.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "È impossibile difendersi dai pugni e colpi inflitti dalle quattro braccia di MACHAMP. Il suo spirito di combattente si infiamma quando lotta contro avversari possenti.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Le braccia eccezionalmente sviluppate sono in grado di assestare 1.000 pugni in soli due secondi.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Tira pugni con le quattro braccia ad una velocità impressionante. Scaglia 1000 pugni ogni 2 secondi.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Con un pugno può scaraventare in aria un treno. Ma è maldestro nei lavori manuali di precisione.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Grazie alle sue quattro muscolose braccia tira pugni e colpi a una velocità impressionante.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

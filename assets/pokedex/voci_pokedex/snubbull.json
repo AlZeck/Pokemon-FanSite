@@ -2,52 +2,52 @@
   {
     "voce": "Nonostante l'aspetto spaventoso è in realtà caro e affettuoso. È molto popolare tra le donne.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold"
+      "oro",
+      "verde_foglia",
+      "heartgold"
     ]
   },
   {
     "voce": "Ha uno spirito attivo e giocoso. A molti piace giocherellare con lui per i suoi modi affettuosi.",
     "giochi": [
-      "Argento",
-      "SoulSilver",
-      "X"
+      "argento",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Ringhia spavaldo per nascondere la paura verso il nemico, ma in realtà è piuttosto codardo.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Mostrando le zanne e ringhiando furiosamente, SNUBBULL terrorizza i POKéMON più piccoli mettendoli in fuga. Tuttavia, pare intristirsi ogni volta che il nemico scappa atterrito.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Ha uno spirito attivo e giocoso. Per i suoi modi affettuosi, è apprezzato soprattutto dalle donne.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "I Pokémon più piccoli fuggono alla vista della sua faccia terrificante. Ma le donne lo trovano carino.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

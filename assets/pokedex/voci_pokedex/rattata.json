@@ -2,80 +2,80 @@
   {
     "voce": "Quando attacca morde tutto. Piccolo e veloce si vede comunemente in molti luoghi.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Con le sue zanne rode qualsiasi cosa. Vive in colonie numerose con più di 40 esemplari.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Mangia qualsiasi cosa. Si sistema ovunque ci sia del cibo, moltiplicandosi ininterrottamente.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Vive ovunque si trovi del cibo, cercando per tutto il giorno qualsiasi cosa di cui cibarsi.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "Molto attivo, è in grado di vivere ovunque. Inoltre, si riproduce con estrema rapidità.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "RATTATA è estremamente cauto. Anche quando dorme tiene sempre le orecchie tese, muovendole come sonde. Non ha particolari esigenze di habitat: costruisce il proprio nido ovunque.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "RATTATA è estremamente cauto. Anche nel sonno muove le orecchie come sonde per captare i pericoli. Costruisce il suo nido ovunque.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "I denti affilati gli continuano a crescere, costringendolo a limarseli mordicchiando oggetti molto duri.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Un'incredibile vitalità gli permette di adattarsi a qualsiasi tipo di habitat. È estremamente cauto.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Vive ovunque si trovi del cibo, cercando incessantemente qualsiasi cosa sia commestibile.",
     "giochi": [
-      "SoulSilver",
-      "X"
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Passa le giornate in cerca di cibo. Le sue zanne crescono in continuazione e per limarle mordicchia cose dure.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

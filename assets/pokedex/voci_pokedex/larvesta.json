@@ -2,24 +2,24 @@
   {
     "voce": "Si crede sia un Pokémon nato dal sole. Quando si evolve, il suo corpo è avvolto interamente dalle fiamme.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Vive ai piedi dei vulcani. Se attaccato, mette in fuga il nemico lanciando fiamme dai suoi cinque corni.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si dice che sia nato dal sole. Prima di evolversi, avvolge tutto il suo corpo nelle fiamme emesse dai corni.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

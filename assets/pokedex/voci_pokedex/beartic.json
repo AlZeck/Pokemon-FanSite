@@ -2,24 +2,24 @@
   {
     "voce": "Ha la facoltà di congelare il suo fiato. È un buon nuotatore e vaga nei mari del nord in cerca di prede.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Lotta usando zanne o artigli creati congelando il suo stesso respiro. Vive nelle fredde regioni del nord.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Predilige i mari freddi del nord. Crea strade di ghiaccio soffiando con il suo alito gelido sulla superficie del mare.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

@@ -2,72 +2,72 @@
   {
     "voce": "Odia la luce e gli shock. Se è attaccato, gonfia il corpo per preparare il contrattacco.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Se ne sta sempre tranquillo al buio per nascondere la coda nera come la pece. Non attacca mai per primo.",
     "giochi": [
-      "Argento",
-      "SoulSilver",
-      "Y"
+      "argento",
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "Vive in grotte buie per nascondere la coda nera, uscendo all'aperto soltanto di notte.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Quando due o più WOBBUFFET si incontrano, diventano competitivi tentando di vanificare la reciproca resistenza. Talvolta fanno anche a gara per vedere chi resiste di più senza cibo. Gli ALLENATORI devono fare attenzione.",
     "giochi": [
-      "Rubino"
+      "rubino"
     ]
   },
   {
     "voce": "WOBBUFFET non fa altro che subire le azioni nemiche: non agisce mai per primo. Tuttavia, non sopporta di essere attaccato alla coda. In questo caso cerca di trascinare con sé il nemico usando DESTINOBBLIGATO.",
     "giochi": [
-      "Zaffiro"
+      "zaffiro"
     ]
   },
   {
     "voce": "Solitamente docile, WOBBUFFET può reagire con violenza se qualcuno attacca la sua coda nera. Attende la notte nella sua tana all'interno di una grotta.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Vive rintanato nell'oscurità per nascondere la coda nera come la pece. Non attacca mai per primo.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Cerca di tenere nascosta la sua coda nera ad ogni costo. Pare che essa celi un segreto.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Quando due o più Wobbuffet si incontrano, diventano competitivi tentando di vanificare la reciproca resistenza. Talvolta fanno anche a gara per vedere chi resiste di più senza cibo. Gli Allenatori devono fare attenzione.",
     "giochi": [
-      "Rubino Omega"
+      "rubino_omega"
     ]
   },
   {
     "voce": "Wobbuffet non fa altro che subire le azioni nemiche: non agisce mai per primo. Tuttavia non sopporta di essere attaccato alla coda. In questo caso cerca di trascinare con se il nemico usando Destinobbligato.",
     "giochi": [
-      "Zaffiro Alpha"
+      "zaffiro_alpha"
     ]
   }
 ]

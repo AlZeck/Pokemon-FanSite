@@ -2,24 +2,24 @@
   {
     "voce": "Pokémon di cui si parla nei miti. Può incenerire qualsiasi cosa, soffiando fiamme dalla coda.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Quando la sua coda brucia, il calore prodotto smuove l'aria provocando cambiamenti climatici in tutto il globo.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Questo Pokémon leggendario può rendere il mondo un inferno di fiamme. Aiuta chi vuole costruire un mondo di verità.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

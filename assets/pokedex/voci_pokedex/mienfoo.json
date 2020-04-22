@@ -2,24 +2,24 @@
   {
     "voce": "Soggioga il nemico concatenando una serie incessante di attacchi e lo affetta con le unghie affilate.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Sa fare eleganti combinazioni di mosse. Se si concentra, aumenta l'efficacia e la velocità dei suoi attacchi.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Va fiero della rapidità delle sue mosse. Sopperisce a una eventuale mancanza di potenza con il numero di colpi.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

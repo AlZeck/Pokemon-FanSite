@@ -2,49 +2,49 @@
   {
     "voce": "L'esistenza di HUNTAIL è rimasta a lungo sconosciuta perché vive solo in mare ad incredibili profondità. La sua vista così acuta riesce a vedere chiaramente persino nel buio pesto degli abissi oceanici.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "La coda di HUNTAIL è a forma di pesce. Il POKéMON la usa come esca per la preda, che poi ingoia intera con l'enorme bocca spalancata. Nuota ondeggiando il corpo snello a forma di serpente.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Grazie alla spina dorsale spessa e robusta, HUNTAIL può resistere alla pressione degli abissi. La sua coda a forma di piccolo pesce ha degli occhi che si illuminano.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Vive in mare a grandi profondità, dove non filtra nessuna luce. Attira le prede illuminando la codina a forma di pesce.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "X"
+      "rosso_fuoco",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Vive nei mari profondi. Con la coda a forma di pesciolino attrae prede ignare del pericolo.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "Vive nelle buie profondità marine. Attira le prede muovendo la coda a guisa di essere vivente.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

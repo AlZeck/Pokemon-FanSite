@@ -2,24 +2,24 @@
   {
     "voce": "Quando la fiamma interna arde intensa, diventa più rapido e scattante. Nei momenti critici esala fumo.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Usa ciò che divora come combustibile per produrre fiamme nello stomaco. Quando si arrabbia, le fiamme aumentano.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Più mangia e più le fiamme che bruciano nel suo stomaco si rinvigoriscono, aumentando così il suo potere.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

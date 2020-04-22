@@ -2,85 +2,85 @@
   {
     "voce": "Gli si allunga la lingua come a un camaleonte. Le sue leccate provocano prurito e irritazioni.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "La sua lingua lunga circa un metro si muove velocissima. Se colpisce paralizza l'avversario.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "La sua lingua ha nervi ben sviluppati che vanno fino alla punta, ed è quindi facilmente governabile.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "La lunga lingua intrisa di saliva appiccicosa si attacca ovunque e perciò è molto utile.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "Usa la lingua lunga 2 metri per leccarsi il corpo fino a renderlo perfettamente pulito.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Quando LICKITUNG si trova di fronte a qualcosa di nuovo, istintivamente lo assaggia con una leccata. È dotato infatti di una memoria legata al gusto e alla consistenza degli oggetti. Non ama i sapori aspri.",
     "giochi": [
-      "Rubino",
-      "Zaffiro"
+      "rubino",
+      "zaffiro"
     ]
   },
   {
     "voce": "La memoria di LICKITUNG è legata al gusto e alla consistenza degli oggetti. Pertanto, se vede una cosa nuova, la lecca istintivamente. Non ama i sapori aspri.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "La sua lingua è lunga il doppio del corpo. La usa come un braccio per afferrare cibo e attaccare.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Al posto delle mani usa la sua lingua appiccicosa, lunga il doppio di lui. Con essa afferra qualsiasi cosa.",
     "giochi": [
-      "Diamante",
-      "Perla"
+      "diamante",
+      "perla"
     ]
   },
   {
     "voce": "Quando estende la sua lingua, lunga quasi due metri, gli trema la coda. È possibile che siano collegate.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "La lunga lingua intrisa di saliva appiccicosa si attacca agli oggetti e può diventare molto utile.",
     "giochi": [
-      "SoulSilver",
-      "X"
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Quando Lickitung si trova di fronte a qualcosa di nuovo, istintivamente lo assaggia con una leccata. È dotato infatti di una memoria legata al gusto e alla consistenza degli oggetti. Non ama i sapori aspri.",
     "giochi": [
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   }
 ]

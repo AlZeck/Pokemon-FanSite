@@ -2,85 +2,85 @@
   {
     "voce": "Protetto da una pelle-armatura, può vivere in lava liquida a 2.000 gradi.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "X"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Molto intelligente cammina in posizione eretta. La sua corazza può resistere anche alla lava fusa.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "La sua pelle dura lo protegge anche dalla lava. La sua pelle però lo rende anche insensibile.",
     "giochi": [
-      "Oro"
+      "oro"
     ]
   },
   {
     "voce": "Il cervello si è sviluppato da quando si muove sulle zampe posteriori. La pelle lo difende dal magma.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Facendo ruotare leggermente il corno simile ad un trapano è in grado di frantumare un diamante grezzo.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Il corno di RHYDON riesce a fracassare anche un diamante grezzo. Un colpo della sua coda abbatte un edificio. La pelle-armatura di questo POKéMON è così coriacea da essere immune anche alle cannonate.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "RHYDON è dotato di un corno che usa a mo' di trapano. Serve a distruggere rocce e massi. Talvolta questo POKéMON s'imbatte in rivoli di magma, ma la sua pelle-armatura lo protegge dall'eccessivo calore.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "RHYDON fa ruotare il suo corno a mo' di trapano e con esso è in grado di abbattere un palazzo. Cammina sulle zampe posteriori e il suo cervello è ben sviluppato.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Dopo l'evoluzione inizia a muoversi sulle zampe posteriori. Con il corno può perforare la roccia.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Si è alzato sulle zampe posteriori e poi gli si è sviluppato il cervello. Con il corno perfora la roccia.",
     "giochi": [
-      "Diamante",
-      "Perla"
+      "diamante",
+      "perla"
     ]
   },
   {
     "voce": "Alzandosi sulle zampe posteriori, è diventato più sagace. Tuttavia, è molto smemorato.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "La sua pelle dura lo protegge persino dalla lava, però lo rende anche insensibile.",
     "giochi": [
-      "HeartGold"
+      "heartgold"
     ]
   }
 ]

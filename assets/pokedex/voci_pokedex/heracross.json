@@ -2,72 +2,72 @@
   {
     "voce": "Questo potente POKéMON infilza con il corno la pancia del nemico, sollevandolo e tirandolo lontano.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "È pacifico, ma se lo si disturba mentre gusta il miele scaccia l'intruso con il suo corno.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver"
     ]
   },
   {
     "voce": "La forza erculea gli permette di lanciare oggetti 100 volte più pesanti di lui.",
     "giochi": [
-      "Cristallo",
-      "Y"
+      "cristallo",
+      "y"
     ]
   },
   {
     "voce": "HERACROSS si lancia all'attacco dritto contro il nemico, lo afferra con forza, lo solleva in aria e poi lo incorna violentemente scagliandolo lontano. Riesce ad abbattere un grosso albero.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "HERACROSS è dotato di artigli affilati sulle zampe inferiori, che conficca nel terreno o nella corteccia degli alberi per guadagnare stabilità mentre incorna violentemente i nemici e li scaglia lontano.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "HERACROSS è ghiotto della dolce linfa degli alberi, che trova nelle foreste. È rivestito da una corazza dura come l'acciaio e usa il corno per scagliare lontano i nemici.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si aggira nelle foreste in cerca di linfa, di cui è ghiotto. È tanto forte da scagliare lontano i nemici.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Grazie alle zampe poderose e agli artigli, riesce a scaraventare lontanissimo qualsiasi nemico.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "È ghiotto di miele e per non farselo rubare usa il suo possente corno per scagliare lontano i nemici.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Vanta un corno possente con il quale scaglia l'avversario a grande distanza, qualunque sia il suo peso.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

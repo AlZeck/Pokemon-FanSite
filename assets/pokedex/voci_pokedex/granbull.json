@@ -2,62 +2,62 @@
   {
     "voce": "È timido e facile da spaventare. Se è attaccato, inizia ad agitarsi per tenere lontano il nemico.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold"
+      "oro",
+      "verde_foglia",
+      "heartgold"
     ]
   },
   {
     "voce": "Sta sempre con il capo piegato in avanti, perché ha i denti troppo pesanti. Il suo MORSO è potente.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco"
+      "argento",
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Se spalanca la bocca mostrando i grandi denti, quasi tutti i POKéMON fuggono spaventati.",
     "giochi": [
-      "Cristallo",
-      "Y"
+      "cristallo",
+      "y"
     ]
   },
   {
     "voce": "GRANBULL è dotato di una mascella inferiore particolarmente sviluppata. A causa delle enormi e pesanti zanne deve inclinare la testa per mantenersi in equilibrio. Se non è spaventato, non morde in modo inconsulto.",
     "giochi": [
-      "Rubino",
-      "Zaffiro"
+      "rubino",
+      "zaffiro"
     ]
   },
   {
     "voce": "GRANBULL è dotato di una mascella inferiore molto sviluppata. A causa delle enormi zanne, inclina la testa per stare in equilibrio. Morde solo se viene spaventato.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Malgrado il suo aspetto, è molto timido. Se si arrabbia, tuttavia, colpisce con le sue enormi zanne.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "x"
     ]
   },
   {
     "voce": "Sta sempre con il capo piegato in avanti, perché ha le zanne troppo pesanti. Il suo morso è potente.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   },
   {
     "voce": "Granbull è dotato di una mascella inferiore particolarmente sviluppata. A causa delle enormi e pesanti zanne deve inclinare la testa per mantenersi in equilibrio. Se non è spaventato, non morde in modo inconsulto.",
     "giochi": [
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   }
 ]

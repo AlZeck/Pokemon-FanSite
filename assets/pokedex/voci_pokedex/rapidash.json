@@ -2,75 +2,75 @@
   {
     "voce": "POKéMON molto competitivo rincorre tutto ciò che si muove veloce, sperando di superarlo.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "X"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Questo POKéMON è veloce come una saetta. Insegue con foga tutto ciò che si muove rapidamente.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Quando è lanciato al galoppo corre così velocemente che le sue zampe quasi non toccano terra.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Ha un'incredibile accelerazione: raggiunge la sua massima velocità (240 km/h) in soli dieci passi.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Il galoppo è la sua grande passione. Più accelera, più crescono le fiamme della criniera.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "RAPIDASH si vede comunemente galoppare in campagne e pianure. Quando si lancia a tutta velocità la sua fiera criniera brilla e arde mentre galoppa fino a 240 km/h.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Raggiunge la velocità di 240 km/h. Quando è in fiamme può competere con un treno superveloce.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Galoppa alla velocità di 240 km/h. Corre come una freccia facendo ondeggiare la criniera ardente.",
     "giochi": [
-      "Diamante",
-      "Y"
+      "diamante",
+      "y"
     ]
   },
   {
     "voce": "Ha un'accelerazione sbalorditiva. Da fermo raggiunge la velocità massima in 10 balzi.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Quando galoppa, la sua criniera ardente brilla, rendendo il suo aspetto ancora più straordinario.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

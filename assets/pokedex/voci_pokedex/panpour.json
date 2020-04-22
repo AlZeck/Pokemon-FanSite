@@ -2,24 +2,24 @@
   {
     "voce": "L'acqua accumulata nel ciuffo è ricca di nutrimento e fa crescere rigogliose le piante che ne vengono annaffiate.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Risente degli ambienti molto asciutti. Per tenersi umido, sparge dalla coda l'acqua contenuta nel ciuffo sulla testa.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "L'acqua contenuta nel suo ciuffo è ricca di nutrienti e la usa per annaffiare le piante con la coda.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

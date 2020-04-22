@@ -2,62 +2,62 @@
   {
     "voce": "Se lo si scopre, questo POKéMON fugge all'indietro scavando furiosamente nel terreno con la coda.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Se lo scoprono, fugge scavando con la coda. Le ali non gli permettono che piccoli voli.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco"
+      "argento",
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "Si nasconde nel fondo delle grotte, dove non giunge neppure un raggio di luce, e rimane immobile.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "DUNSPARCE ha un trapano al posto della coda, che usa per scavare a ritroso nel terreno. È noto per la complessa forma delle tane che crea sottoterra in profondità.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "DUNSPARCE ha una coda a forma di trapano, che usa per scavare a ritroso nel terreno. È noto per la complessa forma delle tane che crea in profondità.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Scava nel terreno con la coda creando una tana simile a un labirinto. Sa spiccare brevissimi voli.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "y"
     ]
   },
   {
     "voce": "Se viene scoperto, fugge scavando con la coda. Le ali non gli permettono che brevi voli.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   },
   {
     "voce": "Costruisce labirinti in luoghi bui. Se qualcuno lo vede, si dà alla fuga scavando il terreno con la coda.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

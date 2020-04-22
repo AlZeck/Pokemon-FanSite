@@ -2,24 +2,24 @@
   {
     "voce": "Controlla gruppi di Pawniard. Lotta spietatamente per il comando, ma se perde deve abbandonare il gruppo.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Accompagnato da molti Pawniard, blocca le prede grazie alla forza del gruppo. È Bisharp a dare il colpo di grazia.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "È molto crudele. Lascia che un gruppo di Pawniard attacchi la preda e, quando è ferita e non può più muoversi, la finisce.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

@@ -2,24 +2,24 @@
   {
     "voce": "Comprime l'energia nel suo nucleo interno per poi spararla con una potenza che può spazzare via anche le montagne.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Amplifica l'energia dei raggi solari che assorbe tramite i cristalli arancioni del suo corpo e poi la spara dalla bocca.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Assorbe i raggi solari e, grazie al suo nucleo energetico, li trasforma in palle di luce che poi spara.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

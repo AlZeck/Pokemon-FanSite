@@ -2,34 +2,34 @@
   {
     "voce": "Forma delle palle di pelo cariche elettrostaticamente e le conserva negli alberi insieme alle bacche.",
     "giochi": [
-      "Diamante",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Nelle sacche sulle guance si forma elettricità, che rilascia poi dalla coda. Vive in cima agli alberi.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Talvolta due esemplari si sfregano le guance per condividere l'elettricità immagazzinata.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Nelle sacche sulle sue guance si forma elettricità, che la coda poi rilascia.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

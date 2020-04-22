@@ -2,80 +2,80 @@
   {
     "voce": "Il suo corpo arde con bagliori arancio che gli consentono una mimesi perfetta tra le fiamme.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Nato in un vulcano attivo il suo corpo è coperto di fiamme tanto da sembrare una palla di fuoco.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Odiando i luoghi freddi, li bruciacchia sputando fiamme che li rendono più adatti ai suoi gusti.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "La superficie ardente del corpo emana una luce irregolare e violenta, simile a quella solare.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Predilige i luoghi caldi. È solito immergere le ferite nella lava per curarsi.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "In lotta, MAGMAR sputa fiamme roventi da tutto il corpo per intimidire l'avversario. La sua furia irruente provoca ondate di calore che bruciano tutta la vegetazione attorno a lui.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "In lotta, MAGMAR sputa fiamme roventi da tutto il corpo per intimidire l'avversario. La sua furia provoca ondate di calore che bruciano la vegetazione circostante.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "È stato trovato presso il cratere di un vulcano. La sua temperatura corporea si aggira sui 1.200 ºC.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "È nato dallo zampillo di un vulcano. Ha il corpo ricoperto da fiamme che brillano come i raggi solari.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Y"
+      "diamante",
+      "perla",
+      "y"
     ]
   },
   {
     "voce": "Le ondate di calore che emette quando respira profondamente offuscano la visuale.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Emette fiamme così incandescenti che l'aria circostante si scalda e i contorni della sua figura si sfumano.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

@@ -2,54 +2,54 @@
   {
     "voce": "NUMEL è estremamente tardo, tanto da non notare di essere attaccato. Tuttavia, non sa resistere alla fame per più di un secondo. Il suo corpo è un calderone bollente di magma liquido.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "NUMEL accumula magma ad una temperatura di 1.200 gradi centigradi all'interno del proprio corpo. Se si bagna, il magma si raffredda e si solidifica. Se si appesantisce diventa goffo nei movimenti.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "NUMEL accumula magma bollente nella gobba. Utilizzato da sempre dall'uomo per lavori pesanti in virtù della sua forza, il POKéMON può trasportare carichi di un quintale.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Il magma nel suo corpo sfiora i 1.200 ºC. Se si raffredda, si indurisce, facendo rallentare il POKéMON.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Nella gobba accumula magma. Quando piove, il magma si indurisce e il Pokémon diventa più lento.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "x"
     ]
   },
   {
     "voce": "Con l'energia rilasciata dal magma che ribolle dentro la sua gobba, sprigiona una forza straordinaria.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Nel suo corpo accumula magma che ribolle a 1200°C. Dopo aver usato una mossa di tipo Fuoco, la sua gobba si restringe.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

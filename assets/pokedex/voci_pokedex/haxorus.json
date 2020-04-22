@@ -2,24 +2,24 @@
   {
     "voce": "Ha un carattere gentile, ma non perdona chi devasta il suo territorio. Le sue zanne possono tagliare l'acciaio.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Ha forti zanne che non si spezzano neanche quando trancia travi d'acciaio. È protetto da una resistente armatura.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "La forza distruttiva delle sue zanne non ha paragoni. Trancia con estrema facilità anche spesse travi d'acciaio.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

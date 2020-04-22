@@ -2,85 +2,85 @@
   {
     "voce": "Capace di nuotare indietro agitando rapidamente le pinne pettorali ad ala e la sua robusta coda.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Il contatto con la sua pinna posteriore causa stordimento. Dorme attaccato a qualche corallo.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Un esame delle sue cellule ha rivelato la presenza di un gene assente in HORSEA. Se ne è parlato molto.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Dalle punte delle pinne cola veleno. Le pinne e le ossa sono ingredienti molto apprezzati in erboristeria.",
     "giochi": [
-      "Argento"
+      "argento"
     ]
   },
   {
     "voce": "Il maschio si occupa dei piccoli. Se sono minacciati, li difende con le punte velenose.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Seadra dorme dopo essersi sistemato tra i rami di un corallo. I cercatori di corallo spesso rischiano di essere punti dai suoi aculei velenosi se non si accorgono della sua presenza.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Roteando turbinosamente, Seadra genera vortici così forti da riuscire a inghiottire persino un peschereccio. In questo modo il POKéMON indebolisce le prede e poi le inghiotte intere.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Gli aculei velenosi che ricoprono il corpo di Seadra sono usati in erboristeria per la produzione di medicinali. S'infuria molto se qualcuno si avvicina al suo rifugio.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Ha il corpo ispido di aculei pungenti. Un contatto fortuito può causare uno svenimento.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Si difende con gli aculei. Pinne e ossa sono comunemente usati nella medicina tradizionale.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Dalle punte delle pinne cola veleno. Le pinne e le ossa sono rimedi naturali molto apprezzati.",
     "giochi": [
-      "SoulSilver"
+      "soulsilver"
     ]
   },
   {
     "voce": "È capace di nuotare all'indietro agitando rapidamente le pinne pettorali e la robusta coda.",
     "giochi": [
-      "Y"
+      "y"
     ]
   }
 ]

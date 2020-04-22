@@ -2,47 +2,47 @@
   {
     "voce": "Quando è davvero arrabbiato diventa così caldo che qualsiasi cosa tocchi va subito a fuoco.",
     "giochi": [
-      "Oro",
-      "Verde Foglia",
-      "HeartGold",
-      "X"
+      "oro",
+      "verde_foglia",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Ha una devastante mossa segreta. Può sfregare la pelliccia infuocata causando forti esplosioni.",
     "giochi": [
-      "Argento",
-      "Rosso Fuoco",
-      "SoulSilver",
-      "Y"
+      "argento",
+      "rosso_fuoco",
+      "soulsilver",
+      "y"
     ]
   },
   {
     "voce": "Quando il calore del suo corpo è così forte da far scintillare l'aria intorno, è pronto per lottare.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "TYPHLOSION si nasconde avvolto da una lucente nube di calore creata dalle sue fiamme roventi. Questo POKéMON crea esplosioni spettacolari che riducono in cenere ogni cosa.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Attacca usando fiamme esplosive. Si cela in una scintillante nube di calore creata dalle fiamme roventi.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

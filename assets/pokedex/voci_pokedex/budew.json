@@ -2,39 +2,39 @@
   {
     "voce": "D'inverno chiude la sua gemma e resiste al freddo. In primavera la gemma si riapre e rilascia polline.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Vive sulle rive di stagni puliti. Il suo polline fa starnutire e colare il naso.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "La sua gemma, sensibile agli sbalzi di temperatura, si schiude quando avverte i caldi raggi del sole.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "I raggi del sole gli fanno schiudere la gemma e rilasciare polline. Fa la tana vicino a bei corsi d'acqua.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "È sensibile agli sbalzi di temperatura. Quando fa caldo la sua gemma si schiude liberando nell'aria un polline velenoso.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

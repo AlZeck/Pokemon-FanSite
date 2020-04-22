@@ -2,24 +2,24 @@
   {
     "voce": "Produce all'interno del suo corpo una potente e gelida energia. Ma l'aria fredda che esala lo ha congelato.",
     "giochi": [
-      "Nero",
-      "Y",
-      "Zaffiro Alpha"
+      "nero",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Ha il potere di generare un freddo glaciale, ma ha finito per congelare il suo stesso corpo.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Questo leggendario Pokémon dei ghiacci attende l'eroe che gli restituirà le sue vere sembianze con gli ideali o la verità.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

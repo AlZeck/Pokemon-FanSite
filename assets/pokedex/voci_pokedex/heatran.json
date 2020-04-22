@@ -2,29 +2,29 @@
   {
     "voce": "Vive nelle cavità dei vulcani. Scava con i suoi piedi a croce per scalare pareti e arrampicarsi sui soffitti.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Il suo corpo è fatto d’acciaio. Tuttavia, in alcune parti è sciolto a causa del suo stesso calore.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Nel suo corpo scorre sangue che ribolle come magma. Vive in antri all'interno di vulcani.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "soulsilver",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

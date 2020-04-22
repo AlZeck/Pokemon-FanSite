@@ -2,70 +2,70 @@
   {
     "voce": "Le sue chele, potenti armi, lo mantengono in equilibrio quando cammina lateralmente.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Le sue chele sono armi formidabili. Se si rompono durante la lotta ricrescono immediatamente.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Se si sente in pericolo, si circonda di bolle che produce con la bocca per sembrare più grande.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "X"
+      "oro",
+      "heartgold",
+      "x"
     ]
   },
   {
     "voce": "Le chele si rompono facilmente. Se ne perde una diventa incapace di camminare lateralmente.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Se non può trovare del cibo, ingoia un po' di sabbia per assorbirne le sostanze nutritive.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "KRABBY vive in spiaggia, nascosto in buche scavate nella sabbia. Sulle spiagge molto sabbiose, dove scarseggia il cibo, è possibile vedere questi POKéMON attaccarsi a vicenda in difesa del proprio territorio.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "KRABBY vive in buche scavate nella sabbia. Sulle spiagge dove il cibo scarseggia, questo POKéMON difende il proprio territorio attaccando i suoi simili.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Si trova vicino al mare. Le grandi chele, se asportate, ricrescono.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Vive in buche scavate sulle spiagge sabbiose. Le sue chele ricrescono se si spezzano nella lotta.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

@@ -2,75 +2,75 @@
   {
     "voce": "Uccello incapace di volare, ma eccellente corridore. Lascia orme enormi.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Le cortissime ali non gli permettono di volare. Può tuttavia correre velocissimo sulle zampe sviluppate.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Alzando e abbassando le 2 teste alternativamente, si rende più stabile durante la corsa.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Corre a grandi balzi per le praterie, lasciando orme che arrivano fino a 10 cm di profondità.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Vive in praterie, dove può vedere fino a grandi distanze. Se scorge un nemico fugge a 100 km/h.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Le due teste di DODUO non dormono mai nello stesso momento, in modo che una sia sempre vigile per difendersi dai nemici, mentre l'altra può riposare tranquilla.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Le due teste di DODUO contengono lo stesso identico cervello. Secondo uno studio scientifico sono stati riportati rari casi di POKéMON con cervelli diversi.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Anche mentre mangia o dorme, una delle due teste di DODUO rimane sempre vigile per controllare che non ci siano pericoli. Se si spaventa, può correre a oltre 100 km/h.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "POKéMON a due teste, scoperto a seguito di un'improvvisa mutazione. Può correre a 100 km/h.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "I suoi due cervelli si comunicano le emozioni grazie ai poteri telepatici.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

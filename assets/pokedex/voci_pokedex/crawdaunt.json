@@ -2,54 +2,54 @@
   {
     "voce": "CRAWDAUNT, dalla natura estremamente violenta, sfida sempre in lotta gli altri esseri viventi, che per questo motivo abbandonano i laghi abitati da questo POKéMON, lasciandoli deserti e desolati.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "CRAWDAUNT muta regolarmente la corazza. Subito dopo la muta, la nuova corazza è tenera e delicata. Finché non si è indurita totalmente, il POKéMON vive nascosto nella sua tana sott'acqua per evitare attacchi.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "POKéMON violento che ama la lotta, CRAWDAUNT possiede due chele affilate ricoperte di cicatrici se si tratta di un esemplare con grande esperienza di lotta.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "POKéMON violento che flagella il nemico con gli artigli affilati. Sembra essere molto difficile da allevare.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Pokémon violento che afferra il nemico con le chele e lo scaraventa fuori dal suo stagno.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "X"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "x"
     ]
   },
   {
     "voce": "Predilige la lotta. Il malcapitato che si avvicina alla sua tana verrà malmenato brutalmente.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "È un Pokémon molto bellicoso che afferra con le chele chiunque osi entrare nel suo territorio per scaraventarlo fuori.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

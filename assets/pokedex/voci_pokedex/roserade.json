@@ -2,39 +2,39 @@
   {
     "voce": "Attira la preda con un dolce aroma, poi l’abbatte con le fruste spinose celate fra i bouquet delle braccia.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Con i movimenti di una ballerina, colpisce con le fruste, piene di spine velenose.",
     "giochi": [
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Le due diverse tossine sulle mani di ROSERADE hanno un effetto quasi letale quando il Pokémon colpisce.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Attira la preda con un dolce aroma, poi l’abbatte con il veleno. Più dolce l’aroma, più forte il veleno.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Attira la preda con il suo profumo soave per poi afferrarla e abbatterla con gli arti velenosi.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

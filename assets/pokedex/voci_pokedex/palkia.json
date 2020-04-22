@@ -2,34 +2,34 @@
   {
     "voce": "Ha l'abilità di distorcere lo spazio. Nella mitologia della regione di Sinnoh è una divinità.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Si dice che viva in una dimensione parallela alla nostra. Appare nella mitologia.",
     "giochi": [
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Pokémon leggendario della regione di Sinnoh. Si dice che lo spazio diventi più stabile al suo respiro.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Regola a piacimento le snodature dello spazio, potendo così viaggiare in luoghi lontani o altre dimensioni.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

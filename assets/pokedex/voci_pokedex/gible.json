@@ -2,34 +2,34 @@
   {
     "voce": "Nidifica in piccole cavità orizzontali nelle pareti delle grotte. Si avventa sulle prede che si avvicinano.",
     "giochi": [
-      "Diamante",
-      "Y",
-      "Zaffiro Alpha"
+      "diamante",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Un tempo viveva ai tropici. Per evitare il freddo, vive in grotte riscaldate dal calore geotermico.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Attacca con la sua enorme bocca. È forte, ma molto maldestro e spesso si danneggia da solo.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Vive in gallerie scaldate dal calore geotermico. Se sente un nemico arrivare, salta fuori e lo addenta.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

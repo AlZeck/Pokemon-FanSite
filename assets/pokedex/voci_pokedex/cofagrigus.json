@@ -2,24 +2,24 @@
   {
     "voce": "Si dice che inghiottisca le prede che gli si avvicinano e le trasformi in mummie. Gli piace mangiare le pepite d'oro.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Inganna i razziatori di tombe con il suo aspetto da bara preziosa per poi punirli. Il suo corpo è ricoperto di oro puro.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Imprigiona nel suo corpo i razziatori di tombe che gli vanno vicino pensando che si tratti di un sarcofago vero.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

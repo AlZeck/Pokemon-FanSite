@@ -2,54 +2,54 @@
   {
     "voce": "La tana di TRAPINCH è ricavata in una ripida fossa a forma di sacca scavata nella sabbia. Il POKéMON attende pazientemente che la preda cada in trappola. Le sue possenti mascelle frantumano anche la pietra.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "TRAPINCH è un paziente cacciatore. Nel deserto scava fosse micidiali e attende che la preda cada in trappola. Questo POKéMON può vivere senz'acqua anche per una settimana.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Le possenti mascelle di TRAPINCH possono frantumare persino la pietra. La sua testa è così grande che se cade all'indietro, ha difficoltà a rialzarsi.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Vive nei deserti. Scava buche nel terreno e vi si apposta, attendendo che le prede vi caschino dentro.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia",
-      "X"
+      "rosso_fuoco",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Scava fosse coniche nella sabbia del deserto e attende che le prede cadano in trappola.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Se si cade in una delle fosse coniche che TRAPINCH scava nel deserto, è impossibile sfuggirne.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Costruisce un nido a forma di imbuto dal quale non si può scappare, aspettando poi che le prede cadano in trappola.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

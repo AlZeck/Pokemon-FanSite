@@ -2,34 +2,34 @@
   {
     "voce": "Ha un corpo flessibile e senza ossa. Qualsiasi parte del corpo che gli venga lacerata ricresce subito.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Pare che in passato il suo corpo fosse protetto da un enorme carapace. Vive in bacini poco profondi.",
     "giochi": [
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "In passato portava sulla schiena un robusto carapace. Ne rimangono tracce nelle sue cellule.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Se minacciato da un nemico naturale rilascia un liquido viola e se la dà a gambe, per così dire...",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X",
-      "Rubino Omega"
+      "heartgold",
+      "soulsilver",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

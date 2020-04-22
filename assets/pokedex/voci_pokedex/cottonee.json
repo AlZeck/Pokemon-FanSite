@@ -2,24 +2,24 @@
   {
     "voce": "Se viene attaccato crea una nuvola di cotone per confondere il nemico, poi ne approfitta per fuggire.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Si sposta sospinto dal vento. Nei giorni di pioggia si appesantisce e trova riparo ai piedi di grossi alberi.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Si sentono più sicuri in gruppo. Quando incontrano i loro simili, non li lasciano e insieme formano una grande nuvola.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

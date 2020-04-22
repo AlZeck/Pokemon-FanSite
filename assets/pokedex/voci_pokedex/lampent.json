@@ -2,24 +2,24 @@
   {
     "voce": "È temuto come portatore di cattiva sorte. Si aggira ramingo per le città alla ricerca degli spiriti perduti.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Appare sul finire della vita, per risucchiare l'energia delle anime vagabonde.",
     "giochi": [
-      "Bianco",
-      "Y",
-      "Zaffiro Alpha"
+      "bianco",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "La sua fiamma si accende quando risucchia gli spettri. Si trova spesso nei pressi dei cimiteri, dove questi abbondano.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "X",
-      "Rubino Omega"
+      "nero_2",
+      "bianco_2",
+      "x",
+      "rubino_omega"
     ]
   }
 ]

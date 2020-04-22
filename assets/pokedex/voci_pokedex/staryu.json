@@ -2,80 +2,80 @@
   {
     "voce": "Molto enigmatico, è in grado di rigenerare senza fatica qualsiasi appendice persa lottando.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Se non ne viene danneggiato il centro può rigenerare tutte le appendici perse lottando.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Di notte il centro del suo corpo pulsa lentamente, allo stesso ritmo del cuore umano.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Anche se il corpo è lacerato, continua a rigenerarsi finché il nucleo ardente centrale rimane intatto.",
     "giochi": [
-      "Argento",
-      "SoulSilver",
-      "X"
+      "argento",
+      "soulsilver",
+      "x"
     ]
   },
   {
     "voce": "Nelle notti stellate riemerge dal fondo del mare, mentre la luce al centro del corpo si ravviva.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "Al centro del corpo di Staryu è presente un nucleo che brilla di un rosso intenso. In spiaggia, a fine estate, il nucleo di questi Pokémon ha l'aspetto delle stelle nel firmamento.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Pare che la notte Staryu comunichi con le stelle facendo brillare il suo nucleo rosso al centro del corpo. In caso di perdita di qualche appendice questo POKéMON riesce a rigenerarla senza problemi.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Quando gli Staryu si raggruppano di notte, i loro nuclei centrali brillano al ritmo delle stelle. Se perde un'appendice, questo Pokémon la rigenera senza problemi.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Se ne trovano molti in riva al mare. Di notte, il nucleo al centro del corpo lampeggia di una luce rossa.",
     "giochi": [
-      "Rosso Fuoco",
-      "Y"
+      "rosso_fuoco",
+      "y"
     ]
   },
   {
     "voce": "Se il corpo è lacerato, si rigenera se il nucleo rosso è ancora intatto. Il nucleo brilla a mezzanotte.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Se fatto a pezzi, ha la capacità di rigenerarsi in un istante, a condizione però che il suo nucleo rosso sia intatto.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   }
 ]

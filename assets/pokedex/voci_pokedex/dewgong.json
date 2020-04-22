@@ -2,80 +2,80 @@
   {
     "voce": "Accumula energia termica nel suo corpo. Nuota a 8 nodi costanti anche in acqua molto fredda.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia"
+      "rosso",
+      "blu",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Il suo corpo è bianco candido. Riesce a nuotare velocissimo anche in acque congelate.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Il suo corpo affusolato ha poco attrito nell'acqua. Le basse temperature lo rendono vivace.",
     "giochi": [
-      "Oro",
-      "HeartGold",
-      "Y"
+      "oro",
+      "heartgold",
+      "y"
     ]
   },
   {
     "voce": "Ama le acque gelide, in cui galleggia il ghiaccio. Muovendo la coda, può cambiare rapidamente direzione.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Di giorno dorme nell'oceano, a poca profondità. Di notte, quando fa più freddo, ricerca il cibo.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "DEWGONG adora riposare su una gelida lastra di ghiaccio. In passato i marinai confondevano l'immagine di questo POKéMON addormentato sulla superficie gelata con una sirena.",
     "giochi": [
-      "Rubino",
-      "Zaffiro"
+      "rubino",
+      "zaffiro"
     ]
   },
   {
     "voce": "DEWGONG adora riposare su una gelida lastra di ghiaccio. In passato i marinai scambiavano questo POKéMON addormentato sulla superficie gelata per una sirena.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Ha il corpo ricoperto da una candida pelliccia bianca. Più fa freddo, più questo POKéMON è attivo.",
     "giochi": [
-      "Rosso Fuoco",
-      "X"
+      "rosso_fuoco",
+      "x"
     ]
   },
   {
     "voce": "Ha il corpo ricoperto da una pelliccia bianca che, sulla neve, lo rende meno visibile ai predatori.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "Il suo corpo affusolato subisce meno attrito con l'acqua e può sfrecciare nel mare gelato alla velocità di 8 nodi.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2"
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Dewgong adora riposare su una gelida lastra di ghiaccio. In passato i marinai confondevano il profilo di questo Pokémon addormentato sulla superficie gelata con una sirena.",
     "giochi": [
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   }
 ]

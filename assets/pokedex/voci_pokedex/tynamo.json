@@ -2,24 +2,24 @@
   {
     "voce": "La carica elettrica di un Tynamo è debole, ma se più esemplari si uniscono raggiungono la potenza di un fulmine.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Pokémon che agisce in gruppo. È dotato di un apparato che produce scariche elettriche, utile nei momenti critici.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Da soli producono poca elettricità, per cui formano dei grossi branchi se vogliono lanciare una scossa più potente.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

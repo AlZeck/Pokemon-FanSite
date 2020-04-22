@@ -2,24 +2,24 @@
   {
     "voce": "Cambia dimora a seconda delle stagioni. Gli uomini si accorgono del cambio di stagione osservando le sue corna.",
     "giochi": [
-      "Nero",
-      "X",
-      "Rubino Omega"
+      "nero",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "I fiori che crescono sulle sue corna cambiano a seconda della stagione. I capibranco hanno corna meravigliose.",
     "giochi": [
-      "Bianco"
+      "bianco"
     ]
   },
   {
     "voce": "Si spostano da un luogo all'altro al mutare delle stagioni, per questo alcuni dicono che portano con sé la primavera.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

@@ -2,65 +2,65 @@
   {
     "voce": "Molto comune in boschi e foreste, sbatte le ali a livello del suolo per raccogliere sabbia accecante.",
     "giochi": [
-      "Rosso",
-      "Blu",
-      "Verde Foglia",
-      "X"
+      "rosso",
+      "blu",
+      "verde_foglia",
+      "x"
     ]
   },
   {
     "voce": "Di indole docile preferisce alzare sabbia sul nemico per proteggersi piuttosto che attaccarlo.",
     "giochi": [
-      "Giallo"
+      "giallo"
     ]
   },
   {
     "voce": "Di solito si nasconde nell'erba alta. Poiché odia lottare, tira la sabbia con le zampe come difesa.",
     "giochi": [
-      "Oro",
-      "HeartGold"
+      "oro",
+      "heartgold"
     ]
   },
   {
     "voce": "Comune tra l'erba e nelle foreste, è molto docile e tiene alla larga i nemici sollevando sabbia.",
     "giochi": [
-      "Argento",
-      "SoulSilver"
+      "argento",
+      "soulsilver"
     ]
   },
   {
     "voce": "Agitando le ali nell'erba, solleva una nube di polvere per far uscire gli insetti allo scoperto.",
     "giochi": [
-      "Cristallo"
+      "cristallo"
     ]
   },
   {
     "voce": "PIDGEY ha un senso dell'orientamento molto sviluppato. È sempre in grado di ritornare al suo nido, anche quando si spinge molto lontano dal suo ambiente abituale.",
     "giochi": [
-      "Rubino",
-      "Zaffiro",
-      "Smeraldo",
-      "Rubino Omega",
-      "Zaffiro Alpha"
+      "rubino",
+      "zaffiro",
+      "smeraldo",
+      "rubino_omega",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "POKéMON pacifico, che passa la maggior parte del tempo nell'erba alta alla ricerca di cibo, tra cui piccoli insetti.",
     "giochi": [
-      "Rosso Fuoco"
+      "rosso_fuoco"
     ]
   },
   {
     "voce": "È docile e preferisce evitare i conflitti. Ma se viene disturbato, contrattacca ferocemente.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]

@@ -2,24 +2,24 @@
   {
     "voce": "Quando nasce dall'Uovo, Leavanny gli fa un vestito e glielo fa indossare. Dorme coprendosi la testa con il cappuccio.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Si prepara da sé i vestiti, tagliando le foglie e usando i fili viscosi che secerne dalla bocca per cucirli.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Taglia le foglie per farne vestiti. Per questo motivo è la mascotte preferita di molti stilisti.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

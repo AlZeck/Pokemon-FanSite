@@ -2,34 +2,34 @@
   {
     "voce": "Muove la testa avanti e indietro e le antenne, scontrandosi, producono un suono simile allo xilofono.",
     "giochi": [
-      "Diamante"
+      "diamante"
     ]
   },
   {
     "voce": "Comunica con il suono prodotto dallo scontro delle sue antenne. Esso indica l'arrivo dell’autunno.",
     "giochi": [
-      "Perla",
-      "X",
-      "Rubino Omega"
+      "perla",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Ha le zampe corte. Quando inciampa le sue antenne si urtano, producendo un suono simile allo xilofono.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Le antenne, scontrandosi, producono un suono simile allo xilofono: klon, klon!",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "soulsilver",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

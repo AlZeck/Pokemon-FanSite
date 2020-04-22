@@ -2,34 +2,34 @@
   {
     "voce": "Noto come \"Essere della conoscenza\". Pare che faccia perdere la memoria a chiunque lo fissi.",
     "giochi": [
-      "Diamante",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Alla nascita di questo Pokémon l’uomo avrebbe ricevuto la capacità di migliorare la propria esistenza.",
     "giochi": [
-      "Perla",
-      "Y",
-      "Zaffiro Alpha"
+      "perla",
+      "y",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Al volo di UXIE, gli uomini impararono a risolvere i problemi. In tal modo nacque la conoscenza.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Si dice che gli sia stata conferita la saggezza necessaria a risolvere gli svariati problemi degli umani.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   }
 ]

@@ -2,24 +2,24 @@
   {
     "voce": "Assorbe enormi quantità di acqua per formare nubi cariche di neve e attaccare il nemico con violente bufere.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Se le due teste si arrabbiano allo stesso tempo, scatena una bufera dalle corna, coprendo di neve i dintorni.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Ingoia enormi quantità d' acqua che trasforma in nuvole di neve. Quando si arrabbia scatena una terribile bufera.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Zaffiro Alpha",
-      "Y"
+      "nero_2",
+      "bianco_2",
+      "zaffiro_alpha",
+      "y"
     ]
   }
 ]

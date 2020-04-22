@@ -2,34 +2,34 @@
   {
     "voce": "Ama il nettare dei fiori. Ruba e mangia il nettare raccolto da COMBEE.",
     "giochi": [
-      "Diamante",
-      "X",
-      "Rubino Omega"
+      "diamante",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Non ha una tana fissa. Vola su campi e monti in perenne ricerca del nettare dei fiori.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "Anche se ama il nettare dei fiori, non lo raccoglie. Preferisce rubarlo ai COMBEE.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2"
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2"
     ]
   },
   {
     "voce": "Vola qua e là di notte per derubare i COMBEE del loro nettare mentre dormono, e poi fuggire.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "Y",
-      "Zaffiro Alpha"
+      "heartgold",
+      "soulsilver",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

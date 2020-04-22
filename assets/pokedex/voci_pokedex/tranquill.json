@@ -2,24 +2,24 @@
   {
     "voce": "Per quanto lontano si trovi, è sempre in grado di ritornare dal suo Allenatore.",
     "giochi": [
-      "Nero"
+      "nero"
     ]
   },
   {
     "voce": "Si dice che nel cuore della foresta in cui vive Tranquill si trovi un paese che non conosce conflitti.",
     "giochi": [
-      "Bianco",
-      "X",
-      "Rubino Omega"
+      "bianco",
+      "x",
+      "rubino_omega"
     ]
   },
   {
     "voce": "Dovunque si trovi, è sempre in grado di ritrovare il suo nido. Allo stesso modo, non perde mai di vista il suo Allenatore.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y",
-      "Zaffiro Alpha"
+      "nero_2",
+      "bianco_2",
+      "y",
+      "zaffiro_alpha"
     ]
   }
 ]

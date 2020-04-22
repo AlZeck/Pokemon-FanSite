@@ -2,49 +2,49 @@
   {
     "voce": "MINUN si impegna a tenere alto il morale dei suoi compagni di squadra, anche a rischio della sua stessa sicurezza. Crea vivaci cortocircuiti con la sua elettricità fisica per rallegrare tutta la squadra.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "MINUN ama tenere alto il morale della squadra in lotta, emanando scintille da tutto il corpo. Se la sua squadra è in difficoltà, emette una maggiore quantità di scintille.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Secondo alcuni studiosi di POKéMON, l'esposizione all'elettricità di un PLUSLE e di un MINUN favorirebbe la circolazione sanguigna e aumenterebbe la vitalità.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Poiché odia l'acqua, quando piove si rifugia sotto i cornicioni. Incita i compagni con pompon di scintille.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Incoraggia gli amici e, se questi perdono, il suo corpo emette una maggiore quantità di scintille.",
     "giochi": [
-      "Diamante",
-      "Perla",
-      "Platino",
-      "Nero",
-      "Bianco",
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "diamante",
+      "perla",
+      "platino",
+      "nero",
+      "bianco",
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   },
   {
     "voce": "L'elettricità tra un PLUSLE e un MINUN favorisce la circolazione sanguigna e scioglie le tensioni.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver",
-      "X"
+      "heartgold",
+      "soulsilver",
+      "x"
     ]
   }
 ]

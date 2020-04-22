@@ -2,64 +2,64 @@
   {
     "voce": "AZURILL fa roteare la propria coda come un lazzo, poi la scaglia lontano. Nel momento del lancio prende il volo anche il suo corpo. Grazie a questa tecnica unica, uno di questi POKéMON è riuscito a lanciarsi a 10 m di distanza.",
     "giochi": [
-      "Rubino",
-      "Rubino Omega"
+      "rubino",
+      "rubino_omega"
     ]
   },
   {
     "voce": "AZURILL è dotato di una coda lunga ed elastica. Inoltre, è ricca di sostanze nutritive indispensabili per la sua sopravvivenza. Spesso lo si vede saltellare e giocare sulla coda gommosa e molleggiata.",
     "giochi": [
-      "Zaffiro",
-      "Zaffiro Alpha"
+      "zaffiro",
+      "zaffiro_alpha"
     ]
   },
   {
     "voce": "Gli AZURILL possiedono una coda elastica e gommosa che contiene sostanze nutritive. Nelle giornate di sole, sono soliti giocare con l'acqua su una riva.",
     "giochi": [
-      "Smeraldo"
+      "smeraldo"
     ]
   },
   {
     "voce": "Combatte agitando la coda, più grande del corpo, che utilizza anche per galleggiare nell'acqua.",
     "giochi": [
-      "Rosso Fuoco",
-      "Verde Foglia"
+      "rosso_fuoco",
+      "verde_foglia"
     ]
   },
   {
     "voce": "Pokémon che vive nell'acqua. Si muove rapidamente sulla terraferma saltellando sulla grossa coda.",
     "giochi": [
-      "Diamante",
-      "X"
+      "diamante",
+      "x"
     ]
   },
   {
     "voce": "La sua coda è piena di sostanze nutritive essenziali per crescere. Gioca saltellando sulla coda.",
     "giochi": [
-      "Perla"
+      "perla"
     ]
   },
   {
     "voce": "La sua coda rimbalza come un pallone. Lotta contro avversari più grandi di lui agitando la coda.",
     "giochi": [
-      "Platino",
-      "Nero",
-      "Bianco"
+      "platino",
+      "nero",
+      "bianco"
     ]
   },
   {
     "voce": "La sua coda è piena di sostanze nutritive essenziali per la crescita.",
     "giochi": [
-      "HeartGold",
-      "SoulSilver"
+      "heartgold",
+      "soulsilver"
     ]
   },
   {
     "voce": "Si scaglia contro avversari più forti di lui agitando la grande coda in cui conserva le sostanze di cui si nutre.",
     "giochi": [
-      "Nero 2",
-      "Bianco 2",
-      "Y"
+      "nero_2",
+      "bianco_2",
+      "y"
     ]
   }
 ]
