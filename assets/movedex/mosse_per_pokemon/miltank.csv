@@ -1,11 +1,11 @@
 id;name
 28;azione
 20;pestone
-115;rotolamento
+114;rotolamento
 29;corposcontro
-234;cozzata zen
-192;svegliopacca
-129;introforza
+233;cozzata zen
+191;svegliopacca
+128;introforza
 44;geloraggio
 45;bora
 49;iper raggio
@@ -13,32 +13,32 @@ id;name
 61;fulmine
 62;tuono
 64;terremoto
-135;palla ombra
-147;breccia
-167;rocciotomba
-142;facciata
-275;coro
-276;echeggiavoce
-219;focalcolpo
-293;battiterra
+134;palla ombra
+146;breccia
+166;rocciotomba
+141;facciata
+274;coro
+275;echeggiavoce
+218;focalcolpo
+292;battiterra
 94;frana
-137;spaccaroccia
-149;forzasegreta
-349;crescipugno
+136;spaccaroccia
+148;forzasegreta
+345;crescipugno
 43;surf
 53;forza
-328;rutto
+327;rutto
 89;stordipugno
 33;sdoppiatore
-193;martelpugno
-300;cuorestampo
+192;martelpugno
+299;cuorestampo
 7;fuocopugno
-143;centripugno
+142;centripugno
 8;gelopugno
-111;ventogelato
-246;metaltestata
-126;codacciaio
-188;ondashock
-102;russare
+110;ventogelato
+245;metaltestata
+125;codacciaio
+187;ondashock
+101;russare
 9;tuonopugno
-189;idropulsar
+188;idropulsar

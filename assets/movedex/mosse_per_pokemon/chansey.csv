@@ -4,7 +4,7 @@ id;name
 3;doppiasberla
 31;riduttore
 71;uovobomba
-129;introforza
+128;introforza
 44;geloraggio
 45;bora
 49;iper raggio
@@ -13,38 +13,38 @@ id;name
 62;tuono
 64;terremoto
 67;psichico
-135;palla ombra
-147;breccia
+134;palla ombra
+146;breccia
 40;lanciafiamme
 76;fuocobomba
-167;rocciotomba
-142;facciata
-275;coro
-276;echeggiavoce
-252;raggioscossa
-284;bruciatutto
-223;gigaimpatto
-293;battiterra
+166;rocciotomba
+141;facciata
+274;coro
+275;echeggiavoce
+251;raggioscossa
+283;bruciatutto
+222;gigaimpatto
+292;battiterra
 94;frana
 84;mangiasogni
-297;sprizzalampo
-137;spaccaroccia
-149;forzasegreta
-349;crescipugno
-345;magibrillio
+296;sprizzalampo
+136;spaccaroccia
+148;forzasegreta
+345;crescipugno
+341;magibrillio
 53;forza
-201;ultimascelta
-232;pantanobomba
-183;supplica
-217;assorbipugno
+200;ultimascelta
+231;pantanobomba
+182;supplica
+216;assorbipugno
 7;fuocopugno
-143;centripugno
-157;granvoce
+142;centripugno
+156;granvoce
 8;gelopugno
-111;ventogelato
-126;codacciaio
-188;ondashock
-102;russare
+110;ventogelato
+125;codacciaio
+187;ondashock
+101;russare
 9;tuonopugno
-189;idropulsar
-234;cozzata zen
+188;idropulsar
+233;cozzata zen
