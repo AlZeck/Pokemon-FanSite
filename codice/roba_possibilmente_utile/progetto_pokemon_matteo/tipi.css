@@ -1,0 +1,51 @@
+/* CSS USATI NELLE PAGINE DEI TIPI */
+
+
+/* caratteristiche per le tabelle delle efficacie dei tipi */
+.tabella-efficacia {
+	background-size: 100%;
+					
+	/* GRADIENTE SFONDO COLOR "NOTTE" (POKEMON CENTRAL WIKI) */
+	background-image: -moz-linear-gradient(left, #597A9B, #003366);
+	background-image: -webkit-linear-gradient(left, #597A9B, #003366);
+	background-image: linear-gradient(to right, #597A9B, #003366);
+						
+	padding: 0.2em;
+}
+
+
+/* caratteristiche per i titoletti delle tabelle delle efficacie dei tipi */
+.tabella-efficacia-titoletto {
+	color: #011D3A;
+	padding: 0.2em;
+}
+
+
+/* padding da 0.1em usato nelle tabelle delle efficacie dei tipi */
+.tabella-efficacia-padding1 {
+	padding: 0.1em;
+}
+
+
+/* padding da 0.2em usato nelle tabelle delle efficacie dei tipi */
+.tabella-efficacia-padding2 {
+	padding: 0.2em;
+}
+
+
+/* color verde usato nelle tabelle delle efficacie dei tipi (superefficacia) */
+.tabella-efficacia-verde {
+	background: #00ff00;
+}
+
+
+/* color rosso usato nelle tabelle delle efficacie dei tipi (poca efficacia) */
+.tabella-efficacia-rosso {
+	background: #ff0000;
+}
+
+
+/* color nero usato nelle tabelle delle efficacie dei tipi (zero efficacia) */
+.tabella-efficacia-nero {
+	background: #000;
+}

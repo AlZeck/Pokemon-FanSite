@@ -1,0 +1,245 @@
+/* CSS USATI NELLE PAGINE DEI LEGGENDARI */
+
+
+/* caratteristiche per le tabelle delle statistiche dei pokemon */
+.tabella-statistiche {
+	border-radius: 10px;
+	border-spacing: 0 0.3ex;
+
+	padding: 0.3ex 0.5ex;
+	background-size: 100%;
+
+	font-weight: bolder;
+	color: #011D3A;
+
+	/* GRADIENTE SFONDO COLOR "NOTTE" (POKEMON CENTRAL WIKI) */
+	background-image: -moz-linear-gradient(left, #597A9B, #003366);
+	background-image: -webkit-linear-gradient(left, #597A9B, #003366);
+	background-image: linear-gradient(to right, #597A9B, #003366);
+}
+
+
+/* padding da 0.3ex 0.8ex usato nelle tabelle delle statistiche */
+.tabella-statistiche-padding38 {
+	padding: 0.3ex 0.8ex;
+}
+
+
+/* padding da 0.3ex 0.8ex 0.3ex 1.8ex usato nelle tabelle delle statistiche */
+.tabella-statistiche-padding3838 {
+	padding: 0.3ex 0.8ex 0.3ex 1.8ex;
+}
+
+
+/* caratteristiche per la scritta PS nelle tabelle delle statistiche */
+.statistiche-ps-scritta {
+	width: 5.5em;
+	padding: 0.3ex 0.8ex;
+	border-top-left-radius: 10px;
+
+	color: #58E810;
+	background: #E1FFD3;
+}
+
+
+/* caratteristiche per lo sfondo riga PS nelle tabelle delle statistiche */
+.statistiche-ps-sfondo {
+	padding: 0.3ex 0.8ex 0.3ex 1.8ex;
+	border-top-right-radius: 10px;
+	background: #E1FFD3;
+}
+
+
+/* caratteristiche per il valore PS nelle tabelle delle statistiche */
+.statistiche-ps-valore {
+	color: #2E7A08;
+
+	border-radius:10px;
+	background-size: 100%;
+
+	background-image: -moz-linear-gradient(left, #E1FFD3, #58E810);
+	background-image: -webkit-linear-gradient(left, #E1FFD3, #58E810);
+	background-image: linear-gradient(to right, #E1FFD3, #58E810);
+}
+
+
+/* caratteristiche per la scritta ATTACCO nelle tabelle delle statistiche */
+.statistiche-att-scritta {
+	width: 5.5em;
+	padding: 0.3ex 0.8ex;
+	
+	color: #EACA2F;
+	background: #FFFBE6;
+}
+
+
+/* caratteristiche per lo sfondo riga ATTACCO nelle tabelle delle statistiche */
+.statistiche-att-sfondo {
+	padding: 0.3ex 0.8ex 0.3ex 1.8ex;
+	background: #FFFBE6;
+}
+
+
+/* caratteristiche per il valore ATTACCO nelle tabelle delle statistiche */
+.statistiche-att-valore {
+	color: #B88C00;
+
+	border-radius:10px;
+	background-size: 100%;
+
+	background-image: -moz-linear-gradient(left, #FFFBE6, #EACA2F);
+	background-image: -webkit-linear-gradient(left, #FFFBE6, #EACA2F);
+	background-image: linear-gradient(to right, #FFFBE6, #EACA2F);;
+}
+
+
+/* caratteristiche per la scritta DIFESA nelle tabelle delle statistiche */
+.statistiche-dif-scritta {
+	width: 5.5em;
+	padding: 0.3ex 0.8ex;
+	
+	color: #E5721D;
+	background: #FFC499;
+}
+
+
+/* caratteristiche per lo sfondo riga DIFESA nelle tabelle delle statistiche */
+.statistiche-dif-sfondo {
+	padding: 0.3ex 0.8ex 0.3ex 1.8ex;
+	background: #FFC499;
+}
+
+
+/* caratteristiche per il valore DIFESA nelle tabelle delle statistiche */
+.statistiche-dif-valore {
+	color: #8E3600;
+
+	border-radius:10px;
+	background-size: 100%;
+
+	background-image: -moz-linear-gradient(left, #FFC499, #E5721D);
+	background-image: -webkit-linear-gradient(left, #FFC499, #E5721D);
+	background-image: linear-gradient(to right, #FFC499, #E5721D);;
+}
+
+
+/* caratteristiche per la scritta ATT.SP. nelle tabelle delle statistiche */
+.statistiche-atts-scritta {
+	width: 5.5em;
+	padding: 0.3ex 0.8ex;
+	
+	color: #26BAE0;
+	background: #B2E3EF;
+}
+
+
+/* caratteristiche per lo sfondo riga ATT.SP. nelle tabelle delle statistiche */
+.statistiche-atts-sfondo {
+	padding: 0.3ex 0.8ex 0.3ex 1.8ex;
+	background: #B2E3EF;
+}
+
+
+/* caratteristiche per il valore ATT.SP. nelle tabelle delle statistiche */
+.statistiche-atts-valore {
+	color: #15687D;
+
+	border-radius:10px;
+	background-size: 100%;
+
+	background-image: -moz-linear-gradient(left, #B2E3EF, #26BAE0);
+	background-image: -webkit-linear-gradient(left, #B2E3EF, #26BAE0);
+	background-image: linear-gradient(to right, #B2E3EF, #26BAE0);;
+}
+
+
+/* caratteristiche per la scritta DIF.SP. nelle tabelle delle statistiche */
+.statistiche-difs-scritta {
+	width: 5.5em;
+	padding: 0.3ex 0.8ex;
+	
+	color: #4C6CD4;
+	background: #9EB5FF;
+}
+
+
+/* caratteristiche per lo sfondo riga DIF.SP. nelle tabelle delle statistiche */
+.statistiche-difs-sfondo {
+	padding: 0.3ex 0.8ex 0.3ex 1.8ex;
+	background: #9EB5FF;
+}
+
+
+/* caratteristiche per il valore DIF.SP. nelle tabelle delle statistiche */
+.statistiche-difs-valore {
+	color: #0A163D;
+
+	border-radius:10px;
+	background-size: 100%;
+
+	background-image: -moz-linear-gradient(left, #9EB5FF, #4C6CD4);
+	background-image: -webkit-linear-gradient(left, #9EB5FF, #4C6CD4);
+	background-image: linear-gradient(to right, #9EB5FF, #4C6CD4);;
+}
+
+
+/* caratteristiche per la scritta VELOCITÀ nelle tabelle delle statistiche */
+.statistiche-vel-scritta {
+	width: 5.5em;
+	padding: 0.3ex 0.8ex;
+	border-bottom-left-radius: 10px;
+
+	color: #D425CE;
+	background: #EF8DEC;
+}
+
+
+/* caratteristiche per lo sfondo riga VELOCITÀ nelle tabelle delle statistiche */
+.statistiche-vel-sfondo {
+	padding: 0.3ex 0.8ex 0.3ex 1.8ex;
+	border-bottom-right-radius: 10px;
+	background: #EF8DEC;
+}
+
+
+/* caratteristiche per il valore VELOCITÀ nelle tabelle delle statistiche */
+.statistiche-vel-valore {
+	color: #380036;
+
+	border-radius:10px;
+	background-size: 100%;
+	
+	background-image: -moz-linear-gradient(left, #EF8DEC, #D425CE);
+	background-image: -webkit-linear-gradient(left, #EF8DEC, #D425CE);
+	background-image: linear-gradient(to right, #EF8DEC, #D425CE);;
+}
+
+
+/* caratteristiche per il bordo dell'artwork dei pokemon */
+.bordo-artwork {
+	border: 4px solid #011D3A;
+	border-radius: 25px;
+	padding: 30px;
+}
+
+
+/* caratteristiche per avere i bottoni del cambia forma un po' più stilizzati */
+.bottone-cambio-forma {	
+	padding: 15px 25px;
+	background-color: #011D3A;
+	cursor: pointer;
+	
+	border: none;
+	border-radius: 12px;
+	
+	text-align: center;
+	font-size: 16px;
+	color: #DFDFE1;
+}
+
+
+/* caratteristiche per avere un cambiamento visivo dei bottoni del cambia forma disabilitati */
+.bottone-cambio-forma:disabled {
+	opacity: 0.6;
+	cursor: auto;
+}

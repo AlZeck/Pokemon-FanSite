@@ -33,10 +33,11 @@ Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fa
 |-----------------------------------------------------------|:-----------:|
 | Login Page Communication with Server                      | TODO        |
 | Sign up Page Communication with Server                    | TODO        |
-| Movedex Page PHP                                          | TODO        |
-| Pokedex Page PHP                                          | TODO        |
-| Typedex Page PHP                                          | TODO        |
-| Specific Pokemon Page PHP                                 | TODO        |
-| Specific Move Page PHP                            	    | TODO        |
-| Specific Type Page PHP                            	    | TODO        |
+| Everything Navigation Bar			                        | TODO        |
+| Everything Movedex Page                                   | TODO        |
+| Everything Pokedex Page                                   | TODO        |
+| Everything Typedex Page                                   | TODO        |
+| Everything Specific Pokemon Page                          | TODO        |
+| Everything Specific Move Page                        	    | TODO        |
+| Everything Specific Type Page                       	    | TODO        |
 | Project display on Aruba (Sebastian)                      | TODO        |
