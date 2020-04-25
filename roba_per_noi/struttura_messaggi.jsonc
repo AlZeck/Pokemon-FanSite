@@ -1,8 +1,13 @@
+//CASI SPECIALI:
+// All'inizio della battaglia il server, dopo l'arrivo dei messaggi di inizializzazione manda ad entrambi l'azione "switch" per il loro primo pokemon della squadra
+// Se arriva ad un utente l'azione "esausto" (e "risultato" è 0) in automatico esso invia un messaggio di "switch", mentre l'altroinvia automaticamente l'azione di "attesa"
+
+
 //STRUTTURA MESSAGGI DI INIZIALIZZAZIONE (client -> server)
 {
     "utente": USERNAME,         //stringa indicante lo username dell'utente in questione ("CPU" per cpu)
 
-    "pokemon": [
+    "squadra": [                //array indicante la squadra dell'utente in questione
         {
             "id": POKEMON_UNO,  //intero indicante id primo pokemon
 
@@ -81,12 +86,6 @@
 
 
 //STRUTTURA MESSAGGI BATTAGLIA (server -> client)
-
-//CASI PARTICOLARI:
-//all'inizio della battaglia ad entrambi arrivano uno switch per il primo pokemon della squadra
-//nel caso secondo utente riceva azione "esausto" esso deve scegliere il successivo (se ne ha, sennò sconfitto)
-//ed inviare un messaggio di "switch", mentre il primo utente invia automaticamente l'azione di "attesa"
-
 {
     "primo": {
             "utente": USERNAME,      //stringa indicante lo username dell'utente in questione ("CPU" per cpu)
