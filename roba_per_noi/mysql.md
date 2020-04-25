@@ -2,10 +2,11 @@
 
 ## for manjaro:
 ``` 
-sudo pacman -S mariadb python-mysqlclient 
+sudo pacman -S mariadb 
 sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 sudo systemctl enable mariadb.service
 sudo systemctl start mariadb.service
+sudo pip install pymysql
 ```
 
 togliere i commenti(```;```) in ```/etc/php/php.ini``` di 
@@ -17,7 +18,8 @@ extension=mysqli
 ## for ubuntu
 
 ```
-sudo apt install php7.3-mysql mariadb-server python3-mysqldb
+sudo apt install php7.3-mysql mariadb-server
+sudo pip install pymysql
 ```
 # Creare il db per pokemon
 
