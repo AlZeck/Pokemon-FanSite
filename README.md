@@ -17,7 +17,7 @@ Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fa
 |-----------------------------------------------------------|:-----------:|
 | Home Page                                                 | TODO        |
 | Login Page                                                | TODO        |
-| Sign up page                                              | TODO        |
+| Sign up Page                                              | TODO        |
 
 
 ### Matteo
@@ -37,4 +37,6 @@ Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fa
 | Pokedex Page PHP                                          | TODO        |
 | Typedex Page PHP                                          | TODO        |
 | Specific Pokemon Page PHP                                 | TODO        |
+| Specific Move Page PHP                            	    | TODO        |
+| Specific Type Page PHP                            	    | TODO        |
 | Project display on Aruba (Sebastian)                      | TODO        |

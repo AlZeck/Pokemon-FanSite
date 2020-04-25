@@ -13,8 +13,8 @@ class movedex_fixer:
    
     """
 
-    path_poke = "assets/movedex/mosse_per_pokemon/"
-    path_move = "assets/movedex/mosse.csv"
+    path_poke = "../assets/movedex/mosse_per_pokemon/"
+    path_move = "../assets/movedex/mosse.csv"
     def __init__(self, poke = path_poke, move = path_move):
         """ Creates a new modex_fixer instance
          Attributes

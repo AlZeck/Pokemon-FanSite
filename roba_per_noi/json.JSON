@@ -1,0 +1,108 @@
+//STRUTTURA MESSAGGI DI INIZIALIZZAZIONE (client -> server)
+{
+    "utente": USERNAME,         //stringa indicante lo username dell'utente in questione ("CPU" per cpu)
+
+    "pokemon": [
+        {
+            "id": POKEMON_UNO,  //intero indicante id primo pokemon
+
+            "mosse": [
+                MOSSA_UNO,      //intero indicante id prima mossa
+                MOSSA_DUE,      //intero indicante id seconda mossa
+                MOSSA_TRE,      //intero indicante id terza mossa
+                MOSSA_QUATTRO   //intero indicante id quarta mossa
+            ]
+        },
+
+        {
+            "id": POKEMON_DUE,  //intero indicante id secondo pokemon
+
+            "mosse": [
+                MOSSA_UNO,      //intero indicante id prima mossa
+                MOSSA_DUE,      //intero indicante id seconda mossa
+                MOSSA_TRE,      //intero indicante id terza mossa
+                MOSSA_QUATTRO   //intero indicante id quarta mossa
+            ]
+        },
+
+        {
+            "id": POKEMON_TRE,  //intero indicante id terzo pokemon
+
+            "mosse": [
+                MOSSA_UNO,      //intero indicante id prima mossa
+                MOSSA_DUE,      //intero indicante id seconda mossa
+                MOSSA_TRE,      //intero indicante id terza mossa
+                MOSSA_QUATTRO   //intero indicante id quarta mossa
+            ]
+        },
+
+        {
+            "id": POKEMON_QUATTRO,  //intero indicante id quarto pokemon
+
+            "mosse": [
+                MOSSA_UNO,      //intero indicante id prima mossa
+                MOSSA_DUE,      //intero indicante id seconda mossa
+                MOSSA_TRE,      //intero indicante id terza mossa
+                MOSSA_QUATTRO   //intero indicante id quarta mossa
+            ]
+        },
+
+        {
+            "id": POKEMON_CINQUE,  //intero indicante id cinque pokemon
+
+            "mosse": [
+                MOSSA_UNO,      //intero indicante id prima mossa
+                MOSSA_DUE,      //intero indicante id seconda mossa
+                MOSSA_TRE,      //intero indicante id terza mossa
+                MOSSA_QUATTRO   //intero indicante id quarta mossa
+            ]
+        },
+
+        {
+            "id": POKEMON_SEI,  //intero indicante id sesto pokemon
+
+            "mosse": [
+                MOSSA_UNO,      //intero indicante id prima mossa
+                MOSSA_DUE,      //intero indicante id seconda mossa
+                MOSSA_TRE,      //intero indicante id terza mossa
+                MOSSA_QUATTRO   //intero indicante id quarta mossa
+            ]
+        }
+    ]
+}
+
+
+//STRUTTURA MESSAGGI BATTAGLIA (client -> server)
+{
+    "utente": USERNAME,     //stringa indicante lo username dell'utente in questione ("CPU" per cpu)
+    "azione": AZIONE,       //stringa indicante l'azione corrente: "mossa", "switch", "forfeit" o "attesa"
+    "valore": VALORE        //intero indicante il valore dell'azione: id_mossa, id_pokemon, 0 per il resto
+}
+
+
+//STRUTTURA MESSAGGI BATTAGLIA (server -> client)
+
+//CASI PARTICOLARI:
+//all'inizio della battaglia ad entrambi arrivano uno switch per il primo pokemon della squadra
+//nel caso secondo utente riceva azione "esausto" esso deve scegliere il successivo (se ne ha, sennò sconfitto)
+//ed inviare un messaggio di "switch", mentre il primo utente invia automaticamente l'azione di "attesa"
+
+{
+    "primo": {
+            "utente": USERNAME,      //stringa indicante lo username dell'utente in questione ("CPU" per cpu)
+            "azione": AZIONE,        //stringa indicante l'azione corrente: "mossa", "switch", "forfeit", "esausto" o "attesa"
+            "valore": VALORE,        //intero indicante il valore dell'azione: id_mossa (anche in caso di esausto), id_pokemon, 0 per il resto
+            "danno": DANNO,          //intero indicante il danno in caso di mossa (anche in caso di esausto), 0 per il resto
+            "messaggio": MESSAGGIO,  //stringa indicante il messaggio da associare e mostrare all'azione (ad esempio brutto colpo)
+            "risultato": RISULTATO   //un intero indicante lo stato della battaglia: 0 ancora non è finita, 1 hai vinto, 2 hai perso
+    },
+
+    "secondo": {
+            "utente": USERNAME,      //stringa indicante lo username dell'utente in questione ("CPU" per cpu)
+            "azione": AZIONE,        //stringa indicante l'azione corrente: "mossa", "switch", "forfeit", "esausto" o "attesa"
+            "valore": VALORE,        //intero indicante il valore dell'azione: id_mossa, id_pokemon, 0 per il resto
+            "danno": DANNO,          //intero indicante il danno in caso di mossa, 0 per il resto
+            "messaggio": MESSAGGIO,  //stringa indicante il messaggio da associare e mostrare all'azione (ad esempio brutto colpo)
+            "risultato": RISULTATO   //un intero indicante lo stato della battaglia: 0 ancora non è finita, 1 hai vinto, 2 hai perso
+    }
+}
