@@ -1,4 +1,4 @@
-id,nome,type1,type2,ps,att,dif,attsp,difsp,vel,uber
+id,nome,tipo1,tipo2,ps,att,dif,attsp,difsp,vel,uber
 1,bulbasaur,erba,veleno,45,49,49,65,65,45,False
 2,ivysaur,erba,veleno,60,62,63,80,80,60,False
 3,venusaur,erba,veleno,80,82,83,100,100,80,False
