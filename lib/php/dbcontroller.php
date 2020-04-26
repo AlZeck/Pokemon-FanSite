@@ -89,8 +89,12 @@
          *          or null if no match is found
          */
         public function getUserInfoByUsername( $username ){
-            $query = "select * from utente where username = ".$username;
-            return $this->query($query);
+            $query = "select * from utente where username = '".$username."'";
+            $result = $this->query($query);
+            if($result != Null)
+                return $result[0];
+            else 
+                return $result;
         }
 
         /**
@@ -100,8 +104,12 @@
          *         or bool(false)  if NOT 
          */
         public function checkUsernameExists( $username ){
-            $query = "select username from utente where username = ".$username;
-            return $this->connection->query($query);
+            $query = "select username from utente where username = '".$username."'";
+            $result = $this->query($query);
+            if($result != Null)
+                return true;
+            else 
+                return false;
         }
 
         /**
@@ -305,8 +313,5 @@
         }
         
     }
-
-    $con = DBController::getController();
-    var_dump($con->addNewUser("mio","world"))
 
 ?>
