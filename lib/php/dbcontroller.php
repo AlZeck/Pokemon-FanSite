@@ -92,6 +92,7 @@
          *                   string => dif = int,
          *                   string => attsp = int,
          *                   string => difsp = int,
+         *                   string => vel = int,
          *                   string => uber = int[0,1]
          *               )
          *          or null if no match is found
@@ -143,6 +144,7 @@
          *                   string => dif = int,
          *                   string => attsp = int,
          *                   string => difsp = int,
+         *                   string => vel = int,
          *                   string => uber = int[0,1]
          *                  )
          *               )

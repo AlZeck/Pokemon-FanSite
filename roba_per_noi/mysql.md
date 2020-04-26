@@ -19,7 +19,7 @@ extension=mysqli
 
 ```
 sudo apt install php7.3-mysql mariadb-server
-sudo pip install pymysql
+sudo pip3 install pymysql
 ```
 # Creare il db per pokemon
 

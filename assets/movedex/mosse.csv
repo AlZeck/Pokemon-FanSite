@@ -1,4 +1,4 @@
-id;mossa;tipo;categoria;potenza;precisione;descrizione
+id;nome;tipo;categoria;potenza;precisione;descrizione
 1;botta;normale;fisico;40;100;Colpisce il nemico con la coda o le zampe anteriori.
 2;colpokarate;lotta;fisico;50;100;Colpisce il nemico con un colpo netto.
 3;doppiasberla;normale;fisico;15;85;Schiaffeggia il nemico ripetutamente.
