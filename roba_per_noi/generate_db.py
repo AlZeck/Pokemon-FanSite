@@ -28,13 +28,14 @@ def create_db():
         "difsp numeric not null,"+\
         "vel numeric not null,"+\
         "uber boolean not null,"+\
+        "check (id > 0 and ps >= 0  and att >= 0 and dif >= 0 and attsp >= 0 and difsp >= 0 and vel >= 0 ),"+\
     	"check (tipo1 in ('acciaio', 'acqua', 'buio', 'coleottero', 'drago', 'elettro',"+\
     					"'erba', 'folletto', 'fuoco', 'ghiaccio', 'lotta', 'normale', "+\
     					"'psico', 'roccia', 'spettro', 'terra', 'veleno', 'volante')),"+\
     	"check (tipo2 is Null or tipo2 in ('acciaio', 'acqua', 'buio', 'coleottero', 'drago', 'elettro',"+\
     										"'erba', 'folletto', 'fuoco', 'ghiaccio', 'lotta', 'normale',"+\
-    										"'psico', 'roccia', 'spettro', 'terra', 'veleno', 'volante'))"+\
-        ");"
+    										"'psico', 'roccia', 'spettro', 'terra', 'veleno', 'volante')),"+\
+        "check (tipo2 is Null or tipo1 != tipo2));"
     )
 
 
@@ -46,6 +47,8 @@ def create_db():
     	    "potenza numeric not null,"+\
     	    "precisione numeric not null,"+\
     	    "descrizione varchar(200) not null,"+\
+            "check (potenza >= 0 and precisione  >= 0 and precisione <= 100),"+\
+            "check (categoria in ('speciale','fisico')),"+\
     	    "check (tipo in ('acciaio', 'acqua', 'buio', 'coleottero', 'drago', 'elettro', 'erba', "+\
                             "'folletto', 'fuoco', 'ghiaccio', 'lotta', 'normale', 'psico', 'roccia', "+\
                             "'spettro', 'terra', 'veleno', 'volante'))"+\
@@ -123,13 +126,14 @@ def create_sql_file():
         "difsp numeric not null,"+\
         "vel numeric not null,"+\
         "uber boolean not null,"+\
+    	"check (id > 0 and ps >= 0  and att >= 0 and dif >= 0 and attsp >= 0 and difsp >= 0 and vel >= 0 ),"+\
     	"check (tipo1 in ('acciaio', 'acqua', 'buio', 'coleottero', 'drago', 'elettro',"+\
     					"'erba', 'folletto', 'fuoco', 'ghiaccio', 'lotta', 'normale', "+\
     					"'psico', 'roccia', 'spettro', 'terra', 'veleno', 'volante')),"+\
     	"check (tipo2 is Null or tipo2 in ('acciaio', 'acqua', 'buio', 'coleottero', 'drago', 'elettro',"+\
     										"'erba', 'folletto', 'fuoco', 'ghiaccio', 'lotta', 'normale',"+\
-    										"'psico', 'roccia', 'spettro', 'terra', 'veleno', 'volante'))"+\
-        ");"
+    										"'psico', 'roccia', 'spettro', 'terra', 'veleno', 'volante')),"+\
+        "check (tipo2 is Null or tipo1 != tipo2));"
     )
 
 
@@ -141,6 +145,8 @@ def create_sql_file():
     	    "potenza numeric not null,"+\
     	    "precisione numeric not null,"+\
     	    "descrizione varchar(200) not null,"+\
+            "check (potenza >= 0 and precisione  >= 0 and precisione <= 100),"+\
+            "check (categoria in ('speciale','fisico')),"+\
     	    "check (tipo in ('acciaio', 'acqua', 'buio', 'coleottero', 'drago', 'elettro', 'erba', "+\
                             "'folletto', 'fuoco', 'ghiaccio', 'lotta', 'normale', 'psico', 'roccia', "+\
                             "'spettro', 'terra', 'veleno', 'volante'))"+\
