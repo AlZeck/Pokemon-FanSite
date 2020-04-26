@@ -1,14 +1,21 @@
 <?php 
+
     class DBController {
 
         /**
          * ? functions defined on this class :
          * *   public static function getController() 
          *        Gets the database controller 
+         * ? User
+         * *   public function getUserInfoByUsername( $username )
+         *        Gets user's information by username 
+         * *   public function checkUsernameExists( $username )
+         *        Checks if the username exists
+         * *   public function addNewUser($username,$password)
+         *        Adds New user to the db
+         * ? Pokemon 
          * *   public function getPokemonById( $id )
          *        Gets pokemon by id 
-         * *   public function getUserByUsername( $username )
-         *        Gets user by username 
          * *   public function getMossaById( $id )
          *        Gets mossa by id 
          * *   public function getPokemonList()
@@ -40,7 +47,7 @@
          *   private static $password = "python";
          *   private static $database = "pokemon_fansite";
         */
-        
+
         private static $controller = null; 
         private $connection;
 
@@ -74,18 +81,41 @@
         }
 
         /**
-         * Gets user by username 
+         * Gets user's information by username 
          * @param string $username String that identifies the user
          * @return  array(   string => username, 
          *                  string => password, 
          *               )
          *          or null if no match is found
          */
-        public function getUserByUsername( $username ){
+        public function getUserInfoByUsername( $username ){
             $query = "select * from utente where username = ".$username;
             return $this->query($query);
         }
 
+        /**
+         * Checks if the username exists 
+         * @param string $username String that identifies the user
+         * @return bool(true) if exists
+         *         or bool(false)  if NOT 
+         */
+        public function checkUsernameExists( $username ){
+            $query = "select username from utente where username = ".$username;
+            return $this->connection->query($query);
+        }
+
+        /**
+         * Adds New user to the db
+         * @param string $username user choosen username
+         * @param string $username user choosen password 
+         * @return bool(true) if successful
+         *         or bool(false)  if error 
+         */
+        public function addNewUser($username,$password){
+            $query = "insert into utente values('".$username."','".$password."');";
+            return $this->connection->query($query);
+        }
+        
         /**
          * Gets pokemon by id 
          * @param int $id Integer that identifies the pokemon
@@ -271,7 +301,10 @@
             $query = "select * from mossa where tipo = '".$type."'";
             return $this->query($query);
         }
-       
+        
     }
+
+    $con = DBController::getController();
+    var_dump($con->addNewUser("mio","world"))
 
 ?>
