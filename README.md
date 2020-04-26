@@ -26,7 +26,7 @@ Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fa
 |-----------------------------------------------------------|:-----------:|
 | PHP Server Battle Controller                              | TODO        |
 | JS Client Battle Controller                               | TODO        |
-| Pokemon Moveset  csv                                      | TODO        |
+| Pokemon Moveset  csv                                      | DONE        |
 
 
 ### TO BE ASSIGN / DEPENDS OTHERS WORK
