@@ -668,8 +668,11 @@
 	*/
 
 
-	//classe per oggetto Battaglia
+	//classe per oggetto Battaglia ----- SISTEMA IL THIS PASSANDO IL DB IN PARAMETRO OPPURE TOGLIENDO LO STATIC
 	class Battaglia {
+		//variabile indicante il controller del database per la battaglia
+		private $dbcon;		//oggetto DBController
+
 		private $utente1;	//oggetti Utente
 		private $utente2;
 
@@ -677,20 +680,18 @@
 		private $pkmAttivo1;	//oggetti Pokemon
 		private $pkmAttivo2;
 
-
+		
 		//per modularizzare la creazione di un oggetto Mossa
 		private static function ritornaMossa($mossa_id) {
-			//prende la mossa dal db tramite il suo id e salvo in apposite variabili i suoi attributi
-
-			return new Mossa($mossa_id, $nome, $tipo, $categoria, $potenza, $precisione);
+			$mossa = $this->dbcon->getMossaById($mossa_id);
+			return new Mossa($mossa_id, $mossa[1], $mossa[2], $mossa[3], (int)$mossa[4], (int)$mossa[5]);
 		}
 
 
 		//per modularizzare la creazione di un oggetto Pokemon
 		private static function ritornaPokemon($pokemon_id, $mossa1, $mossa2, $mossa3, $mossa4) {
-			//prende il pokemon dal db tramite il suo id e salvo in apposite variabili i suoi attributi
-
-			return new Pokemon($pokemon_id, $nome, $tipo1, $tipo2, $ps, $att, $dif, $atts, $difs, $vel, $mossa1, $mossa2, $mossa3, $mossa4);
+			$pkm = $this->$dbcon->getPokemonById($pokemon_id);
+			return new Pokemon($pokemon_id, $pkm[1], $pkm[2], $pkm[3], (int)$pkm[4], (int)$pkm[5], (int)$pkm[6], (int)$pkm[7], (int)$pkm[8], (int)$pkm[9], $mossa1, $mossa2, $mossa3, $mossa4);
 		}
 
 
@@ -728,6 +729,8 @@
 
 		//costruttore, prende messaggi di inizializzazione come input
 		function __construct($mess_init1, $mess_init2) {
+			$this->dbcon = DBController::getController();
+
 			$this->utente1 = Battaglia::ritornaUtente($mess_init1);
 			$this->pkmAttivo1 = $this->utente1->getPkm1();
 
@@ -737,6 +740,7 @@
 
 
 		//funzioni getter
+		function getDbcon() { return $this->dbcon; }
 		function getUtente1() { return $this->utente1; }
 		function getUtente2() { return $this->utente2; }
 		function getPkmAttivo1() { return $this->pkmAttivo1; }
@@ -769,31 +773,6 @@
 		function genera_risposta($mess_batt1, $mess_batt2) {
 			//...
 		}
-	}
-
-
-	/*
-		-------------------------------------------------------------------------------------------------------------------
-		-------------------------------------------------------------------------------------------------------------------
-		-------------------------------------------------------------------------------------------------------------------
-	*/
-	
-	
-	/*
-	$mossa1 = new Mossa(1, "azione", "normale", "fisico", 50, 100);
-	$mossa2 = new Mossa(2, "botta", "normale", "fisico", 50, 100);
-	$mossa3 = new Mossa(3, "vorticerba", "erba", "speciale", 150, 100);
-	$mossa4 = new Mossa(4, "bora", "ghiaccio", "speciale", 150, 100);
-
-	$pkm1 = new Pokemon(1, "pikachu", "elettro", null, 50, 10, 20, 30, 40, 50, $mossa1, $mossa2, $mossa3, $mossa4);
-	$pkm2 = new Pokemon(2, "eevee", "acqua", "volante", 50, 10, 20, 30, 40, 50, $mossa1, $mossa2, $mossa3, $mossa4);
-
-	echo strval($pkm1);
-	echo "<BR/><BR/><BR/>";
-	echo strval($pkm2);
-	*/
-
-	//echo $pkm1->calcoloDanno($mossa3, $pkm2);
-	
+	}	
 
 ?>
