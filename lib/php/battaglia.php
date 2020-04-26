@@ -668,7 +668,7 @@
 	*/
 
 
-	//classe per oggetto Battaglia
+	//classe per oggetto Battaglia ----- SISTEMA IL THIS PASSANDO IL DB IN PARAMETRO OPPURE TOGLIENDO LO STATIC
 	class Battaglia {
 		//variabile indicante il controller del database per la battaglia
 		private $dbcon;		//oggetto DBController
