@@ -34,7 +34,7 @@ def create_db():
     					"'psico', 'roccia', 'spettro', 'terra', 'veleno', 'volante')),"+\
     	"check (tipo2 is Null or tipo2 in ('acciaio', 'acqua', 'buio', 'coleottero', 'drago', 'elettro',"+\
     										"'erba', 'folletto', 'fuoco', 'ghiaccio', 'lotta', 'normale',"+\
-    										"'psico', 'roccia', 'spettro', 'terra', 'veleno', 'volante'))"+\
+    										"'psico', 'roccia', 'spettro', 'terra', 'veleno', 'volante')),"+\
         "check (tipo2 is Null or tipo1 != tipo2));"
     )
 
@@ -132,7 +132,7 @@ def create_sql_file():
     					"'psico', 'roccia', 'spettro', 'terra', 'veleno', 'volante')),"+\
     	"check (tipo2 is Null or tipo2 in ('acciaio', 'acqua', 'buio', 'coleottero', 'drago', 'elettro',"+\
     										"'erba', 'folletto', 'fuoco', 'ghiaccio', 'lotta', 'normale',"+\
-    										"'psico', 'roccia', 'spettro', 'terra', 'veleno', 'volante'))"+\
+    										"'psico', 'roccia', 'spettro', 'terra', 'veleno', 'volante')),"+\
         "check (tipo2 is Null or tipo1 != tipo2));"
     )
 
