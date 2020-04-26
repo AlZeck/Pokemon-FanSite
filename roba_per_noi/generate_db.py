@@ -11,7 +11,7 @@ def create_db():
     cursor = db.cursor()
 
     try:
-        cursor.execute("drop tables pokemon, mossa, impara, utente;")
+        cursor.execute("drop tables impara, pokemon, mossa, utente;")
     except pymysql.err.InternalError:
         pass
 
@@ -57,6 +57,8 @@ def create_db():
     cursor.execute("create table impara ("+\
         "pokemon numeric references pokemon(id),"+\
         "mossa numeric references mossa(id),"+\
+        "foreign key (pokemon) references pokemon(id),"+\
+        "foreign key (mossa) references mossa(id),"+\
         "primary key (pokemon,mossa)"+\
     ");"
     )
@@ -155,6 +157,8 @@ def create_sql_file():
     print("create table impara ("+\
         "pokemon numeric references pokemon(id),"+\
         "mossa numeric references mossa(id),"+\
+        "foreign key (pokemon) references pokemon(id),"+\
+        "foreign key (mossa) references mossa(id),"+\
         "primary key (pokemon,mossa)"+\
     ");"
     )
