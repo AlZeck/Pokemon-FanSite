@@ -1,4 +1,6 @@
 <?php
+	//includo le funzioni del database
+	include "dbcontroller.php";
 
 	//matrice delle efficacie dei tipi (riga indica attaccante, colonna difensore)
 	const efficacie = array(
@@ -381,38 +383,59 @@
 	);
 
 
-	//-------------------------------------------------------------------------------------------------------------------
+	//array contenente i vari messaggi a seconda delle efficacie
+	const messaggiEfficacie = array(
+		100 => 	"Il colpo è andato a segno.",
+		200 => 	"Il colpo è stato superefficace!",
+		400 =>	"Il colpo è stato iperefficace!!!",
+		50  => 	"Il colpo è stato poco efficace!",
+		25  =>	"Il colpo è stato scarsamente efficace!!!",
+		0   => 	"Il colpo è stato inefficace..."
+	);
+
+
+	//array contenente i vari messaggi a seconda della presenza del brutto colpo
+	const messaggiBC = array(
+		15 =>	"Brutto colpo!",
+		10 => 	"Colpo normale."
+	);
+
+
+	/*
+		-------------------------------------------------------------------------------------------------------------------
+		-------------------------------------------------------------------------------------------------------------------
+		-------------------------------------------------------------------------------------------------------------------
+	*/
 
 
 	//classe per oggetto Pokemon
 	class Pokemon {
-		var $id;	//intero
-		var $nome;	//stringa
-		var $uber;	//booleano
+		private $id;	//intero
+		private $nome;	//stringa
 
 		//stringhe
-		var $tipo1;
-		var $tipo2; //può essere null
+		private $tipo1;
+		private $tipo2; //può essere null
 
 		//interi
-		var $ps;	//se 0 significa che pokemon esausto
-		var $att;
-		var $dif;
-		var $atts;
-		var $difs;
-		var $vel;
+		private $ps;	//se 0 significa che pokemon esausto
+		private $att;
+		private $dif;
+		private $atts;
+		private $difs;
+		private $vel;
 		
 		//oggetti Mossa
-		var $mossa1;
-		var $mossa2;
-		var $mossa3;
-		var $mossa4;
+		private $mossa1;
+		private $mossa2;
+		private $mossa3;
+		private $mossa4;
+
 
 		//costruttore
-		function __construct($id, $nome, $tipo1, $tipo2, $ps, $att, $dif, $atts, $difs, $vel, $uber, $mossa1, $mossa2, $mossa3, $mossa4) {
+		function __construct($id, $nome, $tipo1, $tipo2, $ps, $att, $dif, $atts, $difs, $vel, $mossa1, $mossa2, $mossa3, $mossa4) {
 			$this->id = $id;
 			$this->nome = $nome;
-			$this->uber = $uber;
 
 			$this->tipo1 = $tipo1;
 			$this->tipo2 = $tipo2;
@@ -430,112 +453,168 @@
 			$this->mossa4 = $mossa4;
 		}
 
-		//setter dei PS
-		function setPS($ps) {
-			$this->ps = $ps;
+
+		//funzioni getter
+		function getID() { return $this->id; }
+		function getNome() { return $this->nome; }
+		function getTipo1() { return $this->tipo1; }
+		function getTipo2() { return $this->tipo2; }
+		function getPS() { return $this->ps; }
+		function getAtt() { return $this->att; }
+		function getDif() { return $this->dif; }
+		function getAtts() { return $this->atts; }
+		function getDifs() { return $this->difs; }
+		function getVel() { return $this->vel; }
+		function getMossa1() { return $this->mossa1; }
+		function getMossa2() { return $this->mossa2; }
+		function getMossa3() { return $this->mossa3; }
+		function getMossa4() { return $this->mossa4; }
+
+
+		//funzioni setter
+		function setPS($ps) { $this->ps = $ps; }
+
+
+		//conversione dell'oggetto in stringa
+		function __toString() {
+			return
+				"+++++++++++++++++++++++++++++++++++++++++++ <BR/>"
+				.
+				"
+					POKEMON: <BR/> <BR/>
+					ID:		$this->id <BR/>
+					NOME	$this->nome <BR/>
+					TIPO1:	$this->tipo1 <BR/>
+					TIPO2:	$this->tipo2 <BR/>
+					PS: 	$this->ps <BR/>
+					ATT: 	$this->att <BR/>
+					DIF: 	$this->dif <BR/>
+					ATTS: 	$this->atts <BR/>
+					DIFS: 	$this->difs <BR/>
+					VEL: 	$this->vel <BR/>
+				"
+				.
+				$this->mossa1->__toString() . " <BR/>"
+				.
+				$this->mossa2->__toString() . " <BR/>"
+				.
+				$this->mossa3->__toString() . " <BR/>"
+				.
+				$this->mossa4->__toString() . " <BR/>"
+				.
+				"+++++++++++++++++++++++++++++++++++++++++++ <BR/>";
 		}
+
 
 		//calcolo del danno
 		function calcoloDanno($mossa, $avversario) {
+			//vedo se devo usare statistiche fisiche o speciali
 			$attacco;
 			$difesa;
-			if($mossa->categoria == "fisico") {
+			if($mossa->getCategoria() == "fisico") {
 				$attacco = $this->att;
-				$difesa = $avversario->dif;
+				$difesa = $avversario->getDif();
 			}
 			else {
 				$attacco = $this->atts;
-				$difesa = $avversario->difs;
+				$difesa = $avversario->getDifs();
 			}
 
+			//calcolo il valore della stab (same type attack bonus)
 			$stab;
-			if($mossa->tipo == $this->tipo1 || ( !(is_null($this->tipo2)) &&  $mossa->tipo == $this->tipo2 )) $stab = 1.5;
+			if($mossa->getTipo() == $this->tipo1 || ( !(is_null($this->tipo2)) &&  $mossa->getTipo() == $this->tipo2 )) $stab = 1.5;
 			else $stab = 1;
 
-			$efficacia = $mossa->calcoloEfficacia($avversario);
+			//calcolo l'efficacia di tipo --- MANDARE MESSAGGIO
+			$efficacia = efficacie[$mossa->getTipo()][$avversario->getTipo1()];
+			if( !(is_null($avversario->getTipo2())) ) $efficacia *= efficacie[$mossa->getTipo()][$avversario->getTipo2()];
 
+			//calcolo la presenza del brutto colpo --- MANDARE MESSAGGIO IN CASO AFFERMATIVO
 			$brutto_colpo;
 			if(rand(0, 10000) <= 625) $brutto_colpo = 1.5;
 			else $brutto_colpo = 1;
-			//mandare messaggio del brutto colpo
 
-			$N = rand(85, 100) / 100;
+			//calcolo l'aggiustamento casuale
+			$agg_cas = rand(85, 100) / 100;
 
-			return (int) round( (( 110 * $attacco * $mossa->potenza / (250 * $difesa) ) + 2) * $efficacia * $stab * $brutto_colpo * $N );
+			//ritorno l'intero indicante il danno da infliggere
+			return (int) round( (( 110 * $attacco * $mossa->getPotenza() / (250 * $difesa) ) + 2) * $efficacia * $stab * $brutto_colpo * $agg_cas );
 		}
 	}
 
 
-	//-------------------------------------------------------------------------------------------------------------------
+	/*
+		-------------------------------------------------------------------------------------------------------------------
+		-------------------------------------------------------------------------------------------------------------------
+		-------------------------------------------------------------------------------------------------------------------
+	*/
 
 
 	//classe per oggetto Mossa
 	class Mossa {
-		var $id;			//intero
-		var $nome;			//stringa
-		var $tipo;			//stringa
-		var $categoria;		//stringa
-		var $potenza;		//intero
-		var $precisione;	//intero
-		var $descrizione;	//stringa	--- TENERE LA DESCRIZIONE QUI DENTRO OPPURE NO?
+		private $id;			//intero
+		private $nome;			//stringa
+		private $tipo;			//stringa
+		private $categoria;		//stringa
+		private $potenza;		//intero
+		private $precisione;	//intero
 
-		function __construct($id, $nome, $tipo, $categoria, $potenza, $precisione, $descrizione) {
+
+		function __construct($id, $nome, $tipo, $categoria, $potenza, $precisione) {
 			$this->id = $id;
 			$this->nome = $nome;
 			$this->tipo = $tipo;
 			$this->categoria = $categoria;
 			$this->potenza = $potenza;
 			$this->precisione = $precisione;
-			$this->descrizione = $descrizione;
 		}
 
-		//calcolo dell'efficacia
-		function calcoloEfficacia($avversario) {
-			$eff = $efficacie[$this->tipo][$avversario->tipo1];
-			if( !(is_null($avversario->tipo2)) ) $eff *= $efficacie[$this->tipo][$avversario->tipo2];
 
-			if(eff == 1) {          //efficacia standard
-				return eff;
-				//return [eff, "Il colpo è andato a segno."];
-			}
-			else if(eff == 2) {     //superefficacia
-				return eff;
-				//return [eff, "Il colpo è stato superefficace!"];
-			}
-			else if(eff == 4) {     //iperefficacia
-				return eff;
-				//return [eff, "Il colpo è stato iperefficace!!!"];
-			}
-			else if(eff == 0.5) {   //poca efficacia
-				return eff;
-				//return [eff, "Il colpo è stato poco efficace!"];
-			}
-			else if(eff == 0.25) {  //iperefficacia
-				return eff;
-				//return [eff, "Il colpo è stato scarsamente efficace!!!"];
-			}
-			else {                  //inefficacia   (eff == 0)
-				return eff;
-				//return [eff, "Il colpo è stato inefficace..."];
-			}
+		//funzioni getter
+		function getID() { return $this->id; }
+		function getNome() { return $this->nome; }
+		function getTipo() { return $this->tipo; }
+		function getCategoria() { return $this->categoria; }
+		function getPotenza() { return $this->potenza; }
+		function getPrecisione() { return $this->precisione; }
+
+
+		//conversione dell'oggetto in stringa
+		function __toString() {
+			return 
+				"
+					------------------------------------------- <BR/>
+					MOSSA: <BR/> <BR/>
+					ID:				$this->id <BR/>
+					NOME			$this->nome <BR/>
+					TIPO:			$this->tipo <BR/>
+					CATEGORIA:		$this->categoria <BR/>
+					POTENZA: 		$this->potenza <BR/>
+					PRECISIONE: 	$this->precisione <BR/>
+				";
 		}
 	}
 
 
-	//-------------------------------------------------------------------------------------------------------------------
+	/*
+		-------------------------------------------------------------------------------------------------------------------
+		-------------------------------------------------------------------------------------------------------------------
+		-------------------------------------------------------------------------------------------------------------------
+	*/
 
 
 	//classe per oggetto Utente
 	class Utente {
-		var $username;	//stringa
+		private $username;	//stringa
+		private $pkm1;		//oggetti Pokemon
+		private $pkm2;
+		private $pkm3;
+		private $pkm4;
+		private $pkm5;
+		private $pkm6;
 
-		var $pkm1;		//oggetti Pokemon
-		var $pkm2;
-		var $pkm3;
-		var $pkm4;
-		var $pkm5;
-		var $pkm6;
 
+		//costruttore
 		function __construct($username, $pkm1, $pkm2, $pkm3, $pkm4, $pkm5, $pkm6) {
 			$this->username = $username;
 
@@ -546,40 +625,175 @@
 			$this->pkm5 = $pkm5;
 			$this->pkm6 = $pkm5;
 		}
+
+
+		//funzioni getter
+		function getUsername() { return $this->username; }
+		function getPkm1() { return $this->pkm1; }
+		function getPkm2() { return $this->pkm2; }
+		function getPkm3() { return $this->pkm3; }
+		function getPkm4() { return $this->pkm4; }
+		function getPkm5() { return $this->pkm5; }
+		function getPkm6() { return $this->pkm6; }
+
+
+		//conversione dell'oggetto in stringa
+		function __toString() {
+			return 
+				"=========================================== <BR/>"
+				.
+				"UTENTE: <BR/> <BR/> USERNAME: $this->username <BR/>"
+				.
+				$this->pkm1->__toString() . "<BR/>"
+				.
+				$this->pkm2->__toString() . "<BR/>"
+				.
+				$this->pkm3->__toString() . "<BR/>"
+				.
+				$this->pkm4->__toString() . "<BR/>"
+				.
+				$this->pkm5->__toString() . "<BR/>"
+				.
+				$this->pkm6->__toString()
+				.
+				"=========================================== <BR/>";
+		}
 	}
 
 
-	//-------------------------------------------------------------------------------------------------------------------
+	/*
+		-------------------------------------------------------------------------------------------------------------------
+		-------------------------------------------------------------------------------------------------------------------
+		-------------------------------------------------------------------------------------------------------------------
+	*/
 
 
 	//classe per oggetto Battaglia
 	class Battaglia {
-		var $utente1;	//oggetti Utente
-		var $utente2;
+		private $utente1;	//oggetti Utente
+		private $utente2;
 
 		//variabili indicanti pokemon attivi per i due utenti
-		var $pkmAttivo1;	//oggetti Pokemon
-		var $pkmAttivo2;
+		private $pkmAttivo1;	//oggetti Pokemon
+		private $pkmAttivo2;
 
-		//costruttore prende messaggi di inizializzazione come input
+
+		//per modularizzare la creazione di un oggetto Mossa
+		private static function ritornaMossa($mossa_id) {
+			//prende la mossa dal db tramite il suo id e salvo in apposite variabili i suoi attributi
+
+			return new Mossa($mossa_id, $nome, $tipo, $categoria, $potenza, $precisione);
+		}
+
+
+		//per modularizzare la creazione di un oggetto Pokemon
+		private static function ritornaPokemon($pokemon_id, $mossa1, $mossa2, $mossa3, $mossa4) {
+			//prende il pokemon dal db tramite il suo id e salvo in apposite variabili i suoi attributi
+
+			return new Pokemon($pokemon_id, $nome, $tipo1, $tipo2, $ps, $att, $dif, $atts, $difs, $vel, $mossa1, $mossa2, $mossa3, $mossa4);
+		}
+
+
+		//per modularizzare la creazione di un oggetto Utente
+		private static function ritornaUtente($mess_init) {
+			//ricavo l'oggetto json
+			$obj_init = json_decode($mess_init);
+
+			//array dove salvare gli oggetti Pokemon componenti la sua squadra
+			$arraySquadra = array();
+
+			//creo e salvo la squadra ed i loro moveset
+			$squadra = $obj_init->squadra;
+			for($i=0; $i<6; $i++) {
+				$arraySquadra[$i] = Battaglia::ritornaPokemon(
+					$squadra[$i]->id,
+					Battaglia::ritornaMossa( $squadra[$i]->mosse[0] ),
+					Battaglia::ritornaMossa( $squadra[$i]->mosse[1] ),
+					Battaglia::ritornaMossa( $squadra[$i]->mosse[2] ),
+					Battaglia::ritornaMossa( $squadra[$i]->mosse[3] )
+				);
+			}
+
+			return new Utente(
+				$obj_init->utente,
+				$arraySquadra[0],
+				$arraySquadra[1],
+				$arraySquadra[2],
+				$arraySquadra[3],
+				$arraySquadra[4],
+				$arraySquadra[5]
+			);
+		}
+
+
+		//costruttore, prende messaggi di inizializzazione come input
 		function __construct($mess_init1, $mess_init2) {
-			//...
+			$this->utente1 = Battaglia::ritornaUtente($mess_init1);
+			$this->pkmAttivo1 = $this->utente1->getPkm1();
+
+			$this->utente2 = Battaglia::ritornaUtente($mess_init2);
+			$this->pkmAttivo2 = $this->utente2->getPkm1();
 		}
 
-		//funzione per settare il nuovo pokemon attivo 1
-		function setPkmAttivo1($pkmAttivo1) {
-			$this->setPkmAttivo1 = $pkmAttivo1;
+
+		//funzioni getter
+		function getUtente1() { return $this->utente1; }
+		function getUtente2() { return $this->utente2; }
+		function getPkmAttivo1() { return $this->pkmAttivo1; }
+		function getPkmAttivo2() { return $this->pkmAttivo2; }
+
+
+		//funzioni setter
+		function setPkmAttivo1($pkm) { $this->setPkmAttivo1 = $pkm; }
+		function setPkmAttivo2($pkm) { $this->setPkmAttivo2 = $pkm; }
+
+
+		//conversione dell'oggetto in stringa
+		function __toString() {
+			return 
+				"<HR/>"
+				.
+				"UTENTE 1: <BR/>" . $this->utente1->__toString()
+				.
+				"POKEMON ATTIVO 1: <BR/>" . $this->utente2->__toString()
+				.
+				"UTENTE 2: <BR/>" . $this->pkmAttivo1->__toString()
+				.
+				"POKEMON ATTIVO 2: <BR/>" . $this->pkmAttivo2->__toString()
+				.
+				"<HR/>";
 		}
 
-		//funzione per settare il nuovo pokemon attivo 2
-		function setPkmAttivo2($pkmAttivo2) {
-			$this->setPkmAttivo2 = $pkmAttivo2;
-		}
 
-		//metodo che prende in input stringa json messaggi battaglia daI client e restituisce quella di output
+		//metodo che prende in input stringa json messaggi battaglia dai client e restituisce quella di output
 		function genera_risposta($mess_batt1, $mess_batt2) {
 			//...
 		}
 	}
+
+
+	/*
+		-------------------------------------------------------------------------------------------------------------------
+		-------------------------------------------------------------------------------------------------------------------
+		-------------------------------------------------------------------------------------------------------------------
+	*/
+	
+	
+	/*
+	$mossa1 = new Mossa(1, "azione", "normale", "fisico", 50, 100);
+	$mossa2 = new Mossa(2, "botta", "normale", "fisico", 50, 100);
+	$mossa3 = new Mossa(3, "vorticerba", "erba", "speciale", 150, 100);
+	$mossa4 = new Mossa(4, "bora", "ghiaccio", "speciale", 150, 100);
+
+	$pkm1 = new Pokemon(1, "pikachu", "elettro", null, 50, 10, 20, 30, 40, 50, $mossa1, $mossa2, $mossa3, $mossa4);
+	$pkm2 = new Pokemon(2, "eevee", "acqua", "volante", 50, 10, 20, 30, 40, 50, $mossa1, $mossa2, $mossa3, $mossa4);
+
+	echo strval($pkm1);
+	echo "<BR/><BR/><BR/>";
+	echo strval($pkm2);
+	*/
+
+	//echo $pkm1->calcoloDanno($mossa3, $pkm2);
+	
 
 ?>
