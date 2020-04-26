@@ -17,6 +17,12 @@
          *        Gets all the mosse in the database
          * *   public function getMosseListByPokemon( $id )
          *        Gets all the mosse that a pokemon can learn
+         * *   public function getListPokemonByMossa( $id )
+         *        Gets all the pokemons in the database that can learn an specific move
+         * *   public function getListPokemonByType
+         *        Gets all the pokemons in the database that belong to an specific type
+         * *   public function getListMovesByType( $type )
+         *        Gets all the mosse in the database that belong to an specific type
          */
 
 
@@ -34,7 +40,7 @@
          *   private static $password = "python";
          *   private static $database = "pokemon_fansite";
         */
-
+        
         private static $controller = null; 
         private $connection;
 
@@ -104,8 +110,7 @@
             else 
                 return $result;
         }
-        
-        
+         
         /**
          * Gets mossa by id 
          * @param int $id Integer that identifies the mossa
@@ -128,7 +133,6 @@
             else 
                 return $result;
         }
-
 
         /**
          * Gets all the pokemons in the database
@@ -198,6 +202,76 @@
             return $this->query($query);
         }
 
+        /**
+         * Gets all the pokemons in the database that can learn an specific move 
+         * @return  array(
+         *              array(
+         *                   string => id = int, 
+         *                   string => nome, 
+         *                   string => tipo1,
+         *                   string => tipo2,
+         *                   string => ps = int,
+         *                   string => att = int,
+         *                   string => dif = int,
+         *                   string => attsp = int,
+         *                   string => difsp = int,
+         *                   string => uber = int[0,1]
+         *                  )
+         *               )
+         *          or null if no match is found
+         */
+        public function getListPokemonByMossa( $id ){
+            $query = "select pokemon.*
+            from mossa,pokemon,impara 
+            where impara.pokemon = pokemon.id 
+                and mossa.id = impara.mossa 
+                and mossa.id =".strval($id);
+            return $this->query($query);
+        }
+
+        /**
+         * Gets all the pokemons in the database that belong to an specific type 
+         * @return  array(
+         *              array(
+         *                   string => id = int, 
+         *                   string => nome, 
+         *                   string => tipo1,
+         *                   string => tipo2,
+         *                   string => ps = int,
+         *                   string => att = int,
+         *                   string => dif = int,
+         *                   string => attsp = int,
+         *                   string => difsp = int,
+         *                   string => uber = int[0,1]
+         *                  )
+         *               )
+         *          or null if no match is found
+         */
+        public function getListPokemonByType( $type ){
+            $query = "select * from pokemon where tipo1 = '".$type."' or tipo2 = '".$type."'";
+            return $this->query($query);
+        }
+
+        /**
+         * Gets all the mosse in the database that belong to an specific type
+         * @return  array(   
+         *              array(
+         *                   string => id = int, 
+         *                   string => nome, 
+         *                   string => tipo,
+         *                   string => categoria,
+         *                   string => potenza = int,
+         *                   string => precisione = int,
+         *                   string => descrizione
+         *                   )
+         *               )
+         *          or null if no match is found
+         */
+        public function getListMovesByType( $type ){
+            $query = "select * from mossa where tipo = '".$type."'";
+            return $this->query($query);
+        }
+       
     }
 
 ?>
