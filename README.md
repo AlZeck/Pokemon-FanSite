@@ -9,7 +9,7 @@ Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fa
 |-----------------------------------------------------------|:-----------:|
 | MySQL Database                                            | DONE        |
 | MySQL DB on Aruba                                         | DONE        |
-| Database controller                                       | TODO        |
+| Database controller                                       | DONE        |
 | Battle Websockets                                         | TODO        |
 
 
