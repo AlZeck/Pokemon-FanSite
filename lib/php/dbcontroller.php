@@ -115,7 +115,7 @@
         /**
          * Adds New user to the db
          * @param string $username user choosen username
-         * @param string $username user choosen password 
+         * @param string $password user choosen password 
          * @return bool(true) if successful
          *         or bool(false)  if error 
          */
