@@ -26,7 +26,7 @@
          *        Gets all the mosse that a pokemon can learn
          * *   public function getListPokemonByMossa( $id )
          *        Gets all the pokemons in the database that can learn an specific move
-         * *   public function getListPokemonByType
+         * *   public function getListPokemonByType( $type )
          *        Gets all the pokemons in the database that belong to an specific type
          * *   public function getListMovesByType( $type )
          *        Gets all the mosse in the database that belong to an specific type
