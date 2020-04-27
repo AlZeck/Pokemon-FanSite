@@ -32,32 +32,21 @@
          *        Gets all the mosse in the database that belong to an specific type
          */
 
-
-        /**
-         * * local db values 
-         */ 
-        private static $servername = "localhost";
-        private static $username = "monty";
-        private static $password = "python";
-        private static $database = "pokemon_fansite";
-        /**
-         * * external db values 
-         *   private static $servername = "localhost";
-         *   private static $username = "monty";
-         *   private static $password = "python";
-         *   private static $database = "pokemon_fansite";
-        */
-
+        
         private static $controller = null; 
         private $connection;
-
+        
         private function __construct(){
-    
-            $this->connection = new mysqli(self::$servername, self::$username, self::$password, self::$database);
-            if ($this->connection->connect_error) {
-                die("Connection failed: " . $this->connection->connect_error);
+            try{
+                $servername = "localhost";
+                $username = "monty";
+                $password = "python";
+                $database = "pokemon_fansite";
+                $this->connection = new PDO("pgsql:host=$servername;dbname=$database", $username, $password);
+            } catch (PDOException $e){
+                die("Connection failed: " . $e->getMessage());
             }
-            // echo "Connected successfully \n";
+            echo "Connected successfully \n";
         }
 
         public static function getController() {
@@ -71,11 +60,10 @@
         private function query($query){
             $obj = Null;
             if( $result = $this->connection->query($query) ){
-                $obj = $result -> fetch_all();
+                $obj = $result -> fetchAll();
                 if (sizeof($obj)==0){
                     $obj = Null;
                 }
-                $result->free_result(); 
             }
             return $obj;
         }
@@ -121,7 +109,9 @@
          */
         public function addNewUser($username,$password){
             $query = "insert into utente values('".$username."','".$password."');";
-            return $this->connection->query($query);
+            $this->connection->beginTransaction();
+            $this->connection->exec($query);
+            return $this->connection->commit();
         }
         
         /**
@@ -314,4 +304,16 @@
         
     }
 
+    $con = DBController::getController();
+    var_dump($con->addNewUser("admin","admin"));
+    var_dump($con->checkUsernameExists( "admin" ));
+    var_dump($con->getUserInfoByUsername( "admin" ));
+    var_dump($con->getPokemonById( 10 ));
+    var_dump($con->getMossaById( 10 ));
+    var_dump($con->getPokemonList());
+    var_dump($con->getMosseList());
+    var_dump($con->getMosseListByPokemon( 10 ));
+    var_dump($con->getListPokemonByMossa( 10 ));
+    var_dump($con->getListPokemonByType( "fuoco" ));
+    var_dump($con->getListMovesByType( "fuoco" ));
 ?>
