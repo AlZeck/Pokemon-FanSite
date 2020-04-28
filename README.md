@@ -7,8 +7,7 @@ Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fa
 ### Sebastian
 | Task                                                      | Status      |
 |-----------------------------------------------------------|:-----------:|
-| MySQL Database                                            | DONE        |
-| MySQL DB on Aruba                                         | DONE        |
+| Postgresql Database                                       | DONE        |
 | Database controller                                       | DONE        |
 | Battle Websockets                                         | TODO        |
 
@@ -41,4 +40,3 @@ Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fa
 | Everything Specific Pokemon Page                          | TODO        |
 | Everything Specific Move Page                        	    | TODO        |
 | Everything Specific Type Page                       	    | TODO        |
-| Project display on Aruba (Sebastian)                      | TODO        |

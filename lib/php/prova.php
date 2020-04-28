@@ -5,6 +5,7 @@
 
 <?php
 	//PROGRAMMA PER TESTARE FUNZIONAMENTO GENERALE, LASCIARE QUESTO FILE FINO A NUOVO ORDINE
+	/*
 	include './dbcontroller.php';
 	include './battaglia.php';
 	
@@ -21,7 +22,9 @@
 	echo $mossa1[0] . " +++ " . $mossa1[1] . " +++ " . $mossa1[2] . " +++ " . $mossa1[3] . " +++ " . $mossa1[4]
 	. " +++ " . $mossa1[5] . " +++ " . $mossa1[6];
 
+	*/
 
+	echo ucwords("tanto va la_gatta al-lardo");
 	
 
 	/*

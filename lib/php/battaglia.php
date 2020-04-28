@@ -668,10 +668,10 @@
 	*/
 
 
-	//classe per oggetto Battaglia ----- SISTEMA IL THIS PASSANDO IL DB IN PARAMETRO OPPURE TOGLIENDO LO STATIC
+	//classe per oggetto Battaglia
 	class Battaglia {
 		//variabile indicante il controller del database per la battaglia
-		private $dbcon;		//oggetto DBController
+		private $dbcon;	//oggetto DBController
 
 		private $utente1;	//oggetti Utente
 		private $utente2;
@@ -682,21 +682,21 @@
 
 		
 		//per modularizzare la creazione di un oggetto Mossa
-		private static function ritornaMossa($mossa_id) {
+		private function ritornaMossa($mossa_id) {
 			$mossa = $this->dbcon->getMossaById($mossa_id);
 			return new Mossa($mossa_id, $mossa[1], $mossa[2], $mossa[3], (int)$mossa[4], (int)$mossa[5]);
 		}
 
 
 		//per modularizzare la creazione di un oggetto Pokemon
-		private static function ritornaPokemon($pokemon_id, $mossa1, $mossa2, $mossa3, $mossa4) {
+		private function ritornaPokemon($pokemon_id, $mossa1, $mossa2, $mossa3, $mossa4) {
 			$pkm = $this->$dbcon->getPokemonById($pokemon_id);
 			return new Pokemon($pokemon_id, $pkm[1], $pkm[2], $pkm[3], (int)$pkm[4], (int)$pkm[5], (int)$pkm[6], (int)$pkm[7], (int)$pkm[8], (int)$pkm[9], $mossa1, $mossa2, $mossa3, $mossa4);
 		}
 
 
 		//per modularizzare la creazione di un oggetto Utente
-		private static function ritornaUtente($mess_init) {
+		private function ritornaUtente($mess_init) {
 			//ricavo l'oggetto json
 			$obj_init = json_decode($mess_init);
 
@@ -706,12 +706,12 @@
 			//creo e salvo la squadra ed i loro moveset
 			$squadra = $obj_init->squadra;
 			for($i=0; $i<6; $i++) {
-				$arraySquadra[$i] = Battaglia::ritornaPokemon(
+				$arraySquadra[$i] = $this->ritornaPokemon(
 					$squadra[$i]->id,
-					Battaglia::ritornaMossa( $squadra[$i]->mosse[0] ),
-					Battaglia::ritornaMossa( $squadra[$i]->mosse[1] ),
-					Battaglia::ritornaMossa( $squadra[$i]->mosse[2] ),
-					Battaglia::ritornaMossa( $squadra[$i]->mosse[3] )
+					$this->ritornaMossa( $squadra[$i]->mosse[0] ),
+					$this->ritornaMossa( $squadra[$i]->mosse[1] ),
+					$this->ritornaMossa( $squadra[$i]->mosse[2] ),
+					$this->ritornaMossa( $squadra[$i]->mosse[3] )
 				);
 			}
 
@@ -728,14 +728,45 @@
 
 
 		//costruttore, prende messaggi di inizializzazione come input
-		function __construct($mess_init1, $mess_init2) {
+		private function __construct($mess_init1, $mess_init2) {
 			$this->dbcon = DBController::getController();
 
-			$this->utente1 = Battaglia::ritornaUtente($mess_init1);
+			$this->utente1 = $this->ritornaUtente($mess_init1);
 			$this->pkmAttivo1 = $this->utente1->getPkm1();
 
-			$this->utente2 = Battaglia::ritornaUtente($mess_init2);
+			$this->utente2 = $this->ritornaUtente($mess_init2);
 			$this->pkmAttivo2 = $this->utente2->getPkm1();
+		}
+
+
+		//funzione da chiamare per creare oggetto Battaglia e inviare primi messaggi al client
+		static function inizializzaBattaglia($mess_init1, $mess_init2) {
+			$battaglia = new Battaglia($mess_init1, $mess_init2);
+
+			$messaggio = '
+				{
+					"primo": {
+							"utente": $battaglia->getUtente1()->getUsername(),
+							"azione": "switch",
+							"valore": $battaglia->getPkmAttivo1()->getID(),
+							"danno": 0,
+							"messaggio": "COMINCIA LO SCONTRO! ucwords(str_replace("_"," ",$battaglia->getPkmAttivo1()->getNome())) viene mandato in campo!",
+							"risultato": 0
+					},
+				
+					"secondo": {
+							"utente": $battaglia->getUtente2()->getUsername(),
+							"azione": "switch",
+							"valore": $battaglia->getPkmAttivo2()->getID(),
+							"danno": 0,
+							"messaggio": " ucwords(str_replace("_"," ",$battaglia->getPkmAttivo1()->getNome())) viene mandato in campo!",
+							"risultato": 0
+					}
+				}
+			';
+
+			//tupla: primo posto oggetto Battaglia, secondo posto primo messaggio da inviare
+			return [$battaglia, $messaggio];
 		}
 
 
@@ -769,9 +800,78 @@
 		}
 
 
+		//per modularizzare la gestione di un messaggio di battaglia
+		private function gestisciMessaggi($obj_batt1, $pkmAttivo1, $obj_batt2, $pkmAttivo2) {
+			$messaggio = "{";				//preparo il messaggio
+			$azione1 = $obj_batt1->azione;	//ricavo la prima azione
+
+
+			if($azione1 == "mossa") {
+				//calcola danno della mossa
+				//se avversario ko crea e invia messaggio
+				//altrimenti continua
+			}
+			else if($azione1 == "switch") {
+				//sostituisco il pokemon attivo
+			}
+			else if($azione1 == "attesa") {	//IN TEORIA QUEST'AZIONE PUÒ AVERLA SOLO IL SECONDO
+				//rimango in attesa mentre l'altro cambia pokemon
+			}
+			else { //azione1 è forfeit
+				//mando la mia ritirata
+				//l'avversario non si muove (a meno che non ha forfettato anche lui, da gestire qui)
+			}
+
+
+			$azione2 = $obj_batt2->azione;	//ricavo la seconda azione
+
+			if($azione2 == "mossa") {
+				//calcola danno della mossa
+				//crea e invia messaggio (sia se ko che meno)
+			}
+			else if($azione2 == "switch") {
+				//sostituisco il pokemon attivo
+			}
+			else if($azione2 == "attesa") {
+				//rimango in attesa mentre l'altro cambia pokemon
+			}
+			else { //azione2 è forfeit --- 	SE LA CONTROLLO SOPRA QUESTA OPZIONE NON SERVE
+				//mando la mia ritirata
+				//l'avversario non si muove
+			}
+
+
+			return $messaggio . "}";
+		}
+
+
 		//metodo che prende in input stringa json messaggi battaglia dai client e restituisce quella di output
 		function genera_risposta($mess_batt1, $mess_batt2) {
-			//...
+			//ricavo gli oggetti json
+			$obj_batt1 = json_decode($mess_batt1);
+			$obj_batt2 = json_decode($mess_batt2);
+
+			//ricavo il pokemon attivo di chi appartiene il messaggio
+			if($this->getUtente1()->getUsername() == $obj_batt1->utente) {
+				$pkmAttivo1 = $this->getPkmAttivo1();
+				$pkmAttivo2 = $this->getPkmAttivo2();
+			}
+			else {
+				$pkmAttivo1 = $this->getPkmAttivo2();
+				$pkmAttivo2 = $this->getPkmAttivo1();
+			}
+
+			//se uno dei due forfeitta deve agire per primo
+			if($obj_batt1->azione == "forfeit") return $this->gestisciMessaggi($obj_batt1, $pkmAttivo1, $obj_batt2, $pkmAttivo2);
+			else if($obj_batt2->azione == "forfeit") return $this->gestisciMessaggi($obj_batt2, $pkmAttivo2, $obj_batt1, $pkmAttivo1);
+
+			//altrimenti se uno dei due cambia pokemon deve agire per primo
+			if($obj_batt1->azione == "switch") return $this->gestisciMessaggi($obj_batt1, $pkmAttivo1, $obj_batt2, $pkmAttivo2);
+			else if($obj_batt2->azione == "switch") return $this->gestisciMessaggi($obj_batt2, $pkmAttivo2, $obj_batt1, $pkmAttivo1);
+
+			//altrimenti agisce prima chi è più veloce
+			if( $pkmAttivo1->getVel() > $pkmAttivo2->getVel() ) return $this->gestisciMessaggi($obj_batt1, $pkmAttivo1, $obj_batt2, $pkmAttivo2);
+			else return $this->gestisciMessaggi($obj_batt2, $pkmAttivo2, $obj_batt1, $pkmAttivo1);
 		}
 	}	
 

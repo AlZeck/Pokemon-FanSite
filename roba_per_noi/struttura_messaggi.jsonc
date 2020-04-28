@@ -1,6 +1,7 @@
-//CASI SPECIALI:
-// All'inizio della battaglia il server, dopo l'arrivo dei messaggi di inizializzazione manda ad entrambi l'azione "switch" per il loro primo pokemon della squadra
-// Se arriva ad un utente l'azione "esausto" (e "risultato" è 0) in automatico esso invia un messaggio di "switch", mentre l'altroinvia automaticamente l'azione di "attesa"
+//METTERE QUI LO SCHEMA LOGICO DEL TIMING DELLE AZIONI E CONSEGUENZE
+
+
+//IMPORTANTE: All'inizio della battaglia il server, dopo l'arrivo dei messaggi di inizializzazione manda ad entrambi l'azione "switch" per il loro primo pokemon della squadra
 
 
 //STRUTTURA MESSAGGI DI INIZIALIZZAZIONE (client -> server)
@@ -80,7 +81,7 @@
 //STRUTTURA MESSAGGI BATTAGLIA (client -> server)
 {
     "utente": USERNAME,     //stringa indicante lo username dell'utente in questione ("CPU" per cpu)
-    "azione": AZIONE,       //stringa indicante l'azione corrente: "mossa", "switch", "forfeit" o "attesa"
+    "azione": AZIONE,       //stringa indicante l'azione corrente: "mossa", "switch", "perso" o "attesa"
     "valore": VALORE        //intero indicante il valore dell'azione: id_mossa, id_pokemon, 0 per il resto
 }
 
@@ -89,19 +90,17 @@
 {
     "primo": {
             "utente": USERNAME,      //stringa indicante lo username dell'utente in questione ("CPU" per cpu)
-            "azione": AZIONE,        //stringa indicante l'azione corrente: "mossa", "switch", "forfeit", "esausto" o "attesa"
-            "valore": VALORE,        //intero indicante il valore dell'azione: id_mossa (anche in caso di esausto), id_pokemon, 0 per il resto
-            "danno": DANNO,          //intero indicante il danno in caso di mossa (anche in caso di esausto), 0 per il resto
+            "azione": AZIONE,        //stringa indicante l'azione corrente: "mossa", "mossa_attesa", "mossa_esausto", "esausto", "switch", "switch_esausto", "perso", "vinto"
+            "valore": VALORE,        //intero indicante il valore dell'azione: id_mossa (per le mosse), id_pokemon (per gli switch), 0 per il resto
+            "danno": DANNO,          //intero indicante il danno inflitto in caso di mossa, 0 per il resto
             "messaggio": MESSAGGIO,  //stringa indicante il messaggio da associare e mostrare all'azione (ad esempio brutto colpo)
-            "risultato": RISULTATO   //un intero indicante lo stato della battaglia: 0 ancora non è finita, 1 hai vinto, 2 hai perso
     },
 
     "secondo": {
             "utente": USERNAME,      //stringa indicante lo username dell'utente in questione ("CPU" per cpu)
-            "azione": AZIONE,        //stringa indicante l'azione corrente: "mossa", "switch", "forfeit", "esausto" o "attesa"
-            "valore": VALORE,        //intero indicante il valore dell'azione: id_mossa, id_pokemon, 0 per il resto
+            "azione": AZIONE,        //stringa indicante l'azione corrente: "mossa", "mossa_attesa", "mossa_esausto", "esausto", "switch", "switch_esausto", "perso", "vinto"
+            "valore": VALORE,        //intero indicante il valore dell'azione: id_mossa (per le mosse), id_pokemon (per gli switch), 0 per il resto
             "danno": DANNO,          //intero indicante il danno in caso di mossa, 0 per il resto
             "messaggio": MESSAGGIO,  //stringa indicante il messaggio da associare e mostrare all'azione (ad esempio brutto colpo)
-            "risultato": RISULTATO   //un intero indicante lo stato della battaglia: 0 ancora non è finita, 1 hai vinto, 2 hai perso
     }
 }
