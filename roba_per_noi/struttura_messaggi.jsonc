@@ -4,16 +4,16 @@
 //STRUTTURA MESSAGGI DI INIZIALIZZAZIONE (client -> server)
 {
 	//stringa indicante lo username dell'utente in questione ("CPU" per cpu)
-    'utente': USERNAME,
+    "utente": USERNAME,
 
 	//array indicante la squadra dell'utente in questione
-    'squadra': [
+    "squadra": [
         {
 			//intero indicante id pokemon
-            'id': POKEMON_UNO,
+            "id": POKEMON_UNO,
 
 			//array di interi indicanti id delle quattro mosse del pokemon
-            'mosse': [
+            "mosse": [
                 MOSSA_UNO,
                 MOSSA_DUE,
                 MOSSA_TRE,
@@ -23,9 +23,9 @@
 
 		//come sopra per secondo pokemon
         {
-            'id': POKEMON_DUE,
+            "id": POKEMON_DUE,
 
-            'mosse': [
+            "mosse": [
                 MOSSA_UNO,
                 MOSSA_DUE,
                 MOSSA_TRE,
@@ -35,9 +35,9 @@
 
 		//come sopra per terzo pokemon
         {
-            'id': POKEMON_TRE,
+            "id": POKEMON_TRE,
 
-            'mosse': [
+            "mosse": [
                 MOSSA_UNO,
                 MOSSA_DUE,
                 MOSSA_TRE,
@@ -47,9 +47,9 @@
 
 		//come sopra per quarto pokemon
         {
-            'id': POKEMON_QUATTRO,
+            "id": POKEMON_QUATTRO,
 
-            'mosse': [
+            "mosse": [
                 MOSSA_UNO,
                 MOSSA_DUE,
                 MOSSA_TRE,
@@ -59,9 +59,9 @@
 
 		//come sopra per quinto pokemon
         {
-            'id': POKEMON_CINQUE,
+            "id": POKEMON_CINQUE,
 
-            'mosse': [
+            "mosse": [
                 MOSSA_UNO,
                 MOSSA_DUE,
                 MOSSA_TRE,
@@ -71,9 +71,9 @@
 
 		//come sopra per sesto pokemon
         {
-            'id': POKEMON_SEI,
+            "id": POKEMON_SEI,
 
-            'mosse': [
+            "mosse": [
                 MOSSA_UNO,
                 MOSSA_DUE,
                 MOSSA_TRE,
@@ -138,43 +138,43 @@
 //STRUTTURA MESSAGGI BATTAGLIA (client -> server)
 {
 	//stringa indicante lo username dell'utente in questione ("CPU" per cpu)
-	'utente': USERNAME,
+	"utente": USERNAME,
 	
 	//stringa indicante l'azione corrente: "mossa", "switch", "forfeit" o "attesa"
-	'azione': AZIONE,
+	"azione": AZIONE,
 	
 	//intero indicante il valore dell'azione: id_mossa, id_pokemon, 0 per il resto
-    'valore': VALORE
+    "valore": VALORE
 }
 
 
 //STRUTTURA MESSAGGI BATTAGLIA (server -> client)
 {
 	//oggetto riferente all'utente che agirà per primo
-    'primo': {
+    "primo": {
 			//stringa indicante lo username dell'utente in questione ("CPU" per cpu)
-			'utente': USERNAME,
+			"utente": USERNAME,
 			
 			//stringa indicante l'azione corrente (vedi sotto)
-			'azione': AZIONE,
+			"azione": AZIONE,
 			
 			//intero indicante il valore dell'azione: id_mossa (per le mosse nel turno), id_pokemon (per gli switch nel turno), 0 per il resto
-			'valore': VALORE,
+			"valore": VALORE,
 			
 			//intero indicante il danno inflitto in caso di mossa nel turno, 0 per il resto
-			'danno': DANNO,
+			"danno": DANNO,
 			
 			//stringa indicante il messaggio da aggiungere a quelli di battaglia nel client per specificare efficacia e brutto colpo
-            'eff_bc': EFF_BC
+            "eff_bc": EFF_BC
     },
 
 	//oggetto riferente all'utente che agirà per primo, campi come sopra
-    'secondo': {
-            'utente': USERNAME,
-            'azione': AZIONE,
-            'valore': VALORE,
-            'danno': DANNO,
-            'eff_bc': EFF_BC
+    "secondo": {
+            "utente": USERNAME,
+            "azione": AZIONE,
+            "valore": VALORE,
+            "danno": DANNO,
+            "eff_bc": EFF_BC
     }
 }
 

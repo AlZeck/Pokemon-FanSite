@@ -41,6 +41,7 @@
 					CATEGORIA:		$this->categoria <BR/>
 					POTENZA: 		$this->potenza <BR/>
 					PRECISIONE: 	$this->precisione <BR/>
+					------------------------------------------- <BR/>
 				";
 		}
     }

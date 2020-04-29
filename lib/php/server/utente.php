@@ -1,8 +1,5 @@
 <?php
 
-    include './pokemon.php';
-
-
     //classe per oggetto Utente
 	class Utente {
 		private $username;	//stringa
@@ -23,7 +20,7 @@
 			$this->pkm3 = $pkm3;
 			$this->pkm4 = $pkm4;
 			$this->pkm5 = $pkm5;
-			$this->pkm6 = $pkm5;
+			$this->pkm6 = $pkm6;
 		}
 
 
@@ -40,9 +37,9 @@
 		//conversione dell'oggetto in stringa
 		function __toString() {
 			return 
-				"=========================================== <BR/>"
+				"================================= <BR/>"
 				.
-				"UTENTE: <BR/> <BR/> USERNAME: $this->username <BR/>"
+				"UTENTE: <BR/> <BR/> USERNAME: $this->username <BR/> <BR/>"
 				.
 				$this->pkm1->__toString() . "<BR/>"
 				.
@@ -56,7 +53,7 @@
 				.
 				$this->pkm6->__toString()
 				.
-				"=========================================== <BR/>";
+				"================================= <BR/>";
         }
         
 

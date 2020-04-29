@@ -304,16 +304,4 @@
         
     }
 
-    $con = DBController::getController();
-    var_dump($con->addNewUser("admin","admin"));
-    var_dump($con->checkUsernameExists( "admin" ));
-    var_dump($con->getUserInfoByUsername( "admin" ));
-    var_dump($con->getPokemonById( 10 ));
-    var_dump($con->getMossaById( 10 ));
-    var_dump($con->getPokemonList());
-    var_dump($con->getMosseList());
-    var_dump($con->getMosseListByPokemon( 10 ));
-    var_dump($con->getListPokemonByMossa( 10 ));
-    var_dump($con->getListPokemonByType( "fuoco" ));
-    var_dump($con->getListMovesByType( "fuoco" ));
 ?>

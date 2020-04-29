@@ -1,12 +1,5 @@
 <?php
 	
-	include './dbcontroller.php';
-	//include './utilities.php';
-	include './pokemon.php';
-	include './mossa.php';
-	include './utente.php';
-
-
 	//classe per oggetto Battaglia
 	class Battaglia {
 		//variabile indicante il controller del database per la battaglia
