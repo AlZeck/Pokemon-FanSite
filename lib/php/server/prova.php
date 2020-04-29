@@ -7,7 +7,12 @@
 	//PROGRAMMA PER TESTARE FUNZIONAMENTO GENERALE, LASCIARE QUESTO FILE FINO A NUOVO ORDINE
 	/*
 	include './dbcontroller.php';
+	include './utilities.php';
+	include './pokemon.php';
+	include './mossa.php';
+	include './utente.php';
 	include './battaglia.php';
+	
 	
 	$dbcon = DBController::getController();
 

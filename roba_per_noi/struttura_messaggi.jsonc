@@ -1,106 +1,204 @@
-//METTERE QUI LO SCHEMA LOGICO DEL TIMING DELLE AZIONI E CONSEGUENZE
-
-
-//IMPORTANTE: All'inizio della battaglia il server, dopo l'arrivo dei messaggi di inizializzazione manda ad entrambi l'azione "switch" per il loro primo pokemon della squadra
+//IMPORTANTE: All'inizio della battaglia il server, dopo l'arrivo dei messaggi di inizializzazione manda ad entrambi l'azione "switch_" per il loro primo pokemon della squadra
 
 
 //STRUTTURA MESSAGGI DI INIZIALIZZAZIONE (client -> server)
 {
-    "utente": USERNAME,         //stringa indicante lo username dell'utente in questione ("CPU" per cpu)
+	//stringa indicante lo username dell'utente in questione ("CPU" per cpu)
+    'utente': USERNAME,
 
-    "squadra": [                //array indicante la squadra dell'utente in questione
+	//array indicante la squadra dell'utente in questione
+    'squadra': [
         {
-            "id": POKEMON_UNO,  //intero indicante id primo pokemon
+			//intero indicante id pokemon
+            'id': POKEMON_UNO,
 
-            "mosse": [
-                MOSSA_UNO,      //intero indicante id prima mossa
-                MOSSA_DUE,      //intero indicante id seconda mossa
-                MOSSA_TRE,      //intero indicante id terza mossa
-                MOSSA_QUATTRO   //intero indicante id quarta mossa
+			//array di interi indicanti id delle quattro mosse del pokemon
+            'mosse': [
+                MOSSA_UNO,
+                MOSSA_DUE,
+                MOSSA_TRE,
+                MOSSA_QUATTRO
             ]
         },
 
+		//come sopra per secondo pokemon
         {
-            "id": POKEMON_DUE,  //intero indicante id secondo pokemon
+            'id': POKEMON_DUE,
 
-            "mosse": [
-                MOSSA_UNO,      //intero indicante id prima mossa
-                MOSSA_DUE,      //intero indicante id seconda mossa
-                MOSSA_TRE,      //intero indicante id terza mossa
-                MOSSA_QUATTRO   //intero indicante id quarta mossa
+            'mosse': [
+                MOSSA_UNO,
+                MOSSA_DUE,
+                MOSSA_TRE,
+                MOSSA_QUATTRO
             ]
         },
 
+		//come sopra per terzo pokemon
         {
-            "id": POKEMON_TRE,  //intero indicante id terzo pokemon
+            'id': POKEMON_TRE,
 
-            "mosse": [
-                MOSSA_UNO,      //intero indicante id prima mossa
-                MOSSA_DUE,      //intero indicante id seconda mossa
-                MOSSA_TRE,      //intero indicante id terza mossa
-                MOSSA_QUATTRO   //intero indicante id quarta mossa
+            'mosse': [
+                MOSSA_UNO,
+                MOSSA_DUE,
+                MOSSA_TRE,
+                MOSSA_QUATTRO
             ]
         },
 
+		//come sopra per quarto pokemon
         {
-            "id": POKEMON_QUATTRO,  //intero indicante id quarto pokemon
+            'id': POKEMON_QUATTRO,
 
-            "mosse": [
-                MOSSA_UNO,      //intero indicante id prima mossa
-                MOSSA_DUE,      //intero indicante id seconda mossa
-                MOSSA_TRE,      //intero indicante id terza mossa
-                MOSSA_QUATTRO   //intero indicante id quarta mossa
+            'mosse': [
+                MOSSA_UNO,
+                MOSSA_DUE,
+                MOSSA_TRE,
+                MOSSA_QUATTRO
             ]
         },
 
+		//come sopra per quinto pokemon
         {
-            "id": POKEMON_CINQUE,  //intero indicante id cinque pokemon
+            'id': POKEMON_CINQUE,
 
-            "mosse": [
-                MOSSA_UNO,      //intero indicante id prima mossa
-                MOSSA_DUE,      //intero indicante id seconda mossa
-                MOSSA_TRE,      //intero indicante id terza mossa
-                MOSSA_QUATTRO   //intero indicante id quarta mossa
+            'mosse': [
+                MOSSA_UNO,
+                MOSSA_DUE,
+                MOSSA_TRE,
+                MOSSA_QUATTRO
             ]
         },
 
+		//come sopra per sesto pokemon
         {
-            "id": POKEMON_SEI,  //intero indicante id sesto pokemon
+            'id': POKEMON_SEI,
 
-            "mosse": [
-                MOSSA_UNO,      //intero indicante id prima mossa
-                MOSSA_DUE,      //intero indicante id seconda mossa
-                MOSSA_TRE,      //intero indicante id terza mossa
-                MOSSA_QUATTRO   //intero indicante id quarta mossa
+            'mosse': [
+                MOSSA_UNO,
+                MOSSA_DUE,
+                MOSSA_TRE,
+                MOSSA_QUATTRO
             ]
         }
     ]
 }
 
 
+/*
+    -------------------------------------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------------------------------------
+*/
+	
+
+//IMPORTANTE: sarà il client a controllare che mossa o pokemon scelti per "mossa" o "switch" siano corretti, al server devono arrivare solo informazioni corrette
+
+
+/*	SCHEMA LOGICO DEL TIMING DELLE AZIONI E CONSEGUENZE
+    Colui che agisce per primo (1) può per impostazione inviare come azione soltanto "mossa", "switch" o "forfeit", cui segue questo ragionamento logico:
+
+    CASO A:
+		1-mossa		-> CASO A:
+							2-ko	-> CASO A:
+											1-attesa & 2-switch
+									-> CASO B:
+											1-vinto & 2-perso
+					-> CASO B:
+							2-ok	-> 2-mossa	->	CASO A:
+														1-ko	-> CASO A:
+																		1-switch & 2-attesa
+																-> CASO B:
+																		1-perso & 2-vinto
+													CASO B:
+														1-ok
+
+	CASO B:
+		1-switch	-> CASO A:
+							2-mossa	-> CASO A:
+											1-ko	-> 1-switch & 2-attesa
+									-> CASO B:
+											1-ok
+					-> CASO B:
+							2-switch	-> 1-ok & 2-ok
+					-> CASO C:
+							2-attesa	-> 1-ok & 2-ok
+	
+	CASO C:
+		1-forfeit	-> CASO A:
+							2-forfeit	-> 1-perso & 2-perso
+					-> CASO B:
+							2-mossa 	-> 1-perso & 2-vinto
+					-> CASO C:
+							2-switch 	-> 1-perso & 2-vinto
+
+
+*/
+
+
 //STRUTTURA MESSAGGI BATTAGLIA (client -> server)
 {
-    "utente": USERNAME,     //stringa indicante lo username dell'utente in questione ("CPU" per cpu)
-    "azione": AZIONE,       //stringa indicante l'azione corrente: "mossa", "switch", "perso" o "attesa"
-    "valore": VALORE        //intero indicante il valore dell'azione: id_mossa, id_pokemon, 0 per il resto
+	//stringa indicante lo username dell'utente in questione ("CPU" per cpu)
+	'utente': USERNAME,
+	
+	//stringa indicante l'azione corrente: "mossa", "switch", "forfeit" o "attesa"
+	'azione': AZIONE,
+	
+	//intero indicante il valore dell'azione: id_mossa, id_pokemon, 0 per il resto
+    'valore': VALORE
 }
 
 
 //STRUTTURA MESSAGGI BATTAGLIA (server -> client)
 {
-    "primo": {
-            "utente": USERNAME,      //stringa indicante lo username dell'utente in questione ("CPU" per cpu)
-            "azione": AZIONE,        //stringa indicante l'azione corrente: "mossa", "mossa_attesa", "mossa_esausto", "esausto", "switch", "switch_esausto", "perso", "vinto"
-            "valore": VALORE,        //intero indicante il valore dell'azione: id_mossa (per le mosse), id_pokemon (per gli switch), 0 per il resto
-            "danno": DANNO,          //intero indicante il danno inflitto in caso di mossa, 0 per il resto
-            "messaggio": MESSAGGIO,  //stringa indicante il messaggio da associare e mostrare all'azione (ad esempio brutto colpo)
+	//oggetto riferente all'utente che agirà per primo
+    'primo': {
+			//stringa indicante lo username dell'utente in questione ("CPU" per cpu)
+			'utente': USERNAME,
+			
+			//stringa indicante l'azione corrente (vedi sotto)
+			'azione': AZIONE,
+			
+			//intero indicante il valore dell'azione: id_mossa (per le mosse nel turno), id_pokemon (per gli switch nel turno), 0 per il resto
+			'valore': VALORE,
+			
+			//intero indicante il danno inflitto in caso di mossa nel turno, 0 per il resto
+			'danno': DANNO,
+			
+			//stringa indicante il messaggio da aggiungere a quelli di battaglia nel client per specificare efficacia e brutto colpo
+            'eff_bc': EFF_BC
     },
 
-    "secondo": {
-            "utente": USERNAME,      //stringa indicante lo username dell'utente in questione ("CPU" per cpu)
-            "azione": AZIONE,        //stringa indicante l'azione corrente: "mossa", "mossa_attesa", "mossa_esausto", "esausto", "switch", "switch_esausto", "perso", "vinto"
-            "valore": VALORE,        //intero indicante il valore dell'azione: id_mossa (per le mosse), id_pokemon (per gli switch), 0 per il resto
-            "danno": DANNO,          //intero indicante il danno in caso di mossa, 0 per il resto
-            "messaggio": MESSAGGIO,  //stringa indicante il messaggio da associare e mostrare all'azione (ad esempio brutto colpo)
+	//oggetto riferente all'utente che agirà per primo, campi come sopra
+    'secondo': {
+            'utente': USERNAME,
+            'azione': AZIONE,
+            'valore': VALORE,
+            'danno': DANNO,
+            'eff_bc': EFF_BC
     }
 }
+
+
+/*	SCHEMA DELLE AZIONI DEI MESSAGGI BATTAGLIA (server -> client)
+
+	usano sintassi A_B dove:
+	- A indica l'azione che presumibilmente hanno compiuto nel turno corrente
+	- B indica l'azione in cui presumibilmente si sono lockati
+
+	Se A è la stringa vuota significa che quel turno non ha avuto modo di agire (come morire prima di attaccare)
+	Se B è la stringa vuota significa che nel prossimo turno non sono costretti a seguire un'azione predeterminata (come attesa)
+
+	LISTA COMPLETA:
+	- mossa_
+	- mossa_switch
+	- mossa_attesa
+	- mossa_perso
+	- mossa_vinto
+	- switch_
+	- switch_switch
+	- attesa_
+	- forfeit_perso
+	- _switch
+	- _perso
+	- _vinto
+*/
