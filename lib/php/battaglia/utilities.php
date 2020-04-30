@@ -391,11 +391,4 @@
         0   => 	"Il colpo è stato inefficace..."
     );
 
-
-    //array contenente i vari messaggi a seconda della presenza del brutto colpo
-    const messaggiBC = array(
-        15 =>	" Brutto colpo!",
-        10 => 	" Colpo normale."
-    );
-
 ?>
