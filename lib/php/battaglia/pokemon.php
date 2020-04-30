@@ -100,11 +100,8 @@
 
 		//calcolo del danno inflitto
 		function calcoloDanno($mossa, $avversario) {
-			//calcolo la precisione
-			//...
-
-			//se fallita esco subito
-			//...
+			//calcolo la precisione, se fallita esco subito
+			if(rand(1, 100) > $mossa->getPrecisione()) return [ 0, "La mossa è stata schivata!" ];
 
 			//calcolo l'efficacia di tipo
 			$efficacia = efficacie[$mossa->getTipo()][$avversario->getTipo1()];
@@ -133,9 +130,11 @@
 
 			//calcolo la presenza del brutto colpo
 			$brutto_colpo;
-			if(rand(0, 10000) <= 625) $brutto_colpo = 1.5;
+			if(rand(0, 10000) <= 625) {
+				$brutto_colpo = 1.5;
+				$eff_bc .= " Brutto colpo!";
+			}
             else $brutto_colpo = 1;
-            $eff_bc .= messaggiBC[$brutto_colpo * 10];
 
 			//calcolo l'aggiustamento casuale
 			$agg_cas = rand(85, 100) / 100;
@@ -149,7 +148,7 @@
         
 
         //funzione per prendere una mossa del pokemon dato un id valido
-        function getMossaByID($id) {
+        function dammiMossa($id) {
             if($this->getMossa1()->getID() == $id) return $this->getMossa1();
             else if($this->getMossa2()->getID() == $id) return $this->getMossa2();
             else if($this->getMossa3()->getID() == $id) return $this->getMossa3();

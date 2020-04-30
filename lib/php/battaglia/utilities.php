@@ -381,13 +381,6 @@
     );
 
 
-    //array (indici numerici) contenente i vari messaggi a seconda della messa a segno della mossa
-    const messaggiPrecisione = array(
-        "La mossa è stata schivata!",
-        ""  //"La mossa è andata a segno."
-    );
-
-
     //array contenente i vari messaggi a seconda delle efficacie
     const messaggiEfficacie = array(
         100 => 	"Il colpo è andato a segno.",
@@ -396,13 +389,6 @@
         50  => 	"Il colpo è stato poco efficace!",
         25  =>	"Il colpo è stato scarsamente efficace!!!",
         0   => 	"Il colpo è stato inefficace..."
-    );
-
-
-    //array contenente i vari messaggi a seconda della presenza del brutto colpo
-    const messaggiBC = array(
-        15 =>	" Brutto colpo!",
-        10 => 	""  //" Colpo normale."
     );
 
 ?>
