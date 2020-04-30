@@ -4,6 +4,7 @@ Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fa
 
 ## RoadMap 
 <!-- Statuses: TODO, DONE -->
+
 ### Sebastian
 | Task                                                      | Status      |
 |-----------------------------------------------------------|:-----------:|
@@ -15,9 +16,9 @@ Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fa
 ### Andrea
 | Task                                                      |    Status   |
 |-----------------------------------------------------------|:-----------:|
-| Home Page                                                 | TODO        |
-| Login Page                                                | TODO        |
-| Sign up Page                                              | TODO        |
+| Home Page HTML ONLY                                       | TODO        |
+| Login Page HTML ONLY                                      | TODO        |
+| Sign up Page HTML ONLY                                    | TODO        |
 
 
 ### Matteo
@@ -31,12 +32,15 @@ Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fa
 ### TO BE ASSIGN / DEPENDS OTHERS WORK
 | Task                                                      | Status      |
 |-----------------------------------------------------------|:-----------:|
-| Login Page Communication with Server                      | TODO        |
-| Sign up Page Communication with Server                    | TODO        |
-| Everything Navigation Bar			                        | TODO        |
-| Everything Movedex Page                                   | TODO        |
-| Everything Pokedex Page                                   | TODO        |
-| Everything Typedex Page                                   | TODO        |
-| Everything Specific Pokemon Page                          | TODO        |
-| Everything Specific Move Page                        	    | TODO        |
-| Everything Specific Type Page                       	    | TODO        |
+| Home Page JS                                              | TODO        |
+| Login Page JS + Ajax + JQuery                             | TODO        |
+| Sign up Page JS + Ajax + JQuery                           | TODO        |
+| Login Page PHP Controller                                 | TODO        |
+| Sign up Page PHP Controller                               | TODO        |
+| Navigation Bar			                                | TODO        |
+| Movedex Page PHP Generated                                | TODO        |
+| Pokedex Page PHP Generated                                | TODO        |
+| Typedex Page PHP Generated                                | TODO        |
+| Specific Pokemon Page PHP Generated                       | TODO        |
+| Specific Move Page    PHP Generated       	            | TODO        |
+| Specific Type Page    PHP Generated      	                | TODO        |
