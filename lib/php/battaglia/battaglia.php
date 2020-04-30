@@ -85,13 +85,13 @@
 			$messaggio->primo->azione = "switch_";
 			$messaggio->primo->valore = $battaglia->getPkmAttivo1()->getID();
 			$messaggio->primo->danno = 0;
-			$messaggio->primo->eff_bc = "";
+			$messaggio->primo->comunicato = "";
 
 			$messaggio->secondo->utente = $battaglia->getUtente2()->getUsername();
 			$messaggio->secondo->azione = "switch_";
 			$messaggio->secondo->valore = $battaglia->getPkmAttivo2()->getID();
 			$messaggio->secondo->danno = 0;
-			$messaggio->secondo->eff_bc = "";
+			$messaggio->secondo->comunicato = "";
 
 			//tupla: primo posto oggetto Battaglia, secondo posto primo messaggio da inviare a client
 			return [$battaglia, json_encode($messaggio)];
@@ -141,13 +141,13 @@
 				$messaggio->primo->azione = "forfeit_perso";
 				$messaggio->primo->valore = 0;
 				$messaggio->primo->danno = 0;
-				$messaggio->primo->eff_bc = "";
+				$messaggio->primo->comunicato = "";
 
 				$messaggio->secondo->utente = $obj_batt2->utente;
 				$messaggio->secondo->azione = "forfeit_perso";
 				$messaggio->secondo->valore = 0;
 				$messaggio->secondo->danno = 0;
-				$messaggio->secondo->eff_bc = "";
+				$messaggio->secondo->comunicato = "";
 
 				return json_encode($messaggio);
 			}
@@ -163,13 +163,13 @@
 				$messaggio->primo->azione = "forfeit_perso";
 				$messaggio->primo->valore = 0;
 				$messaggio->primo->danno = 0;
-				$messaggio->primo->eff_bc = "";
+				$messaggio->primo->comunicato = "";
 
 				$messaggio->secondo->utente = $obj_batt2->utente;
 				$messaggio->secondo->azione = "_vinto";
 				$messaggio->secondo->valore = 0;
 				$messaggio->secondo->danno = 0;
-				$messaggio->secondo->eff_bc = "";
+				$messaggio->secondo->comunicato = "";
 
 				return json_encode($messaggio);
 			}
@@ -200,7 +200,7 @@
 			//caso in cui l'altro attacca
 			if($azione2 == "mossa") {
 				$mossa2 = $pkmAttivo2->dammiMossa($obj_batt2->valore);
-				[$danno2, $eff_bc2] = $pkmAttivo2->calcoloDanno($mossa2, $pkmAttivo1);
+				[$danno2, $comunicato2] = $pkmAttivo2->calcoloDanno($mossa2, $pkmAttivo1);
 				$ps1 = $pkmAttivo1->getPS();
 
 				if($ps1 - $danno2 <= 0) {	//pokemon1 esausto
@@ -210,13 +210,13 @@
 					$messaggio->primo->azione = "switch_switch";
 					$messaggio->primo->valore = $obj_batt1->valore;
 					$messaggio->primo->danno = 0;
-					$messaggio->primo->eff_bc = "";
+					$messaggio->primo->comunicato = "";
 
 					$messaggio->secondo->utente = $utente2->getUsername();
 					$messaggio->secondo->azione = "mossa_attesa";
 					$messaggio->secondo->valore = $obj_batt2->valore;
 					$messaggio->secondo->danno = $ps1;
-					$messaggio->secondo->eff_bc = $eff_bc2;
+					$messaggio->secondo->comunicato = $comunicato2;
 
 					return json_encode($messaggio);
 				}
@@ -228,13 +228,13 @@
 					$messaggio->primo->azione = "switch_";
 					$messaggio->primo->valore = $obj_batt1->valore;
 					$messaggio->primo->danno = 0;
-					$messaggio->primo->eff_bc = "";
+					$messaggio->primo->comunicato = "";
 
 					$messaggio->secondo->utente = $utente2->getUsername();
 					$messaggio->secondo->azione = "mossa_";
 					$messaggio->secondo->valore = $obj_batt2->valore;
 					$messaggio->secondo->danno = $danno2;
-					$messaggio->secondo->eff_bc = $eff_bc2;
+					$messaggio->secondo->comunicato = $comunicato2;
 
 					return json_encode($messaggio);
 				}
@@ -254,13 +254,13 @@
 				$messaggio->primo->azione = "switch_";
 				$messaggio->primo->valore = $obj_batt1->valore;
 				$messaggio->primo->danno = 0;
-				$messaggio->primo->eff_bc = "";
+				$messaggio->primo->comunicato = "";
 
 				$messaggio->secondo->utente = $utente2->getUsername();
 				$messaggio->secondo->azione = "switch_";
 				$messaggio->secondo->valore = $obj_batt2->valore;
 				$messaggio->secondo->danno = 0;
-				$messaggio->secondo->eff_bc = "";
+				$messaggio->secondo->comunicato = "";
 
 				return json_encode($messaggio);
 			}
@@ -271,13 +271,13 @@
 				$messaggio->primo->azione = "switch_";
 				$messaggio->primo->valore = $obj_batt1->valore;
 				$messaggio->primo->danno = 0;
-				$messaggio->primo->eff_bc = "";
+				$messaggio->primo->comunicato = "";
 
 				$messaggio->secondo->utente = $utente2->getUsername();
 				$messaggio->secondo->azione = "attesa_";
 				$messaggio->secondo->valore = 0;
 				$messaggio->secondo->danno = 0;
-				$messaggio->secondo->eff_bc = "";
+				$messaggio->secondo->comunicato = "";
 
 				return json_encode($messaggio);
 			}
@@ -287,7 +287,7 @@
 		//per modularizzare gestione caso primo pokemon fa mossa (e quindi anche secondo per lo schema logico)
 		private function gestisciMossa($obj_batt1, $utente1, $pkmAttivo1, $obj_batt2, $utente2, $pkmAttivo2) {
 			$mossa1 = $pkmAttivo1->dammiMossa($obj_batt1->valore);
-			[$danno1, $eff_bc1] = $pkmAttivo1->calcoloDanno($mossa1, $pkmAttivo2);
+			[$danno1, $comunicato1] = $pkmAttivo1->calcoloDanno($mossa1, $pkmAttivo2);
 			$ps2 = $pkmAttivo2->getPS();
 
 			//faccio delle inizializzazioni fittizie per evitare di triggerare i warning di php su messaggio, primo e secondo
@@ -303,13 +303,13 @@
 					$messaggio->primo->azione = "mossa_vinto";
 					$messaggio->primo->valore = $obj_batt1->valore;
 					$messaggio->primo->danno = $ps2;
-					$messaggio->primo->eff_bc = $eff_bc1;
+					$messaggio->primo->comunicato = $comunicato1;
 
 					$messaggio->secondo->utente = $utente2->getUsername();
 					$messaggio->secondo->azione = "_perso";
 					$messaggio->secondo->valore = 0;
 					$messaggio->secondo->danno = 0;
-					$messaggio->secondo->eff_bc = "";
+					$messaggio->secondo->comunicato = "";
 
 					return json_encode($messaggio);
 				}
@@ -318,13 +318,13 @@
 					$messaggio->primo->azione = "mossa_attesa";
 					$messaggio->primo->valore = $obj_batt1->valore;
 					$messaggio->primo->danno = $ps2;
-					$messaggio->primo->eff_bc = $eff_bc1;
+					$messaggio->primo->comunicato = $comunicato1;
 
 					$messaggio->secondo->utente = $utente2->getUsername();
 					$messaggio->secondo->azione = "_switch";
 					$messaggio->secondo->valore = 0;
 					$messaggio->secondo->danno = 0;
-					$messaggio->secondo->eff_bc = "";
+					$messaggio->secondo->comunicato = "";
 
 					return json_encode($messaggio);
 				}
@@ -334,7 +334,7 @@
 				$pkmAttivo2->setPS($ps2 - $danno1);
 
 				$mossa2 = $pkmAttivo2->dammiMossa($obj_batt2->valore);
-				[$danno2, $eff_bc2] = $pkmAttivo2->calcoloDanno($mossa2, $pkmAttivo1);
+				[$danno2, $comunicato2] = $pkmAttivo2->calcoloDanno($mossa2, $pkmAttivo1);
 				$ps1 = $pkmAttivo1->getPS();
 
 				if($ps1 - $danno2 <= 0) {	//pokemon1 esausto
@@ -345,13 +345,13 @@
 						$messaggio->primo->azione = "mossa_perso";
 						$messaggio->primo->valore = $obj_batt1->valore;
 						$messaggio->primo->danno = $danno1;
-						$messaggio->primo->eff_bc = $eff_bc1;
+						$messaggio->primo->comunicato = $comunicato1;
 
 						$messaggio->secondo->utente = $utente2->getUsername();
 						$messaggio->secondo->azione = "mossa_vinto";
 						$messaggio->secondo->valore = $obj_batt2->valore;
 						$messaggio->secondo->danno = $ps1;
-						$messaggio->secondo->eff_bc = $eff_bc2;
+						$messaggio->secondo->comunicato = $comunicato2;
 
 						return json_encode($messaggio);
 					}
@@ -361,13 +361,13 @@
 						$messaggio->primo->azione = "mossa_switch";
 						$messaggio->primo->valore = $obj_batt1->valore;
 						$messaggio->primo->danno = $danno1;
-						$messaggio->primo->eff_bc = $eff_bc1;
+						$messaggio->primo->comunicato = $comunicato1;
 
 						$messaggio->secondo->utente = $utente2->getUsername();
 						$messaggio->secondo->azione = "mossa_attesa";
 						$messaggio->secondo->valore = $obj_batt2->valore;
 						$messaggio->secondo->danno = $ps1;
-						$messaggio->secondo->eff_bc = $eff_bc2;
+						$messaggio->secondo->comunicato = $comunicato2;
 
 						return json_encode($messaggio);
 					}
@@ -380,13 +380,13 @@
 					$messaggio->primo->azione = "mossa_";
 					$messaggio->primo->valore = $obj_batt1->valore;
 					$messaggio->primo->danno = $danno1;
-					$messaggio->primo->eff_bc = $eff_bc1;
+					$messaggio->primo->comunicato = $comunicato1;
 
 					$messaggio->secondo->utente = $utente2->getUsername();
 					$messaggio->secondo->azione = "mossa_";
 					$messaggio->secondo->valore = $obj_batt2->valore;
 					$messaggio->secondo->danno = $danno2;
-					$messaggio->secondo->eff_bc = $eff_bc2;
+					$messaggio->secondo->comunicato = $comunicato2;
 
 					return json_encode($messaggio);
 				}

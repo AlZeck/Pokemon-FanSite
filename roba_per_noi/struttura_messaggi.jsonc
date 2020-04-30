@@ -164,8 +164,8 @@
 			//intero indicante il danno inflitto in caso di mossa nel turno, 0 per il resto
 			"danno": DANNO,
 			
-			//stringa indicante il messaggio da aggiungere a quelli di battaglia nel client per specificare efficacia e brutto colpo
-            "eff_bc": EFF_BC
+			//stringa indicante il messaggio da aggiungere a quelli di battaglia nel client per specificare precisione, efficacia e brutto colpo
+            "comunicato": COMUNICATO
     },
 
 	//oggetto riferente all'utente che agirà per primo, campi come sopra
@@ -174,7 +174,7 @@
             "azione": AZIONE,
             "valore": VALORE,
             "danno": DANNO,
-            "eff_bc": EFF_BC
+            "comunicato": COMUNICATO
     }
 }
 

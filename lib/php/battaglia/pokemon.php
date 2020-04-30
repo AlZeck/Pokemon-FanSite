@@ -106,10 +106,10 @@
 			//calcolo l'efficacia di tipo
 			$efficacia = efficacie[$mossa->getTipo()][$avversario->getTipo1()];
             if( !(is_null($avversario->getTipo2())) ) $efficacia *= efficacie[$mossa->getTipo()][$avversario->getTipo2()];
-			$eff_bc = messaggiEfficacie[$efficacia * 100];
+			$comunicato = messaggiEfficacie[$efficacia * 100];
 
 			//se inefficace esco subito
-			if($efficacia == 0) return [ 0, $eff_bc ];
+			if($efficacia == 0) return [ 0, $comunicato ];
 
 			//vedo se devo usare statistiche fisiche o speciali
 			$attacco;
@@ -132,7 +132,7 @@
 			$brutto_colpo;
 			if(rand(0, 10000) <= 625) {
 				$brutto_colpo = 1.5;
-				$eff_bc .= " Brutto colpo!";
+				$comunicato .= " Brutto colpo!";
 			}
             else $brutto_colpo = 1;
 
@@ -142,7 +142,7 @@
             //tupla: primo posto l'intero indicante il danno da infliggere, secondo posto messaggio sull'efficacia ed il brutto colpo
 			return [
                 (int) round( (( 110 * $attacco * $mossa->getPotenza() / (250 * $difesa) ) + 2) * $efficacia * $stab * $brutto_colpo * $agg_cas ),
-                $eff_bc
+                $comunicato
             ];
         }
         
