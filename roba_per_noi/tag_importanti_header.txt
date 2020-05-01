@@ -1,0 +1,11 @@
+<META charset="utf-8">
+
+<META name="viewpoint" content="width-device-width, initial-scale=1">
+
+<META name="description" content="Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fare battaglie nel simulatore">
+
+<META name="keywords" content="pokemon, battaglia, pokedex, movedex, typedex">
+
+<META name="author" content="Juan Sebastian Arboleda Polo (1805920), Andrea Cerone (1770688), Matteo Di Stadio (1794111)">
+
+<META name ="copyright" content="The Pokémon Company">
