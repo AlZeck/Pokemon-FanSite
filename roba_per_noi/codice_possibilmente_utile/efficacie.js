@@ -26,35 +26,3 @@ const efficacie = new Array(
     new Array(1, m, m, m, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, m, 2),    //acciaio
     new Array(1, m, 1, 1, 1, 1, 2, m, 1, 1, 1, 1, 1, 1, 2, 2, m, 1)     //folletto
 );
-
-
-//calcolo efficacia (prende in ingresso già gli indici per la matrice)
-function efficacia(tipo_mossa, tipo1_difensore, tipo2_difensore) {
-    var eff = efficacie[tipo_mossa][tipo1_difensore] * efficacie[tipo_mossa][tipo2_difensore];
-
-    if(eff == 1) {          //efficacia standard
-        return [eff, "Il colpo è andato a segno."];
-    }
-    else if(eff == 2) {     //superefficacia
-        return [eff, "Il colpo è stato superefficace!"];
-    }
-    else if(eff == 4) {     //iperefficacia
-        return [eff, "Il colpo è stato iperefficace!!!"];
-    }
-    else if(eff == 0.5) {   //poca efficacia
-        return [eff, "Il colpo è stato poco efficace!"];
-    }
-    else if(eff == 0.25) {  //iperefficacia
-        return [eff, "Il colpo è stato scarsamente efficace!!!"];
-    }
-    else {                  //inefficacia   (eff == 0)
-        return [eff, "Il colpo è stato inefficace..."];
-    }
-}
-
-
-//calcolo stab (same type attack bonus)
-function stab(potenza_mossa, tipo_mossa, tipo1_attaccante, tipo2_attaccante) {
-    if(tipo_mossa == tipo1_attaccante || tipo_mossa == tipo2_attaccante) return potenza_mossa + (potenza_mossa/2);
-    else return potenza_mossa;
-}
