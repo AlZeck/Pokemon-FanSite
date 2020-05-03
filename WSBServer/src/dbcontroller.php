@@ -1,1 +1,1 @@
-/home/alzeck/Projects/PokeFanSite/lib/php/dbcontroller.php
+/home/alzeck/Projects/PokeFanSite/Site/lib/php/dbcontroller.php
