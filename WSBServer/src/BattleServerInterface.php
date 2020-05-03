@@ -11,7 +11,6 @@ include 'Battaglia/utilities.php';
 include 'Battaglia/pokemon.php';
 include 'Battaglia/mossa.php';
 include 'Battaglia/utente.php';
-include 'Battaglia/battaglia.php';
 
 class BattleServerInterface implements MessageComponentInterface {
     protected $clients;
@@ -206,12 +205,14 @@ class CPU {
     protected $battle; //Object || Null if not in battle 
     protected $adv; // User
     protected $action;
+    protected $username; //username 
 
     function __construct($team) {
         $this->team = $team;
         $this->action = "";
         $this->adv = NULL;
         $this->battle = NULL;
+        $this->username = "CPU";
     }
 
     public function send($msg) {
@@ -239,7 +240,7 @@ class CPU {
 class User extends CPU {
     //"{ type: "user|msg", sender: username, dest: dest, msg: message }"
     private $conn;  //conn->resourceId
-    private $username; //username 
+    
 
     function __construct(ConnectionInterface $conn) {
         parent::__construct("");
@@ -270,12 +271,12 @@ class User extends CPU {
         $this->adv->send($msg);
     }
 
-    function startBattle(User $adv) {
+    function startBattle(CPU $adv) {
         $this->adv = $adv;
         $adv->adv = $this;
         // Create the correct strings to send to the controller
-        $msg1 = '{ "utente":' . $this->username . ',"squadra":' . $this->team . '}';
-        $msg2 = '{ "utente":' . $adv->username . ',"squadra":' . $adv->team . '}';
+        $msg1 = '{ "utente": "' . $this->username . '" ,"squadra":' . $this->team . '}';
+        $msg2 = '{ "utente": "' . $adv->username . '" ,"squadra":' . $adv->team . '}';
         // Starts the controller
         $ret = \Battaglia::inizializzaBattaglia($msg1, $msg2);
         $this->battle = $ret[0];
@@ -291,7 +292,7 @@ class User extends CPU {
             "azione": "forfeit",
             "valore": 0
         }';
-        $this->adv = new CPU($this->adv->CPU);
+        $this->adv = new CPU($this->adv->team);
         $this->adv->selectAction($forfeitAction);
     }
 
