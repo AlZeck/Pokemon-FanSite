@@ -1,8 +1,16 @@
 <?php
+
 namespace Server;
+
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;
 
+include 'dbcontroller.php';
+include 'Battaglia/battaglia.php';
+include 'Battaglia/utilities.php';
+include 'Battaglia/pokemon.php';
+include 'Battaglia/mossa.php';
+include 'Battaglia/utente.php';
 include 'Battaglia/battaglia.php';
 
 class BattleServerInterface implements MessageComponentInterface {
@@ -17,24 +25,23 @@ class BattleServerInterface implements MessageComponentInterface {
      */
     public function onOpen(ConnectionInterface $conn) {
         // Store the new connection to send messages to later
-        $this->clients->attach( new User($conn));
+        $this->clients->attach(new User($conn));
 
         echo "New connection! ({$conn->resourceId})\n";
     }
 
     // Tells all clients the arrival of a new User
-    private function updateUsers(){
+    private function updateUsers() {
         $lisclients = array();
         foreach ($this->clients as $client) {
-            if(!$client->isInBattle())
+            if (!$client->isInBattle())
                 array_push($lisclients, $client->getUsername());
         }
-        $msg = "{ \"type\": \"update\", \"lis\" : [\"".implode("\",\"",$lisclients)."\"] }";
-        echo "sending pool Message : ".$msg."\n";
+        $msg = "{ \"type\": \"update\", \"lis\" : [\"" . implode("\",\"", $lisclients) . "\"] }";
+        echo "sending pool Message : " . $msg . "\n";
         foreach ($this->clients as $client) {
             $client->send($msg);
         }
-
     }
 
     // Common finders 
@@ -47,11 +54,11 @@ class BattleServerInterface implements MessageComponentInterface {
         return NULL;
     }
 
-    private function getUserbyConnection(ConnectionInterface $conn){
+    private function getUserbyConnection(ConnectionInterface $conn) {
         foreach ($this->clients as $client) {
             if ($conn == $client->getConn()) {
                 return $client;
-            } 
+            }
         }
     }
 
@@ -66,7 +73,7 @@ class BattleServerInterface implements MessageComponentInterface {
         $parsedMsg = \json_decode($msg, true);
         \var_dump($parsedMsg);
 
-        switch($parsedMsg['type']){
+        switch ($parsedMsg['type']) {
             case 'new':
                 /**
                  * new user arrived 
@@ -76,9 +83,9 @@ class BattleServerInterface implements MessageComponentInterface {
                 $username = $parsedMsg["value"]["sender"];
                 $team = \json_encode($parsedMsg["value"]["team"]);
                 \var_dump($team);
-                $client->setInfo($username,$team);
-                $parsedMsg["msg"] = "User:".$client->getUsername()." has arrived ";
-                echo $parsedMsg["msg"]."\n";
+                $client->setInfo($username, $team);
+                $parsedMsg["msg"] = "User:" . $client->getUsername() . " has arrived ";
+                echo $parsedMsg["msg"] . "\n";
 
                 self::updateUsers();
                 break;
@@ -111,15 +118,13 @@ class BattleServerInterface implements MessageComponentInterface {
                  */
                 $client = self::getUserbyConnection($from);
                 $adv = $parsedMsg["value"]["destination"];
-                if ($adv == 'CPU'){
+                if ($adv == 'CPU') {
                     $client->startBattle(new CPU($team));
-                }
-                else {
+                } else {
                     $clientAdv = self::getUserbyUserName($adv);
-                    if($clientAdv !== NULL){
+                    if ($clientAdv !== NULL) {
                         $clientAdv->send($msg); //forward the request to the adv
-                    }
-                    else {
+                    } else {
                         //adv not found ERROR? 
                         $client->send('{ "type" : "error", "value" : "USER NOT FOUND"}');
                     }
@@ -134,11 +139,10 @@ class BattleServerInterface implements MessageComponentInterface {
                 $client = self::getUserbyConnection($from);
                 $adv = $parsedMsg['value']['destination'];
                 $clientAdv = self::getUserbyUserName($adv);
-                if($clientAdv !== NULL){
+                if ($clientAdv !== NULL) {
                     // ADV FOUND start battle 
                     $clientAdv->startBattle($client);
-                }
-                else {
+                } else {
                     //adv not found ERROR? 
                     $client->send('{ "type" : "error", "value" : "USER NOT FOUND"}');
                 }
@@ -146,19 +150,18 @@ class BattleServerInterface implements MessageComponentInterface {
             case 'refuse':
                 $adv = $parsedMsg['value']['destination'];
                 $clientAdv = self::getUserbyUserName($adv);
-                if($clientAdv !== NULL){
+                if ($clientAdv !== NULL) {
                     // ADV FOUND FOWARD MESSAGE
-                    $clientAdv->send($msg); 
+                    $clientAdv->send($msg);
                 }
                 // if not found Ignore //
                 break;
             case 'battle':
                 $client = self::getUserbyConnection($from);
                 $info = \json_encode($parsedMsg['value']['battleInfo']);
-                if($parsedMsg['value']['sender'] == 'CPU'){
+                if ($parsedMsg['value']['sender'] == 'CPU') {
                     $client->getAdv()->selectAction($info);
-                }
-                else{
+                } else {
                     $client->selectAction($info);
                 }
                 break;
@@ -176,7 +179,7 @@ class BattleServerInterface implements MessageComponentInterface {
         $client = self::getUserbyConnection($conn);
         $this->clients->detach($client);
         self::updateUsers();
-        if ($client->isInBattle()){
+        if ($client->isInBattle()) {
             $client->getAdv()->endBattle();
         }
         echo "Connection {$conn->resourceId} has disconnected\n";
@@ -190,11 +193,11 @@ class BattleServerInterface implements MessageComponentInterface {
         $client = self::getUserbyConnection($conn);
         $this->clients->detach($client);
         self::updateUsers();
-        if ($client->isInBattle()){
+        if ($client->isInBattle()) {
             $client->getAdv()->endBattle();
         }
         $conn->close();
-        echo "An error has occurred: for User {$client->getUsername()} {$e->getMessage()}\n"; 
+        echo "An error has occurred: for User {$client->getUsername()} {$e->getMessage()}\n";
     }
 }
 
@@ -204,30 +207,31 @@ class CPU {
     protected $adv; // User
     protected $action;
 
-    function __construct($team){
+    function __construct($team) {
         $this->team = $team;
         $this->action = "";
         $this->adv = NULL;
         $this->battle = NULL;
     }
 
-    public function send($msg){ }
+    public function send($msg) {
+    }
 
-    private function sendPoolMessage($msg){
+    private function sendPoolMessage($msg) {
         $this->adv->send($msg);
     }
 
-    function selectAction($action){
+    function selectAction($action) {
         $this->action = $action;
-        if ($this->adv->action != ""){
-            $msg = generaRisposta($this->action, $this->adv->action ); 
-            $this->sendPoolMessage('{ "type": "battle", "value" : '.$msg.'}');
+        if ($this->adv->action != "") {
+            $msg = $this->battle->generaRisposta($this->action, $this->adv->action);
+            $this->sendPoolMessage('{ "type": "battle", "value" : ' . $msg . '}');
             $this->action = "";
             $this->adv->action = "";
         }
     }
 
-    function getAdv(){
+    function getAdv() {
         return $this->adv;
     }
 }
@@ -237,54 +241,53 @@ class User extends CPU {
     private $conn;  //conn->resourceId
     private $username; //username 
 
-    function __construct(ConnectionInterface $conn){
+    function __construct(ConnectionInterface $conn) {
         parent::__construct("");
         $this->conn = $conn;
         $this->username = "";
-        
     }
 
-    function setInfo($username,$team){
+    function setInfo($username, $team) {
         //echo "User in ".$this->conn->resourceId." updated its name to ".$username."\n";
         $this->username = $username;
         $this->team = $team;
     }
 
-    public function getUsername(){
+    public function getUsername() {
         return $this->username;
     }
 
-    public function getConn(){
+    public function getConn() {
         return $this->conn;
     }
 
-    public function send($msg){
+    public function send($msg) {
         $this->conn->send($msg);
     }
 
-    private function sendPoolMessage($msg){
+    private function sendPoolMessage($msg) {
         $this->send($msg);
         $this->adv->send($msg);
     }
 
-    function startBattle(User $adv){
+    function startBattle(User $adv) {
         $this->adv = $adv;
         $adv->adv = $this;
         // Create the correct strings to send to the controller
-        $msg1 = '{ "utente":'.$this->username.',"squadra":'.$this->team.'}';
-        $msg2 = '{ "utente":'.$adv->username.',"squadra":'.$adv->team.'}';
+        $msg1 = '{ "utente":' . $this->username . ',"squadra":' . $this->team . '}';
+        $msg2 = '{ "utente":' . $adv->username . ',"squadra":' . $adv->team . '}';
         // Starts the controller
-        $ret = inizializzaBattaglia($msg1,$msg2);
+        $ret = \Battaglia::inizializzaBattaglia($msg1, $msg2);
         $this->battle = $ret[0];
         $adv->battle  = $ret[0];
-        
+
         $msg = $ret[1];
-        $this->sendPoolMessage('{ "type": "battle", "value" : '.$msg.'}');
+        $this->sendPoolMessage('{ "type": "battle", "value" : ' . $msg . '}');
     }
 
-    function endBattle(){
+    function endBattle() {
         $forfeitAction = '{
-            "utente": '.$this->adv->getUsername().',
+            "utente": ' . $this->adv->getUsername() . ',
             "azione": "forfeit",
             "valore": 0
         }';
@@ -292,20 +295,16 @@ class User extends CPU {
         $this->adv->selectAction($forfeitAction);
     }
 
-    function deleteBattle(){
+    function deleteBattle() {
         $this->adv = NULL;
         $this->battle = NULL;
     }
 
-    function isInBattle(){
-        if ($this->battle!==NULL){
+    function isInBattle() {
+        if ($this->battle !== NULL) {
             return TRUE;
         } else {
             return FALSE;
         }
     }
-
-
-
 }
-
