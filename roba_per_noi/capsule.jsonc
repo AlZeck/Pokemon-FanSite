@@ -1,0 +1,80 @@
+{
+    "toServer": [
+        { // case new user 
+            "type": "new",
+            "value": {
+                "sender": "username",
+                "team": {} // json string to pass to battle 
+            }
+        },
+        { //request update (USER LIST or STATUS)
+            "type": "update",
+            "value": {}
+        },
+        { // case new battle with CPU 
+            "type": "CPU",
+            "value": {
+                "sender": "CPU",
+                "team": {} // json string to pass to battle 
+            }
+        },
+        { // case battle send || CPU rematch
+            "type": "request",
+            "value": {
+                "sender": "username",
+                "destination": "destination", // CPU if local
+                "msg": "" //! optional to be checked
+            }
+        },
+        /**
+        { // case Rematch if both rematch  sends battle start else sends 
+            "type" : "rematch",
+            "value" : {
+                "sender" : "username",
+                "destination" : "destination" // CPU if local
+            }
+        },*/
+        { // case battle acceptance 
+            "type": "accept",
+            "value": {
+                "sender": "username",
+                "destination": "destination"
+            }
+        },
+        { // case battle refuse 
+            "type": "refuse",
+            "value": {
+                "sender": "username",
+                "destination": "destination"
+            }
+        },
+        { //battle messages 
+            "type": "battle",
+            "value": {
+                "sender": "username",
+                "battleInfo": {}
+            }
+        }
+    ],
+    "fromServer": [
+        { // update users 
+            "type": "update",
+            "value": []
+        },
+        { // case battle refuse 
+            "type": "refuse",
+            "value": {
+                "sender": "username", 
+                "destination": "destination"
+            }
+        },
+        {
+            "type": "battle",
+            "value": {} //returned value from battle
+        },
+        {
+            "type": "error",
+            "value": "errorMessage"
+        }
+    ]
+}
