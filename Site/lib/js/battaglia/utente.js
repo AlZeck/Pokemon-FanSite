@@ -42,4 +42,30 @@ class Utente {
     set pkm4(x) { this._pkm4 = x; }
     set pkm5(x) { this._pkm5 = x; }
     set pkm6(x) { this._pkm6 = x; }
+
+
+    //funzione per restituire il pokemon richiesto dell'utente (o null)
+    dammiPokemon(id) {
+        if(this.pkm1 != null && this.pkm1.id == id) return this.pkm1;
+        else if(this.pkm2 != null && this.pkm2.id == id) return this.pkm2;
+        else if(this.pkm3 != null && this.pkm3.id == id) return this.pkm3;
+        else if(this.pkm4 != null && this.pkm4.id == id) return this.pkm4;
+        else if(this.pkm5 != null && this.pkm5.id == id) return this.pkm5;
+        else if(this.pkm6 != null && this.pkm6.id == id) return this.pkm6;
+        else return null;
+    }
+
+
+    //funzione per inserire il pokemon richiesto
+    settaPokemon(id) {
+        //salvo in P l'oggetto pokemon
+        P;
+
+        if(this.pkm1 == null) this.pkm1 = P;
+        else if(this.pkm2 == null) this.pkm2 = P;
+        else if(this.pkm3 == null) this.pkm3 = P;
+        else if(this.pkm4 == null) this.pkm4 = P;
+        else if(this.pkm5 == null) this.pkm5 = P;
+        else if(this.pkm6 == null) this.pkm6 = P;
+    }
 }

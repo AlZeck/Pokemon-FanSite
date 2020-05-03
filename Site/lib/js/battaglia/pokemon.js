@@ -64,4 +64,26 @@ class Pokemon {
     set mossa2(x) { this._mossa2 = x; }
     set mossa3(x) { this._mossa3 = x; }
     set mossa4(x) { this._mossa4 = x; }
+
+
+    //funzione per restituire la mossa richiesta del pokemon (o null)
+    dammiMossa(id) {
+        if(this.mossa1 != null && this.mossa1.id == id) return this.mossa1;
+        else if(this.mossa2 != null && this.mossa2.id == id) return this.mossa2;
+        else if(this.mossa3 != null && this.mossa3.id == id) return this.mossa3;
+        else if(this.mossa4 != null && this.mossa4.id == id) return this.mossa4;
+        else return null
+    }
+
+
+    //funzione per inserire la mossa richiesta
+    settaMossa(id) {
+        //salvo in M l'oggetto mossa
+        M;
+
+        if(this.mossa1 == null) this.mossa1 = M;
+        else if(this.mossa2 == null) this.mossa2 = M;
+        else if(this.mossa3 == null) this.mossa3 = M;
+        else if(this.mossa4 == null) this.mossa4 = M;
+    }
 }
