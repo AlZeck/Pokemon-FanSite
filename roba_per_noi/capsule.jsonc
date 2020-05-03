@@ -9,7 +9,7 @@
         },
         { //request update (USER LIST or STATUS)
             "type": "update",
-            "value": {}
+            "value": ""
         },
         { // case new battle with CPU 
             "type": "CPU",
@@ -23,7 +23,6 @@
             "value": {
                 "sender": "username",
                 "destination": "destination", // CPU if local
-                "msg": "" //! optional to be checked
             }
         },
         /**
@@ -52,7 +51,7 @@
             "type": "battle",
             "value": {
                 "sender": "username",
-                "battleInfo": {}
+                "battleInfo": ""
             }
         }
     ],
