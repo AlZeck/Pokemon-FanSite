@@ -46,7 +46,7 @@
             } catch (PDOException $e){
                 die("Connection failed: " . $e->getMessage());
             }
-            echo "Connected successfully \n";
+            // echo "Connected successfully \n";
         }
 
         public static function getController() {
