@@ -12,21 +12,21 @@
             <h1 class="h3 mb-3 font-weight-normal">Registrati ora!</h1>
             Username
             <input type="text" name="inputUser" class="form-control" size="20" maxlength="20" placeholder="Username" required autofocus>
-            <div align=left>
-                <font color="red" size="2">Lo username deve essere diverso da CPU</font><br>
-                <font color="red" size="2"> Username già esistente</font>
+            <div id="error-usr" class="errors">
+                Lo username deve essere diverso da CPU<br>
+                Username già esistente
             </div>
             <br>
             Password
             <input type="password" name="inputPsw" class="form-control" size="20" maxlength="20" placeholder="Password" required>
-            <div align=left>
-                <font color="red" size="2">La password deve contenere almeno 4 caratteri alfanumerici di cui almeno uno maiuscolo e uno minuscolo</font><br>
+            <div id="error-usr" class="errors">
+                La password deve contenere almeno 6 caratteri alfanumerici di cui almeno uno maiuscolo e uno minuscolo e dei segni di punteggiatura (come ? e &)<br>
             </div>
             <br>
             Conferma Password
             <input type="password" name="inputConfirmPsw" class="form-control" size="20" maxlength="20" placeholder="Conferma Password" required>
-            <div align=left>
-                <font color="red" size="2">La password confermata non coincide con quella dichiarata</font><br>
+            <div id="error-usr" class="errors">
+                La password confermata non coincide con quella dichiarata<br>
             </div>
             <br>
             <br>
