@@ -24,10 +24,3 @@ body {
   padding: 15px;
   margin: auto;
 }
-
-.errors {
-  padding-top: 5px;
-  font-size: 15px;
-  color: red;
-  display: none;
-}
