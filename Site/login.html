@@ -1,40 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Pagina di Login</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <link href="lib/css/signin.css" rel="stylesheet">
-        </script>
-    </head>
-    <body class="text-center">
-        <form action="" class="form-signin" method="post" name="formLogin">
-            <h1 class="h3 mb-3 font-weigth-normal">Fai il login qui!</h1>
-            Username
-            <input type="text" name="inputUser" class="form-control"  size="20" maxlength="20" placeholder="Username" required autofocus>
-            <div id="error-usr" class="errors">
-                Utente non registrato
-            </div>
-            <br>  
-            Password      
-            <input type="password" name="inputPsw" class="form-control" size="20" maxlength="20" placeholder="Password" required>
-            <div id="error-usr" class="errors">
-                Password sbagliata
-            </div>
-            <br>
-            <div align=left id="divRemember" class="checkbox mb-3">
-                <input type="checkbox" name="Ricorda">
-                <label for="remember">Ricordami</label>
-            </div>
-            <div align=center>
-                <button type="submit" class="btn btn-primary" name="bottoneAccesso">ACCEDI</button>
-            </div>
-            <br>
-            Non hai ancora un account? Fai la registrazione clicclando<a href="../registrazione/registrazione.html">   qui!</a>
-        </form>
-    </body>
+
+<head>
+    <title>Pagina di Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="lib/css/login.css" rel="stylesheet">
+    </script>
+</head>
+
+<body>
+    <div class="card mx-auto">
+        <div class="card-body">
+            <h3 class="card-title text-center">Log In</h3>
+            <form class="form-login needs-validation" name="formLogin" novalidate>
+
+                <div class="form-group">
+                    <label for="inputUser">Username</label>
+                    <input type="text" name="inputUser" class="form-control" placeholder="Username" required autofocus>
+                    <div class="invalid-feedback">
+                        Utente non registrato
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputPsw">Password</label>
+                    <input type="password" name="inputPsw" class="form-control" placeholder="Password" required>
+                    <div class="invalid-feedback">
+                        Password sbagliata
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="divRemember" name="Ricorda">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Ricordami
+                    </label>
+                </div>
+                <br>
+
+                <button type="submit" class="btn btn-primary btn-lg btn-block">ACCEDI</button>
+
+                Non hai ancora un account? Fai la registrazione clicclando
+                <a href="signup.html">qui!</a>
+            </form>
+            <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function () {
+                    'use strict';
+                    window.addEventListener('load', function () {
+                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                        var forms = document.getElementsByClassName('needs-validation');
+                        // Loop over them and prevent submission
+                        var validation = Array.prototype.filter.call(forms, function (form) {
+                            form.addEventListener('submit', function (event) {
+                                if (form.checkValidity() === false) {
+                                    console.log("ciaone");
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                }
+                                form.classList.add('was-validated');
+                            }, false);
+                        });
+                    }, false);
+                })();
+            </script>
+
+        </div>
+    </div>
+</body>
+
 </html>
