@@ -8,40 +8,61 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <link href="lib/css/signin.css" rel="stylesheet">
+        <link href="lib/css/signup.css" rel="stylesheet">
     </head>
     <body>
         <div class="card mx-auto">
             <div class="card-body">
                 <h3 class="card-title text-center">Registrati</h3>
-                <form action="" class="form-signin" method="" name="registrazione">
-                    <h1 class="h3 mb-3 font-weight-normal">Registrati ora!</h1>
-                    Username
-                    <input type="text" name="inputUser" class="form-control" size="20" maxlength="20" placeholder="Username" required autofocus>
-                    <div id="error-usr" class="errors">
-                        Lo username deve essere diverso da CPU<br>
-                        Username già esistente
+                <form class="form-signup needs-validation" name="registrazione" novalidate>
+                    <div class="form-group">
+                        <label for="inputUser">Username</label>
+                        <input type="text" name="inputUser" class="form-control" size="20" maxlength="20" placeholder="Username" required autofocus>
+                        <div class="invalid-feedback">
+                            Username già esistente
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPsw">Password</label>
+                        <input type="password" name="inputPsw" class="form-control" size="20" maxlength="20" placeholder="Password" required>
+                        <div class="invalid-feedback">
+                            La password deve contenere almeno 6 caratteri alfanumerici di cui almeno uno maiuscolo, uno minuscolo e almeno un segno di punteggiatura(come ? e &)<br>
+                        </div>
+                    </div>
+                    <div class="form-grup">
+                        <label for="inputpConfirmPsw">Conferma Password</label>
+                        <input type="password" name="inputConfirmPsw" class="form-control" size="20" maxlength="20" placeholder="Conferma Password" required>
+                        <div class="invalid-feedback">
+                            La password confermata non coincide con quella dichiarata<br>
+                        </div>
                     </div>
                     <br>
-                    Password
-                    <input type="password" name="inputPsw" class="form-control" size="20" maxlength="20" placeholder="Password" required>
-                    <div id="error-usr" class="errors">
-                        La password deve contenere almeno 6 caratteri alfanumerici di cui almeno uno maiuscolo, uno minuscolo e almeno un segno di punteggiatura(come ? e &)<br>
-                    </div>
-                    <br>
-                    Conferma Password
-                    <input type="password" name="inputConfirmPsw" class="form-control" size="20" maxlength="20" placeholder="Conferma Password" required>
-                    <div id="error-usr" class="errors">
-                        La password confermata non coincide con quella dichiarata<br>
-                    </div>
-                    <br>
-                    <br>
-                    <div align=center>
-                        <button type="submit" class="btn btn-primary" name="bottoneCreaAccount">CREA ACCOUNT</button>
-                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" name="bottoneCreaAccount">CREA ACCOUNT</button>
                     <br>
                     Hai già un account? Accedi cliccando<a href="../login/login.html"> qui!</a>
                 </form>
+                <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function () {
+                        'use strict';
+                        window.addEventListener('load', function () {
+                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                            var forms = document.getElementsByClassName('needs-validation');
+                            // Loop over them and prevent submission
+                            var validation = Array.prototype.filter.call(forms, function (form) {
+                                form.addEventListener('submit', function (event) {
+                                    if (form.checkValidity() === false) {
+                                        console.log("ciaone");
+                                        event.preventDefault();
+                                        event.stopPropagation();
+                                    }
+                                    form.classList.add('was-validated');
+                                }, false);
+                            });
+                        }, false);
+                    })();
+                </script>
+               
             </div>
         </div>
         
