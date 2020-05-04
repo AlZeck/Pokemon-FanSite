@@ -6,20 +6,20 @@ $con = DBController::getController();
 
 //inputUser, inputPsw
 
-$user = $_POST['inputUsr'];
-$psw =md5($_POST['inputPsw']);
+$user = $_POST['inputUser'];
+$psw = md5($_POST['inputPsw']);
+
 
 if(!$con->checkUsernameExists($user)){
-    echo "utente non registrato";
     $ris = $con->addNewUser($user,$psw);
     if($ris){
-        echo "succes";
+        echo "success \n";
     }
     else{
-        echo "errore";
+        echo "errore \n";
     }
 }
 else{
-    echo "utente registrato";
+    echo "utente registrato \n";
 }    
 
