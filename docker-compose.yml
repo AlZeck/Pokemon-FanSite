@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+    web:
+        container_name: Pokefan-nginx
+        image: nginx:latest
+        ports:
+            - "80:80"
+        volumes:
+            - ./Site:/Site
+            - ./site.conf:/etc/nginx/conf.d/default.conf
+        links:
+            - php
+            - db
+    php:
+        container_name: Pokefan-php
+        build: './docker/php'
+        volumes:
+            - ./Site:/Site
+    wsb:
+        container_name: Pokefan-wsb
+        build: './docker/serverWS'
+        volumes:
+            - ./WSBServer:/root
+            - ./docker/serverWS/conf:/etc/php/conf.d
+        ports:
+            - "8080:8080"
+    db:
+        container_name: Pokefan-pgsql
+        image: postgres:10.1
+        restart: always
+        environment:
+            - POSTGRES_DB=pokemon_fansite
+            - POSTGRES_USER=monty
+            - POSTGRES_PASSWORD=python
+        ports:
+            - 54322:5432
+        volumes:
+            - ./docker/postgres/:/docker-entrypoint-initdb.d/
+
