@@ -17,12 +17,13 @@ services:
         build: './docker/php'
         volumes:
             - ./Site:/Site
+            - ./docker/php.ini:/etc/php/php.ini
     wsb:
         container_name: Pokefan-wsb
         build: './docker/serverWS'
         volumes:
             - ./WSBServer:/root
-            - ./docker/serverWS/conf:/etc/php/conf.d
+            - ./docker/php.ini:/etc/php/php.ini
         ports:
             - "8080:8080"
     db:
