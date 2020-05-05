@@ -20,25 +20,25 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <link href="lib/css/homepage.css" rel="stylesheet"> 
+    <link href="lib/css/homepage.css" rel="stylesheet">
     <script src="lib/js/navbar.js"></script>
 
 </head>
 <body>
     <br>
-    <div class="container">
+    <div class="container" style="max-width: 1500px;">
         <h3>Dai un'occhiata ai mostri pokemon</h3>
-        <div class="row row-cols-1 row-cols-md-2">
+        <div class="row row-cols-1 row-cols-md-6">
             
             <?php
                 foreach ($lis as $pokemon) {
-                    echo    '<div class="col col-sm-2">
-                                <div class="card">
+                    echo    '<div class="col mb-4">
+                                <div class="card" style=" height: 180px; width: 160px;">
                                     <a href="#">
-                                        <img src="assets/pokemon/mini_sprite/'.$pokemon["nome"].'.png" class="card-img-top" alt="'.$pokemon["nome"].'">
-                                        <div class="card-body">
-                                        <h5 class="card-title">'.$pokemon["nome"].'</h5>
-                                        </div>
+                                    <div class="card-body" style="align: center" >
+                                    <h5 class="card-title">'.$pokemon["nome"].'</h5>
+                                    <img src="assets/pokemon/artwork/'.$pokemon["nome"].'.png" class="card-img-top" alt="'.$pokemon["nome"].'">
+                                    </div>
                                     </a>
                                 </div>
                             </div>';
