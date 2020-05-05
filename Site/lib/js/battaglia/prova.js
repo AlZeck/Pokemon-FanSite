@@ -8,8 +8,8 @@ var mioPkm = Vue.component( 'MIOPKM', {
     },
 
     template: `
-        <DIV v−on:click="mioSeleziona">
-            <IMG v−bind:src="mini_sprite">
+        <DIV v-on:click="mioSeleziona">
+            <IMG v-bind:src="mini_sprite">
             {{ nome }}
         </DIV>
     `,
