@@ -7,32 +7,39 @@
 	<META charset="utf-8">
 	
 	<!-- PRENDO JQUERY DA INTERNET DALLE API GOOGLE
-	<SCRIPT src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></SCRIPT>-->
+	<SCRIPT src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></SCRIPT> -->
 
 	<SCRIPT type="text/javascript" lang="javascript" src="./vue.min.js"></SCRIPT>
 
 	<!-- PRENDO NOSTRI JS -->
 	<SCRIPT type="text/javascript" lang="javascript">
-		var miaArea = new Vue({
-			el: '.mia-class',
+		window.addEventListener("load", function() {
+			var miaArea = new Vue({
+				el: '#mia-class',
 
-			data: {
-				squadra:[
-					{ id: 1, nome: "bulbasaur" },
-					{ id: 2, nome: "ivysaur" },
-					{ id: 3, nome: "venusaur" },
-					{ id: 4, nome: "charmander" },
-					{ id: 5, nome: "charmaleon" },
-					{ id: 6, nome: "charizard" }
-				]
-			},
+				data: {
+					squadra:[
+						{ id: 1, nome: "bulbasaur" },
+						{ id: 2, nome: "ivysaur" },
+						{ id: 3, nome: "venusaur" },
+						{ id: 4, nome: "charmander" },
+						{ id: 5, nome: "charmaleon" },
+						{ id: 6, nome: "charizard" }
+					]
+				},
 
-			methods: {
-				aggiornaMiaArea: function() {
-					document.getElementById("miaArea").innerHTML = "<H1>" + this.squadra[0].id + " - " + this.squadra[0].nome + "</H1>";
-				}
-			}
-		})
+				methods: {
+					aggiornaMiaArea: function() {
+						document.getElementById("miaArea").innerHTML = "<H1>" + this.squadra[0].id + " - " + this.squadra[0].nome + "</H1>";
+					}
+				},
+
+				template: '<H1> {{this.value}} </H1>'
+			});
+		});
+
+
+		
 	</SCRIPT>
 </HEAD>
     
@@ -48,9 +55,11 @@
 	<BUTTON class="mioPokemon">my pokemon 6</BUTTON>
 	-->
 
+	<div id="mia-class"></div>
+
 	<DIV class="mia-class">
 		<UL>
-				<LI v−for="x in squadra" :key="x.id"> {{ x.nome }} </LI>
+				<LI v-for="x in squadra" :key="x.id"> {{ x.nome }} </LI>
 		</UL>
 	</DIV>
 
@@ -93,6 +102,12 @@
 	<HR/>
 
 	<BUTTON id="forfeit">forfeit</BUTTON>
+
+
+
+
+
+	
 </BODY>
 	
 </HTML>
