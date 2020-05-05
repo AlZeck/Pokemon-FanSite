@@ -38,7 +38,7 @@
         
         private function __construct(){
             try{
-                $servername = "localhost";
+                $servername = "Pokefan-pgsql";
                 $username = "monty";
                 $password = "python";
                 $database = "pokemon_fansite";

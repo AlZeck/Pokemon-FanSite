@@ -5,7 +5,7 @@ namespace Server;
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;
 
-include 'dbcontroller.php';
+include 'DBController.php';
 include 'Battaglia/battaglia.php';
 include 'Battaglia/utilities.php';
 include 'Battaglia/pokemon.php';
@@ -70,7 +70,7 @@ class BattleServerInterface implements MessageComponentInterface {
         echo sprintf('Connection %d sending message "%s" to %d other connection%s' . "\n"
             , $from->resourceId, $msg, $numRecv, $numRecv == 1 ? '' : 's');*/
         $parsedMsg = \json_decode($msg, true);
-        \var_dump($parsedMsg);
+        //\var_dump($parsedMsg);
 
         switch ($parsedMsg['type']) {
             case 'new':
@@ -81,7 +81,7 @@ class BattleServerInterface implements MessageComponentInterface {
                 $client = self::getUserbyConnection($from);
                 $username = $parsedMsg["value"]["sender"];
                 $team = \json_encode($parsedMsg["value"]["team"]);
-                \var_dump($team);
+                //\var_dump($team);
                 $client->setInfo($username, $team);
                 $parsedMsg["msg"] = "User:" . $client->getUsername() . " has arrived ";
                 echo $parsedMsg["msg"] . "\n";
@@ -220,6 +220,11 @@ class CPU {
 
     private function sendPoolMessage($msg) {
         $this->adv->send($msg);
+    }
+
+    
+    function endBattle() {
+        //fix both players leave error
     }
 
     function selectAction($action) {
