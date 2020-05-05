@@ -51,7 +51,7 @@ class BCPController {
 
     /**
      * Sends the requesto to create a new battle with a CPU
-     * @param {string} cpuTeam Stringified JSON containing the CPU's team
+     * @param {JSON} cpuTeam JSON containing the CPU's team
      */
     startCPU(cpuTeam) {
         this.send("CPU",{sender:"CPU", team:cpuTeam})
