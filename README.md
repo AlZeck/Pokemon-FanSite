@@ -2,10 +2,11 @@
 Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fare battaglie contro la cpu nel simulatore semplificato con squadre customizzate.
 
 
-## Instructions For WSBattle Server
+## Instructions For Server
 ```sh
-php bin/battle-server.php
+docker-compose up
 ```
+c'è bisogno di installare prima docker-compose 
 
 
 
@@ -19,14 +20,17 @@ php bin/battle-server.php
 | Postgresql Database                                       | DONE        |
 | Database controller                                       | DONE        |
 | Battle Websockets Server Side PHP+Ratchet                 | DONE        |
-| Battle Websockets Client Side JS                          | TODO        |
+| Battle Websockets Client Side JS                          | DONE        |
+| Navigation Bar			                                | Mostly Done |
+| Docker Container Server                                   | DONE        |
+
 
 ### Andrea
 | Task                                                      |    Status   |
 |-----------------------------------------------------------|:-----------:|
 | Home Page HTML ONLY                                       | TODO        |
-| Login Page HTML ONLY                                      | TODO        |
-| Sign up Page HTML ONLY                                    | TODO        |
+| Login Page HTML ONLY                                      | DONE        |
+| Sign up Page HTML ONLY                                    | DONE        |
 
 ### Matteo
 | Task                                                      | Status      |
@@ -43,7 +47,6 @@ php bin/battle-server.php
 | Sign up Page JS + Ajax + JQuery                           | TODO        |
 | Login Page PHP Controller                                 | TODO        |
 | Sign up Page PHP Controller                               | TODO        |
-| Navigation Bar			                                | TODO        |
 | Movedex Page PHP Generated                                | TODO        |
 | Pokedex Page PHP Generated                                | TODO        |
 | Typedex Page PHP Generated                                | TODO        |
