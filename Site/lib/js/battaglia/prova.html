@@ -6,107 +6,130 @@
 	
 	<META charset="utf-8">
 	
-	<!-- PRENDO JQUERY DA INTERNET DALLE API GOOGLE
-	<SCRIPT src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></SCRIPT> -->
+	<!-- PRENDO JQUERY DA INTERNET DALLE API GOOGLE 
+	<SCRIPT src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></SCRIPT>-->
 
 	<SCRIPT type="text/javascript" lang="javascript" src="./vue.min.js"></SCRIPT>
 
 	<!-- PRENDO NOSTRI JS -->
-	<SCRIPT type="text/javascript" lang="javascript">
-		window.addEventListener("load", function() {
-			var miaArea = new Vue({
-				el: '#mia-class',
-
-				data: {
-					squadra:[
-						{ id: 1, nome: "bulbasaur" },
-						{ id: 2, nome: "ivysaur" },
-						{ id: 3, nome: "venusaur" },
-						{ id: 4, nome: "charmander" },
-						{ id: 5, nome: "charmaleon" },
-						{ id: 6, nome: "charizard" }
-					]
-				},
-
-				methods: {
-					aggiornaMiaArea: function() {
-						document.getElementById("miaArea").innerHTML = "<H1>" + this.squadra[0].id + " - " + this.squadra[0].nome + "</H1>";
-					}
-				},
-
-				template: '<H1> {{this.value}} </H1>'
-			});
-		});
-
-
-		
-	</SCRIPT>
+	<SCRIPT type="text/javascript" lang="javascript" src="./prova.js"></SCRIPT>
 </HEAD>
     
     
 
 <BODY>
-	<!--
-	<BUTTON class="mioPokemon">my pokemon 1</BUTTON>
-	<BUTTON class="mioPokemon">my pokemon 2</BUTTON>
-	<BUTTON class="mioPokemon">my pokemon 3</BUTTON>
-	<BUTTON class="mioPokemon">my pokemon 4</BUTTON>
-	<BUTTON class="mioPokemon">my pokemon 5</BUTTON>
-	<BUTTON class="mioPokemon">my pokemon 6</BUTTON>
-	-->
 
-	<div id="mia-class"></div>
+	<DIV id="protagonista">
 
-	<DIV class="mia-class">
 		<UL>
-				<LI v-for="x in squadra" :key="x.id"> {{ x.nome }} </LI>
+			<!--
+			<LI v-for="(x, i) in squadra">
+				<IMG v-if="x == undefined || x.id < 1 || x.id > 649" v-bind:src="defaultPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(i)">
+				<IMG v-else v-bind:src="ennesimo(i).mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(i)">
+			</LI>
+			-->
+
+			<LI>
+				<SPAN v-if="primoPkm == undefined || primoPkm.id < 1 || primoPkm.id > 649">
+					<IMG v-bind:src="defaultPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(0)">
+					{{ defaultPkm.nome }}
+				</SPAN>
+				<SPAN v-else>
+					<IMG v-bind:src="primoPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(0)">
+					{{ primoPkm.nome }}
+				</SPAN>
+			</LI>
+
+			<LI>
+				<SPAN v-if="secondoPkm == undefined || secondoPkm.id < 1 || secondoPkm.id > 649">
+					<IMG v-bind:src="defaultPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(1)">
+					{{ defaultPkm.nome }}
+				</SPAN>
+				<SPAN v-else>
+					<IMG v-bind:src="secondoPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(1)">
+					{{ secondoPkm.nome }}
+				</SPAN>
+			</LI>
+
+			<LI>
+				<SPAN v-if="terzoPkm == undefined || terzoPkm.id < 1 || terzoPkm.id > 649">
+					<IMG v-bind:src="defaultPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(2)">
+					{{ defaultPkm.nome }}
+				</SPAN>
+				<SPAN v-else>
+					<IMG v-bind:src="terzoPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(2)">
+					{{ terzoPkm.nome }}
+				</SPAN>
+			</LI>
+
 		</UL>
+
+		<HR/>
+
+		
+		MINI-SPRITE: <IMG v-bind:src="selectedPkm.mini_sprite" alt="mini-sprite"> <BR/>
+		NOME: {{ selectedPkm.nome }} <BR/>
+		TIPO1: {{ selectedPkm.tipo1 }} <BR/>
+		TIPO2: {{ selectedPkm.tipo2 }} <BR/>
+		PS: {{ selectedPkm.ps }} <BR/>
+		ATT: {{ selectedPkm.att }} <BR/>
+		DIF: {{ selectedPkm.dif }} <BR/>
+		ATTS: {{ selectedPkm.atts }} <BR/>
+		DIFS: {{ selectedPkm.difs }} <BR/>
+		VEL: {{ selectedPkm.vel }} <BR/>
+		
+
+		<HR/>
+
+		<BUTTON id="switch" v-on:click="cambiaActivePkm"> switch </BUTTON>
+
+		<HR/>
+
+		<SPAN> mossa 1 </SPAN>
+		<SPAN> mossa 2 </SPAN>
+		<SPAN> mossa 3 </SPAN>
+		<SPAN> mossa 4 </SPAN>
+
+		<HR/>
+
+		
+		<SPAN v-if="activePkm.id < 1 || activePkm.id > 649">
+			<IMG v-bind:src="defaultPkm.front_sprite" alt="front-sprite">
+		</SPAN>
+		<SPAN v-else>
+			<IMG v-bind:src="activePkm.front_sprite" alt="front-sprite">
+		</SPAN>	
+
+		<DIV> {{ activePkm.ps }} </DIV>
+		
+
+		<DIV> testo battaglia </DIV>
+
+		<HR/>
+
+		<BUTTON id="forfeit" v-on:click="psMenoUno">forfeit</BUTTON>
+
 	</DIV>
 
-	<HR/>
 
-	<DIV id="miaArea"> mia area </DIV>
+	<!--
+		<DIV id="suoSprite">cpu sprite</DIV>
+		<DIV id="suaBarra">cpu barra</DIV>
+		
 
-	<HR/>
+		<HR/>
 
-	<BUTTON id="switch">switch</BUTTON>
+		<BUTTON class="suoPokemon">cpu pokemon 1</BUTTON>
+		<BUTTON class="suoPokemon">cpu pokemon 2</BUTTON>
+		<BUTTON class="suoPokemon">cpu pokemon 3</BUTTON>
+		<BUTTON class="suoPokemon">cpu pokemon 4</BUTTON>
+		<BUTTON class="suoPokemon">cpu pokemon 5</BUTTON>
+		<BUTTON class="suoPokemon">cpu pokemon 6</BUTTON>
 
-	<HR/>
+		<HR/>
 
-	<BUTTON class="miaMossa">mossa 1</BUTTON>
-	<BUTTON class="miaMossa">mossa 2</BUTTON>
-	<BUTTON class="miaMossa">mossa 3</BUTTON>
-	<BUTTON class="miaMossa">mossa 4</BUTTON>
-
-	<HR/>
-
-	<DIV id="suoSprite">cpu sprite</DIV>
-	<DIV id="suaBarra">cpu barra</DIV>
-	<DIV id="mioSprite">my sprite</DIV>
-	<DIV id="miaBarra">my barra</DIV>
-	<DIV id="testoBattaglia">testo battaglia</DIV>
-
-	<HR/>
-
-	<BUTTON class="suoPokemon">cpu pokemon 1</BUTTON>
-	<BUTTON class="suoPokemon">cpu pokemon 2</BUTTON>
-	<BUTTON class="suoPokemon">cpu pokemon 3</BUTTON>
-	<BUTTON class="suoPokemon">cpu pokemon 4</BUTTON>
-	<BUTTON class="suoPokemon">cpu pokemon 5</BUTTON>
-	<BUTTON class="suoPokemon">cpu pokemon 6</BUTTON>
-
-	<HR/>
-
-	<DIV id="suaArea"> cpu area </DIV>
-
-	<HR/>
-
-	<BUTTON id="forfeit">forfeit</BUTTON>
-
-
-
-
-
+		<DIV id="suaArea"> cpu area </DIV>
+	-->
 	
 </BODY>
 	
