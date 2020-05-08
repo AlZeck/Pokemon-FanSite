@@ -1,44 +1,21 @@
 //classe per l'oggetto Battaglia
 class Battaglia {
     /*  PARAMETRI
-        _io                 : oggetto Utente
-        _avversario         : oggetto Utente
-
-        _mioPkmAttivo       : oggetto Pokemon
-        _suoPkmAttivo       : oggetto Pokemon
-
-        _mioPkmSelezionato  : oggetto Pokemon
-        _suoPkmSelezionato  : oggetto Pokemon
+        _protagonista       : oggetto Vue con element protagonista
+        _avversario         : oggetto Vue con element avversario
     */
 
 
     //costruttore
-    constructor(io_username, pkm1, pkm2, pkm3, pkm4, pkm5, pkm6, avversario_username) {
-        this._io = new Utente(io_username, pkm1, pkm2, pkm3, pkm4, pkm5, pkm6);
-        this._avversario = new Utente(avversario_username, null, null, null, null, null, null);
-
-        this._mioPkmAttivo = pkm1;
-        this._suoPkmAttivo = null;
-
-        this._mioPkmSelezionato = pkm1;
-        this._suoPkmSelezionato = null;
+    constructor(protagonista, avversario) {
+        this._protagonista = protagonista;
+        this._avversario = avversario;
     }
 
 
     //getter
-    get io() { return this._io; }
+    get protagonista() { return this._io; }
     get avversario() { return this._avversario; }
-    get mioPkmAttivo() { return this._mioPkmAttivo; }
-    get suoPkmAttivo() { return this._suoPkmAttivo; }
-    get mioPkmSelezionato() { return this._mioPkmSelezionato; }
-    get suoPkmSelezionato() { return this._suoPkmSelezionato; }
-
-
-    //setter
-    set mioPkmAttivo(x) { this._mioPkmAttivo = x; }
-    set suoPkmAttivo(x) { this._suoPkmAttivo = x; }
-    set mioPkmSelezionato(x) { this._mioPkmSelezionato = x; }
-    set suoPkmSelezionato(x) { this._suoPkmSelezionato = x; }
 
 
     //funzione per scrivere sulla gui il testo della battaglia
