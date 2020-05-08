@@ -32,9 +32,10 @@
             
             <?php
                 foreach ($lis as $pokemon) {
+
                     echo    '<div class="col mb-4">
                                 <div class="card" style=" height: 180px; width: 160px;">
-                                    <a href="#">
+                                    <a href="./pokemon.php?id='.$pokemon["id"].'">
                                     <div class="card-body" style="align: center" >
                                     <h5 class="card-title">'.$pokemon["nome"].'</h5>
                                     <img src="assets/pokemon/artwork/'.$pokemon["nome"].'.png" class="card-img-top" alt="'.$pokemon["nome"].'">
