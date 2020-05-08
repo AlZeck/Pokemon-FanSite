@@ -12,125 +12,189 @@
 	<SCRIPT type="text/javascript" lang="javascript" src="./vue.min.js"></SCRIPT>
 
 	<!-- PRENDO NOSTRI JS -->
-	<SCRIPT type="text/javascript" lang="javascript" src="./prova.js"></SCRIPT>
+	<SCRIPT type="text/javascript" lang="javascript" src="./protagonista.js"></SCRIPT>
+	<SCRIPT type="text/javascript" lang="javascript" src="./avversario.js"></SCRIPT>
 </HEAD>
     
-    
+
 
 <BODY>
 
-	<DIV id="protagonista">
 
-		<UL>
+	<TABLE summary="Tabella della battaglia" border=0>
+
+		<TR>
+            <TD id="protagonista">
+                <TABLE summary="Tabella protagonista" border=1>
+                    <TR>
+                        <TD>
+                            <UL>
+                                <LI v-on:click="cambiaSelectedPkm(1)">
+                                    <IMG v-bind:src="primoPkm.mini_sprite" alt="mini-sprite">
+                                    {{ primoPkm.nome }}
+                                </LI>
+                    
+                                <LI v-on:click="cambiaSelectedPkm(2)">
+                                    <IMG v-bind:src="secondoPkm.mini_sprite" alt="mini-sprite">
+                                    {{ secondoPkm.nome }}
+                                </LI>
+                    
+                                <LI v-on:click="cambiaSelectedPkm(3)">
+                                    <IMG v-bind:src="terzoPkm.mini_sprite" alt="mini-sprite">
+                                    {{ terzoPkm.nome }}
+                                </LI>
+                    
+                                <LI v-on:click="cambiaSelectedPkm(4)">
+                                    <IMG v-bind:src="quartoPkm.mini_sprite" alt="mini-sprite">
+                                    {{ quartoPkm.nome }}
+                                </LI>
+                    
+                                <LI v-on:click="cambiaSelectedPkm(5)">
+                                    <IMG v-bind:src="quintoPkm.mini_sprite" alt="mini-sprite">
+                                    {{ quintoPkm.nome }}
+                                </LI>
+                    
+                                <LI v-on:click="cambiaSelectedPkm(6)">
+                                    <IMG v-bind:src="sestoPkm.mini_sprite" alt="mini-sprite">
+                                    {{ sestoPkm.nome }}
+                                </LI>
+                            </UL>
+                    
+                            <HR/>
+                    
+                            INDEX SELECTED POKEMON: {{ indexSelectedPkm }} <BR/>
+                            MINI-SPRITE: <IMG v-bind:src="selectedPkm.mini_sprite" alt="mini-sprite"> <BR/>
+                            NOME: {{ selectedPkm.nome }} <BR/>
+                            TYPING: {{ selectedPkm.tipo1 }}
+                            <SPAN v-if="selectedPkm.tipo2 != null"> - {{ selectedPkm.tipo2 }} </SPAN> <BR/> <BR/>
+                    
+                            PS: {{ selectedPkm.ps }} <BR/>
+                            ATT: {{ selectedPkm.att }} <BR/>
+                            DIF: {{ selectedPkm.dif }} <BR/>
+                            ATTS: {{ selectedPkm.atts }} <BR/>
+                            DIFS: {{ selectedPkm.difs }} <BR/>
+                            VEL: {{ selectedPkm.vel }} <BR/> <BR/>
+                    
+                            MOSSE:
+                            <UL>
+                                <LI v-for="m in selectedPkm.mosse"> {{ m.nome }} </LI>
+                            </UL>
+                    
+                            <HR/>
+                    
+                            <BUTTON id="switch" v-on:click="cambiaActivePkm" v-bind:disabled="squadra[indexSelectedPkm].ps <= 0"> switch </BUTTON>
+                        </TD>
+                
+                        <TD>
+                            INDEX MY ACTIVE POKEMON: {{ indexActivePkm }} <BR/>
+                            <IMG v-bind:src="activePkm.back_sprite" alt="back-sprite"> <BR/>
+                            NOME: {{ activePkm.nome }} <BR/>
+                            PS: {{ activePkm.ps }}
+                            
+                            <HR/>
+
+                            MOSSE MY ACTIVE POKEMON:
+                            <UL>
+                                <LI v-for="m in activePkm.mosse"> {{ m.nome }} - {{ m.tipo }} - {{ m.potenza }} - {{ m.precisione }} - {{ m.categoria }} </LI>
+                            </UL>
+                        </TD>
+                    </TR>
+                </TABLE> 
+            </TD>
+
+
 			<!--
-			<LI v-for="(x, i) in squadra">
-				<IMG v-if="x == undefined || x.id < 1 || x.id > 649" v-bind:src="defaultPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(i)">
-				<IMG v-else v-bind:src="ennesimo(i).mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(i)">
-			</LI>
+                --------------------------------------------------------------------------------------
 			-->
 
-			<LI>
-				<SPAN v-if="primoPkm == undefined || primoPkm.id < 1 || primoPkm.id > 649">
-					<IMG v-bind:src="defaultPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(0)">
-					{{ defaultPkm.nome }}
-				</SPAN>
-				<SPAN v-else>
-					<IMG v-bind:src="primoPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(0)">
-					{{ primoPkm.nome }}
-				</SPAN>
-			</LI>
 
-			<LI>
-				<SPAN v-if="secondoPkm == undefined || secondoPkm.id < 1 || secondoPkm.id > 649">
-					<IMG v-bind:src="defaultPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(1)">
-					{{ defaultPkm.nome }}
-				</SPAN>
-				<SPAN v-else>
-					<IMG v-bind:src="secondoPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(1)">
-					{{ secondoPkm.nome }}
-				</SPAN>
-			</LI>
+            <TD id="avversario">
+                <TABLE summary="Tabella avversario" border=1>
+                    <TR>
+                        <TD>
+                            INDEX HIS ACTIVE POKEMON: {{ indexActivePkm }} <BR/>
+                            <IMG v-bind:src="activePkm.front_sprite" alt="front-sprite"> <BR/>
+                            NOME: {{ activePkm.nome }} <BR/>
+                            PS: {{ activePkm.ps }}
+                            
+                            <HR/>
+        
+                            MOSSE HIS ACTIVE POKEMON:
+                            <UL>
+                                <LI v-for="m in activePkm.mosse"> {{ m.nome }} - {{ m.tipo }} - {{ m.potenza }} - {{ m.precisione }} - {{ m.categoria }} </LI>
+                            </UL>
+                        </TD>
+                
+                        <TD>
+                            <UL>
+                                <LI v-on:click="cambiaSelectedPkm(1)">
+                                        <IMG v-bind:src="primoPkm.mini_sprite" alt="mini-sprite">
+                                        {{ primoPkm.nome }}
+                                </LI>
+                    
+                                <LI v-on:click="cambiaSelectedPkm(2)">
+                                    <IMG v-bind:src="secondoPkm.mini_sprite" alt="mini-sprite">
+                                    {{ secondoPkm.nome }}
+                                </LI>
+                    
+                                <LI v-on:click="cambiaSelectedPkm(3)">
+                                    <IMG v-bind:src="terzoPkm.mini_sprite" alt="mini-sprite">
+                                    {{ terzoPkm.nome }}
+                                </LI>
+                    
+                                <LI v-on:click="cambiaSelectedPkm(4)">
+                                        <IMG v-bind:src="quartoPkm.mini_sprite" alt="mini-sprite">
+                                        {{ quartoPkm.nome }}
+                                </LI>
+                    
+                                <LI v-on:click="cambiaSelectedPkm(5)">
+                                    <IMG v-bind:src="quintoPkm.mini_sprite" alt="mini-sprite">
+                                    {{ quintoPkm.nome }}
+                                </LI>
+                    
+                                <LI v-on:click="cambiaSelectedPkm(6)">
+                                    <IMG v-bind:src="sestoPkm.mini_sprite" alt="mini-sprite">
+                                    {{ sestoPkm.nome }}
+                                </LI>
+                            </UL>
+                    
+                            <HR/>
+                    
+                            INDEX SELECTED POKEMON: {{ indexSelectedPkm }} <BR/>
+                            MINI-SPRITE: <IMG v-bind:src="selectedPkm.mini_sprite" alt="mini-sprite"> <BR/>
+                            NOME: {{ selectedPkm.nome }} <BR/>
+                            TYPING: {{ selectedPkm.tipo1 }}
+                            <SPAN v-if="selectedPkm.tipo2 != null"> - {{ selectedPkm.tipo2 }} </SPAN> <BR/> <BR/>
+                    
+                            PS: {{ selectedPkm.ps }} <BR/>
+                            ATT: {{ selectedPkm.att }} <BR/>
+                            DIF: {{ selectedPkm.dif }} <BR/>
+                            ATTS: {{ selectedPkm.atts }} <BR/>
+                            DIFS: {{ selectedPkm.difs }} <BR/>
+                            VEL: {{ selectedPkm.vel }} <BR/> <BR/>
+                    
+                            MOSSE:
+                            <UL>
+                                <LI v-for="m in selectedPkm.mosse"> {{ m.nome }} </LI>
+                            </UL>
+                    
+                            <HR/>
+        
+                            <BUTTON id="forfeit"> forfeit </BUTTON>
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>
+        </TR>
+        
 
-			<LI>
-				<SPAN v-if="terzoPkm == undefined || terzoPkm.id < 1 || terzoPkm.id > 649">
-					<IMG v-bind:src="defaultPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(2)">
-					{{ defaultPkm.nome }}
-				</SPAN>
-				<SPAN v-else>
-					<IMG v-bind:src="terzoPkm.mini_sprite" alt="mini-sprite" v-on:click="cambiaSelectedPkm(2)">
-					{{ terzoPkm.nome }}
-				</SPAN>
-			</LI>
+        <TR>
+            <TD> testo battaglia </TD>
+        </TR>
 
-		</UL>
+    </TABLE>
+    
 
-		<HR/>
-
-		
-		MINI-SPRITE: <IMG v-bind:src="selectedPkm.mini_sprite" alt="mini-sprite"> <BR/>
-		NOME: {{ selectedPkm.nome }} <BR/>
-		TIPO1: {{ selectedPkm.tipo1 }} <BR/>
-		TIPO2: {{ selectedPkm.tipo2 }} <BR/>
-		PS: {{ selectedPkm.ps }} <BR/>
-		ATT: {{ selectedPkm.att }} <BR/>
-		DIF: {{ selectedPkm.dif }} <BR/>
-		ATTS: {{ selectedPkm.atts }} <BR/>
-		DIFS: {{ selectedPkm.difs }} <BR/>
-		VEL: {{ selectedPkm.vel }} <BR/>
-		
-
-		<HR/>
-
-		<BUTTON id="switch" v-on:click="cambiaActivePkm"> switch </BUTTON>
-
-		<HR/>
-
-		<SPAN> mossa 1 </SPAN>
-		<SPAN> mossa 2 </SPAN>
-		<SPAN> mossa 3 </SPAN>
-		<SPAN> mossa 4 </SPAN>
-
-		<HR/>
-
-		
-		<SPAN v-if="activePkm.id < 1 || activePkm.id > 649">
-			<IMG v-bind:src="defaultPkm.front_sprite" alt="front-sprite">
-		</SPAN>
-		<SPAN v-else>
-			<IMG v-bind:src="activePkm.front_sprite" alt="front-sprite">
-		</SPAN>	
-
-		<DIV> {{ activePkm.ps }} </DIV>
-		
-
-		<DIV> testo battaglia </DIV>
-
-		<HR/>
-
-		<BUTTON id="forfeit" v-on:click="psMenoUno">forfeit</BUTTON>
-
-	</DIV>
-
-
-	<!--
-		<DIV id="suoSprite">cpu sprite</DIV>
-		<DIV id="suaBarra">cpu barra</DIV>
-		
-
-		<HR/>
-
-		<BUTTON class="suoPokemon">cpu pokemon 1</BUTTON>
-		<BUTTON class="suoPokemon">cpu pokemon 2</BUTTON>
-		<BUTTON class="suoPokemon">cpu pokemon 3</BUTTON>
-		<BUTTON class="suoPokemon">cpu pokemon 4</BUTTON>
-		<BUTTON class="suoPokemon">cpu pokemon 5</BUTTON>
-		<BUTTON class="suoPokemon">cpu pokemon 6</BUTTON>
-
-		<HR/>
-
-		<DIV id="suaArea"> cpu area </DIV>
-	-->
-	
 </BODY>
 	
 </HTML>
