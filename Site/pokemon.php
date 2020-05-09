@@ -20,9 +20,14 @@ include 'lib/php/dbcontroller.php';
 $con = DBController::getController();
 $pokemon = $con->getPokemonById($_GET["id"]);
 $moves = $con->getMosseListByPokemon($_GET["id"]);
-if ($pokemon === NULL) {
+if ($pokemon != NULL) {
     $raw_data  = file_get_contents('./assets/voci_pokedex/' . $pokemon["nome"] . '.json');
     $data = json_decode($raw_data, true);
+} else {
+    //header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found", true, 404);
+    include("lib/php/notFound.php");
+    sendError("Pokemon not found");
+    die();
 }
 
 ?>
