@@ -78,6 +78,7 @@ if ($pokemon != NULL) {
                         ?>
                     </div>
                 </div>
+                <br>
             </div>
 
             <!--IMAGINE-->
@@ -86,33 +87,58 @@ if ($pokemon != NULL) {
                     <?php
                     echo '<img  class="card-img-top" src="assets/pokemon/artwork/' . $pokemon["nome"] . '.png" alt="' . $pokemon["nome"] . '">';
                     ?>
-                    <div class="card-body">
-                        <div class="card-deck">
-                            <div class="card">
-                                <?php
-                                echo '<img src="assets/pokemon/mini_sprite/' . $pokemon["nome"] . '.png" alt="' . $pokemon["nome"] . '_mini_sprite">';
-                                ?>
-                            </div>
-                            <div class="card">
-                                <?php
-                                echo '<img src="assets/pokemon/front_sprite/' . $pokemon["nome"] . '.gif" alt="' . $pokemon["nome"] . '_front_sprite">';
-                                ?>
-                            </div>
-                            <div class="card">
-                                <?php
-                                echo '<img src="assets/pokemon/back_sprite/' . $pokemon["nome"] . '.gif" alt="' . $pokemon["nome"] . '_back_sprite">';
-                                ?>
-                            </div>
+                    <div class="card-deck">
+                        <div class="card">
+                            <?php
+                            echo '<img src="assets/pokemon/mini_sprite/' . $pokemon["nome"] . '.png" alt="' . $pokemon["nome"] . '_mini_sprite">';
+                            ?>
+                        </div>
+                        <div class="card">
+                            <?php
+                            echo '<img src="assets/pokemon/front_sprite/' . $pokemon["nome"] . '.gif" alt="' . $pokemon["nome"] . '_front_sprite">';
+                            ?>
+                        </div>
+                        <div class="card">
+                            <?php
+                            echo '<img src="assets/pokemon/back_sprite/' . $pokemon["nome"] . '.gif" alt="' . $pokemon["nome"] . '_back_sprite">';
+                            ?>
                         </div>
 
                     </div>
                 </div>
+                <br>
             </div>
         </div>
-        <br>
         <div class="card">
-            <div class="card-body">
+            <div class="card-header">
                 <h3 class="card-title"> Voci pokedex </h3>
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item active">
+                        <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade active show">
+                        <h3>HOME</h3>
+                        <p>Some content.</p>
+                    </div>
+                    <div id="menu1" class="tab-pane fade">
+                        <h3>Menu 1</h3>
+                        <p>Some content in menu 1.</p>
+                    </div>
+                    <div id="menu2" class="tab-pane fade">
+                        <h3>Menu 2</h3>
+                        <p>Some content in menu 2.</p>
+                    </div>
+                </div>
             </div>
             <!-- //TODO -->
         </div>
@@ -145,7 +171,8 @@ if ($pokemon != NULL) {
             </div>
 
         </div>
-
+    </div>
+    <br>
 
 </body>
 
