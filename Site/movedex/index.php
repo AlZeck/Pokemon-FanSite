@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php 
-    include 'lib/php/dbcontroller.php';
+    include '../lib/php/dbcontroller.php';
     $con = DBController::getController();
     $lis = $con->getMosseList();
 
@@ -22,8 +22,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-        <link href="lib/css/movedex.css" rel="stylesheet">
-    <script src="lib/js/navbar.js"></script>
+        <link href="/lib/css/movedex.css" rel="stylesheet">
+    <script src="/lib/js/navbar.js"></script>
 
 </head>
 <body>
@@ -38,10 +38,10 @@
 
                     echo    '<div class="mb-4">
                                 <div class="card">
-                                    <a href="./mossa.php?id='.$mossa["id"].'">
+                                    <a href="/movedex/mossa.php?id='.$mossa["id"].'">
                                     <div class="card-body">
                                     <h5 class="card-title">'.ucfirst($mossa["nome"]).'</h5>
-                                    <img src="assets/img/mosse/'.$mossa["tipo"].'.png" alt="'.$mossa["nome"].'">
+                                    <img src="/assets/img/mosse/'.$mossa["tipo"].'.png" alt="'.$mossa["nome"].'">
                                     </div>
                                     </a>
                                 </div>

@@ -1,5 +1,5 @@
 <?php 
-    include 'lib/php/dbcontroller.php';
+    include '../lib/php/dbcontroller.php';
     $con = DBController::getController();
     $id = $_GET['id'];
     $info = $con->getMossaById($id);

@@ -1,5 +1,5 @@
 function includeNavBar() {
-  fetch("./navbar.html")
+  fetch("/navbar.html")
     .then(response => {
       return response.text()
     })

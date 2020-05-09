@@ -20,9 +20,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <link href="lib/css/typedex.css" rel="stylesheet">
-    <link href="lib/css/tipi.css" rel="stylesheet">
-    <script src="lib/js/navbar.js"></script>
+    <link href="/lib/css/typedex.css" rel="stylesheet">
+    <link href="/lib/css/tipi.css" rel="stylesheet">
+    <script src="/lib/js/navbar.js"></script>
     
 </head>
 <body>
@@ -37,7 +37,7 @@
                 foreach ($lis as $tipo) {
                     echo    '<div class="mb-4">
                                 <div class="card '.$tipo.'">
-                                    <a href="./tipo.php?id='.$tipo.'">
+                                    <a href="/typedex/tipo.php?id='.$tipo.'">
                                     <div class="card-body">
                                     <h5 class="card-title">'.strtoupper($tipo).'</h5>
                                     </div>

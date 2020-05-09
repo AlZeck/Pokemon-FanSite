@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
-include 'lib/php/dbcontroller.php';
+include '../lib/php/dbcontroller.php';
 $con = DBController::getController();
 $lis = $con->getPokemonList();
 ?>
@@ -14,8 +14,8 @@ $lis = $con->getPokemonList();
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link href="lib/css/pokedex.css" rel="stylesheet">
-    <script src="lib/js/navbar.js"></script>
+    <link href="/lib/css/pokedex.css" rel="stylesheet">
+    <script src="/lib/js/navbar.js"></script>
 
 </head>
 
@@ -31,11 +31,11 @@ $lis = $con->getPokemonList();
                 
                 echo    '<div class="mb-4">
                                 <div class="card">
-                                    <a href="./pokemon.php?id=' . $pokemon["id"] . '">
+                                    <a href="/pokedex/pokemon.php?id=' . $pokemon["id"] . '">
                                     <div class="card-body">
                                     <h5 class="card-title"> <span class="number"> #'.$pokemon["id"].'</span> '
                                     . ucfirst($pokemon["nome"]) . '</h5>
-                                    <img src="assets/pokemon/artwork/' . $pokemon["nome"] . '.png" alt="' . $pokemon["nome"] . '">
+                                    <img src="/assets/pokemon/artwork/' . $pokemon["nome"] . '.png" alt="' . $pokemon["nome"] . '">
                                     </div>
                                     </a>
                                 </div>
