@@ -99,17 +99,17 @@
     "light": "background: #D6E4FF; color: #3B5DA2;",
     "dark": "background: #3B5DA2; color: #D6E4FF;"
   },
-  "Fisico": {
+  "fisico": {
     "base": "background: #C92112;",
     "light": "background: #D96358; color: #82150B;",
     "dark": "background: #82150B; color: #D96358;"
   },
-  "Speciale": {
+  "speciale": {
     "base": "background: #4F5870;",
     "light": "background: #83899A; color: #333948;",
     "dark": "background: #333948; color: #83899A;"
   },
-  "Stato": {
+  "stato": {
     "base": "background: #8C888C;",
     "light": "background: #AEABAE; color: #5B585B;",
     "dark": "background: #5B585B; color: #AEABAE;"
