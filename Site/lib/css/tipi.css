@@ -1,0 +1,459 @@
+.acciaio {
+    color: white;
+    background: #5A8DA1;
+}
+
+.acciaio:hover {
+    background: #1D4C5E;
+    color: #BDD1D9;
+}
+
+.acciaio-light {
+    background: #BDD1D9;
+    color: #1D4C5E;
+}
+
+.acciaio-dark {
+    background: #1D4C5E;
+    color: #BDD1D9;
+}
+
+.acqua {
+    color: white;
+    background: #4F90D5;
+}
+
+.acqua:hover {
+    background: #114983;
+    color: #B4D0EC;
+}
+
+.acqua-light {
+    background: #B4D0EC;
+    color: #114983;
+}
+
+.acqua-dark {
+    background: #114983;
+    color: #B4D0EC;
+}
+
+.buio {
+    color: white;
+    background: #5A5365;
+}
+
+.buio:hover {
+    background: #1E1A25;
+    color: #A29EA7;
+}
+
+.buio-light {
+    background: #A29EA7;
+    color: #1E1A25;
+}
+
+.buio-dark {
+    background: #1E1A25;
+    color: #A29EA7;
+}
+
+.coleottero {
+    color: white;
+    background: #91C02E;
+}
+
+.coleottero:hover {
+    background: #547904;
+    color: #D8F895;
+}
+
+.coleottero-light {
+    background: #D8F895;
+    color: #547904;
+}
+
+.coleottero-dark {
+    background: #547904;
+    color: #D8F895;
+}
+
+.drago {
+    color: white;
+    background: #0A6DC2;
+}
+
+.drago:hover {
+    background: #002B50;
+    color: #7DB0DC;
+}
+
+.drago-light {
+    background: #7DB0DC;
+    color: #002B50;
+}
+
+.drago-dark {
+    background: #002B50;
+    color: #7DB0DC;
+}
+
+.elettro {
+    color: white;
+    background: #F4D23C;
+}
+
+.elettro:hover {
+    background: #917908;
+    color: #FAF5AF;
+}
+
+.elettro-light {
+    background: #FAF5AF;
+    color: #917908;
+}
+
+.elettro-dark {
+    background: #917908;
+    color: #FAF5AF;
+}
+
+.erba {
+    color: white;
+    background: #62BB5A;
+}
+
+.erba:hover {
+    background: #11500A;
+    color: #B1FFA9;
+}
+
+.erba-light {
+    background: #B1FFA9;
+    color: #11500A;
+}
+
+.erba-dark {
+    background: #11500A;
+    color: #B1FFA9;
+}
+
+.folletto {
+    color: white;
+    background: #EB8FE6;
+}
+
+.folletto:hover {
+    background: #A940A3;
+    color: #FFD3FC;
+}
+
+.folletto-light {
+    background: #FFD3FC;
+    color: #A940A3;
+}
+
+.folletto-dark {
+    background: #A940A3;
+    color: #FFD3FC;
+}
+
+.fuoco {
+    color: white;
+    background: #FE9C54;
+}
+
+.fuoco:hover {
+    background: #A74700;
+    color: #FFD2A1;
+}
+
+.fuoco-light {
+    background: #FFD2A1;
+    color: #A74700;
+}
+
+.fuoco-dark {
+    background: #A74700;
+    color: #FFD2A1;
+}
+
+.ghiaccio {
+    color: white;
+    background: #73CEBF;
+}
+
+.ghiaccio:hover {
+    background: #187C6A;
+    color: #CCFFF6;
+}
+
+.ghiaccio-light {
+    background: #CCFFF6;
+    color: #187C6A;
+}
+
+.ghiaccio-dark {
+    background: #187C6A;
+    color: #CCFFF6;
+}
+
+.lotta {
+    color: white;
+    background: #CD406A;
+}
+
+.lotta:hover {
+    background: #801334;
+    color: #F488A9;
+}
+
+.lotta-light {
+    background: #F488A9;
+    color: #801334;
+}
+
+.lotta-dark {
+    background: #801334;
+    color: #F488A9;
+}
+
+.normale {
+    color: white;
+    background: #9199A1;
+}
+
+.normale:hover {
+    background: #444B53;
+    color: #DADDE0;
+}
+
+.normale-light {
+    background: #DADDE0;
+    color: #444B53;
+}
+
+.normale-dark {
+    background: #444B53;
+    color: #DADDE0;
+}
+
+.ombra {
+    color: white;
+    background: #604E82;
+}
+
+.ombra:hover {
+    background: #3E3355;
+    color: #8674A8;
+}
+
+.ombra-light {
+    background: #8674A8;
+    color: #3E3355;
+}
+
+.ombra-dark {
+    background: #3E3355;
+    color: #8674A8;
+}
+
+.psico {
+    color: white;
+    background: #F67177;
+}
+
+.psico:hover {
+    background: #A20D14;
+    color: #FFBBBE;
+}
+
+.psico-light {
+    background: #FFBBBE;
+    color: #A20D14;
+}
+
+.psico-dark {
+    background: #A20D14;
+    color: #FFBBBE;
+}
+
+.roccia {
+    color: white;
+    background: #C5B78B;
+}
+
+.roccia:hover {
+    background: #7E6E3F;
+    color: #F1E7C7;
+}
+
+.roccia-light {
+    background: #F1E7C7;
+    color: #7E6E3F;
+}
+
+.roccia-dark {
+    background: #7E6E3F;
+    color: #F1E7C7;
+}
+
+.sconosciuto {
+    color: white;
+    background: #68A090;
+}
+
+.sconosciuto:hover {
+    background: #44685E;
+    color: #9DC1B7;
+}
+
+.sconosciuto-light {
+    background: #9DC1B7;
+    color: #44685E;
+}
+
+.sconosciuto-dark {
+    background: #44685E;
+    color: #9DC1B7;
+}
+
+.spettro {
+    color: white;
+    background: #5269AC;
+}
+
+.spettro:hover {
+    background: #193177;
+    color: #A5B6E7;
+}
+
+.spettro-light {
+    background: #A5B6E7;
+    color: #193177;
+}
+
+.spettro-dark {
+    background: #193177;
+    color: #A5B6E7;
+}
+
+.terra {
+    color: white;
+    background: #D87844;
+}
+
+.terra:hover {
+    background: #9A3E0B;
+    color: #FFBB96;
+}
+
+.terra-light {
+    background: #FFBB96;
+    color: #9A3E0B;
+}
+
+.terra-dark {
+    background: #9A3E0B;
+    color: #FFBB96;
+}
+
+.veleno {
+    color: white;
+    background: #A96AC8;
+}
+
+.veleno:hover {
+    background: #79339D;
+    color: #E0B0F9;
+}
+
+.veleno-light {
+    background: #E0B0F9;
+    color: #79339D;
+}
+
+.veleno-dark {
+    background: #79339D;
+    color: #E0B0F9;
+}
+
+.volante {
+    color: white;
+    background: #8EA8DE;
+}
+
+.volante:hover {
+    background: #3B5DA2;
+    color: #D6E4FF;
+}
+
+.volante-light {
+    background: #D6E4FF;
+    color: #3B5DA2;
+}
+
+.volante-dark {
+    background: #3B5DA2;
+    color: #D6E4FF;
+}
+
+.fisico {
+    color: white;
+    background: #C92112;
+}
+
+.fisico:hover {
+    background: #82150B;
+    color: #D96358;
+}
+
+.fisico-light {
+    background: #D96358;
+    color: #82150B;
+}
+
+.fisico-dark {
+    background: #82150B;
+    color: #D96358;
+}
+
+.speciale {
+    color: white;
+    background: #4F5870;
+}
+
+.speciale:hover {
+    background: #333948;
+    color: #83899A;
+}
+
+.speciale-light {
+    background: #83899A;
+    color: #333948;
+}
+
+.speciale-dark {
+    background: #333948;
+    color: #83899A;
+}
+
+.stato {
+    color: white;
+    background: #8C888C;
+}
+
+.stato:hover {
+    background: #5B585B;
+    color: #AEABAE;
+}
+
+.stato-light {
+    background: #AEABAE;
+    color: #5B585B;
+}
+
+.stato-dark {
+    background: #5B585B;
+    color: #AEABAE;
+}

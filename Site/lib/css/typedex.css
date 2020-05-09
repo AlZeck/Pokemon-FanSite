@@ -1,0 +1,49 @@
+body {
+    background-image: url(../../assets/img/home_page/background.jpg);
+    background-size: cover;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.number {
+    color: gray;
+    text-align: left;
+}
+
+.card-deck {
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 5px;
+    width: 180px;
+    height: 100px;
+    justify-content: center;
+}
+
+.card-title {
+    margin-bottom: 0px;
+}
+
+.card-body {
+    text-align: center;
+}
