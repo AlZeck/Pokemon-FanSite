@@ -125,13 +125,13 @@ if ($pokemon != NULL) {
                     <?php
                     foreach ($moves as $mossa) {
 
-                        echo    '<div class="mb-4">'.
-                                '<a class="card btn btn-tipo '. $mossa["tipo"] . '" style="width: 185px; align-items:center;" '.
-                                'href="./mossa.php?id=' . $mossa["id"] . '">' . ucfirst($mossa["nome"]) . 
-                                    //'<img src="assets/img/mosse/' . $mossa["tipo"] . '.png" alt="' . $mossa["nome"] . '">'.
-                                    //'</div>'.
-                                    '</a>'.
-                                //'</div>'.
+                        echo    '<div class="mb-4">' .
+                            '<a class="card btn btn-tipo ' . $mossa["tipo"] . '" style="width: 185px; align-items:center; font-weight: bold;" ' .
+                            'href="./mossa.php?id=' . $mossa["id"] . '">' . ucfirst($mossa["nome"]) .
+                            //'<img src="assets/img/mosse/' . $mossa["tipo"] . '.png" alt="' . $mossa["nome"] . '">'.
+                            //'</div>'.
+                            '</a>' .
+                            //'</div>'.
                             '</div>';
                     }
 
