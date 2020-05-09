@@ -26,6 +26,7 @@ body {
     justify-content: center;
 }
 .pokecard{
+    height: 445px;
     align-items: center;
 }
 
