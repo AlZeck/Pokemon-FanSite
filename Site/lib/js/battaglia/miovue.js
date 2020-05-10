@@ -29,13 +29,16 @@ window.addEventListener("load", function() {
                 //index della squadra per il pokemon selezionato (inizialmente 0)
                 indexSelectedPkm: 0,
 
+                //index indicante se deve mostrare lo sprite del pokemon (0) o della pokeball (1)
+                indexSprite: 0,
+
                 //la squadra corrente, in posizione 0 ci sta il pokemon di default, ma nel caso del protagonista viene subito inizializzata tutta ai pokemon scelti
                 squadra: [  
                     {
                         id: 0, nome: "???", tipo1: "???", tipo2: null, psMax: 0, ps: 0, att: 0, dif: 0, atts: 0, difs: 0, vel: 0, 
-                        mini_sprite: "../../../assets/pokemon/default_sprites/default_mini.png",
-                        front_sprite: "../../../assets/pokemon/default_sprites/default_front_back.png",
-                        back_sprite: "../../../assets/pokemon/default_sprites/default_front_back.png",
+                        mini_sprite: "/assets/pokemon/default_sprites/default_mini.png",
+                        front_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
+                        back_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
                         mosse: [
                             {id:-1, nome: "???", tipo:"???", potenza:0, precisione:0, categoria: "???"},
                             {id:-2, nome: "???", tipo:"???", potenza:0, precisione:0, categoria: "???"},
@@ -56,13 +59,16 @@ window.addEventListener("load", function() {
                 //index della squadra per il pokemon selezionato (inizialmente 0)
                 indexSelectedPkm: 0,
 
+                //index indicante se deve mostrare lo sprite del pokemon (0) o della pokeball (1)
+                indexSprite: 0,
+
                 //la squadra corrente, in posizione 0 ci sta il pokemon di default, ma nel caso del protagonista viene subito inizializzata tutta ai pokemon scelti
                 squadra: [  
                     {
                         id: 0, nome: "???", tipo1: "???", tipo2: null, psMax: 0, ps: 0, att: 0, dif: 0, atts: 0, difs: 0, vel: 0, 
-                        mini_sprite: "../../../assets/pokemon/default_sprites/default_mini.png",
-                        front_sprite: "../../../assets/pokemon/default_sprites/default_front_back.png",
-                        back_sprite: "../../../assets/pokemon/default_sprites/default_front_back.png",
+                        mini_sprite: "/assets/pokemon/default_sprites/default_mini.png",
+                        front_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
+                        back_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
                         mosse: [
                             {id:-1, nome: "???", tipo:"???", potenza:0, precisione:0, categoria: "???"},
                             {id:-2, nome: "???", tipo:"???", potenza:0, precisione:0, categoria: "???"},
@@ -309,6 +315,52 @@ window.addEventListener("load", function() {
             },
 
 
+            //FARE QUI METODI mandaAzioneCPU() (che sceglie tra mossa e switch) e mandaAttesaCPU(). CPU non forfeitta mai
+            /*
+            mandaAzioneCPU() {
+                var rand = Math.floor(Math.random() * 10);
+
+                if(rand >= 8) {
+                    //usa uno switch
+
+                    //controlla puoi switchare
+                    for(i=1; i<this.avversario.squadra.length; i++) {
+                        
+                    }
+                }
+                else {
+                    //fai una mossa
+                    rand = Math.floor(Math.random() * 4);
+
+                    this.bcpc.sendBattleCPUMessage({
+                        "utente": "CPU",
+                        "azione": "mossa",
+                        "valore": 
+                    });
+                }
+            },
+
+
+            mandaAttesaCPU() {
+                //testing
+                var msg = {
+                    "utente": "CPU",
+                    "azione": "attesa",
+                    "valore": 0
+                };
+                console.log(msg);
+
+                /*
+                    this.bcpc.sendBattleCPUMessage({
+                        "utente": "CPU",
+                        "azione": "attesa",
+                        "valore": 0
+                    });
+                
+            },
+            */
+
+
             //metodo per aggiungere una mossa al pokemon passato se c'è spazio nel suo moveset
             aggiungiMossa: function(mossa, pkm) {    
                 if(pkm.mosse.length < 4) pkm.mosse.push(mossa);
@@ -335,7 +387,7 @@ window.addEventListener("load", function() {
                         this.protagonista.indexActivePkm = j;
                         return;
                     }
-                }
+                }this.activePkmPrt.nome
 
                 /*
                 if(j<8) {
@@ -395,6 +447,56 @@ window.addEventListener("load", function() {
             eseguiAnimazioneRitiroPrt: function() {
                 //mostrare l'animazione di ritiro
 
+                //rimpicciolire lo spirte del protagonista
+                //cambiare backsprite con pokeball
+
+                //console.log($("#spritePrt").height());
+
+                var H = $("#spritePrt").height();
+                var W = $("#spritePrt").width();
+                
+                /*
+                while(H != 24 && W != 24) {
+                    if(H > 24) {
+                        $("#spritePrt").css("height", H--);
+                    }
+                    else if(H < 24) {
+                        $("#spritePrt").css("height", H++);
+                    }
+
+                    if(W > 24) {
+                        $("#spritePrt").css("width", W--);
+                    }
+                    else if(W < 24) {
+                        $("#spritePrt").css("width", W++);
+                    }
+                    
+                    
+                }
+                */
+
+                //transform: scale(1.5); 
+                //transition: transform .2s;
+
+                $("#spritePrt").css("transition", "transform .2s");
+                $("#spritePrt").css("transform", "scale(0.2)");
+
+                this.protagonista.indexSprite = 1;
+
+                $("#spritePrt").css("transform", "scale(1)");
+                
+                //$("#spritePrt").css("height", 24);
+                //$("#spritePrt").css("width", 24);
+
+                //this.activePkmPrt.back_sprite = "/assets/pokemon/back_sprite/charizard.gif";
+
+
+                /*
+                $("#spritePrt").css("height", "10px");
+                $("#spritePrt").css("width", "10px");
+                */
+                
+
                 //per testing
                 console.log(this.protagonista.username + " --- ritiro");
             },
@@ -403,6 +505,8 @@ window.addEventListener("load", function() {
             //metodo per mostrare sulla gui il mandare il pokemon del protagonista in campo
             eseguiAnimazioneSwitchPrt: function() {
                 //faccio animazione sul pokemon attivo del protagonista per far apparire lo sprite corretto
+
+                this.protagonista.indexSprite = 0;
 
                 //per testing
                 console.log(this.protagonista.username + " --- switch");
@@ -489,6 +593,8 @@ window.addEventListener("load", function() {
             eseguiAnimazioneRitiroAvv: function() {
                 //mostrare l'animazione di ritiro
 
+                this.avversario.indexSprite = 1;
+
                 //per testing
                 console.log(this.avversario.username + " --- ritiro");
             },
@@ -497,6 +603,8 @@ window.addEventListener("load", function() {
             //metodo per mostrare sulla gui il mandare il pokemon dell'avversario in campo
             eseguiAnimazioneSwitchAvv: function() {
                 //faccio animazione sul pokemon attivo dell'avversario per far apparire lo sprite corretto
+
+                this.avversario.indexSprite = 0;
 
                 //per testing
                 console.log(this.avversario.username + " --- switch");
@@ -531,6 +639,15 @@ window.addEventListener("load", function() {
     mioVue.aggiungiPkmAvv(charizard);
     mioVue.aggiungiPkmAvv(charmeleon);
     mioVue.aggiungiPkmAvv(charmander);
+
+    // /lib/php/battleInfo.php?type=[pokemon or mossa]&id=[#]
+    fetch("/lib/php/battleInfo.php?type=pokemon&id=7")
+        .then(response => {
+            return response.text()
+        })
+        .then(data => {
+            console.log(JSON.parse(data).nome);
+        });
 });
 
 
@@ -543,13 +660,15 @@ window.addEventListener("load", function() {
 
 
 
+
+
 var mioVue;
 
 var bulbasaur = {
     id: 1, nome: "Bulbasaur", tipo1: "erba", tipo2: "veleno", psMax: 45, ps: 45, att: 49, dif: 49, atts: 65, difs: 65, vel: 45, 
-    mini_sprite: "../../../assets/pokemon/mini_sprite/bulbasaur.png",
-    front_sprite: "../../../assets/pokemon/front_sprite/bulbasaur.gif",
-    back_sprite: "../../../assets/pokemon/back_sprite/bulbasaur.gif",
+    mini_sprite: "/assets/pokemon/mini_sprite/bulbasaur.png",
+    front_sprite: "/assets/pokemon/front_sprite/bulbasaur.gif",
+    back_sprite: "/assets/pokemon/back_sprite/bulbasaur.gif",
     mosse: [
         {id:28, nome: "azione", tipo:"normale", potenza:40, precisione:100, categoria: "fisico"},
         {id:13, nome: "taglio", tipo:"normale", potenza:50, precisione:95, categoria: "fisico"},
@@ -560,9 +679,9 @@ var bulbasaur = {
 
 var ivysaur = {
     id: 2, nome: "Ivysaur", tipo1: "erba", tipo2: "veleno", psMax: 60, ps: 60, att: 62, dif: 63, atts: 80, difs: 80, vel: 60, 
-    mini_sprite: "../../../assets/pokemon/mini_sprite/ivysaur.png",
-    front_sprite: "../../../assets/pokemon/front_sprite/ivysaur.gif",
-    back_sprite: "../../../assets/pokemon/back_sprite/ivysaur.gif",
+    mini_sprite: "/assets/pokemon/mini_sprite/ivysaur.png",
+    front_sprite: "/assets/pokemon/front_sprite/ivysaur.gif",
+    back_sprite: "/assets/pokemon/back_sprite/ivysaur.gif",
     mosse: [
         {id:28, nome: "azione", tipo:"normale", potenza:40, precisione:100, categoria: "fisico"},
         {id:13, nome: "taglio", tipo:"normale", potenza:50, precisione:95, categoria: "fisico"},
@@ -573,9 +692,9 @@ var ivysaur = {
 
 var venusaur = {
     id: 3, nome: "Venusaur", tipo1: "erba", tipo2: "veleno", psMax: 80, ps: 80, att: 82, dif: 83, atts: 100, difs: 100, vel: 80, 
-    mini_sprite: "../../../assets/pokemon/mini_sprite/venusaur.png",
-    front_sprite: "../../../assets/pokemon/front_sprite/venusaur.gif",
-    back_sprite: "../../../assets/pokemon/back_sprite/venusaur.gif",
+    mini_sprite: "/assets/pokemon/mini_sprite/venusaur.png",
+    front_sprite: "/assets/pokemon/front_sprite/venusaur.gif",
+    back_sprite: "/assets/pokemon/back_sprite/venusaur.gif",
     mosse: [
         {id:28, nome: "azione", tipo:"normale", potenza:40, precisione:100, categoria: "fisico"},
         {id:13, nome: "taglio", tipo:"normale", potenza:50, precisione:95, categoria: "fisico"},
@@ -586,9 +705,9 @@ var venusaur = {
 
 var charmander = {
     id: 4, nome: "Charmander", tipo1: "fuoco", tipo2: null, psMax: 39, ps: 39, att: 52, dif: 43, atts: 60, difs: 50, vel: 65, 
-    mini_sprite: "../../../assets/pokemon/mini_sprite/charmander.png",
-    front_sprite: "../../../assets/pokemon/front_sprite/charmander.gif",
-    back_sprite: "../../../assets/pokemon/back_sprite/charmander.gif",
+    mini_sprite: "/assets/pokemon/mini_sprite/charmander.png",
+    front_sprite: "/assets/pokemon/front_sprite/charmander.gif",
+    back_sprite: "/assets/pokemon/back_sprite/charmander.gif",
     mosse: [
         {id:10, nome: "graffio", tipo:"normale", potenza:40, precisione:100, categoria: "fisico"},
         {id:13, nome: "taglio", tipo:"normale", potenza:50, precisione:95, categoria: "fisico"},
@@ -599,9 +718,9 @@ var charmander = {
 
 var charmeleon = {
     id: 5, nome: "Charmeleon", tipo1: "fuoco", tipo2: null, psMax: 58, ps: 58, att: 64, dif: 58, atts: 80, difs: 65, vel: 80, 
-    mini_sprite: "../../../assets/pokemon/mini_sprite/charmeleon.png",
-    front_sprite: "../../../assets/pokemon/front_sprite/charmeleon.gif",
-    back_sprite: "../../../assets/pokemon/back_sprite/charmeleon.gif",
+    mini_sprite: "/assets/pokemon/mini_sprite/charmeleon.png",
+    front_sprite: "/assets/pokemon/front_sprite/charmeleon.gif",
+    back_sprite: "/assets/pokemon/back_sprite/charmeleon.gif",
     mosse: [
         {id:10, nome: "graffio", tipo:"normale", potenza:40, precisione:100, categoria: "fisico"},
         {id:13, nome: "taglio", tipo:"normale", potenza:50, precisione:95, categoria: "fisico"},
@@ -612,9 +731,9 @@ var charmeleon = {
 
 var charizard = {
     id: 6, nome: "Charizard", tipo1: "fuoco", tipo2: "volante", psMax: 78, ps: 78, att: 84, dif: 78, atts: 109, difs: 85, vel: 100, 
-    mini_sprite: "../../../assets/pokemon/mini_sprite/charizard.png",
-    front_sprite: "../../../assets/pokemon/front_sprite/charizard.gif",
-    back_sprite: "../../../assets/pokemon/back_sprite/charizard.gif",
+    mini_sprite: "/assets/pokemon/mini_sprite/charizard.png",
+    front_sprite: "/assets/pokemon/front_sprite/charizard.gif",
+    back_sprite: "/assets/pokemon/back_sprite/charizard.gif",
     mosse: [
         {id:10, nome: "graffio", tipo:"normale", potenza:40, precisione:100, categoria: "fisico"},
         {id:13, nome: "taglio", tipo:"normale", potenza:50, precisione:95, categoria: "fisico"},
