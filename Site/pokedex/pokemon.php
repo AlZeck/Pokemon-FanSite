@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="/lib/css/pokemon.css" rel="stylesheet">
+    <link href="/lib/css/stat.css" rel="stylesheet">
     <link href="/lib/css/tipi.css" rel="stylesheet">
     <script src="/lib/js/navbar.js"></script>
 
@@ -87,23 +88,25 @@ if ($pokemon != NULL) {
                     <?php
                     echo '<img  class="card-img-top" src="/assets/pokemon/artwork/' . $pokemon["nome"] . '.png" alt="' . $pokemon["nome"] . '">';
                     ?>
-                    <div class="card-deck">
-                        <div class="card">
-                            <?php
-                            echo '<img src="/assets/pokemon/mini_sprite/' . $pokemon["nome"] . '.png" alt="' . $pokemon["nome"] . '_mini_sprite">';
-                            ?>
-                        </div>
-                        <div class="card">
-                            <?php
-                            echo '<img src="/assets/pokemon/front_sprite/' . $pokemon["nome"] . '.gif" alt="' . $pokemon["nome"] . '_front_sprite">';
-                            ?>
-                        </div>
-                        <div class="card">
-                            <?php
-                            echo '<img src="/assets/pokemon/back_sprite/' . $pokemon["nome"] . '.gif" alt="' . $pokemon["nome"] . '_back_sprite">';
-                            ?>
-                        </div>
+                    <div class="card-body">
+                        <div class="row row-sprites">
+                            <div class="card">
+                                <?php
+                                echo '<img src="/assets/pokemon/mini_sprite/' . $pokemon["nome"] . '.png" alt="' . $pokemon["nome"] . '_mini_sprite">';
+                                ?>
+                            </div>
+                            <div class="card">
+                                <?php
+                                echo '<img src="/assets/pokemon/front_sprite/' . $pokemon["nome"] . '.gif" alt="' . $pokemon["nome"] . '_front_sprite">';
+                                ?>
+                            </div>
+                            <div class="card">
+                                <?php
+                                echo '<img src="/assets/pokemon/back_sprite/' . $pokemon["nome"] . '.gif" alt="' . $pokemon["nome"] . '_back_sprite">';
+                                ?>
+                            </div>
 
+                        </div>
                     </div>
                 </div>
                 <br>
@@ -113,31 +116,55 @@ if ($pokemon != NULL) {
             <div class="card-header">
                 <h3 class="card-title"> Voci pokedex </h3>
                 <ul class="nav nav-tabs card-header-tabs">
-                    <li class="nav-item active">
-                        <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
-                    </li>
+                    <?php
+                    $numVoci = count($data);
+                    echo '<li class="nav-item active">' .
+                        '<a class="nav-link active" data-toggle="tab" href="#voce1">Voce 1</a>' .
+                        '</li>';
+                    for ($i = 2; $i < $numVoci + 1; $i++) {
+                        echo '<li class="nav-item">' .
+                            '<a class="nav-link" data-toggle="tab" href="#voce' . $i . '">Voce ' . $i . '</a>' .
+                            '</li>';
+                    }
+                    ?>
                 </ul>
             </div>
             <div class="card-body">
                 <div class="tab-content">
-                    <div id="home" class="tab-pane fade active show">
-                        <h3>HOME</h3>
-                        <p>Some content.</p>
-                    </div>
-                    <div id="menu1" class="tab-pane fade">
-                        <h3>Menu 1</h3>
-                        <p>Some content in menu 1.</p>
-                    </div>
-                    <div id="menu2" class="tab-pane fade">
-                        <h3>Menu 2</h3>
-                        <p>Some content in menu 2.</p>
-                    </div>
+                    <?php
+                    if ($numVoci == 0) {
+                        echo '<div id="voce1" class="tab-pane fade active show">' .
+                            '<p>Non esistono voci per questo pokemon.</p>' .
+                            '</div>';
+                    } else {
+                        function printGames($g)
+                        {
+                            $s = '<div class="row games-card-deck">';
+                            foreach ($g as $game) {
+                                //$s = $s . '<div class="card">';
+                                $s = $s . '<img class="card mb-4" src="/assets/img/boxart/' . $game . '.png" alt="' . $game . '_boxart">';
+                                //$s = $s . '</div>';
+                            }
+                            $s = $s . '</div>';
+                            return $s;
+                        }
+
+
+                        foreach ($data as $key => $value) {
+                            if ($key > 0) {
+                                echo '<div id="voce' . ($key + 1) . '" class="tab-pane fade">' .
+                                    '<div class="voce-text">' . $value['voce'] . '</div>' .
+                                     printGames($value['giochi']) .
+                                    '</div>';
+                            } else {
+                                echo '<div id="voce' . ($key + 1) . '" class="tab-pane fade active show">' .
+                                    '<div class="voce-text">' . $value['voce'] . '</div>' .
+                                     printGames($value['giochi']) .
+                                    '</div>';
+                            }
+                        }
+                    }
+                    ?>
                 </div>
             </div>
             <!-- //TODO -->

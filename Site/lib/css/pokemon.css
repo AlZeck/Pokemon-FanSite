@@ -26,23 +26,37 @@ body {
     justify-content: center;
 }
 .pokecard{
-    height: 445px;
+    height: 95%;
     align-items: center;
 }
 
+.pokecard .card-body{
+    padding: 0px;
+}
 
 .card-img-top {
     width: 90%;
     padding-top: 1.25rem;
 }
 
-.card-deck .card {
-    width: auto;
+.row-sprites {
+    justify-content: center;
+    height: 100%;
 }
 
-.card-deck .card img {
-    min-width: 50px;
-    min-height: 50px;
+.row-sprites .card {
+    border: none;
+    margin:10px;
+}
+
+.row-sprites .card img {
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.125);
+    min-width:  60px;
+    min-height: 60px;
+    max-width:  74px;
+    max-height: 74px;
+    padding: 8px;
 }
 
 .btn-tipo {
@@ -60,38 +74,25 @@ body {
     padding-top: 12px;
 }
 
-.stat-label{
-    text-align: center;
-    justify-content: center;
-    font-weight: bold;
-}
-
 .card-deck {
     flex-flow: row wrap;
     justify-content: center;
 }
 
-.bar-stat-ps{
-    background-color: #58E810; 
+.games-card-deck {
+    justify-content: center;
 }
 
-.bar-stat-att{
-    background-color: #EACA2F; 
-}
+.games-card-deck .card {
+    display: block;
+    max-width: 150px;
+    max-height: 150px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+} 
 
-.bar-stat-dif{
-    background-color: #E5721D; 
+.voce-text {
+    justify-content: center;
+    font-size: larger;
 }
-
-.bar-stat-attsp{
-    background-color: #26BAE0; 
-}
-
-.bar-stat-difsp{
-    background-color: #4C6CD4; 
-}
-
-.bar-stat-vel{
-    background-color: #D425CE; 
-}
-
