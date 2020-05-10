@@ -21,6 +21,13 @@
 <SPAN id="mioVue">
 
     <TABLE summary="Tabella della battaglia" border=1>
+
+        <TR>
+            <TD align="center" colspan="3">
+                <H2> SEI STATO SFIDATO DA {{ avversario.username }} ALLENATORE! </H2>
+            </TD>
+        </TR>
+
     
         <TR>
             <TD>
@@ -57,7 +64,7 @@
                 </UL>
             </TD>
 
-            <TD>
+            <TD id="campoBattaglia">
                 <DIV align="right">
                     INDEX HIS ACTIVE POKEMON: {{ avversario.indexActivePkm }} <BR/>
                     NOME: {{ activePkmAvv.nome }} <BR/>
@@ -158,11 +165,15 @@
 
 
         <TR>
-            <TD> <BUTTON id="switch" v-on:click="mandaSwitch" v-bind:disabled="!switchAttivo || protagonista.squadra[protagonista.indexSelectedPkm].ps <= 0"> switch </BUTTON> </TD>
+            <TD>
+                <BUTTON id="switch" v-on:click="mandaSwitch" v-bind:disabled="!switchAttivo || protagonista.indexSelectedPkm == protagonista.indexActivePkm || protagonista.squadra[protagonista.indexSelectedPkm].ps <= 0"> switch </BUTTON>
+            </TD>
 
             <TD></TD>
 
-            <TD align="right"> <BUTTON id="forfeit" v-on:click="mandaForfeit" v-bind:disabled="!forfeitAttivo"> forfeit </BUTTON> </TD>
+            <TD align="right">
+                <BUTTON id="forfeit" v-on:click="mandaForfeit" v-bind:disabled="!forfeitAttivo"> forfeit </BUTTON>
+            </TD>
         </TR>
 
 

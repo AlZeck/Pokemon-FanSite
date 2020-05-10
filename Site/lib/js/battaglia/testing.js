@@ -1,3 +1,5 @@
+//da provare scambiando gli utenti anche
+
 var A = {
     "primo": {
 			"utente": "Red",
@@ -178,23 +180,6 @@ var K = {
     },
     "secondo": {
             "utente": "Blue",
-            "azione": "_vinto",
-            "valore": 0,
-            "danno": 0,
-            "comunicato": ""
-    }
-};
-
-var L = {
-    "primo": {
-			"utente": "Blue",
-			"azione": "forfeit_perso",
-			"valore": 0,
-			"danno": 0,
-            "comunicato": ""
-    },
-    "secondo": {
-            "utente": "Red",
             "azione": "_vinto",
             "valore": 0,
             "danno": 0,
