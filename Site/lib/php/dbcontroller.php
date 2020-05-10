@@ -60,7 +60,7 @@
         private function query($query){
             $obj = Null;
             if( $result = $this->connection->query($query) ){
-                $obj = $result -> fetchAll();
+                $obj = $result -> fetchAll(PDO::FETCH_ASSOC);
                 if (sizeof($obj)==0){
                     $obj = Null;
                 }
