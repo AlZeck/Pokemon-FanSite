@@ -67,7 +67,7 @@ class Battaglia {
 
         //caso in cui avversario è sopravvissuto e usa la mossa (per forza)
         else {
-            mossa = this.mioVue.dammiMossaAvv(obj_batt.secondo.valore);
+            var mossa = this.mioVue.dammiMossaAvv(obj_batt.secondo.valore);
 
             Battaglia.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario usa " + mossa.nome + ". ", 0);
             this.mioVue.subisciAnimazioneBattagliaPrt(mossa.tipo);
@@ -140,7 +140,7 @@ class Battaglia {
 
         //caso in cui protagonista è sopravvissuto e usa la mossa (per forza)
         else {
-            mossa = this.mioVue.dammiMossaPrt(obj_batt.secondo.valore);
+            var mossa = this.mioVue.dammiMossaPrt(obj_batt.secondo.valore);
 
             Battaglia.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato usa " + mossa.nome + ". ", 0);
             this.mioVue.subisciAnimazioneBattagliaAvv(mossa.tipo);
@@ -190,13 +190,13 @@ class Battaglia {
 
         //caso in cui avversario usa una mossa
         if(secondaAzione[0] == "mossa") {
-            mossa = this.mioVue.activePkmAvv.dammiMossa(obj_batt.secondo.valore);
+            var mossa = this.mioVue.dammiMossaAvv(obj_batt.secondo.valore);
 
             Battaglia.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario usa " + mossa.nome + ". ", 0);
             this.mioVue.subisciAnimazioneBattagliaPrt(mossa.tipo);
             Battaglia.scriviTestoBattaglia(obj_batt.secondo.comunicato, 1);
 
-            nuoviPS = this.mioVue.activePkmPrt.ps - obj_batt.secondo.danno;
+            var nuoviPS = this.mioVue.activePkmPrt.ps - obj_batt.secondo.danno;
             if(nuoviPS < 0) nuoviPS = 0;
             this.mioVue.activePkmPrt.ps = nuoviPS;
             this.mioVue.subisciAnimazioneBarraPrt(nuoviPS);
@@ -246,13 +246,13 @@ class Battaglia {
 
         //caso in cui protagonista usa una mossa
         if(secondaAzione[0] == "mossa") {
-            mossa = this.mioVue.activePkmPrt.dammiMossa(obj_batt.secondo.valore);
+            var mossa = this.mioVue.dammiMossaPrt(obj_batt.secondo.valore);
 
             Battaglia.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato usa " + mossa.nome + ". ", 0);
             this.mioVue.subisciAnimazioneBattagliaAvv(mossa.tipo);
             Battaglia.scriviTestoBattaglia(obj_batt.secondo.comunicato, 1);
 
-            nuoviPS = this.mioVue.activePkmAvv.ps - obj_batt.secondo.danno;
+            var nuoviPS = this.mioVue.activePkmAvv.ps - obj_batt.secondo.danno;
             if(nuoviPS < 0) nuoviPS = 0;
             this.mioVue.activePkmAvv.ps = nuoviPS;
             this.mioVue.subisciAnimazioneBarraAvv(nuoviPS);
@@ -314,11 +314,11 @@ class Battaglia {
     //funzione che gestisce la battaglia lato client in base a messaggi che gli arrivano
     gestisciBattaglia(mess_batt) {
         //ricavo l'oggetto json
-        obj_batt = JSON.parse(mess_batt);
+        var obj_batt = JSON.parse(mess_batt);
 
         //prendo le rispettive azioni
-        primaAzione = obj_batt.primo.azione.split("_");
-        secondaAzione = obj_batt.secondo.azione.split("_");
+        var primaAzione = obj_batt.primo.azione.split("_");
+        var secondaAzione = obj_batt.secondo.azione.split("_");
 
         //il primo a muoversi è il protagonista
         if(obj_batt.primo.utente == this.mioVue.protagonista.username) {

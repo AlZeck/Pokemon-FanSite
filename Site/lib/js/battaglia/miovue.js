@@ -223,6 +223,7 @@ window.addEventListener("load", function() {
                 if(! this.mosseAttive) return;  //controllo se posso inviare messaggio o meno
 
                 this.disabilitaTutto();
+                document.getElementById("testoBattaglia").innerText = "Hai scelto una mossa. In attesa di risposta dal server...";
 
                 //testing
                 var msg = {
@@ -245,6 +246,7 @@ window.addEventListener("load", function() {
             //metodo per mandare al server un messaggio di "switch" (conseguentemente disattivo pulsanti)
             mandaSwitch() {
                 this.disabilitaTutto();
+                document.getElementById("testoBattaglia").innerText = "Hai scelto uno switch. In attesa di risposta dal server...";
 
                 //testing
                 var msg = {
@@ -267,6 +269,7 @@ window.addEventListener("load", function() {
             //metodo per mandare al server un messaggio di "forfeit" (conseguentemente disattivo pulsanti)
             mandaForfeit() {
                 this.disabilitaTutto();
+                document.getElementById("testoBattaglia").innerText = "Hai scelto il forfeit. In attesa di risposta dal server...";
 
                 //testing
                 var msg = {
@@ -543,7 +546,7 @@ window.addEventListener("load", function() {
 var mioVue;
 
 var bulbasaur = {
-    id: 1, nome: "bulbasaur", tipo1: "erba", tipo2: "veleno", psMax: 45, ps: 45, att: 49, dif: 49, atts: 65, difs: 65, vel: 45, 
+    id: 1, nome: "Bulbasaur", tipo1: "erba", tipo2: "veleno", psMax: 45, ps: 45, att: 49, dif: 49, atts: 65, difs: 65, vel: 45, 
     mini_sprite: "../../../assets/pokemon/mini_sprite/bulbasaur.png",
     front_sprite: "../../../assets/pokemon/front_sprite/bulbasaur.gif",
     back_sprite: "../../../assets/pokemon/back_sprite/bulbasaur.gif",
@@ -556,7 +559,7 @@ var bulbasaur = {
 };
 
 var ivysaur = {
-    id: 2, nome: "ivysaur", tipo1: "erba", tipo2: "veleno", psMax: 60, ps: 60, att: 62, dif: 63, atts: 80, difs: 80, vel: 60, 
+    id: 2, nome: "Ivysaur", tipo1: "erba", tipo2: "veleno", psMax: 60, ps: 60, att: 62, dif: 63, atts: 80, difs: 80, vel: 60, 
     mini_sprite: "../../../assets/pokemon/mini_sprite/ivysaur.png",
     front_sprite: "../../../assets/pokemon/front_sprite/ivysaur.gif",
     back_sprite: "../../../assets/pokemon/back_sprite/ivysaur.gif",
@@ -569,7 +572,7 @@ var ivysaur = {
 };
 
 var venusaur = {
-    id: 3, nome: "venusaur", tipo1: "erba", tipo2: "veleno", psMax: 80, ps: 80, att: 82, dif: 83, atts: 100, difs: 100, vel: 80, 
+    id: 3, nome: "Venusaur", tipo1: "erba", tipo2: "veleno", psMax: 80, ps: 80, att: 82, dif: 83, atts: 100, difs: 100, vel: 80, 
     mini_sprite: "../../../assets/pokemon/mini_sprite/venusaur.png",
     front_sprite: "../../../assets/pokemon/front_sprite/venusaur.gif",
     back_sprite: "../../../assets/pokemon/back_sprite/venusaur.gif",
@@ -582,7 +585,7 @@ var venusaur = {
 };
 
 var charmander = {
-    id: 4, nome: "charmander", tipo1: "fuoco", tipo2: null, psMax: 39, ps: 39, att: 52, dif: 43, atts: 60, difs: 50, vel: 65, 
+    id: 4, nome: "Charmander", tipo1: "fuoco", tipo2: null, psMax: 39, ps: 39, att: 52, dif: 43, atts: 60, difs: 50, vel: 65, 
     mini_sprite: "../../../assets/pokemon/mini_sprite/charmander.png",
     front_sprite: "../../../assets/pokemon/front_sprite/charmander.gif",
     back_sprite: "../../../assets/pokemon/back_sprite/charmander.gif",
@@ -595,7 +598,7 @@ var charmander = {
 };
 
 var charmeleon = {
-    id: 5, nome: "charmeleon", tipo1: "fuoco", tipo2: null, psMax: 58, ps: 58, att: 64, dif: 58, atts: 80, difs: 65, vel: 80, 
+    id: 5, nome: "Charmeleon", tipo1: "fuoco", tipo2: null, psMax: 58, ps: 58, att: 64, dif: 58, atts: 80, difs: 65, vel: 80, 
     mini_sprite: "../../../assets/pokemon/mini_sprite/charmeleon.png",
     front_sprite: "../../../assets/pokemon/front_sprite/charmeleon.gif",
     back_sprite: "../../../assets/pokemon/back_sprite/charmeleon.gif",
@@ -608,7 +611,7 @@ var charmeleon = {
 };
 
 var charizard = {
-    id: 6, nome: "charizard", tipo1: "fuoco", tipo2: "volante", psMax: 78, ps: 78, att: 84, dif: 78, atts: 109, difs: 85, vel: 100, 
+    id: 6, nome: "Charizard", tipo1: "fuoco", tipo2: "volante", psMax: 78, ps: 78, att: 84, dif: 78, atts: 109, difs: 85, vel: 100, 
     mini_sprite: "../../../assets/pokemon/mini_sprite/charizard.png",
     front_sprite: "../../../assets/pokemon/front_sprite/charizard.gif",
     back_sprite: "../../../assets/pokemon/back_sprite/charizard.gif",
