@@ -17,33 +17,35 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <link href="lib/css/login.css" rel="stylesheet">
-    </script>
+    <script src="lib/js/login.js"></script>
 </head>
 
 <body>
     <div class="card mx-auto">
         <div class="card-body">
             <h3 class="card-title text-center">Log In</h3>
-            <form class="form-login needs-validation" name="formLogin" novalidate>
+            <form onsubmit="return login();" class="form-login" name="formLogin" novalidate>
 
                 <div class="form-group">
-                    <label for="inputUser">Username</label>
-                    <input type="text" name="inputUser" class="form-control" placeholder="Username" required autofocus>
+                    <label for="username">Username</label>
+                    <input type="text" name="username"  autocomplete="username" id="username" class="form-control" placeholder="Username"
+                        onkeypress="return removeValidationUsername();" required autofocus>
                     <div class="invalid-feedback">
                         Utente non registrato
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="inputPsw">Password</label>
-                    <input type="password" name="inputPsw" class="form-control" placeholder="Password" required>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" autocomplete="current-password" id="password" class="form-control" placeholder="Password"
+                        onkeypress="return removeValidationPassword();" required>
                     <div class="invalid-feedback">
                         Password sbagliata
                     </div>
                 </div>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="divRemember" name="Ricorda">
+                    <input class="form-check-input" type="checkbox" value="" id="checkrem" name="Ricorda">
                     <label class="form-check-label" for="defaultCheck1">
                         Ricordami
                     </label>
@@ -54,28 +56,6 @@
                 <br>
                 Non hai ancora un account? Fai la registrazione cliccando <a href="signup.html">qui!</a>
             </form>
-            <script>
-                // Example starter JavaScript for disabling form submissions if there are invalid fields
-                (function () {
-                    'use strict';
-                    window.addEventListener('load', function () {
-                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                        var forms = document.getElementsByClassName('needs-validation');
-                        // Loop over them and prevent submission
-                        var validation = Array.prototype.filter.call(forms, function (form) {
-                            form.addEventListener('submit', function (event) {
-                                if (form.checkValidity() === false) {
-                                    console.log("ciaone");
-                                    event.preventDefault();
-                                    event.stopPropagation();
-                                }
-                                form.classList.add('was-validated');
-                            }, false);
-                        });
-                    }, false);
-                })();
-            </script>
-
         </div>
     </div>
 </body>

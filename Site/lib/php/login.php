@@ -3,20 +3,26 @@ include 'dbcontroller.php';
 
 $con = DBController::getController();
 
-/* inputUser, inputPsw */
-$user = $_POST['inputUser'];
-$psw = md5($_POST['inputPsw']);
-
+/* username, current-password */
+$user = $_POST['username'];
+$psw = $_POST['password'];
 if ($con->checkUsernameExists($user)){
     $info = $con->getUserInfoByUsername($user);
-    if ( $psw == $info[1] ){ 
-        echo "success \n";
+    if ( password_verify($psw, $info['password']) ){ 
+        if($_POST['check']=="true"){
+            session_start(['cookie_lifetime' => 31536000]); // cookie that last a year :3
+            setcookie("user",$user,time()+31536000,"/");
+        } else {
+            session_start();
+            setcookie("user",$user,0,"/");
+        }
+        echo "success";
     }
     else{
-        echo "password sbagliata \n";
+        echo "error: password";
     }
 }
 else {
-    echo "utente non trovato \n";
+    echo "error: user";
 }
 
