@@ -234,7 +234,7 @@
          *         or bool(false)  if NOT 
          */
         public function checkTipoExists( $tipo ){
-            $query = "select * from tipo where name = '".$tipo."'";
+            $query = "select * from tipo where nome = '".$tipo."'";
             $result = $this->query($query);
             if($result != Null)
                 return true;
