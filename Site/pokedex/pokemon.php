@@ -167,7 +167,6 @@ if ($pokemon != NULL) {
                     ?>
                 </div>
             </div>
-            <!-- //TODO -->
         </div>
         <br>
         <div class="card">
