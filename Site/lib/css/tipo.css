@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/img/home_page/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+
+.type-header{
+    text-align: center;
+}
+
+.eff-card{
+    justify-content: center;
+    text-align: center;
+    height: 95%;
+}
+
+.btn-tipo {
+    min-width: 120px;
+    margin: 10px;
+    max-width: 120px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+
+/** Pokecard */
+
+.number {
+    color: gray;
+    text-align: left;
+}
+
+.card-deck {
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.pokecard {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    height: 180px;
+    width: 180px;
+    justify-content: center;
+}
+
+.pokecard:hover {
+    background-color: white;
+    border-radius: 5px;
+    height: 180px;
+    width: 180px;
+    justify-content: center;
+}
+
+.pokecard .card-title {
+    font-size: 17px;
+}
+
+.pokecard .card-body {
+    text-align: center;
+}
+
+.pokecard .card-body img {
+    width: 110px;
+    height: 110px;
+}
+
+.pokecard a:hover {
+    text-decoration: none;
+}
