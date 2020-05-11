@@ -353,11 +353,11 @@
          */
         public function searchByName($name){
             $name = strtolower($name);
-            $query = "select '1' as tab, id, nome from pokemon where nome like '".$name."%' ".
+            $query = "select '1' as tab, id, nome, tipo1 as tipo from pokemon where nome like '".$name."%' ".
             "union ".
-            "select '2' as tab, id, nome from mossa where nome like '".$name."%' ".
+            "select '2' as tab, id, nome, tipo from mossa where nome like '".$name."%' ".
             "union ".
-            "select '3' as tab, 0, nome from tipo where nome like '".$name."%' ".
+            "select '3' as tab, 0, nome, nome as tipo from tipo where nome like '".$name."%' ".
             "order by tab,id";
             return $this->query($query);
         }
