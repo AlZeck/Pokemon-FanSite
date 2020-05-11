@@ -35,7 +35,7 @@ if($lis==NULL){
                                     '<div class="card">'.
                                             '<a href="/pokedex/pokemon.php?id=' . $item["id"] . '">'.
                                             '<div class="card-body">'.
-                                                '<h5 class="card-title"> <span class="number">#'.$item["id"].'</span>'
+                                                '<h5 class="card-title"> <span class="number">#'.$item["id"].' </span>'
                                                     . ucfirst($item["nome"]) . '</h5>'.
                                                 '<img src="/assets/pokemon/artwork/' . $item["nome"] . '.png" alt="' . $item["nome"] . '">'.
                                             '</div>'.
