@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html>
-<?php
-include 'lib/php/dbcontroller.php';
-$con = DBController::getController();
-$lis = $con->searchByName($_GET['s']);
-?>
-
 <head>
-    <title>Pokedex-PokemonFan Site</title>
+    <title>PokemonFan Site</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -17,8 +11,18 @@ $lis = $con->searchByName($_GET['s']);
     <link href="/lib/css/search.css" rel="stylesheet">
     <link href="/lib/css/tipi.css" rel="stylesheet">
     <script src="/lib/js/navbar.js"></script>
-
 </head>
+
+<?php
+include 'lib/php/dbcontroller.php';
+$con = DBController::getController();
+$lis = $con->searchByName($_GET['s']);
+if($lis==NULL){
+    include("./lib/php/notFound.php");
+    sendError($_GET['s']." not found");
+    die();
+}
+?>
 
 <body>
     <br>
