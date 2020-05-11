@@ -33,5 +33,10 @@ function logout(){
   });
 }
 
+function search(){
+  var search = $("#navbar-search").val().toLowerCase();
+  window.location.href = "/search.php?s="+search;
+  return false;
+}
 
 includeNavBar();
