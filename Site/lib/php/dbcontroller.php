@@ -228,7 +228,8 @@
             from mossa,pokemon,impara 
             where impara.pokemon = pokemon.id 
                 and mossa.id = impara.mossa 
-                and pokemon.id = ".strval($id);
+                and pokemon.id = ".strval($id).
+            "order by mossa.id";
             return $this->query($query);
         }
 
@@ -255,7 +256,8 @@
             from mossa,pokemon,impara 
             where impara.pokemon = pokemon.id 
                 and mossa.id = impara.mossa 
-                and mossa.id =".strval($id);
+                and mossa.id =".strval($id). 
+            "order by pokemon.id";
             return $this->query($query);
         }
 
