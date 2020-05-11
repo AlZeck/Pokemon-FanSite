@@ -30,6 +30,8 @@
          *        Gets all the pokemons in the database that belong to an specific type
          * *   public function getListMovesByType( $type )
          *        Gets all the mosse in the database that belong to an specific type
+         * *   public function searchByName($name)
+         *        Search the entire db for an specific name 
          */
 
         
@@ -301,6 +303,29 @@
          */
         public function getListMovesByType( $type ){
             $query = "select * from mossa where tipo = '".$type."'";
+            return $this->query($query);
+        }
+
+        /**
+         * Search the entire db for an specific name 
+         * @param int $id Integer that identifies the pokemon
+         * @return  array(   
+         *              array(
+         *                   string => tab = int, 1 = pokemon, 2 = mossa, 3 = tipo
+         *                   string => id = int, 0 if tab = tipo
+         *                   string => nome
+         *                  )
+         *              )
+         *          or null if no match is found
+         */
+        public function searchByName($name){
+            $name = strtolower($name);
+            $query = "select '1' as tab, id, nome from pokemon where nome like '".$name."%'".
+            "union".
+            "select '2' as tab, id, nome from mossa where nome like '".$name."%'".
+            "union".
+            "select '3' as tab, 0, nome from tipo where nome like '".$name."%' ".
+            "order by tab,id";
             return $this->query($query);
         }
         
