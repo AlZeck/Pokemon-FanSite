@@ -24,7 +24,7 @@
     <br>
 
     <div class="container">
-        <h3>Dai un'occhiata ai tipi di pokemon</h3>
+        <h3>Typedex</h3>
         <br>
         <div class="card-deck">
 
