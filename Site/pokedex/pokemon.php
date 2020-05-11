@@ -26,7 +26,7 @@ if ($pokemon != NULL) {
     $data = json_decode($raw_data, true);
 } else {
     //header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found", true, 404);
-    include("/lib/php/notFound.php");
+    include("../lib/php/notFound.php");
     sendError("Pokemon not found");
     die();
 }

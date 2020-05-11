@@ -22,10 +22,13 @@ $move = $con->getMossaById($id);
 //\var_dump($info);
 $pokelis = $con->getListPokemonByMossa($id);
 //\var_dump($pokelis);
+if($move==NULL){
+    //header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found", true, 404);
+    include("../lib/php/notFound.php");
+    sendError("Mossa not found");
+    die();
+}
 ?>
-
-<!-- echo '<div class="btn btn-tipo ' . $move['categoria'] . '">' .
-                    strtoupper($move['categoria']) . '</div>'; -->
 
 
 <body>
