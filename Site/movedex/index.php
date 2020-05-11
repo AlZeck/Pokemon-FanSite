@@ -24,7 +24,7 @@ $lis = $con->getMosseList();
 <body>
     <br>
     <div class="container">
-        <h3>Dai un'occhiata alle varie mosse dei Pokemon</h3>
+        <h3>Movedex</h3>
         <br>
         <div class="card-deck">
 

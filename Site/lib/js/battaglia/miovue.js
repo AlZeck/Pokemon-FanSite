@@ -33,8 +33,8 @@ window.addEventListener("load", function() {
                 //index della squadra per il pokemon selezionato (inizialmente 0)
                 indexSelectedPkm: 0,
 
-                //index indicante se deve mostrare lo sprite del pokemon (0) o della pokeball (1)
-                indexSprite: 0,
+                //index indicante se deve mostrare lo sprite del pokemon (0) o della pokeball (1) (inizialmente 1)
+                indexSprite: 1,
 
                 //la squadra corrente, in posizione 0 ci sta il pokemon di default, ma nel caso del protagonista viene subito inizializzata tutta ai pokemon scelti
                 squadra: [  
@@ -63,8 +63,8 @@ window.addEventListener("load", function() {
                 //index della squadra per il pokemon selezionato (inizialmente 0)
                 indexSelectedPkm: 0,
 
-                //index indicante se deve mostrare lo sprite del pokemon (0) o della pokeball (1)
-                indexSprite: 0,
+                //index indicante se deve mostrare lo sprite del pokemon (0) o della pokeball (1) (inizialmente 1)
+                indexSprite: 1,
 
                 //la squadra corrente, in posizione 0 ci sta il pokemon di default, ma nel caso del protagonista viene subito inizializzata tutta ai pokemon scelti
                 squadra: [  

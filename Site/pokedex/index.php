@@ -22,7 +22,7 @@ $lis = $con->getPokemonList();
 <body>
     <br>
     <div class="container" >
-        <h3>Dai un'occhiata ai mostri pokemon</h3>
+        <h3>Pokedex</h3>
         <br>
         <div class="card-deck">
 
