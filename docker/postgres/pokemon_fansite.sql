@@ -1,4 +1,5 @@
 --drop tables impara, pokemon, mossa, utente;
+create table tipo (nome varchar(20) primary key);
 create table pokemon ( 
     id numeric primary key,
     nome varchar(20) not null,
@@ -12,14 +13,8 @@ create table pokemon (
     vel numeric not null,
     uber boolean not null,
     check (id > 0 and ps >= 0  and att >= 0 and dif >= 0 and attsp >= 0 and difsp >= 0 and vel >= 0 ),
-    check (tipo1 in ('acciaio', 'acqua', 'buio', 'coleottero', 'drago', 
-                    'elettro','erba', 'folletto', 'fuoco', 'ghiaccio',
-                    'lotta', 'normale', 'psico', 'roccia', 'spettro',
-                    'terra', 'veleno', 'volante')),
-    check (tipo2 is Null or tipo2 in ('acciaio', 'acqua', 'buio', 'coleottero',
-                            'drago', 'elettro','erba', 'folletto', 'fuoco', 
-                            'ghiaccio', 'lotta', 'normale','psico', 'roccia',
-                            'spettro', 'terra', 'veleno', 'volante')),
+    foreign key (tipo1) references tipo(nome),
+    foreign key (tipo2) references tipo(nome),
     check (tipo2 is Null or tipo1 != tipo2));
             
 create table mossa (
@@ -32,10 +27,7 @@ create table mossa (
     descrizione varchar(200) not null,
     check (potenza >= 0 and precisione  >= 0 and precisione <= 100),
     check (categoria in ('speciale','fisico')),
-    check (tipo in ('acciaio', 'acqua', 'buio', 'coleottero', 'drago', 
-                    'elettro', 'erba', 'folletto', 'fuoco', 'ghiaccio',
-                    'lotta', 'normale', 'psico', 'roccia', 'spettro', 
-                    'terra', 'veleno', 'volante')));
+    foreign key (tipo) references tipo(nome));
 
 create table impara ( 
     pokemon numeric , 
@@ -45,6 +37,12 @@ create table impara (
     primary key (pokemon,mossa));
 
 create table utente (username varchar(50) primary key,password varchar(50));
+
+insert into tipo values
+('acciaio'), ('acqua'), ('buio'), ('coleottero'), ('drago'), 
+('elettro'),('erba'), ('folletto'), ('fuoco'), ('ghiaccio'),
+('lotta'), ('normale'), ('psico'), ('roccia'), ('spettro'),
+('terra'), ('veleno'), ('volante');
 
 insert into pokemon values
 (1,'bulbasaur','erba','veleno',45,49,49,65,65,45,False),
