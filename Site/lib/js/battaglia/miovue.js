@@ -1,3 +1,7 @@
+//variabile per poterlo usare al di fuori
+
+var mioVue;
+
 //per caricare l'oggetto vue con le sue informazioni al caricamento della pagina
 window.addEventListener("load", function() {
 
@@ -11,13 +15,13 @@ window.addEventListener("load", function() {
             bcpc: undefined,
 
             //flag per attivare il pulsante di switch quando serve
-            switchAttivo: true,
+            switchAttivo: false,
 
             //flag per attivare i pulsanti delle mosse quando serve
-            mosseAttive: true,
+            mosseAttive: false,
 
             //flag per attivare il pulsante di forfeit quando serve
-            forfeitAttivo: true,
+            forfeitAttivo: false,
 
             protagonista: {
                 //campo per lo username (che funge da chiave) del giocatore (inizialmente stringa vuota)
@@ -218,12 +222,14 @@ window.addEventListener("load", function() {
             },
 
 
+            //DA MODIFICARE PER USARE BCPController
             //metodo per costringere il giocatore a switchare, attivando soltanto lo switch (i bottoni erano stati già precedentemente disattivati)
             switchForzato() {
                 this.switchAttivo = true;
             },
 
 
+            //DA MODIFICARE PER USARE BCPController
             //metodo per mandare al server un messaggio di "mossa" (conseguentemente disattivo pulsanti)
             mandaMossa(e) {
                 if(! this.mosseAttive) return;  //controllo se posso inviare messaggio o meno
@@ -249,6 +255,7 @@ window.addEventListener("load", function() {
             },
 
 
+            //DA MODIFICARE PER USARE BCPController
             //metodo per mandare al server un messaggio di "switch" (conseguentemente disattivo pulsanti)
             mandaSwitch() {
                 this.disabilitaTutto();
@@ -272,6 +279,7 @@ window.addEventListener("load", function() {
             },
 
 
+            //DA MODIFICARE PER USARE BCPController
             //metodo per mandare al server un messaggio di "forfeit" (conseguentemente disattivo pulsanti)
             mandaForfeit() {
                 this.disabilitaTutto();
@@ -295,6 +303,7 @@ window.addEventListener("load", function() {
             },
 
 
+            //DA MODIFICARE PER USARE BCPController
             //metodo per mandare al server un messaggio di "attesa" (conseguentemente non riattivo alcun pulsante)
             mandaAttesa() {
                 //testing
@@ -315,6 +324,7 @@ window.addEventListener("load", function() {
             },
 
 
+            //DA MODIFICARE PER USARE BCPController
             //FARE QUI METODI mandaAzioneCPU() (che sceglie tra mossa e switch) e mandaAttesaCPU(). CPU non forfeitta mai
             /*
             mandaAzioneCPU() {
@@ -361,9 +371,9 @@ window.addEventListener("load", function() {
             */
 
 
-            //metodo per aggiungere una mossa al pokemon passato se c'è spazio nel suo moveset
+            //metodo per aggiungere una mossa dal suo id all'oggetto pokemon passato se c'è spazio nel suo moveset
             aggiungiMossa: function(mossa, pkm) {    
-                if(pkm.mosse.length < 4) pkm.mosse.push(mossa);
+                if(pkm.mosse.length < 4) pkm.mosse.push( prendiDalDB("mossa", mossa) );
             },
 
 
@@ -398,10 +408,10 @@ window.addEventListener("load", function() {
             },
 
 
-            //metodo per aggiungere un oggetto pokemon passato se c'è spazio nella squadra del protagonista, se è il primo è settato automaticamente a selezionato ed attivo
+            //metodo per aggiungere un oggetto pokemon passato il suo id se c'è spazio nella squadra del protagonista, se è il primo è settato automaticamente a selezionato ed attivo
             aggiungiPkmPrt: function(pkm) {
                 if(this.protagonista.squadra.length < 7) {
-                    this.protagonista.squadra.push(pkm);
+                    this.protagonista.squadra.push( prendiDalDB("pokemon", pkm) );
 
                     if(this.protagonista.squadra.length == 2) {
                         this.protagonista.indexSelectedPkm = 1;
@@ -419,6 +429,7 @@ window.addEventListener("load", function() {
             },
 
 
+            //DA MODIFICARE UNA VOLTA SI LAVORA SU VERA GUI
             //metodo per mostrare sulla gui la mossa subita dal protagonista
             subisciAnimazioneBattagliaPrt: function(tipo) {
                 //CAMBIA BACKGROUND IN BASE TIPO
@@ -465,6 +476,7 @@ window.addEventListener("load", function() {
             },
 
 
+            //DA MODIFICARE UNA VOLTA SI LAVORA SU VERA GUI
             //funzione per mostrare sulla gui l'abbassamento dei ps sulla barra del pokemon del protagonista
             subisciAnimazioneBarraPrt: function(nuoviPS) {
                 //fai un'animazione della barra che scende dal livello attuale a quello passato
@@ -536,10 +548,10 @@ window.addEventListener("load", function() {
             },
 
 
-            //metodo per aggiungere un oggetto pokemon passato se c'è spazio nella squadra dell'avversario, se è il primo è settato automaticamente a selezionato ed attivo
+            //metodo per aggiungere un oggetto pokemon passato il suo id se c'è spazio nella squadra dell'avversario, se è il primo è settato automaticamente a selezionato ed attivo
             aggiungiPkmAvv: function(pkm) {
                 if(this.avversario.squadra.length < 7) {
-                    this.avversario.squadra.push(pkm);
+                    this.avversario.squadra.push( prendiDalDB("pokemon", pkm) );
 
                     if(this.avversario.squadra.length == 2) {
                         this.avversario.indexSelectedPkm = 1;
@@ -557,6 +569,7 @@ window.addEventListener("load", function() {
             },
 
 
+            //DA MODIFICARE UNA VOLTA SI LAVORA SU VERA GUI
             //metodo per mostrare sulla gui la mossa subita dall'avversario
             subisciAnimazioneBattagliaAvv: function(tipo) {
                 //CAMBIA BACKGROUND IN BASE TIPO
@@ -603,6 +616,7 @@ window.addEventListener("load", function() {
             },
 
 
+            //DA MODIFICARE UNA VOLTA SI LAVORA SU VERA GUI
             //funzione per mostrare sulla gui l'abbassamento dei ps sulla barra del pokemon dell'avversario
             subisciAnimazioneBarraAvv: function(nuoviPS) {
                 //fai un'animazione della barra che scende dal livello attuale a quello passato
@@ -635,9 +649,7 @@ window.addEventListener("load", function() {
                 
                 $("#spriteAvv").css("transition", "transform 0s");
                 $("#spriteAvv").css("transform", "scale(0.2)");
-                
-                console.log(this.avversario.username + " --- switch");
-                
+                                
                 setTimeout(function() {
                     $("#spriteAvv").css("transition", "transform 3s");
                     $("#spriteAvv").css("transform", "scale(1)");
@@ -658,124 +670,81 @@ window.addEventListener("load", function() {
 
     //TESTING
     mioVue.protagonista.username = "Red";
+
+    mioVue.aggiungiPkmPrt(6);
+    mioVue.aggiungiMossa(10, mioVue.primoPkmPrt);
+    mioVue.aggiungiMossa(13, mioVue.primoPkmPrt);
+    mioVue.aggiungiMossa(7, mioVue.primoPkmPrt);
+    mioVue.aggiungiMossa(40, mioVue.primoPkmPrt);
+
+    mioVue.aggiungiPkmPrt(5);
+    mioVue.aggiungiMossa(10, mioVue.secondoPkmPrt);
+    mioVue.aggiungiMossa(13, mioVue.secondoPkmPrt);
+    mioVue.aggiungiMossa(7, mioVue.secondoPkmPrt);
+    mioVue.aggiungiMossa(40, mioVue.secondoPkmPrt);
+
+    mioVue.aggiungiPkmPrt(4);
+    mioVue.aggiungiMossa(10, mioVue.terzoPkmPrt);
+    mioVue.aggiungiMossa(13, mioVue.terzoPkmPrt);
+    mioVue.aggiungiMossa(7, mioVue.terzoPkmPrt);
+    mioVue.aggiungiMossa(40, mioVue.terzoPkmPrt);
+    
+    mioVue.aggiungiPkmPrt(3);
+    mioVue.aggiungiMossa(28, mioVue.quartoPkmPrt);
+    mioVue.aggiungiMossa(13, mioVue.quartoPkmPrt);
+    mioVue.aggiungiMossa(19, mioVue.quartoPkmPrt);
+    mioVue.aggiungiMossa(58, mioVue.quartoPkmPrt);
+
+    mioVue.aggiungiPkmPrt(2);
+    mioVue.aggiungiMossa(28, mioVue.quintoPkmPrt);
+    mioVue.aggiungiMossa(13, mioVue.quintoPkmPrt);
+    mioVue.aggiungiMossa(19, mioVue.quintoPkmPrt);
+    mioVue.aggiungiMossa(58, mioVue.quintoPkmPrt);
+    
+    mioVue.aggiungiPkmPrt(1);
+    mioVue.aggiungiMossa(28, mioVue.sestoPkmPrt);
+    mioVue.aggiungiMossa(13, mioVue.sestoPkmPrt);
+    mioVue.aggiungiMossa(19, mioVue.sestoPkmPrt);
+    mioVue.aggiungiMossa(58, mioVue.sestoPkmPrt);
+
+
+
     mioVue.avversario.username = "Blue";
 
-    mioVue.aggiungiPkmPrt(charizard);
-    mioVue.aggiungiPkmPrt(charmeleon);
-    mioVue.aggiungiPkmPrt(charmander);
-    mioVue.aggiungiPkmPrt(venusaur);
-    mioVue.aggiungiPkmPrt(ivysaur);
-    mioVue.aggiungiPkmPrt(bulbasaur);
+    mioVue.aggiungiPkmAvv(3);
+    mioVue.aggiungiMossa(28, mioVue.primoPkmAvv);
+    mioVue.aggiungiMossa(13, mioVue.primoPkmAvv);
+    mioVue.aggiungiMossa(19, mioVue.primoPkmAvv);
+    mioVue.aggiungiMossa(58, mioVue.primoPkmAvv);
 
-    mioVue.aggiungiPkmAvv(venusaur);
-    mioVue.aggiungiPkmAvv(ivysaur);
-    mioVue.aggiungiPkmAvv(bulbasaur);
-    mioVue.aggiungiPkmAvv(charizard);
-    mioVue.aggiungiPkmAvv(charmeleon);
-    mioVue.aggiungiPkmAvv(charmander);
+    mioVue.aggiungiPkmAvv(2);
+    mioVue.aggiungiMossa(28, mioVue.secondoPkmAvv);
+    mioVue.aggiungiMossa(13, mioVue.secondoPkmAvv);
+    mioVue.aggiungiMossa(19, mioVue.secondoPkmAvv);
+    mioVue.aggiungiMossa(58, mioVue.secondoPkmAvv);
 
-    // /lib/php/battleInfo.php?type=[pokemon or mossa]&id=[#]
-    fetch("/lib/php/battleInfo.php?type=pokemon&id=7")
-        .then(response => {
-            return response.text()
-        })
-        .then(data => {
-            console.log(JSON.parse(data).nome);
-        });
+    mioVue.aggiungiPkmAvv(1);
+    mioVue.aggiungiMossa(28, mioVue.terzoPkmAvv);
+    mioVue.aggiungiMossa(13, mioVue.terzoPkmAvv);
+    mioVue.aggiungiMossa(19, mioVue.terzoPkmAvv);
+    mioVue.aggiungiMossa(58, mioVue.terzoPkmAvv);
+
+    mioVue.aggiungiPkmAvv(6);
+    mioVue.aggiungiMossa(10, mioVue.quartoPkmAvv);
+    mioVue.aggiungiMossa(13, mioVue.quartoPkmAvv);
+    mioVue.aggiungiMossa(7, mioVue.quartoPkmAvv);
+    mioVue.aggiungiMossa(40, mioVue.quartoPkmAvv);
+
+    mioVue.aggiungiPkmAvv(5);
+    mioVue.aggiungiMossa(10, mioVue.quintoPkmAvv);
+    mioVue.aggiungiMossa(13, mioVue.quintoPkmAvv);
+    mioVue.aggiungiMossa(7, mioVue.quintoPkmAvv);
+    mioVue.aggiungiMossa(40, mioVue.quintoPkmAvv);
+
+    mioVue.aggiungiPkmAvv(4);
+    mioVue.aggiungiMossa(10, mioVue.sestoPkmAvv);
+    mioVue.aggiungiMossa(13, mioVue.sestoPkmAvv);
+    mioVue.aggiungiMossa(7, mioVue.sestoPkmAvv);
+    mioVue.aggiungiMossa(40, mioVue.sestoPkmAvv);
 });
 
-
-
-/*
-    ------------------------------------------------------------------------------------------
-    ------------------------------------------------------------------------------------------
-    ------------------------------------------------------------------------------------------
-*/
-
-
-
-
-
-var mioVue;
-
-var bulbasaur = {
-    id: 1, nome: "Bulbasaur", tipo1: "erba", tipo2: "veleno", psMax: 45, ps: 45, att: 49, dif: 49, atts: 65, difs: 65, vel: 45, 
-    mini_sprite: "/assets/pokemon/mini_sprite/bulbasaur.png",
-    front_sprite: "/assets/pokemon/front_sprite/bulbasaur.gif",
-    back_sprite: "/assets/pokemon/back_sprite/bulbasaur.gif",
-    mosse: [
-        {id:28, nome: "azione", tipo:"normale", potenza:40, precisione:100, categoria: "fisico"},
-        {id:13, nome: "taglio", tipo:"normale", potenza:50, precisione:95, categoria: "fisico"},
-        {id:19, nome: "frustata", tipo:"erba", potenza:45, precisione:100, categoria: "fisico"},
-        {id:58, nome: "petalodanza", tipo:"erba", potenza:120, precisione:100, categoria: "speciale"}
-    ]
-};
-
-var ivysaur = {
-    id: 2, nome: "Ivysaur", tipo1: "erba", tipo2: "veleno", psMax: 60, ps: 60, att: 62, dif: 63, atts: 80, difs: 80, vel: 60, 
-    mini_sprite: "/assets/pokemon/mini_sprite/ivysaur.png",
-    front_sprite: "/assets/pokemon/front_sprite/ivysaur.gif",
-    back_sprite: "/assets/pokemon/back_sprite/ivysaur.gif",
-    mosse: [
-        {id:28, nome: "azione", tipo:"normale", potenza:40, precisione:100, categoria: "fisico"},
-        {id:13, nome: "taglio", tipo:"normale", potenza:50, precisione:95, categoria: "fisico"},
-        {id:19, nome: "frustata", tipo:"erba", potenza:45, precisione:100, categoria: "fisico"},
-        {id:58, nome: "petalodanza", tipo:"erba", potenza:120, precisione:100, categoria: "speciale"}
-    ]
-};
-
-var venusaur = {
-    id: 3, nome: "Venusaur", tipo1: "erba", tipo2: "veleno", psMax: 80, ps: 80, att: 82, dif: 83, atts: 100, difs: 100, vel: 80, 
-    mini_sprite: "/assets/pokemon/mini_sprite/venusaur.png",
-    front_sprite: "/assets/pokemon/front_sprite/venusaur.gif",
-    back_sprite: "/assets/pokemon/back_sprite/venusaur.gif",
-    mosse: [
-        {id:28, nome: "azione", tipo:"normale", potenza:40, precisione:100, categoria: "fisico"},
-        {id:13, nome: "taglio", tipo:"normale", potenza:50, precisione:95, categoria: "fisico"},
-        {id:19, nome: "frustata", tipo:"erba", potenza:45, precisione:100, categoria: "fisico"},
-        {id:58, nome: "petalodanza", tipo:"erba", potenza:120, precisione:100, categoria: "speciale"}
-    ]
-};
-
-var charmander = {
-    id: 4, nome: "Charmander", tipo1: "fuoco", tipo2: null, psMax: 39, ps: 39, att: 52, dif: 43, atts: 60, difs: 50, vel: 65, 
-    mini_sprite: "/assets/pokemon/mini_sprite/charmander.png",
-    front_sprite: "/assets/pokemon/front_sprite/charmander.gif",
-    back_sprite: "/assets/pokemon/back_sprite/charmander.gif",
-    mosse: [
-        {id:10, nome: "graffio", tipo:"normale", potenza:40, precisione:100, categoria: "fisico"},
-        {id:13, nome: "taglio", tipo:"normale", potenza:50, precisione:95, categoria: "fisico"},
-        {id:7, nome: "fuocopugno", tipo:"fuoco", potenza:75, precisione:100, categoria: "fisico"},
-        {id:40, nome: "lanciafiamme", tipo:"fuoco", potenza:90, precisione:100, categoria: "speciale"}
-    ]
-};
-
-var charmeleon = {
-    id: 5, nome: "Charmeleon", tipo1: "fuoco", tipo2: null, psMax: 58, ps: 58, att: 64, dif: 58, atts: 80, difs: 65, vel: 80, 
-    mini_sprite: "/assets/pokemon/mini_sprite/charmeleon.png",
-    front_sprite: "/assets/pokemon/front_sprite/charmeleon.gif",
-    back_sprite: "/assets/pokemon/back_sprite/charmeleon.gif",
-    mosse: [
-        {id:10, nome: "graffio", tipo:"normale", potenza:40, precisione:100, categoria: "fisico"},
-        {id:13, nome: "taglio", tipo:"normale", potenza:50, precisione:95, categoria: "fisico"},
-        {id:7, nome: "fuocopugno", tipo:"fuoco", potenza:75, precisione:100, categoria: "fisico"},
-        {id:40, nome: "lanciafiamme", tipo:"fuoco", potenza:90, precisione:100, categoria: "speciale"}
-    ]
-};
-
-var charizard = {
-    id: 6, nome: "Charizard", tipo1: "fuoco", tipo2: "volante", psMax: 78, ps: 78, att: 84, dif: 78, atts: 109, difs: 85, vel: 100, 
-    mini_sprite: "/assets/pokemon/mini_sprite/charizard.png",
-    front_sprite: "/assets/pokemon/front_sprite/charizard.gif",
-    back_sprite: "/assets/pokemon/back_sprite/charizard.gif",
-    mosse: [
-        {id:10, nome: "graffio", tipo:"normale", potenza:40, precisione:100, categoria: "fisico"},
-        {id:13, nome: "taglio", tipo:"normale", potenza:50, precisione:95, categoria: "fisico"},
-        {id:7, nome: "fuocopugno", tipo:"fuoco", potenza:75, precisione:100, categoria: "fisico"},
-        {id:40, nome: "lanciafiamme", tipo:"fuoco", potenza:90, precisione:100, categoria: "speciale"}
-    ]
-};
-
-var gelopugno = {
-    id:8, nome: "gelopugno", tipo:"ghiaccio", potenza:75, precisione:100, categoria: "fisico"
-};
