@@ -22,6 +22,10 @@
          *        Gets all the pokemons in the database
          * *   public function getMosseList()
          *        Gets all the mosse in the database
+         * *   public function getListTipi()
+         *        Gets all the types in the database
+         * *   public function checkTipoExists( $tipo )
+         *        Checks if the type exists 
          * *   public function getMosseListByPokemon( $id )
          *        Gets all the mosse that a pokemon can learn
          * *   public function getListPokemonByMossa( $id )
@@ -210,6 +214,35 @@
         }
 
         /**
+         * Gets all the types in the database
+         * @return  array(   
+         *              array(
+         *                   string => nome
+         *                   )
+         *               )
+         *          or null if no match is found
+         */
+        public function getListTipi(){
+            $query = "select * from tipo";
+            return $this->query($query);
+        }
+
+        /**
+         * Checks if the type exists 
+         * @param string $tipo String that identifies the type
+         * @return bool(true) if exists
+         *         or bool(false)  if NOT 
+         */
+        public function checkTipoExists( $tipo ){
+            $query = "select * from tipo where name = '".$tipo."'";
+            $result = $this->query($query);
+            if($result != Null)
+                return true;
+            else 
+                return false;
+        }
+
+        /**
          * Gets all the mosse that a pokemon can learn
          * @param int $id Integer that identifies the pokemon
          * @return  array(   
@@ -328,6 +361,8 @@
             "order by tab,id";
             return $this->query($query);
         }
+
+
         
     }
     
