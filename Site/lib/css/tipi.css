@@ -398,14 +398,11 @@
     color: #D6E4FF;
 }
 
+/** categorie */
+
 .fisico {
     color: white;
     background: #C92112;
-}
-
-.fisico:hover {
-    background: #82150B;
-    color: #D96358;
 }
 
 .fisico-light {
@@ -423,11 +420,6 @@
     background: #4F5870;
 }
 
-.speciale:hover {
-    background: #333948;
-    color: #83899A;
-}
-
 .speciale-light {
     background: #83899A;
     color: #333948;
@@ -441,11 +433,6 @@
 .stato {
     color: white;
     background: #8C888C;
-}
-
-.stato:hover {
-    background: #5B585B;
-    color: #AEABAE;
 }
 
 .stato-light {
