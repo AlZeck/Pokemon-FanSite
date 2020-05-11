@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 <?php
-$lis = [
-    'normale', 'fuoco', 'lotta', 'acqua', 'volante', 'erba', 'veleno',
-    'elettro', 'terra', 'psico', 'roccia', 'ghiaccio', 'coleottero',
-    'drago', 'spettro', 'buio', 'acciaio', 'folletto'
-];
+ include '../lib/php/dbcontroller.php';
+ $con = DBController::getController();
+ $lis = $con->getListTipi();
 ?>
 
 <head>
@@ -33,10 +31,10 @@ $lis = [
             <?php
             foreach ($lis as $tipo) {
                 echo    '<div class="mb-4">
-                                <div class="card ' . $tipo . '">
-                                    <a href="/typedex/tipo.php?id=' . $tipo . '">
+                                <div class="card ' . $tipo['nome'] . '">
+                                    <a href="/typedex/tipo.php?id=' . $tipo['nome'] . '">
                                     <div class="card-body">
-                                    <h3 class="card-title">' . strtoupper($tipo) . '</h3>
+                                    <h3 class="card-title">' . strtoupper($tipo['nome']) . '</h3>
                                     </div>
                                     </a>
                                 </div>
@@ -48,6 +46,7 @@ $lis = [
 
         </div>
     </div>
+    <br>
 
 </body>
 
