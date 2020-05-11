@@ -12,8 +12,9 @@
 	<SCRIPT src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></SCRIPT>
 
     <SCRIPT type="text/javascript" lang="javascript" src="./vue.min.js"></SCRIPT>
-    <SCRIPT type="text/javascript" lang="javascript" src="./miovue.js"></SCRIPT>
     <SCRIPT type="text/javascript" lang="javascript" src="./testing.js"></SCRIPT>
+    <SCRIPT type="text/javascript" lang="javascript" src="../websockets/BCPController.js"></SCRIPT>
+    <SCRIPT type="text/javascript" lang="javascript" src="./miovue.js"></SCRIPT>
     <SCRIPT type="text/javascript" lang="javascript" src="./battaglia.js"></SCRIPT>
 </HEAD>
 
@@ -66,20 +67,28 @@
                     </UL>
                 </TD>
 
-                <TD id="campoBattaglia">
+                <TD>
                     <DIV align="right">
-                        INDEX HIS ACTIVE POKEMON: {{ avversario.indexActivePkm }} <BR />
-                        NOME: {{ activePkmAvv.nome }} <BR />
-                        PS: {{ activePkmAvv.ps }} <BR />
+                        INDEX HIS ACTIVE POKEMON: {{ avversario.indexActivePkm }} <BR/>
+                        NOME: {{ activePkmAvv.nome }} <BR/>
+
+                        <SPAN v-if="activePkmAvv.ps <= activePkmAvv.psMax/4" id="psAvv" style="color: red;"> PS: {{ activePkmAvv.ps }} </SPAN>
+                        <SPAN v-else-if="activePkmAvv.ps <= activePkmAvv.psMax/2" id="psAvv" style="color: yellow;"> PS: {{ activePkmAvv.ps }} </SPAN>
+                        <SPAN v-else id="psAvv" style="color: green;"> PS: {{ activePkmAvv.ps }} </SPAN> <BR/>
+
                         <IMG v-if="! avversario.indexSprite" id="spriteAvv" v-bind:src="activePkmAvv.front_sprite" alt="front-sprite">
-                        <IMG v-else id="spriteAvv" src="./pokeball.png" alt="front-sprite">
+                        <IMG v-else id="spriteAvv" src="/assets/img/pokeball.png" alt="front-sprite">
                     </DIV>
 
                     <IMG v-if="! protagonista.indexSprite" id="spritePrt" v-bind:src="activePkmPrt.back_sprite" alt="back-sprite">
-                    <IMG v-else id="spritePrt" src="./pokeball.png" alt="back-sprite"> <BR />
-                    INDEX MY ACTIVE POKEMON: {{ protagonista.indexActivePkm }} <BR />
-                    NOME: {{ activePkmPrt.nome }} <BR />
-                    PS: {{ activePkmPrt.ps }}
+                    <IMG v-else id="spritePrt" src="/assets/img/pokeball.png" alt="back-sprite"> <BR/>
+
+                    INDEX MY ACTIVE POKEMON: {{ protagonista.indexActivePkm }} <BR/>
+                    NOME: {{ activePkmPrt.nome }} <BR/>
+
+                    <SPAN v-if="activePkmPrt.ps <= activePkmPrt.psMax/4" id="psPrt" style="color: red;"> PS: {{ activePkmPrt.ps }} </SPAN>
+                    <SPAN v-else-if="activePkmPrt.ps <= activePkmPrt.psMax/2" id="psPrt" style="color: yellow;"> PS: {{ activePkmPrt.ps }} </SPAN>
+                    <SPAN v-else id="psPrt" style="color: green;"> PS: {{ activePkmPrt.ps }} </SPAN>
                 </TD>
 
                 <TD>
@@ -120,18 +129,18 @@
 
             <TR>
                 <TD>
-                    INDEX MY SELECTED POKEMON: {{ protagonista.indexSelectedPkm }} <BR />
-                    MINI-SPRITE: <IMG v-bind:src="selectedPkmPrt.mini_sprite" alt="mini-sprite"> <BR />
-                    NOME: {{ selectedPkmPrt.nome }} <BR />
+                    INDEX MY SELECTED POKEMON: {{ protagonista.indexSelectedPkm }} <BR/>
+                    MINI-SPRITE: <IMG v-bind:src="selectedPkmPrt.mini_sprite" alt="mini-sprite"> <BR/>
+                    NOME: {{ selectedPkmPrt.nome }} <BR/>
                     TYPING: {{ selectedPkmPrt.tipo1 }}
-                    <SPAN v-if="selectedPkmPrt.tipo2 != null"> - {{ selectedPkmPrt.tipo2 }} </SPAN> <BR /> <BR />
+                    <SPAN v-if="selectedPkmPrt.tipo2 != null"> - {{ selectedPkmPrt.tipo2 }} </SPAN> <BR/> <BR/>
 
-                    PS: {{ selectedPkmPrt.ps }} <BR />
-                    ATT: {{ selectedPkmPrt.att }} <BR />
-                    DIF: {{ selectedPkmPrt.dif }} <BR />
-                    ATTS: {{ selectedPkmPrt.atts }} <BR />
-                    DIFS: {{ selectedPkmPrt.difs }} <BR />
-                    VEL: {{ selectedPkmPrt.vel }} <BR /> <BR />
+                    PS: {{ selectedPkmPrt.ps }} <BR/>
+                    ATT: {{ selectedPkmPrt.att }} <BR/>
+                    DIF: {{ selectedPkmPrt.dif }} <BR/>
+                    ATTS: {{ selectedPkmPrt.atts }} <BR/>
+                    DIFS: {{ selectedPkmPrt.difs }} <BR/>
+                    VEL: {{ selectedPkmPrt.vel }} <BR/> <BR/>
 
                     MOSSE:
                     <UL>
@@ -148,18 +157,18 @@
                 </TD>
 
                 <TD>
-                    INDEX HIS SELECTED POKEMON: {{ avversario.indexSelectedPkm }} <BR />
-                    MINI-SPRITE: <IMG v-bind:src="selectedPkmAvv.mini_sprite" alt="mini-sprite"> <BR />
-                    NOME: {{ selectedPkmAvv.nome }} <BR />
+                    INDEX HIS SELECTED POKEMON: {{ avversario.indexSelectedPkm }} <BR/>
+                    MINI-SPRITE: <IMG v-bind:src="selectedPkmAvv.mini_sprite" alt="mini-sprite"> <BR/>
+                    NOME: {{ selectedPkmAvv.nome }} <BR/>
                     TYPING: {{ selectedPkmAvv.tipo1 }}
-                    <SPAN v-if="selectedPkmAvv.tipo2 != null"> - {{ selectedPkmAvv.tipo2 }} </SPAN> <BR /> <BR />
+                    <SPAN v-if="selectedPkmAvv.tipo2 != null"> - {{ selectedPkmAvv.tipo2 }} </SPAN> <BR/> <BR/>
 
-                    PS: {{ selectedPkmAvv.ps }} <BR />
-                    ATT: {{ selectedPkmAvv.att }} <BR />
-                    DIF: {{ selectedPkmAvv.dif }} <BR />
-                    ATTS: {{ selectedPkmAvv.atts }} <BR />
-                    DIFS: {{ selectedPkmAvv.difs }} <BR />
-                    VEL: {{ selectedPkmAvv.vel }} <BR /> <BR />
+                    PS: {{ selectedPkmAvv.ps }} <BR/>
+                    ATT: {{ selectedPkmAvv.att }} <BR/>
+                    DIF: {{ selectedPkmAvv.dif }} <BR/>
+                    ATTS: {{ selectedPkmAvv.atts }} <BR/>
+                    DIFS: {{ selectedPkmAvv.difs }} <BR/>
+                    VEL: {{ selectedPkmAvv.vel }} <BR/> <BR/>
 
                     MOSSE:
                     <UL>

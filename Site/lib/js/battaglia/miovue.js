@@ -421,95 +421,87 @@ window.addEventListener("load", function() {
 
             //metodo per mostrare sulla gui la mossa subita dal protagonista
             subisciAnimazioneBattagliaPrt: function(tipo) {
-                //fai un'animazione del tipo giusto dell'azione subita sul pokemon attivo del protagonista
+                //CAMBIA BACKGROUND IN BASE TIPO
 
-                //per testing
-                console.log(this.protagonista.username + " --- " + tipo);
+                $("#spritePrt").css("transition", "transform 0.1s");
+                $("#spriteAvv").css("transition", "transform 0.1s");
+
+                setTimeout(function() {
+                    $("#spriteAvv").css("transform", "rotate(-20deg)");
+
+                    setTimeout(function() {
+                        $("#spriteAvv").css("transform", "translate(-10px,0px)");
+                        $("#spritePrt").css("transform", "rotate(-20deg)");
+
+                        setTimeout(function() {
+                            $("#spriteAvv").css("transform", "translate(0px,0px)");
+                            $("#spritePrt").css("transform", "translate(-5px,0px)");
+        
+                            setTimeout(function() {
+                                $("#spritePrt").css("transform", "translate(5px,0px)");
+        
+                                setTimeout(function() {
+                                    $("#spritePrt").css("transform", "translate(-5px,0px)");
+        
+                                    setTimeout(function() {
+                                        $("#spritePrt").css("transform", "translate(5px,0px)");
+        
+                                        setTimeout(function() {
+                                            $("#spritePrt").css("transform", "translate(0px,0px)");
+                                        }, 300);
+                                    }, 300);
+                                }, 300);
+                            }, 300);
+                        }, 300);
+                    }, 300);
+                }, 100);
+
+                setTimeout(function() {
+                    $("#spritePrt").css("transition", "transform 0s");
+                    $("#spriteAvv").css("transition", "transform 0s");
+
+                    //CAMBIA BACKGROUND DEFAULT
+                }, 2800);      
             },
 
 
             //funzione per mostrare sulla gui l'abbassamento dei ps sulla barra del pokemon del protagonista
             subisciAnimazioneBarraPrt: function(nuoviPS) {
                 //fai un'animazione della barra che scende dal livello attuale a quello passato
-                //se sotto la metà falla da verde a gialla, sotto un quarto rossa
+                //il colore è già gestito dal dom
 
                 //per testing
-                var colore;
-                if(nuoviPS <= this.activePkmPrt.psMax/4) colore = "rosso";
-                else if(nuoviPS <= this.activePkmPrt.psMax/2) colore = "giallo";
-                else colore = "verde";
-
-                console.log(this.protagonista.username + " --- " + nuoviPS + " --- " + colore);
+                console.log(this.protagonista.username + " --- " + $("#psPrt").css("color"));
             },
 
 
             //funzione per mostrare sulla gui il ritiro del pokemon attivo del protagonista dalla lotta
             eseguiAnimazioneRitiroPrt: function() {
-                //mostrare l'animazione di ritiro
-
-                //rimpicciolire lo spirte del protagonista
-                //cambiare backsprite con pokeball
-
-                //console.log($("#spritePrt").height());
-
-                var H = $("#spritePrt").height();
-                var W = $("#spritePrt").width();
-                
-                /*
-                while(H != 24 && W != 24) {
-                    if(H > 24) {
-                        $("#spritePrt").css("height", H--);
-                    }
-                    else if(H < 24) {
-                        $("#spritePrt").css("height", H++);
-                    }
-
-                    if(W > 24) {
-                        $("#spritePrt").css("width", W--);
-                    }
-                    else if(W < 24) {
-                        $("#spritePrt").css("width", W++);
-                    }
-                    
-                    
-                }
-                */
-
-                //transform: scale(1.5); 
-                //transition: transform .2s;
-
-                $("#spritePrt").css("transition", "transform .2s");
+                $("#spritePrt").css("transition", "transform 3s");
                 $("#spritePrt").css("transform", "scale(0.2)");
 
-                this.protagonista.indexSprite = 1;
+                var prt = this.protagonista;
 
-                $("#spritePrt").css("transform", "scale(1)");
-                
-                //$("#spritePrt").css("height", 24);
-                //$("#spritePrt").css("width", 24);
+                setTimeout(function() {
+                    $("#spritePrt").css("transition", "transform 0s");
+                    $("#spritePrt").css("transform", "scale(1)");
 
-                //this.activePkmPrt.back_sprite = "/assets/pokemon/back_sprite/charizard.gif";
-
-
-                /*
-                $("#spritePrt").css("height", "10px");
-                $("#spritePrt").css("width", "10px");
-                */
-                
-
-                //per testing
-                console.log(this.protagonista.username + " --- ritiro");
+                    prt.indexSprite = 1;
+                }, 2300); 
             },
 
 
             //metodo per mostrare sulla gui il mandare il pokemon del protagonista in campo
             eseguiAnimazioneSwitchPrt: function() {
-                //faccio animazione sul pokemon attivo del protagonista per far apparire lo sprite corretto
-
                 this.protagonista.indexSprite = 0;
-
-                //per testing
-                console.log(this.protagonista.username + " --- switch");
+                
+                $("#spritePrt").css("transition", "transform 0s");
+                $("#spritePrt").css("transform", "scale(0.2)");
+                
+                setTimeout(function() {
+                    $("#spritePrt").css("transition", "transform 3s");
+                    $("#spritePrt").css("transform", "scale(1)");
+                }, 100);
             },
 
 
@@ -567,47 +559,89 @@ window.addEventListener("load", function() {
 
             //metodo per mostrare sulla gui la mossa subita dall'avversario
             subisciAnimazioneBattagliaAvv: function(tipo) {
-                //fai un'animazione del tipo giusto dell'azione subita sul pokemon attivo dell'avversario
+                //CAMBIA BACKGROUND IN BASE TIPO
 
-                //per testing
-                console.log(this.avversario.username + " --- " + tipo);
+                $("#spriteAvv").css("transition", "transform 0.1s");
+                $("#spritePrt").css("transition", "transform 0.1s");
+
+                setTimeout(function() {
+                    $("#spritePrt").css("transform", "rotate(20deg)");
+
+                    setTimeout(function() {
+                        $("#spritePrt").css("transform", "translate(10px,0px)");
+                        $("#spriteAvv").css("transform", "rotate(20deg)");
+
+                        setTimeout(function() {
+                            $("#spritePrt").css("transform", "translate(0px,0px)");
+                            $("#spriteAvv").css("transform", "translate(5px,0px)");
+        
+                            setTimeout(function() {
+                                $("#spriteAvv").css("transform", "translate(-5px,0px)");
+        
+                                setTimeout(function() {
+                                    $("#spriteAvv").css("transform", "translate(5px,0px)");
+        
+                                    setTimeout(function() {
+                                        $("#spriteAvv").css("transform", "translate(-5px,0px)");
+        
+                                        setTimeout(function() {
+                                            $("#spriteAvv").css("transform", "translate(0px,0px)");
+                                        }, 300);
+                                    }, 300);
+                                }, 300);
+                            }, 300);
+                        }, 300);
+                    }, 300);
+                }, 100);
+
+                setTimeout(function() {
+                    $("#spriteAvv").css("transition", "transform 0s");
+                    $("#spritePrt").css("transition", "transform 0s");
+
+                    //CAMBIA BACKGROUND DEFAULT
+                }, 2800); 
             },
 
 
             //funzione per mostrare sulla gui l'abbassamento dei ps sulla barra del pokemon dell'avversario
             subisciAnimazioneBarraAvv: function(nuoviPS) {
                 //fai un'animazione della barra che scende dal livello attuale a quello passato
-                //se sotto la metà falla da verde a gialla, sotto un quarto rossa
+                //il colore è già gestito dal dom
 
                 //per testing
-                var colore;
-                if(nuoviPS <= this.activePkmAvv.psMax/4) colore = "rosso";
-                else if(nuoviPS <= this.activePkmAvv.psMax/2) colore = "giallo";
-                else colore = "verde";
-
-                console.log(this.avversario.username + " --- " + nuoviPS + " --- " + colore);
+                console.log(this.avversario.username + " --- " + $("#psAvv").css("color"));
             },
 
 
             //funzione per mostrare sulla gui il ritiro del pokemon attivo dell'avversario dalla lotta
             eseguiAnimazioneRitiroAvv: function() {
-                //mostrare l'animazione di ritiro
+                $("#spriteAvv").css("transition", "transform 3s");
+                $("#spriteAvv").css("transform", "scale(0.2)");
 
-                this.avversario.indexSprite = 1;
+                var avv = this.avversario;
 
-                //per testing
-                console.log(this.avversario.username + " --- ritiro");
+                setTimeout(function() {
+                    $("#spriteAvv").css("transition", "transform 0s");
+                    $("#spriteAvv").css("transform", "scale(1)");
+
+                    avv.indexSprite = 1;
+                }, 2300);                
             },
 
 
             //metodo per mostrare sulla gui il mandare il pokemon dell'avversario in campo
             eseguiAnimazioneSwitchAvv: function() {
-                //faccio animazione sul pokemon attivo dell'avversario per far apparire lo sprite corretto
-
                 this.avversario.indexSprite = 0;
-
-                //per testing
+                
+                $("#spriteAvv").css("transition", "transform 0s");
+                $("#spriteAvv").css("transform", "scale(0.2)");
+                
                 console.log(this.avversario.username + " --- switch");
+                
+                setTimeout(function() {
+                    $("#spriteAvv").css("transition", "transform 3s");
+                    $("#spriteAvv").css("transform", "scale(1)");
+                }, 100);
             }
         }
     });
