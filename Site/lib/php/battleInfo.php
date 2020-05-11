@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: application/json');
 include './dbcontroller.php';
 $con = DBController::getController();
 $info="";
@@ -9,5 +10,5 @@ if($_GET["type"]=="pokemon"){
 }elseif($_GET["type"]=="search"){
     $info = $con->searchByName($_GET["name"]);
 }
-echo json_encode($info);
+echo json_encode($info,JSON_PRETTY_PRINT);
 ?>
