@@ -4,22 +4,21 @@ include 'dbcontroller.php';
 
 $con = DBController::getController();
 
-//inputUser, inputPsw
+//username, new-password
 
-$user = $_POST['inputUser'];
-$psw = md5($_POST['inputPsw']);
-
+$user = $_POST['username'];
+$psw = password_hash($_POST['password'], PASSWORD_BCRYPT, ["cost" => 10]);
 
 if(!$con->checkUsernameExists($user)){
     $ris = $con->addNewUser($user,$psw);
     if($ris){
-        echo "success \n";
+        echo "success";
     }
     else{
-        echo "errore \n";
+        echo "error";
     }
 }
 else{
-    echo "utente registrato \n";
+    echo "error: user";
 }    
 

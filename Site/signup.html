@@ -17,34 +17,35 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <link href="lib/css/signup.css" rel="stylesheet">
+    <script src="lib/js/signup.js"></script>
 </head>
 
 <body>
     <div class="card mx-auto">
         <div class="card-body">
             <h3 class="card-title text-center">Registrati</h3>
-            <form class="form-signup needs-validation" name="registrazione" novalidate>
+            <form onsubmit="return signup();" class="form-signup needs-validation" name="registrazione" novalidate>
                 <div class="form-group">
-                    <label for="inputUser">Username</label>
-                    <input type="text" name="inputUser" class="form-control" size="20" maxlength="20"
-                        placeholder="Username" required autofocus>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" class="form-control" size="20" maxlength="20"
+                    onkeypress="return removeValidationUsername();" placeholder="Username" required autofocus>
                     <div class="invalid-feedback">
-                        Username già esistente
+                        Username non valido
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputPsw">Password</label>
-                    <input type="password" name="inputPsw" class="form-control" size="20" maxlength="20"
-                        placeholder="Password" required>
+                    <label for="new-password">Password</label>
+                    <input type="password" id="password" autocomplete="new-password" name="new-password" class="form-control" size="20" maxlength="20"
+                    onkeypress="return removeValidationPassword();" placeholder="Password" required>
                     <div class="invalid-feedback">
                         La password deve contenere almeno 6 caratteri alfanumerici di cui almeno uno maiuscolo, uno
                         minuscolo e almeno un segno di punteggiatura(come ? e &)<br>
                     </div>
                 </div>
                 <div class="form-grup">
-                    <label for="inputpConfirmPsw">Conferma Password</label>
-                    <input type="password" name="inputConfirmPsw" class="form-control" size="20" maxlength="20"
-                        placeholder="Conferma Password" required>
+                    <label for="password-confirm">Conferma Password</label>
+                    <input type="password" id="password-confirm" name="password-confirm" autocomplete="new-password" class="form-control" size="20" maxlength="20"
+                    onkeypress="return removeValidationPasswordConf();" placeholder="Conferma Password" required>
                     <div class="invalid-feedback">
                         La password confermata non coincide con quella dichiarata<br>
                     </div>
@@ -55,26 +56,6 @@
                 <br>
                 Hai già un account? Accedi cliccando <a href="login.html">qui!</a>
             </form>
-            <script>
-                // Example starter JavaScript for disabling form submissions if there are invalid fields
-                (function () {
-                    'use strict';
-                    window.addEventListener('load', function () {
-                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                        var forms = document.getElementsByClassName('needs-validation');
-                        // Loop over them and prevent submission
-                        var validation = Array.prototype.filter.call(forms, function (form) {
-                            form.addEventListener('submit', function (event) {
-                                if (form.checkValidity() === false) {
-                                    event.preventDefault();
-                                    event.stopPropagation();
-                                }
-                                form.classList.add('was-validated');
-                            }, false);
-                        });
-                    }, false);
-                })();
-            </script>
 
         </div>
     </div>
