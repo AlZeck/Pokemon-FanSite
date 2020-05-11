@@ -31,16 +31,16 @@ $lis = $con->getMosseList();
             <?php
             foreach ($lis as $mossa) {
 
-                echo    '<div class="mb-4">
-                                <div class="card">
-                                    <a href="/movedex/mossa.php?id=' . $mossa["id"] . '">
-                                    <div class="card-body">
-                                    <h5 class="card-title">' . ucfirst($mossa["nome"]) . '</h5>
-                                    <img src="/assets/img/mosse/' . $mossa["tipo"] . '.png" alt="' . $mossa["nome"] . '">
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>';
+                echo    '<div class="mb-4">'.
+                            '<div class="card">'.
+                                '<a href="/movedex/mossa.php?id=' . $mossa["id"] . '">'.
+                                    '<div class="card-body">'.
+                                        '<h5 class="card-title">' . ucfirst($mossa["nome"]) . '</h5>'.
+                                        '<img src="/assets/img/mosse/' . $mossa["tipo"] . '.png" alt="' . $mossa["nome"] . '">'.
+                                    '</div>'.
+                                '</a>'.
+                            '</div>'.
+                        '</div>';
             }
 
 

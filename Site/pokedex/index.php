@@ -29,17 +29,17 @@ $lis = $con->getPokemonList();
             <?php
             foreach ($lis as $pokemon) {
                 
-                echo    '<div class="mb-4">
-                                <div class="card">
-                                    <a href="/pokedex/pokemon.php?id=' . $pokemon["id"] . '">
-                                    <div class="card-body">
-                                    <h5 class="card-title"> <span class="number"> #'.$pokemon["id"].'</span> '
-                                    . ucfirst($pokemon["nome"]) . '</h5>
-                                    <img src="/assets/pokemon/artwork/' . $pokemon["nome"] . '.png" alt="' . $pokemon["nome"] . '">
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>';
+                echo    '<div class="mb-4">'.
+                                '<div class="card">'.
+                                        '<a href="/pokedex/pokemon.php?id=' . $pokemon["id"] . '">'.
+                                        '<div class="card-body">'.
+                                            '<h5 class="card-title"> <span class="number">#'.$pokemon["id"].'</span>'
+                                                . ucfirst($pokemon["nome"]) . '</h5>'.
+                                            '<img src="/assets/pokemon/artwork/' . $pokemon["nome"] . '.png" alt="' . $pokemon["nome"] . '">'.
+                                        '</div>'.
+                                    '</a>'.
+                                '</div>'.
+                            '</div>';
 
             }
 

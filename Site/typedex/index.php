@@ -30,15 +30,15 @@
 
             <?php
             foreach ($lis as $tipo) {
-                echo    '<div class="mb-4">
-                                <div class="card ' . $tipo['nome'] . '">
-                                    <a href="/typedex/tipo.php?id=' . $tipo['nome'] . '">
-                                    <div class="card-body">
-                                    <h3 class="card-title">' . strtoupper($tipo['nome']) . '</h3>
-                                    </div>
-                                    </a>
-                                </div>
-                            </div>';
+                echo    '<div class="mb-4">'.
+                            '<div class="card ' . $tipo['nome'] . '">'.
+                                '<a href="/typedex/tipo.php?id=' . $tipo['nome'] . '">'.
+                                    '<div class="card-body">'.
+                                        '<h3 class="card-title">' . strtoupper($tipo['nome']) . '</h3>'.
+                                    '</div>'.
+                                '</a>'.
+                            '</div>'.
+                        '</div>';
             }
 
 
