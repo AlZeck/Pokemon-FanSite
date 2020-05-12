@@ -6,6 +6,14 @@ include '../lib/php/dbcontroller.php';
 $con = DBController::getController();
 $pokemon = $con->getPokemonById($_GET["id"]);
 $moves = $con->getMosseListByPokemon($_GET["id"]);
+$colors = ["acciaio"=>"#1D4C5E", "acqua"=>"#114983", "buio"=>"#1E1A25", 
+        "coleottero"=>"#547904", "drago"=>"#002B50", "elettro"=>"#917908", 
+        "erba"=>"#11500A", "folletto"=>"#A940A3", "fuoco"=>"#A74700", 
+        "ghiaccio"=>"#187C6A", "lotta"=>"#801334", "normale"=>"#444B53",
+        "ombra"=>"#3E3355", "psico"=>"#A20D14", "roccia"=>"#7E6E3F", 
+        "sconosciuto"=>"#44685E", "spettro"=>"#193177", "terra"=>"#9A3E0B",
+        "veleno"=>"#79339D", "volante"=>"#3B5DA2", "fisico"=>"#82150B"];
+
 if ($pokemon != NULL) {
     $raw_data  = file_get_contents('../assets/voci_pokedex/' . $pokemon["nome"] . '.json');
     $data = json_decode($raw_data, true);
@@ -32,8 +40,17 @@ if ($pokemon != NULL) {
     <script src="/lib/js/navbar.js"></script>
     <style>
         body {
-            background-image: <?php echo 'url(../../assets/img/sfondi_tipi/'.$pokemon['tipo1'].'.jpg)' ?>;
+            background-image: <?php echo 'url(../../assets/img/sfondi_tipi/' . $pokemon['tipo1'] . '.jpg)' ?>;
         }
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
+            color: #fff;
+            background-color: <?php echo $colors[$pokemon['tipo1']] ?>;
+        }
+        a.nav-link {
+            color: <?php echo $colors[$pokemon['tipo1']] ?>;
+        }
+
     </style>
 </head>
 
@@ -51,13 +68,13 @@ if ($pokemon != NULL) {
                     <div class="btn-group" role="group">
                         <?php
                         echo '<a class="btn btn-tipo ' . $pokemon['tipo1'] . '"' .
-                                'href="/typedex/tipo.php?id=' . $pokemon['tipo1'] . '">'
-                                    . strtoupper($pokemon['tipo1']) . '</a>';
+                            'href="/typedex/tipo.php?id=' . $pokemon['tipo1'] . '">'
+                            . strtoupper($pokemon['tipo1']) . '</a>';
 
                         if ($pokemon['tipo2'] !== NULL) {
                             echo '<a class="btn btn-tipo ' . $pokemon['tipo2'] . '"' .
-                                    'href="/typedex/tipo.php?id=' . $pokemon['tipo2'] . '">'
-                                        . strtoupper($pokemon['tipo2']) . '</a>';
+                                'href="/typedex/tipo.php?id=' . $pokemon['tipo2'] . '">'
+                                . strtoupper($pokemon['tipo2']) . '</a>';
                         }
                         ?>
                     </div>
@@ -115,18 +132,19 @@ if ($pokemon != NULL) {
                 <br>
             </div>
         </div>
+        <!-- Voci Pokedex -->
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title"> Voci pokedex </h3>
-                <ul class="nav nav-tabs card-header-tabs">
+                <ul class="nav nav-pills card-header-pills ">
                     <?php
                     $numVoci = count($data);
                     echo '<li class="nav-item active">' .
-                            '<a class="nav-link active" data-toggle="tab" href="#voce1">Voce 1</a>' .
+                        '<a class="nav-link active" data-toggle="tab" href="#voce1">Voce 1</a>' .
                         '</li>';
                     for ($i = 2; $i < $numVoci + 1; $i++) {
                         echo '<li class="nav-item">' .
-                                '<a class="nav-link" data-toggle="tab" href="#voce' . $i . '">Voce ' . $i . '</a>' .
+                            '<a class="nav-link" data-toggle="tab" href="#voce' . $i . '">Voce ' . $i . '</a>' .
                             '</li>';
                     }
                     ?>
@@ -137,7 +155,7 @@ if ($pokemon != NULL) {
                     <?php
                     if ($numVoci == 0) {
                         echo '<div id="voce1" class="tab-pane fade active show">' .
-                                '<p>Non esistono voci per questo pokemon.</p>' .
+                            '<p>Non esistono voci per questo pokemon.</p>' .
                             '</div>';
                     } else {
                         function printGames($g)
@@ -156,13 +174,13 @@ if ($pokemon != NULL) {
                         foreach ($data as $key => $value) {
                             if ($key > 0) {
                                 echo '<div id="voce' . ($key + 1) . '" class="tab-pane fade">' .
-                                        '<div class="voce-text">' . $value['voce'] . '</div>' .
-                                        printGames($value['giochi']) .
+                                    '<div class="voce-text">' . $value['voce'] . '</div>' .
+                                    printGames($value['giochi']) .
                                     '</div>';
                             } else {
                                 echo '<div id="voce' . ($key + 1) . '" class="tab-pane fade active show">' .
-                                        '<div class="voce-text">' . $value['voce'] . '</div>' .
-                                        printGames($value['giochi']) .
+                                    '<div class="voce-text">' . $value['voce'] . '</div>' .
+                                    printGames($value['giochi']) .
                                     '</div>';
                             }
                         }
@@ -181,9 +199,9 @@ if ($pokemon != NULL) {
                     foreach ($moves as $mossa) {
 
                         echo '<div class="mb-4">' .
-                                '<a class="card btn btn-tipo ' . $mossa["tipo"] . '" style="width: 185px; align-items:center; font-weight: bold;" ' .
-                                    'href="/movedex/mossa.php?id=' . $mossa["id"] . '">' . ucfirst($mossa["nome"]) .
-                                '</a>' .
+                            '<a class="card btn btn-tipo ' . $mossa["tipo"] . '" style="width: 185px; align-items:center; font-weight: bold;" ' .
+                            'href="/movedex/mossa.php?id=' . $mossa["id"] . '">' . ucfirst($mossa["nome"]) .
+                            '</a>' .
                             '</div>';
                     }
 

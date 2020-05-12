@@ -32,8 +32,13 @@ body {
 }
 
 .card-stat{
-    height: 90%;
+    height: 100%;
 }
+
+.pb-col{
+    min-width: 60%;
+}
+
 
 .stat-label{
     text-align: center;

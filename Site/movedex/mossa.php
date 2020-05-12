@@ -40,7 +40,7 @@ if($move==NULL){
     <br>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col mb-4">
                 <div class="btn-toolbar justify-content-between" role="toolbar">
                     <div role="group">
                         <h3> <?php echo ucfirst($move["nome"]); ?> </h3>
@@ -48,26 +48,24 @@ if($move==NULL){
 
                     <div role="group">
                         <?php
-                        echo '<a class="btn btn-tipo ' . $move['tipo'] . '"' .
+                        echo '<a class="btn btn-tipo ' . $move['tipo'] . ' mb-4"' .
                             'href="/typedex/tipo.php?id=' . $move['tipo'] . '">'
                             . strtoupper($move['tipo']) . '</a>';
                         ?>
                         <?php
-                        echo '<div class="btn disabled btn-tipo ' . $move['categoria'] . '" style="opacity:1">' .
+                        echo '<div class="btn disabled btn-tipo ' . $move['categoria'] . ' mb-4" style="opacity:1">' .
                             strtoupper($move['categoria']) . '</div>';
                         ?>
                     </div>
                 </div>
-                <br>
                 <div class="card">
                     <div class="card-body">
                         <h3 class="card-title"> Descrizione </h3>
                         <?php echo $move["descrizione"]; ?>
                     </div>
                 </div>
-                <br>
             </div>
-            <div class="col">
+            <div class="col mb-4">
                 <div class="card card-stat">
                     <div class="card-body">
                         <h3 class="card-title"> Statistiche </h3>
@@ -77,7 +75,7 @@ if($move==NULL){
                         foreach ($stats as $stat) {
                             $val = $move[$stat];
                             $per = ((int) $val) * 100 / $max;
-                            echo ' <div class="row"><div class="col-sm-4 stat-label">' . strtoupper($stat) . '</div><div class="col">';
+                            echo ' <div class="row"><div class="col-sm-4 stat-label">' . strtoupper($stat) . '</div><div class="col pb-col">';
                             echo '<div class="progress justify-content-between"> ' .
                                 '<div class="progress-bar bar-stat-' . $stat . '" role="progressbar" aria-valuenow="' . $per .
                                 '" aria-valuemin="0" aria-valuemax="270" style="width:' . $per . '%;">' . $val . '</div></div></div></div>';
@@ -85,10 +83,8 @@ if($move==NULL){
                             $max = 100;
                         }
                         ?>
-
                     </div>
                 </div>
-                <br>
             </div>
         </div>
         <div class="card">
