@@ -1,6 +1,26 @@
 //variabile per poterlo usare al di fuori
-
 var mioVue;
+
+//un oggetto pokemon di default
+var defaultPkm = {
+    id: 0,
+    nome: "???",
+    tipo1: "???",
+    tipo2: null,
+    psMax: 0,
+    ps: 0,
+    att: 0,
+    dif: 0,
+    atts: 0,
+    difs: 0,
+    vel: 0, 
+    mini_sprite: "/assets/pokemon/default_sprites/default_mini.png",
+    front_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
+    back_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
+    mosse: []
+};
+
+
 
 //per caricare l'oggetto vue con le sue informazioni al caricamento della pagina
 window.addEventListener("load", function() {
@@ -37,20 +57,7 @@ window.addEventListener("load", function() {
                 indexSprite: 1,
 
                 //la squadra corrente, in posizione 0 ci sta il pokemon di default, ma nel caso del protagonista viene subito inizializzata tutta ai pokemon scelti
-                squadra: [  
-                    {
-                        id: 0, nome: "???", tipo1: "???", tipo2: null, psMax: 0, ps: 0, att: 0, dif: 0, atts: 0, difs: 0, vel: 0, 
-                        mini_sprite: "/assets/pokemon/default_sprites/default_mini.png",
-                        front_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
-                        back_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
-                        mosse: [
-                            {id:-1, nome: "???", tipo:"???", potenza:0, precisione:0, categoria: "???"},
-                            {id:-2, nome: "???", tipo:"???", potenza:0, precisione:0, categoria: "???"},
-                            {id:-3, nome: "???", tipo:"???", potenza:0, precisione:0, categoria: "???"},
-                            {id:-4, nome: "???", tipo:"???", potenza:0, precisione:0, categoria: "???"}
-                        ]
-                    }
-                ]
+                squadra: [ defaultPkm ]
             },
 
             avversario: {
@@ -67,22 +74,8 @@ window.addEventListener("load", function() {
                 indexSprite: 1,
 
                 //la squadra corrente, in posizione 0 ci sta il pokemon di default, ma nel caso del protagonista viene subito inizializzata tutta ai pokemon scelti
-                squadra: [  
-                    {
-                        id: 0, nome: "???", tipo1: "???", tipo2: null, psMax: 0, ps: 0, att: 0, dif: 0, atts: 0, difs: 0, vel: 0, 
-                        mini_sprite: "/assets/pokemon/default_sprites/default_mini.png",
-                        front_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
-                        back_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
-                        mosse: [
-                            {id:-1, nome: "???", tipo:"???", potenza:0, precisione:0, categoria: "???"},
-                            {id:-2, nome: "???", tipo:"???", potenza:0, precisione:0, categoria: "???"},
-                            {id:-3, nome: "???", tipo:"???", potenza:0, precisione:0, categoria: "???"},
-                            {id:-4, nome: "???", tipo:"???", potenza:0, precisione:0, categoria: "???"}
-                        ]
-                    }
-                ]
+                squadra: [ defaultPkm ]
             }
-            
         },
 
         computed: {
@@ -747,4 +740,3 @@ window.addEventListener("load", function() {
     mioVue.aggiungiMossa(7, mioVue.sestoPkmAvv);
     mioVue.aggiungiMossa(40, mioVue.sestoPkmAvv);
 });
-

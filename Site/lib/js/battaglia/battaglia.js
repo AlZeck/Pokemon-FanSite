@@ -3,14 +3,22 @@ class Battaglia {
     /*  PARAMETRI
         _mioVue : oggetto Vue con element mioVue
 
-        _cpu    :
+        _cpu    : oggetto Cpu
     */
 
 
     //costruttore (prende l'oggetto Vue già riempito, ovvero con gli username e anche la squadra completa del protagonista e anche l'oggetto BCPController
     //ALTERNATIVAMENTE si può fare costruttore che passa gli id di squadra e mosse assieme agli username e BCPController e crea il vue qui...
+    //inoltre se si combatte contro una CPU la inizializza
     constructor(mioVue) {
         this._mioVue = mioVue;
+
+        /*
+        if(mioVue.avversario.username == "CPU") {
+            _cpu = new Cpu();
+        }
+        else this._cpu = undefined;
+        */
     }
 
 

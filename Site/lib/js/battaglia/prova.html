@@ -77,11 +77,11 @@
                         <SPAN v-else id="psAvv" style="color: green;"> PS: {{ activePkmAvv.ps }} </SPAN> <BR/>
 
                         <IMG v-if="! avversario.indexSprite" id="spriteAvv" v-bind:src="activePkmAvv.front_sprite" alt="front-sprite">
-                        <IMG v-else id="spriteAvv" src="/assets/img/pokeball.png" alt="front-sprite">
+                        <IMG v-else id="spriteAvv" src="/assets/pokemon/default_sprites/pokeball.png" alt="front-sprite">
                     </DIV>
 
                     <IMG v-if="! protagonista.indexSprite" id="spritePrt" v-bind:src="activePkmPrt.back_sprite" alt="back-sprite">
-                    <IMG v-else id="spritePrt" src="/assets/img/pokeball.png" alt="back-sprite"> <BR/>
+                    <IMG v-else id="spritePrt" src="/assets/pokemon/default_sprites/pokeball.png" alt="back-sprite"> <BR/>
 
                     INDEX MY ACTIVE POKEMON: {{ protagonista.indexActivePkm }} <BR/>
                     NOME: {{ activePkmPrt.nome }} <BR/>
