@@ -4,7 +4,8 @@
 <?php
 include 'lib/php/dbcontroller.php';
 $con = DBController::getController();
-$lis = $con->searchByName($_GET['s']);
+$s = str_replace("'" , "''",$_GET['s'] );
+$lis = $con->searchByName($s);
 if($lis==NULL){
     include("./lib/php/notFound.php");
     sendError($_GET['s']." not found");
