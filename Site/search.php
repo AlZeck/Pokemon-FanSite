@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html>
+
+<?php
+include 'lib/php/dbcontroller.php';
+$con = DBController::getController();
+$lis = $con->searchByName($_GET['s']);
+if($lis==NULL){
+    include("./lib/php/notFound.php");
+    sendError($_GET['s']." not found");
+    die();
+}
+?>
+
 <head>
     <title>PokemonFan Site</title>
     <meta charset="utf-8">
@@ -12,17 +24,6 @@
     <link href="/lib/css/tipi.css" rel="stylesheet">
     <script src="/lib/js/navbar.js"></script>
 </head>
-
-<?php
-include 'lib/php/dbcontroller.php';
-$con = DBController::getController();
-$lis = $con->searchByName($_GET['s']);
-if($lis==NULL){
-    include("./lib/php/notFound.php");
-    sendError($_GET['s']." not found");
-    die();
-}
-?>
 
 <body>
     <br>
@@ -57,10 +58,11 @@ if($lis==NULL){
                 }
                 else {
                     echo    '<div class="mb-4">'.
-                            '<div class="card card-tipo ' . $item['nome'] . '">'.
+                            '<div class="card">'.
                                 '<a href="/typedex/tipo.php?id=' . $item['nome'] . '">'.
                                     '<div class="card-body">'.
                                         '<h3 class="card-title">' . strtoupper($item['nome']) . '</h3>'.
+                                        '<img src="/assets/img/typedex/'.$item['nome'] . '.png" alt="' . $item["nome"] . '">'.
                                     '</div>'.
                                 '</a>'.
                             '</div>'.

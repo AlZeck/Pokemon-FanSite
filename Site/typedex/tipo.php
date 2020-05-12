@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>Pokedex-PokemonFan Site</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link href="/lib/css/tipo.css" rel="stylesheet">
-    <link href="/lib/css/stat.css" rel="stylesheet">
-    <link href="/lib/css/tipi.css" rel="stylesheet">
-    <script src="/lib/js/navbar.js"></script>
-
-</head>
-
 <?php
 include '../lib/php/dbcontroller.php';
 $con = DBController::getController();
@@ -35,54 +20,90 @@ if ($con->checkTipoExists($tipo)) {
 }
 ?>
 
+<head>
+    <title>Pokedex-PokemonFan Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="/lib/css/tipo.css" rel="stylesheet">
+    <link href="/lib/css/stat.css" rel="stylesheet">
+    <link href="/lib/css/tipi.css" rel="stylesheet">
+    <script src="/lib/js/navbar.js"></script>
+    <style>
+        body {
+            background-image: <?php echo 'url(../../assets/img/sfondi_tipi/'.$tipo.'.jpg)' ?>;
+        }
+    </style>
+</head>
+
+
 <body>
     <br>
     <div class="container">
-        <h2 class="type-header"><?php echo ucfirst($tipo); ?></h2>
-
+        <!-- <h2 class="type-header"><php echo ucfirst($tipo); ?></h2> -->
+        <div class="media">
+            <div class="media-body">
+                <h2 class="mt-0 mb-1"><?php echo ucfirst($tipo); ?></h2>
+            </div>
+            <img src="/assets/img/typedex/<?php echo $tipo; ?>.png" class="align-self-center ml-3" alt="<?php echo $tipo; ?>" style="max-width:40px; max-height:40px;">
+        </div>
+        <br>
         <div class="row">
             <div class="col">
                 <div class="card eff-card">
+                    <div class="card-header">
+                        <h4 class="card-title">Offensivo</h4>
+                    </div>
                     <div class="card-body">
-                        <h4 class="card-title">Offensivo</h3>
-                            <?php
-                            $lis = $data['offensivo'];
-                            foreach ($eff as $name => $title) {
-                                echo '<strong>' . $title . '</strong>';
-                                echo '<div class="card-deck">';
-                                if ($lis[$name] != []) {
-                                    foreach ($lis[$name] as $currtype) {
-                                        echo '<a class="btn btn-tipo ' . $currtype . '"' .
-                                            'href="/typedex/tipo.php?id=' . $currtype . '">'
-                                            . strtoupper($currtype) . '</a>';
-                                    }
+                        <?php
+                        $lis = $data['offensivo'];
+                        foreach ($eff as $name => $title) {
+                            if ($name != "superefficace") echo '<hr>';
+                            echo '<strong>' . $title . '</strong>';
+                            echo '<div class="card-deck">';
+                            if ($lis[$name] != []) {
+                                foreach ($lis[$name] as $currtype) {
+                                    echo '<a class="btn btn-tipo ' . $currtype . '"' .
+                                        'href="/typedex/tipo.php?id=' . $currtype . '">'
+                                        . strtoupper($currtype) . '</a>';
                                 }
-                                echo '</div>';
+                            } else {
+                                echo '<a class="btn btn-tipo btn-void disabled" href="">NULL</a>';
                             }
-                            ?>
+                            echo '</div>';
+                        }
+                        ?>
                     </div>
                 </div>
                 <br>
             </div>
             <div class="col">
                 <div class="card eff-card">
+                    <div class="card-header">
+                        <h4 class="card-title">Diffensivo</h4>
+                    </div>
                     <div class="card-body">
-                        <h4 class="card-title">Diffensivo</h3>
-                            <?php
-                            $lis = $data['diffensivo'];
-                            foreach ($eff as $name => $title) {
-                                echo '<strong>' . $title . '</strong>';
-                                echo '<div class="card-deck">';
-                                if ($lis[$name] != []) {
-                                    foreach ($lis[$name] as $currtype) {
-                                        echo '<a class="btn btn-tipo ' . $currtype . '"' .
-                                            'href="/typedex/tipo.php?id=' . $currtype . '">'
-                                            . strtoupper($currtype) . '</a>';
-                                    }
+                        <?php
+                        $lis = $data['diffensivo'];
+                        foreach ($eff as $name => $title) {
+                            if ($name != "superefficace") echo '<hr>';
+                            echo '<strong>' . $title . '</strong>';
+                            echo '<div class="card-deck">';
+                            if ($lis[$name] != []) {
+                                foreach ($lis[$name] as $currtype) {
+                                    echo '<a class="btn btn-tipo ' . $currtype . '"' .
+                                        'href="/typedex/tipo.php?id=' . $currtype . '">'
+                                        . strtoupper($currtype) . '</a>';
                                 }
-                                echo '</div>';
+                            } else {
+                                echo '<a class="btn btn-tipo btn-void disabled" href="">NULL</a>';
                             }
-                            ?>
+                            echo '</div>';
+                        }
+                        ?>
                     </div>
                 </div>
                 <br>

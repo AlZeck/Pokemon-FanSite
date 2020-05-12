@@ -37,6 +37,18 @@ body {
     border: 1px solid rgba(0,0,0,.125);
 }
 
+.btn-void{
+    color: transparent;
+    border: none;
+    background-color: transparent;
+}
+
+.btn-void a{
+    color: transparent;
+    border: none;
+    background-color: transparent;
+}
+
 
 /** Pokecard */
 
