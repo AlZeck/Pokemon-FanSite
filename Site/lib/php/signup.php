@@ -9,7 +9,7 @@ $con = DBController::getController();
 $user = $_POST['username'];
 $psw = password_hash($_POST['password'], PASSWORD_BCRYPT, ["cost" => 10]);
 
-if(!$con->checkUsernameExists($user)){
+if(!$con->checkUsernameExists($user) && $user!='CPU'){
     $ris = $con->addNewUser($user,$psw);
     if($ris){
         echo "success";
