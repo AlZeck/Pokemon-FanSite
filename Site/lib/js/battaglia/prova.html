@@ -9,13 +9,14 @@
     <META charset="utf-8">
 
     <!-- PRENDO JQUERY DA INTERNET DALLE API GOOGLE -->
-	<SCRIPT src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></SCRIPT>
-
+    <SCRIPT src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></SCRIPT>
+    
     <SCRIPT type="text/javascript" lang="javascript" src="./vue.min.js"></SCRIPT>
-    <SCRIPT type="text/javascript" lang="javascript" src="./testing.js"></SCRIPT>
     <SCRIPT type="text/javascript" lang="javascript" src="../websockets/BCPController.js"></SCRIPT>
+    <SCRIPT type="text/javascript" lang="javascript" src="./prendiDalDB.js"></SCRIPT>
     <SCRIPT type="text/javascript" lang="javascript" src="./miovue.js"></SCRIPT>
     <SCRIPT type="text/javascript" lang="javascript" src="./battaglia.js"></SCRIPT>
+    <SCRIPT type="text/javascript" lang="javascript" src="./testing.js"></SCRIPT>
 </HEAD>
 
 
@@ -35,32 +36,32 @@
             <TR>
                 <TD>
                     <UL>
-                        <LI v-on:click="cambiaSelectedPkmPrt(1)">
+                        <LI v-on:click="cambiaSelectedPkm(1, protagonista)">
                             <IMG v-bind:src="primoPkmPrt.mini_sprite" alt="mini-sprite">
                             {{ primoPkmPrt.nome }}
                         </LI>
 
-                        <LI v-on:click="cambiaSelectedPkmPrt(2)">
+                        <LI v-on:click="cambiaSelectedPkm(2, protagonista)">
                             <IMG v-bind:src="secondoPkmPrt.mini_sprite" alt="mini-sprite">
                             {{ secondoPkmPrt.nome }}
                         </LI>
 
-                        <LI v-on:click="cambiaSelectedPkmPrt(3)">
+                        <LI v-on:click="cambiaSelectedPkm(3, protagonista)">
                             <IMG v-bind:src="terzoPkmPrt.mini_sprite" alt="mini-sprite">
                             {{ terzoPkmPrt.nome }}
                         </LI>
 
-                        <LI v-on:click="cambiaSelectedPkmPrt(4)">
+                        <LI v-on:click="cambiaSelectedPkm(4, protagonista)">
                             <IMG v-bind:src="quartoPkmPrt.mini_sprite" alt="mini-sprite">
                             {{ quartoPkmPrt.nome }}
                         </LI>
 
-                        <LI v-on:click="cambiaSelectedPkmPrt(5)">
+                        <LI v-on:click="cambiaSelectedPkm(5, protagonista)">
                             <IMG v-bind:src="quintoPkmPrt.mini_sprite" alt="mini-sprite">
                             {{ quintoPkmPrt.nome }}
                         </LI>
 
-                        <LI v-on:click="cambiaSelectedPkmPrt(6)">
+                        <LI v-on:click="cambiaSelectedPkm(6, protagonista)">
                             <IMG v-bind:src="sestoPkmPrt.mini_sprite" alt="mini-sprite">
                             {{ sestoPkmPrt.nome }}
                         </LI>
@@ -93,32 +94,32 @@
 
                 <TD>
                     <UL>
-                        <LI v-on:click="cambiaSelectedPkmAvv(1)">
+                        <LI v-on:click="cambiaSelectedPkm(1, avversario)">
                             <IMG v-bind:src="primoPkmAvv.mini_sprite" alt="mini-sprite">
                             {{ primoPkmAvv.nome }}
                         </LI>
 
-                        <LI v-on:click="cambiaSelectedPkmAvv(2)">
+                        <LI v-on:click="cambiaSelectedPkm(2, avversario)">
                             <IMG v-bind:src="secondoPkmAvv.mini_sprite" alt="mini-sprite">
                             {{ secondoPkmAvv.nome }}
                         </LI>
 
-                        <LI v-on:click="cambiaSelectedPkmAvv(3)">
+                        <LI v-on:click="cambiaSelectedPkm(3, avversario)">
                             <IMG v-bind:src="terzoPkmAvv.mini_sprite" alt="mini-sprite">
                             {{ terzoPkmAvv.nome }}
                         </LI>
 
-                        <LI v-on:click="cambiaSelectedPkmAvv(4)">
+                        <LI v-on:click="cambiaSelectedPkm(4, avversario)">
                             <IMG v-bind:src="quartoPkmAvv.mini_sprite" alt="mini-sprite">
                             {{ quartoPkmAvv.nome }}
                         </LI>
 
-                        <LI v-on:click="cambiaSelectedPkmAvv(5)">
+                        <LI v-on:click="cambiaSelectedPkm(5, avversario)">
                             <IMG v-bind:src="quintoPkmAvv.mini_sprite" alt="mini-sprite">
                             {{ quintoPkmAvv.nome }}
                         </LI>
 
-                        <LI v-on:click="cambiaSelectedPkmAvv(6)">
+                        <LI v-on:click="cambiaSelectedPkm(6, avversario)">
                             <IMG v-bind:src="sestoPkmAvv.mini_sprite" alt="mini-sprite">
                             {{ sestoPkmAvv.nome }}
                         </LI>

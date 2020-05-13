@@ -328,22 +328,21 @@ id;nome;tipo;categoria;potenza;precisione;descrizione
 327;rutto;veleno;speciale;120;90;Chi la usa attacca il bersaglio con un rutto potente.
 328;pungiglione;coleottero;fisico;50;100;Un attacco poderoso causato da un pungiglione.
 329;spettrotuffo;spettro;fisico;90;100;Chi la usa scompare improvvisamente per attaccare all'improvviso.
-330;caricaparabola;elettro;speciale;65;100;Chi la usa attacca tutto ciò che lo circonda con elettricità.
-331;fiortempesta;erba;fisico;90;100;Infligge danni ai Pokémon che ha intorno attaccandoli con una tempesta di fiori.
-332;liofilizzazione;ghiaccio;speciale;70;100;Chi la usa raffredda rapidamente il bersaglio.
-333;incantavoce;folletto;speciale;40;100;Chi la usa infligge un danno spirituale ai nemici nei paraggi con una voce suadente.
-334;assorbibacio;folletto;speciale;50;100;Un bacio fatato che assorbe le energie mistiche al nemico.
-335;carineria;folletto;fisico;90;90;Chi la usa attacca il bersaglio con delle carinerie.
-336;vento di fata;folletto;speciale;40;100;Attacca con un forte vento fatato.
-337;forza lunare;folletto;speciale;95;100;Accumula la forza proveniente dalla luna e la libera sul nemico.
-338;ondaboato;normale;speciale;140;100;Colpisce i Pokémon che ha intorno con la forza di un boato distruttivo.
-339;acqualame;acqua;speciale;15;100;Colpisce il bersaglio con uno shuriken di muco.
-340;magifiamma;fuoco;speciale;75;100;Colpisce il bersaglio soffiandogli contro delle fiammate incredibilmente roventi.
-341;magibrillio;folletto;speciale;80;100;Emette una luce potentissima che infligge danni al bersaglio.
-342;elettrococcola;elettro;fisico;20;100;Nonostante il tenero nome è una mossa piuttosto pericolosa.
-343;riguardo;normale;fisico;40;100;Chi la usa attacca il bersaglio, modulando il colpo in modo delicato.
-344;assillo;coleottero;speciale;20;100;Chi la usa lancia un attacco che tormenta il bersaglio.
-345;crescipugno;lotta;fisico;40;100;Colpisce con pugni via via più forti.
-346;primopulsar;acqua;speciale;110;85;Attacca i nemici intorno colpendoli con miriadi di raggi di luce blu.
-347;spade telluriche;terra;fisico;120;85;Attacca i nemici intorno trasformando la potenza della terra in lame affilate.
-348;ascesa del drago;volante;fisico;120;100;Permette di proiettarsi in aria e fiondarsi sul bersaglio attaccando ad altissima velocità.
+330;fiortempesta;erba;fisico;90;100;Infligge danni ai Pokémon che ha intorno attaccandoli con una tempesta di fiori.
+331;liofilizzazione;ghiaccio;speciale;70;100;Chi la usa raffredda rapidamente il bersaglio.
+332;incantavoce;folletto;speciale;40;100;Chi la usa infligge un danno spirituale ai nemici nei paraggi con una voce suadente.
+333;assorbibacio;folletto;speciale;50;100;Un bacio fatato che assorbe le energie mistiche al nemico.
+334;carineria;folletto;fisico;90;90;Chi la usa attacca il bersaglio con delle carinerie.
+335;vento di fata;folletto;speciale;40;100;Attacca con un forte vento fatato.
+336;forza lunare;folletto;speciale;95;100;Accumula la forza proveniente dalla luna e la libera sul nemico.
+337;ondaboato;normale;speciale;140;100;Colpisce i Pokémon che ha intorno con la forza di un boato distruttivo.
+338;acqualame;acqua;speciale;15;100;Colpisce il bersaglio con uno shuriken di muco.
+339;magifiamma;fuoco;speciale;75;100;Colpisce il bersaglio soffiandogli contro delle fiammate incredibilmente roventi.
+340;magibrillio;folletto;speciale;80;100;Emette una luce potentissima che infligge danni al bersaglio.
+341;elettrococcola;elettro;fisico;20;100;Nonostante il tenero nome è una mossa piuttosto pericolosa.
+342;riguardo;normale;fisico;40;100;Chi la usa attacca il bersaglio, modulando il colpo in modo delicato.
+343;assillo;coleottero;speciale;20;100;Chi la usa lancia un attacco che tormenta il bersaglio.
+344;crescipugno;lotta;fisico;40;100;Colpisce con pugni via via più forti.
+345;primopulsar;acqua;speciale;110;85;Attacca i nemici intorno colpendoli con miriadi di raggi di luce blu.
+346;spade telluriche;terra;fisico;120;85;Attacca i nemici intorno trasformando la potenza della terra in lame affilate.
+347;ascesa del drago;volante;fisico;120;100;Permette di proiettarsi in aria e fiondarsi sul bersaglio attaccando ad altissima velocità.
