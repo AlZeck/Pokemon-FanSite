@@ -14,7 +14,7 @@ function login() {
                 },
                 success: function (response) {
                     if (response == "success") {
-                        window.location.href = "index.html";
+                        window.location.href = "/index.html";
                     }
                     else {
                         if (response == "error: password"){

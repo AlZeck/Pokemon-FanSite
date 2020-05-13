@@ -2,8 +2,8 @@ function signup() {
     var user = $("#username").val();
     var pass = $("#password").val();
     var pasc = $("#password-confirm").val();
-    var s = "";
-    if (user != "" && pass.length > 5 && pass == pasc) {
+    var confirmpass =  new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!#$%&\(\)\*+,\-./:;<=>?@\[\\\]^_{|}~])(?=.{6,})").test(pass);
+    if (user != "" && confirmpass && pass == pasc) {
         $.ajax
             ({
                 type: 'post',
@@ -14,8 +14,7 @@ function signup() {
                 },
                 success: function (response) {
                     if (response == "success") {
-                        window.location.href = "login.html";
-                        alert("Loggati con il account appena creato!");
+                        window.location.href = "/index.html";
                     }
                     else {
                         if (response == "error: user") {
@@ -32,7 +31,7 @@ function signup() {
         if (user == "") {
             $("#username").addClass("is-invalid");
         }
-        if (pass.length <= 5) {
+        if (!confirmpass) {
             $("#password").addClass("is-invalid");
         }
         if (pass != pasc){

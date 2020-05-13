@@ -12,6 +12,8 @@ $psw = password_hash($_POST['password'], PASSWORD_BCRYPT, ["cost" => 10]);
 if(!$con->checkUsernameExists($user) && $user!='CPU'){
     $ris = $con->addNewUser($user,$psw);
     if($ris){
+        session_start();
+        setcookie("user",$user,0,"/");
         echo "success";
     }
     else{
