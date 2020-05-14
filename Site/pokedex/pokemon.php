@@ -206,9 +206,9 @@ if ($pokemon != NULL) {
                     foreach ($moves as $mossa) {
 
                         echo '<div class="mb-4">' .
-                            '<a class="card btn btn-tipo ' . $mossa["tipo"] . '" style="width: 185px; align-items:center; font-weight: bold;" ' .
-                            'href="/movedex/mossa.php?id=' . $mossa["id"] . '">' . ucfirst($mossa["nome"]) .
-                            '</a>' .
+                                '<a class="card btn btn-tipo ' . $mossa["tipo"] . '" style="width: 185px; align-items:center; font-weight: bold;" ' .
+                                    'href="/movedex/mossa.php?id=' . $mossa["id"] . '">' . ucfirst($mossa["nome"]) .
+                                '</a>' .
                             '</div>';
                     }
 

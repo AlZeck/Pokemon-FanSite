@@ -9,7 +9,7 @@ $move = $con->getMossaById($id);
 //\var_dump($info);
 $pokelis = $con->getListPokemonByMossa($id);
 //\var_dump($pokelis);
-if($move==NULL){
+if ($move == NULL) {
     //header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found", true, 404);
     include("../lib/php/notFound.php");
     sendError("Mossa not found");
@@ -25,7 +25,7 @@ if($move==NULL){
     <meta name="description" content="Un fansite sui pokemon che permette di conoscere di più sul loro mondo e di fare battaglie nel simulatore">
     <meta name="keywords" content="pokemon, battaglia, pokedex, movedex, typedex">
     <meta name="author" content="Juan Sebastian Arboleda Polo (1805920), Andrea Cerone (1770688), Matteo Di Stadio (1794111)">
-    <meta name ="copyright" content="The Pokémon Company">
+    <meta name="copyright" content="The Pokémon Company">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -35,7 +35,7 @@ if($move==NULL){
     <script src="/lib/js/navbar.js"></script>
     <style>
         body {
-            background-image: <?php echo 'url(../../assets/img/sfondi_tipi/'.$move['tipo'].'.jpg)' ?>;
+            background-image: <?php echo 'url(../../assets/img/sfondi_tipi/' . $move['tipo'] . '.jpg)' ?>;
         }
     </style>
 </head>

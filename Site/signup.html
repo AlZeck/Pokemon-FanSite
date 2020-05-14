@@ -5,10 +5,12 @@
     <title>PokemonFan Sign Up</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Un fansite sui pokemon che permette di conoscere di più sul loro mondo e di fare battaglie nel simulatore">
+    <meta name="description"
+        content="Un fansite sui pokemon che permette di conoscere di più sul loro mondo e di fare battaglie nel simulatore">
     <meta name="keywords" content="pokemon, battaglia, pokedex, movedex, typedex">
-    <meta name="author" content="Juan Sebastian Arboleda Polo (1805920), Andrea Cerone (1770688), Matteo Di Stadio (1794111)">
-    <meta name ="copyright" content="The Pokémon Company">
+    <meta name="author"
+        content="Juan Sebastian Arboleda Polo (1805920), Andrea Cerone (1770688), Matteo Di Stadio (1794111)">
+    <meta name="copyright" content="The Pokémon Company">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -32,15 +34,16 @@
                 <div class="form-group">
                     <label for="username">Username</label>
                     <input type="text" id="username" name="username" class="form-control" size="20" maxlength="20"
-                    onkeypress="return removeValidationUsername();" placeholder="Username" required autofocus>
+                        onkeypress="return removeValidationUsername();" placeholder="Username" required autofocus>
                     <div class="invalid-feedback">
                         Username non valido
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="new-password">Password</label>
-                    <input type="password" id="password" autocomplete="new-password" name="new-password" class="form-control" size="20" maxlength="20"
-                    onkeypress="return removeValidationPassword();" placeholder="Password" required>
+                    <input type="password" id="password" autocomplete="new-password" name="new-password"
+                        class="form-control" size="20" maxlength="20" onkeypress="return removeValidationPassword();"
+                        placeholder="Password" required>
                     <div class="invalid-feedback">
                         La password deve contenere almeno 6 caratteri alfanumerici di cui almeno uno maiuscolo, uno
                         minuscolo e almeno un segno di punteggiatura(come ? e &)<br>
@@ -48,8 +51,9 @@
                 </div>
                 <div class="form-grup">
                     <label for="password-confirm">Conferma Password</label>
-                    <input type="password" id="password-confirm" name="password-confirm" autocomplete="new-password" class="form-control" size="20" maxlength="20"
-                    onkeypress="return removeValidationPasswordConf();" placeholder="Conferma Password" required>
+                    <input type="password" id="password-confirm" name="password-confirm" autocomplete="new-password"
+                        class="form-control" size="20" maxlength="20"
+                        onkeypress="return removeValidationPasswordConf();" placeholder="Conferma Password" required>
                     <div class="invalid-feedback">
                         La password confermata non coincide con quella dichiarata<br>
                     </div>
