@@ -7,7 +7,7 @@ var A = {
 			"azione": "mossa_attesa",
 			"valore": 13,
 			"danno": 1000,
-            "comunicato": "Brutto Colpo!"
+            "comunicato": "Il colpo è andato a segno. Brutto colpo!"
     },
     "secondo": {
             "utente": "Blue",
@@ -24,7 +24,7 @@ var B = {
 			"azione": "mossa_vinto",
 			"valore": 13,
 			"danno": 1000,
-            "comunicato": "Superefficace!"
+            "comunicato": "Il colpo è stato superefficace!"
     },
     "secondo": {
             "utente": "Blue",
@@ -41,14 +41,14 @@ var C = {
 			"azione": "mossa_switch",
 			"valore": 13,
 			"danno": 1,
-            "comunicato": "Superefficace!"
+            "comunicato": "Il colpo è stato superefficace!"
     },
     "secondo": {
             "utente": "Blue",
             "azione": "mossa_attesa",
             "valore": 13,
             "danno": 1000,
-            "comunicato": "Brutto colpo!"
+            "comunicato": "Il colpo è andato a segno. Brutto colpo!"
     }
 };
 
@@ -58,14 +58,14 @@ var D = {
 			"azione": "mossa_perso",
 			"valore": 13,
 			"danno": 1,
-            "comunicato": "Superefficace!"
+            "comunicato": "Il colpo è stato superefficace!"
     },
     "secondo": {
             "utente": "Blue",
             "azione": "mossa_vinto",
             "valore": 13,
             "danno": 1000,
-            "comunicato": "Brutto colpo!"
+            "comunicato": "Il colpo è andato a segno. Brutto colpo!"
     }
 };
 
@@ -74,15 +74,15 @@ var E = {
 			"utente": "Red",
 			"azione": "mossa_",
 			"valore": 13,
-			"danno": 1,
-            "comunicato": "Superefficace!"
+			"danno": 0,
+            "comunicato": "La mossa è stata schivata!"
     },
     "secondo": {
             "utente": "Blue",
             "azione": "mossa_",
             "valore": 13,
             "danno": 1,
-            "comunicato": "Brutto colpo!"
+            "comunicato": "Il colpo è andato a segno. Brutto colpo!"
     }
 };
 
@@ -99,7 +99,7 @@ var F = {
             "azione": "mossa_attesa",
             "valore": 13,
             "danno": 1000,
-            "comunicato": "Superefficace!"
+            "comunicato": "Il colpo è stato superefficace!"
     }
 };
 
@@ -116,7 +116,7 @@ var G = {
             "azione": "mossa_",
             "valore": 13,
             "danno": 1,
-            "comunicato": "Superefficace!"
+            "comunicato": "Il colpo è stato superefficace!"
     }
 };
 

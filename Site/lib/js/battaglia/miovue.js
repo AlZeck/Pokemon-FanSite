@@ -523,7 +523,7 @@ window.addEventListener("load", function() {
 
 
 
-    mioVue.avversario.username = "Blue";
+    mioVue.avversario.username = "CPU";
 
     /*
     mioVue.aggiungiPkm(3, mioVue.avversario);

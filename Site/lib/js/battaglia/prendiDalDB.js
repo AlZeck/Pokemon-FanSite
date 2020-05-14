@@ -26,7 +26,6 @@ function prendiDalDB(cosa, id) {
                     back_sprite: "/assets/pokemon/back_sprite/" + response.nome + ".gif",
                     mosse: []
                 };
-                
             }
             else {
                 ret = {
