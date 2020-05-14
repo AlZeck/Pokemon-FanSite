@@ -69,16 +69,16 @@ body {
 .pokecard {
     background-color: white;
     border-radius: 5px;
-    height: 180px;
-    width: 180px;
+    height: 182px;
+    width: 182px;
     justify-content: center;
 }
 
 .pokecard:hover {
     background-color: lightgray;
     border-radius: 5px;
-    height: 180px;
-    width: 180px;
+    height: 182px;
+    width: 182px;
     justify-content: center;
 }
 

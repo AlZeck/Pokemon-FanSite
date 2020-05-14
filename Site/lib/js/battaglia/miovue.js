@@ -330,14 +330,12 @@ window.addEventListener("load", function() {
                         allenatore.indexActivePkm = j;
                         return;
                     }
-                }this.activePkmPrt.nome
+                }
 
-                /*
-                if(j<8) {
-                    allenatore.squadra.push( NUOVO OGGETTO POKEMON IN BASE A ID );
+                if(j < 7) {
+                    this.aggiungiPkm(id, allenatore)
                     allenatore.indexActivePkm = j;
                 }
-                */
             },
 
 
@@ -347,30 +345,27 @@ window.addEventListener("load", function() {
                     if(activePkm.mosse[j].id == id) return activePkm.mosse[j];
                 }
 
-                /*
-                if(j<4) {
-                    activePkm.mosse.push( prendiDalDB("mossa", id) );
+                if(j < 4) {
+                    this.aggiungiMossa(id, activePkm);
+                    return activePkm.mosse[j];
                 }
-                */
             },
 
 
             //metodo per aggiungere una mossa dal suo id all'oggetto pokemon passato se c'è spazio nel suo moveset
             aggiungiMossa: function(mossa, pkm) {    
-                if(pkm.mosse.length < 4) pkm.mosse.push( prendiDalDB("mossa", mossa) );
+                pkm.mosse.push( prendiDalDB("mossa", mossa) );
             },
 
 
             //metodo per aggiungere un oggetto pokemon passato il suo id se c'è spazio nella squadra dell'allenatore passato
             //se è il primo è settato automaticamente a selezionato ed attivo
             aggiungiPkm: function(pkm, allenatore) {
-                if(allenatore.squadra.length < 7) {
-                    allenatore.squadra.push( prendiDalDB("pokemon", pkm) );
+                allenatore.squadra.push( prendiDalDB("pokemon", pkm) );
 
-                    if(allenatore.squadra.length == 2) {
-                        allenatore.indexSelectedPkm = 1;
-                        allenatore.indexActivePkm = 1;
-                    }
+                if(allenatore.squadra.length == 2) {
+                    allenatore.indexSelectedPkm = 1;
+                    allenatore.indexActivePkm = 1;
                 }
             },
 
@@ -530,6 +525,7 @@ window.addEventListener("load", function() {
 
     mioVue.avversario.username = "Blue";
 
+    /*
     mioVue.aggiungiPkm(3, mioVue.avversario);
     mioVue.aggiungiMossa(28, mioVue.primoPkmAvv);
     mioVue.aggiungiMossa(13, mioVue.primoPkmAvv);
@@ -565,4 +561,5 @@ window.addEventListener("load", function() {
     mioVue.aggiungiMossa(13, mioVue.sestoPkmAvv);
     mioVue.aggiungiMossa(7, mioVue.sestoPkmAvv);
     mioVue.aggiungiMossa(40, mioVue.sestoPkmAvv);
+    */
 });
