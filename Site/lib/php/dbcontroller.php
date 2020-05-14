@@ -298,6 +298,7 @@
 
         /**
          * Gets all the pokemons in the database that belong to an specific type 
+         * @param string $type type name
          * @return  array(
          *              array(
          *                   string => id = int, 
@@ -321,6 +322,7 @@
 
         /**
          * Gets all the mosse in the database that belong to an specific type
+         * @param string $type type name
          * @return  array(   
          *              array(
          *                   string => id = int, 
@@ -341,7 +343,7 @@
 
         /**
          * Search the entire db for an specific name 
-         * @param int $id Integer that identifies the pokemon
+         * @param string $name name that is being search
          * @return  array(   
          *              array(
          *                   string => tab = int, 1 = pokemon, 2 = mossa, 3 = tipo
