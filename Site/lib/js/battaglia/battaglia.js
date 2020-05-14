@@ -13,17 +13,26 @@ class Battaglia {
     constructor(mioVue) {
         this._mioVue = mioVue;
 
-        /*
         if(mioVue.avversario.username == "CPU") {
-            _cpu = new Cpu();
+            this._cpu = new Cpu();
+            
+            //testing
+            console.log(this._cpu.squadra);
+
+            /*
+                this.mioVue.bcpc.startCPU({
+                    "utente": "CPU",
+                    "squadra": this._cpu.squadra
+                });
+            */
         }
         else this._cpu = undefined;
-        */
     }
 
 
     //getter
     get mioVue() { return this._mioVue; }
+    get cpu() { return this._cpu; }
 
 
     //funzione per mettere in pausa il flusso di una funzione per non fargli fare tutto assieme
