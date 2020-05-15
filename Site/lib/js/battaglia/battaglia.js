@@ -18,6 +18,9 @@ class Battaglia {
             this._cpu = new Cpu();
             
             //testing
+            console.log(this._cpu.squadra);
+
+            /*
             battVue.aggiungiPkm(this._cpu.squadra[0].id, this._battVue.avversario);
             battVue.aggiungiMossa(this._cpu.squadra[0].mosse[0], this._battVue.primoPkmAvv);
             battVue.aggiungiMossa(this._cpu.squadra[0].mosse[1], this._battVue.primoPkmAvv);
@@ -53,6 +56,7 @@ class Battaglia {
             battVue.aggiungiMossa(this._cpu.squadra[5].mosse[1], this._battVue.sestoPkmAvv);
             battVue.aggiungiMossa(this._cpu.squadra[5].mosse[2], this._battVue.sestoPkmAvv);
             battVue.aggiungiMossa(this._cpu.squadra[5].mosse[3], this._battVue.sestoPkmAvv);
+            */
 
             /*
                 this.battVue.bcpc.startCPU({
@@ -133,6 +137,18 @@ class Battaglia {
 
             await this.sleep(5000);
 
+            //DA MODIFICARE PER USARE BCPController
+            //caso in cui l'avversario è la CPU
+            if(this.battVue.avversario.username == "CPU") {
+                this.cpu.attivoEsausto();
+                var msgCPU = this.cpu.mandaSwitchCPU();
+
+                //testing
+                console.log(msgCPU);
+
+                //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+            }
+
             this.scriviTestoBattaglia("In attesa dell'azione di " + this.battVue.avversario.username + "...", 1);
             this.battVue.mandaAttesa();
         }
@@ -177,12 +193,34 @@ class Battaglia {
 
                 await this.sleep(5000);
 
+                //DA MODIFICARE PER USARE BCPController
+                //caso in cui l'avversario è la CPU
+                if(this.battVue.avversario.username == "CPU") {
+                    var msgCPU = this.cpu.mandaAttesaCPU();
+
+                    //testing
+                    console.log(msgCPU);
+
+                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                }
+
                 this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
                 this.battVue.switchForzato();
             }
 
             //caso in cui anche protagonista è sopravvissuto
             else {  //primaAzione[1] == "" (stringa vuota)
+                //DA MODIFICARE PER USARE BCPController
+                //caso in cui l'avversario è la CPU
+                if(this.battVue.avversario.username == "CPU") {
+                    var msgCPU = this.cpu.mandaAzioneCPU();
+
+                    //testing
+                    console.log(msgCPU);
+
+                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                }
+
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
                 this.battVue.attivaTutto();
             }
@@ -231,6 +269,17 @@ class Battaglia {
 
             await this.sleep(5000);
 
+            //DA MODIFICARE PER USARE BCPController
+            //caso in cui l'avversario è la CPU
+            if(this.battVue.avversario.username == "CPU") {
+                var msgCPU = this.cpu.mandaAttesaCPU();
+
+                //testing
+                console.log(msgCPU);
+
+                //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+            }
+
             this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
             this.battVue.switchForzato();
         }
@@ -275,12 +324,35 @@ class Battaglia {
 
                 await this.sleep(5000);
 
+                //DA MODIFICARE PER USARE BCPController
+                //caso in cui l'avversario è la CPU
+                if(this.battVue.avversario.username == "CPU") {
+                    this.cpu.attivoEsausto();
+                    var msgCPU = this.cpu.mandaSwitchCPU();
+
+                    //testing
+                    console.log(msgCPU);
+
+                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                }
+
                 this.scriviTestoBattaglia("In attesa dell'azione di " + this.battVue.avversario.username + "...", 1);
                 this.battVue.mandaAttesa();
             }
 
             //caso in cui anche avversario è sopravvissuto
             else {  //primaAzione[1] == "" (stringa vuota)
+                //DA MODIFICARE PER USARE BCPController
+                //caso in cui l'avversario è la CPU
+                if(this.battVue.avversario.username == "CPU") {
+                    var msgCPU = this.cpu.mandaAzioneCPU();
+
+                    //testing
+                    console.log(msgCPU);
+
+                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                }
+
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
                 this.battVue.attivaTutto();
             }
@@ -304,17 +376,31 @@ class Battaglia {
 
             await this.sleep(5500);
 
+            //DA MODIFICARE PER USARE BCPController
+            //caso in cui l'avversario è la CPU
+            if(this.battVue.avversario.username == "CPU") {
+                var msgCPU = this.cpu.mandaAzioneCPU();
+
+                //testing
+                console.log(msgCPU);
+
+                //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+            }
+
             this.scriviTestoBattaglia("Scegli un'azione... ", 0);
             this.battVue.attivaTutto();
 
             return;
         }
-        else {
+
+        //gestisco caso in cui switch non è forzato
+        if(secondaAzione[0] != "attesa") {
             this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato è ritirato dal campo. ", 0);
             this.battVue.animazioneRitiro(this.battVue.protagonista, "Prt");
 
             await this.sleep(5500);
         }
+        else this.scriviTestoBattaglia("", 0);
 
         this.battVue.cambiaActivePkm(obj_batt.primo.valore, this.battVue.protagonista);
         this.battVue.animazioneSwitch(this.battVue.protagonista, "Prt");
@@ -347,12 +433,34 @@ class Battaglia {
 
                 await this.sleep(5000);
 
+                //DA MODIFICARE PER USARE BCPController
+                //caso in cui l'avversario è la CPU
+                if(this.battVue.avversario.username == "CPU") {
+                    var msgCPU = this.cpu.mandaAttesaCPU();
+
+                    //testing
+                    console.log(msgCPU);
+
+                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                }
+
                 this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
                 this.battVue.switchForzato();
             }
 
             //caso in cui il pokemon che protagonista aveva appena mandato è ancora vivo
             else {  //primaAzione[1] == ""
+                //DA MODIFICARE PER USARE BCPController
+                //caso in cui l'avversario è la CPU
+                if(this.battVue.avversario.username == "CPU") {
+                    var msgCPU = this.cpu.mandaAzioneCPU();
+
+                    //testing
+                    console.log(msgCPU);
+
+                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                }
+
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
                 this.battVue.attivaTutto();
             }
@@ -375,6 +483,18 @@ class Battaglia {
         }
 
         //sia in caso di switch che in caso di attesa da parte dell'avversario
+
+        //DA MODIFICARE PER USARE BCPController
+        //caso in cui l'avversario è la CPU
+        if(this.battVue.avversario.username == "CPU") {
+            var msgCPU = this.cpu.mandaAzioneCPU();
+
+            //testing
+            console.log(msgCPU);
+
+            //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+        }
+
         this.scriviTestoBattaglia("Scegli un'azione... ", 0);
         this.battVue.attivaTutto();
     }
@@ -396,17 +516,31 @@ class Battaglia {
 
             await this.sleep(5500);
 
+            //DA MODIFICARE PER USARE BCPController
+            //caso in cui l'avversario è la CPU
+            if(this.battVue.avversario.username == "CPU") {
+                var msgCPU = this.cpu.mandaAzioneCPU();
+
+                //testing
+                console.log(msgCPU);
+
+                //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+            }
+
             this.scriviTestoBattaglia("Scegli un'azione... ", 0);
             this.battVue.attivaTutto();
 
             return;
         }
-        else {
+
+        //gestisco caso in cui switch non è forzato
+        if(secondaAzione[0] != "attesa") {
             this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario è ritirato dal campo. ", 0);
             this.battVue.animazioneRitiro(this.battVue.avversario, "Avv");
 
             await this.sleep(5500);
         }
+        else this.scriviTestoBattaglia("", 0);
 
         this.battVue.cambiaActivePkm(obj_batt.primo.valore, this.battVue.avversario);
         this.battVue.animazioneSwitch(this.battVue.avversario, "Avv");
@@ -439,12 +573,35 @@ class Battaglia {
 
                 await this.sleep(5000);
 
+                //DA MODIFICARE PER USARE BCPController
+                //caso in cui l'avversario è la CPU
+                if(this.battVue.avversario.username == "CPU") {
+                    this.cpu.attivoEsausto();
+                    var msgCPU = this.cpu.mandaSwitchCPU();
+
+                    //testing
+                    console.log(msgCPU);
+
+                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                }
+
                 this.scriviTestoBattaglia("In attesa dell'azione di " + this.battVue.avversario.username + "...", 1);
                 this.battVue.mandaAttesa();
             }
 
             //caso in cui il pokemon che avversario aveva appena mandato è ancora vivo
             else {  //primaAzione[1] == ""
+                //DA MODIFICARE PER USARE BCPController
+                //caso in cui l'avversario è la CPU
+                if(this.battVue.avversario.username == "CPU") {
+                    var msgCPU = this.cpu.mandaAzioneCPU();
+
+                    //testing
+                    console.log(msgCPU);
+
+                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                }
+
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
                 this.battVue.attivaTutto();
             }
@@ -467,6 +624,18 @@ class Battaglia {
         }
 
         //sia in caso di switch che in caso di attesa da parte del protagonista
+
+        //DA MODIFICARE PER USARE BCPController
+        //caso in cui l'avversario è la CPU
+        if(this.battVue.avversario.username == "CPU") {
+            var msgCPU = this.cpu.mandaAzioneCPU();
+
+            //testing
+            console.log(msgCPU);
+
+            //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+        }
+
         this.scriviTestoBattaglia("Scegli un'azione... ", 0);
         this.battVue.attivaTutto();
     }
