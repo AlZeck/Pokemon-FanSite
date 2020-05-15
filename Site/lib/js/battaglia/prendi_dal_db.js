@@ -1,4 +1,4 @@
-//funzione per prendere dal DB un pokemon o una mossa (specificato con stringa omonima in parametro "cosa") tramite loro id
+//funzione per prendere dal DB un pokemon o una mossa o il moveset di un pokemon (specificato con stringa omonima in parametro "cosa") tramite loro id
 
 function prendiDalDB(cosa, id) {
     var ret;
@@ -27,7 +27,8 @@ function prendiDalDB(cosa, id) {
                     mosse: []
                 };
             }
-            else {
+
+            else if(cosa == "mossa") {
                 ret = {
                     id: parseInt(response.id),
                     nome: response.nome,
@@ -36,6 +37,17 @@ function prendiDalDB(cosa, id) {
                     precisione: parseInt(response.precisione),
                     categoria: response.categoria
                 };
+            }
+
+            else {
+                var i;
+                for(i=0; i<response.length; i++) {
+                    response[i].id = parseInt(response[i].id);
+                    response[i].potenza = parseInt(response[i].potenza);
+                    response[i].precisione = parseInt(response[i].precisione);
+                }
+
+                ret = response;
             }
         }
     });

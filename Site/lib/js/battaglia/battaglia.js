@@ -1,7 +1,7 @@
 //classe per l'oggetto Battaglia
 class Battaglia {
     /*  PARAMETRI
-        _mioVue : oggetto Vue con element mioVue
+        _battVue : oggetto Vue con element battVue
 
         _cpu    : oggetto Cpu
     */
@@ -10,17 +10,52 @@ class Battaglia {
     //costruttore (prende l'oggetto Vue già riempito, ovvero con gli username e anche la squadra completa del protagonista e anche l'oggetto BCPController
     //ALTERNATIVAMENTE si può fare costruttore che passa gli id di squadra e mosse assieme agli username e BCPController e crea il vue qui...
     //inoltre se si combatte contro una CPU la inizializza
-    constructor(mioVue) {
-        this._mioVue = mioVue;
+    constructor(battVue) {
+        this._battVue = battVue;
 
-        if(mioVue.avversario.username == "CPU") {
+        //DA MODIFICARE PER USARE BCPController di battVue
+        if(battVue.avversario.username == "CPU") {
             this._cpu = new Cpu();
             
             //testing
-            console.log(this._cpu.squadra);
+            battVue.aggiungiPkm(this._cpu.squadra[0].id, this._battVue.avversario);
+            battVue.aggiungiMossa(this._cpu.squadra[0].mosse[0], this._battVue.primoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[0].mosse[1], this._battVue.primoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[0].mosse[2], this._battVue.primoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[0].mosse[3], this._battVue.primoPkmAvv);
+        
+            battVue.aggiungiPkm(this._cpu.squadra[1].id, this._battVue.avversario);
+            battVue.aggiungiMossa(this._cpu.squadra[1].mosse[0], this._battVue.secondoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[1].mosse[1], this._battVue.secondoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[1].mosse[2], this._battVue.secondoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[1].mosse[3], this._battVue.secondoPkmAvv);
+        
+            battVue.aggiungiPkm(this._cpu.squadra[2].id, this._battVue.avversario);
+            battVue.aggiungiMossa(this._cpu.squadra[2].mosse[0], this._battVue.terzoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[2].mosse[1], this._battVue.terzoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[2].mosse[2], this._battVue.terzoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[2].mosse[3], this._battVue.terzoPkmAvv);
+        
+            battVue.aggiungiPkm(this._cpu.squadra[3].id, this._battVue.avversario);
+            battVue.aggiungiMossa(this._cpu.squadra[3].mosse[0], this._battVue.quartoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[3].mosse[1], this._battVue.quartoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[3].mosse[2], this._battVue.quartoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[3].mosse[3], this._battVue.quartoPkmAvv);
+        
+            battVue.aggiungiPkm(this._cpu.squadra[4].id, this._battVue.avversario);
+            battVue.aggiungiMossa(this._cpu.squadra[4].mosse[0], this._battVue.quintoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[4].mosse[1], this._battVue.quintoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[4].mosse[2], this._battVue.quintoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[4].mosse[3], this._battVue.quintoPkmAvv);
+        
+            battVue.aggiungiPkm(this._cpu.squadra[5].id, this._battVue.avversario);
+            battVue.aggiungiMossa(this._cpu.squadra[5].mosse[0], this._battVue.sestoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[5].mosse[1], this._battVue.sestoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[5].mosse[2], this._battVue.sestoPkmAvv);
+            battVue.aggiungiMossa(this._cpu.squadra[5].mosse[3], this._battVue.sestoPkmAvv);
 
             /*
-                this.mioVue.bcpc.startCPU({
+                this.battVue.bcpc.startCPU({
                     "utente": "CPU",
                     "squadra": this._cpu.squadra
                 });
@@ -31,7 +66,7 @@ class Battaglia {
 
 
     //getter
-    get mioVue() { return this._mioVue; }
+    get battVue() { return this._battVue; }
     get cpu() { return this._cpu; }
 
 
@@ -60,30 +95,30 @@ class Battaglia {
 
     //funzione per modularizzare gestione prima azione, da parte del protagonista e pari a mossa
     async gestisciMossaPrt(obj_batt, primaAzione) {
-        var mossa = this.mioVue.dammiMossa(obj_batt.primo.valore, this.mioVue.activePkmPrt);
+        var mossa = this.battVue.dammiMossa(obj_batt.primo.valore, this.battVue.activePkmPrt);
 
-        this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato usa " + mossa.nome + ". ", 0);
-        this.mioVue.animazioneBattaglia(mossa.tipo, "Prt", "Avv");
+        this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato usa " + mossa.nome + ". ", 0);
+        this.battVue.animazioneBattaglia(mossa.tipo, "Prt", "Avv");
 
         await this.sleep(5000);
              
         this.scriviTestoBattaglia(obj_batt.primo.comunicato, 1);
 
-        var nuoviPS = this.mioVue.activePkmAvv.ps - obj_batt.primo.danno;
+        var nuoviPS = this.battVue.activePkmAvv.ps - obj_batt.primo.danno;
         if(nuoviPS < 0) nuoviPS = 0;
-        this.mioVue.activePkmAvv.ps = nuoviPS;
-        this.mioVue.animazioneBarra(nuoviPS, this.mioVue.avversario, "Avv");
+        this.battVue.activePkmAvv.ps = nuoviPS;
+        this.battVue.animazioneBarra(nuoviPS, this.battVue.avversario, "Avv");
 
         await this.sleep(5000);
 
         //caso in cui protagonista ha vinto
         if(primaAzione[1] == "vinto") {
-            this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario è esausto! ", 0);
-            this.mioVue.animazioneRitiro(this.mioVue.avversario, "Avv");
+            this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario è esausto! ", 0);
+            this.battVue.animazioneRitiro(this.battVue.avversario, "Avv");
 
             await this.sleep(5000);
 
-            this.scriviTestoBattaglia(this.mioVue.avversario.username + " non ha più pokemon disponibili! Lo scontro è terminato!", 1);
+            this.scriviTestoBattaglia(this.battVue.avversario.username + " non ha più pokemon disponibili! Lo scontro è terminato!", 1);
 
             await this.sleep(13000);
 
@@ -93,37 +128,37 @@ class Battaglia {
 
         //caso in cui protagonista non ha vinto ma avversario esausto
         else if(primaAzione[1] == "attesa") {
-            this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario è esausto! ", 0);
-            this.mioVue.animazioneRitiro(this.mioVue.avversario, "Avv");
+            this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario è esausto! ", 0);
+            this.battVue.animazioneRitiro(this.battVue.avversario, "Avv");
 
             await this.sleep(5000);
 
-            this.scriviTestoBattaglia("In attesa dell'azione di " + this.mioVue.avversario.username + "...", 1);
-            this.mioVue.mandaAttesa();
+            this.scriviTestoBattaglia("In attesa dell'azione di " + this.battVue.avversario.username + "...", 1);
+            this.battVue.mandaAttesa();
         }
 
         //caso in cui avversario è sopravvissuto e usa la mossa (per forza)
         else {
-            var mossa = this.mioVue.dammiMossa(obj_batt.secondo.valore, this.mioVue.activePkmAvv);
+            var mossa = this.battVue.dammiMossa(obj_batt.secondo.valore, this.battVue.activePkmAvv);
 
-            this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario usa " + mossa.nome + ". ", 0);
-            this.mioVue.animazioneBattaglia(mossa.tipo, "Avv", "Prt");
+            this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario usa " + mossa.nome + ". ", 0);
+            this.battVue.animazioneBattaglia(mossa.tipo, "Avv", "Prt");
 
             await this.sleep(5000);
 
             this.scriviTestoBattaglia(obj_batt.secondo.comunicato, 1);
 
-            nuoviPS = this.mioVue.activePkmPrt.ps - obj_batt.secondo.danno;
+            nuoviPS = this.battVue.activePkmPrt.ps - obj_batt.secondo.danno;
             if(nuoviPS < 0) nuoviPS = 0;
-            this.mioVue.activePkmPrt.ps = nuoviPS;
-            this.mioVue.animazioneBarra(nuoviPS, this.mioVue.protagonista, "Prt");
+            this.battVue.activePkmPrt.ps = nuoviPS;
+            this.battVue.animazioneBarra(nuoviPS, this.battVue.protagonista, "Prt");
 
             await this.sleep(5000);
 
             //caso in cui protagonista ha perso
             if(primaAzione[1] == "perso") {
-                this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato è esausto! ", 0);
-                this.mioVue.animazioneRitiro(this.mioVue.protagonista, "Prt");
+                this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato è esausto! ", 0);
+                this.battVue.animazioneRitiro(this.battVue.protagonista, "Prt");
 
                 await this.sleep(5000);
 
@@ -137,19 +172,19 @@ class Battaglia {
 
             //caso in cui protagonista non ha perso ma è esausto
             else if(primaAzione[1] == "switch") {
-                this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato è esausto! ", 0);
-                this.mioVue.animazioneRitiro(this.mioVue.protagonista, "Prt");
+                this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato è esausto! ", 0);
+                this.battVue.animazioneRitiro(this.battVue.protagonista, "Prt");
 
                 await this.sleep(5000);
 
                 this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
-                this.mioVue.switchForzato();
+                this.battVue.switchForzato();
             }
 
             //caso in cui anche protagonista è sopravvissuto
             else {  //primaAzione[1] == "" (stringa vuota)
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
-                this.mioVue.attivaTutto();
+                this.battVue.attivaTutto();
             }
         }
 
@@ -158,26 +193,26 @@ class Battaglia {
 
     //funzione per modularizzare gestione prima azione, da parte dell'avversario e pari a mossa
     async gestisciMossaAvv(obj_batt, primaAzione) {
-        var mossa = this.mioVue.dammiMossa(obj_batt.primo.valore, this.mioVue.activePkmAvv);
+        var mossa = this.battVue.dammiMossa(obj_batt.primo.valore, this.battVue.activePkmAvv);
 
-        this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario usa " + mossa.nome + ". ", 0);
-        this.mioVue.animazioneBattaglia(mossa.tipo, "Avv", "Prt");
+        this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario usa " + mossa.nome + ". ", 0);
+        this.battVue.animazioneBattaglia(mossa.tipo, "Avv", "Prt");
 
         await this.sleep(5000);
 
         this.scriviTestoBattaglia(obj_batt.primo.comunicato, 1);
 
-        var nuoviPS = this.mioVue.activePkmPrt.ps - obj_batt.primo.danno;
+        var nuoviPS = this.battVue.activePkmPrt.ps - obj_batt.primo.danno;
         if(nuoviPS < 0) nuoviPS = 0;
-        this.mioVue.activePkmPrt.ps = nuoviPS;
-        this.mioVue.animazioneBarra(nuoviPS, this.mioVue.protagonista, "Prt");
+        this.battVue.activePkmPrt.ps = nuoviPS;
+        this.battVue.animazioneBarra(nuoviPS, this.battVue.protagonista, "Prt");
 
         await this.sleep(5000);
 
         //caso in cui avversario ha vinto
         if(primaAzione[1] == "vinto") {
-            this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato è esausto! ", 0);
-            this.mioVue.animazioneRitiro(this.mioVue.protagonista, "Prt");
+            this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato è esausto! ", 0);
+            this.battVue.animazioneRitiro(this.battVue.protagonista, "Prt");
 
             await this.sleep(5000);
 
@@ -191,41 +226,41 @@ class Battaglia {
 
         //caso in cui avversario non ha vinto ma protagonista esausto
         else if(primaAzione[1] == "attesa") {
-            this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato è esausto! ", 0);
-            this.mioVue.animazioneRitiro(this.mioVue.protagonista, "Prt");
+            this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato è esausto! ", 0);
+            this.battVue.animazioneRitiro(this.battVue.protagonista, "Prt");
 
             await this.sleep(5000);
 
             this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
-            this.mioVue.switchForzato();
+            this.battVue.switchForzato();
         }
 
         //caso in cui protagonista è sopravvissuto e usa la mossa (per forza)
         else {
-            var mossa = this.mioVue.dammiMossa(obj_batt.secondo.valore, this.mioVue.activePkmPrt);
+            var mossa = this.battVue.dammiMossa(obj_batt.secondo.valore, this.battVue.activePkmPrt);
 
-            this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato usa " + mossa.nome + ". ", 0);
-            this.mioVue.animazioneBattaglia(mossa.tipo, "Prt", "Avv");
+            this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato usa " + mossa.nome + ". ", 0);
+            this.battVue.animazioneBattaglia(mossa.tipo, "Prt", "Avv");
 
             await this.sleep(5000);
 
             this.scriviTestoBattaglia(obj_batt.secondo.comunicato, 1);
 
-            nuoviPS = this.mioVue.activePkmAvv.ps - obj_batt.secondo.danno;
+            nuoviPS = this.battVue.activePkmAvv.ps - obj_batt.secondo.danno;
             if(nuoviPS < 0) nuoviPS = 0;
-            this.mioVue.activePkmAvv.ps = nuoviPS;
-            this.mioVue.animazioneBarra(nuoviPS, this.mioVue.avversario, "Avv");
+            this.battVue.activePkmAvv.ps = nuoviPS;
+            this.battVue.animazioneBarra(nuoviPS, this.battVue.avversario, "Avv");
 
             await this.sleep(5000);
 
             //caso in cui avversario ha perso
             if(primaAzione[1] == "perso") {
-                this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario è esausto! ", 0);
-                this.mioVue.animazioneRitiro(this.mioVue.avversario, "Avv");
+                this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario è esausto! ", 0);
+                this.battVue.animazioneRitiro(this.battVue.avversario, "Avv");
 
                 await this.sleep(5000);
 
-                this.scriviTestoBattaglia(this.mioVue.avversario.username + " non ha più pokemon disponibili! Lo scontro è terminato!", 1);
+                this.scriviTestoBattaglia(this.battVue.avversario.username + " non ha più pokemon disponibili! Lo scontro è terminato!", 1);
 
                 await this.sleep(13000);
 
@@ -235,19 +270,19 @@ class Battaglia {
 
             //caso in cui avversario non ha perso ma è esausto
             else if(primaAzione[1] == "switch") {
-                this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario è esausto! ", 0);
-                this.mioVue.animazioneRitiro(this.mioVue.avversario, "Avv");
+                this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario è esausto! ", 0);
+                this.battVue.animazioneRitiro(this.battVue.avversario, "Avv");
 
                 await this.sleep(5000);
 
-                this.scriviTestoBattaglia("In attesa dell'azione di " + this.mioVue.avversario.username + "...", 1);
-                this.mioVue.mandaAttesa();
+                this.scriviTestoBattaglia("In attesa dell'azione di " + this.battVue.avversario.username + "...", 1);
+                this.battVue.mandaAttesa();
             }
 
             //caso in cui anche avversario è sopravvissuto
             else {  //primaAzione[1] == "" (stringa vuota)
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
-                this.mioVue.attivaTutto();
+                this.battVue.attivaTutto();
             }
         }
     }
@@ -256,70 +291,70 @@ class Battaglia {
     //funzione per modularizzare gestione prima azione, da parte del protagonista e pari a switch
     async gestisciSwitchPrt(obj_batt, primaAzione, secondaAzione) {
         //gestisco il caso del primo turno
-        if(this.mioVue.avversario.squadra.length == 1) {
-            this.mioVue.cambiaActivePkm(obj_batt.primo.valore, this.mioVue.protagonista);
-            this.mioVue.animazioneSwitch(this.mioVue.protagonista, "Prt");
-            this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato è mandato in campo.", 0);
+        if(this.battVue.avversario.squadra.length == 1) {
+            this.battVue.cambiaActivePkm(obj_batt.primo.valore, this.battVue.protagonista);
+            this.battVue.animazioneSwitch(this.battVue.protagonista, "Prt");
+            this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato è mandato in campo.", 0);
 
             await this.sleep(5500);
 
-            this.mioVue.cambiaActivePkm(obj_batt.secondo.valore, this.mioVue.avversario);
-            this.mioVue.animazioneSwitch(this.mioVue.avversario, "Avv");
-            this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario è mandato in campo.", 0);
+            this.battVue.cambiaActivePkm(obj_batt.secondo.valore, this.battVue.avversario);
+            this.battVue.animazioneSwitch(this.battVue.avversario, "Avv");
+            this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario è mandato in campo.", 0);
 
             await this.sleep(5500);
 
             this.scriviTestoBattaglia("Scegli un'azione... ", 0);
-            this.mioVue.attivaTutto();
+            this.battVue.attivaTutto();
 
             return;
         }
         else {
-            this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato è ritirato dal campo. ", 0);
-            this.mioVue.animazioneRitiro(this.mioVue.protagonista, "Prt");
+            this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato è ritirato dal campo. ", 0);
+            this.battVue.animazioneRitiro(this.battVue.protagonista, "Prt");
 
             await this.sleep(5500);
         }
 
-        this.mioVue.cambiaActivePkm(obj_batt.primo.valore, this.mioVue.protagonista);
-        this.mioVue.animazioneSwitch(this.mioVue.protagonista, "Prt");
-        this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato è mandato in campo.", 1);
+        this.battVue.cambiaActivePkm(obj_batt.primo.valore, this.battVue.protagonista);
+        this.battVue.animazioneSwitch(this.battVue.protagonista, "Prt");
+        this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato è mandato in campo.", 1);
 
         await this.sleep(5500);
 
         //caso in cui avversario usa una mossa
         if(secondaAzione[0] == "mossa") {
-            var mossa = this.mioVue.dammiMossa(obj_batt.secondo.valore, this.mioVue.activePkmAvv);
+            var mossa = this.battVue.dammiMossa(obj_batt.secondo.valore, this.battVue.activePkmAvv);
 
-            this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario usa " + mossa.nome + ". ", 0);
-            this.mioVue.animazioneBattaglia(mossa.tipo, "Avv", "Prt");
+            this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario usa " + mossa.nome + ". ", 0);
+            this.battVue.animazioneBattaglia(mossa.tipo, "Avv", "Prt");
 
             await this.sleep(5000);
 
             this.scriviTestoBattaglia(obj_batt.secondo.comunicato, 1);
 
-            var nuoviPS = this.mioVue.activePkmPrt.ps - obj_batt.secondo.danno;
+            var nuoviPS = this.battVue.activePkmPrt.ps - obj_batt.secondo.danno;
             if(nuoviPS < 0) nuoviPS = 0;
-            this.mioVue.activePkmPrt.ps = nuoviPS;
-            this.mioVue.animazioneBarra(nuoviPS, this.mioVue.protagonista, "Prt");
+            this.battVue.activePkmPrt.ps = nuoviPS;
+            this.battVue.animazioneBarra(nuoviPS, this.battVue.protagonista, "Prt");
 
             await this.sleep(5000);
 
             //caso in cui il pokemon che protagonista aveva appena mandato diventa esausto
             if(primaAzione[1] == "switch") {
-                this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato è esausto! ", 0);
-                this.mioVue.animazioneRitiro(this.mioVue.protagonista, "Prt");
+                this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato è esausto! ", 0);
+                this.battVue.animazioneRitiro(this.battVue.protagonista, "Prt");
 
                 await this.sleep(5000);
 
                 this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
-                this.mioVue.switchForzato();
+                this.battVue.switchForzato();
             }
 
             //caso in cui il pokemon che protagonista aveva appena mandato è ancora vivo
             else {  //primaAzione[1] == ""
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
-                this.mioVue.attivaTutto();
+                this.battVue.attivaTutto();
             }
 
             return;
@@ -327,91 +362,91 @@ class Battaglia {
 
         //caso in cui avversario fa uno switch
         else if(secondaAzione[0] == "switch") {
-            this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario è ritirato dal campo. ", 0);
-            this.mioVue.animazioneRitiro(this.mioVue.avversario, "Avv");
+            this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario è ritirato dal campo. ", 0);
+            this.battVue.animazioneRitiro(this.battVue.avversario, "Avv");
 
             await this.sleep(5500);
 
-            this.mioVue.cambiaActivePkm(obj_batt.secondo.valore, this.mioVue.avversario);
-            this.mioVue.animazioneSwitch(this.mioVue.avversario, "Avv");
-            this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario è mandato in campo.", 1);
+            this.battVue.cambiaActivePkm(obj_batt.secondo.valore, this.battVue.avversario);
+            this.battVue.animazioneSwitch(this.battVue.avversario, "Avv");
+            this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario è mandato in campo.", 1);
 
             await this.sleep(5500);
         }
 
         //sia in caso di switch che in caso di attesa da parte dell'avversario
         this.scriviTestoBattaglia("Scegli un'azione... ", 0);
-        this.mioVue.attivaTutto();
+        this.battVue.attivaTutto();
     }
 
 
     //funzione per modularizzare gestione prima azione, da parte dell'avversario e pari a switch
     async gestisciSwitchAvv(obj_batt, primaAzione, secondaAzione) {
         //gestisco il caso del primo turno
-        if(this.mioVue.avversario.squadra.length == 1) {
-            this.mioVue.cambiaActivePkm(obj_batt.primo.valore, this.mioVue.avversario);
-            this.mioVue.animazioneSwitch(this.mioVue.avversario, "Avv");
-            this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario è mandato in campo.", 0);
+        if(this.battVue.avversario.squadra.length == 1) {
+            this.battVue.cambiaActivePkm(obj_batt.primo.valore, this.battVue.avversario);
+            this.battVue.animazioneSwitch(this.battVue.avversario, "Avv");
+            this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario è mandato in campo.", 0);
 
             await this.sleep(5500);
 
-            this.mioVue.cambiaActivePkm(obj_batt.secondo.valore, this.mioVue.protagonista);
-            this.mioVue.animazioneSwitch(this.mioVue.protagonista, "Prt");
-            this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato è mandato in campo.", 0);
+            this.battVue.cambiaActivePkm(obj_batt.secondo.valore, this.battVue.protagonista);
+            this.battVue.animazioneSwitch(this.battVue.protagonista, "Prt");
+            this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato è mandato in campo.", 0);
 
             await this.sleep(5500);
 
             this.scriviTestoBattaglia("Scegli un'azione... ", 0);
-            this.mioVue.attivaTutto();
+            this.battVue.attivaTutto();
 
             return;
         }
         else {
-            this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario è ritirato dal campo. ", 0);
-            this.mioVue.animazioneRitiro(this.mioVue.avversario, "Avv");
+            this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario è ritirato dal campo. ", 0);
+            this.battVue.animazioneRitiro(this.battVue.avversario, "Avv");
 
             await this.sleep(5500);
         }
 
-        this.mioVue.cambiaActivePkm(obj_batt.primo.valore, this.mioVue.avversario);
-        this.mioVue.animazioneSwitch(this.mioVue.avversario, "Avv");
-        this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario è mandato in campo.", 1);
+        this.battVue.cambiaActivePkm(obj_batt.primo.valore, this.battVue.avversario);
+        this.battVue.animazioneSwitch(this.battVue.avversario, "Avv");
+        this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario è mandato in campo.", 1);
 
         await this.sleep(5500);
 
         //caso in cui protagonista usa una mossa
         if(secondaAzione[0] == "mossa") {
-            var mossa = this.mioVue.dammiMossa(obj_batt.secondo.valore, this.mioVue.activePkmPrt);
+            var mossa = this.battVue.dammiMossa(obj_batt.secondo.valore, this.battVue.activePkmPrt);
 
-            this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato usa " + mossa.nome + ". ", 0);
-            this.mioVue.animazioneBattaglia(mossa.tipo, "Prt", "Avv");
+            this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato usa " + mossa.nome + ". ", 0);
+            this.battVue.animazioneBattaglia(mossa.tipo, "Prt", "Avv");
 
             await this.sleep(5000);
 
             this.scriviTestoBattaglia(obj_batt.secondo.comunicato, 1);
 
-            var nuoviPS = this.mioVue.activePkmAvv.ps - obj_batt.secondo.danno;
+            var nuoviPS = this.battVue.activePkmAvv.ps - obj_batt.secondo.danno;
             if(nuoviPS < 0) nuoviPS = 0;
-            this.mioVue.activePkmAvv.ps = nuoviPS;
-            this.mioVue.animazioneBarra(nuoviPS, this.mioVue.avversario, "Avv");
+            this.battVue.activePkmAvv.ps = nuoviPS;
+            this.battVue.animazioneBarra(nuoviPS, this.battVue.avversario, "Avv");
 
             await this.sleep(5000);
 
             //caso in cui il pokemon che avversario aveva appena mandato diventa esausto
             if(primaAzione[1] == "switch") {
-                this.scriviTestoBattaglia(this.mioVue.activePkmAvv.nome + " avversario è esausto! ", 0);
-                this.mioVue.animazioneRitiro(this.mioVue.avversario, "Avv");
+                this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario è esausto! ", 0);
+                this.battVue.animazioneRitiro(this.battVue.avversario, "Avv");
 
                 await this.sleep(5000);
 
-                this.scriviTestoBattaglia("In attesa dell'azione di " + this.mioVue.avversario.username + "...", 1);
-                this.mioVue.mandaAttesa();
+                this.scriviTestoBattaglia("In attesa dell'azione di " + this.battVue.avversario.username + "...", 1);
+                this.battVue.mandaAttesa();
             }
 
             //caso in cui il pokemon che avversario aveva appena mandato è ancora vivo
             else {  //primaAzione[1] == ""
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
-                this.mioVue.attivaTutto();
+                this.battVue.attivaTutto();
             }
 
             return;
@@ -419,21 +454,21 @@ class Battaglia {
 
         //caso in cui protagonista fa uno switch
         else if(secondaAzione[0] == "switch") {
-            this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato è ritirato dal campo. ", 0);
-            this.mioVue.animazioneRitiro(this.mioVue.protagonista, "Prt");
+            this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato è ritirato dal campo. ", 0);
+            this.battVue.animazioneRitiro(this.battVue.protagonista, "Prt");
 
             await this.sleep(5500);
 
-            this.mioVue.cambiaActivePkm(obj_batt.secondo.valore, this.mioVue.protagonista);
-            this.mioVue.animazioneSwitch(this.mioVue.protagonista, "Prt");
-            this.scriviTestoBattaglia(this.mioVue.activePkmPrt.nome + " alleato è mandato in campo.", 1);
+            this.battVue.cambiaActivePkm(obj_batt.secondo.valore, this.battVue.protagonista);
+            this.battVue.animazioneSwitch(this.battVue.protagonista, "Prt");
+            this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato è mandato in campo.", 1);
 
             await this.sleep(5500);
         }
 
         //sia in caso di switch che in caso di attesa da parte del protagonista
         this.scriviTestoBattaglia("Scegli un'azione... ", 0);
-        this.mioVue.attivaTutto();
+        this.battVue.attivaTutto();
     }
 
 
@@ -467,7 +502,7 @@ class Battaglia {
         var secondaAzione = obj_batt.secondo.azione.split("_");
 
         //il primo a muoversi è il protagonista
-        if(obj_batt.primo.utente == this.mioVue.protagonista.username) {
+        if(obj_batt.primo.utente == this.battVue.protagonista.username) {
             //caso in cui primo usa una mossa
             if(primaAzione[0] == "mossa") this.gestisciMossaPrt(obj_batt, primaAzione);
 
@@ -491,5 +526,4 @@ class Battaglia {
             else this.gestisciForfeit(false, secondaAzione);
         }
     }
-
 }

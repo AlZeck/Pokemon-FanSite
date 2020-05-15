@@ -1,5 +1,5 @@
 //variabile per poterlo usare al di fuori
-var mioVue;
+var battVue;
 
 //un oggetto pokemon di default
 var defaultPkm = {
@@ -26,9 +26,9 @@ var defaultPkm = {
 window.addEventListener("load", function() {
 
     //oggetto vue per le informazioni del gioco
-    mioVue = new Vue({
+    battVueObj = {
         //id dell'element associato
-        el: '#mioVue',
+        el: '#battVue',
 
         data: {
             //oggetto BCPController usato per la comunicazione col server
@@ -215,7 +215,6 @@ window.addEventListener("load", function() {
             },
 
 
-            //DA MODIFICARE PER USARE BCPController
             //metodo per costringere il giocatore a switchare, attivando soltanto lo switch (i bottoni erano stati già precedentemente disattivati)
             switchForzato() {
                 this.switchAttivo = true;
@@ -470,7 +469,7 @@ window.addEventListener("load", function() {
                 }, 100);
             },
         }
-    });
+    };
 
 
 
@@ -483,83 +482,85 @@ window.addEventListener("load", function() {
 
 
     //TESTING
-    mioVue.protagonista.username = "Red";
+    battVue = new Vue(battVueObj);
 
-    mioVue.aggiungiPkm(6, mioVue.protagonista);
-    mioVue.aggiungiMossa(10, mioVue.primoPkmPrt);
-    mioVue.aggiungiMossa(13, mioVue.primoPkmPrt);
-    mioVue.aggiungiMossa(7, mioVue.primoPkmPrt);
-    mioVue.aggiungiMossa(40, mioVue.primoPkmPrt);
+    battVue.protagonista.username = "Red";
 
-    mioVue.aggiungiPkm(5, mioVue.protagonista);
-    mioVue.aggiungiMossa(10, mioVue.secondoPkmPrt);
-    mioVue.aggiungiMossa(13, mioVue.secondoPkmPrt);
-    mioVue.aggiungiMossa(7, mioVue.secondoPkmPrt);
-    mioVue.aggiungiMossa(40, mioVue.secondoPkmPrt);
+    battVue.aggiungiPkm(6, battVue.protagonista);
+    battVue.aggiungiMossa(10, battVue.primoPkmPrt);
+    battVue.aggiungiMossa(13, battVue.primoPkmPrt);
+    battVue.aggiungiMossa(7, battVue.primoPkmPrt);
+    battVue.aggiungiMossa(40, battVue.primoPkmPrt);
 
-    mioVue.aggiungiPkm(4, mioVue.protagonista);
-    mioVue.aggiungiMossa(10, mioVue.terzoPkmPrt);
-    mioVue.aggiungiMossa(13, mioVue.terzoPkmPrt);
-    mioVue.aggiungiMossa(7, mioVue.terzoPkmPrt);
-    mioVue.aggiungiMossa(40, mioVue.terzoPkmPrt);
+    battVue.aggiungiPkm(5, battVue.protagonista);
+    battVue.aggiungiMossa(10, battVue.secondoPkmPrt);
+    battVue.aggiungiMossa(13, battVue.secondoPkmPrt);
+    battVue.aggiungiMossa(7, battVue.secondoPkmPrt);
+    battVue.aggiungiMossa(40, battVue.secondoPkmPrt);
+
+    battVue.aggiungiPkm(4, battVue.protagonista);
+    battVue.aggiungiMossa(10, battVue.terzoPkmPrt);
+    battVue.aggiungiMossa(13, battVue.terzoPkmPrt);
+    battVue.aggiungiMossa(7, battVue.terzoPkmPrt);
+    battVue.aggiungiMossa(40, battVue.terzoPkmPrt);
     
-    mioVue.aggiungiPkm(3, mioVue.protagonista);
-    mioVue.aggiungiMossa(28, mioVue.quartoPkmPrt);
-    mioVue.aggiungiMossa(13, mioVue.quartoPkmPrt);
-    mioVue.aggiungiMossa(19, mioVue.quartoPkmPrt);
-    mioVue.aggiungiMossa(58, mioVue.quartoPkmPrt);
+    battVue.aggiungiPkm(3, battVue.protagonista);
+    battVue.aggiungiMossa(28, battVue.quartoPkmPrt);
+    battVue.aggiungiMossa(13, battVue.quartoPkmPrt);
+    battVue.aggiungiMossa(19, battVue.quartoPkmPrt);
+    battVue.aggiungiMossa(58, battVue.quartoPkmPrt);
 
-    mioVue.aggiungiPkm(2, mioVue.protagonista);
-    mioVue.aggiungiMossa(28, mioVue.quintoPkmPrt);
-    mioVue.aggiungiMossa(13, mioVue.quintoPkmPrt);
-    mioVue.aggiungiMossa(19, mioVue.quintoPkmPrt);
-    mioVue.aggiungiMossa(58, mioVue.quintoPkmPrt);
+    battVue.aggiungiPkm(2, battVue.protagonista);
+    battVue.aggiungiMossa(28, battVue.quintoPkmPrt);
+    battVue.aggiungiMossa(13, battVue.quintoPkmPrt);
+    battVue.aggiungiMossa(19, battVue.quintoPkmPrt);
+    battVue.aggiungiMossa(58, battVue.quintoPkmPrt);
     
-    mioVue.aggiungiPkm(1, mioVue.protagonista);
-    mioVue.aggiungiMossa(28, mioVue.sestoPkmPrt);
-    mioVue.aggiungiMossa(13, mioVue.sestoPkmPrt);
-    mioVue.aggiungiMossa(19, mioVue.sestoPkmPrt);
-    mioVue.aggiungiMossa(58, mioVue.sestoPkmPrt);
+    battVue.aggiungiPkm(1, battVue.protagonista);
+    battVue.aggiungiMossa(28, battVue.sestoPkmPrt);
+    battVue.aggiungiMossa(13, battVue.sestoPkmPrt);
+    battVue.aggiungiMossa(19, battVue.sestoPkmPrt);
+    battVue.aggiungiMossa(58, battVue.sestoPkmPrt);
 
 
 
-    mioVue.avversario.username = "CPU";
+    battVue.avversario.username = "CPU";
 
     /*
-    mioVue.aggiungiPkm(3, mioVue.avversario);
-    mioVue.aggiungiMossa(28, mioVue.primoPkmAvv);
-    mioVue.aggiungiMossa(13, mioVue.primoPkmAvv);
-    mioVue.aggiungiMossa(19, mioVue.primoPkmAvv);
-    mioVue.aggiungiMossa(58, mioVue.primoPkmAvv);
+    battVue.aggiungiPkm(3, battVue.avversario);
+    battVue.aggiungiMossa(28, battVue.primoPkmAvv);
+    battVue.aggiungiMossa(13, battVue.primoPkmAvv);
+    battVue.aggiungiMossa(19, battVue.primoPkmAvv);
+    battVue.aggiungiMossa(58, battVue.primoPkmAvv);
 
-    mioVue.aggiungiPkm(2, mioVue.avversario);
-    mioVue.aggiungiMossa(28, mioVue.secondoPkmAvv);
-    mioVue.aggiungiMossa(13, mioVue.secondoPkmAvv);
-    mioVue.aggiungiMossa(19, mioVue.secondoPkmAvv);
-    mioVue.aggiungiMossa(58, mioVue.secondoPkmAvv);
+    battVue.aggiungiPkm(2, battVue.avversario);
+    battVue.aggiungiMossa(28, battVue.secondoPkmAvv);
+    battVue.aggiungiMossa(13, battVue.secondoPkmAvv);
+    battVue.aggiungiMossa(19, battVue.secondoPkmAvv);
+    battVue.aggiungiMossa(58, battVue.secondoPkmAvv);
 
-    mioVue.aggiungiPkm(1, mioVue.avversario);
-    mioVue.aggiungiMossa(28, mioVue.terzoPkmAvv);
-    mioVue.aggiungiMossa(13, mioVue.terzoPkmAvv);
-    mioVue.aggiungiMossa(19, mioVue.terzoPkmAvv);
-    mioVue.aggiungiMossa(58, mioVue.terzoPkmAvv);
+    battVue.aggiungiPkm(1, battVue.avversario);
+    battVue.aggiungiMossa(28, battVue.terzoPkmAvv);
+    battVue.aggiungiMossa(13, battVue.terzoPkmAvv);
+    battVue.aggiungiMossa(19, battVue.terzoPkmAvv);
+    battVue.aggiungiMossa(58, battVue.terzoPkmAvv);
 
-    mioVue.aggiungiPkm(6, mioVue.avversario);
-    mioVue.aggiungiMossa(10, mioVue.quartoPkmAvv);
-    mioVue.aggiungiMossa(13, mioVue.quartoPkmAvv);
-    mioVue.aggiungiMossa(7, mioVue.quartoPkmAvv);
-    mioVue.aggiungiMossa(40, mioVue.quartoPkmAvv);
+    battVue.aggiungiPkm(6, battVue.avversario);
+    battVue.aggiungiMossa(10, battVue.quartoPkmAvv);
+    battVue.aggiungiMossa(13, battVue.quartoPkmAvv);
+    battVue.aggiungiMossa(7, battVue.quartoPkmAvv);
+    battVue.aggiungiMossa(40, battVue.quartoPkmAvv);
 
-    mioVue.aggiungiPkm(5, mioVue.avversario);
-    mioVue.aggiungiMossa(10, mioVue.quintoPkmAvv);
-    mioVue.aggiungiMossa(13, mioVue.quintoPkmAvv);
-    mioVue.aggiungiMossa(7, mioVue.quintoPkmAvv);
-    mioVue.aggiungiMossa(40, mioVue.quintoPkmAvv);
+    battVue.aggiungiPkm(5, battVue.avversario);
+    battVue.aggiungiMossa(10, battVue.quintoPkmAvv);
+    battVue.aggiungiMossa(13, battVue.quintoPkmAvv);
+    battVue.aggiungiMossa(7, battVue.quintoPkmAvv);
+    battVue.aggiungiMossa(40, battVue.quintoPkmAvv);
 
-    mioVue.aggiungiPkm(4, mioVue.avversario);
-    mioVue.aggiungiMossa(10, mioVue.sestoPkmAvv);
-    mioVue.aggiungiMossa(13, mioVue.sestoPkmAvv);
-    mioVue.aggiungiMossa(7, mioVue.sestoPkmAvv);
-    mioVue.aggiungiMossa(40, mioVue.sestoPkmAvv);
+    battVue.aggiungiPkm(4, battVue.avversario);
+    battVue.aggiungiMossa(10, battVue.sestoPkmAvv);
+    battVue.aggiungiMossa(13, battVue.sestoPkmAvv);
+    battVue.aggiungiMossa(7, battVue.sestoPkmAvv);
+    battVue.aggiungiMossa(40, battVue.sestoPkmAvv);
     */
 });
