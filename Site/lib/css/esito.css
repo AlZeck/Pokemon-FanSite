@@ -1,53 +1,23 @@
+html,body{
+  height:100%;
+}
+
 body {
     width: 100%;
     height: 100%;
-    background-image: url(../../assets/battle/stadium.png);
+    background-image: url(../../battle/stadium.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-  }
-  
-  
-  .container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-radius: 5px;
-    background-color: rgba(255,255,255,0.7);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-  }
-  
-  .carousel-item img {
-    border-radius: 5px;
-  }
-  
-  .card{
-    border-radius: 5px;
-  }
+    backdrop-filter: blur(20px) brightness(0.5);
+}
 
-  a.button {
-    position: relative;
-    display: inline-block;
-    width: 10em;
-    height: 2.5em;
-    line-height: 2.5em;
-    vertical-align: middle;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    outline: 1px;
-    border: 2px solid rgb(43, 74, 246);
-    border-radius: 5px;
-    background: rgb(55, 106, 216);
-    }
-    
-    a.button:hover {
-      background: rgb(76, 87, 232);
-    }
+.container {
+  color: white;
+  background-color: transparent;
+}
 
-    a.button:active {
-    background: rgb(45, 2, 163);
-    }
+img {
+  border-radius: 5px;
+}

@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html>
-<?php
-include '../lib/php/dbcontroller.php';
-$con = DBController::getController();
-$lis = $con->getPokemonList();
-?>
 
 <head>
     <title>Esito-PokemonFan Site</title>
@@ -26,30 +21,24 @@ $lis = $con->getPokemonList();
 <body>
     <br>
     <div class="container">
-        <div class="carousel-inner">
-            <img src="assets/img/risultato/winning.png" class="d-block w-100" alt="vittoria">
-            <div class="carousel-caption d-none d-sm-inline-block">
-                <h3>CONGRATULAZIONI HAI VINTO LA BATTAGLIA!</h3>
-            </div>    
-        </div>
-        <div class="carousel-inner">
-            <img src="assets/img/risultato/losing.png" class="d-block w-100" alt="sconfitta">
-            <div class="carousel-caption d-none d-sm-inline-block">
-                <h3>PURTROPPO HAI PERSO LA BATTAGLIA!</h3>
-            </div>    
-        </div>
+        <?php 
+            if($_GET['risultato']=='vittoria')
+                echo '<img src="/assets/img/risultato/winning.png" class="d-block w-100" alt="vittoria">
+                    <h3>CONGRATULAZIONI HAI VINTO LA BATTAGLIA!</h3>';
 
-        <div class="button">
-            <a class="btn btn-primary btn-lg" href="" role="button">RIVINCITA</a>
-        </div >
-        <div class="button">
-            <a class="btn btn-primary btn-lg" href="" role="button">CAMBIA AVVERSARIO</a>
-        </div >
-        <div class="button">
-            <a class="btn btn-primary btn-lg" href="" role="button">CAMBIA SQUADRA</a>
-        </div >
+            else
+                echo '<img src="/assets/img/risultato/losing.jpeg" class="d-block w-100" alt="sconfitta">
+                    <h3>PURTROPPO HAI PERSO LA BATTAGLIA!</h3>'
+        ?>
 
-            
+        <a class="btn btn-primary btn-lg" href="" role="button">RIVINCITA</a>
+
+        <a class="btn btn-primary btn-lg" href="" role="button">CAMBIA AVVERSARIO</a>
+
+        <a class="btn btn-primary btn-lg" href="" role="button">CAMBIA SQUADRA</a>
+
+
+
 </body>
 
 </html>
