@@ -27,7 +27,7 @@
                     <h3>CONGRATULAZIONI HAI VINTO LA BATTAGLIA!</h3>';
 
             else
-                echo '<img src="/assets/img/risultato/losing.jpeg" class="d-block w-100" alt="sconfitta">
+                echo '<img src="/assets/img/risultato/losing.png" class="d-block w-100" alt="sconfitta">
                     <h3>PURTROPPO HAI PERSO LA BATTAGLIA!</h3>'
         ?>
 
