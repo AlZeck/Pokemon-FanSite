@@ -313,4 +313,14 @@ class User extends CPU {
             return FALSE;
         }
     }
+
+    function selectAction($action) {
+        $this->action = $action;
+        if ($this->adv->action != "") {
+            $msg = $this->battle->generaRisposta($this->action, $this->adv->action);
+            $this->sendPoolMessage('{ "type": "battle", "value" : ' . $msg . '}');
+            $this->action = "";
+            $this->adv->action = "";
+        }
+    }
 }
