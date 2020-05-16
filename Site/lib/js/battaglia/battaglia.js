@@ -44,7 +44,7 @@ class Battaglia {
             }
         }
 
-        if(flag == 0) document.getElementById("testoBattaglia").innerHTML = "";
+        if(flag == 0) $("#testoBattaglia").html("");
         typeWriter();
     }
 
@@ -97,6 +97,9 @@ class Battaglia {
             }
 
             this.scriviTestoBattaglia("In attesa dell'azione di " + this.battVue.avversario.username + "...", 1);
+
+            await this.sleep(4000);
+
             this.battVue.mandaAttesa();
         }
 
@@ -148,7 +151,7 @@ class Battaglia {
 
                 this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
 
-                await this.sleep(2000);
+                await this.sleep(3000);
 
                 this.battVue.switchForzato();
             }
@@ -163,7 +166,7 @@ class Battaglia {
 
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
                 
-                await this.sleep(1000);
+                await this.sleep(2000);
 
                 this.battVue.attivaTutto();
             }
@@ -220,7 +223,7 @@ class Battaglia {
 
             this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
                 
-            await this.sleep(2000);
+            await this.sleep(3000);
             
             this.battVue.switchForzato();
         }
@@ -273,6 +276,9 @@ class Battaglia {
                 }
 
                 this.scriviTestoBattaglia("In attesa dell'azione di " + this.battVue.avversario.username + "...", 1);
+
+                await this.sleep(4000);
+    
                 this.battVue.mandaAttesa();
             }
 
@@ -286,7 +292,7 @@ class Battaglia {
 
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
                 
-                await this.sleep(1000);
+                await this.sleep(2000);
 
                 this.battVue.attivaTutto();
             }
@@ -318,7 +324,7 @@ class Battaglia {
 
             this.scriviTestoBattaglia("Scegli un'azione... ", 0);
                 
-            await this.sleep(1000);
+            await this.sleep(2000);
 
             this.battVue.attivaTutto();
 
@@ -373,7 +379,7 @@ class Battaglia {
 
                 this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
                 
-                await this.sleep(2000);
+                await this.sleep(3000);
 
                 this.battVue.switchForzato();
             }
@@ -388,7 +394,7 @@ class Battaglia {
 
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
                 
-                await this.sleep(1000);
+                await this.sleep(2000);
 
                 this.battVue.attivaTutto();
             }
@@ -420,7 +426,7 @@ class Battaglia {
 
         this.scriviTestoBattaglia("Scegli un'azione... ", 0);
                 
-        await this.sleep(1000);
+        await this.sleep(2000);
 
         this.battVue.attivaTutto();
     }
@@ -450,7 +456,7 @@ class Battaglia {
 
             this.scriviTestoBattaglia("Scegli un'azione... ", 0);
                 
-            await this.sleep(1000);
+            await this.sleep(2000);
 
             this.battVue.attivaTutto();
 
@@ -505,6 +511,9 @@ class Battaglia {
                 }
 
                 this.scriviTestoBattaglia("In attesa dell'azione di " + this.battVue.avversario.username + "...", 1);
+
+                await this.sleep(4000);
+    
                 this.battVue.mandaAttesa();
             }
 
@@ -518,7 +527,7 @@ class Battaglia {
 
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
                 
-                await this.sleep(1000);
+                await this.sleep(2000);
 
                 this.battVue.attivaTutto();
             }
@@ -550,7 +559,7 @@ class Battaglia {
 
         this.scriviTestoBattaglia("Scegli un'azione... ", 0);
 
-        await this.sleep(1000);
+        await this.sleep(2000);
 
         this.battVue.attivaTutto();
     }
@@ -580,8 +589,6 @@ class Battaglia {
     gestisciBattaglia(mess_batt) {
         //ricavo l'oggetto json
         var obj_batt = JSON.parse(mess_batt);
-
-        console.log(obj_batt);
 
         //prendo le rispettive azioni
         var primaAzione = obj_batt.primo.azione.split("_");
