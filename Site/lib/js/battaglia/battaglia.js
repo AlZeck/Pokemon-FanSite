@@ -79,7 +79,7 @@ class Battaglia {
             await this.sleep(13000);
 
             //reindirizzo (senza possibilità di tornare indietro) sulla schermata di vittoria
-            window.location.replace("./vittoria.html");
+            window.location.replace("/battle/esito.php?risultato=vittoria");
         }
 
         //caso in cui protagonista non ha vinto ma avversario esausto
@@ -130,7 +130,7 @@ class Battaglia {
                 await this.sleep(13000);
 
                 //reindirizzo (senza possibilità di tornare indietro) sulla schermata di sconfitta
-                window.location.replace("./sconfitta.html");
+                window.location.replace("/battle/esito.php?risultato=sconfitta");
             }
 
             //caso in cui protagonista non ha perso ma è esausto
@@ -147,6 +147,9 @@ class Battaglia {
                 }
 
                 this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
+
+                await this.sleep(2000);
+
                 this.battVue.switchForzato();
             }
 
@@ -159,6 +162,9 @@ class Battaglia {
                 }
 
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
+                
+                await this.sleep(1000);
+
                 this.battVue.attivaTutto();
             }
         }
@@ -196,7 +202,7 @@ class Battaglia {
             await this.sleep(13000);
 
             //reindirizzo (senza possibilità di tornare indietro) sulla schermata di sconfitta
-            window.location.replace("./sconfitta.html");
+            window.location.replace("/battle/esito.php?risultato=sconfitta");
         }
 
         //caso in cui avversario non ha vinto ma protagonista esausto
@@ -213,6 +219,9 @@ class Battaglia {
             }
 
             this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
+                
+            await this.sleep(2000);
+            
             this.battVue.switchForzato();
         }
 
@@ -246,7 +255,7 @@ class Battaglia {
                 await this.sleep(13000);
 
                 //reindirizzo (senza possibilità di tornare indietro) sulla schermata di vittoria
-                window.location.replace("./vittoria.html");
+                window.location.replace("/battle/esito.php?risultato=vittoria");
             }
 
             //caso in cui avversario non ha perso ma è esausto
@@ -276,6 +285,9 @@ class Battaglia {
                 }
 
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
+                
+                await this.sleep(1000);
+
                 this.battVue.attivaTutto();
             }
         }
@@ -305,6 +317,9 @@ class Battaglia {
             }
 
             this.scriviTestoBattaglia("Scegli un'azione... ", 0);
+                
+            await this.sleep(1000);
+
             this.battVue.attivaTutto();
 
             return;
@@ -357,6 +372,9 @@ class Battaglia {
                 }
 
                 this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
+                
+                await this.sleep(2000);
+
                 this.battVue.switchForzato();
             }
 
@@ -369,6 +387,9 @@ class Battaglia {
                 }
 
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
+                
+                await this.sleep(1000);
+
                 this.battVue.attivaTutto();
             }
 
@@ -398,6 +419,9 @@ class Battaglia {
         }
 
         this.scriviTestoBattaglia("Scegli un'azione... ", 0);
+                
+        await this.sleep(1000);
+
         this.battVue.attivaTutto();
     }
 
@@ -425,6 +449,9 @@ class Battaglia {
             }
 
             this.scriviTestoBattaglia("Scegli un'azione... ", 0);
+                
+            await this.sleep(1000);
+
             this.battVue.attivaTutto();
 
             return;
@@ -490,6 +517,9 @@ class Battaglia {
                 }
 
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
+                
+                await this.sleep(1000);
+
                 this.battVue.attivaTutto();
             }
 
@@ -519,6 +549,9 @@ class Battaglia {
         }
 
         this.scriviTestoBattaglia("Scegli un'azione... ", 0);
+
+        await this.sleep(1000);
+
         this.battVue.attivaTutto();
     }
 
@@ -530,7 +563,7 @@ class Battaglia {
             this.scriviTestoBattaglia("Hai forfeittato! Hai perso lo scontro!", 0);
 
             //reindirizzo (senza possibilità di tornare indietro) sulla schermata di sconfitta dopo 10 secondi
-            setTimeout(function() { window.location.replace("./sconfitta.html") }, 10000);
+            setTimeout(function() { window.location.replace("/battle/esito.php?risultato=sconfitta") }, 10000);
         }
 
         //l'avversario ha forfeittato
@@ -538,7 +571,7 @@ class Battaglia {
             this.scriviTestoBattaglia("L'avversario ha forfeittato! Hai vinto lo scontro!", 0);
 
             //reindirizzo (senza possibilità di tornare indietro) sulla schermata di vittoria dopo 10 secondi
-            setTimeout(function() { window.location.replace("./vittoria.html") }, 10000);
+            setTimeout(function() { window.location.replace("/battle/esito.php?risultato=vittoria") }, 10000);
         }
     }
 

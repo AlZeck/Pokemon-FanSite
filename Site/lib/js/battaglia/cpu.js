@@ -43,8 +43,10 @@ class Cpu {
 
     //funzione per fare uno switch e restituire il json (che poi verrà gestito ed inviato dalla battaglia col bcpc del vue)
     mandaSwitchCPU() {
-        var randIdx = Math.floor(Math.random() * this.ancoraVivi.length);
-        var rand = this.ancoraVivi[randIdx];
+        do {
+            var randIdx = Math.floor(Math.random() * this.ancoraVivi.length);
+            var rand = this.ancoraVivi[randIdx];
+        } while(this.indexActivePkm == rand);
         this._indexActivePkm = rand;
 
         return {
