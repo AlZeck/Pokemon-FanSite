@@ -58,12 +58,12 @@ class Battaglia {
             battVue.aggiungiMossa(this._cpu.squadra[5].mosse[3], this._battVue.sestoPkmAvv);
             */
 
-            /*
+            
                 this.battVue.bcpc.startCPU({
                     "utente": "CPU",
                     "squadra": this._cpu.squadra
                 });
-            */
+            
         }
         else this._cpu = undefined;
     }
@@ -146,7 +146,7 @@ class Battaglia {
                 //testing
                 console.log(msgCPU);
 
-                //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
             }
 
             this.scriviTestoBattaglia("In attesa dell'azione di " + this.battVue.avversario.username + "...", 1);
@@ -201,7 +201,7 @@ class Battaglia {
                     //testing
                     console.log(msgCPU);
 
-                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                    this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
                 this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
@@ -218,7 +218,7 @@ class Battaglia {
                     //testing
                     console.log(msgCPU);
 
-                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                    this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
@@ -277,7 +277,7 @@ class Battaglia {
                 //testing
                 console.log(msgCPU);
 
-                //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
             }
 
             this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
@@ -333,7 +333,7 @@ class Battaglia {
                     //testing
                     console.log(msgCPU);
 
-                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                    this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
                 this.scriviTestoBattaglia("In attesa dell'azione di " + this.battVue.avversario.username + "...", 1);
@@ -350,7 +350,7 @@ class Battaglia {
                     //testing
                     console.log(msgCPU);
 
-                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                    this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
@@ -384,7 +384,7 @@ class Battaglia {
                 //testing
                 console.log(msgCPU);
 
-                //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
             }
 
             this.scriviTestoBattaglia("Scegli un'azione... ", 0);
@@ -441,7 +441,7 @@ class Battaglia {
                     //testing
                     console.log(msgCPU);
 
-                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                    this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
                 this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
@@ -458,7 +458,7 @@ class Battaglia {
                     //testing
                     console.log(msgCPU);
 
-                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                    this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
@@ -492,7 +492,7 @@ class Battaglia {
             //testing
             console.log(msgCPU);
 
-            //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+            this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
         }
 
         this.scriviTestoBattaglia("Scegli un'azione... ", 0);
@@ -524,7 +524,7 @@ class Battaglia {
                 //testing
                 console.log(msgCPU);
 
-                //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
             }
 
             this.scriviTestoBattaglia("Scegli un'azione... ", 0);
@@ -582,7 +582,7 @@ class Battaglia {
                     //testing
                     console.log(msgCPU);
 
-                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                    this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
                 this.scriviTestoBattaglia("In attesa dell'azione di " + this.battVue.avversario.username + "...", 1);
@@ -599,7 +599,7 @@ class Battaglia {
                     //testing
                     console.log(msgCPU);
 
-                    //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+                    this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
                 this.scriviTestoBattaglia("Scegli un'azione... ", 0);
@@ -633,7 +633,7 @@ class Battaglia {
             //testing
             console.log(msgCPU);
 
-            //this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
+            this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
         }
 
         this.scriviTestoBattaglia("Scegli un'azione... ", 0);
@@ -665,6 +665,8 @@ class Battaglia {
     gestisciBattaglia(mess_batt) {
         //ricavo l'oggetto json
         var obj_batt = JSON.parse(mess_batt);
+
+        console.log(obj_batt);
 
         //prendo le rispettive azioni
         var primaAzione = obj_batt.primo.azione.split("_");

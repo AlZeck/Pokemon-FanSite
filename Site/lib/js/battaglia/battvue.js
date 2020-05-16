@@ -229,6 +229,7 @@ window.addEventListener("load", function() {
                 this.disabilitaTutto();
                 document.getElementById("testoBattaglia").innerText = "Hai scelto una mossa. In attesa di risposta dal server...";
 
+                /*
                 //testing
                 var msg = {
                     "utente": this.protagonista.username,
@@ -236,14 +237,14 @@ window.addEventListener("load", function() {
                     "valore": e.target.value
                 };
                 console.log(msg);
-
-                /*
+                */
+                
                     this.bcpc.sendBattleMessage({
                         "utente": this.protagonista.username,
                         "azione": "mossa",
                         "valore": e.target.value
                     });
-                */
+                
             },
 
 
@@ -253,6 +254,7 @@ window.addEventListener("load", function() {
                 this.disabilitaTutto();
                 document.getElementById("testoBattaglia").innerText = "Hai scelto uno switch. In attesa di risposta dal server...";
 
+                /*
                 //testing
                 var msg = {
                     "utente": this.protagonista.username,
@@ -260,14 +262,14 @@ window.addEventListener("load", function() {
                     "valore": this.protagonista.squadra[this.protagonista.indexSelectedPkm].id
                 };
                 console.log(msg);
-
-                /*
+                */
+                
                     this.bcpc.sendBattleMessage({
                         "utente": this.protagonista.username,
                         "azione": "switch",
                         "valore": this.protagonista.squadra[this.protagonista.indexSelectedPkm].id
                     });
-                */
+                
             },
 
 
@@ -277,6 +279,7 @@ window.addEventListener("load", function() {
                 this.disabilitaTutto();
                 document.getElementById("testoBattaglia").innerText = "Hai scelto il forfeit. In attesa di risposta dal server...";
 
+                /*
                 //testing
                 var msg = {
                     "utente": this.protagonista.username,
@@ -284,20 +287,22 @@ window.addEventListener("load", function() {
                     "valore": 0
                 };
                 console.log(msg);
+                */
 
-                /*
+                
                     this.bcpc.sendBattleMessage({
                         "utente": this.protagonista.username,
                         "azione": "forfeit",
                         "valore": 0
                     });
-                */
+                
             },
 
 
             //DA MODIFICARE PER USARE BCPController
             //metodo per mandare al server un messaggio di "attesa" (conseguentemente non riattivo alcun pulsante)
             mandaAttesa() {
+                /*
                 //testing
                 var msg = {
                     "utente": this.protagonista.username,
@@ -305,14 +310,15 @@ window.addEventListener("load", function() {
                     "valore": 0
                 };
                 console.log(msg);
+                */
 
-                /*
+                
                     this.bcpc.sendBattleMessage({
                         "utente": this.protagonista.username,
                         "azione": "attesa",
                         "valore": 0
                     });
-                */
+                
             },
 
 
