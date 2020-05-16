@@ -30,13 +30,13 @@
                 echo '<img src="/assets/img/risultato/losing.png" class="d-block w-100" alt="sconfitta">
                     <h3>PURTROPPO HAI PERSO LA BATTAGLIA!</h3>'
         ?>
-
-        <a class="btn btn-primary btn-lg" href="" role="button">RIVINCITA</a>
-
-        <a class="btn btn-primary btn-lg" href="" role="button">CAMBIA AVVERSARIO</a>
-
-        <a class="btn btn-primary btn-lg" href="" role="button">CAMBIA SQUADRA</a>
-
+        <br>
+        <div>
+            <button class="btn btn-primary btn-lg" href="" role="button">RIVINCITA</button>
+            <button class="btn btn-primary btn-lg" href="" role="button">CAMBIA AVVERSARIO</button>    
+            <button class="btn btn-primary btn-lg" href="" role="button">CAMBIA SQUADRA</button>
+        </div>    
+    </div>
 
 
 </body>

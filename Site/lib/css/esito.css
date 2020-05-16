@@ -1,4 +1,4 @@
-html,body{
+html,body {
   height:100%;
 }
 
@@ -16,8 +16,14 @@ body {
 .container {
   color: white;
   background-color: transparent;
+  text-align: center;
 }
 
 img {
+  border-radius: 5px;
+}
+
+.btn-lg {
+  padding: .8rem 6rem;
   border-radius: 5px;
 }
