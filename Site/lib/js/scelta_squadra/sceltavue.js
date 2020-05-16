@@ -1,5 +1,5 @@
 //variabile per poterlo usare al di fuori
-var battVue;
+sceltaVue = new Vue(sceltaVueObj);
 
 //un oggetto pokemon di default
 var defaultPkm = {
@@ -15,20 +15,15 @@ var defaultPkm = {
     difs: 0,
     vel: 0, 
     mini_sprite: "/assets/pokemon/default_sprites/default_mini.png",
-    front_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
-    back_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
+    artwork: "",
     mosse: []
 };
 
 
-
-//per caricare l'oggetto vue con le sue informazioni al caricamento della pagina
-window.addEventListener("load", function() {
-
     //oggetto vue per le informazioni del gioco
-    battVueObj = {
+    var sceltaVueObj = {
         //id dell'element associato
-        el: '#battVue',
+        el: '#sceltaVue',
 
         data: {
             //oggetto BCPController usato per la comunicazione col server
@@ -226,8 +221,8 @@ window.addEventListener("load", function() {
                 if(! this.mosseAttive) return;  //controllo se posso inviare messaggio o meno
 
                 this.disabilitaTutto();
-                $("#testoBattaglia").html("Hai scelto una mossa. In attesa di risposta dal server...");
-
+                document.getElementById("testoBattaglia").innerText = "Hai scelto una mossa. In attesa di risposta dal server...";
+                
                 this.bcpc.sendBattleMessage({
                     "utente": this.protagonista.username,
                     "azione": "mossa",
@@ -239,8 +234,8 @@ window.addEventListener("load", function() {
             //metodo per mandare al server un messaggio di "switch" (conseguentemente disattivo pulsanti)
             mandaSwitch() {
                 this.disabilitaTutto();
-                $("#testoBattaglia").html("Hai scelto uno switch. In attesa di risposta dal server...");
-
+                document.getElementById("testoBattaglia").innerText = "Hai scelto uno switch. In attesa di risposta dal server...";
+                
                 this.bcpc.sendBattleMessage({
                     "utente": this.protagonista.username,
                     "azione": "switch",
@@ -252,7 +247,7 @@ window.addEventListener("load", function() {
             //metodo per mandare al server un messaggio di "forfeit" (conseguentemente disattivo pulsanti)
             mandaForfeit() {
                 this.disabilitaTutto();
-                $("#testoBattaglia").html("Hai scelto il forfeit. In attesa di risposta dal server...");
+                document.getElementById("testoBattaglia").innerText = "Hai scelto il forfeit. In attesa di risposta dal server...";
 
                 this.bcpc.sendBattleMessage({
                     "utente": this.protagonista.username,
@@ -426,97 +421,3 @@ window.addEventListener("load", function() {
             },
         }
     };
-
-
-
-    /*
-        ------------------------------------------------------------------------------------------
-        ------------------------------------------------------------------------------------------
-        ------------------------------------------------------------------------------------------
-    */
-
-
-
-    //TESTING
-    battVue = new Vue(battVueObj);
-
-    battVue.protagonista.username = "Red";
-
-    battVue.aggiungiPkm(6, battVue.protagonista);
-    battVue.aggiungiMossa(10, battVue.primoPkmPrt);
-    battVue.aggiungiMossa(13, battVue.primoPkmPrt);
-    battVue.aggiungiMossa(7, battVue.primoPkmPrt);
-    battVue.aggiungiMossa(40, battVue.primoPkmPrt);
-
-    battVue.aggiungiPkm(5, battVue.protagonista);
-    battVue.aggiungiMossa(10, battVue.secondoPkmPrt);
-    battVue.aggiungiMossa(13, battVue.secondoPkmPrt);
-    battVue.aggiungiMossa(7, battVue.secondoPkmPrt);
-    battVue.aggiungiMossa(40, battVue.secondoPkmPrt);
-
-    battVue.aggiungiPkm(4, battVue.protagonista);
-    battVue.aggiungiMossa(10, battVue.terzoPkmPrt);
-    battVue.aggiungiMossa(13, battVue.terzoPkmPrt);
-    battVue.aggiungiMossa(7, battVue.terzoPkmPrt);
-    battVue.aggiungiMossa(40, battVue.terzoPkmPrt);
-    
-    battVue.aggiungiPkm(3, battVue.protagonista);
-    battVue.aggiungiMossa(28, battVue.quartoPkmPrt);
-    battVue.aggiungiMossa(13, battVue.quartoPkmPrt);
-    battVue.aggiungiMossa(19, battVue.quartoPkmPrt);
-    battVue.aggiungiMossa(58, battVue.quartoPkmPrt);
-
-    battVue.aggiungiPkm(2, battVue.protagonista);
-    battVue.aggiungiMossa(28, battVue.quintoPkmPrt);
-    battVue.aggiungiMossa(13, battVue.quintoPkmPrt);
-    battVue.aggiungiMossa(19, battVue.quintoPkmPrt);
-    battVue.aggiungiMossa(58, battVue.quintoPkmPrt);
-    
-    battVue.aggiungiPkm(1, battVue.protagonista);
-    battVue.aggiungiMossa(28, battVue.sestoPkmPrt);
-    battVue.aggiungiMossa(13, battVue.sestoPkmPrt);
-    battVue.aggiungiMossa(19, battVue.sestoPkmPrt);
-    battVue.aggiungiMossa(58, battVue.sestoPkmPrt);
-
-
-
-    battVue.avversario.username = "CPU";
-
-    /*
-    battVue.aggiungiPkm(3, battVue.avversario);
-    battVue.aggiungiMossa(28, battVue.primoPkmAvv);
-    battVue.aggiungiMossa(13, battVue.primoPkmAvv);
-    battVue.aggiungiMossa(19, battVue.primoPkmAvv);
-    battVue.aggiungiMossa(58, battVue.primoPkmAvv);
-
-    battVue.aggiungiPkm(2, battVue.avversario);
-    battVue.aggiungiMossa(28, battVue.secondoPkmAvv);
-    battVue.aggiungiMossa(13, battVue.secondoPkmAvv);
-    battVue.aggiungiMossa(19, battVue.secondoPkmAvv);
-    battVue.aggiungiMossa(58, battVue.secondoPkmAvv);
-
-    battVue.aggiungiPkm(1, battVue.avversario);
-    battVue.aggiungiMossa(28, battVue.terzoPkmAvv);
-    battVue.aggiungiMossa(13, battVue.terzoPkmAvv);
-    battVue.aggiungiMossa(19, battVue.terzoPkmAvv);
-    battVue.aggiungiMossa(58, battVue.terzoPkmAvv);
-
-    battVue.aggiungiPkm(6, battVue.avversario);
-    battVue.aggiungiMossa(10, battVue.quartoPkmAvv);
-    battVue.aggiungiMossa(13, battVue.quartoPkmAvv);
-    battVue.aggiungiMossa(7, battVue.quartoPkmAvv);
-    battVue.aggiungiMossa(40, battVue.quartoPkmAvv);
-
-    battVue.aggiungiPkm(5, battVue.avversario);
-    battVue.aggiungiMossa(10, battVue.quintoPkmAvv);
-    battVue.aggiungiMossa(13, battVue.quintoPkmAvv);
-    battVue.aggiungiMossa(7, battVue.quintoPkmAvv);
-    battVue.aggiungiMossa(40, battVue.quintoPkmAvv);
-
-    battVue.aggiungiPkm(4, battVue.avversario);
-    battVue.aggiungiMossa(10, battVue.sestoPkmAvv);
-    battVue.aggiungiMossa(13, battVue.sestoPkmAvv);
-    battVue.aggiungiMossa(7, battVue.sestoPkmAvv);
-    battVue.aggiungiMossa(40, battVue.sestoPkmAvv);
-    */
-});

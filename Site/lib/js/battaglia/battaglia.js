@@ -44,7 +44,7 @@ class Battaglia {
             }
         }
 
-        if(flag == 0) document.getElementById("testoBattaglia").innerHTML = "";
+        if(flag == 0) $("#testoBattaglia").html("");
         typeWriter();
     }
 
@@ -589,8 +589,6 @@ class Battaglia {
     gestisciBattaglia(mess_batt) {
         //ricavo l'oggetto json
         var obj_batt = JSON.parse(mess_batt);
-
-        console.log(obj_batt);
 
         //prendo le rispettive azioni
         var primaAzione = obj_batt.primo.azione.split("_");
