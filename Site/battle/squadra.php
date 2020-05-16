@@ -1,19 +1,14 @@
 <?php
-if (!isset($_COOKIE['PHPSESSID']) || !isset($_COOKIE['user'])) {
-	echo "No session started";
-	die();
-}
-session_start();
-$user = $_COOKIE['user'];
+	if (!isset($_COOKIE['PHPSESSID']) || !isset($_COOKIE['user'])) {
+		include "index.html";
+		die();
+	}
+	session_start();
+	$user = $_COOKIE['user'];
 
-
-$team = ["mudkip", "charmander", "genesect", "giratina"];
-
-
-include '../lib/php/dbcontroller.php';
-$con = DBController::getController();
-$lis = $con->getPokemonList();
-
+	include '../lib/php/dbcontroller.php';
+	$con = DBController::getController();
+	$lis = $con->getPokemonList();
 ?>
 
 <!DOCTYPE html>
@@ -28,6 +23,8 @@ $lis = $con->getPokemonList();
 	<meta name="author" content="Juan Sebastian Arboleda Polo (1805920), Andrea Cerone (1770688), Matteo Di Stadio (1794111)">
 	<meta name="copyright" content="The Pokémon Company">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
@@ -55,23 +52,28 @@ $lis = $con->getPokemonList();
 			}
 		}
 	</script>
+
+	<script type="text/javascript" lang="javascript" src="/lib/js/battaglia/vue.min.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/scelta_squadra/sceltavue.js"></script>
 </head>
 
 <body>
+<span id="sceltaVue">
+
 	<nav class="navbar sticky-top navbar-expand-sm navbar-dark pokenavbar">
 		<div class="navbar-nav mr-auto border-right">
-			<button type="button" class="btn btn-danger mr-4 ml-2">Exit</button>
+			<button type="button" class="btn btn-danger mr-4 ml-2">Esci</button>
 		</div>
 		<div class="navbar-nav mx-auto">
-			<div class="nav-link active btn pokebtn"> <img src="/assets/pokemon/mini_sprite/<?php echo $team[0]; ?>.png"><?php echo $team[0]; ?> </div>
-			<div class="nav-link active btn pokebtn"> <img src="/assets/pokemon/mini_sprite/<?php echo $team[1]; ?>.png"><?php echo $team[1]; ?> </div>
-			<div class="nav-link active btn pokebtn"> <img src="/assets/pokemon/mini_sprite/<?php echo $team[2]; ?>.png"><?php echo $team[2]; ?> </div>
-			<div class="nav-link active btn pokebtn"> <img src="/assets/pokemon/mini_sprite/<?php echo $team[3]; ?>.png"><?php echo $team[3]; ?> </div>
-			<div class="nav-link active btn pokebtn"> </div>
-			<div class="nav-link active btn pokebtn"> </div>
+			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkm(1)"> <img v-bind:src="primoPkm.mini_sprite" alt="mini-sprite"> {{ primoPkm.nome }} </div>
+			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkm(2)"> <img v-bind:src="secondoPkm.mini_sprite" alt="mini-sprite"> {{ secondoPkm.nome }} </div>
+			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkm(3)"> <img v-bind:src="terzoPkm.mini_sprite" alt="mini-sprite"> {{ terzoPkm.nome }} </div>
+			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkm(4)"> <img v-bind:src="quartoPkm.mini_sprite" alt="mini-sprite"> {{ quartoPkm.nome }} </div>
+			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkm(5)"> <img v-bind:src="quintoPkm.mini_sprite" alt="mini-sprite"> {{ quintoPkm.nome }} </div>
+			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkm(6)"> <img v-bind:src="sestoPkm.mini_sprite" alt="mini-sprite"> {{ sestoPkm.nome }} </div>
 		</div>
 		<div class="navbar-nav ml-auto border-left">
-			<button type="button" class="btn btn-primary ml-4 mr-2">Random</button>
+			<button type="button" class="btn btn-primary ml-4 mr-2">Casuale</button>
 			<button type="button" class="btn btn-success ml-2 mr-2">Conferma</button>
 		</div>
 	</nav>
@@ -85,67 +87,137 @@ $lis = $con->getPokemonList();
 				<div id="pokelist" class="card-deck scroll pb-4">
 
 					<?php
-					foreach ($lis as $pokemon) {
+						foreach ($lis as $pokemon) {
 
-						echo    '<div class="mt-4">' .
-							'<div class="card">' .
-							'<div class="card-body">' .
-							'<h5 class="card-title"> <span class="number">#' . $pokemon["id"] . ' </span>'
-							. ucfirst($pokemon["nome"]) . '</h5>' .
-							'<img src="/assets/pokemon/artwork/' . $pokemon["nome"] . '.png" alt="' . $pokemon["nome"] . '">' .
-							'</div>' .
-							'</div>' .
-							'</div>';
-					}
-
-
+							echo    '<div class="mt-4">' .
+								'<div class="card">' .
+								'<div class="card-body">' .
+								'<h5 class="card-title"> <span class="number">#' . $pokemon["id"] . ' </span>'
+								. ucfirst($pokemon["nome"]) . '</h5>' .
+								'<img src="/assets/pokemon/artwork/' . $pokemon["nome"] . '.png" alt="' . $pokemon["nome"] . '">' .
+								'</div>' .
+								'</div>' .
+								'</div>';
+						}
 					?>
 
 				</div>
 			</div>
-			<div class="col-lg-4 pokeinfo">
 
-				<br>
-				<?php $pokemon = $lis[257]; ?>
+			<div id="selectedPkm" class="col-lg-4 scroll pokeinfo">
 				<div class="btn-toolbar justify-content-between" role="toolbar">
 					<div role="group">
-						<h3> <?php echo ucfirst($pokemon["nome"]); ?> </h3>
+						<img v-bind:src="selectedPkm.artwork" alt="artwork">
 					</div>
 
-					<div class="btn-group" role="group">
-						<?php
-						echo '<a class="btn btn-tipo ' . $pokemon['tipo1'] . '"' .
-							'href="/typedex/tipo.php?id=' . $pokemon['tipo1'] . '">'
-							. strtoupper($pokemon['tipo1']) . '</a>';
+					<div role="group">
+						<h3> {{ selectedPkm.nome }} </h3>
 
-						if ($pokemon['tipo2'] !== NULL) {
-							echo '<a class="btn btn-tipo ' . $pokemon['tipo2'] . '"' .
-								'href="/typedex/tipo.php?id=' . $pokemon['tipo2'] . '">'
-								. strtoupper($pokemon['tipo2']) . '</a>';
-						}
-						?>
+						<br>
+
+						<div class="btn-group">
+							<span class="btn btn-tipo" v-bind:class="selectedPkm.tipo1"> {{ selectedPkm.tipo1 }} </span>
+							<span v-if="selectedPkm.tipo2 != null" class="btn btn-tipo" v-bind:class="selectedPkm.tipo2"> {{ selectedPkm.tipo2 }} </span>
+						</div>
+
+						<br>
+
+						{{ selectedPkm.uber }}
+
+						<br>
+
+						<div class="card">
+							<div class="card-body card-stat">
+								<div class="row">
+									<div class="col-sm-2 stat-label">PS</div>
+									<div class="col">
+										<div class="progress justify-content-between">
+											<div class="progress-bar bar-stat-ps" role="progressbar"
+												v-bind:aria-valuenow="selectedPkm.ps" aria-valuemin="0"
+												v-bind:aria-valuemax="270"
+												:style="{ width: selectedPkm.ps/270*100 + '%'} ">
+												{{selectedPkm.ps}} </div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-2 stat-label">ATT</div>
+									<div class="col">
+										<div class="progress justify-content-between">
+											<div class="progress-bar bar-stat-att" role="progressbar"
+												v-bind:aria-valuenow="selectedPkm.att" aria-valuemin="0"
+												v-bind:aria-valuemax="270"
+												:style="{ width: selectedPkm.att/270*100 + '%' }">
+												{{selectedPkm.att}} </div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-2 stat-label">DIF</div>
+									<div class="col">
+										<div class="progress justify-content-between">
+											<div class="progress-bar bar-stat-dif" role="progressbar"
+												v-bind:aria-valuenow="selectedPkm.dif" aria-valuemin="0"
+												v-bind:aria-valuemax="270"
+												:style="{ width: selectedPkm.dif/270*100 + '%' }">
+												{{selectedPkm.dif}} </div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-2 stat-label">ATTS</div>
+									<div class="col">
+										<div class="progress justify-content-between">
+											<div class="progress-bar bar-stat-attsp" role="progressbar"
+												v-bind:aria-valuenow="selectedPkm.atts" aria-valuemin="0"
+												v-bind:aria-valuemax="270"
+												:style="{ width: selectedPkm.atts/270*100 + '%' }">
+												{{selectedPkm.atts}} </div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-2 stat-label">DIFS</div>
+									<div class="col">
+										<div class="progress justify-content-between">
+											<div class="progress-bar bar-stat-difsp" role="progressbar"
+												v-bind:aria-valuenow="selectedPkm.difs" aria-valuemin="0"
+												v-bind:aria-valuemax="270"
+												:style="{ width: selectedPkm.difs/270*100 + '%' }">
+												{{selectedPkm.difs}} </div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-2 stat-label">VEL</div>
+									<div class="col">
+										<div class="progress justify-content-between">
+											<div class="progress-bar bar-stat-vel" role="progressbar"
+												v-bind:aria-valuenow="selectedPkm.vel" aria-valuemin="0"
+												v-bind:aria-valuemax="270"
+												:style="{ width: selectedPkm.vel/270*100 + '%' }">
+												{{selectedPkm.vel}} </div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
+
 				<br>
-				<div class="card">
-					<div class="card-body card-stat">
-						<h3 class="card-title"> Statistiche </h3>
-						<?php
-						$stats = ["ps", "att", "dif", "attsp", "difsp", "vel"];
 
-						foreach ($stats as $stat) {
-							$val = $pokemon[$stat];
-							$per = ((int) $val) * 100 / 270;
-							echo ' <div class="row"><div class="col-sm-2 stat-label">' . strtoupper($stat) . '</div><div class="col">';
-							echo '<div class="progress justify-content-between"> ' .
-								'<div class="progress-bar bar-stat-' . $stat . '" role="progressbar" aria-valuenow="' . $per .
-								'" aria-valuemin="0" aria-valuemax="270" style="width:' . $per . '%;">' . $val . '</div></div></div></div>';
-							if ($stat != "vel") echo '<br>';
-						}
+				<!-- FARE CHE SE UNA MOSSA ANCORA NON PRESA C'È UN RIQUADRO DI DEFAULT -->
+				<button class="card card-body" v-for="m in selectedPkm.mosse" v-bind:value="m.id" v-bind:class="m.tipo" v-on:click="mandaMossa">
+					<h5 class="card-title">{{ m.nome }} </h5>
+					{{ m.tipo.toUpperCase() }} {{ m.categoria.toUpperCase() }} <br>
+					{{ m.potenza }} - {{ m.precisione }}
+                </button>
 
-						?>
-					</div>
-				</div>
+				<br>
+
+				<!-- QUI METTERE LISTA MOSSE DISPONIBILI -->
 			</div>
 		</div>
 	</div>
@@ -161,4 +233,5 @@ $lis = $con->getPokemonList();
 		</p>
 	</div> -->
 
+</span>
 </body>
