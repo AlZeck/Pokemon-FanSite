@@ -221,104 +221,54 @@ window.addEventListener("load", function() {
             },
 
 
-            //DA MODIFICARE PER USARE BCPController
             //metodo per mandare al server un messaggio di "mossa" (conseguentemente disattivo pulsanti)
             mandaMossa(e) {
                 if(! this.mosseAttive) return;  //controllo se posso inviare messaggio o meno
 
                 this.disabilitaTutto();
                 document.getElementById("testoBattaglia").innerText = "Hai scelto una mossa. In attesa di risposta dal server...";
-
-                /*
-                //testing
-                var msg = {
+                
+                this.bcpc.sendBattleMessage({
                     "utente": this.protagonista.username,
                     "azione": "mossa",
                     "valore": e.target.value
-                };
-                console.log(msg);
-                */
-                
-                    this.bcpc.sendBattleMessage({
-                        "utente": this.protagonista.username,
-                        "azione": "mossa",
-                        "valore": e.target.value
-                    });
-                
+                });                
             },
 
 
-            //DA MODIFICARE PER USARE BCPController
             //metodo per mandare al server un messaggio di "switch" (conseguentemente disattivo pulsanti)
             mandaSwitch() {
                 this.disabilitaTutto();
                 document.getElementById("testoBattaglia").innerText = "Hai scelto uno switch. In attesa di risposta dal server...";
-
-                /*
-                //testing
-                var msg = {
+                
+                this.bcpc.sendBattleMessage({
                     "utente": this.protagonista.username,
                     "azione": "switch",
                     "valore": this.protagonista.squadra[this.protagonista.indexSelectedPkm].id
-                };
-                console.log(msg);
-                */
-                
-                    this.bcpc.sendBattleMessage({
-                        "utente": this.protagonista.username,
-                        "azione": "switch",
-                        "valore": this.protagonista.squadra[this.protagonista.indexSelectedPkm].id
-                    });
-                
+                });                
             },
 
 
-            //DA MODIFICARE PER USARE BCPController
             //metodo per mandare al server un messaggio di "forfeit" (conseguentemente disattivo pulsanti)
             mandaForfeit() {
                 this.disabilitaTutto();
                 document.getElementById("testoBattaglia").innerText = "Hai scelto il forfeit. In attesa di risposta dal server...";
 
-                /*
-                //testing
-                var msg = {
+                this.bcpc.sendBattleMessage({
                     "utente": this.protagonista.username,
                     "azione": "forfeit",
                     "valore": 0
-                };
-                console.log(msg);
-                */
-
-                
-                    this.bcpc.sendBattleMessage({
-                        "utente": this.protagonista.username,
-                        "azione": "forfeit",
-                        "valore": 0
-                    });
-                
+                });
             },
 
 
-            //DA MODIFICARE PER USARE BCPController
             //metodo per mandare al server un messaggio di "attesa" (conseguentemente non riattivo alcun pulsante)
             mandaAttesa() {
-                /*
-                //testing
-                var msg = {
+                this.bcpc.sendBattleMessage({
                     "utente": this.protagonista.username,
                     "azione": "attesa",
                     "valore": 0
-                };
-                console.log(msg);
-                */
-
-                
-                    this.bcpc.sendBattleMessage({
-                        "utente": this.protagonista.username,
-                        "azione": "attesa",
-                        "valore": 0
-                    });
-                
+                });                
             },
 
 

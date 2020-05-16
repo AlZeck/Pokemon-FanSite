@@ -13,54 +13,9 @@ class Battaglia {
     constructor(battVue) {
         this._battVue = battVue;
 
-        //DA MODIFICARE PER USARE BCPController di battVue
         if(battVue.avversario.username == "CPU") {
             this._cpu = new Cpu();
-            
-            //testing
-            console.log(this._cpu.squadra);
-
-            /*
-            battVue.aggiungiPkm(this._cpu.squadra[0].id, this._battVue.avversario);
-            battVue.aggiungiMossa(this._cpu.squadra[0].mosse[0], this._battVue.primoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[0].mosse[1], this._battVue.primoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[0].mosse[2], this._battVue.primoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[0].mosse[3], this._battVue.primoPkmAvv);
-        
-            battVue.aggiungiPkm(this._cpu.squadra[1].id, this._battVue.avversario);
-            battVue.aggiungiMossa(this._cpu.squadra[1].mosse[0], this._battVue.secondoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[1].mosse[1], this._battVue.secondoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[1].mosse[2], this._battVue.secondoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[1].mosse[3], this._battVue.secondoPkmAvv);
-        
-            battVue.aggiungiPkm(this._cpu.squadra[2].id, this._battVue.avversario);
-            battVue.aggiungiMossa(this._cpu.squadra[2].mosse[0], this._battVue.terzoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[2].mosse[1], this._battVue.terzoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[2].mosse[2], this._battVue.terzoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[2].mosse[3], this._battVue.terzoPkmAvv);
-        
-            battVue.aggiungiPkm(this._cpu.squadra[3].id, this._battVue.avversario);
-            battVue.aggiungiMossa(this._cpu.squadra[3].mosse[0], this._battVue.quartoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[3].mosse[1], this._battVue.quartoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[3].mosse[2], this._battVue.quartoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[3].mosse[3], this._battVue.quartoPkmAvv);
-        
-            battVue.aggiungiPkm(this._cpu.squadra[4].id, this._battVue.avversario);
-            battVue.aggiungiMossa(this._cpu.squadra[4].mosse[0], this._battVue.quintoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[4].mosse[1], this._battVue.quintoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[4].mosse[2], this._battVue.quintoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[4].mosse[3], this._battVue.quintoPkmAvv);
-        
-            battVue.aggiungiPkm(this._cpu.squadra[5].id, this._battVue.avversario);
-            battVue.aggiungiMossa(this._cpu.squadra[5].mosse[0], this._battVue.sestoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[5].mosse[1], this._battVue.sestoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[5].mosse[2], this._battVue.sestoPkmAvv);
-            battVue.aggiungiMossa(this._cpu.squadra[5].mosse[3], this._battVue.sestoPkmAvv);
-            */
-
-            
-                this.battVue.bcpc.startCPU(this._cpu.squadra);
-            
+            this.battVue.bcpc.startCPU(this._cpu.squadra);
         }
         else this._cpu = undefined;
     }
@@ -134,15 +89,10 @@ class Battaglia {
 
             await this.sleep(5000);
 
-            //DA MODIFICARE PER USARE BCPController
             //caso in cui l'avversario è la CPU
             if(this.battVue.avversario.username == "CPU") {
                 this.cpu.attivoEsausto();
                 var msgCPU = this.cpu.mandaSwitchCPU();
-
-                //testing
-                console.log(msgCPU);
-
                 this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
             }
 
@@ -190,14 +140,9 @@ class Battaglia {
 
                 await this.sleep(5000);
 
-                //DA MODIFICARE PER USARE BCPController
                 //caso in cui l'avversario è la CPU
                 if(this.battVue.avversario.username == "CPU") {
                     var msgCPU = this.cpu.mandaAttesaCPU();
-
-                    //testing
-                    console.log(msgCPU);
-
                     this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
@@ -207,14 +152,9 @@ class Battaglia {
 
             //caso in cui anche protagonista è sopravvissuto
             else {  //primaAzione[1] == "" (stringa vuota)
-                //DA MODIFICARE PER USARE BCPController
                 //caso in cui l'avversario è la CPU
                 if(this.battVue.avversario.username == "CPU") {
                     var msgCPU = this.cpu.mandaAzioneCPU();
-
-                    //testing
-                    console.log(msgCPU);
-
                     this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
@@ -266,14 +206,9 @@ class Battaglia {
 
             await this.sleep(5000);
 
-            //DA MODIFICARE PER USARE BCPController
             //caso in cui l'avversario è la CPU
             if(this.battVue.avversario.username == "CPU") {
                 var msgCPU = this.cpu.mandaAttesaCPU();
-
-                //testing
-                console.log(msgCPU);
-
                 this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
             }
 
@@ -321,15 +256,10 @@ class Battaglia {
 
                 await this.sleep(5000);
 
-                //DA MODIFICARE PER USARE BCPController
                 //caso in cui l'avversario è la CPU
                 if(this.battVue.avversario.username == "CPU") {
                     this.cpu.attivoEsausto();
                     var msgCPU = this.cpu.mandaSwitchCPU();
-
-                    //testing
-                    console.log(msgCPU);
-
                     this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
@@ -339,14 +269,9 @@ class Battaglia {
 
             //caso in cui anche avversario è sopravvissuto
             else {  //primaAzione[1] == "" (stringa vuota)
-                //DA MODIFICARE PER USARE BCPController
                 //caso in cui l'avversario è la CPU
                 if(this.battVue.avversario.username == "CPU") {
                     var msgCPU = this.cpu.mandaAzioneCPU();
-
-                    //testing
-                    console.log(msgCPU);
-
                     this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
@@ -373,14 +298,9 @@ class Battaglia {
 
             await this.sleep(5500);
 
-            //DA MODIFICARE PER USARE BCPController
             //caso in cui l'avversario è la CPU
             if(this.battVue.avversario.username == "CPU") {
                 var msgCPU = this.cpu.mandaAzioneCPU();
-
-                //testing
-                console.log(msgCPU);
-
                 this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
             }
 
@@ -430,14 +350,9 @@ class Battaglia {
 
                 await this.sleep(5000);
 
-                //DA MODIFICARE PER USARE BCPController
                 //caso in cui l'avversario è la CPU
                 if(this.battVue.avversario.username == "CPU") {
                     var msgCPU = this.cpu.mandaAttesaCPU();
-
-                    //testing
-                    console.log(msgCPU);
-
                     this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
@@ -447,14 +362,9 @@ class Battaglia {
 
             //caso in cui il pokemon che protagonista aveva appena mandato è ancora vivo
             else {  //primaAzione[1] == ""
-                //DA MODIFICARE PER USARE BCPController
                 //caso in cui l'avversario è la CPU
                 if(this.battVue.avversario.username == "CPU") {
                     var msgCPU = this.cpu.mandaAzioneCPU();
-
-                    //testing
-                    console.log(msgCPU);
-
                     this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
@@ -481,14 +391,9 @@ class Battaglia {
 
         //sia in caso di switch che in caso di attesa da parte dell'avversario
 
-        //DA MODIFICARE PER USARE BCPController
         //caso in cui l'avversario è la CPU
         if(this.battVue.avversario.username == "CPU") {
             var msgCPU = this.cpu.mandaAzioneCPU();
-
-            //testing
-            console.log(msgCPU);
-
             this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
         }
 
@@ -513,14 +418,9 @@ class Battaglia {
 
             await this.sleep(5500);
 
-            //DA MODIFICARE PER USARE BCPController
             //caso in cui l'avversario è la CPU
             if(this.battVue.avversario.username == "CPU") {
                 var msgCPU = this.cpu.mandaAzioneCPU();
-
-                //testing
-                console.log(msgCPU);
-
                 this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
             }
 
@@ -570,15 +470,10 @@ class Battaglia {
 
                 await this.sleep(5000);
 
-                //DA MODIFICARE PER USARE BCPController
                 //caso in cui l'avversario è la CPU
                 if(this.battVue.avversario.username == "CPU") {
                     this.cpu.attivoEsausto();
                     var msgCPU = this.cpu.mandaSwitchCPU();
-
-                    //testing
-                    console.log(msgCPU);
-
                     this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
@@ -588,14 +483,9 @@ class Battaglia {
 
             //caso in cui il pokemon che avversario aveva appena mandato è ancora vivo
             else {  //primaAzione[1] == ""
-                //DA MODIFICARE PER USARE BCPController
                 //caso in cui l'avversario è la CPU
                 if(this.battVue.avversario.username == "CPU") {
                     var msgCPU = this.cpu.mandaAzioneCPU();
-
-                    //testing
-                    console.log(msgCPU);
-
                     this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
                 }
 
@@ -622,14 +512,9 @@ class Battaglia {
 
         //sia in caso di switch che in caso di attesa da parte del protagonista
 
-        //DA MODIFICARE PER USARE BCPController
         //caso in cui l'avversario è la CPU
         if(this.battVue.avversario.username == "CPU") {
             var msgCPU = this.cpu.mandaAzioneCPU();
-
-            //testing
-            console.log(msgCPU);
-
             this.battVue.bcpc.sendBattleCPUMessage(msgCPU);
         }
 
