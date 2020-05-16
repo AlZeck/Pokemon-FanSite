@@ -7,18 +7,20 @@ window.addEventListener("load", function() {
         el: '#sceltaVue',
 
         data: {
-            //l'oggetto pokemon selezionato (inizialmente 0)
+            //l'oggetto pokemon selezionato (inizialmente defaultPkm)
             selectedPkm: defaultPkm,
 
             //la squadra corrente, in posizione 0 ci sta il pokemon di default
-            squadra: [ defaultPkm ]
+            squadra: [ defaultPkm ],
+
+            //il json della squadra completa da inviare poi al server (casuale lo inizializza subito)
+            squadraJSON: ""
         },
 
         computed: {
             //il computed per ottenere il pokemon selezionato del protagonista in base al valore del suo indice
             selectedPkm: function() {
-                if(this.indexSelectedPkm < 7) return this.squadra[this.indexSelectedPkm];
-                else return this.squadra[0];
+                return this.selectedPkm;
             },
 
 
@@ -66,18 +68,82 @@ window.addEventListener("load", function() {
 
         methods: {
             //metodo per cambiare il pokemon selezionato dell'allenatore in base all'indice passato e se il pokemon è noto o meno
-            cambiaSelectedPkm: function(i) {
-                if(i < this.squadra.length) this.indexSelectedPkm = i;
+            cambiaSelectedPkmSquadra: function(i) {
+                if(i < this.squadra.length) this.selectedPkm = this.squadra[i];
             },
 
 
+            //metodo chiamato premendo il pulsante di creazione squadra casuale
+            casuale: function() {
+                this.squadraJSON = creaSquadra();
+
+                var nuovaSquadra = [ defaultPkm ];
+
+                var i, j;
+                for(i=0; i<6; i++) {
+                    nuovaSquadra.push( prendiDalDB("pokemon", this.squadraJSON[i].id) );
+
+                    for(j=0; j<4; j++) {
+                        nuovaSquadra[i+1].mosse.push( prendiDalDB("mossa", this.squadraJSON[i].mosse[j]) );
+                    }
+                }
+
+                this.squadra = nuovaSquadra;
+                this.cambiaSelectedPkmSquadra(1);
+            },
+
+
+            //metodo che controlla se la squadra è stata completamente inizializzata
+            squadraPronta() {
+                if(this.squadra.length < 7) return false;
+
+                var i;
+                for(i=1; i<7; i++) {
+                    if(this.squadra[i].mosse.length < 4) return false;
+                }
+
+                return true;
+            },
+
+
+            //DA MODIFICARE: deve creare il battVue, bcpcontroller e inizializzare la battaglia e reindirizzare nella pagina apposita se ha successo
+            //metodo chiamato premendo il pulsante di conferma
+            conferma: function() {
+                //non hai la squadra ancora pronta
+                if(! this.squadraPronta()) {
+                    //testing
+                    console.log("NO");
+                }
+
+                else {
+                    if(this.squadraJSON == "") {
+                        var sjson = [];
+
+                        var i, j;
+                        for(i=1; i<7; i++) {
+                            sjson.push( {"id": this.squadra[i].id, "mosse": []} );
+
+                            for(j=0; j<4; j++) {
+                                sjson[i-1].mosse.push( this.squadra[i].mosse[j].id );
+                            }
+                        }
+
+                        this.squadraJSON = sjson;
+                    }
+    
+                    //testing
+                    console.log(this.squadraJSON);
+                }
+            },
+
+
+            //metodo che mette il pokemon selezionato come quello selezionato
+            vediPkm: function(e) {
+                console.log(e.currentTarget.value);
+            }
+
+
             /*
-                fare un metodo per premuto exit (se ci sta da chiudere degli oggetti aperti magari?)
-
-                fare un metodo per premuto su random (chiama creazione squadra casuale)
-
-                fare un metodo per premuto su conferma (crea bcpc e battaglia)
-
                 fare un metodo che cliccando su una delle card e sinistra diventa pokemon selezionato
 
                 fare un metodo che se si sta su un selezionato che sta già in squadra si può togliere dalla squadra
@@ -116,5 +182,24 @@ var defaultPkm = {
     vel: 0, 
     mini_sprite: "/assets/pokemon/default_sprites/default_mini.png",
     artwork: "/assets/pokemon/default_sprites/default_front_back.png",
+    mosse: []
+}
+
+//testing
+var bulbasaur = {
+    id: 1,
+    nome: "Bulbasaur",
+    tipo1: "erba",
+    tipo2: "veleno",
+    uber: false,
+    psMax: 1,
+    ps: 0,
+    att: 0,
+    dif: 0,
+    atts: 0,
+    difs: 0,
+    vel: 0, 
+    mini_sprite: "/assets/pokemon/mini_sprite/bulbasaur.png",
+    artwork: "/assets/pokemon/artwork/bulbasaur.png",
     mosse: []
 }

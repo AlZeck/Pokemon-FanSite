@@ -54,6 +54,8 @@
 	</script>
 
 	<script type="text/javascript" lang="javascript" src="/lib/js/battaglia/vue.min.js"></script>
+	<script type="text/javascript" lang="javascript" src="/lib/js/battaglia/prendi_dal_db.js"></script>
+	<script type="text/javascript" lang="javascript" src="/lib/js/battaglia/squadra_casuale.js"></script>
     <script type="text/javascript" lang="javascript" src="/lib/js/scelta_squadra/sceltavue.js"></script>
 </head>
 
@@ -62,19 +64,19 @@
 
 	<nav class="navbar sticky-top navbar-expand-sm navbar-dark pokenavbar">
 		<div class="navbar-nav mr-auto border-right">
-			<button type="button" class="btn btn-danger mr-4 ml-2">Esci</button>
+			<button type="button" class="btn btn-danger mr-4 ml-2" onclick="return window.location.assign('/')">ESCI</button>
 		</div>
 		<div class="navbar-nav mx-auto">
-			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkm(1)"> <img v-bind:src="primoPkm.mini_sprite" alt="mini-sprite"> {{ primoPkm.nome }} </div>
-			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkm(2)"> <img v-bind:src="secondoPkm.mini_sprite" alt="mini-sprite"> {{ secondoPkm.nome }} </div>
-			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkm(3)"> <img v-bind:src="terzoPkm.mini_sprite" alt="mini-sprite"> {{ terzoPkm.nome }} </div>
-			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkm(4)"> <img v-bind:src="quartoPkm.mini_sprite" alt="mini-sprite"> {{ quartoPkm.nome }} </div>
-			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkm(5)"> <img v-bind:src="quintoPkm.mini_sprite" alt="mini-sprite"> {{ quintoPkm.nome }} </div>
-			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkm(6)"> <img v-bind:src="sestoPkm.mini_sprite" alt="mini-sprite"> {{ sestoPkm.nome }} </div>
+			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkmSquadra(1)"> <img v-bind:src="primoPkm.mini_sprite" alt="mini-sprite"> {{ primoPkm.nome }} </div>
+			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkmSquadra(2)"> <img v-bind:src="secondoPkm.mini_sprite" alt="mini-sprite"> {{ secondoPkm.nome }} </div>
+			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkmSquadra(3)"> <img v-bind:src="terzoPkm.mini_sprite" alt="mini-sprite"> {{ terzoPkm.nome }} </div>
+			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkmSquadra(4)"> <img v-bind:src="quartoPkm.mini_sprite" alt="mini-sprite"> {{ quartoPkm.nome }} </div>
+			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkmSquadra(5)"> <img v-bind:src="quintoPkm.mini_sprite" alt="mini-sprite"> {{ quintoPkm.nome }} </div>
+			<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkmSquadra(6)"> <img v-bind:src="sestoPkm.mini_sprite" alt="mini-sprite"> {{ sestoPkm.nome }} </div>
 		</div>
 		<div class="navbar-nav ml-auto border-left">
-			<button type="button" class="btn btn-primary ml-4 mr-2">Casuale</button>
-			<button type="button" class="btn btn-success ml-2 mr-2">Conferma</button>
+			<button type="button" class="btn btn-primary ml-4 mr-2" v-on:click="casuale">CASUALE</button>
+			<button type="button" class="btn btn-success ml-2 mr-2" v-on:click="conferma">CONFERMA</button>
 		</div>
 	</nav>
 	<div class="container-fluid">
@@ -90,7 +92,7 @@
 						foreach ($lis as $pokemon) {
 
 							echo    '<div class="mt-4">' .
-								'<div class="card">' .
+								'<div class="card" value="' . $pokemon["id"] . '" v-on:click="vediPkm">' .
 								'<div class="card-body">' .
 								'<h5 class="card-title"> <span class="number">#' . $pokemon["id"] . ' </span>'
 								. ucfirst($pokemon["nome"]) . '</h5>' .
@@ -209,7 +211,7 @@
 				<br>
 
 				<!-- FARE CHE SE UNA MOSSA ANCORA NON PRESA C'È UN RIQUADRO DI DEFAULT -->
-				<button class="card card-body" v-for="m in selectedPkm.mosse" v-bind:value="m.id" v-bind:class="m.tipo" v-on:click="mandaMossa">
+				<button class="card card-body" v-for="m in selectedPkm.mosse" v-bind:value="m.id" v-bind:class="m.tipo">
 					<h5 class="card-title">{{ m.nome }} </h5>
 					{{ m.tipo.toUpperCase() }} {{ m.categoria.toUpperCase() }} <br>
 					{{ m.potenza }} - {{ m.precisione }}
