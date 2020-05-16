@@ -59,10 +59,7 @@ class Battaglia {
             */
 
             
-                this.battVue.bcpc.startCPU({
-                    "utente": "CPU",
-                    "squadra": this._cpu.squadra
-                });
+                this.battVue.bcpc.startCPU(this._cpu.squadra);
             
         }
         else this._cpu = undefined;
