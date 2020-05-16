@@ -1,0 +1,568 @@
+<!-- LINK PER CHIAMARLO UNA VOLTA ATTIVATO SERVER: http://localhost/lib/js/battaglia/prova.html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Battle-PokemonFan Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Un fansite sui pokemon che permette di conoscere di più sul loro mondo e di fare battaglie nel simulatore">
+    <meta name="keywords" content="pokemon, battaglia, pokedex, movedex, typedex">
+    <meta name="author"
+        content="Juan Sebastian Arboleda Polo (1805920), Andrea Cerone (1770688), Matteo Di Stadio (1794111)">
+    <meta name="copyright" content="The Pokémon Company">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/vue.min.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/websockets/BCPController.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/prendi_dal_db.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/squadra_casuale.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/battvue.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/cpu.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/battaglia.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/testing.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/bcpc_callback.js"></script>
+
+    <link href="/lib/css/stat.css" rel="stylesheet">
+
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            background-image: url(../../battle/stadium.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            backdrop-filter: blur(20px) brightness(0.5);
+        }
+
+        .btn {
+            border-radius: 5px;
+        }
+
+        .btn-tipo {
+            width: 100%;
+        }
+
+        .btn-group {
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .container-fluid {
+            color: white;
+            background-color: transparent;
+            justify-content: center;
+        }
+
+        .card-info {
+            height: 100%;
+        }
+
+        .card {
+
+            color: black;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .card-infopoke {
+            background-color: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(20px);
+            border: 2px solid #0000005e;
+
+        }
+
+        .battle {
+            height: 331px;
+            background-image: url(/assets/img/sfondi_battaglia/arena.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: #31bc9f;
+
+        }
+
+        .card-stat .row {
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .battle-card-body {
+            align-self: center;
+            width: 575px;
+        }
+
+        .card-deck .card {
+            margin: 15px;
+        }
+
+        .active-mossa {
+            min-width: 300px;
+            flex-direction: row!important;
+        }
+
+        .card-mossa {
+            min-width: 140px;
+        }
+
+        .pkavv {
+            padding-top: 10px;
+        }
+
+        .pkprt {
+            padding-top: 70px;
+        }
+
+        .progress {
+            height: 25px;
+        }
+
+
+        .card-infopoke .progress {
+            border: 1px solid #0000003d;
+        }
+
+        .infopoke-label {
+            min-width: 50px;
+            text-align: center;
+        }
+
+        .pokelis {
+            padding: 8px;
+        }
+    </style>
+    <link href="/lib/css/tipi.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <br>
+    <div class="container-fluid" id="battVue">
+        <H2 class="text-center"> SEI STATO SFIDATO DA {{ avversario.username }} ALLENATORE! </H2>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card card-info">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card mb-4">
+                                    <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(1, protagonista)">
+                                        <img v-bind:src="primoPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (primoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        {{ primoPkmPrt.nome }}
+                                    </div>
+                                </div>
+                                <div class="card mb-4">
+                                    <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(2, protagonista)">
+                                        <img v-bind:src="secondoPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (secondoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        {{ secondoPkmPrt.nome }}
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(3, protagonista)">
+                                        <img v-bind:src="terzoPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (terzoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        {{ terzoPkmPrt.nome }}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mb-4">
+                                    <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(4, protagonista)">
+                                        <img v-bind:src="quartoPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (quartoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        {{ quartoPkmPrt.nome }}
+                                    </div>
+                                </div>
+                                <div class="card mb-4">
+                                    <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(5, protagonista)">
+                                        <img v-bind:src="quintoPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (quintoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        {{ quintoPkmPrt.nome }}
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(6, protagonista)">
+                                        <img v-bind:src="sestoPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (sestoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        {{ sestoPkmPrt.nome }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <h3> {{ selectedPkmPrt.nome }} </h3>
+                            <img v-bind:src="selectedPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (selectedPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                        </div>
+
+                        <div class="btn-group" role="group">
+                            <div class="btn btn-tipo" v-bind:class="selectedPkmPrt.tipo1">
+                                {{ selectedPkmPrt.tipo1.toUpperCase() }}
+                            </div>
+                            <div v-if="selectedPkmPrt.tipo2 != null" class="btn btn-tipo"
+                                v-bind:class="selectedPkmPrt.tipo2"> {{ selectedPkmPrt.tipo2.toUpperCase() }} </div>
+                        </div>
+
+                        <!-- STATS -->
+                        <div class="card">
+                            <div class="card-body card-stat">
+                                <div class="row">
+                                    <div class="col-sm-2 stat-label">PS</div>
+                                    <div class="col">
+                                        <div class="progress justify-content-between">
+                                            <div class="progress-bar" role="progressbar"
+                                                v-bind:aria-valuenow="selectedPkmPrt.ps" aria-valuemin="0"
+                                                v-bind:aria-valuemax="selectedPkmPrt.psMax"
+                                                :style="{ width: selectedPkmPrt.ps/selectedPkmPrt.psMax *100 + '%',  'background-color': (selectedPkmPrt.ps/selectedPkmPrt.psMax *100<50)?((selectedPkmPrt.ps/selectedPkmPrt.psMax *100<25)? 'red':'#ffbc00'):'#93f300' }">
+                                                {{selectedPkmPrt.ps}} </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2 stat-label">ATT</div>
+                                    <div class="col">
+                                        <div class="progress justify-content-between">
+                                            <div class="progress-bar bar-stat-att" role="progressbar"
+                                                v-bind:aria-valuenow="selectedPkmPrt.att" aria-valuemin="0"
+                                                v-bind:aria-valuemax="270"
+                                                :style="{ width: selectedPkmPrt.att/270*100 + '%' }">
+                                                {{selectedPkmPrt.att}} </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2 stat-label">DIF</div>
+                                    <div class="col">
+                                        <div class="progress justify-content-between">
+                                            <div class="progress-bar bar-stat-dif" role="progressbar"
+                                                v-bind:aria-valuenow="selectedPkmPrt.dif" aria-valuemin="0"
+                                                v-bind:aria-valuemax="270"
+                                                :style="{ width: selectedPkmPrt.dif/270*100 + '%' }">
+                                                {{selectedPkmPrt.dif}} </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2 stat-label">ATTS</div>
+                                    <div class="col">
+                                        <div class="progress justify-content-between">
+                                            <div class="progress-bar bar-stat-attsp" role="progressbar"
+                                                v-bind:aria-valuenow="selectedPkmPrt.atts" aria-valuemin="0"
+                                                v-bind:aria-valuemax="270"
+                                                :style="{ width: selectedPkmPrt.atts/270*100 + '%' }">
+                                                {{selectedPkmPrt.atts}} </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2 stat-label">DIFS</div>
+                                    <div class="col">
+                                        <div class="progress justify-content-between">
+                                            <div class="progress-bar bar-stat-difsp" role="progressbar"
+                                                v-bind:aria-valuenow="selectedPkmPrt.difs" aria-valuemin="0"
+                                                v-bind:aria-valuemax="270"
+                                                :style="{ width: selectedPkmPrt.difs/270*100 + '%' }">
+                                                {{selectedPkmPrt.difs}} </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2 stat-label">VEL</div>
+                                    <div class="col">
+                                        <div class="progress justify-content-between">
+                                            <div class="progress-bar bar-stat-vel" role="progressbar"
+                                                v-bind:aria-valuenow="selectedPkmPrt.vel" aria-valuemin="0"
+                                                v-bind:aria-valuemax="270"
+                                                :style="{ width: selectedPkmPrt.vel/270*100 + '%' }">
+                                                {{selectedPkmPrt.vel}} </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- MOSSE: -->
+                        <div class="card-deck">
+                            <button class="btn card card-mossa align-items-center" v-for="m in selectedPkmPrt.mosse"
+                                v-bind:class="m.tipo"> {{ m.nome }} </button>
+                        </div>
+
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-block" id="switch" v-on:click="mandaSwitch"
+                            v-bind:disabled="!switchAttivo || protagonista.indexSelectedPkm == protagonista.indexActivePkm || protagonista.squadra[protagonista.indexSelectedPkm].ps <= 0">
+                            switch </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Center -->
+            <div class="col">
+                <div class="card battle">
+                    <div class="card-body battle-card-body">
+                        <div class="row align-items-end pkavv">
+                            <div class="col-lg-6">
+                                <div class="card card-infopoke">
+                                    <div class="card-body">
+                                        <h5>{{ activePkmAvv.nome }}</h5>
+                                        <div class="row">
+                                            <div class="col-sm-2 infopoke-label">PS</div>
+                                            <div class="col">
+                                                <div class="progress justify-content-between">
+                                                    <div class="progress-bar" role="progressbar"
+                                                        v-bind:aria-valuenow="activePkmAvv.ps" aria-valuemin="0"
+                                                        v-bind:aria-valuemax="activePkmAvv.psMax"
+                                                        :style="{ width: activePkmAvv.ps/activePkmAvv.psMax *100 + '%',  'background-color': (activePkmAvv.ps/activePkmAvv.psMax *100<50)?((activePkmAvv.ps/activePkmAvv.psMax *100<25)? 'red':'#ffbc00'):'#93f300' }">
+                                                        {{activePkmAvv.ps}} </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col text-center">
+                                <img v-if="! avversario.indexSprite" id="spriteAvv"
+                                    v-bind:src="activePkmAvv.front_sprite" alt="front-sprite">
+                                <img v-else id="spriteAvv" src="/assets/pokemon/default_sprites/pokeball.png"
+                                    alt="front-sprite">
+                            </div>
+                        </div>
+
+                        <div class="row align-items-end pkprt">
+                            <div class="col text-center">
+                                <img v-if="! protagonista.indexSprite" id="spritePrt"
+                                    v-bind:src="activePkmPrt.back_sprite" alt="back-sprite">
+                                <img v-else id="spritePrt" src="/assets/pokemon/default_sprites/pokeball.png"
+                                    alt="back-sprite">
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="card card-infopoke">
+                                    <div class="card-body">
+                                        <h5>{{ activePkmPrt.nome }}</h5>
+                                        <div class="row">
+                                            <div class="col-sm-2 infopoke-label">PS</div>
+                                            <div class="col">
+                                                <div class="progress justify-content-between">
+                                                    <div class="progress-bar" role="progressbar"
+                                                        v-bind:aria-valuenow="activePkmPrt.ps" aria-valuemin="0"
+                                                        v-bind:aria-valuemax="activePkmPrt.psMax"
+                                                        :style="{ width: activePkmPrt.ps/activePkmPrt.psMax *100 + '%',  'background-color': (activePkmPrt.ps/activePkmPrt.psMax *100<50)?((activePkmPrt.ps/activePkmPrt.psMax *100<25)? 'red':'#ffbc00'):'#93f300' }">
+                                                        {{activePkmPrt.ps}} </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <span id="testoBattaglia">
+
+                        </span>
+                    </div>
+                </div>
+                <br>
+
+                <div class="card-deck">
+                    <!-- TODO BOTTONI DELLE MOSSE: AGGIUNGIMI IL DISABLED -->
+                    <button type="button" class="card active-mossa" v-for="m in activePkmPrt.mosse" v-bind:value="m.id"
+                        v-bind:class="m.tipo" v-on:click="mandaMossa" :disabled="!mosseAttive">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">{{ m.nome.toUpperCase() }} </h3>
+                            <div class="d-flex justify-content-between">
+                                <div>TIPO: {{ m.tipo.toUpperCase() }}</div>
+                                <div>CATEGORIA: {{ m.categoria.toUpperCase() }}</div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>POTENZA: {{ m.potenza }} </div>
+                                <div>PRECISIONE: {{ m.precisione }}</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </button>
+
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card card-info">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card mb-4">
+                                    <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(1, avversario)">
+                                        <img v-bind:src="primoPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (primoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        {{ primoPkmAvv.nome }}
+                                    </div>
+                                </div>
+                                <div class="card mb-4">
+                                    <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(2, avversario)">
+                                        <img v-bind:src="secondoPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (secondoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        {{ secondoPkmAvv.nome }}
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(3, avversario)">
+                                        <img v-bind:src="terzoPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (terzoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        {{ terzoPkmAvv.nome }}
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="col">
+                                <div class="card mb-4">
+                                    <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(4, avversario)">
+                                        <img v-bind:src="quartoPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (quartoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        {{ quartoPkmAvv.nome }}
+                                    </div>
+                                </div>
+                                <div class="card mb-4">
+                                    <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(5, avversario)">
+                                        <img v-bind:src="quintoPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (quintoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        {{ quintoPkmAvv.nome }}
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(6, avversario)">
+                                        <img v-bind:src="sestoPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (sestoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        {{ sestoPkmAvv.nome }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <h3> {{ selectedPkmAvv.nome }} </h3>
+                            <img v-bind:src="selectedPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (selectedPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                        </div>
+
+                        <div class="btn-group" role="group">
+                            <div class="btn btn-tipo" v-bind:class="selectedPkmAvv.tipo1">
+                                {{ selectedPkmAvv.tipo1.toUpperCase() }}
+                            </div>
+                            <div v-if="selectedPkmAvv.tipo2 != null" class="btn btn-tipo"
+                                v-bind:class="selectedPkmAvv.tipo2"> {{ selectedPkmAvv.tipo2.toUpperCase() }} </div>
+                        </div>
+
+                        <!-- STATS -->
+                        <div class="card">
+                            <div class="card-body card-stat">
+                                <div class="row">
+                                    <div class="col-sm-2 stat-label">PS</div>
+                                    <div class="col">
+                                        <div class="progress justify-content-between">
+                                            <div class="progress-bar" role="progressbar"
+                                                v-bind:aria-valuenow="selectedPkmAvv.ps" aria-valuemin="0"
+                                                v-bind:aria-valuemax="selectedPkmAvv.psMax"
+                                                :style="{ width: selectedPkmAvv.ps/selectedPkmAvv.psMax *100 + '%',  'background-color': (selectedPkmAvv.ps/selectedPkmAvv.psMax *100<50)?((selectedPkmAvv.ps/selectedPkmAvv.psMax *100<25)? 'red':'#ffbc00'):'#93f300' }">
+                                                {{selectedPkmAvv.ps}} </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2 stat-label">ATT</div>
+                                    <div class="col">
+                                        <div class="progress justify-content-between">
+                                            <div class="progress-bar bar-stat-att" role="progressbar"
+                                                v-bind:aria-valuenow="selectedPkmAvv.att" aria-valuemin="0"
+                                                v-bind:aria-valuemax="270"
+                                                :style="{ width: selectedPkmAvv.att/270*100 + '%' }">
+                                                {{selectedPkmAvv.att}} </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2 stat-label">DIF</div>
+                                    <div class="col">
+                                        <div class="progress justify-content-between">
+                                            <div class="progress-bar bar-stat-dif" role="progressbar"
+                                                v-bind:aria-valuenow="selectedPkmAvv.dif" aria-valuemin="0"
+                                                v-bind:aria-valuemax="270"
+                                                :style="{ width: selectedPkmAvv.dif/270*100 + '%' }">
+                                                {{selectedPkmAvv.dif}} </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2 stat-label">ATTS</div>
+                                    <div class="col">
+                                        <div class="progress justify-content-between">
+                                            <div class="progress-bar bar-stat-attsp" role="progressbar"
+                                                v-bind:aria-valuenow="selectedPkmAvv.atts" aria-valuemin="0"
+                                                v-bind:aria-valuemax="270"
+                                                :style="{ width: selectedPkmAvv.atts/270*100 + '%' }">
+                                                {{selectedPkmAvv.atts}} </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2 stat-label">DIFS</div>
+                                    <div class="col">
+                                        <div class="progress justify-content-between">
+                                            <div class="progress-bar bar-stat-difsp" role="progressbar"
+                                                v-bind:aria-valuenow="selectedPkmAvv.difs" aria-valuemin="0"
+                                                v-bind:aria-valuemax="270"
+                                                :style="{ width: selectedPkmAvv.difs/270*100 + '%' }">
+                                                {{selectedPkmAvv.difs}} </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2 stat-label">VEL</div>
+                                    <div class="col">
+                                        <div class="progress justify-content-between">
+                                            <div class="progress-bar bar-stat-vel" role="progressbar"
+                                                v-bind:aria-valuenow="selectedPkmAvv.vel" aria-valuemin="0"
+                                                v-bind:aria-valuemax="270"
+                                                :style="{ width: selectedPkmAvv.vel/270*100 + '%' }">
+                                                {{selectedPkmAvv.vel}} </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- MOSSE: -->
+                        <div class="card-deck">
+                            <button class="btn card card-mossa align-items-center" v-for="m in selectedPkmAvv.mosse"
+                                v-bind:class="m.tipo"> {{ m.nome }} </button>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-danger btn-block" id="forfeit" v-on:click="mandaForfeit"
+                            v-bind:disabled="!forfeitAttivo"> forfeit
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

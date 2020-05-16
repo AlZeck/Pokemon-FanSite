@@ -5,9 +5,9 @@ var battVue;
 var defaultPkm = {
     id: 0,
     nome: "???",
-    tipo1: "???",
+    tipo1: "sconosciuto",
     tipo2: null,
-    psMax: 0,
+    psMax: 1,
     ps: 0,
     att: 0,
     dif: 0,
@@ -231,7 +231,7 @@ window.addEventListener("load", function() {
                 this.bcpc.sendBattleMessage({
                     "utente": this.protagonista.username,
                     "azione": "mossa",
-                    "valore": e.target.value
+                    "valore": e.currentTarget.value
                 });                
             },
 

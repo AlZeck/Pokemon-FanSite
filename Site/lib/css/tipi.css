@@ -3,12 +3,12 @@
     background: #5A8DA1;
 }
 
-.acciaio:hover {
+.acciaio:hover:not([disabled]) {
     background: #1D4C5E;
     color: #BDD1D9;
 }
 
-.acciaio-light {
+.acciaio:disabled {
     background: #BDD1D9;
     color: #1D4C5E;
 }
@@ -23,12 +23,12 @@
     background: #4F90D5;
 }
 
-.acqua:hover {
+.acqua:hover:not([disabled]) {
     background: #114983;
     color: #B4D0EC;
 }
 
-.acqua-light {
+.acqua:disabled {
     background: #B4D0EC;
     color: #114983;
 }
@@ -43,12 +43,12 @@
     background: #5A5365;
 }
 
-.buio:hover {
+.buio:hover:not([disabled]) {
     background: #1E1A25;
     color: #A29EA7;
 }
 
-.buio-light {
+.buio:disabled {
     background: #A29EA7;
     color: #1E1A25;
 }
@@ -63,12 +63,12 @@
     background: #91C02E;
 }
 
-.coleottero:hover {
+.coleottero:hover:not([disabled]) {
     background: #547904;
     color: #D8F895;
 }
 
-.coleottero-light {
+.coleottero:disabled {
     background: #D8F895;
     color: #547904;
 }
@@ -83,12 +83,12 @@
     background: #0A6DC2;
 }
 
-.drago:hover {
+.drago:hover:not([disabled]) {
     background: #002B50;
     color: #7DB0DC;
 }
 
-.drago-light {
+.drago:disabled {
     background: #7DB0DC;
     color: #002B50;
 }
@@ -103,12 +103,12 @@
     background: #F4D23C;
 }
 
-.elettro:hover {
+.elettro:hover:not([disabled]) {
     background: #917908;
     color: #FAF5AF;
 }
 
-.elettro-light {
+.elettro:disabled {
     background: #FAF5AF;
     color: #917908;
 }
@@ -123,12 +123,12 @@
     background: #62BB5A;
 }
 
-.erba:hover {
+.erba:hover:not([disabled]) {
     background: #11500A;
     color: #B1FFA9;
 }
 
-.erba-light {
+.erba:disabled {
     background: #B1FFA9;
     color: #11500A;
 }
@@ -143,12 +143,12 @@
     background: #EB8FE6;
 }
 
-.folletto:hover {
+.folletto:hover:not([disabled]) {
     background: #A940A3;
     color: #FFD3FC;
 }
 
-.folletto-light {
+.folletto:disabled {
     background: #FFD3FC;
     color: #A940A3;
 }
@@ -163,12 +163,12 @@
     background: #FE9C54;
 }
 
-.fuoco:hover {
+.fuoco:hover:not([disabled]) {
     background: #A74700;
     color: #FFD2A1;
 }
 
-.fuoco-light {
+.fuoco:disabled {
     background: #FFD2A1;
     color: #A74700;
 }
@@ -183,12 +183,12 @@
     background: #73CEBF;
 }
 
-.ghiaccio:hover {
+.ghiaccio:hover:not([disabled]) {
     background: #187C6A;
     color: #CCFFF6;
 }
 
-.ghiaccio-light {
+.ghiaccio:disabled {
     background: #CCFFF6;
     color: #187C6A;
 }
@@ -203,12 +203,12 @@
     background: #CD406A;
 }
 
-.lotta:hover {
+.lotta:hover:not([disabled]) {
     background: #801334;
     color: #F488A9;
 }
 
-.lotta-light {
+.lotta:disabled {
     background: #F488A9;
     color: #801334;
 }
@@ -223,12 +223,12 @@
     background: #9199A1;
 }
 
-.normale:hover {
+.normale:hover:not([disabled]) {
     background: #444B53;
     color: #DADDE0;
 }
 
-.normale-light {
+.normale:disabled {
     background: #DADDE0;
     color: #444B53;
 }
@@ -243,12 +243,12 @@
     background: #604E82;
 }
 
-.ombra:hover {
+.ombra:hover:not([disabled]) {
     background: #3E3355;
     color: #8674A8;
 }
 
-.ombra-light {
+.ombra:disabled {
     background: #8674A8;
     color: #3E3355;
 }
@@ -263,12 +263,12 @@
     background: #F67177;
 }
 
-.psico:hover {
+.psico:hover:not([disabled]) {
     background: #A20D14;
     color: #FFBBBE;
 }
 
-.psico-light {
+.psico:disabled {
     background: #FFBBBE;
     color: #A20D14;
 }
@@ -283,12 +283,12 @@
     background: #C5B78B;
 }
 
-.roccia:hover {
+.roccia:hover:not([disabled]) {
     background: #7E6E3F;
     color: #F1E7C7;
 }
 
-.roccia-light {
+.roccia:disabled {
     background: #F1E7C7;
     color: #7E6E3F;
 }
@@ -303,12 +303,12 @@
     background: #68A090;
 }
 
-.sconosciuto:hover {
+.sconosciuto:hover:not([disabled]) {
     background: #44685E;
     color: #9DC1B7;
 }
 
-.sconosciuto-light {
+.sconosciuto:disabled {
     background: #9DC1B7;
     color: #44685E;
 }
@@ -323,12 +323,12 @@
     background: #5269AC;
 }
 
-.spettro:hover {
+.spettro:hover:not([disabled]) {
     background: #193177;
     color: #A5B6E7;
 }
 
-.spettro-light {
+.spettro:disabled {
     background: #A5B6E7;
     color: #193177;
 }
@@ -343,12 +343,12 @@
     background: #D87844;
 }
 
-.terra:hover {
+.terra:hover:not([disabled]) {
     background: #9A3E0B;
     color: #FFBB96;
 }
 
-.terra-light {
+.terra:disabled {
     background: #FFBB96;
     color: #9A3E0B;
 }
@@ -363,12 +363,12 @@
     background: #A96AC8;
 }
 
-.veleno:hover {
+.veleno:hover:not([disabled]) {
     background: #79339D;
     color: #E0B0F9;
 }
 
-.veleno-light {
+.veleno:disabled {
     background: #E0B0F9;
     color: #79339D;
 }
@@ -383,12 +383,12 @@
     background: #8EA8DE;
 }
 
-.volante:hover {
+.volante:hover:not([disabled]) {
     background: #3B5DA2;
     color: #D6E4FF;
 }
 
-.volante-light {
+.volante:disabled {
     background: #D6E4FF;
     color: #3B5DA2;
 }
@@ -405,7 +405,7 @@
     background: #C92112;
 }
 
-.fisico-light {
+.fisico:disabled {
     background: #D96358;
     color: #82150B;
 }
@@ -420,7 +420,7 @@
     background: #4F5870;
 }
 
-.speciale-light {
+.speciale:disabled {
     background: #83899A;
     color: #333948;
 }
@@ -435,7 +435,7 @@
     background: #8C888C;
 }
 
-.stato-light {
+.stato:disabled {
     background: #AEABAE;
     color: #5B585B;
 }
