@@ -24,7 +24,7 @@
         <?php 
             if($_GET['risultato']=='vittoria')
                 echo '<img src="/assets/img/risultato/winning.png" class="d-block w-100" alt="vittoria">
-                    <br>               
+                    <br>              
                     <h3>CONGRATULAZIONI HAI VINTO LA BATTAGLIA!</h3>';
 
             else
@@ -33,10 +33,16 @@
                     <h3>PURTROPPO HAI PERSO LA BATTAGLIA!</h3>'
         ?>
         <br>
-        <div>
-            <button class="btn btn-primary btn-lg" href="" role="button">RIVINCITA</button>
-            <button class="btn btn-primary btn-lg" href="" role="button">CAMBIA AVVERSARIO</button>    
-            <button class="btn btn-primary btn-lg" href="" role="button">CAMBIA SQUADRA</button>
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-primary button-size">RIVINCITA</button>
+            </div> 
+            <div class="col">   
+                <button class="btn btn-primary button-size">CAMBIA AVVERSARIO</button>
+            </div>
+            <div class="col">        
+                <button class="btn btn-primary button-size">CAMBIA SQUADRA</button>
+            </div>
         </div>    
     </div>
 
