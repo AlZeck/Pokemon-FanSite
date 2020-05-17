@@ -1,5 +1,4 @@
 //un oggetto pokemon di default
-
 var defaultPkm = {
     id: 0,
     nome: "???",
@@ -19,3 +18,10 @@ var defaultPkm = {
     back_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
     mosse: []
 }
+
+
+//un oggetto utente cpu di default
+var defaultCpu = {
+    username:   "CPU",
+    sprite:     "/assets/img/allenatori/0.png"
+};
