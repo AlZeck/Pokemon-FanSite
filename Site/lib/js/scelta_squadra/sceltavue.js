@@ -9,14 +9,14 @@ var defaultPkm = {
     tipo2: null,
     uber: false,
     psMax: 1,
-    ps: 0,
+    ps: 1,
     att: 0,
     dif: 0,
     atts: 0,
     difs: 0,
     vel: 0,
     mini_sprite: "/assets/pokemon/default_sprites/default_mini.png",
-    artwork: "/assets/pokemon/default_sprites/default_front_back.png",
+    artwork: "/assets/pokemon/default_sprites/default_artwork.png",
     mosse: []
 }
 

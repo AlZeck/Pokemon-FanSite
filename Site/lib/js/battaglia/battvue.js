@@ -8,7 +8,7 @@ var defaultPkm = {
     tipo1: "sconosciuto",
     tipo2: null,
     psMax: 1,
-    ps: 0,
+    ps: 1,
     att: 0,
     dif: 0,
     atts: 0,
