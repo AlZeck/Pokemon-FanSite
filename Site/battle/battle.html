@@ -52,19 +52,22 @@
                             <div class="col">
                                 <div class="card mb-4">
                                     <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(1, protagonista)">
-                                        <img v-bind:src="primoPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (primoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        <img v-bind:src="primoPkmPrt.mini_sprite" alt="mini-sprite"
+                                            :style="{filter: (primoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                                         {{ primoPkmPrt.nome }}
                                     </div>
                                 </div>
                                 <div class="card mb-4">
                                     <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(2, protagonista)">
-                                        <img v-bind:src="secondoPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (secondoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        <img v-bind:src="secondoPkmPrt.mini_sprite" alt="mini-sprite"
+                                            :style="{filter: (secondoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                                         {{ secondoPkmPrt.nome }}
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(3, protagonista)">
-                                        <img v-bind:src="terzoPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (terzoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        <img v-bind:src="terzoPkmPrt.mini_sprite" alt="mini-sprite"
+                                            :style="{filter: (terzoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                                         {{ terzoPkmPrt.nome }}
                                     </div>
                                 </div>
@@ -72,19 +75,22 @@
                             <div class="col">
                                 <div class="card mb-4">
                                     <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(4, protagonista)">
-                                        <img v-bind:src="quartoPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (quartoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        <img v-bind:src="quartoPkmPrt.mini_sprite" alt="mini-sprite"
+                                            :style="{filter: (quartoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                                         {{ quartoPkmPrt.nome }}
                                     </div>
                                 </div>
                                 <div class="card mb-4">
                                     <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(5, protagonista)">
-                                        <img v-bind:src="quintoPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (quintoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        <img v-bind:src="quintoPkmPrt.mini_sprite" alt="mini-sprite"
+                                            :style="{filter: (quintoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                                         {{ quintoPkmPrt.nome }}
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(6, protagonista)">
-                                        <img v-bind:src="sestoPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (sestoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        <img v-bind:src="sestoPkmPrt.mini_sprite" alt="mini-sprite"
+                                            :style="{filter: (sestoPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                                         {{ sestoPkmPrt.nome }}
                                     </div>
                                 </div>
@@ -93,7 +99,8 @@
                         <hr>
                         <div class="d-flex justify-content-between">
                             <h3> {{ selectedPkmPrt.nome }} </h3>
-                            <img v-bind:src="selectedPkmPrt.mini_sprite" alt="mini-sprite" :style="{filter: (selectedPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                            <img v-bind:src="selectedPkmPrt.mini_sprite" alt="mini-sprite"
+                                :style="{filter: (selectedPkmPrt.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                         </div>
 
                         <div class="btn-group" role="group">
@@ -285,10 +292,8 @@
                                 <div>PRECISIONE: {{ m.precisione }}</div>
                             </div>
                         </div>
-
-
-                    </div>
-                </button>
+                    </button>
+                </div>
 
             </div>
 
@@ -299,39 +304,45 @@
                             <div class="col">
                                 <div class="card mb-4">
                                     <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(1, avversario)">
-                                        <img v-bind:src="primoPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (primoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        <img v-bind:src="primoPkmAvv.mini_sprite" alt="mini-sprite"
+                                            :style="{filter: (primoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                                         {{ primoPkmAvv.nome }}
                                     </div>
                                 </div>
                                 <div class="card mb-4">
                                     <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(2, avversario)">
-                                        <img v-bind:src="secondoPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (secondoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        <img v-bind:src="secondoPkmAvv.mini_sprite" alt="mini-sprite"
+                                            :style="{filter: (secondoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                                         {{ secondoPkmAvv.nome }}
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(3, avversario)">
-                                        <img v-bind:src="terzoPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (terzoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        <img v-bind:src="terzoPkmAvv.mini_sprite" alt="mini-sprite"
+                                            :style="{filter: (terzoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                                         {{ terzoPkmAvv.nome }}
                                     </div>
                                 </div>
-                                </div>
-                                <div class="col">
+                            </div>
+                            <div class="col">
                                 <div class="card mb-4">
                                     <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(4, avversario)">
-                                        <img v-bind:src="quartoPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (quartoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        <img v-bind:src="quartoPkmAvv.mini_sprite" alt="mini-sprite"
+                                            :style="{filter: (quartoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                                         {{ quartoPkmAvv.nome }}
                                     </div>
                                 </div>
                                 <div class="card mb-4">
                                     <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(5, avversario)">
-                                        <img v-bind:src="quintoPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (quintoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        <img v-bind:src="quintoPkmAvv.mini_sprite" alt="mini-sprite"
+                                            :style="{filter: (quintoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                                         {{ quintoPkmAvv.nome }}
                                     </div>
                                 </div>
                                 <div class="card">
                                     <div class="card-body pokelis" v-on:click="cambiaSelectedPkm(6, avversario)">
-                                        <img v-bind:src="sestoPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (sestoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                                        <img v-bind:src="sestoPkmAvv.mini_sprite" alt="mini-sprite"
+                                            :style="{filter: (sestoPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                                         {{ sestoPkmAvv.nome }}
                                     </div>
                                 </div>
@@ -341,7 +352,8 @@
                         <hr>
                         <div class="d-flex justify-content-between">
                             <h3> {{ selectedPkmAvv.nome }} </h3>
-                            <img v-bind:src="selectedPkmAvv.mini_sprite" alt="mini-sprite" :style="{filter: (selectedPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
+                            <img v-bind:src="selectedPkmAvv.mini_sprite" alt="mini-sprite"
+                                :style="{filter: (selectedPkmAvv.ps==0)? 'grayscale(0.8) opacity(0.6)' : 'none'}">
                         </div>
 
                         <div class="btn-group" role="group">
@@ -450,4 +462,5 @@
 </body>
 
 <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/battvue.js"></script>
+
 </html>
