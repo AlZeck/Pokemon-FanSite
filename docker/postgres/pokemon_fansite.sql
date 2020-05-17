@@ -36,7 +36,7 @@ create table impara (
     foreign key (mossa) references mossa(id),
     primary key (pokemon,mossa));
 
-create table utente (username varchar(50) primary key,password varchar(100));
+create table utente (username varchar(22) primary key,password varchar(100));
 
 insert into tipo values
 ('acciaio'), ('acqua'), ('buio'), ('coleottero'), ('drago'), 
