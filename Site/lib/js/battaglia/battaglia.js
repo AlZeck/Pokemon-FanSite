@@ -54,7 +54,7 @@ class Battaglia {
         var mossa = this.battVue.dammiMossa(obj_batt.primo.valore, this.battVue.activePkmPrt);
 
         this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato usa " + mossa.nome + ". ", 0);
-        this.battVue.animazioneBattaglia(mossa.tipo, "Prt", "Avv");
+        this.battVue.animazioneBattaglia("Prt", "Avv");
 
         await this.sleep(5000);
              
@@ -107,7 +107,7 @@ class Battaglia {
             var mossa = this.battVue.dammiMossa(obj_batt.secondo.valore, this.battVue.activePkmAvv);
 
             this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario usa " + mossa.nome + ". ", 0);
-            this.battVue.animazioneBattaglia(mossa.tipo, "Avv", "Prt");
+            this.battVue.animazioneBattaglia("Avv", "Prt");
 
             await this.sleep(5000);
 
@@ -178,7 +178,7 @@ class Battaglia {
         var mossa = this.battVue.dammiMossa(obj_batt.primo.valore, this.battVue.activePkmAvv);
 
         this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario usa " + mossa.nome + ". ", 0);
-        this.battVue.animazioneBattaglia(mossa.tipo, "Avv", "Prt");
+        this.battVue.animazioneBattaglia("Avv", "Prt");
 
         await this.sleep(5000);
 
@@ -230,7 +230,7 @@ class Battaglia {
             var mossa = this.battVue.dammiMossa(obj_batt.secondo.valore, this.battVue.activePkmPrt);
 
             this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato usa " + mossa.nome + ". ", 0);
-            this.battVue.animazioneBattaglia(mossa.tipo, "Prt", "Avv");
+            this.battVue.animazioneBattaglia("Prt", "Avv");
 
             await this.sleep(5000);
 
@@ -347,7 +347,7 @@ class Battaglia {
             var mossa = this.battVue.dammiMossa(obj_batt.secondo.valore, this.battVue.activePkmAvv);
 
             this.scriviTestoBattaglia(this.battVue.activePkmAvv.nome + " avversario usa " + mossa.nome + ". ", 0);
-            this.battVue.animazioneBattaglia(mossa.tipo, "Avv", "Prt");
+            this.battVue.animazioneBattaglia("Avv", "Prt");
 
             await this.sleep(5000);
 
@@ -478,7 +478,7 @@ class Battaglia {
             var mossa = this.battVue.dammiMossa(obj_batt.secondo.valore, this.battVue.activePkmPrt);
 
             this.scriviTestoBattaglia(this.battVue.activePkmPrt.nome + " alleato usa " + mossa.nome + ". ", 0);
-            this.battVue.animazioneBattaglia(mossa.tipo, "Prt", "Avv");
+            this.battVue.animazioneBattaglia("Prt", "Avv");
 
             await this.sleep(5000);
 

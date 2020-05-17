@@ -172,6 +172,28 @@ battVue = new Vue({
     },
 
     methods: {
+        //metodo da chiamare dopo la creazione del Vue che prende la squadra del protagonista dalla local storage 
+        //e inizializza gli username dei due allenatori in base alle stringhe prese in input
+        inizializzaVue(bcpc, prt, avv) {
+            this.bcpc = bcpc;
+            this.protagonista.username = prt;
+            this.avversario.username = avv;
+
+            if(localStorage.getItem("squadra") != null) {
+                var json = JSON.parse(localStorage.getItem("squadra"));
+
+                var i, j;
+                for(i = 0; i < 6; i++) {
+                    this.aggiungiPkm(json[i].id, this.protagonista);
+
+                    for(j = 0; j < 4; j++) {
+                        this.aggiungiMossa(json[i].mosse[j], this.protagonista.squadra[i+1]);
+                    }
+                }
+            }
+        },
+
+
         //metodo per non permettere al giocatore di scegliere alcuna azione
         disabilitaTutto() {
             this.switchAttivo = false;
@@ -296,12 +318,9 @@ battVue = new Vue({
         },
 
 
-        //DA MODIFICARE UNA VOLTA SI LAVORA SU VERA GUI
         //metodo per mostrare sulla gui la mossa subita dal difensore
         //attaccante e difensore possono essere solo le stringhe "Prt" o "Avv" e diversi fra loro
-        animazioneBattaglia: function (tipo, attaccante, difensore) {
-            //CAMBIA BACKGROUND IN BASE TIPO
-
+        animazioneBattaglia: function (attaccante, difensore) {
             var selettoreAtt = "#sprite" + attaccante;
             var selettoreDif = "#sprite" + difensore;
 
@@ -348,8 +367,6 @@ battVue = new Vue({
             setTimeout(function () {
                 $(selettoreDif).css("transition", "transform 0s");
                 $(selettoreAtt).css("transition", "transform 0s");
-
-                //CAMBIA BACKGROUND A DEFAULT
             }, 2800);
         },
 
@@ -384,47 +401,3 @@ battVue = new Vue({
         },
     }
 });
-
-
-
-//TESTING
-battVue.protagonista.username = "Red";
-battVue.avversario.username = "CPU";
-
-/*
-battVue.aggiungiPkm(6, battVue.protagonista);
-battVue.aggiungiMossa(10, battVue.primoPkmPrt);
-battVue.aggiungiMossa(13, battVue.primoPkmPrt);
-battVue.aggiungiMossa(7, battVue.primoPkmPrt);
-battVue.aggiungiMossa(40, battVue.primoPkmPrt);
-
-battVue.aggiungiPkm(5, battVue.protagonista);
-battVue.aggiungiMossa(10, battVue.secondoPkmPrt);
-battVue.aggiungiMossa(13, battVue.secondoPkmPrt);
-battVue.aggiungiMossa(7, battVue.secondoPkmPrt);
-battVue.aggiungiMossa(40, battVue.secondoPkmPrt);
-
-battVue.aggiungiPkm(4, battVue.protagonista);
-battVue.aggiungiMossa(10, battVue.terzoPkmPrt);
-battVue.aggiungiMossa(13, battVue.terzoPkmPrt);
-battVue.aggiungiMossa(7, battVue.terzoPkmPrt);
-battVue.aggiungiMossa(40, battVue.terzoPkmPrt);
-
-battVue.aggiungiPkm(3, battVue.protagonista);
-battVue.aggiungiMossa(28, battVue.quartoPkmPrt);
-battVue.aggiungiMossa(13, battVue.quartoPkmPrt);
-battVue.aggiungiMossa(19, battVue.quartoPkmPrt);
-battVue.aggiungiMossa(58, battVue.quartoPkmPrt);
-
-battVue.aggiungiPkm(2, battVue.protagonista);
-battVue.aggiungiMossa(28, battVue.quintoPkmPrt);
-battVue.aggiungiMossa(13, battVue.quintoPkmPrt);
-battVue.aggiungiMossa(19, battVue.quintoPkmPrt);
-battVue.aggiungiMossa(58, battVue.quintoPkmPrt);
-
-battVue.aggiungiPkm(1, battVue.protagonista);
-battVue.aggiungiMossa(28, battVue.sestoPkmPrt);
-battVue.aggiungiMossa(13, battVue.sestoPkmPrt);
-battVue.aggiungiMossa(19, battVue.sestoPkmPrt);
-battVue.aggiungiMossa(58, battVue.sestoPkmPrt);
-*/
