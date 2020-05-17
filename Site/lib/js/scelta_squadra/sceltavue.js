@@ -63,6 +63,19 @@ window.addEventListener("load", function() {
             sestoPkm: function() {
                 if(this.squadra.length >= 7) return this.squadra[6];
                 else return this.squadra[0];
+            },
+
+
+            //computed che controlla se la squadra è stata completamente inizializzata
+            squadraPronta() {
+                if(this.squadra.length < 7) return false;
+
+                var i;
+                for(i=1; i<7; i++) {
+                    if(this.squadra[i].mosse.length < 4) return false;
+                }
+
+                return true;
             }
         },
 
@@ -93,24 +106,11 @@ window.addEventListener("load", function() {
             },
 
 
-            //metodo che controlla se la squadra è stata completamente inizializzata
-            squadraPronta() {
-                if(this.squadra.length < 7) return false;
-
-                var i;
-                for(i=1; i<7; i++) {
-                    if(this.squadra[i].mosse.length < 4) return false;
-                }
-
-                return true;
-            },
-
-
             //DA MODIFICARE: deve creare il battVue, bcpcontroller e inizializzare la battaglia e reindirizzare nella pagina apposita se ha successo
             //metodo chiamato premendo il pulsante di conferma
             conferma: function() {
                 //non hai la squadra ancora pronta
-                if(! this.squadraPronta()) {
+                if(! this.squadraPronta) {
                     //testing
                     console.log("NO");
                 }
@@ -137,15 +137,22 @@ window.addEventListener("load", function() {
             },
 
 
-            //metodo che mette il pokemon selezionato come quello selezionato
-            vediPkm: function(e) {
-                console.log(e.currentTarget.value);
+            //metodo che mette il pokemon selezionato come quello selezionato (appena si ha bottone renderlo disabled se squadra.includes(selectedPkm))
+            selezionaPkm: function(id) {
+                var i;
+                for(i=1; i<this.squadra.length; i++) {
+                    if(this.squadra[i].id == id) {
+                        this.selectedPkm = this.squadra[i];
+                        return;
+                    }
+                }
+
+                this.selectedPkm = prendiDalDB("pokemon", id);
             }
 
 
-            /*
-                fare un metodo che cliccando su una delle card e sinistra diventa pokemon selezionato
 
+            /*
                 fare un metodo che se si sta su un selezionato che sta già in squadra si può togliere dalla squadra
 
                 fare un metodo che cliccando su una delle mosse disponibili nella card del selezionato si può aggiungere alle mosse scelte

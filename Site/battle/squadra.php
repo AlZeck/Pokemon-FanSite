@@ -76,7 +76,7 @@
 		</div>
 		<div class="navbar-nav ml-auto border-left">
 			<button type="button" class="btn btn-primary ml-4 mr-2" v-on:click="casuale">CASUALE</button>
-			<button type="button" class="btn btn-success ml-2 mr-2" v-on:click="conferma">CONFERMA</button>
+			<button type="button" class="btn btn-success ml-2 mr-2" v-on:click="conferma" :disabled="!squadraPronta">CONFERMA</button>
 		</div>
 	</nav>
 	<div class="container-fluid">
@@ -92,7 +92,7 @@
 						foreach ($lis as $pokemon) {
 
 							echo    '<div class="mt-4">' .
-								'<div class="card" value="' . $pokemon["id"] . '" v-on:click="vediPkm">' .
+								'<div class="card" v-on:click="selezionaPkm(' . $pokemon["id"] . ')">' .
 								'<div class="card-body">' .
 								'<h5 class="card-title"> <span class="number">#' . $pokemon["id"] . ' </span>'
 								. ucfirst($pokemon["nome"]) . '</h5>' .

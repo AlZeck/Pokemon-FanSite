@@ -383,17 +383,6 @@ window.addEventListener("load", function() {
             },
 
 
-            //DA MODIFICARE UNA VOLTA SI LAVORA SU VERA GUI
-            //funzione per mostrare sulla gui l'abbassamento dei ps sulla barra del pokemon dell'allenatore (allenatoreStringa o "Prt" o "Avv")
-            animazioneBarra: function(nuoviPS, allenatore, allenatoreStringa) {
-                //fai un'animazione della barra che scende dal livello attuale a quello passato
-                //il colore è già gestito dal dom
-
-                //per testing
-                console.log(allenatore.username + " --- " + nuoviPS + " --- " + $("#ps" + allenatoreStringa).css("color"));
-            },
-
-
             //funzione per mostrare sulla gui il ritiro del pokemon attivo dell'allenatore dalla lotta (allenatoreStringa o "Prt" o "Avv")
             animazioneRitiro: function(allenatore, allenatoreStringa) {
                 var selettoreAllen = "#sprite" + allenatoreStringa;
