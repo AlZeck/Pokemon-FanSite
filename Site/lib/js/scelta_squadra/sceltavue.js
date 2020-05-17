@@ -20,26 +20,6 @@ var defaultPkm = {
     mosse: []
 }
 
-//testing
-var bulbasaur = {
-    id: 1,
-    nome: "Bulbasaur",
-    tipo1: "erba",
-    tipo2: "veleno",
-    uber: false,
-    psMax: 1,
-    ps: 0,
-    att: 0,
-    dif: 0,
-    atts: 0,
-    difs: 0,
-    vel: 0,
-    mini_sprite: "/assets/pokemon/mini_sprite/bulbasaur.png",
-    artwork: "/assets/pokemon/artwork/bulbasaur.png",
-    mosse: []
-}
-
-
 //per caricare l'oggetto vue con le sue informazioni al caricamento della pagina
 //window.addEventListener("load", function() {
 

@@ -382,14 +382,12 @@ battVueObj = {
             }, 2800);
         },
 
-        
+
         //funzione per mostrare sulla gui il ritiro del pokemon attivo dell'allenatore dalla lotta (allenatoreStringa o "Prt" o "Avv")
         animazioneRitiro: function (allenatore, allenatoreStringa) {
             var selettoreAllen = "#sprite" + allenatoreStringa;
             $(selettoreAllen).css("transition", "transform 3s");
             $(selettoreAllen).css("transform", "scale(0.2)");
-
-            //var allen = allenatore;
 
             setTimeout(function () {
                 $(selettoreAllen).css("transition", "transform 0s");

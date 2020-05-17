@@ -63,7 +63,6 @@ class Battaglia {
         var nuoviPS = this.battVue.activePkmAvv.ps - obj_batt.primo.danno;
         if(nuoviPS < 0) nuoviPS = 0;
         this.battVue.activePkmAvv.ps = nuoviPS;
-        this.battVue.animazioneBarra(nuoviPS, this.battVue.avversario, "Avv");
 
         await this.sleep(5000);
 
@@ -117,7 +116,6 @@ class Battaglia {
             nuoviPS = this.battVue.activePkmPrt.ps - obj_batt.secondo.danno;
             if(nuoviPS < 0) nuoviPS = 0;
             this.battVue.activePkmPrt.ps = nuoviPS;
-            this.battVue.animazioneBarra(nuoviPS, this.battVue.protagonista, "Prt");
 
             await this.sleep(5000);
 
@@ -189,7 +187,6 @@ class Battaglia {
         var nuoviPS = this.battVue.activePkmPrt.ps - obj_batt.primo.danno;
         if(nuoviPS < 0) nuoviPS = 0;
         this.battVue.activePkmPrt.ps = nuoviPS;
-        this.battVue.animazioneBarra(nuoviPS, this.battVue.protagonista, "Prt");
 
         await this.sleep(5000);
 
@@ -242,7 +239,6 @@ class Battaglia {
             nuoviPS = this.battVue.activePkmAvv.ps - obj_batt.secondo.danno;
             if(nuoviPS < 0) nuoviPS = 0;
             this.battVue.activePkmAvv.ps = nuoviPS;
-            this.battVue.animazioneBarra(nuoviPS, this.battVue.avversario, "Avv");
 
             await this.sleep(5000);
 
@@ -360,7 +356,6 @@ class Battaglia {
             var nuoviPS = this.battVue.activePkmPrt.ps - obj_batt.secondo.danno;
             if(nuoviPS < 0) nuoviPS = 0;
             this.battVue.activePkmPrt.ps = nuoviPS;
-            this.battVue.animazioneBarra(nuoviPS, this.battVue.protagonista, "Prt");
 
             await this.sleep(5000);
 
@@ -492,7 +487,6 @@ class Battaglia {
             var nuoviPS = this.battVue.activePkmAvv.ps - obj_batt.secondo.danno;
             if(nuoviPS < 0) nuoviPS = 0;
             this.battVue.activePkmAvv.ps = nuoviPS;
-            this.battVue.animazioneBarra(nuoviPS, this.battVue.avversario, "Avv");
 
             await this.sleep(5000);
 
