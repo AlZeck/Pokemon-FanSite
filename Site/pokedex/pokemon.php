@@ -217,8 +217,6 @@ if ($pokemon != NULL) {
 
 
                 </div>
-
-
             </div>
 
         </div>

@@ -1,32 +1,5 @@
-//variabile per poterlo usare al di fuori
-var battVue;
-
-//un oggetto pokemon di default
-var defaultPkm = {
-    id: 0,
-    nome: "???",
-    tipo1: "sconosciuto",
-    tipo2: null,
-    psMax: 1,
-    ps: 1,
-    att: 0,
-    dif: 0,
-    atts: 0,
-    difs: 0,
-    vel: 0,
-    mini_sprite: "/assets/pokemon/default_sprites/default_mini.png",
-    front_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
-    back_sprite: "/assets/pokemon/default_sprites/default_front_back.png",
-    mosse: []
-};
-
-
-
-//per caricare l'oggetto vue con le sue informazioni al caricamento della pagina
-//window.addEventListener("load", function() {
-
-//oggetto vue per le informazioni del gioco
-battVueObj = {
+//oggetto vue per le informazioni della battaglia
+battVue = new Vue({
     //id dell'element associato
     el: '#battVue',
 
@@ -56,8 +29,8 @@ battVueObj = {
             //index indicante se deve mostrare lo sprite del pokemon (0) o della pokeball (1) (inizialmente 1)
             indexSprite: 1,
 
-            //la squadra corrente, in posizione 0 ci sta il pokemon di default, ma nel caso del protagonista viene subito inizializzata tutta ai pokemon scelti
-            squadra: [defaultPkm]
+            //la squadra corrente, in posizione 0 ci sta il pokemon di default
+            squadra: [ defaultPkm ]
         },
 
         avversario: {
@@ -73,8 +46,8 @@ battVueObj = {
             //index indicante se deve mostrare lo sprite del pokemon (0) o della pokeball (1) (inizialmente 1)
             indexSprite: 1,
 
-            //la squadra corrente, in posizione 0 ci sta il pokemon di default, ma nel caso del protagonista viene subito inizializzata tutta ai pokemon scelti
-            squadra: [defaultPkm]
+            //la squadra corrente, in posizione 0 ci sta il pokemon di default
+            squadra: [ defaultPkm ]
         }
     },
 
@@ -223,8 +196,6 @@ battVueObj = {
 
         //metodo per mandare al server un messaggio di "mossa" (conseguentemente disattivo pulsanti)
         mandaMossa(e) {
-            if (!this.mosseAttive) return;  //controllo se posso inviare messaggio o meno
-
             this.disabilitaTutto();
             $("#testoBattaglia").html("Hai scelto una mossa. In attesa di risposta dal server...");
 
@@ -412,23 +383,15 @@ battVueObj = {
             }, 100);
         },
     }
-};
-
-
-
-/*
-    ------------------------------------------------------------------------------------------
-    ------------------------------------------------------------------------------------------
-    ------------------------------------------------------------------------------------------
-*/
+});
 
 
 
 //TESTING
-battVue = new Vue(battVueObj);
-
 battVue.protagonista.username = "Red";
+battVue.avversario.username = "CPU";
 
+/*
 battVue.aggiungiPkm(6, battVue.protagonista);
 battVue.aggiungiMossa(10, battVue.primoPkmPrt);
 battVue.aggiungiMossa(13, battVue.primoPkmPrt);
@@ -464,46 +427,4 @@ battVue.aggiungiMossa(28, battVue.sestoPkmPrt);
 battVue.aggiungiMossa(13, battVue.sestoPkmPrt);
 battVue.aggiungiMossa(19, battVue.sestoPkmPrt);
 battVue.aggiungiMossa(58, battVue.sestoPkmPrt);
-
-
-
-battVue.avversario.username = "CPU";
-
-/*
-battVue.aggiungiPkm(3, battVue.avversario);
-battVue.aggiungiMossa(28, battVue.primoPkmAvv);
-battVue.aggiungiMossa(13, battVue.primoPkmAvv);
-battVue.aggiungiMossa(19, battVue.primoPkmAvv);
-battVue.aggiungiMossa(58, battVue.primoPkmAvv);
-
-battVue.aggiungiPkm(2, battVue.avversario);
-battVue.aggiungiMossa(28, battVue.secondoPkmAvv);
-battVue.aggiungiMossa(13, battVue.secondoPkmAvv);
-battVue.aggiungiMossa(19, battVue.secondoPkmAvv);
-battVue.aggiungiMossa(58, battVue.secondoPkmAvv);
-
-battVue.aggiungiPkm(1, battVue.avversario);
-battVue.aggiungiMossa(28, battVue.terzoPkmAvv);
-battVue.aggiungiMossa(13, battVue.terzoPkmAvv);
-battVue.aggiungiMossa(19, battVue.terzoPkmAvv);
-battVue.aggiungiMossa(58, battVue.terzoPkmAvv);
-
-battVue.aggiungiPkm(6, battVue.avversario);
-battVue.aggiungiMossa(10, battVue.quartoPkmAvv);
-battVue.aggiungiMossa(13, battVue.quartoPkmAvv);
-battVue.aggiungiMossa(7, battVue.quartoPkmAvv);
-battVue.aggiungiMossa(40, battVue.quartoPkmAvv);
-
-battVue.aggiungiPkm(5, battVue.avversario);
-battVue.aggiungiMossa(10, battVue.quintoPkmAvv);
-battVue.aggiungiMossa(13, battVue.quintoPkmAvv);
-battVue.aggiungiMossa(7, battVue.quintoPkmAvv);
-battVue.aggiungiMossa(40, battVue.quintoPkmAvv);
-
-battVue.aggiungiPkm(4, battVue.avversario);
-battVue.aggiungiMossa(10, battVue.sestoPkmAvv);
-battVue.aggiungiMossa(13, battVue.sestoPkmAvv);
-battVue.aggiungiMossa(7, battVue.sestoPkmAvv);
-battVue.aggiungiMossa(40, battVue.sestoPkmAvv);
 */
-//});

@@ -49,7 +49,9 @@ body {
     min-width: 100px;
     border-radius: 5px;
 }
-
+.btn-tipo{
+    min-height: 41px;
+}
 .pokenavbar {
     background-image: linear-gradient(white, lightgrey, grey);
 }
@@ -97,7 +99,7 @@ body {
     border-radius: 5px;
 }
 
-.card-deck .card {
+.card-deck .cardpkm {
     height: 182px;
     width: 182px;
     justify-content: center;
@@ -148,9 +150,19 @@ hr {
 }
 
 
+.card-stat .row {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.uber-btn{
+    height: 30px;
+    width: 100%;
+    padding: 0px;
+}
+
 .progress{
     height: 30px;
-
     background-color: rgba(255, 255, 255, 0.5);
 }
 .progress-bar{
@@ -158,6 +170,7 @@ hr {
 }
 .card-stat{
     padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .card-stat .card-title{
@@ -170,4 +183,21 @@ hr {
 }
 .form-control{
     height:41px;
+}
+
+.card-mossa{
+    flex-direction: row!important;
+}
+.card-columns{
+    column-count: 2!important;
+}
+
+.divider-left{
+    border-left: 1px solid rgba(255, 255, 255, .2);
+}
+
+.btn-mossa{
+    width: 158px; 
+    align-items:center; 
+    font-weight: bold;
 }

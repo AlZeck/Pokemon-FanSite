@@ -1,48 +1,23 @@
-//variabile per poterlo usare al di fuori
-var sceltaVue;
-
-//un oggetto pokemon di default
-var defaultPkm = {
-    id: 0,
-    nome: "???",
-    tipo1: "sconosciuto",
-    tipo2: null,
-    uber: false,
-    psMax: 1,
-    ps: 1,
-    att: 0,
-    dif: 0,
-    atts: 0,
-    difs: 0,
-    vel: 0,
-    mini_sprite: "/assets/pokemon/default_sprites/default_mini.png",
-    artwork: "/assets/pokemon/default_sprites/default_artwork.png",
-    mosse: []
-}
-
-//per caricare l'oggetto vue con le sue informazioni al caricamento della pagina
-//window.addEventListener("load", function() {
-
-//oggetto vue per le informazioni del gioco
-var sceltaVueObj = {
+//oggetto vue per la scelta della squadra
+var sceltaVue = new Vue({
     //id dell'element associato
     el: '#sceltaVue',
 
     data: {
         //l'oggetto pokemon selezionato (inizialmente defaultPkm)
-        selectedPkm: defaultPkm,
+        selectedPkmData: defaultPkm,
 
         //la squadra corrente, in posizione 0 ci sta il pokemon di default
         squadra: [defaultPkm],
 
-        //il json della squadra completa da inviare poi al server (casuale lo inizializza subito)
+        //il json della squadra completa da inviare poi al server
         squadraJSON: ""
     },
 
     computed: {
         //il computed per ottenere il pokemon selezionato del protagonista in base al valore del suo indice
         selectedPkm: function () {
-            return this.selectedPkm;
+            return this.selectedPkmData;
         },
 
 
@@ -88,8 +63,8 @@ var sceltaVueObj = {
         },
 
 
-        //metodo che controlla se la squadra è stata completamente inizializzata
-        squadraPronta() {
+        //il computed che controlla se la squadra è stata completamente inizializzata
+        squadraPronta: function () {
             if (this.squadra.length < 7) return false;
 
             var i;
@@ -99,27 +74,74 @@ var sceltaVueObj = {
 
             return true;
         },
+
+
+        //il computed che ridà la lista di tutte le mosse disponibili per il selectedPkm
+        tutteMosse: function () {
+            if(this.selectedPkmData.id != 0) return prendiDalDB("moveset", this.selectedPkmData.id);
+            else return [];
+        }
     },
 
     methods: {
-        //metodo per cambiare il pokemon selezionato dell'allenatore in base all'indice passato e se il pokemon è noto o meno
+        //metodo per cambiare il pokemon selezionato prendendolo dalla squadra in base all'indice passato e se il pokemon è noto o meno
         cambiaSelectedPkmSquadra: function (i) {
-            if (i < this.squadra.length) this.selectedPkm = this.squadra[i];
+            if (i < this.squadra.length) this.selectedPkmData = this.squadra[i];
         },
 
 
-        //metodo chiamato premendo il pulsante di creazione squadra casuale
-        casuale: function () {
-            this.squadraJSON = creaSquadra();
+        //metodo per cambiare il pokemon selezionato prendendolo dalla lista in base all'id. Se già stava in squadra lo prende da lì.
+        cambiaSelectedPkm: function (id) {
+            var i;
+            for (i = 1; i < this.squadra.length; i++) {
+                if (this.squadra[i].id == id) {
+                    this.selectedPkmData = this.squadra[i];
+                    return;
+                }
+            }
 
-            var nuovaSquadra = [defaultPkm];
+            this.selectedPkmData = prendiDalDB("pokemon", id);
+        },
+
+
+        //metodo per aggiungere il selectedPkm alla squadra (controlla nel dom se già c'è o squadra piena)
+        aggiungiPkm: function () {
+            this.squadra.push( this.selectedPkmData );
+        },
+        
+
+        //metodo per togliere un pokemon tra quelli selezionati dalla squadra (in tal caso squadraJSON rivà a stringa vuota)
+        rimuoviPkm: function () {
+            var index = this.squadra.indexOf(this.selectedPkmData);
+            if (index !== -1) this.squadra.splice(index, 1);
+            this.squadraJSON = "";
+        },
+
+
+        //metodo per aggiungere una mossa disponibile tra quelle selezionate dal selectedPkm (controlla nel dom se moveset già pieno o mossa già c'è)
+        aggiungiMossa: function (m) {
+            this.selectedPkmData.mosse.push(m);
+        },
+
+
+        //metodo per togliere una mossa tra quelle già selezionate dal selectedPkm (in tal caso squadraJSON rivà a stringa vuota)
+        rimuoviMossa: function (index) {
+            this.selectedPkmData.mosse.splice(index, 1);
+            this.squadraJSON = "";
+        },
+
+
+        //metodo che passato un oggetto json del tipo {"id": id_pkm, "mosse": [id_mossa1, id_mossa2, id_mossa3, id_mossa4]} lo converte nella squadra vera e propria
+        squadraDaJson: function(json) {
+            this.squadraJSON = json;
+            var nuovaSquadra = [ defaultPkm ];
 
             var i, j;
             for (i = 0; i < 6; i++) {
-                nuovaSquadra.push(prendiDalDB("pokemon", this.squadraJSON[i].id));
+                nuovaSquadra.push( prendiDalDB("pokemon", this.squadraJSON[i].id) );
 
                 for (j = 0; j < 4; j++) {
-                    nuovaSquadra[i + 1].mosse.push(prendiDalDB("mossa", this.squadraJSON[i].mosse[j]));
+                    nuovaSquadra[i + 1].mosse.push( prendiDalDB("mossa", this.squadraJSON[i].mosse[j]) );
                 }
             }
 
@@ -128,62 +150,41 @@ var sceltaVueObj = {
         },
 
 
-        //DA MODIFICARE: deve creare il battVue, bcpcontroller e inizializzare la battaglia e reindirizzare nella pagina apposita se ha successo
-        //metodo chiamato premendo il pulsante di conferma
-        conferma: function () {
-            //non hai la squadra ancora pronta
-            if (!this.squadraPronta) {
-                //testing
-                console.log("NO");
-            }
-
-            else {
-                if (this.squadraJSON == "") {
-                    var sjson = [];
-
-                    var i, j;
-                    for (i = 1; i < 7; i++) {
-                        sjson.push({ "id": this.squadra[i].id, "mosse": [] });
-
-                        for (j = 0; j < 4; j++) {
-                            sjson[i - 1].mosse.push(this.squadra[i].mosse[j].id);
-                        }
-                    }
-
-                    this.squadraJSON = sjson;
-                }
-
-                //testing
-                console.log(this.squadraJSON);
-            }
+        //metodo per la creazione squadra casuale (legato al bottone CASUALE)
+        casuale: function () {
+            this.squadraDaJson( creaSquadra() );
         },
 
 
-        //metodo che mette il pokemon selezionato come quello selezionato (appena si ha bottone renderlo disabled se squadra.includes(selectedPkm))
-        selezionaPkm: function (id) {
-            var i;
-            for (i = 1; i < this.squadra.length; i++) {
-                if (this.squadra[i].id == id) {
-                    this.selectedPkm = this.squadra[i];
-                    return;
+        //metodo per confermare la squadra scelta (legato al bottone CONFERMA)
+        //la salva nella local storage
+        //controlla che la squadra sia pronta nel dom
+        conferma: function () {
+            //se ancora non si ha il JSON aggiornato
+            if(this.squadraJSON == "") {
+                var sjson = [];
+
+                var i, j;
+                for(i = 1; i < 7; i++) {
+                    sjson.push({ "id": this.squadra[i].id, "mosse": [] });
+
+                    for(j = 0; j < 4; j++) {
+                        sjson[i-1].mosse.push(this.squadra[i].mosse[j].id);
+                    }
                 }
+
+                this.squadraJSON = sjson;
             }
 
-            this.selectedPkm = prendiDalDB("pokemon", id);
+            localStorage.setItem("squadra", JSON.stringify(this.squadraJSON));
+            window.location.assign('/battle/sfida.php');
         }
+    }
+});
 
-    /*
-        fare un metodo che se si sta su un selezionato che sta già in squadra si può togliere dalla squadra
 
-        fare un metodo che cliccando su una delle mosse disponibili nella card del selezionato si può aggiungere alle mosse scelte
 
-        fare un metodo che si può togliere una delle mosse scelte del pokemon selezionato
-    */
-}
+//controlla se esiste già una squadra in local storage, se sì la carica subito
+if(localStorage.getItem("squadra") != null){
+    sceltaVue.squadraDaJson(JSON.parse(localStorage.getItem("squadra")));
 };
-
-
-
-//istanzio nuovo oggetto Vue
-sceltaVue = new Vue(sceltaVueObj);
-//});

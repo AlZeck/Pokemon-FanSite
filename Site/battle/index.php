@@ -1,6 +1,6 @@
 <?php
 if (!isset($_COOKIE['PHPSESSID']) || !isset($_COOKIE['user'])) {
-	include "index.html";
+	include "error.html";
 	die();
 }
 session_start();
@@ -55,9 +55,10 @@ $lis = $con->getPokemonList();
 	<style>
 	</style>
 
-	<script type="text/javascript" lang="javascript" src="/lib/js/battaglia/vue.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	<script type="text/javascript" lang="javascript" src="/lib/js/battaglia/prendi_dal_db.js"></script>
 	<script type="text/javascript" lang="javascript" src="/lib/js/battaglia/squadra_casuale.js"></script>
+	<script type="text/javascript" lang="javascript" src="/lib/js/defaultpkm.js"></script>
 
 </head>
 
@@ -77,7 +78,7 @@ $lis = $con->getPokemonList();
 				<div class="nav-link active btn pokebtn" v-on:click="cambiaSelectedPkmSquadra(6)"> <img v-bind:src="sestoPkm.mini_sprite" alt="mini-sprite"> {{ sestoPkm.nome }} </div>
 			</div>
 			<div class="navbar-nav ml-auto border-left">
-				<button type="button" class="btn btn-primary ml-4 mr-2" v-on:click="casuale">CASUALE</button>
+				<button type="button" class="btn btn-primary ml-4 mr.-2" v-on:click="casuale">CASUALE</button>
 				<button type="button" class="btn btn-success ml-2 mr-2" v-on:click="conferma" :disabled="!squadraPronta">CONFERMA</button>
 			</div>
 		</nav>
@@ -94,7 +95,7 @@ $lis = $con->getPokemonList();
 						foreach ($lis as $pokemon) {
 
 							echo    '<div class="mt-4">' .
-								'<div class="card" v-on:click="selezionaPkm(' . $pokemon["id"] . ')">' .
+								'<div class="card cardpkm" v-on:click="cambiaSelectedPkm(' . $pokemon["id"] . ')">' .
 								'<div class="card-body">' .
 								'<h5 class="card-title"> <span class="number">#' . $pokemon["id"] . ' </span>'
 								. ucfirst($pokemon["nome"]) . '</h5>' .
@@ -110,113 +111,137 @@ $lis = $con->getPokemonList();
 
 				<div class="col-lg-4 pokeinfo">
 					<div id="selectedPkm">
-						<div class="btn-toolbar onbar justify-content-between" role="toolbar">
-							<div role="group">
+						<div class="d-flex onbar">
+							<div class="mr-auto">
 								<h3> {{ selectedPkm.nome }} </h3>
 							</div>
 
-							<div class="btn-group">
-								<span class="btn btn-tipo" v-bind:class="selectedPkm.tipo1"> {{ selectedPkm.tipo1 }} </span>
-								<span v-if="selectedPkm.tipo2 != null" class="btn btn-tipo" v-bind:class="selectedPkm.tipo2"> {{ selectedPkm.tipo2 }} </span>
+							<div class="btn-group mr-2">
+								<div class="btn btn-tipo" v-bind:class="selectedPkm.tipo1"> {{ selectedPkm.tipo1.toUpperCase() }} </div>
+								<div v-if="selectedPkm.tipo2 != null" class="btn btn-tipo" v-bind:class="selectedPkm.tipo2"> {{ selectedPkm.tipo2.toUpperCase() }} </div>
 							</div>
-
+							<div class="divider-left">
+								<button v-if="!squadra.includes(selectedPkm)" type="button" class="btn btn-tipo ml-2 btn-success" :disabled="squadra.length >= 7" v-on:click="aggiungiPkm">AGGIUNGI</button>
+								<button v-else type="button" class="btn btn-tipo ml-2 btn-danger" :disabled="selectedPkm.id == 0" v-on:click="rimuoviPkm">RIMUOVI</button>
+							</div>
 						</div>
 						<div class="scroll">
 							<br>
+							<div class="media">
+								<img class="align-self-center mr-3" v-bind:src="selectedPkm.artwork" alt="artwork">
 
-							<img v-bind:src="selectedPkm.artwork" alt="artwork">
-							{{ selectedPkm.uber }}
+								<div class="media-body">
+									<div class="card">
+										<div class="card-body card-stat">
+											<div class="row">
+												<div class="col-sm-2 stat-label">PS</div>
+												<div class="col">
+													<div class="progress justify-content-between">
+														<div class="progress-bar bar-stat-ps" role="progressbar" v-bind:aria-valuenow="selectedPkm.ps" aria-valuemin="0" v-bind:aria-valuemax="270" :style="{ width: selectedPkm.ps/270*100 + '%'} ">
+															{{selectedPkm.ps}} </div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-sm-2 stat-label">ATT</div>
+												<div class="col">
+													<div class="progress justify-content-between">
+														<div class="progress-bar bar-stat-att" role="progressbar" v-bind:aria-valuenow="selectedPkm.att" aria-valuemin="0" v-bind:aria-valuemax="270" :style="{ width: selectedPkm.att/270*100 + '%' }">
+															{{selectedPkm.att}} </div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-sm-2 stat-label">DIF</div>
+												<div class="col">
+													<div class="progress justify-content-between">
+														<div class="progress-bar bar-stat-dif" role="progressbar" v-bind:aria-valuenow="selectedPkm.dif" aria-valuemin="0" v-bind:aria-valuemax="270" :style="{ width: selectedPkm.dif/270*100 + '%' }">
+															{{selectedPkm.dif}} </div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-sm-2 stat-label">ATTS</div>
+												<div class="col">
+													<div class="progress justify-content-between">
+														<div class="progress-bar bar-stat-attsp" role="progressbar" v-bind:aria-valuenow="selectedPkm.atts" aria-valuemin="0" v-bind:aria-valuemax="270" :style="{ width: selectedPkm.atts/270*100 + '%' }">
+															{{selectedPkm.atts}} </div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-sm-2 stat-label">DIFS</div>
+												<div class="col">
+													<div class="progress justify-content-between">
+														<div class="progress-bar bar-stat-difsp" role="progressbar" v-bind:aria-valuenow="selectedPkm.difs" aria-valuemin="0" v-bind:aria-valuemax="270" :style="{ width: selectedPkm.difs/270*100 + '%' }">
+															{{selectedPkm.difs}} </div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-sm-2 stat-label">VEL</div>
+												<div class="col">
+													<div class="progress justify-content-between">
+														<div class="progress-bar bar-stat-vel" role="progressbar" v-bind:aria-valuenow="selectedPkm.vel" aria-valuemin="0" v-bind:aria-valuemax="270" :style="{ width: selectedPkm.vel/270*100 + '%' }">
+															{{selectedPkm.vel}} </div>
+													</div>
+												</div>
+											</div>
+											<hr>
+											<div class="row">
+												<div class="col-sm-2 stat-label">UBER</div>
+												<div class="col">
+													<div class="btn uber-btn" v-bind:class=" (selectedPkm.uber)? 'btn-success' : 'btn-danger'">
+														{{ selectedPkm.uber.toString().toUpperCase() }}
+													</div>
 
-							<br>
+												</div>
+											</div>
 
-							<div class="card">
-								<div class="card-body card-stat">
-									<div class="row">
-										<div class="col-sm-2 stat-label">PS</div>
-										<div class="col">
-											<div class="progress justify-content-between">
-												<div class="progress-bar bar-stat-ps" role="progressbar" v-bind:aria-valuenow="selectedPkm.ps" aria-valuemin="0" v-bind:aria-valuemax="270" :style="{ width: selectedPkm.ps/270*100 + '%'} ">
-													{{selectedPkm.ps}} </div>
-											</div>
 										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-2 stat-label">ATT</div>
-										<div class="col">
-											<div class="progress justify-content-between">
-												<div class="progress-bar bar-stat-att" role="progressbar" v-bind:aria-valuenow="selectedPkm.att" aria-valuemin="0" v-bind:aria-valuemax="270" :style="{ width: selectedPkm.att/270*100 + '%' }">
-													{{selectedPkm.att}} </div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-2 stat-label">DIF</div>
-										<div class="col">
-											<div class="progress justify-content-between">
-												<div class="progress-bar bar-stat-dif" role="progressbar" v-bind:aria-valuenow="selectedPkm.dif" aria-valuemin="0" v-bind:aria-valuemax="270" :style="{ width: selectedPkm.dif/270*100 + '%' }">
-													{{selectedPkm.dif}} </div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-2 stat-label">ATTS</div>
-										<div class="col">
-											<div class="progress justify-content-between">
-												<div class="progress-bar bar-stat-attsp" role="progressbar" v-bind:aria-valuenow="selectedPkm.atts" aria-valuemin="0" v-bind:aria-valuemax="270" :style="{ width: selectedPkm.atts/270*100 + '%' }">
-													{{selectedPkm.atts}} </div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-2 stat-label">DIFS</div>
-										<div class="col">
-											<div class="progress justify-content-between">
-												<div class="progress-bar bar-stat-difsp" role="progressbar" v-bind:aria-valuenow="selectedPkm.difs" aria-valuemin="0" v-bind:aria-valuemax="270" :style="{ width: selectedPkm.difs/270*100 + '%' }">
-													{{selectedPkm.difs}} </div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-2 stat-label">VEL</div>
-										<div class="col">
-											<div class="progress justify-content-between">
-												<div class="progress-bar bar-stat-vel" role="progressbar" v-bind:aria-valuenow="selectedPkm.vel" aria-valuemin="0" v-bind:aria-valuemax="270" :style="{ width: selectedPkm.vel/270*100 + '%' }">
-													{{selectedPkm.vel}} </div>
-											</div>
-										</div>
-
 									</div>
 								</div>
 							</div>
 
 							<br>
 
-							<!-- FARE CHE SE UNA MOSSA ANCORA NON PRESA C'È UN RIQUADRO DI DEFAULT -->
-							<button class="card card-body" v-for="m in selectedPkm.mosse" v-bind:value="m.id" v-bind:class="m.tipo">
-								<h5 class="card-title">{{ m.nome }} </h5>
-								{{ m.tipo.toUpperCase() }} {{ m.categoria.toUpperCase() }} <br>
-								{{ m.potenza }} - {{ m.precisione }}
-							</button>
+							<div class="card-columns">
+								<button type="button" class="card card-mossa" v-for="(m,i) in selectedPkm.mosse" v-bind:value="m.id" v-bind:class="m.tipo" v-on:dblclick="rimuoviMossa(i)">
+									<div class="card-body">
+										<h3 class="card-title text-center">{{ m.nome.toUpperCase() }} </h3>
+										<div class="d-flex justify-content-between">
+											<div>{{ m.tipo.toUpperCase() }}</div>
+											<div>{{ m.categoria.toUpperCase() }}</div>
+										</div>
+										<div class="d-flex justify-content-between">
+											<div>PT: {{ m.potenza }} </div>
+											<div>PR: {{ m.precisione }}</div>
+										</div>
+									</div>
+								</button>
+							</div>
 
+							<hr>
+
+
+
+							<div class="d-flex justify-content-center flex-wrap">
+								<button v-for="m in tutteMosse" class="btn btn-mossa m-2" v-bind:class="m.tipo" v-bind:value="m.id" v-on:click="aggiungiMossa(m)" 
+								:disabled="selectedPkm.mosse.length == 4" v-show="!selectedPkm.mosse.includes(m)">
+									{{m.nome}}
+								</button>
+							</div>
 							<br>
 
-							<!-- QUI METTERE LISTA MOSSE DISPONIBILI -->
+
+
+
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- <div class="container">
-		<h1 class="display-4">Ciao, Pokefan!</h1>
-		<p class="lead"> Purtroppo il nostro simulatore di battaglia non è un ancora disponibile,
-			siamo un gruppo di studenti amanti a i pokemon e lavoriamo quanto possibile per avere tutto funzionante il prima possibile.</p>
-		<hr class="my-4">
-		<p>Ti invitiamo a tornare indietro e continuare vedere il resto del nostro sito :).</p>
-		<p class="lead">
-			<a class="btn btn-primary btn-lg" href="/" role="button">Go Back</a>
-		</p>
-	</div> -->
 
 	</div>
 
