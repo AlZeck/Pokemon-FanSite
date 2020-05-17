@@ -121,7 +121,7 @@ $lis = $con->getPokemonList();
 								<div v-if="selectedPkm.tipo2 != null" class="btn btn-tipo" v-bind:class="selectedPkm.tipo2"> {{ selectedPkm.tipo2.toUpperCase() }} </div>
 							</div>
 							<div class="divider-left">
-								<button v-if="!squadra.includes(selectedPkm)" type="button" class="btn btn-tipo ml-2 btn-success" :disabled="squadra.length >= 7" v-on:click="aggiungiPkm">AGGIUNGI</button>
+								<button v-if="!squadra.includes(selectedPkm)" type="button" class="btn btn-tipo ml-2 btn-success" :disabled="squadra.length >= 7 || (selectedPkm.uber && quantiUber==2)" v-on:click="aggiungiPkm">AGGIUNGI</button>
 								<button v-else type="button" class="btn btn-tipo ml-2 btn-danger" :disabled="selectedPkm.id == 0" v-on:click="rimuoviPkm">RIMUOVI</button>
 							</div>
 						</div>

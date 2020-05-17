@@ -4,6 +4,9 @@ var sceltaVue = new Vue({
     el: '#sceltaVue',
 
     data: {
+        //un numero che indica quanti uber son presenti nella squadra (inizialmente 0, non devono essere più di 2)
+        quantiUber: 0,
+
         //l'oggetto pokemon selezionato (inizialmente defaultPkm)
         selectedPkmData: defaultPkm,
 
@@ -106,14 +109,18 @@ var sceltaVue = new Vue({
 
         //metodo per aggiungere il selectedPkm alla squadra (controlla nel dom se già c'è o squadra piena)
         aggiungiPkm: function () {
+            if(this.selectedPkm.uber) this.quantiUber++;
             this.squadra.push( this.selectedPkmData );
         },
         
 
         //metodo per togliere un pokemon tra quelli selezionati dalla squadra (in tal caso squadraJSON rivà a stringa vuota)
         rimuoviPkm: function () {
+            if(this.selectedPkm.uber) this.quantiUber--;
+
             var index = this.squadra.indexOf(this.selectedPkmData);
             if (index !== -1) this.squadra.splice(index, 1);
+
             this.squadraJSON = "";
         },
 
@@ -140,8 +147,10 @@ var sceltaVue = new Vue({
             for (i = 0; i < 6; i++) {
                 nuovaSquadra.push( prendiDalDB("pokemon", this.squadraJSON[i].id) );
 
+                if(nuovaSquadra[i+1].uber) this.quantiUber++;
+
                 for (j = 0; j < 4; j++) {
-                    nuovaSquadra[i + 1].mosse.push( prendiDalDB("mossa", this.squadraJSON[i].mosse[j]) );
+                    nuovaSquadra[i+1].mosse.push( prendiDalDB("mossa", this.squadraJSON[i].mosse[j]) );
                 }
             }
 
@@ -152,6 +161,7 @@ var sceltaVue = new Vue({
 
         //metodo per la creazione squadra casuale (legato al bottone CASUALE)
         casuale: function () {
+            this.quantiUber = 0;
             this.squadraDaJson( creaSquadra() );
         },
 
