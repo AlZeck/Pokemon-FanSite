@@ -7,10 +7,6 @@
                 "team": {} // json string to pass to battle 
             }
         },
-        { //request update (USER LIST or STATUS)
-            "type": "update",
-            "value": ""
-        },
         { // case new battle with CPU 
             "type": "CPU",
             "value": {
@@ -22,7 +18,7 @@
             "type": "request",
             "value": {
                 "sender": "username",
-                "destination": "destination", // CPU if local
+                "destination": "destination" // CPU if local
             }
         },
         /**
@@ -53,6 +49,10 @@
                 "sender": "username",
                 "battleInfo": ""
             }
+        },
+        { //battle messages 
+            "type": "cancel",
+            "value": ""
         }
     ],
     "fromServer": [

@@ -36,7 +36,7 @@ class BattleServerInterface implements MessageComponentInterface {
             if (!$client->isInBattle())
                 array_push($lisclients, $client->getUsername());
         }
-        $msg = "{ \"type\": \"update\", \"lis\" : [\"" . implode("\",\"", $lisclients) . "\"] }";
+        $msg = "{ \"type\": \"update\", \"value\" : [\"" . implode("\",\"", $lisclients) . "\"] }";
         echo "sending pool Message : " . $msg . "\n";
         foreach ($this->clients as $client) {
             $client->send($msg);
@@ -88,17 +88,6 @@ class BattleServerInterface implements MessageComponentInterface {
 
                 self::updateUsers();
                 break;
-            case 'update':
-                /**
-                 * the arrival of this message means the user have finish it's battle
-                 * and wants to communicate the other users is open for new challenges
-                 * 
-                 * @return toClients updated userlist 
-                 */
-                $client = self::getUserbyConnection($from);
-                $client->deleteBattle();
-                self::updateUsers();
-                break;
             case 'CPU':
                 /**
                  * Create new battle against CPU
@@ -118,14 +107,15 @@ class BattleServerInterface implements MessageComponentInterface {
                 $client = self::getUserbyConnection($from);
                 $adv = $parsedMsg["value"]["destination"];
                 if ($adv == 'CPU') {
-                    $client->startBattle(new CPU($team));
+                    $client->startBattle($client->getAdv());
                 } else {
                     $clientAdv = self::getUserbyUserName($adv);
-                    if ($clientAdv !== NULL) {
+                    if ($clientAdv !== NULL && $clientAdv->getWaiting() != "") {
+                        $client->setWaiting(true); // sets client to wait for battle accept
                         $clientAdv->send($msg); //forward the request to the adv
                     } else {
                         //adv not found ERROR? 
-                        $client->send('{ "type" : "error", "value" : "USER NOT FOUND"}');
+                        $client->send('{ "type" : "error", "value" : "USER NOT AVAILIBLE"}');
                     }
                 }
                 break;
@@ -138,22 +128,32 @@ class BattleServerInterface implements MessageComponentInterface {
                 $client = self::getUserbyConnection($from);
                 $adv = $parsedMsg['value']['destination'];
                 $clientAdv = self::getUserbyUserName($adv);
-                if ($clientAdv !== NULL) {
-                    // ADV FOUND start battle 
+                if ( $clientAdv !== NULL && $clientAdv->getWaiting() == $parsedMsg['value']['sender']) {
+                    // ADV FOUND start battle and availible
                     $clientAdv->startBattle($client);
                 } else {
                     //adv not found ERROR? 
-                    $client->send('{ "type" : "error", "value" : "USER NOT FOUND"}');
+                    $client->send('{ "type" : "error", "value" : "USER NOT AVAILIBLE" }');
                 }
                 break;
             case 'refuse':
+                 /**
+                 * User refuses the battle request
+                 * @return if( adv exist ) refuses Message
+                 *          else none
+                 */
                 $adv = $parsedMsg['value']['destination'];
                 $clientAdv = self::getUserbyUserName($adv);
-                if ($clientAdv !== NULL) {
+                if ( $clientAdv !== NULL  && $clientAdv->getWaiting() == $parsedMsg['value']['sender'] ) {
                     // ADV FOUND FOWARD MESSAGE
+                    $clientAdv->setWaiting("");
                     $clientAdv->send($msg);
                 }
                 // if not found Ignore //
+                break;
+            case 'cancel':
+                $client = self::getUserbyConnection($from);
+                $client->setWaiting("");
                 break;
             case 'battle':
                 $client = self::getUserbyConnection($from);
@@ -164,6 +164,9 @@ class BattleServerInterface implements MessageComponentInterface {
                     $client->selectAction($info);
                 }
                 break;
+            
+
+
             default:
                 $from->send('{ "type" : "error", "value" : "TYPE NOT FOUND"}');
         }
@@ -245,12 +248,15 @@ class CPU {
 class User extends CPU {
     //"{ type: "user|msg", sender: username, dest: dest, msg: message }"
     private $conn;  //conn->resourceId
-    
+    private $waitstatus;
+
+
 
     function __construct(ConnectionInterface $conn) {
         parent::__construct("");
         $this->conn = $conn;
         $this->username = "";
+        $this->waitstatus = "";
     }
 
     function setInfo($username, $team) {
@@ -312,6 +318,15 @@ class User extends CPU {
         } else {
             return FALSE;
         }
+    }
+
+    // possible status availible, wait
+    function getWaiting(){
+        return $this->waitstatus;
+    }
+
+    function setWaiting($val){
+        $this->waitstatus = $val;
     }
 
     function selectAction($action) {
