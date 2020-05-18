@@ -23,6 +23,10 @@ body {
     width: 120px;
 }
 
+.btn-tipo:hover {
+    color:white;
+}
+
 
 .progress{
     height: 30px;

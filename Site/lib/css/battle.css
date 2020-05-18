@@ -20,6 +20,7 @@ body {
 
 .btn-tipo {
     width: 100%;
+    cursor: default;
 }
 
 .btn-group {
@@ -79,6 +80,7 @@ body {
 
 .card-mossa {
     min-width: 140px;
+    cursor: default;
 }
 
 .pkavv {
@@ -104,4 +106,5 @@ body {
 
 .pokelis {
     padding: 8px;
+    cursor: pointer;
 }

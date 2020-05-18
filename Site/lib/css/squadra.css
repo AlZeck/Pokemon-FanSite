@@ -49,9 +49,11 @@ body {
     min-width: 100px;
     border-radius: 5px;
 }
+
 .btn-tipo{
     min-height: 41px;
 }
+
 .pokenavbar {
     background-image: linear-gradient(white, lightgrey, grey);
 }
@@ -103,6 +105,7 @@ body {
     height: 182px;
     width: 182px;
     justify-content: center;
+    cursor: pointer;
 }
 
 /* .form-control{

@@ -21,10 +21,9 @@ class Battaglia {
 
             //se è una rivincita contro la CPU
             else {
-                objCPU.indexActivePkm = 0;
-                objCPU.ancoraVivi = [0, 1, 2, 3, 4, 5];
+                objCPU._indexActivePkm = 0;
+                objCPU._ancoraVivi = [0, 1, 2, 3, 4, 5];
                 this._cpu = objCPU;
-                this.battVue.bcpc.request("CPU");
             }            
         }
         else this._cpu = undefined;

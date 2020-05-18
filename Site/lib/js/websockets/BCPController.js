@@ -9,7 +9,7 @@ class BCPController {
      * @param {function} msgreceiver callbackfunction
      */
     constructor(username, team, msgreceiver) {
-        var x =  new WebSocket('ws://localhost:8080');
+        var x =  new WebSocket('ws://'+window.location.hostname+':8080');
         this.conn = x;
         this.username = username;
         this.conn.onopen = function (e) {

@@ -30,31 +30,10 @@ $lis = $con->getPokemonList();
 	<link href="/lib/css/stat.css" rel="stylesheet">
 	<link href="/lib/css/squadra.css" rel="stylesheet">
 	<link href="/lib/css/tipi.css" rel="stylesheet">
-	<script>
-		function myFunction() {
-			// Declare variables
-			var input, filter, ul, li, a, i, txtValue;
-			input = document.getElementById('myInput');
-			filter = input.value.toUpperCase();
-			ul = document.getElementById("pokelist");
-			li = ul.getElementsByClassName('mt-4');
-
-			// Loop through all list items, and hide those who don't match the search query
-			for (i = 0; i < li.length; i++) {
-				a = li[i].getElementsByTagName("h5")[0];
-				txtValue = a.textContent || a.innerText;
-				if (txtValue.toUpperCase().indexOf(filter) > -1) {
-					li[i].style.display = "";
-				} else {
-					li[i].style.display = "none";
-				}
-			}
-		}
-	</script>
-	<style>
-	</style>
 
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script type="text/javascript" lang="javascript" src="/lib/js/search.js"></script>
 	<script type="text/javascript" lang="javascript" src="/lib/js/battaglia/prendi_dal_db.js"></script>
 	<script type="text/javascript" lang="javascript" src="/lib/js/battaglia/squadra_casuale.js"></script>
 	<script type="text/javascript" lang="javascript" src="/lib/js/defaultpkm.js"></script>
@@ -86,7 +65,7 @@ $lis = $con->getPokemonList();
 
 				<div class="col-lg-8">
 					<div class="onbar">
-						<input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+						<input type="text" class="form-control" id="searchbar" onkeyup="search('searchbar', 'pokelist', 'cardpkm', 'h5')" placeholder="Cerca tramite nome o id">
 					</div>
 					<div id="pokelist" class="card-deck scroll pb-4">
 
@@ -116,8 +95,8 @@ $lis = $con->getPokemonList();
 							</div>
 
 							<div class="btn-group mr-2">
-								<div class="btn btn-tipo" v-bind:class="selectedPkm.tipo1"> {{ selectedPkm.tipo1.toUpperCase() }} </div>
-								<div v-if="selectedPkm.tipo2 != null" class="btn btn-tipo" v-bind:class="selectedPkm.tipo2"> {{ selectedPkm.tipo2.toUpperCase() }} </div>
+								<div class="btn btn-tipo" v-bind:class="selectedPkm.tipo1" style="cursor:default;"> {{ selectedPkm.tipo1.toUpperCase() }} </div>
+								<div v-if="selectedPkm.tipo2 != null" class="btn btn-tipo" v-bind:class="selectedPkm.tipo2" style="cursor:default;"> {{ selectedPkm.tipo2.toUpperCase() }} </div>
 							</div>
 							<div class="divider-left">
 								<button v-if="!squadra.includes(selectedPkm)" type="button" class="btn btn-tipo ml-2 btn-success" :disabled="squadra.length >= 7 || (selectedPkm.uber && quantiUber==2)" v-on:click="aggiungiPkm">AGGIUNGI</button>
@@ -190,7 +169,7 @@ $lis = $con->getPokemonList();
 											<div class="row">
 												<div class="col-sm-2 stat-label">UBER</div>
 												<div class="col">
-													<div class="btn uber-btn" v-bind:class=" (selectedPkm.uber)? 'btn-success' : 'btn-danger'">
+													<div class="btn uber-btn" style="cursor:default;" v-bind:class=" (selectedPkm.uber)? 'btn-success' : 'btn-danger'">
 														{{ selectedPkm.uber.toString().toUpperCase() }}
 													</div>
 

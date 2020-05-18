@@ -71,6 +71,7 @@ class BattleServerInterface implements MessageComponentInterface {
             , $from->resourceId, $msg, $numRecv, $numRecv == 1 ? '' : 's');*/
         $parsedMsg = \json_decode($msg, true);
         //\var_dump($parsedMsg);
+        echo $msg;
 
         switch ($parsedMsg['type']) {
             case 'new':
@@ -110,12 +111,12 @@ class BattleServerInterface implements MessageComponentInterface {
                     $client->startBattle($client->getAdv());
                 } else {
                     $clientAdv = self::getUserbyUserName($adv);
-                    if ($clientAdv !== NULL && $clientAdv->getWaiting() != "") {
-                        $client->setWaiting(true); // sets client to wait for battle accept
+                    if ($clientAdv !== NULL && $clientAdv->getWaiting() == "") {
+                        $client->setWaiting($adv); // sets client to wait for battle accept
                         $clientAdv->send($msg); //forward the request to the adv
                     } else {
                         //adv not found ERROR? 
-                        $client->send('{ "type" : "error", "value" : "USER NOT AVAILIBLE"}');
+                        $client->send('{ "type" : "error", "value" : "UTENTE NON DISPONIBILE"}');
                     }
                 }
                 break;
@@ -133,7 +134,7 @@ class BattleServerInterface implements MessageComponentInterface {
                     $clientAdv->startBattle($client);
                 } else {
                     //adv not found ERROR? 
-                    $client->send('{ "type" : "error", "value" : "USER NOT AVAILIBLE" }');
+                    $client->send('{ "type" : "error", "value" : "UTENTE NON DISPONIBILE" }');
                 }
                 break;
             case 'refuse':
@@ -168,7 +169,7 @@ class BattleServerInterface implements MessageComponentInterface {
 
 
             default:
-                $from->send('{ "type" : "error", "value" : "TYPE NOT FOUND"}');
+                $from->send('{ "type" : "error", "value" : "RICHIESTA NON TROVATA"}');
         }
     }
 

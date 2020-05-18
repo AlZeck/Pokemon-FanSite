@@ -1,3 +1,11 @@
+<?php
+if (!isset($_COOKIE['PHPSESSID']) || !isset($_COOKIE['user'])) {
+    include "error.html";
+    die();
+}
+session_start();
+$user = $_COOKIE['user'];
+?>
 <!DOCTYPE html>
 <html>
 
@@ -75,14 +83,14 @@
         }
 
         .cardtrn {
-            text-align: center;
             height: 182px;
             width: 182px;
             justify-content: center;
+            cursor: pointer;
         }
 
         .scroll {
-            max-height: calc(100vh - 10rem);
+            max-height: calc(100vh - 9.8rem);
             overflow-y: scroll;
         }
 
@@ -95,10 +103,15 @@
         .cardtrn:hover {
             background-color: rgba(255, 255, 255, 0.5);
         }
+
+        .card-body {
+            text-align: center;
+        }
     </style>
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
+    <script type="text/javascript" lang="javascript" src="/lib/js/search.js"></script>
     <script type="text/javascript" lang="javascript" src="/lib/js/modalComms.js"></script>
     <script type="text/javascript" lang="javascript" src="/lib/js/defaultpkm.js"></script>
     <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/prendi_dal_db.js"></script>
@@ -109,6 +122,12 @@
     <script type="text/javascript" lang="javascript" src="/lib/js/websockets/BCPUtils.js"></script>
     <!-- <script type="text/javascript" lang="javascript" src="/lib/js/websockets/BCPUtils.js"></script> -->
     <!-- messagistica -->
+
+
+
+</head>
+
+<body>
     <div class="modal fade" id="modalComms" tabindex="-1" role="dialog" aria-labelledby="modalComms" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -125,20 +144,28 @@
             </div>
         </div>
     </div>
-
-
-</head>
-
-<body>
-    <div id="sfidaVue" class="container">
-        <br>
-        <h3 class="text-center"> Scegli un allenatore da sfidare! </h3>
-        <div class="onbar">
-            <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+    <br>
+    <div class="d-flex">
+        <div class="mr-auto">
+            <a class="ml-3" href="/"> <img src="/assets/img/navbar/logo-mini.png" height="50" alt=""></a>
         </div>
-        <div class="card-deck scroll" id="trainerList">
+        <div class="mx-auto">
+            <h3 class="text-light"> Scegli un allenatore da sfidare! </h3>
+        </div>
+        <div class="ml-auto">
+            <div style="padding-right:134.16px"></div>
+        </div>
 
-            <div class="m-2" v-for="u in utenti">
+    </div>
+
+
+    <div id="sfidaVue" class="container">
+        <div class="onbar">
+            <input type="text" class="form-control" id="searchbar" onkeyup="search('searchbar', 'trainerList', 'cardtrn', 'h5')" placeholder="Cerca tramite username">
+        </div>
+        <div class="card-deck scroll pb-4" id="trainerList">
+
+            <div class="mt-4" v-for="u in utenti">
                 <div class="card cardtrn" v-on:click="mandaRichiesta(u.username)">
                     <div class="card-body">
                         <h5 class="card-title">{{u.username}}</h5>

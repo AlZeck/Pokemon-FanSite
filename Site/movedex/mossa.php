@@ -57,7 +57,7 @@ if ($move == NULL) {
                             . strtoupper($move['tipo']) . '</a>';
                         ?>
                         <?php
-                        echo '<div class="btn disabled btn-tipo ' . $move['categoria'] . ' mb-4" style="opacity:1">' .
+                        echo '<div class="btn btn-tipo ' . $move['categoria'] . ' mb-4" style="cursor:default;">' .
                             strtoupper($move['categoria']) . '</div>';
                         ?>
                     </div>

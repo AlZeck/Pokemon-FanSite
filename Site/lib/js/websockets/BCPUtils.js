@@ -70,15 +70,16 @@ function gestisciRisposta(msg) {
             sfidaVue.aggiornaUtenti(obj.value);
             break;
         case "request":  // battle request not accepted close 
-            sendModalComm("Sfida in arrivo", "sei stato sfidato da "+obj.value.sender+" allenatore", 
-            "Acceto", "Cancella", "Caricando...",()=>{
+            sendModalComm("Sfida in arrivo", "Sei stato sfidato da "+obj.value.sender+" allenatore.", 
+            "Accetta", "Rifiuta", "Caricamento...",()=>{
+                bat=undefined;
                 avv=obj.value.sender;
                 bcp.sendAccept(obj.value.sender);
             }, ()=>{ bcp.sendRefuse(obj.value.sender); });
             break;
 
         case "refuse":  // battle request not accepted close 
-            UpdateModal("Richiesta Rifiutata","L'allenatore "+obj.value.sender+" ha rifiutato la tua sfida.");
+            UpdateModal("Richiesta rifiutata","L'allenatore "+obj.value.sender+" ha rifiutato la tua sfida.");
             break;
         case "error":
             UpdateModal("ERROR",obj.value);
@@ -92,9 +93,9 @@ function gestisciRisposta(msg) {
 function gestisciRichiesta(usrnm) {
     avv = usrnm;
     if (usrnm == "CPU") {
-        sendModalComm("Richiesta di Sfida", "Vuoi sfidare CPU allenatore?", "Si", "No", "Caricando...", ()=>{fetchBattlePage();}, ()=>{});
+        sendModalComm("Richiesta di sfida", "Vuoi sfidare CPU allenatore?", "Si", "No", "Caricamento...", ()=>{fetchBattlePage();}, ()=>{});
     } else {
-        sendModalComm("Richiesta di Sfida", "Vuoi sfidare "+avv+" allenatore?", "Si", "No", "Caricando...", 
+        sendModalComm("Richiesta di sfida", "Vuoi sfidare "+avv+" allenatore?", "Si", "No", "Caricamento...", 
                         ()=>{bcp.sendRequest(avv);}, 
                         ()=>{bcp.cancel();});
     }
@@ -104,8 +105,8 @@ function gestisciRichiesta(usrnm) {
 
 
 function gesticiRivincita(){
-    sendModalComm("Richiesta di Rivincita", "Vuoi sfidare "+avv+" allenatore ad una rivincita?", "Si", "No", "Caricando...", 
-    ()=>{bcp.sendRequest(avv);}, 
+    sendModalComm("Richiesta di rivincita", "Vuoi sfidare di nuovo "+avv+" allenatore?", "Si", "No", "Caricamento...", 
+    ()=>{bat=undefined;bcp.sendRequest(avv);}, 
     ()=>{bcp.cancel();});
 }
 
