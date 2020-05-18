@@ -74,6 +74,13 @@
         {
             "type": "error",
             "value": "errorMessage"
+        },
+        {
+            "type": "request",
+            "value": {
+                "sender": "username",
+                "destination": "destination" // CPU if local
+            }
         }
     ]
 }

@@ -9,30 +9,12 @@
     <meta name="keywords" content="pokemon, battaglia, pokedex, movedex, typedex">
     <meta name="author" content="Juan Sebastian Arboleda Polo (1805920), Andrea Cerone (1770688), Matteo Di Stadio (1794111)">
     <meta name="copyright" content="The Pokémon Company">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script>
-        function myFunction() {
-            // Declare variables
-            var input, filter, ul, li, a, i, txtValue;
-            input = document.getElementById('myInput');
-            filter = input.value.toUpperCase();
-            ul = document.getElementById("trainerList");
-            li = ul.getElementsByClassName('m-2');
-
-            // Loop through all list items, and hide those who don't match the search query
-            for (i = 0; i < li.length; i++) {
-                a = li[i].getElementsByTagName("h5")[0];
-                txtValue = a.textContent || a.innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    li[i].style.display = "";
-                } else {
-                    li[i].style.display = "none";
-                }
-            }
-        }
+        var user = <?php echo '"' . $_COOKIE["user"] . '"';  ?>;
     </script>
     <style>
         html,
@@ -116,22 +98,48 @@
     </style>
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script type="text/javascript" lang="javascript" src="/lib/js/modalComms.js"></script>
     <script type="text/javascript" lang="javascript" src="/lib/js/defaultpkm.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/prendi_dal_db.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/squadra_casuale.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/cpu.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/battaglia.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/websockets/BCPController.js"></script>
     <script type="text/javascript" lang="javascript" src="/lib/js/websockets/BCPUtils.js"></script>
+    <!-- <script type="text/javascript" lang="javascript" src="/lib/js/websockets/BCPUtils.js"></script> -->
+    <!-- messagistica -->
+    <div class="modal fade" id="modalComms" tabindex="-1" role="dialog" aria-labelledby="modalComms" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">TITOLO</h5>
+                </div>
+                <div id="modalMsg" class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button id="modalCancel" type="button" class="btn btn-danger">Cancel</button>
+                    <button id="modalAccept" type="button" class="btn btn-success">Accept</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </head>
 
 <body>
     <div id="sfidaVue" class="container">
         <br>
-        <!-- TODO ADD SFIDA UN ALLENATORE -->
+        <h3 class="text-center"> Scegli un allenatore da sfidare! </h3>
         <div class="onbar">
             <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
         </div>
         <div class="card-deck scroll" id="trainerList">
 
             <div class="m-2" v-for="u in utenti">
-                <div class="card cardtrn" onclick="gesticiRichiesta(u.username)">
+                <div class="card cardtrn" v-on:click="mandaRichiesta(u.username)">
                     <div class="card-body">
                         <h5 class="card-title">{{u.username}}</h5>
                         <img v-bind:src="u.sprite" alt="sprite_allenatore">
@@ -141,7 +149,6 @@
 
         </div>
     </div>
-
     <script type="text/javascript" lang="javascript" src="/lib/js/sfida/sfidavue.js"></script>
 </body>
 

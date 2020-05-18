@@ -20,7 +20,7 @@ sfidaVue = new Vue({
         inserisciUtente: function(array, usrnm) {
             array.push({
                 username:   usrnm,
-                sprite:     "/assets/img/allenatori/" + (Math.floor(Math.random() * 87) + 1) + ".png"
+                sprite:     "/assets/img/allenatori/" + (Math.floor(Math.random() * 55) + 1) + ".png"
             });
         },
 
@@ -57,6 +57,12 @@ sfidaVue = new Vue({
             }
 
             this.utentiData = nuoviUtentiData;     
+        },
+
+
+        // invia la richiesta
+        mandaRichiesta: function(usrnm){
+            gestisciRichiesta(usrnm);
         }
     }
 });

@@ -36,8 +36,8 @@ class BCPController {
         console.log("sending " + JSON.stringify(toSend));
     }
 
-    update(){
-        this.send("update","");
+    cancel(){
+        this.send("cancel","");
     }
 
     /**

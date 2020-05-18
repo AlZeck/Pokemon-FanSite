@@ -8,14 +8,24 @@ class Battaglia {
 
 
     //costruttore (prende l'oggetto Vue già riempito, ovvero con gli username e anche la squadra completa del protagonista e anche l'oggetto BCPController
-    //ALTERNATIVAMENTE si può fare costruttore che passa gli id di squadra e mosse assieme agli username e BCPController e crea il vue qui...
     //inoltre se si combatte contro una CPU la inizializza
-    constructor(battVue) {
+    constructor(battVue, objCPU) {
         this._battVue = battVue;
 
         if(battVue.avversario.username == "CPU") {
-            this._cpu = new Cpu();
-            this.battVue.bcpc.startCPU(this._cpu.squadra);
+            //se non è una rivincita contro la CPU
+            if(objCPU == undefined) {
+                this._cpu = new Cpu();
+                this.battVue.bcpc.startCPU(this._cpu.squadra);
+            }
+
+            //se è una rivincita contro la CPU
+            else {
+                objCPU.indexActivePkm = 0;
+                objCPU.ancoraVivi = [0, 1, 2, 3, 4, 5];
+                this._cpu = objCPU;
+                this.battVue.bcpc.request("CPU");
+            }            
         }
         else this._cpu = undefined;
     }
@@ -64,7 +74,7 @@ class Battaglia {
         if(nuoviPS < 0) nuoviPS = 0;
         this.battVue.activePkmAvv.ps = nuoviPS;
 
-        await this.sleep(5000);
+        await this.sleep(6000);
 
         //caso in cui protagonista ha vinto
         if(primaAzione[1] == "vinto") {
@@ -78,7 +88,7 @@ class Battaglia {
             await this.sleep(13000);
 
             //reindirizzo (senza possibilità di tornare indietro) sulla schermata di vittoria
-            window.location.replace("/battle/esito.php?risultato=vittoria");
+            fetchEsitoPage("vittoria");
         }
 
         //caso in cui protagonista non ha vinto ma avversario esausto
@@ -117,7 +127,7 @@ class Battaglia {
             if(nuoviPS < 0) nuoviPS = 0;
             this.battVue.activePkmPrt.ps = nuoviPS;
 
-            await this.sleep(5000);
+            await this.sleep(6000);
 
             //caso in cui protagonista ha perso
             if(primaAzione[1] == "perso") {
@@ -131,7 +141,7 @@ class Battaglia {
                 await this.sleep(13000);
 
                 //reindirizzo (senza possibilità di tornare indietro) sulla schermata di sconfitta
-                window.location.replace("/battle/esito.php?risultato=sconfitta");
+                fetchEsitoPage("sconfitta");
             }
 
             //caso in cui protagonista non ha perso ma è esausto
@@ -149,7 +159,7 @@ class Battaglia {
 
                 this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
 
-                await this.sleep(3000);
+                await this.sleep(4000);
 
                 this.battVue.switchForzato();
             }
@@ -188,7 +198,7 @@ class Battaglia {
         if(nuoviPS < 0) nuoviPS = 0;
         this.battVue.activePkmPrt.ps = nuoviPS;
 
-        await this.sleep(5000);
+        await this.sleep(6000);
 
         //caso in cui avversario ha vinto
         if(primaAzione[1] == "vinto") {
@@ -202,7 +212,7 @@ class Battaglia {
             await this.sleep(13000);
 
             //reindirizzo (senza possibilità di tornare indietro) sulla schermata di sconfitta
-            window.location.replace("/battle/esito.php?risultato=sconfitta");
+            fetchEsitoPage("sconfitta");
         }
 
         //caso in cui avversario non ha vinto ma protagonista esausto
@@ -220,7 +230,7 @@ class Battaglia {
 
             this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
                 
-            await this.sleep(3000);
+            await this.sleep(4000);
             
             this.battVue.switchForzato();
         }
@@ -240,7 +250,7 @@ class Battaglia {
             if(nuoviPS < 0) nuoviPS = 0;
             this.battVue.activePkmAvv.ps = nuoviPS;
 
-            await this.sleep(5000);
+            await this.sleep(6000);
 
             //caso in cui avversario ha perso
             if(primaAzione[1] == "perso") {
@@ -254,7 +264,7 @@ class Battaglia {
                 await this.sleep(13000);
 
                 //reindirizzo (senza possibilità di tornare indietro) sulla schermata di vittoria
-                window.location.replace("/battle/esito.php?risultato=vittoria");
+                fetchEsitoPage("vittoria");
             }
 
             //caso in cui avversario non ha perso ma è esausto
@@ -357,7 +367,7 @@ class Battaglia {
             if(nuoviPS < 0) nuoviPS = 0;
             this.battVue.activePkmPrt.ps = nuoviPS;
 
-            await this.sleep(5000);
+            await this.sleep(6000);
 
             //caso in cui il pokemon che protagonista aveva appena mandato diventa esausto
             if(primaAzione[1] == "switch") {
@@ -374,7 +384,7 @@ class Battaglia {
 
                 this.scriviTestoBattaglia("Scegli un pokemon da mandare in campo...", 1);
                 
-                await this.sleep(3000);
+                await this.sleep(4000);
 
                 this.battVue.switchForzato();
             }
@@ -488,7 +498,7 @@ class Battaglia {
             if(nuoviPS < 0) nuoviPS = 0;
             this.battVue.activePkmAvv.ps = nuoviPS;
 
-            await this.sleep(5000);
+            await this.sleep(6000);
 
             //caso in cui il pokemon che avversario aveva appena mandato diventa esausto
             if(primaAzione[1] == "switch") {
@@ -566,7 +576,7 @@ class Battaglia {
             this.scriviTestoBattaglia("Hai forfeittato! Hai perso lo scontro!", 0);
 
             //reindirizzo (senza possibilità di tornare indietro) sulla schermata di sconfitta dopo 10 secondi
-            setTimeout(function() { window.location.replace("/battle/esito.php?risultato=sconfitta") }, 10000);
+            setTimeout(function() { fetchEsitoPage("sconfitta"); }, 10000);
         }
 
         //l'avversario ha forfeittato
@@ -574,7 +584,7 @@ class Battaglia {
             this.scriviTestoBattaglia("L'avversario ha forfeittato! Hai vinto lo scontro!", 0);
 
             //reindirizzo (senza possibilità di tornare indietro) sulla schermata di vittoria dopo 10 secondi
-            setTimeout(function() { window.location.replace("/battle/esito.php?risultato=vittoria") }, 10000);
+            setTimeout(function() { fetchEsitoPage("vittoria"); }, 10000);
         }
     }
 

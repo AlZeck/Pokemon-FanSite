@@ -187,7 +187,7 @@ var sceltaVue = new Vue({
             }
 
             localStorage.setItem("squadra", JSON.stringify(this.squadraJSON));
-            window.location.assign('/battle/sfida.php');
+            window.location.assign('/battle/battle.php');
         }
     }
 });
