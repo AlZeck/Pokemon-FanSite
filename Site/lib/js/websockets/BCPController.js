@@ -9,38 +9,38 @@ class BCPController {
      * @param {function} msgreceiver callbackfunction
      */
     constructor(username, team, msgreceiver) {
-        try {
-            var x = new WebSocket('ws://' + window.location.hostname + ':8080');
-            this.conn = x;
-            this.username = username;
-            this.conn.onopen = function (e) {
-                console.log("Connection established!");
-                var toSend = { type: "new", value: { sender: username, team: team } };
-                x.send(JSON.stringify(toSend));
-                console.log("sending " + JSON.stringify(toSend));
-            };
-            this.conn.onmessage = function (e) {
-                console.log(e.data);
-                msgreceiver(e.data);
-            }
-        } catch(err) {
-            console.log(err);
+
+        var x = new WebSocket('ws://' + window.location.hostname + ':8080');
+        this.conn = x;
+        this.username = username;
+        this.conn.onopen = function (e) {
+            console.log("Connection established!");
+            var toSend = { type: "new", value: { sender: username, team: team } };
+            x.send(JSON.stringify(toSend));
+            console.log("sending " + JSON.stringify(toSend));
+        };
+        this.conn.onmessage = function (e) {
+            console.log(e.data);
+            msgreceiver(e.data);
+        }
+        this.conn.onerror = function (e) {
+            console.log(e);
             return fetch("/lib/html/servizioNonDisponibile.html")
-            .then(response => {
-                return response.text()
-            })
-            .then(data => {
-                document.body.innerHTML = data;
-            }).then(
-                () => {
-                    return fetch("/lib/js/navbar.js");
-                }
-            ).then(response => {
-                return response.text()
-            })
-            .then(data => {
-                eval(data);
-            });
+                .then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    document.body.innerHTML = data;
+                }).then(
+                    () => {
+                        return fetch("/lib/js/navbar.js");
+                    }
+                ).then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    eval(data);
+                });
         }
     }
 
