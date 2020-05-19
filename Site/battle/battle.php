@@ -1,6 +1,6 @@
 <?php
 if (!isset($_COOKIE['PHPSESSID']) || !isset($_COOKIE['user'])) {
-    include "error.html";
+    include "../lib/html/errorNotLoggedIn.html";
     die();
 }
 session_start();
@@ -24,100 +24,17 @@ $user = $_COOKIE['user'];
     <script>
         var user = <?php echo '"' . $_COOKIE["user"] . '"';  ?>;
     </script>
-    <style>
-        html,
-        body {
-            height: 100%;
-        }
+    <link rel="stylesheet" href="/lib/css/scelta.css">
 
-        body {
-            width: 100%;
-            height: 100%;
-            background-image: url(./stadium.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-            backdrop-filter: blur(20px) brightness(0.5);
-        }
-
-
-        ::-webkit-scrollbar {
-            padding: 2px;
-            width: 5px;
-            background: transparent;
-        }
-
-        ::-webkit-scrollbar-track {
-            /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 255, 1); */
-            border-radius: 15px;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            /* border-radius: 15px;
-            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); */
-            background: rgba(255, 255, 255, 0.3);
-            border-radius: 5px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            /* border-radius: 15px;
-             -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); */
-            background: rgba(255, 255, 255, 0.5);
-            border-radius: 5px;
-        }
-
-        .container {
-            color: white;
-            background-color: transparent;
-        }
-
-        .card-deck {
-            flex-flow: row wrap;
-            justify-content: center;
-        }
-
-        .card {
-            background-color: rgba(255, 255, 255, 0.3);
-            border-radius: 5px;
-        }
-
-        .cardtrn {
-            height: 182px;
-            width: 182px;
-            justify-content: center;
-            cursor: pointer;
-        }
-
-        .scroll {
-            max-height: calc(100vh - 9.8rem);
-            overflow-y: scroll;
-        }
-
-        .onbar {
-            border-bottom: 1px solid rgba(255, 255, 255, .2);
-            padding-top: 22px;
-            padding-bottom: 22px;
-        }
-
-        .cardtrn:hover {
-            background-color: rgba(255, 255, 255, 0.5);
-        }
-
-        .card-body {
-            text-align: center;
-        }
-    </style>
-
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 
     <script type="text/javascript" lang="javascript" src="/lib/js/search.js"></script>
-    <script type="text/javascript" lang="javascript" src="/lib/js/modalComms.js"></script>
-    <script type="text/javascript" lang="javascript" src="/lib/js/defaultpkm.js"></script>
-    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/prendi_dal_db.js"></script>
-    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/squadra_casuale.js"></script>
-    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/cpu.js"></script>
-    <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/battaglia.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/websockets/modalComms.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battle/defaultpkm.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battle/prendi_dal_db.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battle/squadra_casuale.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battle/cpu.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battle/battaglia.js"></script>
     <script type="text/javascript" lang="javascript" src="/lib/js/websockets/BCPController.js"></script>
     <script type="text/javascript" lang="javascript" src="/lib/js/websockets/BCPUtils.js"></script>
     <script src="/lib/js/navbarUtils.js"></script>
@@ -177,7 +94,7 @@ $user = $_COOKIE['user'];
 
         </div>
     </div>
-    <script type="text/javascript" lang="javascript" src="/lib/js/sfida/sfidavue.js"></script>
+    <script type="text/javascript" lang="javascript" src="/lib/js/battle/sfidavue.js"></script>
 </body>
 
 </html>

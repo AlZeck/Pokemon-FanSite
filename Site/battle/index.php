@@ -1,6 +1,6 @@
 <?php
 if (!isset($_COOKIE['PHPSESSID']) || !isset($_COOKIE['user'])) {
-	include "error.html";
+	include "../lib/html/errorNotLoggedIn.html";
 	die();
 }
 session_start();
@@ -31,12 +31,12 @@ $lis = $con->getPokemonList();
 	<link href="/lib/css/squadra.css" rel="stylesheet">
 	<link href="/lib/css/tipi.css" rel="stylesheet">
 
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 
     <script type="text/javascript" lang="javascript" src="/lib/js/search.js"></script>
-	<script type="text/javascript" lang="javascript" src="/lib/js/battaglia/prendi_dal_db.js"></script>
-	<script type="text/javascript" lang="javascript" src="/lib/js/battaglia/squadra_casuale.js"></script>
-	<script type="text/javascript" lang="javascript" src="/lib/js/defaultpkm.js"></script>
+	<script type="text/javascript" lang="javascript" src="/lib/js/battle/prendi_dal_db.js"></script>
+	<script type="text/javascript" lang="javascript" src="/lib/js/battle/squadra_casuale.js"></script>
+	<script type="text/javascript" lang="javascript" src="/lib/js/battle/defaultpkm.js"></script>
 
 </head>
 
@@ -225,6 +225,6 @@ $lis = $con->getPokemonList();
 
 
 </body>
-<script type="text/javascript" lang="javascript" src="/lib/js/scelta_squadra/sceltavue.js"></script>
+<script type="text/javascript" lang="javascript" src="/lib/js/battle/sceltavue.js"></script>
 
 </html>

@@ -15,7 +15,7 @@ function fetchBattlePage() {
             document.body.innerHTML = data;
         }).then(
             () => {
-                return fetch("/lib/js/battaglia/battvue.js");
+                return fetch("/lib/js/battle/battvue.js");
             }
         ).then(response => {
             return response.text()
