@@ -1,55 +1,26 @@
-# Pokémon FanSite
-Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fare battaglie contro la cpu nel simulatore semplificato con squadre customizzate.
+# Pokemon FanSite
+Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fare battaglie contro la cpu od altri utenti nel simulatore con squadre customizzate.
 
+## Autori
+- Juan Sebastian Arboleda Polo (1805920)
+- Andrea Cerone (1770688)
+- Matteo Di Stadio (1794111)
 
-## Instructions For Server
+## Istruzioni per l'uso
+L'applicazione è stata creata utilizzando le tecnologie di containerizzazione per assicurare su qualsiasi macchina un corretto funzionamento.
+Perciò, per poterla girare in locale è necessaria l'installazione di "docker" e "docker-compose". Dopodichè per attivare i vari servizi basterà scrivere nell'apposita cartella da terminale in ambiente Linux il seguente comando e recarsi da un browser su "localhost":
 ```sh
 docker-compose up
 ```
-c'è bisogno di installare prima docker-compose 
+Alternativamente è possibile visualizzare il sito tramite internet all'indirizzo: http://www.pokemonfan.site
+
+## Consigli sui browser
+L'applicazione è stata progettata con le tecnologie di Chromium in mente (in primis Google Chrome), data la sua diffusione ed importanza nel contesto attuale, perciò si consiglia l'utilizzo di tali browser per la migliore user experience.
+È possibile comunque ottenere una prestazione impeccabile anche su Safari.
+Se si preferisce invece l'utilizzo di Firefox, per evitare problemi di visualizzazione con la proprietà css "backdrop-filter", è opportuno settare, tramite "about:config", le proprietà "layout.css.backdrop-filter.enabled" e "gfx.webrender.all" a true.
+
+## Licenza & Copyright
+L'applicazione è autorizzata sotto la licenza MIT. Vedi il file [`LICENSE`](LICENSE) per il testo completo sul copyright e la licenza.
+La nostra applicazione include inoltre proprietà intellettuali provenienti dalla serie videoludica "Pokemon", appartenente alla "The Pokémon Company" e protetta da vari copyright e trademark. Gli autori credono che l'utilizzo di questo materiale sia coperto dal fair use, dato che l'applicazione è di uso inerentemente scolastico ed il software ne risentirebbe severamente dalla sua assenza.
 
 
-
-
-## RoadMap 
-<!-- Statuses: TODO, DONE -->
-
-### Sebastian
-| Task                                                      | Status      |
-|-----------------------------------------------------------|:-----------:|
-| Postgresql Database                                       | DONE        |
-| Database controller                                       | DONE        |
-| Battle Websockets Server Side PHP+Ratchet                 | DONE        |
-| Battle Websockets Client Side JS                          | DONE        |
-| Navigation Bar			                                | Mostly Done |
-| Docker Container Server                                   | DONE        |
-
-
-### Andrea
-| Task                                                      |    Status   |
-|-----------------------------------------------------------|:-----------:|
-| Home Page HTML ONLY                                       | TODO        |
-| Login Page HTML ONLY                                      | DONE        |
-| Sign up Page HTML ONLY                                    | DONE        |
-
-### Matteo
-| Task                                                      | Status      |
-|-----------------------------------------------------------|:-----------:|
-| PHP Server Battle Controller                              | DONE        |
-| JS Client Battle Controller                               | TODO        |
-| Pokemon Moveset  csv                                      | DONE        |
-
-### TO BE ASSIGN / DEPENDS OTHERS WORK
-| Task                                                      | Status      |
-|-----------------------------------------------------------|:-----------:|
-| Home Page JS                                              | TODO        |
-| Login Page JS + Ajax + JQuery                             | TODO        |
-| Sign up Page JS + Ajax + JQuery                           | TODO        |
-| Login Page PHP Controller                                 | TODO        |
-| Sign up Page PHP Controller                               | TODO        |
-| Movedex Page PHP Generated                                | TODO        |
-| Pokedex Page PHP Generated                                | TODO        |
-| Typedex Page PHP Generated                                | TODO        |
-| Specific Pokemon Page PHP Generated                       | TODO        |
-| Specific Move Page    PHP Generated       	            | TODO        |
-| Specific Type Page    PHP Generated      	                | TODO        |
