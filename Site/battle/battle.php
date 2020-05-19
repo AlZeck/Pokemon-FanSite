@@ -120,6 +120,7 @@ $user = $_COOKIE['user'];
     <script type="text/javascript" lang="javascript" src="/lib/js/battaglia/battaglia.js"></script>
     <script type="text/javascript" lang="javascript" src="/lib/js/websockets/BCPController.js"></script>
     <script type="text/javascript" lang="javascript" src="/lib/js/websockets/BCPUtils.js"></script>
+    <script src="/lib/js/navbarUtils.js"></script>
     <!-- <script type="text/javascript" lang="javascript" src="/lib/js/websockets/BCPUtils.js"></script> -->
     <!-- messagistica -->
 

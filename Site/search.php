@@ -28,6 +28,7 @@ if ($lis == NULL) {
     <link href="/lib/css/search.css" rel="stylesheet">
     <link href="/lib/css/tipi.css" rel="stylesheet">
     <script src="/lib/js/navbar.js"></script>
+    <script src="/lib/js/navbarUtils.js"></script>
 </head>
 
 <body>

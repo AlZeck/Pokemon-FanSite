@@ -33,6 +33,7 @@ if ($move == NULL) {
     <link href="/lib/css/mossa.css" rel="stylesheet">
     <link href="/lib/css/tipi.css" rel="stylesheet">
     <script src="/lib/js/navbar.js"></script>
+    <script src="/lib/js/navbarUtils.js"></script>
     <style>
         body {
             background-image: <?php echo 'url(../../assets/img/sfondi_tipi/' . $move['tipo'] . '.jpg)' ?>;
