@@ -71,7 +71,7 @@ class BattleServerInterface implements MessageComponentInterface {
             , $from->resourceId, $msg, $numRecv, $numRecv == 1 ? '' : 's');*/
         $parsedMsg = \json_decode($msg, true);
         //\var_dump($parsedMsg);
-        echo $msg;
+        //echo $msg;
 
         switch ($parsedMsg['type']) {
             case 'new':
@@ -132,6 +132,7 @@ class BattleServerInterface implements MessageComponentInterface {
                 if ( $clientAdv !== NULL && $clientAdv->getWaiting() == $parsedMsg['value']['sender']) {
                     // ADV FOUND start battle and availible
                     $clientAdv->startBattle($client);
+                    self::updateUsers();
                 } else {
                     //adv not found ERROR? 
                     $client->send('{ "type" : "error", "value" : "UTENTE NON DISPONIBILE" }');
@@ -300,11 +301,12 @@ class User extends CPU {
 
     function endBattle() {
         $forfeitAction = '{
-            "utente": ' . $this->adv->getUsername() . ',
+            "utente": "' . $this->adv->getUsername() . '",
             "azione": "forfeit",
             "valore": 0
         }';
         $this->adv = new CPU($this->adv->team);
+        $this->adv->adv = $this;
         $this->adv->selectAction($forfeitAction);
     }
 

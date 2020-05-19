@@ -52,7 +52,7 @@ function UpdateModal(title, msg){
 
     $('#modalMsg').html(msg);
 
-    $('#modalCancel').html("chidi");
+    $('#modalCancel').html("chiudi");
     $('#modalCancel').off("click");
     $('#modalCancel').on("click",()=>{closeModal();});
     $('#modalAccept').prop('hidden',true);
