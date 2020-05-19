@@ -309,6 +309,7 @@ class User extends CPU {
         }';
         $this->adv = new CPU($this->adv->team);
         $this->adv->adv = $this;
+        $this->adv->battle = $this->battle;
         $this->adv->selectAction($forfeitAction);
     }
 
