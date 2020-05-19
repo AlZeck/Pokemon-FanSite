@@ -9,18 +9,38 @@ class BCPController {
      * @param {function} msgreceiver callbackfunction
      */
     constructor(username, team, msgreceiver) {
-        var x =  new WebSocket('ws://'+window.location.hostname+':8080');
-        this.conn = x;
-        this.username = username;
-        this.conn.onopen = function (e) {
-            console.log("Connection established!");
-            var toSend = { type: "new", value: { sender : username, team : team } };
-            x.send(JSON.stringify(toSend));
-            console.log("sending " + JSON.stringify(toSend));
-        };
-        this.conn.onmessage = function (e) {
-            console.log(e.data);
-            msgreceiver(e.data);
+        try {
+            var x = new WebSocket('ws://' + window.location.hostname + ':8080');
+            this.conn = x;
+            this.username = username;
+            this.conn.onopen = function (e) {
+                console.log("Connection established!");
+                var toSend = { type: "new", value: { sender: username, team: team } };
+                x.send(JSON.stringify(toSend));
+                console.log("sending " + JSON.stringify(toSend));
+            };
+            this.conn.onmessage = function (e) {
+                console.log(e.data);
+                msgreceiver(e.data);
+            }
+        } catch(err) {
+            console.log(err);
+            return fetch("/lib/html/servizioNonDisponibile.html")
+            .then(response => {
+                return response.text()
+            })
+            .then(data => {
+                document.body.innerHTML = data;
+            }).then(
+                () => {
+                    return fetch("/lib/js/navbar.js");
+                }
+            ).then(response => {
+                return response.text()
+            })
+            .then(data => {
+                eval(data);
+            });
         }
     }
 
@@ -30,14 +50,14 @@ class BCPController {
      * @param {string} type 
      * @param {string} value 
      */
-    send (type, value) {
-        var toSend = { type: type, value: value};
+    send(type, value) {
+        var toSend = { type: type, value: value };
         this.conn.send(JSON.stringify(toSend));
         console.log("sending " + JSON.stringify(toSend));
     }
 
-    cancel(){
-        this.send("cancel","");
+    cancel() {
+        this.send("cancel", "");
     }
 
     /**
@@ -46,7 +66,7 @@ class BCPController {
      * @param {string} dest rival's username
      */
     sendRequest(dest) {
-        this.send("request",{sender:this.username, destination:dest})
+        this.send("request", { sender: this.username, destination: dest })
     }
 
     /**
@@ -54,7 +74,7 @@ class BCPController {
      * @param {JSON} cpuTeam JSON containing the CPU's team
      */
     startCPU(cpuTeam) {
-        this.send("CPU",{sender:"CPU", team:cpuTeam})
+        this.send("CPU", { sender: "CPU", team: cpuTeam })
     }
 
     /**
@@ -63,7 +83,7 @@ class BCPController {
      * @param {string} dest rival's username who challenged the player to battle 
      */
     sendAccept(dest) {
-        this.send("accept",{sender:this.username, destination:dest})
+        this.send("accept", { sender: this.username, destination: dest })
     }
 
     /**
@@ -72,7 +92,7 @@ class BCPController {
      * @param {string} dest rival's username who challenged the player to battle 
      */
     sendRefuse(dest) {
-        this.send("refuse",{sender:this.username, destination:dest})
+        this.send("refuse", { sender: this.username, destination: dest })
     }
 
     /**
@@ -80,7 +100,7 @@ class BCPController {
      * @param {json} msg JSON to be read by the battle server
      */
     sendBattleMessage(msg) {
-        this.send("battle",{sender:this.username, battleInfo:msg})
+        this.send("battle", { sender: this.username, battleInfo: msg })
     }
 
     /**
@@ -88,7 +108,7 @@ class BCPController {
      * @param {json} msg JSON to be read by the battle server
      */
     sendBattleCPUMessage(msg) {
-        this.send("battle",{sender:"CPU", battleInfo:msg})
+        this.send("battle", { sender: "CPU", battleInfo: msg })
     }
 
 

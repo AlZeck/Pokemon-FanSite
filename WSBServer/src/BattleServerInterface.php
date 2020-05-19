@@ -39,7 +39,8 @@ class BattleServerInterface implements MessageComponentInterface {
         $msg = "{ \"type\": \"update\", \"value\" : [\"" . implode("\",\"", $lisclients) . "\"] }";
         echo "sending pool Message : " . $msg . "\n";
         foreach ($this->clients as $client) {
-            $client->send($msg);
+            if (!$client->isInBattle())
+                $client->send($msg);
         }
     }
 
@@ -97,6 +98,7 @@ class BattleServerInterface implements MessageComponentInterface {
                 $client = self::getUserbyConnection($from);
                 $team = \json_encode($parsedMsg["value"]["team"]);
                 $client->startBattle(new CPU($team));
+                self::updateUsers();
 
                 break;
             case 'request':
