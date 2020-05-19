@@ -113,7 +113,7 @@ class BattleServerInterface implements MessageComponentInterface {
                     $client->startBattle($client->getAdv());
                 } else {
                     $clientAdv = self::getUserbyUserName($adv);
-                    if ($clientAdv !== NULL && $clientAdv->getWaiting() == "") {
+                    if ($clientAdv !== NULL && ($clientAdv->getWaiting() == "" || $clientAdv->getWaiting() == $client->getUsername()) ) {
                         $client->setWaiting($adv); // sets client to wait for battle accept
                         $clientAdv->send($msg); //forward the request to the adv
                     } else {

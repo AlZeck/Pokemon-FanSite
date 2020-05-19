@@ -22,7 +22,7 @@ class BCPController {
         this.conn.onmessage = function (e) {
             console.log(e.data);
             msgreceiver(e.data);
-        }
+        };
         this.conn.onerror = function (e) {
             console.log(e);
             return fetch("/lib/html/servizioNonDisponibile.html")
@@ -41,7 +41,28 @@ class BCPController {
                 .then(data => {
                     eval(data);
                 });
-        }
+        };
+        this.conn.onclose = function (e) {
+            console.log(e);
+            return fetch("/lib/html/servizioNonDisponibile.html")
+                .then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    document.body.innerHTML = data;
+                }).then(
+                    () => {
+                        return fetch("/lib/js/navbar.js");
+                    }
+                ).then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    eval(data);
+                });
+        };
+
+
     }
 
     /**
