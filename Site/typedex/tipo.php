@@ -88,7 +88,7 @@ if ($con->checkTipoExists($tipo)) {
             <div class="col">
                 <div class="card eff-card">
                     <div class="card-header">
-                        <h4 class="card-title">Diffensivo</h4>
+                        <h4 class="card-title">Difensivo</h4>
                     </div>
                     <div class="card-body">
                         <?php
