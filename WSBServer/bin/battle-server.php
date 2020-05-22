@@ -6,14 +6,18 @@ use Server\BattleServerInterface;
 
     require dirname(__DIR__) . '/vendor/autoload.php';
 
+    $wsServer = new WsServer(
+        new BattleServerInterface()
+    );
+
     $server = IoServer::factory(
         new HttpServer(
-            new WsServer(
-                new BattleServerInterface()
-            )
+            $wsServer
         ),
         8080
     );
+
+    $wsServer->enableKeepAlive($server->loop,30);
 
     echo "Server started!\n";
 
