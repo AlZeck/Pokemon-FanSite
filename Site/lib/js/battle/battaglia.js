@@ -607,7 +607,6 @@ class Battaglia {
 
             //caso in cui primo forfeitta (primaAzione[0] == "forfeit")
             else this.gestisciForfeit(true, secondaAzione);
-
         }
 
         //il primo a muoversi è l'avversario

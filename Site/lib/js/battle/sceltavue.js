@@ -14,7 +14,7 @@ var sceltaVue = new Vue({
         squadra: [defaultPkm],
 
         //il json della squadra completa da inviare poi al server
-        squadraJSON: ""
+        squadraJSON: undefined
     },
 
     computed: {
@@ -107,6 +107,15 @@ var sceltaVue = new Vue({
         },
 
 
+        //metodo per verificare che la mossa passata non sia già presente nel moveset del selectedPkm
+        verificaMossa: function (M) {
+            var i;
+            for(i=0; i<this.selectedPkmData.mosse.length; i++)
+                if(M.id == this.selectedPkmData.mosse[i].id) return true;
+            return false;
+        },
+
+
         //metodo per aggiungere il selectedPkm alla squadra (controlla nel dom se già c'è o squadra piena)
         aggiungiPkm: function () {
             if(this.selectedPkm.uber) this.quantiUber++;
@@ -121,7 +130,7 @@ var sceltaVue = new Vue({
             var index = this.squadra.indexOf(this.selectedPkmData);
             if (index !== -1) this.squadra.splice(index, 1);
 
-            this.squadraJSON = "";
+            this.squadraJSON = undefined;
         },
 
 
@@ -134,7 +143,7 @@ var sceltaVue = new Vue({
         //metodo per togliere una mossa tra quelle già selezionate dal selectedPkm (in tal caso squadraJSON rivà a stringa vuota)
         rimuoviMossa: function (index) {
             this.selectedPkmData.mosse.splice(index, 1);
-            this.squadraJSON = "";
+            this.squadraJSON = undefined;
         },
 
 
@@ -171,7 +180,7 @@ var sceltaVue = new Vue({
         //controlla che la squadra sia pronta nel dom
         conferma: function () {
             //se ancora non si ha il JSON aggiornato
-            if(this.squadraJSON == "") {
+            if(this.squadraJSON == undefined) {
                 var sjson = [];
 
                 var i, j;

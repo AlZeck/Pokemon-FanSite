@@ -205,7 +205,7 @@ $lis = $con->getPokemonList();
 
 							<div class="d-flex justify-content-center flex-wrap">
 								<button v-for="m in tutteMosse" class="btn btn-mossa m-2" v-bind:class="m.tipo" v-bind:value="m.id" v-on:click="aggiungiMossa(m)" 
-								:disabled="selectedPkm.mosse.length == 4" v-show="!selectedPkm.mosse.includes(m)">
+								:disabled="selectedPkm.mosse.length == 4" v-show="!verificaMossa(m)">
 									{{m.nome}}
 								</button>
 							</div>
