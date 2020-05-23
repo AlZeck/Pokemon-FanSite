@@ -28,6 +28,7 @@ body {
     color: white;
     background-color: transparent;
     justify-content: center;
+    padding-bottom: 46px;
 }
 
 .card-info {
