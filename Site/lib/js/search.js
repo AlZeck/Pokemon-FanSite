@@ -1,4 +1,4 @@
-function search(inputId, listId, itemclass, nameTag) { //TODO check how to modularize function
+function search(inputId, listId, itemclass, nameTag) { 
     // Declare variables
     var input, filter, list, items, a, i, txtValue;
     input = document.getElementById(inputId);
