@@ -24,7 +24,6 @@ $user = $_COOKIE['user'];
     <script>
         var user = <?php echo '"' . $_COOKIE["user"] . '"';  ?>;
     </script>
-    <link rel="stylesheet" href="/lib/css/scelta.css">
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 
@@ -46,6 +45,8 @@ $user = $_COOKIE['user'];
 </head>
 
 <body>
+
+    <link rel="stylesheet" href="/lib/css/scelta.css">
     <div class="modal fade" id="modalComms" tabindex="-1" role="dialog" aria-labelledby="modalComms" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
