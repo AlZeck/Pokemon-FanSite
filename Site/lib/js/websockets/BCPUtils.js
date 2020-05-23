@@ -12,6 +12,7 @@ function fetchBattlePage() {
             return response.text()
         })
         .then(data => {
+            closeModal();
             document.body.innerHTML = data;
         }).then(
             () => {
