@@ -18,6 +18,7 @@ Alternativamente è possibile visualizzare il sito tramite internet all'indirizz
 L'applicazione è stata progettata con le tecnologie di Chromium in mente (in primis Google Chrome), data la sua diffusione ed importanza nel contesto attuale, perciò si consiglia l'utilizzo di tali browser per la migliore user experience.
 È possibile comunque ottenere una prestazione impeccabile anche su Safari.
 Se si preferisce invece l'utilizzo di Firefox, per evitare problemi di visualizzazione con la proprietà css "backdrop-filter", è opportuno settare, tramite "about:config", le proprietà "layout.css.backdrop-filter.enabled" e "gfx.webrender.all" a true.
+Può inoltre capitare su Windows che i browser mettano una visualizzazione più ingrandità rispetto a Linux, perciò è consigliato diminuire lo zoom ad una adeguata grandezza.
 
 ## Licenza & Copyright
 L'applicazione è autorizzata sotto la licenza MIT. Vedi il file [`LICENSE`](LICENSE) per il testo completo sul copyright e la licenza.
