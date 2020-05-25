@@ -49,6 +49,9 @@ body {
     background-color: transparent;
 }
 
+.card {
+    border-radius: 5px;
+}
 
 /** Pokecard */
 
