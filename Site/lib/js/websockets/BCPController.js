@@ -10,7 +10,7 @@ class BCPController {
      */
     constructor(username, team, msgreceiver) {
 
-        var x = new WebSocket('ws://' + window.location.hostname + ':8080');
+        var x = new WebSocket('ws://' + window.location.hostname + '/wss');
         this.conn = x;
         this.username = username;
         this.conn.onopen = function (e) {

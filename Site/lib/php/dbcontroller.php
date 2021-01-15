@@ -44,11 +44,13 @@
         
         private function __construct(){
             try{
-                $servername = "Pokefan-pgsql";
-                $username = "monty";
-                $password = "python";
-                $database = "pokemon_fansite";
-                $this->connection = new PDO("pgsql:host=$servername;dbname=$database", $username, $password);
+                $dbopts = parse_url(getenv('DATABASE_URL'));
+                $servername = $dbopts["host"];
+                $username = $dbopts["user"];
+                $password = $dbopts["pass"];
+                $port = $dbopts["port"];
+                $database = ltrim($dbopts["path"],'/');
+                $this->connection = new PDO("pgsql:host=$servername;dbname=$database;port=$port", $username, $password);
             } catch (PDOException $e){
                 die("Connection failed: " . $e->getMessage());
             }
