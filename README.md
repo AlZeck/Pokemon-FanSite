@@ -8,9 +8,9 @@ Un fansite sui pokémon che permette di conoscere di più sul loro mondo e di fa
 
 ## Istruzioni per l'uso
 L'applicazione è stata creata utilizzando le tecnologie di containerizzazione per assicurare su qualsiasi macchina un corretto funzionamento.
-Perciò, per poterla girare in locale è necessaria l'installazione di "docker" e "docker-compose". Dopodichè per attivare i vari servizi basterà scrivere nell'apposita cartella da terminale in ambiente Linux il seguente comando e recarsi da un browser su "localhost":
+Perciò, per poterla girare in locale è necessaria l'installazione di "docker". Dopodichè per attivare i vari servizi basterà scrivere nell'apposita cartella da terminale in ambiente Linux il seguente comando e recarsi da un browser su "http://localhost:8081":
 ```sh
-docker-compose up
+docker compose up
 ```
 
 
