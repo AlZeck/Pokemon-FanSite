@@ -12,7 +12,7 @@ Perciò, per poterla girare in locale è necessaria l'installazione di "docker" 
 ```sh
 docker-compose up
 ```
-Alternativamente è possibile visualizzare il sito tramite internet all'indirizzo: http://www.pokemonfan.site
+
 
 ## Consigli sui browser
 L'applicazione è stata progettata con le tecnologie di Chromium in mente (in primis Google Chrome), data la sua diffusione ed importanza nel contesto attuale, perciò si consiglia l'utilizzo di tali browser per la migliore user experience.

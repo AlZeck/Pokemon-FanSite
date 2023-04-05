@@ -14,7 +14,7 @@ use Server\BattleServerInterface;
         new HttpServer(
             $wsServer
         ),
-        8085
+        8080
     );
 
     $wsServer->enableKeepAlive($server->loop,30);
